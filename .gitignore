@@ -1,0 +1,64 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.key
+*.pem
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.bak
+*.log
+*.cache
+.cache/
+tmp/
+temp/
+out/
+dist/
+build/
+coverage/
+
+# Dependency and tooling directories
+node_modules/
+.pnpm-store/
+.yarn/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Generated document artifacts
+*.pdf
+*.doc
+*.docx
+*.odt
+*.rtf
+*.html
+_site/
+
+# Local databases and exports
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Lock files are intentionally not ignored: commit them when tooling creates them.
