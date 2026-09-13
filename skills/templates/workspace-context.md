@@ -1,0 +1,51 @@
+---
+id: workspace-001-example
+title: 示例工作区
+status: active
+root_goal: GOAL-001-example-root
+canonical_scope: {governance_root}/workspaces/workspace-001-example/
+shared_materials_catalog: {governance_root}/shared-materials/
+vision_role: delivery
+plan_refs: VP-001-example-plan
+primary_plan: VP-001-example-plan
+created: 2026-07-20
+updated: 2026-08-10
+version: 0.7.0
+---
+
+# 工作区上下文 · 示例工作区
+
+> **治理根（`governance_root`，默认 `docs`）**：本模板中 `{governance_root}/…` 占位在消费仓展开为实际治理根（默认 `docs/…`）；根下内部相对布局不可改，仓外路径 fail closed。
+> 复制本模板为 `{governance_root}/workspaces/workspace-001-example/workspace.md`，再替换示例字段。`workspaces/` 只作统一父容器；工作区根直接保存 `goal-tree.md` 与平铺的 `GOAL-*` 五件套，它不替代这些文件的状态真相。旧直属 `{governance_root}/workspace-*/` 不得继续作为新写入位置。
+
+## 绑定
+
+| 字段 | 当前值 | 说明 |
+|------|--------|------|
+| 工作区 ID | `workspace-001-example` | 与所有共享资料引用的 `workspace_id` 一致。 |
+| Root Goal | `GOAL-001-example-root` | 必须存在，且其 `parent: null`。 |
+| canonical 范围 | `{governance_root}/workspaces/workspace-001-example/` | 当前工作区唯一的目标状态范围。 |
+| 共享资料目录 | `{governance_root}/shared-materials/` | 固定路径/URI，或 `none`；不在此文档保存资料内容。 |
+| 愿景角色 | `delivery` | `primary` \| `delivery`。 |
+| 规划对齐 | `plan_refs` / `primary_plan` | 指向 `{governance_root}/vision/plans/VP-*.md`；**必填**（无 opt-out）。 |
+
+## 愿景对齐
+
+完整治理下仓库**必有**唯一 [docs/vision/](../vision/) Charter。本工作区通过**必填**的 `plan_refs` 与 `primary_plan` 对齐意图（VP）；VP 再对齐 Charter。细则见 [vision/alignment.md](../vision/alignment.md) 与 P-006。  
+**不要**在本文件维护 progress% 或把愿景目录当作第二套目标树。
+
+## 固定共享资料引用
+
+> `shared-materials/index.json` 只能提供候选路径与摘要。缺 `material_id`、`source`、`version`、64 位十六进制 `sha256` 或匹配 `workspace_id` 的行无效，不能作为事实、证据或跨工作区上下文来源。
+
+| reference_id | workspace_id | material_id | source | version | sha256 | purpose | local_record | status |
+|--------------|--------------|-------------|--------|---------|--------|---------|--------------|--------|
+| `<REF-001>` | `workspace-001-example` | `<MATERIAL-001>` | `<path-or-uri>` | `<version>` | `<64-hex-sha256>` | `<why this workspace uses it>` | `none` | active |
+
+## 串行阶段说明（按需）
+
+本工作区的 MVP、后续阶段和扩展目标应写在 Root Goal 路线图中；纲领阶段通常串行，同一阶段内可由多个子目标并行承接。跨区纲领阶段写在 `docs/vision/roadmap.md` 与 `plans/VP-*.md`。只有长期目的、成功边界或战略方向实际变化时，才在决策留痕后修改 Root Goal 定义或修订 Charter。
+
+## 备注
+
+> 本模板只定义工作区上下文、愿景规划对齐字段和共享资料固定引用。资料物理存储、用户 CRUD、AI 读取执行、跨工作区导航和 Web 写入仍须在相应消费适配器的门禁内定义与验证。
