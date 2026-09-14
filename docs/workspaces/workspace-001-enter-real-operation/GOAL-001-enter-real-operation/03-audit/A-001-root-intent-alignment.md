@@ -109,3 +109,17 @@ version: 0.1.0
 ### 声明
 
 本意见为 `source: independent` 的 Goal 交叉审计，只写审计意见，不修改目标 `status`、检查点、派生 `progress`、方案正文或 `goal-tree.md` 状态。原 verdict 与 findings 不应被静默改写；响应、修正与 finding 闭合由 `/govern` 处理。独立意见不构成第三方鉴证，按 P-003 / L0 解释。
+
+## 响应（`/govern` · 2026-09-14）
+
+响应人：`/govern` 编排器。用户指令：「响应独立审计A-001」。原 `verdict: conditional` 与 Findings 原文不改写。无冲突意见；用户未选择 residual / overruled。
+
+| Finding | 闭合路径 | 说明与证据 |
+|---------|----------|------------|
+| `F-001` | **fixed** | 成功边界主语改为「方法工程已进入并能够继续真实运行」；启动条件与运行结果/收束分列。证据：[`../00-meta.md`](../00-meta.md)；[`../01-decision/D-002-respond-a-001.md`](../01-decision/D-002-respond-a-001.md)。 |
+| `F-002` | **fixed** | S1–S3 改为「建立运行基线 → 真实运行 → 收束与继承」；观察是 S2 工作中的反馈。证据：同上 `00-meta.md` 纲领路线图。 |
+| `F-003` | **fixed** | 收束标准与 S3 退出加入候选资产 `Promote` / `Retain as experimental` / `Archive` / `Discard`；登记 `I-003`（required，最晚 S3）。证据：[`../01-decision.md`](../01-decision.md) `I-003`。 |
+
+**开放 required（本条 A-001）**：0。
+
+**仍开放、但不属于本条 finding 的门禁**：`I-001`、`I-002` 阻断 S1；`I-003` 阻断 S3 / Root 关门。编排响应全文见 [`A-002-respond-a-001.md`](A-002-respond-a-001.md)（`source: self`，`type: response`）。本轮不宣称已进入真实运行，不改 `status`。

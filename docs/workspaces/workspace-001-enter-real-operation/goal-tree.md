@@ -19,12 +19,12 @@ version: 0.1.0
 GOAL-001-enter-real-operation  [active]  让方法工程进入真实运行  progress 0%
 ```
 
-当前无子目标。P-001：先完成 Root 纲领路线图与 S1 信息门禁，再按阶段立项。
+当前无子目标。P-001：先完成 Root 纲领路线图与 S1 信息门禁，再按阶段立项。S1–S3 现为：建立运行基线 → 真实运行 → 收束与继承。
 
 ## 状态表
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| GOAL-001-enter-real-operation | 让方法工程进入真实运行 | null | active | 0% | Root；S1–S3 均未开始；`I-001` / `I-002` 开放 |
+| GOAL-001-enter-real-operation | 让方法工程进入真实运行 | null | active | 0% | Root；S1–S3 均未开始；`I-001`/`I-002` 阻断 S1；`I-003` 阻断 S3；A-001 required 已 fixed |
 
 `progress` 由 Root 纲领路线图 3 个阶段检查点等权派生：已完成 0 / 总 3。仅供展示，不放行阶段、不关闭 finding、不覆盖信息门禁。
