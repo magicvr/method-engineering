@@ -15,9 +15,9 @@ version: 0.3.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：尚未创建（按本轮指令暂不启动）
-- **组合编排 / 路线图设计**：尚未开始；[`roadmap.md`](roadmap.md) 仅为空索引骨架
-- **工作区**：尚未建立；[`workspaces.md`](workspaces.md) 仅为空绑定索引
+- **VP**：[`plans/VP-001-enter-real-operation.md`](plans/VP-001-enter-real-operation.md)，`status: active`，`vision_ref: method-engineering@0.1.0`，`lead_workspace: workspace-001-enter-real-operation`
+- **组合编排**：[`roadmap.md`](roadmap.md) 已登记上述单一波次
+- **工作区**：[`workspaces.md`](workspaces.md) 绑定 `workspace-001-enter-real-operation`（`vision_role: primary`）
 
 ## 文件角色
 
@@ -26,7 +26,7 @@ version: 0.3.0
 | `alignment.md` | 愿景对齐契约与门禁（规则权威） |
 | `charter.md` | 项目唯一 active Charter；对齐链源头 |
 | `roadmap.md` | 愿景级组合编排索引，不是目标层纲领路线图 |
-| `plans/VP-*.md` | 已确认并落盘的愿景意图；本轮尚无 VP |
+| `plans/VP-*.md` | 已确认并落盘的愿景意图；现行 `VP-001-enter-real-operation` |
 | `revisions.md` | Charter `VR-NNN` 修订台账 |
 | `reviews.md` | Vision Review 稳定索引 |
 | `reviews/VRev-NNN-*.md` | 单条 self / independent Vision Review 报告 |
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-本轮停止在 Charter 层。准备继续时，先使用 `/vision` 确认并创建首个 VP；只有 VP 文件存在且 `vision_ref` 精确匹配后，再使用 `/govern` 建立明确命名的工作区并绑定 `primary_plan`。
+冷启动链已接到实现层。继续用 `/govern` 推进 `[workspace-001-enter-real-operation] GOAL-001-enter-real-operation` 的 S1（固定机制基线、选定并开始真实 Method Case）。不得宣称「方向已稳」。

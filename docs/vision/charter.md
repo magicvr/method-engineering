@@ -5,7 +5,7 @@ title: 可靠的方法工程能力
 status: active
 version: 0.1.0
 effective_date: 2026-09-14
-primary_workspace: null
+primary_workspace: workspace-001-enter-real-operation
 created: 2026-09-14
 updated: 2026-09-14
 parent: null
@@ -59,8 +59,9 @@ parent: null
 
 - 本 Charter 是本项目唯一的愿景与对齐链源头；不可使用 Goal 的 `done` 表示它已完成。
 - 后续意图落盘为 `{governance_root}/vision/plans/VP-*.md`，其 `vision_ref` 必须精确匹配 `method-engineering@0.1.0`。
+- 现行意图：[`VP-001-enter-real-operation`](plans/VP-001-enter-real-operation.md)（`status: active`）。
+- 现行 primary 工作区：`workspace-001-enter-real-operation`（Root `GOAL-001-enter-real-operation`）。
 - 工作区与 Root Goal 应通过 `plan_refs` / `primary_plan` 对齐 VP；目标状态、目标审计与 progress 不在本 Charter 中维护。
-- 本轮仅完成 Charter 冷启动；尚未创建 VP、未开始组合编排或路线图设计、未建立工作区。
 
 ## 现行版本
 

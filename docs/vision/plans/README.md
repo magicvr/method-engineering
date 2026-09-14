@@ -1,5 +1,9 @@
 # 愿景规划目录
 
-本目录预留给已确认并落盘的 `VP-NNN-<slug>.md` 意图文件。
+本目录保存已确认并落盘的 `VP-NNN-<slug>.md` 意图文件。意图权威在各 VP 文件；`roadmap.md` 只作组合编排索引与派生投影。
 
-本轮按用户指令尚未创建 VP；在首个 VP 落盘前，不得创建工作区或将规划草案用作 `primary_plan`。
+## 现行规划
+
+| id | title | status | vision_ref | lead_workspace |
+|----|-------|--------|------------|----------------|
+| [VP-001-enter-real-operation](VP-001-enter-real-operation.md) | 让方法工程进入真实运行 | active | method-engineering@0.1.0 | workspace-001-enter-real-operation |

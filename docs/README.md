@@ -2,9 +2,9 @@
 title: 文档体系说明（消费方精简入口）
 status: active
 created: 2026-07-18
-updated: 2026-08-06
+updated: 2026-09-14
 parent: null
-version: 0.13.0
+version: 0.13.1
 ---
 
 # docs/ · 文档体系（消费方）
@@ -32,7 +32,8 @@ docs/
 │   ├── README.md             # 消费方愿景说明
 │   ├── charter.md            # 冷启动后由 /vision 创建（实例）
 │   └── plans/VP-*.md         # 冷启动后创建
-└── workspace-<NNN>-<slug>/   # 工作区：goal-tree + GOAL-* 五件套
+└── workspaces/
+    └── workspace-<NNN>-<slug>/   # 工作区：goal-tree + GOAL-* 五件套
 ```
 
 **不**随 Skills 包安装：`tech-stack.md`、monorepo dogfood 目标树、`web/`、`artifacts/`。
