@@ -2,12 +2,12 @@
 doc_type: vision-plan
 id: VP-002-first-real-creative-practice
 title: 支持首个真实作品完成故事线规划大纲
-status: planned
+status: active
 vision_ref: method-engineering@0.1.0
 lead_workspace:
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.1
+version: 0.1.2
 parent: null
 ---
 
@@ -118,7 +118,7 @@ VP-002 只冻结意图和方向级边界，不预先冻结 Goal 树。
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| — | — | — | — | `planned` 阶段尚未绑定实现工作区；首个作品仓、实现工作区和 Root 将在实现层启动前确认。 |
+| workspace-002-first-real-creative-practice | GOAL-001-first-real-creative-practice | delivery | 2026-09-18 | 新建实现工作区已建立；首个真实作品、当前状态与 D1 所需边界信息登记为 Root required 信息项，尚待确认。 |
 
 ## 关门记录
 
@@ -134,3 +134,5 @@ VP-002 只冻结意图和方向级边界，不预先冻结 Goal 树。
 |------|--------|
 | 2026-09-18 | 初次落盘：将 VP-002 冻结为支持首个真实作品完成包含故事线规划的大纲；具体 Goal 由真实、已接受的方法需求动态生成。 |
 | 2026-09-18 | 响应 `VRev-003`：补充 D1 的投入限额与终点回流门，并增加本 VP 与 Charter 成功边界的对齐说明。 |
+| 2026-09-18 | 用户确认启动实现层；VP-002 激活为 `active`。首个真实作品、实现工作区与 Root 尚待 `/govern` 按已确认信息建立。 |
+| 2026-09-18 | 按用户确认建立 `workspace-002-first-real-creative-practice`（`delivery`）及 Root；真实作品仓保留为后续 required 信息项。 |

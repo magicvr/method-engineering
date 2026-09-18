@@ -4,7 +4,7 @@ status: active
 created: 2026-09-14
 updated: 2026-09-18
 parent: null
-version: 0.6.0
+version: 0.7.0
 ---
 
 # docs/vision · 项目愿景层
@@ -15,9 +15,9 @@ version: 0.6.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）；[`VP-002-first-real-creative-practice`](plans/VP-002-first-real-creative-practice.md)，`status: planned`（等待首个真实作品与实现工作区确认）
-- **组合编排 / 路线图设计**：已登记首个 VP；实现层 Root 已建立三阶段纲领路线图
-- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档；VP/Root 证据保留在其历史绑定中
+- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）；[`VP-002-first-real-creative-practice`](plans/VP-002-first-real-creative-practice.md)，`status: active`（已激活，已绑定 delivery 工作区）
+- **组合编排 / 路线图设计**：已登记 VP-001 与 VP-002；VP-001 的实现层 Root 已完成三阶段纲领路线图
+- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档；[`workspace-002-first-real-creative-practice`](../workspaces/workspace-002-first-real-creative-practice/workspace.md) 已作为 VP-002 的 `delivery` 工作区建立
 
 ## 文件角色
 
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-VP-001 已落盘并完成有界闭门；VP-002 已落盘且 `vision_ref` 精确匹配现行 Charter，当前仍为 `planned`。VP-002 的首个作品仓、实现工作区和 Root 尚未确认；后续应在实现层启动前由 `/govern` 建立对应工作区并绑定 `primary_plan`。
+VP-001 已落盘并完成有界闭门；VP-002 已激活且 `vision_ref` 精确匹配现行 Charter。VP-002 的 `delivery` 工作区与 Root 已建立；下一步由 `/govern` 处理 Root 的 I-001～I-005 信息就绪门禁，真实作品仓确认后再推进 D1。
