@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-method-engineering-runtime
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 执行记录 · GOAL-002
@@ -15,6 +15,7 @@ version: 0.1.0
 | E-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | E-001 | 2026-09-18 | 创建 S2 子目标并承接治理上下文 | recorded | `02-execution/E-001-goal-bootstrap.md` |
+| E-002 | 2026-09-18 | 完成 P1 运行责任→记录需求映射 | recorded | `02-execution/E-002-p1-responsibility-record-map.md` |
 
 ## 事实边界
 
