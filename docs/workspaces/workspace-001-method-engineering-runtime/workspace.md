@@ -11,7 +11,7 @@ primary_plan: VP-001-demand-driven-method-engineering
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 工作区上下文 · Method Engineering 最小运行机制
@@ -43,4 +43,4 @@ version: 0.1.0
 
 ## 备注
 
-本工作区已进入实现层，但 Root 仍处于路线图起点。工作区进入 `active` 不表示 VP-001 已完成，也不表示任何具体方法已被验证。
+本工作区已进入实现层；S1 已完成并已进入 S2，当前只根据已冻结的运行责任反推最小工作对象与承载边界。工作区进入 `active` 不表示 VP-001 已完成，也不表示任何具体方法已被验证。
