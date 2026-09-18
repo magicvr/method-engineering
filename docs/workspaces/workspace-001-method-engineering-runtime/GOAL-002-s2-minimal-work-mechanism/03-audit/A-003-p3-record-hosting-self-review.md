@@ -9,7 +9,7 @@ status: recorded
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # A-003 · P3 最小记录承载与 I-201 self review
@@ -34,6 +34,10 @@ version: 0.1.0
 ## 信息门禁响应
 
 I-201 的证据链为：P1 `D-002-s2-responsibility-record-map.md` → P2 `D-003-s2-object-hosting.md` → P3 `runtime-records/README.md` 与本审计。I-201 可关闭为 `verified`；Root I-002 仍需由 Root govern 记录响应后再关闭。
+
+## 后续修正
+
+本意见仅对当时的工作区级承载作出判断；用户确认仓库级消费边界后，D-004/A-004 已修正并重新核对物理路径。当前承载结论以 A-004 为准。
 
 ## Required findings
 

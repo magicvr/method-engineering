@@ -8,7 +8,7 @@ primary_plan: VP-001-demand-driven-method-engineering
 serves_summary: 将 VP-001 的意图落地为可正式运行、需求驱动且保持 IDLE 语义的最小方法工程机制。
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.3.0
+version: 0.4.0
 progress: 66%
 ---
 
@@ -47,7 +47,7 @@ progress: 66%
 | ID | 级别 | 所需信息 / 假设 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 结论 |
 |----|------|-----------------|----------|--------------|-----------------|------|-------------|-------------|
 | I-001 | required | VP-001 所要求的最小运行状态、转换、责任边界和追踪语义的具体表达方式。 | 方案冻结、S1 退出 | S1 | 基于 VP-001 退出判据形成运行模型，并用有限 walkthrough 检查内部连贯性。 | verified | 不延期；已在 S1 关门时处理。 | D-002 v0.4.0、E-003 v0.4.0、A-008 self `pass`、A-009 Grok independent `pass`、A-010 closeout；无新的 required finding。 |
-| I-002 | required | 支撑运行模型所必需的最小工作对象、记录边界、目录承载和流程文档集合。 | 实施、S2 退出 | S2 | 已由 S2 子目标完成责任→记录→对象/承载→流程说明反推，并完成落盘核对。 | verified | 不延期；已在 S2 关门时处理。 | `GOAL-002-s2-minimal-work-mechanism` 的 I-201、D-002、D-003、A-001～A-003；`runtime-records/README.md`；A-011。 |
+| I-002 | required | 支撑运行模型所必需的最小工作对象、记录边界、目录承载和流程文档集合。 | 实施、S2 退出 | S2 | 已由 S2 子目标完成责任→记录→对象/承载→流程说明反推，并在用户确认仓库边界后重新完成落盘核对。 | verified | 不延期；已由 A-011 后的 A-012 修正核对。 | `GOAL-002-s2-minimal-work-mechanism` 的 I-201、D-002、D-004、A-001～A-004；项目根 `runtime-records/README.md`；A-012。 |
 
 ## 愿景对齐
 

@@ -8,7 +8,7 @@ primary_plan: VP-001-demand-driven-method-engineering
 serves_summary: 承接 Root S2，根据已冻结的运行责任反推出最小工作对象、记录承载、目录结构和流程文档。
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.4.0
+version: 0.5.0
 progress: 100%
 ---
 
@@ -41,7 +41,7 @@ progress: 100%
 
 | ID | 级别 | 所需信息 / 问题 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 结论 |
 |----|------|-----------------|----------|--------------|-----------------|------|-------------|-------------|
-| I-201 | required | 从 D-002 已冻结的运行责任反推出哪些最小工作对象、记录边界和承载位置。 | P2 方案冻结、P3/S2 退出 | P2 | 已完成 P1 映射、P2 对象/承载方案和 P3 落盘核对。 | verified | 不延期；已由 P3 self review 关闭。 | `01-decision/D-002-s2-responsibility-record-map.md`；`01-decision/D-003-s2-object-hosting.md`；`runtime-records/README.md`；`03-audit/A-003-p3-record-hosting-self-review.md`。 |
+| I-201 | required | 从 D-002 已冻结的运行责任反推出哪些最小工作对象、记录边界和承载位置。 | P2 方案冻结、P3/S2 退出 | P2 | 已完成 P1 映射、P2 对象/承载方案、P3 落盘和仓库级路径修正核对。 | verified | 不延期；已由 A-003/A-004 self review 关闭并修正路径。 | `01-decision/D-002-s2-responsibility-record-map.md`；`01-decision/D-004-s2-repository-hosting-correction.md`；`../../../../runtime-records/README.md`；`03-audit/A-004-repository-hosting-correction-self-review.md`。 |
 
 ## 父目标与 S2 上下文
 

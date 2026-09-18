@@ -9,7 +9,7 @@ status: recorded
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # A-011 · Root S2 最小工作机制关门 self review
@@ -43,3 +43,7 @@ version: 0.1.0
 ## Required findings
 
 无。
+
+## 后续修正
+
+本意见核对的是首次 S2 关门时的工作区级承载。用户确认消费仓实体边界后，D-004 supersede 了该物理路径决定；A-012 已重新核对项目根承载，当前 I-002 结论以 A-012 为准。

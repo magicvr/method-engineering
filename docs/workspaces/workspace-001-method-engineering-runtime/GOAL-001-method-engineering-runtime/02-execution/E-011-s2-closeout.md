@@ -6,7 +6,7 @@ status: recorded
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # E-011 · S2 落盘最小工作机制并完成 Root 回传
@@ -23,6 +23,10 @@ version: 0.1.0
 ## 事实边界
 
 本条只记录 S2 机制落盘与 Root 信息回传，不表示 S3 walkthrough、真实 Method Case、具体领域方法有效性或 VP-001 已完成。
+
+## 后续修正
+
+本条记录的是首次 S2 关门时的工作区级承载事实。用户随后确认消费仓实体边界为整个仓库，E-012/A-012 已修正并重新核对当前承载；本条不再单独作为当前路径依据。
 
 ## Checkpoint
 
