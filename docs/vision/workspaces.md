@@ -4,7 +4,7 @@ title: 愿景工作区贡献图
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.3.0
+version: 0.4.0
 parent: null
 ---
 
@@ -17,7 +17,7 @@ parent: null
 
 | workspace_id | root_goal | role | plan_refs | primary_plan | status | notes |
 |--------------|-----------|------|-----------|--------------|--------|-------|
-| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | primary | `VP-001-demand-driven-method-engineering` | `VP-001-demand-driven-method-engineering` | active | VP-001 的首个实现工作区；当前按 Root 的 S1–S3 路线图推进。 |
+| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | primary | `VP-001-demand-driven-method-engineering` | `VP-001-demand-driven-method-engineering` | active | VP-001 的首个实现工作区；Root 已完成 S1–S3 与整体 close-out；工作区继续作为 active 治理绑定上下文。 |
 
 ## 约束
 

@@ -1,14 +1,14 @@
 ---
 id: GOAL-001-method-engineering-runtime
 title: 落地需求驱动的方法工程最小运行机制
-status: active
+status: done
 parent: null
 plan_refs: VP-001-demand-driven-method-engineering
 primary_plan: VP-001-demand-driven-method-engineering
 serves_summary: 将 VP-001 的意图落地为可正式运行、需求驱动且保持 IDLE 语义的最小方法工程机制。
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.6.0
+version: 0.7.0
 progress: 100%
 ---
 
@@ -40,7 +40,11 @@ progress: 100%
 
 ## 派生进度展示
 
-`progress: 100%` 由上方 3 个纲领阶段等权计算（已完成 3 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁，也不自动推导 `done`。本轮完成 S3 阶段证据与 Root I-003 回传；Root `status` 仍保持 `active`，不在本轮静默执行独立的 Root 整体 close-out。
+`progress: 100%` 由上方 3 个纲领阶段等权计算（已完成 3 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁。Root 整体闭门已按 D-004 / E-015 / A-014 完成，`status` 现为 `done`；状态变更依据闭门条件与证据，不由 progress 单独推导。
+
+## Root 整体闭门
+
+2026-09-18，Root 完成整体闭门核对：5 项成功标准均满足，I-001/I-002/I-003 均为 `verified`，相关 required finding 为 0，且阶段与闭门审计证据齐备。Root 关闭仅表示当前实现层目标完成；VP-001、Charter 和工作区绑定继续保持各自的 `active` 语义。详见 `01-decision/D-004-root-closeout.md`、`02-execution/E-015-root-closeout.md` 与 `03-audit/A-014-root-closeout-self.md`。
 
 ## 信息就绪与未知项
 

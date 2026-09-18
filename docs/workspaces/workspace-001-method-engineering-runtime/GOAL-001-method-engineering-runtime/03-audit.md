@@ -1,16 +1,16 @@
 ---
 id: GOAL-001-method-engineering-runtime
 doc: audit
-status: active
+status: done
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.6.0
+version: 0.7.0
 ---
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引。S1 已有 self（A-001、A-003、A-005、A-007、A-008）与 independent（A-002、A-004、A-006、A-009）意见；S2 由 A-011/A-012 核对；S3 由 GOAL-003 的 A-001～A-005 与本 Root A-013 完成阶段审视和回传。A-009 是指定 Grok provider 对 D-002 v0.4.0 / E-003 v0.4.0 / A-008 的最终 S1 independent review，`pass`，无新的 required；A-010 记录 govern 关门响应。I-001/I-002/I-003 均已 verified；Root S1/S2/S3 阶段证据齐备。VP-001 仍保持 `active`，不因 Root 阶段完成而自动关门。
+本文件是 Root 的审计索引。S1 已有 self（A-001、A-003、A-005、A-007、A-008）与 independent（A-002、A-004、A-006、A-009）意见；S2 由 A-011/A-012 核对；S3 由 GOAL-003 的 A-001～A-005 与本 Root A-013 完成阶段审视和回传；Root 整体闭门由本 Root A-014 完成。A-009 是指定 Grok provider 对 D-002 v0.4.0 / E-003 v0.4.0 / A-008 的最终 S1 independent review，`pass`，无新的 required；A-010 记录 govern 关门响应。I-001/I-002/I-003 均已 verified；Root S1/S2/S3 阶段证据和整体闭门证据齐备。VP-001 仍保持 `active`，不因 Root 关闭而自动关门。
 
 ## 信息就绪核对
 
@@ -39,7 +39,8 @@ version: 0.6.0
 | A-011 | 2026-09-18 | self | Root S2 最小工作机制、I-002 关门与子目标回传 | pass | 0 | `03-audit/A-011-s2-closeout.md` |
 | A-012 | 2026-09-18 | self | Root S2 仓库级运行记录承载修正与 I-002 重新核对 | pass | 0 | `03-audit/A-012-s2-repository-hosting-correction.md` |
 | A-013 | 2026-09-18 | self | Root S3 阶段退出、I-003 回传与 VP-001 退出判据 7/8 对照 | pass | 0 | `03-audit/A-013-s3-root-closeout-self.md` |
+| A-014 | 2026-09-18 | self | Root 整体闭门条件、信息门禁、审计意见与愿景对齐 | pass | 0 | `03-audit/A-014-root-closeout-self.md` |
 
 ## 结论状态
 
-Root 仍为 `active`，S1/S2/S3 已完成，progress 已达 100%；本轮只完成 S3 阶段和 Root I-003 回传，不静默执行 Root 整体 close-out。A-001/A-003/A-005/A-006/A-007/A-008/A-009/A-010/A-011/A-012/A-013 `pass` 与历史 A-002/A-004 原文 `conditional` 不构成 P-004.2 的 pass/fail 冲突；GOAL-003 A-004 已对 A-002 F-001/F-002/F-003 作 finding-closure，F-004 已由 Root 回传收尾。无开放 required finding，VP-001 仍为 `active`。独立意见不直接改 `status` / `progress`。
+Root 已按 D-004 / E-015 / A-014 完成整体闭门，状态为 `done`，progress 保持 100%。A-001/A-003/A-005/A-006/A-007/A-008/A-009/A-010/A-011/A-012/A-013/A-014 `pass` 与历史 A-002/A-004 原文 `conditional` 不构成 P-004.2 的 pass/fail 冲突；GOAL-003 A-004 已对 A-002 F-001/F-002/F-003 作 finding-closure，F-004 已由 Root 回传收尾。无开放 required finding，I-001/I-002/I-003 均为 `verified`。VP-001 与 Charter 仍保持各自的 `active` 语义；独立意见不直接改 `status` / `progress`，本次 `done` 由 Root 的闭门决策 D-004 执行。

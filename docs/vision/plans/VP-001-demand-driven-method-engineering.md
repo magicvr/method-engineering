@@ -7,7 +7,7 @@ vision_ref: method-engineering@0.1.0
 lead_workspace: workspace-001-method-engineering-runtime
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.2
+version: 0.1.3
 parent: null
 ---
 
@@ -90,7 +90,7 @@ VP-001 的完成或将其标为 `closed`，只证明需求驱动的方法工程�
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | `primary` | 2026-09-18 | VP-001 的首个实现工作区；当前 Root 为 `active`，按 Root 内 S1–S3 路线图推进。 |
+| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | `primary` | 2026-09-18 | VP-001 的首个实现工作区；Root 已完成 S1–S3 与整体 close-out；VP-001 仍按愿景层规则保持 `active`。 |
 
 ## 关门记录
 

@@ -1,11 +1,11 @@
 ---
 id: GOAL-001-method-engineering-runtime
 doc: execution
-status: active
+status: done
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.5.0
+version: 0.6.0
 ---
 
 # 执行记录 · GOAL-001
@@ -28,6 +28,7 @@ version: 0.5.0
 | E-012 | 2026-09-18 | 重新核对 S2 仓库级运行记录承载 | recorded | `02-execution/E-012-s2-repository-hosting-correction.md` |
 | E-013 | 2026-09-18 | 启动 S3 机制 walkthrough 与交接子目标 | recorded | `../GOAL-003-s3-mechanism-walkthrough-handoff/02-execution/E-001-s3-goal-bootstrap.md` |
 | E-014 | 2026-09-18 | S3 机制证据回传 Root | recorded | `02-execution/E-014-s3-root-handoff.md` |
+| E-015 | 2026-09-18 | Root 整体闭门执行 | recorded | `02-execution/E-015-root-closeout.md` |
 
 ## 事实边界
 

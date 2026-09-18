@@ -1,11 +1,11 @@
 ---
 id: GOAL-001-method-engineering-runtime
 doc: decision
-status: active
+status: done
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.5.0
+version: 0.6.0
 ---
 
 # 决策记录 · GOAL-001
@@ -22,6 +22,10 @@ Root 采用 `S1 冻结运行模型 → S2 落盘最小工作机制 → S3 机制
 | S2 | `01-decision/D-003-s2-minimal-work-mechanism.md`；`GOAL-002-s2-minimal-work-mechanism` | 已根据 S1 运行责任反推最小对象、记录边界、项目级承载和流程文档。 |
 | S3 | `GOAL-003-s3-mechanism-walkthrough-handoff`；其 `01-decision/D-001-s3-walkthrough-boundary.md` | 用虚构 trace 验证机制自身的完整路径与交接，不创建真实运行记录；I-003 在 S3 退出前关闭。 |
 
+## Root 整体闭门
+
+Root 已按 `D-004-root-closeout.md` 完成整体闭门；关闭范围是当前实现层目标，不延伸为 VP-001 或 Charter 关闭。
+
 ## 信息需求与阶段门禁
 
 | ID | 级别 | 所需信息 / 假设 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 决策 |
@@ -37,3 +41,4 @@ Root 采用 `S1 冻结运行模型 → S2 落盘最小工作机制 → S3 机制
 | D-001 | 2026-09-18 | 工作区启动边界与 Root 路线图 | accepted | `01-decision/D-001-bootstrap-scope.md` |
 | D-002 | 2026-09-18 | S1 需求—响应运行模型与交叉审计路径 | accepted | `01-decision/D-002-runtime-model.md` |
 | D-003 | 2026-09-18 | S2 启动与最小工作机制反推边界 | accepted | `01-decision/D-003-s2-minimal-work-mechanism.md` |
+| D-004 | 2026-09-18 | Root 整体闭门 | accepted | `01-decision/D-004-root-closeout.md` |
