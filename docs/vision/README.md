@@ -4,7 +4,7 @@ status: active
 created: 2026-09-14
 updated: 2026-09-18
 parent: null
-version: 0.4.0
+version: 0.5.0
 ---
 
 # docs/vision · 项目愿景层
@@ -16,8 +16,8 @@ version: 0.4.0
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
 - **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: active`
-- **组合编排 / 路线图设计**：已登记首个 VP；尚未开始实现层路线图设计
-- **工作区**：尚未建立；[`workspaces.md`](workspaces.md) 仅为空绑定索引
+- **组合编排 / 路线图设计**：已登记首个 VP；实现层 Root 已建立三阶段纲领路线图
+- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已建立并绑定 Root
 
 ## 文件角色
 
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-VP-001 已落盘且 `vision_ref` 精确匹配现行 Charter。准备进入实现层时，再使用 `/govern` 建立明确命名的工作区并绑定 `primary_plan`；本轮尚未创建工作区或 Goal。
+VP-001 已落盘且 `vision_ref` 精确匹配现行 Charter。`/govern` 已建立明确命名的工作区并绑定 `primary_plan`；后续实现层工作应在该区 Root 内按 S1–S3 路线图推进。

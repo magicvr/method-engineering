@@ -4,20 +4,20 @@ title: 愿景工作区贡献图
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.2.0
+version: 0.3.0
 parent: null
 ---
 
 # 愿景工作区贡献图
 
 > 本文件是愿景层的工作区绑定索引，不是工作区本身，也不保存 Goal 状态或 progress。
-> 当前尚未建立任何工作区；VP-001 已激活，`/govern` 工作区启动尚待确认工作区与 Root 命名。
+> VP-001 已激活并绑定首个实现工作区；Root 状态和进度以工作区内目标记录为准。
 
 ## 工作区索引
 
 | workspace_id | root_goal | role | plan_refs | primary_plan | status | notes |
 |--------------|-----------|------|-----------|--------------|--------|-------|
-| — | — | — | — | — | 尚未建立 | VP-001 已激活；待 `/govern` 确认命名后建立并绑定。 |
+| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | primary | `VP-001-demand-driven-method-engineering` | `VP-001-demand-driven-method-engineering` | active | VP-001 的首个实现工作区；当前按 Root 的 S1–S3 路线图推进。 |
 
 ## 约束
 

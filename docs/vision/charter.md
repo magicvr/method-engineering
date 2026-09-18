@@ -5,7 +5,7 @@ title: 可靠的方法工程能力
 status: active
 version: 0.1.0
 effective_date: 2026-09-14
-primary_workspace: null
+primary_workspace: workspace-001-method-engineering-runtime
 created: 2026-09-14
 updated: 2026-09-18
 parent: null
@@ -60,7 +60,7 @@ parent: null
 - 本 Charter 是本项目唯一的愿景与对齐链源头；不可使用 Goal 的 `done` 表示它已完成。
 - 后续意图落盘为 `{governance_root}/vision/plans/VP-*.md`，其 `vision_ref` 必须精确匹配 `method-engineering@0.1.0`。
 - 工作区与 Root Goal 应通过 `plan_refs` / `primary_plan` 对齐 VP；目标状态、目标审计与 progress 不在本 Charter 中维护。
-- Charter 冷启动已完成；首个 VP [`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md) 已落盘并进入 `active` 状态；尚未建立工作区或完成实现层启动。
+- Charter 冷启动已完成；首个 VP [`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md) 已落盘并进入 `active` 状态；首个实现工作区 [`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 与 Root [`GOAL-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/GOAL-001-method-engineering-runtime/00-meta.md) 已建立并绑定。
 
 ## 现行版本
 

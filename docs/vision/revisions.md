@@ -4,7 +4,7 @@ title: Charter 修订台账
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.2.0
+version: 0.3.0
 parent: null
 ---
 
@@ -24,6 +24,7 @@ parent: null
 | id | date | class | summary | impact | status |
 |----|------|-------|---------|--------|--------|
 | VR-001 | 2026-09-18 | editorial | 更新 Charter 中 VP/工作区当前状态，并登记已落盘的 VP-001；未改变目的、边界或非目标。 | Charter 状态说明 | applied |
+| VR-002 | 2026-09-18 | editorial | 登记 VP-001 的首个 `primary` 工作区与 Root 已建立并绑定；未改变 Charter 目的、边界或非目标。 | 工作区绑定元数据 | applied |
 
 ## 使用说明
 

@@ -4,10 +4,10 @@ id: VP-001-demand-driven-method-engineering
 title: 建立需求驱动的方法工程最小运行机制
 status: active
 vision_ref: method-engineering@0.1.0
-lead_workspace:
+lead_workspace: workspace-001-method-engineering-runtime
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.1
+version: 0.1.2
 parent: null
 ---
 
@@ -90,7 +90,7 @@ VP-001 的完成或将其标为 `closed`，只证明需求驱动的方法工程�
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| — | — | — | — | `planned` 状态允许暂不绑定工作区；实现启动后再由 `/govern` 建立并绑定。 |
+| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | `primary` | 2026-09-18 | VP-001 的首个实现工作区；当前 Root 为 `active`，按 Root 内 S1–S3 路线图推进。 |
 
 ## 关门记录
 
@@ -106,3 +106,4 @@ VP-001 的完成或将其标为 `closed`，只证明需求驱动的方法工程�
 |--------|--------|
 | 2026-09-18 | 根据用户确认，冻结为建立需求驱动的方法工程最小正式运行机制；不要求首个真实 Method Case，不预先设计完整方法或证据模型。 |
 | 2026-09-18 | 响应 VRev-002 的 V-F-001 与 V-F-002：明确 VP 关门不等于 Charter 成功边界满足，并澄清 Non-goal 不禁止未来机制选择新建响应；按用户指令激活 VP。 |
+| 2026-09-18 | 按用户确认建立并绑定 `workspace-001-method-engineering-runtime` 与 `GOAL-001-method-engineering-runtime`，作为 VP-001 的 `primary` 实现工作区。 |
