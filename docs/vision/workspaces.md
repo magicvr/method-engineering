@@ -3,21 +3,21 @@ doc_type: vision-workspaces
 title: 愿景工作区贡献图
 status: active
 created: 2026-09-14
-updated: 2026-09-14
-version: 0.1.0
+updated: 2026-09-18
+version: 0.2.0
 parent: null
 ---
 
 # 愿景工作区贡献图
 
 > 本文件是愿景层的工作区绑定索引，不是工作区本身，也不保存 Goal 状态或 progress。
-> 按本轮指令，当前尚未建立任何工作区。
+> 当前尚未建立任何工作区；VP-001 已激活，`/govern` 工作区启动尚待确认工作区与 Root 命名。
 
 ## 工作区索引
 
 | workspace_id | root_goal | role | plan_refs | primary_plan | status | notes |
 |--------------|-----------|------|-----------|--------------|--------|-------|
-| — | — | — | — | — | 尚未建立 | 待首个 VP 落盘且用户明确启动实现层后，由 `/govern` 建立并绑定。 |
+| — | — | — | — | — | 尚未建立 | VP-001 已激活；待 `/govern` 确认命名后建立并绑定。 |
 
 ## 约束
 

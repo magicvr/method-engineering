@@ -3,15 +3,15 @@ doc_type: vision-consumer-checklist
 title: 愿景体系完整安装核对表
 status: active
 created: 2026-09-14
-updated: 2026-09-14
-version: 0.1.0
+updated: 2026-09-18
+version: 0.2.0
 parent: null
 ---
 
 # 愿景体系完整安装核对表
 
 > 本表只把 [`alignment.md` §0.2 Minimal Complete Install 的 MUST 表](alignment.md#02-完整安装与冷启动)逐项投影为核对项，不新增或放宽规则。
-> 当前仍处于 Charter 冷启动阶段；本表不宣称完整独立启用已通过。
+> Charter 与首个 VP 已落盘；工作区和 Root 尚未建立，本表仍不宣称完整独立启用已通过。
 
 | # | MUST 项 | 路径 / 条件 | 当前状态 | 说明 |
 |---|---------|-------------|----------|------|
@@ -26,15 +26,15 @@ parent: null
 | 9 | 愿景规则 | `docs/vision/alignment.md` | 已具备 | 对齐契约存在。 |
 | 10 | 愿景入口 | `docs/vision/README.md` | 已具备 | 愿景目录说明已更新。 |
 | 11 | 现行愿景 | `docs/vision/charter.md` 为 `status: active` | 已具备 | `method-engineering@0.1.0`。 |
-| 12 | 愿景树 | `docs/vision/roadmap.md` | 已具备 | 仅保留空组合编排索引，未开始路线图设计。 |
+| 12 | 愿景树 | `docs/vision/roadmap.md` | 已具备 | 已登记 VP-001；尚未开始实现层路线图设计。 |
 | 13 | 修订台账 | `docs/vision/revisions.md` | 已具备 | Charter 修订台账已建立。 |
 | 14 | Review 索引 | `docs/vision/reviews.md` | 已具备 | 已登记 `VRev-001-charter-init`。 |
 | 15 | 工作区索引 | `docs/vision/workspaces.md` | 已具备 | 当前为空索引。 |
 | 16 | 本核对表 | `docs/vision/consumer-checklist.md` | 已具备 | 与 alignment §0.2 对应。 |
-| 17 | 首个 VP（开区前） | 至少一个 `plans/VP-*.md`，`vision_ref` 精确匹配 | 按阶段待具备 | 本轮按用户指令不创建 VP。 |
+| 17 | 首个 VP（开区前） | 至少一个 `plans/VP-*.md`，`vision_ref` 精确匹配 | 已具备 | `VP-001-demand-driven-method-engineering`，`method-engineering@0.1.0`，当前 `active`。 |
 | 18 | 显式工作区（开区后） | `workspaces/workspace-<NNN>-<slug>/workspace.md` | 按阶段待具备 | 本轮按用户指令不建立工作区。 |
 | 19 | 目标树与 Root（开区后） | 工作区 `goal-tree.md` + Root 五件套 | 按阶段待具备 | 本轮不进入实现层。 |
 
 ## 当前结论
 
-当前已完成 Charter 层的冷启动写入与自审，但由于用户明确要求暂不创建 VP、路线图设计或工作区，项目仍处于冷启动中间态；后续不得把本状态表述为完整治理安装或已进入交付推进。
+当前已完成 Charter 与首个 VP 的冷启动写入；由于尚未建立工作区和 Root，项目仍未进入实现层，也不得把本状态表述为完整独立启用或已进入交付推进。

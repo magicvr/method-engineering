@@ -3,8 +3,8 @@ doc_type: vision-revisions
 title: Charter 修订台账
 status: active
 created: 2026-09-14
-updated: 2026-09-14
-version: 0.1.0
+updated: 2026-09-18
+version: 0.2.0
 parent: null
 ---
 
@@ -23,7 +23,7 @@ parent: null
 
 | id | date | class | summary | impact | status |
 |----|------|-------|---------|--------|--------|
-| — | — | — | 当前暂无 Charter 修订 | — | — |
+| VR-001 | 2026-09-18 | editorial | 更新 Charter 中 VP/工作区当前状态，并登记已落盘的 VP-001；未改变目的、边界或非目标。 | Charter 状态说明 | applied |
 
 ## 使用说明
 

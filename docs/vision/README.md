@@ -2,9 +2,9 @@
 title: 项目愿景层说明
 status: active
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-18
 parent: null
-version: 0.3.0
+version: 0.4.0
 ---
 
 # docs/vision · 项目愿景层
@@ -15,8 +15,8 @@ version: 0.3.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：尚未创建（按本轮指令暂不启动）
-- **组合编排 / 路线图设计**：尚未开始；[`roadmap.md`](roadmap.md) 仅为空索引骨架
+- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: active`
+- **组合编排 / 路线图设计**：已登记首个 VP；尚未开始实现层路线图设计
 - **工作区**：尚未建立；[`workspaces.md`](workspaces.md) 仅为空绑定索引
 
 ## 文件角色
@@ -26,7 +26,7 @@ version: 0.3.0
 | `alignment.md` | 愿景对齐契约与门禁（规则权威） |
 | `charter.md` | 项目唯一 active Charter；对齐链源头 |
 | `roadmap.md` | 愿景级组合编排索引，不是目标层纲领路线图 |
-| `plans/VP-*.md` | 已确认并落盘的愿景意图；本轮尚无 VP |
+| `plans/VP-*.md` | 已确认并落盘的愿景意图；当前为 VP-001 |
 | `revisions.md` | Charter `VR-NNN` 修订台账 |
 | `reviews.md` | Vision Review 稳定索引 |
 | `reviews/VRev-NNN-*.md` | 单条 self / independent Vision Review 报告 |
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-本轮停止在 Charter 层。准备继续时，先使用 `/vision` 确认并创建首个 VP；只有 VP 文件存在且 `vision_ref` 精确匹配后，再使用 `/govern` 建立明确命名的工作区并绑定 `primary_plan`。
+VP-001 已落盘且 `vision_ref` 精确匹配现行 Charter。准备进入实现层时，再使用 `/govern` 建立明确命名的工作区并绑定 `primary_plan`；本轮尚未创建工作区或 Goal。
