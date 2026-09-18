@@ -1,7 +1,7 @@
 ---
 id: workspace-001-method-engineering-runtime
 title: Method Engineering 最小运行机制工作区
-status: active
+status: archived
 root_goal: GOAL-001-method-engineering-runtime
 canonical_scope: docs/workspaces/workspace-001-method-engineering-runtime/
 shared_materials_catalog: none
@@ -11,7 +11,7 @@ primary_plan: VP-001-demand-driven-method-engineering
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.5.0
+version: 0.6.0
 ---
 
 # 工作区上下文 · Method Engineering 最小运行机制
@@ -43,4 +43,4 @@ version: 0.5.0
 
 ## 备注
 
-本工作区已进入实现层；S1/S2/S3 与 Root 整体 close-out 均已完成，当前工作区只保存治理与交互规则的目标上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；工作区保持 `active` 只表示其仍是 VP-001 的绑定治理上下文，不表示 VP-001 已完成，也不表示任何具体方法已被验证。Root 已为 `done`；VP-001 仍按愿景层规则保持 `active`。
+本工作区已完成其建立交互规则的职责；S1/S2/S3、Root 整体 close-out 与 VP-001 有界 close-out 均已完成，当前工作区只保存治理与交互规则的历史上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；workspace-001 现为 `archived`，不接收新工作。Root 与 VP-001 的完成不表示 Charter 方向级成功边界或任何具体方法已被验证。

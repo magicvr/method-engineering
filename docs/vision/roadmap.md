@@ -4,7 +4,7 @@ title: 愿景规划索引
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.3.0
+version: 0.4.0
 parent: null
 ---
 
@@ -17,7 +17,7 @@ parent: null
 
 | id | title | status（派生投影） | vision_ref | lead_workspace | detail |
 |----|-------|--------------------|------------|----------------|--------|
-| [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | active | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；已激活并绑定实现工作区，Root 按 S1–S3 路线图推进 |
+| [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | closed | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；8 项退出判据已由 Root/工作区证据满足，VP 已完成有界闭门；工作区保留历史绑定 |
 
 ## 波次关系
 

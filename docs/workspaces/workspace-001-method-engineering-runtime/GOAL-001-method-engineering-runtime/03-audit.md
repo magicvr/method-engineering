@@ -10,7 +10,7 @@ version: 0.7.0
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引。S1 已有 self（A-001、A-003、A-005、A-007、A-008）与 independent（A-002、A-004、A-006、A-009）意见；S2 由 A-011/A-012 核对；S3 由 GOAL-003 的 A-001～A-005 与本 Root A-013 完成阶段审视和回传；Root 整体闭门由本 Root A-014 完成。A-009 是指定 Grok provider 对 D-002 v0.4.0 / E-003 v0.4.0 / A-008 的最终 S1 independent review，`pass`，无新的 required；A-010 记录 govern 关门响应。I-001/I-002/I-003 均已 verified；Root S1/S2/S3 阶段证据和整体闭门证据齐备。VP-001 仍保持 `active`，不因 Root 关闭而自动关门。
+本文件是 Root 的审计索引。S1 已有 self（A-001、A-003、A-005、A-007、A-008）与 independent（A-002、A-004、A-006、A-009）意见；S2 由 A-011/A-012 核对；S3 由 GOAL-003 的 A-001～A-005 与本 Root A-013 完成阶段审视和回传；Root 整体闭门由本 Root A-014 完成。A-009 是指定 Grok provider 对 D-002 v0.4.0 / E-003 v0.4.0 / A-008 的最终 S1 independent review，`pass`，无新的 required；A-010 记录 govern 关门响应。I-001/I-002/I-003 均已 verified；Root S1/S2/S3 阶段证据和整体闭门证据齐备。Root 关闭时 VP-001 仍是独立的愿景层门禁；其后 VP-001 已完成有界 `closed`，workspace-001 已归档。
 
 ## 信息就绪核对
 
@@ -43,4 +43,4 @@ version: 0.7.0
 
 ## 结论状态
 
-Root 已按 D-004 / E-015 / A-014 完成整体闭门，状态为 `done`，progress 保持 100%。A-001/A-003/A-005/A-006/A-007/A-008/A-009/A-010/A-011/A-012/A-013/A-014 `pass` 与历史 A-002/A-004 原文 `conditional` 不构成 P-004.2 的 pass/fail 冲突；GOAL-003 A-004 已对 A-002 F-001/F-002/F-003 作 finding-closure，F-004 已由 Root 回传收尾。无开放 required finding，I-001/I-002/I-003 均为 `verified`。VP-001 与 Charter 仍保持各自的 `active` 语义；独立意见不直接改 `status` / `progress`，本次 `done` 由 Root 的闭门决策 D-004 执行。
+Root 已按 D-004 / E-015 / A-014 完成整体闭门，状态为 `done`，progress 保持 100%。A-001/A-003/A-005/A-006/A-007/A-008/A-009/A-010/A-011/A-012/A-013/A-014 `pass` 与历史 A-002/A-004 原文 `conditional` 不构成 P-004.2 的 pass/fail 冲突；GOAL-003 A-004 已对 A-002 F-001/F-002/F-003 作 finding-closure，F-004 已由 Root 回传收尾。无开放 required finding，I-001/I-002/I-003 均为 `verified`。VP-001 已在 Root 之后按愿景层关门流程完成有界 `closed`，Charter 仍为 `active`，workspace-001 已归档。独立意见不直接改 `status` / `progress`，Root `done` 由 D-004 执行，VP `closed` 由 VP 自身关门记录执行。

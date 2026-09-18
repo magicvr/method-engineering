@@ -44,7 +44,7 @@ progress: 100%
 
 ## Root 整体闭门
 
-2026-09-18，Root 完成整体闭门核对：5 项成功标准均满足，I-001/I-002/I-003 均为 `verified`，相关 required finding 为 0，且阶段与闭门审计证据齐备。Root 关闭仅表示当前实现层目标完成；VP-001、Charter 和工作区绑定继续保持各自的 `active` 语义。详见 `01-decision/D-004-root-closeout.md`、`02-execution/E-015-root-closeout.md` 与 `03-audit/A-014-root-closeout-self.md`。
+2026-09-18，Root 完成整体闭门核对：5 项成功标准均满足，I-001/I-002/I-003 均为 `verified`，相关 required finding 为 0，且阶段与闭门审计证据齐备。Root 关闭本身不自动关闭 VP；随后 VP-001 已按愿景层规则完成有界 `closed`，workspace-001 已归档，Charter 仍保持 `active`。详见 `01-decision/D-004-root-closeout.md`、`02-execution/E-015-root-closeout.md` 与 `03-audit/A-014-root-closeout-self.md`。
 
 ## 信息就绪与未知项
 

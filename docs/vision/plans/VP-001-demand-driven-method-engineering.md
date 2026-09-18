@@ -2,12 +2,12 @@
 doc_type: vision-plan
 id: VP-001-demand-driven-method-engineering
 title: 建立需求驱动的方法工程最小运行机制
-status: active
+status: closed
 vision_ref: method-engineering@0.1.0
 lead_workspace: workspace-001-method-engineering-runtime
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.3
+version: 0.1.4
 parent: null
 ---
 
@@ -90,7 +90,24 @@ VP-001 的完成或将其标为 `closed`，只证明需求驱动的方法工程�
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | `primary` | 2026-09-18 | VP-001 的首个实现工作区；Root 已完成 S1–S3 与整体 close-out；VP-001 仍按愿景层规则保持 `active`。 |
+| `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | `primary` | 2026-09-18 | VP-001 的首个实现工作区；Root 已完成 S1–S3 与整体 close-out；workspace-001 已归档，保留为历史绑定。 |
+
+## 关门核对（2026-09-18）
+
+本次 `/vision` self closeout 核对结果为 `pass`。VP-001 的 8 项方向级退出判据均有可追踪的实现层证据；本核对不把 bounded walkthrough 写成真实 Method Case，也不把“能够接收真实下游信号”写成真实需求已经发生。
+
+| 退出判据 | 结论 | 工作区 / Root 证据 |
+|---------|------|-------------------|
+| 1. IDLE 与禁止从 IDLE 自行授权方法构建 | 满足 | S1 D-002、E-003；Root I-001 / A-009 |
+| 2. 能接收并界定下游方法需求信号 | 满足能力边界；未声称真实需求已发生 | S3 E-002 虚构机制 trace；VP Non-goal 明确不要求首个真实 Method Case |
+| 3. 选择最小响应，包括复用、裁剪、组合、修改、新建或无需变更 | 满足 | S1 D-002；S3 E-002/E-003 |
+| 4. 需求进入至退出的责任、交接和追踪连贯 | 满足 | S1 D-002/E-003；A-008 self、A-009 independent |
+| 5. 区分方法声明、假设、适用条件和已验证结论 | 满足最低承载要求 | S3 E-002/E-003；S2 最小记录承载 |
+| 6. 反馈可区分对象、方法和运行机制问题 | 满足 | S1 D-002；S3 E-002/E-003 |
+| 7. bounded walkthrough 验证机制内部连贯性 | 满足 | S3 E-002/E-003；S3 A-004 finding-closure |
+| 8. 仓库结构与流程文档保持最小充分 | 满足 | S2 D-002/D-004、项目根 `runtime-records/README.md`、Root A-012 |
+
+相关愿景门禁同时满足：Charter `method-engineering@0.1.0` 唯一且 active；`vision_ref` 精确匹配；单一 lead 工作区证据已完成；`VRev-002` 为 independent `pass`；开放 Vision Review required 为 0；无 strategic re-align 债务。
 
 ## 关门记录
 
@@ -98,7 +115,7 @@ VP-001 的完成或将其标为 `closed`，只证明需求驱动的方法工程�
 
 | date | outcome | summary | evidence_links | residuals |
 |------|---------|---------|----------------|-----------|
-| — | — | — | — | — |
+| 2026-09-18 | closed | 8 项方向级退出判据均满足；Root `GOAL-001-method-engineering-runtime` 已 `done`；workspace-001 已按既定边界归档。 | Root `00-meta.md`、`03-audit/A-014-root-closeout-self.md`、workspace `goal-tree.md`、S3 E-002/E-003、VRev-002 | 无 VP 级 residual；真实 Method Case 未发生属于 VP Non-goal，不构成 VP 关门阻断；Charter 方向级要求继续生效。 |
 
 ## 规划修订短史
 

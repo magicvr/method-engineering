@@ -4,7 +4,7 @@ status: active
 created: 2026-09-14
 updated: 2026-09-18
 parent: null
-version: 0.5.0
+version: 0.6.0
 ---
 
 # docs/vision · 项目愿景层
@@ -15,9 +15,9 @@ version: 0.5.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: active`
+- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）
 - **组合编排 / 路线图设计**：已登记首个 VP；实现层 Root 已建立三阶段纲领路线图
-- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已建立并绑定 Root
+- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档；VP/Root 证据保留在其历史绑定中
 
 ## 文件角色
 

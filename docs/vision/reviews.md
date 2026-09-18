@@ -4,7 +4,7 @@ title: 愿景审视台账（Vision Review）
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.4.0
+version: 0.5.0
 parent: null
 ---
 
@@ -26,7 +26,7 @@ parent: null
 
 - `open required`: **0**
 - 最近条目：[`VRev-002-vp-001-independent`](reviews/VRev-002-vp-001-independent.md)
-- 当前审视范围：VP-001 独立审视（已响应 2 条 recommended，当前 `active`，已绑定 1 个工作区）；不代表实现层已完成、方向已稳或 VP 可关门。
+- 当前审视范围：VP-001 独立审视（2 条 recommended 已 fixed，VP-001 已完成有界闭门）；`VRev-002` 是历史独立审视，当前不代表 Charter 方向已稳。
 
 ## 条目索引
 
