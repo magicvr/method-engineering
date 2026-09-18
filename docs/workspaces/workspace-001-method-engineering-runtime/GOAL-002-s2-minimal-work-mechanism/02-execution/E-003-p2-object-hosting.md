@@ -23,3 +23,8 @@ version: 0.1.0
 ## 阶段判断
 
 P2 对象与承载方案已形成并通过本子目标的 self review。P3 尚未开始；I-201 仍为 `collecting`，等待实际落盘与事实核对后再判断是否关闭。
+
+## Checkpoint
+
+- checkpoint commit：`a3ea4bb docs(govern): 完成S2最小机制落盘`
+- 覆盖：本条 P2 方案、子目标索引更新、P3 承载说明、Root I-002 关门记录和 `runtime-records/README.md`。

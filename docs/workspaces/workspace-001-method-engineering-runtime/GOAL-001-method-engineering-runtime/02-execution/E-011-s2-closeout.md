@@ -23,3 +23,8 @@ version: 0.1.0
 ## 事实边界
 
 本条只记录 S2 机制落盘与 Root 信息回传，不表示 S3 walkthrough、真实 Method Case、具体领域方法有效性或 VP-001 已完成。
+
+## Checkpoint
+
+- checkpoint commit：`a3ea4bb docs(govern): 完成S2最小机制落盘`
+- 覆盖：Root S2 关门事实、I-002/A-011 更新、S2 子目标完成记录、`runtime-records/README.md` 和工作区 `goal-tree.md`。
