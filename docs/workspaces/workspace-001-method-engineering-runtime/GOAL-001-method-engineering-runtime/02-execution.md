@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.3.0
+version: 0.5.0
 ---
 
 # 执行记录 · GOAL-001
@@ -26,6 +26,8 @@ version: 0.3.0
 | E-010 | 2026-09-18 | S1 关门并进入 S2 | recorded | `02-execution/E-010-s1-close-s2-start.md` |
 | E-011 | 2026-09-18 | S2 落盘最小工作机制并完成 Root 回传 | recorded | `02-execution/E-011-s2-closeout.md` |
 | E-012 | 2026-09-18 | 重新核对 S2 仓库级运行记录承载 | recorded | `02-execution/E-012-s2-repository-hosting-correction.md` |
+| E-013 | 2026-09-18 | 启动 S3 机制 walkthrough 与交接子目标 | recorded | `../GOAL-003-s3-mechanism-walkthrough-handoff/02-execution/E-001-s3-goal-bootstrap.md` |
+| E-014 | 2026-09-18 | S3 机制证据回传 Root | recorded | `02-execution/E-014-s3-root-handoff.md` |
 
 ## 事实边界
 

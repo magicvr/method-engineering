@@ -4,7 +4,7 @@ status: active
 created: 2026-09-18
 updated: 2026-09-18
 parent: null
-version: 0.6.0
+version: 0.8.0
 ---
 
 # 目标树 · Method Engineering 最小运行机制
@@ -16,15 +16,17 @@ version: 0.6.0
 ## 树
 
 ```text
-GOAL-001-method-engineering-runtime [active] 落地需求驱动的方法工程最小运行机制 · progress 66%
-└── GOAL-002-s2-minimal-work-mechanism [done] S2 最小工作机制反推与落盘 · progress 100%
+GOAL-001-method-engineering-runtime [active] 落地需求驱动的方法工程最小运行机制 · progress 100%
+├── GOAL-002-s2-minimal-work-mechanism [done] S2 最小工作机制反推与落盘 · progress 100%
+└── GOAL-003-s3-mechanism-walkthrough-handoff [done] S3 机制 walkthrough 与交接 · progress 100%
 ```
 
-Root 的 P-001 纲领路线图为：S1 冻结运行模型（已完成） → S2 落盘最小工作机制（已完成，运行记录现为项目根承载） → S3 机制 walkthrough 与交接（未开始）。S1 的 I-001 与 S2 的 I-002 已 verified；S3 尚未创建子目标。
+Root 的 P-001 纲领路线图为：S1 冻结运行模型（已完成） → S2 落盘最小工作机制（已完成，运行记录现为项目根承载） → S3 机制 walkthrough 与交接（已完成）。S1 的 I-001、S2 的 I-002 与 S3 的 I-003 均已 verified；Root 仍为 `active`，本次只完成阶段证据回传，不静默执行 Root 整体 close-out。
 
 ## 状态表
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| `GOAL-001-method-engineering-runtime` | 落地需求驱动的方法工程最小运行机制 | `null` | active | 66% | Root；S1/S2 已完成，S3 未开始；I-001/I-002 已 verified；运行记录为项目根承载。 |
+| `GOAL-001-method-engineering-runtime` | 落地需求驱动的方法工程最小运行机制 | `null` | active | 100% | Root；S1/S2/S3 已完成；I-001/I-002/I-003 verified；Root 整体 close-out 尚未单独执行；运行记录为项目根承载。 |
 | `GOAL-002-s2-minimal-work-mechanism` | S2 最小工作机制反推与落盘 | `GOAL-001-method-engineering-runtime` | done | 100% | 承接 Root S2；P1/P2/P3 已完成；I-201 verified，证据已回传 Root I-002。 |
+| `GOAL-003-s3-mechanism-walkthrough-handoff` | S3 机制 walkthrough 与交接 | `GOAL-001-method-engineering-runtime` | done | 100% | 承接 Root S3；P1/P2/P3 已完成；I-301 verified，A-002 required 已闭合，Root I-003 已回传；不创建真实运行记录。 |

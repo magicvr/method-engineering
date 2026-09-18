@@ -11,7 +11,7 @@ primary_plan: VP-001-demand-driven-method-engineering
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.2.0
+version: 0.4.0
 ---
 
 # 工作区上下文 · Method Engineering 最小运行机制
@@ -39,8 +39,8 @@ version: 0.2.0
 
 ## 纲领阶段
 
-本区的纲领阶段、先后关系和退出条件只记录在 Root 的 [`00-meta.md`](GOAL-001-method-engineering-runtime/00-meta.md) 中：先冻结运行模型，再落盘最小工作对象与流程文档，最后用 bounded walkthrough 验证运行机制自身的连贯性。阶段内如需独立交付，再按 Root 门禁创建子目标；当前不预先创建子目标。
+本区的纲领阶段、先后关系和退出条件只记录在 Root 的 [`00-meta.md`](GOAL-001-method-engineering-runtime/00-meta.md) 中：先冻结运行模型，再落盘最小工作对象与流程文档，最后用 bounded walkthrough 验证运行机制自身的连贯性。S3 已由 `GOAL-003-s3-mechanism-walkthrough-handoff` 完成，walkthrough 仍只验证机制，不产生真实运行记录。
 
 ## 备注
 
-本工作区已进入实现层；S1/S2 已完成，当前工作区只保存治理与交互规则的目标上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；工作区进入或退出 `active` 不表示 VP-001 已完成，也不表示任何具体方法已被验证。
+本工作区已进入实现层；S1/S2/S3 均已完成，当前工作区只保存治理与交互规则的目标上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；工作区进入或退出 `active` 不表示 VP-001 已完成，也不表示任何具体方法已被验证。Root 当前保留 `active`，等待后续独立的整体 close-out 决策。
