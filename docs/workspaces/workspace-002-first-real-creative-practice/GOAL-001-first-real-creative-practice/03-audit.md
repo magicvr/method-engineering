@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 审计 · GOAL-001
@@ -16,7 +16,7 @@ version: 0.1.0
 
 | 核对项 | 状态 | 备注 |
 |--------|------|------|
-| 影响本 scope 的 I-00N | open | I-001～I-006 均登记在 `00-meta.md`。 |
+| 影响本 scope 的 I-00N | open | I-001～I-006 均登记在 `00-meta.md`；I-004 的门禁文字已收敛为实际运行所需事实。 |
 | 到期 required 是否已 verified / residual | 未满足 | S1 尚未开始；没有用户书面 residual。 |
 | 资料引用（若有）是否固定且用户确认 | 无 | 工作区 `shared_materials_catalog: none`。 |
 

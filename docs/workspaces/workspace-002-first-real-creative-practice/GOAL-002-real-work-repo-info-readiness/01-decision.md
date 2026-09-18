@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.3.0
+version: 0.4.0
 ---
 
 # 决策记录 · GOAL-002
@@ -24,6 +24,7 @@ version: 0.3.0
 |------|------|------|------|------|
 | D-001 | 2026-09-18 | 采用迭代式真实作品仓信息就绪闭环 | accepted | [`01-decision/D-001-information-readiness-loop.md`](01-decision/D-001-information-readiness-loop.md) |
 | D-002 | 2026-09-18 | P1 首轮信息请求（宽版草案） | superseded | [`01-decision/D-002-information-readiness-request.md`](01-decision/D-002-information-readiness-request.md) |
-| D-003 | 2026-09-18 | 将首轮信息请求收缩为最小可运行集 | accepted | [`01-decision/D-003-minimal-information-request.md`](01-decision/D-003-minimal-information-request.md) |
+| D-003 | 2026-09-18 | 将首轮信息请求收缩为最小可运行集 | superseded | [`01-decision/D-003-minimal-information-request.md`](01-decision/D-003-minimal-information-request.md) |
+| D-004 | 2026-09-18 | 将首轮信息请求进一步收敛为最小事实集 | accepted | [`01-decision/D-004-minimal-factual-request.md`](01-decision/D-004-minimal-factual-request.md) |
 
 > 本目标后续每次改变信息范围、循环退出条件或回流规则时，再追加新的 D 条目；普通补充请求不另建目标。

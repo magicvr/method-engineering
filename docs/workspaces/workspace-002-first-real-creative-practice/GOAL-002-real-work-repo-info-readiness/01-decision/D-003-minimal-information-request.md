@@ -1,17 +1,20 @@
 ---
 id: D-003-minimal-information-request
 doc: decision-entry
-status: accepted
+status: superseded
 parent: GOAL-002-real-work-repo-info-readiness
 created: 2026-09-18
 updated: 2026-09-18
 version: 0.1.0
 round: 1
-delivery_status: ready-to-send
+delivery_status: superseded-before-send
 supersedes: D-002-information-readiness-request
+superseded_by: D-004-minimal-factual-request
 ---
 
 # D-003 · 将首轮信息请求收缩为最小可运行集
+
+> 本版本未发送，已由 D-004 替代。保留本条作为上一轮“最小可运行集”裁决的历史记录。
 
 - **日期**：2026-09-18
 - **状态**：accepted

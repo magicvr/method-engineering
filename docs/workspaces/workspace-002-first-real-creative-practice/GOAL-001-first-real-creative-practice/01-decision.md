@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 决策记录 · GOAL-001
@@ -23,3 +23,4 @@ Root 的纲领路线图位于 [`00-meta.md`](00-meta.md)，按 S1→S2→S3 串�
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | D-001 | 2026-09-18 | VP-002 工作区与 Root 开区边界 | accepted | [`01-decision/D-001-vp-002-root-scope.md`](01-decision/D-001-vp-002-root-scope.md) |
+| D-002 | 2026-09-18 | 将 Root S1 信息门禁收敛为最小真实运行集 | accepted | [`01-decision/D-002-minimal-runtime-gate.md`](01-decision/D-002-minimal-runtime-gate.md) |
