@@ -22,3 +22,8 @@ version: 0.1.0
 ## 事实边界
 
 本条只修正运行记录的项目级物理承载，不改变 D-002 运行模型、最小对象、状态语义或工作区目标树。
+
+## Checkpoint
+
+- checkpoint commit：`9be9b6f fix(govern): 将运行记录改为仓库级承载`
+- 覆盖：项目根 `runtime-records/README.md`、旧路径移除、D-004/A-004/A-012、Root/子目标索引和 `workspace.md` 修正。

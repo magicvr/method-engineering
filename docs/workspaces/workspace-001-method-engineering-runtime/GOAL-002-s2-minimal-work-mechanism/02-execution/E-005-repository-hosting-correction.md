@@ -22,3 +22,8 @@ version: 0.1.0
 ## 阶段判断
 
 这是对已完成 S2 承载方案的边界修正，不是重新设计运行对象。待 A-004 self review 和 Root A-012 重新核对后，I-201/I-002 继续保持 `verified`。
+
+## Checkpoint
+
+- checkpoint commit：`9be9b6f fix(govern): 将运行记录改为仓库级承载`
+- 覆盖：仓库根 `runtime-records/README.md`、D-004、A-004、Root E-012/A-012、workspace 上下文和路径引用修正。
