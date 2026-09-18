@@ -4,7 +4,7 @@ title: 愿景审视台账（Vision Review）
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.5.0
+version: 0.7.0
 parent: null
 ---
 
@@ -25,8 +25,8 @@ parent: null
 ## 当前投影
 
 - `open required`: **0**
-- 最近条目：[`VRev-002-vp-001-independent`](reviews/VRev-002-vp-001-independent.md)
-- 当前审视范围：VP-001 独立审视（2 条 recommended 已 fixed，VP-001 已完成有界闭门）；`VRev-002` 是历史独立审视，当前不代表 Charter 方向已稳。
+- 最近条目：[`VRev-003-vp-002-independent`](reviews/VRev-003-vp-002-independent.md)
+- 当前审视范围：VP-002 独立审视（原始 verdict 为 `conditional`；`V-F-001` required 与 `V-F-002` recommended 均已由 `/vision` fixed）。`VRev-002` 是 VP-001 历史独立审视，当前不代表 Charter 或 VP-002 方向已稳。
 
 ## 条目索引
 
@@ -34,3 +34,4 @@ parent: null
 |----|------|--------|-------|---------|---------------|---------|------|
 | VRev-001-charter-init | 2026-09-14 | self | charter-init | pass | 0 | Charter 的目的、方向级成功边界、非目标与原则摘要已落盘；本轮未创建 VP/路线图内容/工作区。 | [报告](reviews/VRev-001-charter-init.md) |
 | VRev-002-vp-001-independent | 2026-09-18 | independent | VP-001 / vision-plan | pass | 0 | VP-001 `vision_ref` 精确匹配 Charter；2 条 recommended（V-F-001/V-F-002）已由 `/vision` fixed；VP 已激活并绑定 `workspace-001-method-engineering-runtime`。 | [报告](reviews/VRev-002-vp-001-independent.md) |
+| VRev-003-vp-002-independent | 2026-09-18 | independent | VP-002 / vision-plan | conditional | 0 | 原始审视指出 D1 缺投入限额与终点回流门（`V-F-001` required），并建议补 Charter 对齐边界（`V-F-002` recommended）；两项均已由 `/vision` fixed，原始 verdict 保留。 | [报告](reviews/VRev-003-vp-002-independent.md) |

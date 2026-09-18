@@ -15,7 +15,7 @@ version: 0.6.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）
+- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）；[`VP-002-first-real-creative-practice`](plans/VP-002-first-real-creative-practice.md)，`status: planned`（等待首个真实作品与实现工作区确认）
 - **组合编排 / 路线图设计**：已登记首个 VP；实现层 Root 已建立三阶段纲领路线图
 - **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档；VP/Root 证据保留在其历史绑定中
 
@@ -26,7 +26,7 @@ version: 0.6.0
 | `alignment.md` | 愿景对齐契约与门禁（规则权威） |
 | `charter.md` | 项目唯一 active Charter；对齐链源头 |
 | `roadmap.md` | 愿景级组合编排索引，不是目标层纲领路线图 |
-| `plans/VP-*.md` | 已确认并落盘的愿景意图；当前为 VP-001 |
+| `plans/VP-*.md` | 已确认并落盘的愿景意图；当前为 VP-001 与 VP-002 |
 | `revisions.md` | Charter `VR-NNN` 修订台账 |
 | `reviews.md` | Vision Review 稳定索引 |
 | `reviews/VRev-NNN-*.md` | 单条 self / independent Vision Review 报告 |
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-VP-001 已落盘且 `vision_ref` 精确匹配现行 Charter。`/govern` 已建立明确命名的工作区并绑定 `primary_plan`；后续实现层工作应在该区 Root 内按 S1–S3 路线图推进。
+VP-001 已落盘并完成有界闭门；VP-002 已落盘且 `vision_ref` 精确匹配现行 Charter，当前仍为 `planned`。VP-002 的首个作品仓、实现工作区和 Root 尚未确认；后续应在实现层启动前由 `/govern` 建立对应工作区并绑定 `primary_plan`。

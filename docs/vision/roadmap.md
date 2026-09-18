@@ -4,7 +4,7 @@ title: 愿景规划索引
 status: active
 created: 2026-09-14
 updated: 2026-09-18
-version: 0.4.0
+version: 0.5.0
 parent: null
 ---
 
@@ -18,10 +18,11 @@ parent: null
 | id | title | status（派生投影） | vision_ref | lead_workspace | detail |
 |----|-------|--------------------|------------|----------------|--------|
 | [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | closed | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；8 项退出判据已由 Root/工作区证据满足，VP 已完成有界闭门；工作区保留历史绑定 |
+| [VP-002-first-real-creative-practice](plans/VP-002-first-real-creative-practice.md) | 支持首个真实作品完成故事线规划大纲 | planned | method-engineering@0.1.0 | — | 第二个 VP；以作品方接受包含故事线规划的大纲为有界终点；Goal 由真实、已接受需求动态生成，尚未绑定工作区 |
 
 ## 波次关系
 
-VP-001 是当前唯一规划，暂无与其他 VP 的先后或并行关系。后续若出现新的 VP，再在本节记录愿景层组合关系；不在此写目标层纲领路线图、子目标编号、Goal status 或 progress%。
+VP-001 建立并关闭了需求驱动的方法工程最小运行机制；VP-002 在其机制基础上进入首个真实作品支持波次。VP-002 只覆盖该作品到包含故事线规划的大纲接受点，后续详细创作如仍需支持，应另设有界意图；本节不写目标层纲领路线图、子目标编号、Goal status 或 progress%。
 
 ## 使用说明
 
