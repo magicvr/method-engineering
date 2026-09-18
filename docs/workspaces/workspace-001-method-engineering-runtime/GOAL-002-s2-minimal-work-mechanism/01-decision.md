@@ -1,11 +1,11 @@
 ---
 id: GOAL-002-s2-minimal-work-mechanism
 doc: decision
-status: active
+status: done
 parent: GOAL-001-method-engineering-runtime
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.2.0
+version: 0.3.0
 ---
 
 # 决策记录 · GOAL-002
@@ -17,14 +17,14 @@ version: 0.2.0
 | 阶段 | 计划文件 / 落点 | 说明 |
 |------|-----------------|------|
 | P1 | `01-decision/D-001-s2-scope.md`、`01-decision/D-002-s2-responsibility-record-map.md` | 以 D-002 运行责任为输入，建立责任→记录需求映射。 |
-| P2 | 待 P1 证据确认 | 只冻结由运行责任推出的最小对象、记录边界与承载方案。 |
-| P3 | 待 P2 方案冻结 | 落盘必要文档/承载并核对 I-201。 |
+| P2 | `01-decision/D-003-s2-object-hosting.md` | 只冻结由运行责任推出的最小对象、记录边界与承载方案。 |
+| P3 | `runtime-records/README.md`；`02-execution/E-004-p3-record-hosting.md` | 落盘必要文档/承载并核对 I-201。 |
 
 ## 信息需求与阶段门禁
 
 | ID | 级别 | 所需信息 / 问题 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 决策 |
 |----|------|-----------------|----------|--------------|-----------------|------|-------------|-------------|
-| I-201 | required | 最小工作对象、记录边界与承载位置如何由 D-002 运行责任推出。 | P2 方案冻结、P3/S2 退出 | P2 | P1 已建立责任→记录需求映射；P2 方案审视时复核。 | collecting | 不延期；P2 方案冻结前复核。 | `01-decision/D-002-s2-responsibility-record-map.md`；`03-audit/A-001-p1-self-review.md`。 |
+| I-201 | required | 最小工作对象、记录边界与承载位置如何由 D-002 运行责任推出。 | P2 方案冻结、P3/S2 退出 | P2 | P1 已建立责任→记录需求映射；P2 已冻结对象/承载方案；P3 已落盘并复核。 | verified | 不延期；已由 P3 self review 关闭。 | `01-decision/D-002-s2-responsibility-record-map.md`；`01-decision/D-003-s2-object-hosting.md`；`runtime-records/README.md`；`03-audit/A-003-p3-record-hosting-self-review.md`。 |
 
 ## 决策索引
 
@@ -32,3 +32,4 @@ version: 0.2.0
 |------|------|------|------|------|
 | D-001 | 2026-09-18 | S2 子目标范围与责任反推边界 | accepted | `01-decision/D-001-s2-scope.md` |
 | D-002 | 2026-09-18 | S2 运行责任→最小记录需求映射 | accepted | `01-decision/D-002-s2-responsibility-record-map.md` |
+| D-003 | 2026-09-18 | P2 最小工作对象与承载方案 | accepted | `01-decision/D-003-s2-object-hosting.md` |
