@@ -1,20 +1,23 @@
 ---
 id: D-002-information-readiness-request
 doc: decision-entry
-status: accepted
+status: superseded
 parent: GOAL-002-real-work-repo-info-readiness
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 round: 1
-delivery_status: ready-to-send
+delivery_status: superseded-before-send
+superseded_by: D-003-minimal-information-request
 ---
 
 # D-002 · P1 首轮信息请求
 
+> 本条目保留首轮宽版请求草案。它从未发送；经用户裁决后，由 [`D-003-minimal-information-request.md`](D-003-minimal-information-request.md) 取代。
+
 - **日期**：2026-09-18
-- **状态**：accepted
-- **交付状态**：已生成、待发送；本条记录不表示真实作品仓已经收到或回复。
+- **状态**：superseded
+- **交付状态**：历史草案，未发送；本条记录不表示真实作品仓已经收到或回复。
 - **覆盖范围**：Root I-001～I-005 / VP-002 D1 信息就绪。
 
 ## 决定

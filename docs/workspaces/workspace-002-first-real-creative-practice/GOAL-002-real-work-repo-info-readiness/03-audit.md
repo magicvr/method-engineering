@@ -5,18 +5,18 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.2.0
+version: 0.3.0
 ---
 
 # 审计 · GOAL-002
 
-> 本文件是稳定索引和信息核对入口。正式意见写入 `03-audit/A-NNN-<slug>.md`；P1 已完成，当前尚未到达阶段审计节点。
+> 本文件是稳定索引和信息核对入口。正式意见写入 `03-audit/A-NNN-<slug>.md`；P1 已完成并在发送前收缩了请求范围，当前尚未到达阶段审计节点。
 
 ## 信息就绪核对（当前 scope）
 
 | 核对项 | 状态 | 备注 |
 |--------|------|------|
-| 影响本 scope 的 I-00N | open | I-001～I-005 均登记在 `00-meta.md`，分别映射 Root I-001～I-005；P1 请求已生成，等待 P2 作品仓提交。 |
+| 影响本 scope 的 I-00N | open | I-001～I-005 均登记在 `00-meta.md`，分别映射 Root I-001～I-005；最小请求已准备好，等待 P2 作品仓提交。 |
 | 到期 required 是否已 verified / residual | 未满足 | 目标尚未收到真实作品仓提交；没有用户书面 residual。 |
 | 资料引用（若有）是否固定且用户确认 | 无 | workspace 002 的 `shared_materials_catalog: none`；本目标不把候选仓路径当作共享资料事实。 |
 
@@ -26,4 +26,4 @@ version: 0.2.0
 
 ## 结论状态
 
-目标保持 `active`；P1 请求已生成，信息就绪尚未完成。独立意见不直接改 `status` / `progress`；响应和状态变更走 `/govern` 与用户裁决。
+目标保持 `active`；P1 最小请求已确定，信息就绪尚未完成。独立意见不直接改 `status` / `progress`；响应和状态变更走 `/govern` 与用户裁决。
