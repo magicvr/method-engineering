@@ -19,6 +19,7 @@ version: 0.1.0
 - 更新 `goal-tree.md`，将 Root 从 `active` 更新为 `done`；S2、S3 子目标状态保持不变。
 - 同步工作区与愿景绑定索引中的当前事实：Root 已完成，但 VP-001、Charter 和工作区绑定仍保持其各自的 `active` 语义。
 - 项目根 `runtime-records/` 的承载边界保持不变；本次没有创建真实运行记录。
+- Git checkpoint：`8033896`（`docs(govern): 关闭 Root 整体目标`）。
 
 ## 事实边界
 
