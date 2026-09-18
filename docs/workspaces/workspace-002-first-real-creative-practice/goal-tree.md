@@ -4,7 +4,7 @@ status: active
 created: 2026-09-18
 updated: 2026-09-18
 parent: null
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 目标树 · VP-002 首个真实创作实践
@@ -27,4 +27,4 @@ Root 的 P-001 纲领路线图为：S1 启动边界与信息就绪 → S2 真实
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
 | `GOAL-001-first-real-creative-practice` | 支持首个真实作品完成故事线规划大纲 | `null` | draft | — | S1 信息就绪尚未完成；由 GOAL-002 负责获取和审视真实作品仓信息。 |
-| `GOAL-002-real-work-repo-info-readiness` | 获取并审视真实作品仓信息 | `GOAL-001-first-real-creative-practice` | active | — | 迭代收集、补充/澄清并核对 Root I-001～I-005；尚未收到作品仓提交。 |
+| `GOAL-002-real-work-repo-info-readiness` | 获取并审视真实作品仓信息 | `GOAL-001-first-real-creative-practice` | active | — | P1 首轮信息请求已生成；等待作品仓提交后进入 P2～P4 的收集与审视循环。 |

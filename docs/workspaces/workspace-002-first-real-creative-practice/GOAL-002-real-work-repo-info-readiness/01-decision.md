@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-18
 updated: 2026-09-18
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 决策记录 · GOAL-002
@@ -23,5 +23,6 @@ version: 0.1.0
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | D-001 | 2026-09-18 | 采用迭代式真实作品仓信息就绪闭环 | accepted | [`01-decision/D-001-information-readiness-loop.md`](01-decision/D-001-information-readiness-loop.md) |
+| D-002 | 2026-09-18 | P1 首轮信息请求 | accepted | [`01-decision/D-002-information-readiness-request.md`](01-decision/D-002-information-readiness-request.md) |
 
 > 本目标后续每次改变信息范围、循环退出条件或回流规则时，再追加新的 D 条目；普通补充请求不另建目标。
