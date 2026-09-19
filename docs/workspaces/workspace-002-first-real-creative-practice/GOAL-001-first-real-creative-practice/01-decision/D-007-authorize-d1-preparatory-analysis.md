@@ -1,7 +1,8 @@
 ---
 id: D-007-authorize-d1-preparatory-analysis
 doc: decision-entry
-status: accepted
+status: superseded
+superseded_by: D-008-correct-demand-response-boundary
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-19
 updated: 2026-09-19

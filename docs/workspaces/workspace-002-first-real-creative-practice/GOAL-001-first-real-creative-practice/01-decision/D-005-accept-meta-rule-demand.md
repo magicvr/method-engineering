@@ -1,7 +1,8 @@
 ---
 id: D-005-accept-meta-rule-demand
 doc: decision-entry
-status: accepted
+status: superseded
+superseded_by: D-008-correct-demand-response-boundary
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-19
 updated: 2026-09-19
@@ -25,3 +26,7 @@ version: 0.1.0
 ## 理由
 
 提报已满足 D-004 三类最小信息，且具有独立的方法工程边界和可核对交付物。建立 draft 目标能够追踪真实需求，同时保持 Root 信息门禁和“候选不等于验证”的事实边界。
+
+## 后续状态说明
+
+本决定的需求接收历史保留；其中关于候选方法比较、有限试用和作品方决定事项的当前操作解释，已由 Root D-008 和 GOAL-003 D-005 取代。当前仅保留一个由 Method Engineering 主导的需求澄清 Goal，不把本条原范围作为现行方法构建授权。

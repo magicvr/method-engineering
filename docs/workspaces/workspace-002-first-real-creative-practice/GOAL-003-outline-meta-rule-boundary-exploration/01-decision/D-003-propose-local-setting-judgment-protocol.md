@@ -1,7 +1,8 @@
 ---
 id: D-003-propose-local-setting-judgment-protocol
 doc: decision-entry
-status: proposed
+status: superseded
+superseded_by: D-005-reframe-meta-rule-demand-as-clarification
 parent: GOAL-003-outline-meta-rule-boundary-exploration
 created: 2026-09-19
 updated: 2026-09-19

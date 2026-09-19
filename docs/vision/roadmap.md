@@ -4,7 +4,7 @@ title: 愿景规划索引
 status: active
 created: 2026-09-14
 updated: 2026-09-19
-version: 0.8.0
+version: 0.9.0
 parent: null
 ---
 
@@ -18,7 +18,7 @@ parent: null
 | id | title | status（派生投影） | vision_ref | lead_workspace | detail |
 |----|-------|--------------------|------------|----------------|--------|
 | [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | closed | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；8 项退出判据已由 Root/工作区证据满足，VP 已完成有界闭门；工作区保留历史绑定 |
-| [VP-002-first-real-creative-practice](plans/VP-002-first-real-creative-practice.md) | 支持首个真实作品完成故事线规划大纲 | active | method-engineering@0.1.0 | — | 第二个 VP；以作品方接受包含故事线规划的大纲为有界终点；若接受条件/下一阶段未知，允许在 D1 内进行四周总上限内的有界定义探索，并对暴露的真实方法问题进行有限前置分析；Goal 由真实、已接受需求动态生成，已绑定 `workspace-002-first-real-creative-practice`（delivery） |
+| [VP-002-first-real-creative-practice](plans/VP-002-first-real-creative-practice.md) | 支持首个真实作品完成故事线规划大纲 | active | method-engineering@0.1.0 | — | 第二个 VP；以作品方接受包含故事线规划的大纲为有界终点；若接受条件/下一阶段未知，D1 可在四周总上限内探索作品自身的创作边界；局部方法需求由 Method Engineering 主导澄清、构建、交付和迭代，不受 D1 作为统一门禁的阻挡；D1/D2 可并行或局部交错，Goal 由具体需求动态生成，已绑定 `workspace-002-first-real-creative-practice`（delivery） |
 
 ## 波次关系
 

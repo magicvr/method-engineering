@@ -1,7 +1,8 @@
 ---
 id: D-008-accept-preparatory-analysis-input
 doc: decision-entry
-status: accepted
+status: superseded
+superseded_by: D-009-correct-creative-boundary-role
 parent: GOAL-002-real-work-repo-info-readiness
 created: 2026-09-19
 updated: 2026-09-19

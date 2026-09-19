@@ -1,7 +1,8 @@
 ---
 id: D-002-open-p2-within-d1-exploration
 doc: decision-entry
-status: accepted
+status: superseded
+superseded_by: D-005-reframe-meta-rule-demand-as-clarification
 parent: GOAL-003-outline-meta-rule-boundary-exploration
 created: 2026-09-19
 updated: 2026-09-19

@@ -2,15 +2,18 @@
 id: p2-candidate-boundary-analysis
 doc: goal-attachment
 status: proposed
+lifecycle: historical
+current_use: internal-reference-only
+superseded_by: D-005-reframe-meta-rule-demand-as-clarification
 parent: GOAL-003-outline-meta-rule-boundary-exploration
 created: 2026-09-19
 updated: 2026-09-19
-version: 0.2.0
+version: 0.3.0
 ---
 
 # P2 工作稿 · 候选边界与方法分析
 
-> 本文是 GOAL-003 P2 的工作稿，不是最终方法、作品方接受标准或独立审计结论。此前的 `meta-rule-preliminary-exploration.md` 只作为普通参考；其中的“现实参考态—差异—传播/闭包”保留为待检验假设。
+> 本文是 GOAL-003 在旧版“D1 内有限前置方法分析”解释下形成的历史工作稿。VP-002 v0.4.0、GOAL-003 D-005/E-005 已取代其作为当前工作任务的地位；内容仅保留供 Method Engineering 内部参考，不是当前方法、作品方接受标准或独立审计结论。不得要求 book_green 使用、比较或验证其中候选，也不得把其中材料写成已成立的具体方法需求。此前的 `meta-rule-preliminary-exploration.md` 只作为普通参考；其中的“现实参考态—差异—传播/闭包”保留为待检验假设。
 
 ## 1. 当前真正要解决的问题
 
@@ -131,4 +134,8 @@ P3 不只记录失败。条件允许时，应在同一个真实问题上记录 B
 
 本稿推荐一个轻量、具体判断驱动的候选路径，暂不把它命名为最终“元规则”，也不把它认定为独立创作环节。下一步应围绕一个真实的设定选择或创作判断，把 B 的最小操作形态具体化；试用时要把待决/候选判断、B 与 C 的处理差异和结果分类一并记录。自造微例只能检查表达是否清楚，不能替代作品证据。
 
-若第一次真实试用后发现收益不足、成本过高、边界无法控制，或直接嵌入世界模型更好，则应缩减、改名、取消独立环节或回流重新定义，而不是为了保留术语继续扩张。
+若未来在真实需求澄清后确实形成了具体方法需求，Method Engineering 可以重新审视本文中的局部线索；但必须重新核对创作情境、问题、目标和限制，不能直接把本稿候选作为方法交付或试用方案。本文不再要求作品仓执行其中的比较、记录或证据收集。此前“下一步围绕真实判断具体化候选”的建议已随旧解释一并退出当前工作。
+
+## 历史状态
+
+本文保留旧阶段已经形成的分析内容和假设，不证明这些内容有效，也不证明“元规则”已经成为独立方法需求。当前工作以 GOAL-003 的 P2 需求澄清为准；任何后续方法设计、验证和交付均由 Method Engineering 重新承担并另行记录。
