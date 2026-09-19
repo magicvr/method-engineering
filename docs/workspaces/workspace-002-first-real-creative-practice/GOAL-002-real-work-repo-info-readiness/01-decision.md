@@ -4,8 +4,8 @@ doc: decision
 status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-18
-updated: 2026-09-18
-version: 0.4.0
+updated: 2026-09-19
+version: 0.5.0
 ---
 
 # 决策记录 · GOAL-002
@@ -16,7 +16,7 @@ version: 0.4.0
 
 ## 信息需求与阶段门禁
 
-本目标的 I-001～I-005 与 Root I-001～I-005 一一映射，详见 [`00-meta.md`](00-meta.md) 的「信息就绪与未知项」节。它们均为 `required/open`；在真实作品仓提交并完成核对前，不得写成 `verified`，也不得把 Root S1 写成已退出。
+本目标的 I-001～I-005 与 Root I-001～I-005 一一映射，详见 [`00-meta.md`](00-meta.md) 的「信息就绪与未知项」节。它们均为 `required`；I-001、I-002、I-004、I-005 已由首轮来源核对为 `verified`，I-003 仍为 `collecting`，不得因此把 Root S1 写成已退出。
 
 ## 决策索引
 
@@ -26,5 +26,7 @@ version: 0.4.0
 | D-002 | 2026-09-18 | P1 首轮信息请求（宽版草案） | superseded | [`01-decision/D-002-information-readiness-request.md`](01-decision/D-002-information-readiness-request.md) |
 | D-003 | 2026-09-18 | 将首轮信息请求收缩为最小可运行集 | superseded | [`01-decision/D-003-minimal-information-request.md`](01-decision/D-003-minimal-information-request.md) |
 | D-004 | 2026-09-18 | 将首轮信息请求进一步收敛为最小事实集 | accepted | [`01-decision/D-004-minimal-factual-request.md`](01-decision/D-004-minimal-factual-request.md) |
+| D-005 | 2026-09-19 | I-003 转入 VP-002 D1 有界接受条件定义探索 | accepted | [`01-decision/D-005-bounded-acceptance-exploration.md`](01-decision/D-005-bounded-acceptance-exploration.md) |
+| D-006 | 2026-09-19 | P4 有界接受条件定义探索启动说明 | accepted | [`01-decision/D-006-bounded-exploration-brief.md`](01-decision/D-006-bounded-exploration-brief.md) |
 
 > 本目标后续每次改变信息范围、循环退出条件或回流规则时，再追加新的 D 条目；普通补充请求不另建目标。

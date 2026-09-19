@@ -2,9 +2,9 @@
 title: 目标树 · workspace-002-first-real-creative-practice
 status: active
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-19
 parent: null
-version: 0.4.0
+version: 0.6.0
 ---
 
 # 目标树 · VP-002 首个真实创作实践
@@ -26,5 +26,5 @@ Root 的 P-001 纲领路线图为：S1 启动边界与信息就绪 → S2 真实
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| `GOAL-001-first-real-creative-practice` | 支持首个真实作品完成故事线规划大纲 | `null` | draft | — | S1 信息就绪尚未完成；Root I-004 已收敛为实际责任边界与决定/接受权；由 GOAL-002 负责获取和审视真实作品仓信息。 |
-| `GOAL-002-real-work-repo-info-readiness` | 获取并审视真实作品仓信息 | `GOAL-001-first-real-creative-practice` | active | — | P1 最小事实请求已确定；沟通渠道、节奏和格式留给仓外协调；等待作品仓提交后进入 P2～P4 的收集与审视循环。 |
+| `GOAL-001-first-real-creative-practice` | 支持首个真实作品完成故事线规划大纲 | `null` | draft | — | S1 信息就绪尚未完成；VP-002 已允许 D1 有界接受条件定义探索，I-003 尚未形成并获 book_green 确认的边界。 |
+| `GOAL-002-real-work-repo-info-readiness` | 获取并审视真实作品仓信息 | `GOAL-001-first-real-creative-practice` | active | — | P2/P3 已完成；P4 按 VP-002 D1 开展有界探索，四周总上限内形成接受条件候选、作品证据和下一阶段候选后再交接 P5。 |

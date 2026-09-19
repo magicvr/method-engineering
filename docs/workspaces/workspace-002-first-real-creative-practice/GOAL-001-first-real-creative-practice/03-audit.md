@@ -4,8 +4,8 @@ doc: audit
 status: active
 parent: null
 created: 2026-09-18
-updated: 2026-09-18
-version: 0.2.0
+updated: 2026-09-19
+version: 0.4.0
 ---
 
 # 审计 · GOAL-001
@@ -16,8 +16,8 @@ version: 0.2.0
 
 | 核对项 | 状态 | 备注 |
 |--------|------|------|
-| 影响本 scope 的 I-00N | open | I-001～I-006 均登记在 `00-meta.md`；I-004 的门禁文字已收敛为实际运行所需事实。 |
-| 到期 required 是否已 verified / residual | 未满足 | S1 尚未开始；没有用户书面 residual。 |
+| 影响本 scope 的 I-00N | mixed | I-001、I-002、I-004、I-005 已由首轮来源核对为 `verified`；I-003 仍 `required/collecting` 并按 VP-002 有界探索路径处理，I-006 尚未到 S2。 |
+| 到期 required 是否已 verified / residual | 未满足 | S1 尚未退出；有界探索尚未产出并获 book_green 确认的接受边界；没有用户书面 residual。 |
 | 资料引用（若有）是否固定且用户确认 | 无 | 工作区 `shared_materials_catalog: none`。 |
 
 ## 意见台账索引
