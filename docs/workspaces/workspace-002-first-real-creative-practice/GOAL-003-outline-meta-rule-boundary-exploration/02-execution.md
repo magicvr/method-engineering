@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-19
 updated: 2026-09-19
-version: 0.10.0
+version: 0.13.0
 ---
 
 # 执行记录 · GOAL-003
@@ -24,7 +24,10 @@ version: 0.10.0
 | E-008 | 2026-09-19 | 完成 P3.1：写出可执行构造步骤与最小记录形态 | recorded | [`02-execution/E-008-p3-1-procedure.md`](02-execution/E-008-p3-1-procedure.md) |
 | E-009 | 2026-09-19 | 按 A-002 修订 P3.1 操作稿 | recorded | [`02-execution/E-009-respond-a002-p3-1-procedure.md`](02-execution/E-009-respond-a002-p3-1-procedure.md) |
 | E-010 | 2026-09-19 | 完成 P3.2 两例有界走查 | recorded | [`02-execution/E-010-p3-2-bounded-walkthrough.md`](02-execution/E-010-p3-2-bounded-walkthrough.md) |
+| E-011 | 2026-09-19 | 形成 P3.3 可交付响应并退出 P3 | recorded | [`02-execution/E-011-p3-3-deliverable.md`](02-execution/E-011-p3-3-deliverable.md) |
+| E-012 | 2026-09-19 | 按 A-006 将可交付响应修订为 v1.1.0 | recorded | [`02-execution/E-012-respond-a006-deliverable.md`](02-execution/E-012-respond-a006-deliverable.md) |
+| E-013 | 2026-09-19 | 吸收 A-008 recommended，使用文本改为 v1.1.1 | recorded | [`02-execution/E-013-respond-a008-recommended.md`](02-execution/E-013-respond-a008-recommended.md) |
 
 ## 事实边界
 
-截至 E-004，已发生需求提报接收、维护者选择 A、目标五件套建立、I-003 角色重分类、P2 开放、第一版候选边界与方法分析工作稿形成，以及 VP-002 v0.3.0 对 D1 前置分析边界的历史授权。E-005 已完成，当前 P2 已收敛为 Method Engineering 主导的需求澄清和最小事实收集；候选工作稿保留为历史材料，不再要求 book_green 使用、比较或验证其中候选。E-006 已完成工作零假设、工作定义与第一轮残余分析。E-007 已完成：D-007 判定有界方法需求成立，P2 退出，P3 在本目标内启动，本拍未创建子目标。E-008 已完成 P3.1 初稿。E-009 已按 A-002 将操作稿修订为 v0.2.0。E-010 已完成 P3.2 两例内部走查；P3.3 未开始。尚未形成可交付方法、真实使用、交付或 book_green 对方法的接受事实；Root 已 active 但 S1 仍未退出。
+截至 E-004，已发生需求提报接收、维护者选择 A、目标五件套建立、I-003 角色重分类、P2 开放、第一版候选边界与方法分析工作稿形成，以及 VP-002 v0.3.0 对 D1 前置分析边界的历史授权。E-005 已完成，当前 P2 已收敛为 Method Engineering 主导的需求澄清和最小事实收集；候选工作稿保留为历史材料，不再要求 book_green 使用、比较或验证其中候选。E-006 已完成工作零假设、工作定义与第一轮残余分析。E-007 已完成：D-007 判定有界方法需求成立，P2 退出，P3 在本目标内启动，本拍未创建子目标。E-008 已完成 P3.1 初稿。E-009 已按 A-002 将操作稿修订为 v0.2.0。E-010 已完成 P3.2 两例内部走查。E-011 已形成可交付响应并退出 P3。E-012 已按 A-006 将使用文本修订为 v1.1.0。E-013 已吸收 A-008 recommended，使用文本为 v1.1.1。尚未发生向 book_green 的交付、真实使用或接受；Root 已 active 但 S1 仍未退出。
