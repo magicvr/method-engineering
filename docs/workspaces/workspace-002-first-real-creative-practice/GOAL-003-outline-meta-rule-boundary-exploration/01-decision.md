@@ -5,18 +5,18 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-19
 updated: 2026-09-19
-version: 0.10.0
+version: 0.11.0
 ---
 
 # 决策记录 · GOAL-003
 
 ## 纲领路线图与阶段计划
 
-本目标的 P1→P4 路线图位于 [`00-meta.md`](00-meta.md)。P2 已完成。P3 进行中：P3.1 操作稿经 D-009 修订为 v0.2.0；P3.2 未开始。本拍不派生子目标。目标保持 `active` 不等于 Root S1 已退出、方法已验证交付或作品已验收。
+本目标的 P1→P4 路线图位于 [`00-meta.md`](00-meta.md)。P2 已完成。P3 进行中：P3.1 v0.2.0、P3.2 两例走查已完成（D-010）；P3.3 未开始。本拍不派生子目标。目标保持 `active` 不等于 Root S1 已退出、方法已验证交付或作品已验收。
 
 ## 信息需求与阶段门禁
 
-本目标的 G-001、G-002、G-003 登记在 [`00-meta.md`](00-meta.md)。Root 原 I-003 已重分类为由 GOAL-002 P4 承载的 D1 创作接受边界探索目标，不再作为本目标门禁。G-001 已 `verified` 并放行 P3；G-002 不阻断 P3；G-003 现为 `collecting`：P3.1 v0.2.0 已形成，内部验证未做。A-002 F-001/F-002 编排侧已 `fixed`。
+本目标的 G-001、G-002、G-003 登记在 [`00-meta.md`](00-meta.md)。Root 原 I-003 已重分类为由 GOAL-002 P4 承载的 D1 创作接受边界探索目标，不再作为本目标门禁。G-001 已 `verified` 并放行 P3；G-002 不阻断 P3；G-003 现为 `collecting`：P3.1/P3.2 已有步骤、记录形态与两例走查，尚未收成交付，也不是真实作品证据。A-002 F-001/F-002 编排侧已 `fixed`。
 
 ## 决策索引
 
@@ -31,5 +31,6 @@ version: 0.10.0
 | D-007 | 2026-09-19 | 确认有界方法需求、退出 P2、在本目标内进入 P3，暂不派生子目标 | accepted | [`01-decision/D-007-bounded-p3-demand-no-child-goal.md`](01-decision/D-007-bounded-p3-demand-no-child-goal.md) |
 | D-008 | 2026-09-19 | P3.1 将最小背景世界模型工作定义操作化为可执行步骤 | accepted | [`01-decision/D-008-p3-1-operationalize-procedure.md`](01-decision/D-008-p3-1-operationalize-procedure.md) |
 | D-009 | 2026-09-19 | 响应 A-002：修订 P3.1 第 5 步与第 7 步 | accepted | [`01-decision/D-009-respond-a002-p3-1-procedure.md`](01-decision/D-009-respond-a002-p3-1-procedure.md) |
+| D-010 | 2026-09-19 | P3.2 有界走查完成：操作稿可执行，不升格为交付 | accepted | [`01-decision/D-010-p3-2-walkthrough-result.md`](01-decision/D-010-p3-2-walkthrough-result.md) |
 
-> 后续改变本目标范围、Root 门禁、方法响应退出条件或交付/反馈边界时，再追加新的 D 条目；普通澄清和运行事实不另建 Goal。D-003、D-004 及其工作稿保留为历史记录；D-005 取代其当前操作解释。D-006 给出 P2 工作零假设。D-007 放行本目标 P3。D-008 给出 P3.1 操作化取舍；D-009 按 A-002 修订第 5、7 步。不把操作稿写成已验证方法。
+> 后续改变本目标范围、Root 门禁、方法响应退出条件或交付/反馈边界时，再追加新的 D 条目；普通澄清和运行事实不另建 Goal。D-003、D-004 及其工作稿保留为历史记录；D-005 取代其当前操作解释。D-006 给出 P2 工作零假设。D-007 放行本目标 P3。D-008/D-009 给出并修订 P3.1 操作稿。D-010 记录 P3.2 走查结论。不把走查写成已验证方法或作品使用。
