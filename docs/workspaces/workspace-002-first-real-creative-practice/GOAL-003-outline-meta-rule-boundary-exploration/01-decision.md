@@ -5,18 +5,18 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-19
 updated: 2026-09-19
-version: 0.7.0
+version: 0.8.0
 ---
 
 # 决策记录 · GOAL-003
 
 ## 纲领路线图与阶段计划
 
-本目标的 P1→P4 路线图位于 [`00-meta.md`](00-meta.md)。P2 当前是 Method Engineering 主导的需求澄清和最小事实收集；已采纳独立元规则层暂不成立的工作零假设，并形成最小背景世界模型工作定义。目标保持 `active` 不等于 Root S1 已退出、具体方法响应已开始或作品已验收。
+本目标的 P1→P4 路线图位于 [`00-meta.md`](00-meta.md)。P2 已完成。D-007 确认有界方法需求并在本目标内启动 P3；本拍不派生子目标。目标保持 `active` 不等于 Root S1 已退出、P3 方法已做成或作品已验收。
 
 ## 信息需求与阶段门禁
 
-本目标的 G-001、G-002 登记在 [`00-meta.md`](00-meta.md)。Root 原 I-003 已重分类为由 GOAL-002 P4 承载的 D1 创作接受边界探索目标，不再作为本目标 P2 的前置 required 信息项；G-001 现为 `collecting`：工作定义与第一轮残余分析已形成，但「最小背景世界模型及其构造方法」是否构成 P3 需求仍待判断，不要求 book_green 定义「元规则」或预先诊断、设计方法；G-002 只影响称谓和问题划分，不单独阻断立项。
+本目标的 G-001、G-002、G-003 登记在 [`00-meta.md`](00-meta.md)。Root 原 I-003 已重分类为由 GOAL-002 P4 承载的 D1 创作接受边界探索目标，不再作为本目标门禁。G-001 已 `verified` 并放行 P3；G-002 不阻断 P3；G-003 是 P3 退出所需的操作化与内部验证，当前 `open`。
 
 ## 决策索引
 
@@ -28,5 +28,6 @@ version: 0.7.0
 | D-004 | 2026-09-19 | 按 VP-002 修订确认 D1 前置分析授权边界 | superseded | [`01-decision/D-004-vp002-authorizes-d1-preparatory-analysis.md`](01-decision/D-004-vp002-authorizes-d1-preparatory-analysis.md)（其当前操作解释由 D-005 取代） |
 | D-005 | 2026-09-19 | 将“元规则”请求收敛为 Method Engineering 主导的需求澄清目标 | accepted | [`01-decision/D-005-reframe-meta-rule-demand-as-clarification.md`](01-decision/D-005-reframe-meta-rule-demand-as-clarification.md) |
 | D-006 | 2026-09-19 | 采纳独立元规则层暂不成立的工作零假设，并先定义最小背景世界模型 | accepted | [`01-decision/D-006-null-hypothesis-min-background-world-model.md`](01-decision/D-006-null-hypothesis-min-background-world-model.md) |
+| D-007 | 2026-09-19 | 确认有界方法需求、退出 P2、在本目标内进入 P3，暂不派生子目标 | accepted | [`01-decision/D-007-bounded-p3-demand-no-child-goal.md`](01-decision/D-007-bounded-p3-demand-no-child-goal.md) |
 
-> 后续改变本目标范围、Root 门禁、方法响应退出条件或交付/反馈边界时，再追加新的 D 条目；普通澄清和运行事实不另建 Goal。D-003、D-004 及其工作稿保留为历史记录；D-005 取代其当前操作解释。D-006 在 D-005 的澄清授权内给出 P2 工作零假设与残余分类规则，不接受任何候选方法已经成立，也不自动放行 P3。
+> 后续改变本目标范围、Root 门禁、方法响应退出条件或交付/反馈边界时，再追加新的 D 条目；普通澄清和运行事实不另建 Goal。D-003、D-004 及其工作稿保留为历史记录；D-005 取代其当前操作解释。D-006 给出 P2 工作零假设。D-007 放行本目标 P3，并决定本拍不派生子目标；不把工作定义写成已成立方法。
