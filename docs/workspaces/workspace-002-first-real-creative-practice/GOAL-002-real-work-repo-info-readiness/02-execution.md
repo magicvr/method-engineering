@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-first-real-creative-practice
 created: 2026-09-18
 updated: 2026-09-19
-version: 0.7.0
+version: 0.9.0
 ---
 
 # 执行记录 · GOAL-002
@@ -23,9 +23,11 @@ version: 0.7.0
 | E-007 | 2026-09-19 | 生成 P4 有界探索启动说明 | recorded | [`02-execution/E-007-bounded-exploration-brief.md`](02-execution/E-007-bounded-exploration-brief.md) |
 | E-008 | 2026-09-19 | 通知作品仓信息登记已接受并开放实际需求提交 | recorded | [`02-execution/E-008-notify-demand-submission.md`](02-execution/E-008-notify-demand-submission.md) |
 | E-009 | 2026-09-19 | 登记元规则环节真实需求并转入直属 draft 目标 | recorded | [`02-execution/E-009-meta-rule-demand-intake.md`](02-execution/E-009-meta-rule-demand-intake.md) |
+| E-010 | 2026-09-19 | 重分类 I-003 为 D1 探索目标 | recorded | [`02-execution/E-010-reclassify-i003-as-d1-target.md`](02-execution/E-010-reclassify-i003-as-d1-target.md) |
+| E-011 | 2026-09-19 | 登记 GOAL-003 的 D1 前置分析输入边界 | recorded | [`02-execution/E-011-accept-preparatory-analysis-input.md`](02-execution/E-011-accept-preparatory-analysis-input.md) |
 
 ## 事实边界
 
-只写已经发生且有证据的事实。截至 E-009，已收到并登记 book_green 的首轮提交；I-001、I-002、I-004、I-005 已标记 `verified`，I-003 仍为 `required/collecting`。在维护者选择方案 A 后，关于“元规则”环节的真实需求已按独立方法工程边界转入 Root 下的 `GOAL-003-outline-meta-rule-boundary-exploration` draft 目标；该转入不等于 I-003 verified、Root S1 通过或方法响应已开始。
+只写已经发生且有证据的事实。截至 E-011，已收到并登记 book_green 的首轮提交；I-001、I-002、I-004、I-005 已标记 `verified`，原 I-003 已重分类为 D1 探索目标。关于“元规则”环节的真实需求已按独立方法工程边界转入 Root 下的 `GOAL-003-outline-meta-rule-boundary-exploration`，并获准在 D1 探索未完成时开始 P2；VP-002 v0.3.0 进一步明确其有限前置分析可以作为 P4 的输入，但不替代 P4 的接受边界判断。D1 候选边界、真实作品证据和 Root S1 退出尚未形成或确认。
 
 > 后续每轮提交、审视和补充请求分别记录为可独立核对的 E 条目；计划、未知和建议留在决策或审计记录中。

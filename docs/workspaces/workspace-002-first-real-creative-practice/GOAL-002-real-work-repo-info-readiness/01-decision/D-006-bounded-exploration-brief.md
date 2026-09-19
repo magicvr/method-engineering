@@ -6,14 +6,15 @@ parent: GOAL-002-real-work-repo-info-readiness
 created: 2026-09-19
 updated: 2026-09-19
 version: 0.1.0
-delivery_status: ready-to-send
+delivery_status: superseded
+superseded_by: D-007-reclassify-i003-as-d1-target.md
 ---
 
 # D-006 · P4 有界接受条件定义探索启动说明
 
 - **日期**：2026-09-19
 - **状态**：accepted
-- **交付状态**：已生成、待发给 book_green；不表示已发送或探索已经开始。
+- **交付状态**：历史说明，已被 D-007 重分类决定 superseded；不表示已发送或探索已经开始。
 
 ## 可直接发送正文
 
@@ -31,6 +32,6 @@ delivery_status: ready-to-send
 
 ## 内部使用边界
 
-- 对应 Root I-003，当前状态继续为 `required/collecting`。
-- 本说明是 P4 的启动请求，不是 Root S1 通过证据，也不是方法响应授权。
+- 对应历史 Root I-003；按 D-007 后续重分类，它不再是当前 P-005 `required/collecting` 信息项，而是由 P4 承载的 D1 探索目标。
+- 本说明是历史 P4 启动请求，不是 Root S1 通过证据，也不是方法响应授权；当前解释以 D-007 和 VP-002 v0.3.0 为准。
 - 探索产出经 book_green 确认后，GOAL-002 才能整理 P5 信息就绪交接；若产出不符合 VP-002 终点，回流 `/vision`。

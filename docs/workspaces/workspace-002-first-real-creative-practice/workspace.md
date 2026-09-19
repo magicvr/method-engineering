@@ -11,7 +11,7 @@ primary_plan: VP-002-first-real-creative-practice
 parent: null
 created: 2026-09-18
 updated: 2026-09-19
-version: 0.3.0
+version: 0.5.0
 ---
 
 # 工作区上下文 · VP-002 首个真实创作实践
@@ -21,7 +21,7 @@ version: 0.3.0
 | 字段 | 当前值 | 说明 |
 |------|--------|------|
 | 工作区 ID | `workspace-002-first-real-creative-practice` | VP-002 的新实现工作区。 |
-| Root Goal | `GOAL-001-first-real-creative-practice` | 本区唯一 `parent: null` 的 Root；当前为 `draft`。 |
+| Root Goal | `GOAL-001-first-real-creative-practice` | 本区唯一 `parent: null` 的 Root；当前为 `active`，S1 尚未退出。 |
 | canonical 范围 | `docs/workspaces/workspace-002-first-real-creative-practice/` | 本区唯一的目标状态范围。 |
 | 共享资料目录 | `none` | 当前不声明共享资料引用；book_green 已提交首轮信息，但尚未按共享资料协议固定为本区资料。 |
 | 愿景角色 | `delivery` | 保留已归档 `workspace-001-method-engineering-runtime` 的历史 `primary` 声明。 |
@@ -41,4 +41,4 @@ version: 0.3.0
 
 ## 备注
 
-book_green 已提交首轮作品仓、当前版本、范围、责任与投入限额信息；I-001、I-002、I-004、I-005 已由首轮来源核对，I-003 按 VP-002 D1 有界探索继续收集。这些提交内容不把未知的接受条件或下一阶段伪装成已验证事实。维护者已接受一条关于“元规则”环节的独立方法需求，并在 Root 下建立 `GOAL-003-outline-meta-rule-boundary-exploration` draft 子目标；其执行仍等待 Root I-003/S1 门禁解除。
+book_green 已提交首轮作品仓、当前版本、范围、责任与投入限额信息；I-001、I-002、I-004、I-005 已由首轮来源核对。原 I-003 已重分类为 VP-002 D1 的探索目标，由 GOAL-002 P4 承载；其候选边界和作品证据尚未形成，但不再阻断 D1 探索或 GOAL-003 P2。维护者已接受一条关于“元规则”环节的独立方法需求，并将 `GOAL-003-outline-meta-rule-boundary-exploration` 转为 `active`，开始候选边界与方法分析。VP-002 v0.3.0 进一步明确：该阶段可以形成有限前置方法分析，但不得把它写成 D2 方法响应、真实试用或作品接受。这些事实不把未知的接受条件或下一阶段伪装成已验证结论。

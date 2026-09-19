@@ -3,8 +3,8 @@ doc_type: vision-consumer-checklist
 title: 愿景体系完整安装核对表
 status: active
 created: 2026-09-14
-updated: 2026-09-18
-version: 0.5.0
+updated: 2026-09-19
+version: 0.6.0
 parent: null
 ---
 
@@ -37,4 +37,4 @@ parent: null
 
 ## 当前结论
 
-当前已完成 Charter → VP → 工作区 + Root 的冷启动与实现链；VP-001 的 Root 已 `done` 且工作区已归档，VP-002 的 `delivery` 工作区与 `draft` Root 已建立。以上不表示 Charter 方向级成功边界、具体方法有效性或领域效果已经证明。条件性消费契约项仍按其适用条件处理。
+当前已完成 Charter → VP → 工作区 + Root 的冷启动与实现链；VP-001 的 Root 已 `done` 且工作区已归档，VP-002 的 `delivery` 工作区与 `active` Root 已建立，Root S1 尚未退出。以上不表示 Charter 方向级成功边界、具体方法有效性或领域效果已经证明。条件性消费契约项仍按其适用条件处理。

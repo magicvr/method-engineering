@@ -4,7 +4,7 @@ title: 愿景工作区贡献图
 status: active
 created: 2026-09-14
 updated: 2026-09-19
-version: 0.7.0
+version: 0.8.0
 parent: null
 ---
 
@@ -18,7 +18,7 @@ parent: null
 | workspace_id | root_goal | role | plan_refs | primary_plan | status | notes |
 |--------------|-----------|------|-----------|--------------|--------|-------|
 | `workspace-001-method-engineering-runtime` | `GOAL-001-method-engineering-runtime` | primary | `VP-001-demand-driven-method-engineering` | `VP-001-demand-driven-method-engineering` | archived | VP-001 的首个实现工作区；Root 与 VP 均已完成有界结项；按 alignment 保留 VP 的历史绑定，不接收新工作。 |
-| `workspace-002-first-real-creative-practice` | `GOAL-001-first-real-creative-practice` | delivery | `VP-002-first-real-creative-practice` | `VP-002-first-real-creative-practice` | active | VP-002 的新实现工作区；book_green 已提交首轮信息，I-003 进入 D1 有界接受条件定义探索，Root 当前仍为 `draft`。 |
+| `workspace-002-first-real-creative-practice` | `GOAL-001-first-real-creative-practice` | delivery | `VP-002-first-real-creative-practice` | `VP-002-first-real-creative-practice` | active | VP-002 的新实现工作区；book_green 已提交首轮信息，I-003 进入 D1 有界接受条件定义探索，Root 已 `active` 但 S1 尚未退出；VP-002 v0.3.0 允许 D1 有限前置方法分析。 |
 
 ## 约束
 

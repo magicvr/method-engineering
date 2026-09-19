@@ -2,9 +2,9 @@
 title: 项目愿景层说明
 status: active
 created: 2026-09-14
-updated: 2026-09-18
+updated: 2026-09-19
 parent: null
-version: 0.7.0
+version: 0.8.0
 ---
 
 # docs/vision · 项目愿景层
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-VP-001 已落盘并完成有界闭门；VP-002 已激活且 `vision_ref` 精确匹配现行 Charter。VP-002 的 `delivery` 工作区与 Root 已建立；下一步由 `/govern` 处理 Root 的 I-001～I-005 信息就绪门禁，真实作品仓确认后再推进 D1。
+VP-001 已落盘并完成有界闭门；VP-002 已激活且 `vision_ref` 精确匹配现行 Charter。VP-002 的 `delivery` 工作区与 Root 已建立，Root 已进入 `active` 但 S1 尚未退出；D1 接受边界探索仍由 `/govern` 推进，GOAL-003 的有限前置方法分析可作为探索输入，但不替代 D2 的真实方法响应与试用。
