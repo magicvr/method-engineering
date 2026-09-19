@@ -8,7 +8,7 @@ primary_plan: VP-002-first-real-creative-practice
 serves_summary: 将 VP-002 落地为一次有界的真实作品支持实践，跟随已接受的方法需求，支持作品方接受包含故事线规划且足以进入下一创作阶段的大纲。
 created: 2026-09-18
 updated: 2026-09-19
-version: 0.4.0
+version: 0.5.0
 ---
 
 # GOAL-001 · 支持首个真实作品完成故事线规划大纲
@@ -17,7 +17,7 @@ version: 0.4.0
 
 本 Root 承接 [`VP-002-first-real-creative-practice`](../../../vision/plans/VP-002-first-real-creative-practice.md)，目标是在 book_green 这一已提交但仍在核对的真实作品仓中，从作品真实状态出发，按 VP-001 已建立的需求驱动运行机制，支持作品方完成并接受一份包含故事线规划、足以进入其下一创作阶段的有界大纲成果。
 
-book_green 已提交首轮真实作品信息，但仍在 P3 核对中，因此本目标继续保持 `draft`。本 Root 不预先创建未来方法 Goal，不把作品仓自身的创作目标、方法运行记录和本仓 Goal 状态合并，也不把未知写成已经发生的作品事实。
+book_green 已提交首轮真实作品信息；GOAL-002 的 P2/P3 已完成，当前在 P4 有界接受条件定义探索中，I-003 仍未形成并获 book_green 确认的边界，因此本目标继续保持 `draft`。维护者已接受一条独立方法需求并建立直属 `GOAL-003-outline-meta-rule-boundary-exploration` draft 子目标，但其执行仍受 Root S1/I-003 门禁约束。本 Root 不把作品仓自身的创作目标、方法运行记录和本仓 Goal 状态合并，也不把未知写成已经发生的作品事实。
 
 ## 成功标准
 

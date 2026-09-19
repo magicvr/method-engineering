@@ -11,7 +11,7 @@ primary_plan: VP-002-first-real-creative-practice
 parent: null
 created: 2026-09-18
 updated: 2026-09-19
-version: 0.2.0
+version: 0.3.0
 ---
 
 # 工作区上下文 · VP-002 首个真实创作实践
@@ -41,4 +41,4 @@ version: 0.2.0
 
 ## 备注
 
-book_green 已提交首轮作品仓、当前版本、范围、责任与投入限额信息；I-001、I-002、I-004、I-005 已由首轮来源核对，I-003 按 VP-002 D1 有界探索继续收集。这些提交内容不把未知的接受条件或下一阶段伪装成已验证事实。
+book_green 已提交首轮作品仓、当前版本、范围、责任与投入限额信息；I-001、I-002、I-004、I-005 已由首轮来源核对，I-003 按 VP-002 D1 有界探索继续收集。这些提交内容不把未知的接受条件或下一阶段伪装成已验证事实。维护者已接受一条关于“元规则”环节的独立方法需求，并在 Root 下建立 `GOAL-003-outline-meta-rule-boundary-exploration` draft 子目标；其执行仍等待 Root I-003/S1 门禁解除。

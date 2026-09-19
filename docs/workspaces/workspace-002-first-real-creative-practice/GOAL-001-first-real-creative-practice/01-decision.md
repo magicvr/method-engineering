@@ -5,14 +5,14 @@ status: active
 parent: null
 created: 2026-09-18
 updated: 2026-09-19
-version: 0.4.0
+version: 0.5.0
 ---
 
 # 决策记录 · GOAL-001
 
 ## 纲领路线图与阶段计划
 
-Root 的纲领路线图位于 [`00-meta.md`](00-meta.md)，按 S1→S2→S3 串行推进。当前只记录开区结构与初始信息门禁，不预先建立具体需求 Goal。
+Root 的纲领路线图位于 [`00-meta.md`](00-meta.md)，按 S1→S2→S3 串行推进。具体需求 Goal 不批量预建；只有真实、已接受且具有独立方法工程边界的需求才在维护者裁决后建立直属 `draft` 子目标，并继续受阶段门禁约束。
 
 ## 信息需求与阶段门禁
 
@@ -26,3 +26,4 @@ Root 的纲领路线图位于 [`00-meta.md`](00-meta.md)，按 S1→S2→S3 串�
 | D-002 | 2026-09-18 | 将 Root S1 信息门禁收敛为最小真实运行集 | accepted | [`01-decision/D-002-minimal-runtime-gate.md`](01-decision/D-002-minimal-runtime-gate.md) |
 | D-003 | 2026-09-19 | 按 VP-002 重新对齐 I-003 的有界探索路径 | accepted | [`01-decision/D-003-bounded-acceptance-exploration.md`](01-decision/D-003-bounded-acceptance-exploration.md) |
 | D-004 | 2026-09-19 | 小波次最小真实需求提报协议 | accepted | [`01-decision/D-004-minimal-demand-submission-protocol.md`](01-decision/D-004-minimal-demand-submission-protocol.md) |
+| D-005 | 2026-09-19 | 接受元规则环节需求并建立 draft 子目标 | accepted | [`01-decision/D-005-accept-meta-rule-demand.md`](01-decision/D-005-accept-meta-rule-demand.md) |
