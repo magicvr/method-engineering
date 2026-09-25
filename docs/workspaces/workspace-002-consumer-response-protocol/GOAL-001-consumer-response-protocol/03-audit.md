@@ -5,12 +5,12 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.2.2
+version: 0.2.3
 ---
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件，当前开放 required findings 为 0。开区动作本身不构成协议质量的验证。
+本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件，A-006/A-007 新增 5 条开放 required findings（重叠问题不构成冲突）。开区动作本身不构成协议质量的验证。
 
 ## 信息就绪核对
 
@@ -34,9 +34,11 @@ version: 0.2.2
 | A-003 | 2026-09-25 | independent | R1 对 A-002 的整改复核 | fail | 0 | `03-audit/A-003-r1-remediation-rereview.md` |
 | A-004 | 2026-09-25 | independent | R1 最终整改独立复核 | conditional | 0 | `03-audit/A-004-r1-final-independent-review.md` |
 | A-005 | 2026-09-25 | self | R1 finding 闭合与阶段评估 | pass | 0 | `03-audit/A-005-r1-finding-closure.md` |
+| A-006 | 2026-09-25 | independent | R2 草稿语义、留存边界与试跑可执行性 | fail | 2 | [A-006](03-audit/A-006-r2-independent-draft-review.md) |
+| A-007 | 2026-09-25 | self | R2 草稿边界、记录位置及信息项连续性 | fail | 3 | [A-007](03-audit/A-007-r2-self-draft-review.md) |
 
 ## 结论状态
 
-- A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；没有开放 required 或 recommended finding。
-- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`，R2 进行中；此处只同步信息就绪状态，不新增 R2 审计结论。I-003 仍为 required/open，I-005 为 required/collecting，R3 未开始；R2 计划采用 cross 审计，尚未形成意见或 verdict。
+- A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
+- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`，R2 进行中；R2 草稿 cross 意见已登记为 A-006/A-007，均为 fail。I-003 仍为 required/open，I-005 为 required/collecting，R3 未开始；R2 有 5 条开放 required 条目（A-006 F-001/F-002、A-007 F-001/F-002/F-003），未闭合前不得放行相应阶段；运行记录位置等待用户裁决。I-005 复用问题见 A-007 F-003，尚未整改。
 - 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。
