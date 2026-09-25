@@ -5,12 +5,12 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.2.0
+version: 0.2.1
 ---
 
 # 执行记录 · GOAL-001
 
-本文件是 Root 的执行索引；新增事实按 `02-execution/E-NNN-*.md` 平铺记录。E-001 记录开区；E-002 记录 R1 语义实施与冻结 checkpoint；E-003/E-004 记录 A-002/A-003 及整改；E-005 记录 A-004、finding 闭合与 R1 阶段评估；E-006/E-007 记录候选仓库、操作权限说明与剩余确认项。R1 已完成，R2 尚未开始。
+本文件是 Root 的执行索引；新增事实按 `02-execution/E-NNN-*.md` 平铺记录。E-001 记录开区；E-002 记录 R1 语义实施与冻结 checkpoint；E-003/E-004 记录 A-002/A-003 及整改；E-005 记录 A-004、finding 闭合与 R1 阶段评估；E-006/E-007 记录候选仓库、操作权限说明与剩余确认项。E-008 记录参与、授权与最小留存确认及本地克隆检查。R1 已完成，R2 进行中。
 
 ## 事实索引
 
@@ -23,10 +23,11 @@ version: 0.2.0
 | E-005 | 2026-09-25 | R1 finding 闭合与阶段通过 | `02-execution/E-005-r1-stage-closure.md` |
 | E-006 | 2026-09-25 | R2 候选项目待确认 | `02-execution/E-006-r2-candidate-submitted.md` |
 | E-007 | 2026-09-25 | R2 候选仓库与授权边界待确认 | `02-execution/E-007-r2-candidate-and-access-scope.md` |
+| E-008 | 2026-09-25 | R2 参与授权确认与就绪门禁 | [E-008](02-execution/E-008-r2-readiness.md) |
 
 ## 当前状态
 
 - Root `status: active`、`progress: 33%`（R1 已完成 1 / 3 个纲领阶段）。
 - R1 用户确认的语义边界已写入 D-002 和 `runtime-records/README.md`；A-004 independent 复核确认 A-002 的三项修正，A-005 逐项以 `fixed` 闭合，I-004 为 `verified`，R1 阶段通过。
-- 用户确认候选仓库为 `https://github.com/magicvr/WorldModel.ModernCultivation`，称仓库维护人与本仓维护人相同且可授权操作所有文件。I-001/I-002 均在 `collecting`，实际试跑参与人/同意、信息记录与脱敏范围仍待确认；I-003/I-005 为 `open`。R2/R3 尚未启动。
+- 用户已确认本人作为真实消费方/实践方参与，授权操作试跑仓库所有文件，并确认本仓最小留存边界；本地克隆的只读检查结果见 E-008。I-001/I-002 为 `verified`，R2 进行中；协议说明承载位置待用户选择。I-003/I-005 为 `open`，尚无真实需求或试跑事实，R3 未开始。
 - E-001 的既有 checkpoint 为 `b3f7bb9cfc9c77217b71f6bab1006d1230406ef3`；R1 语义冻结 checkpoint 为 `7014f24321656e58d1a96f583dc81c8a4f2d2237`；A-002 响应 checkpoint 为 `84e9f9226aac4914d57f7ae4dfb1ed9bd3b10649`；R1 阶段闭合事实见 E-005 与 A-005，本次状态变更通过 Git checkpoint 留痕。
