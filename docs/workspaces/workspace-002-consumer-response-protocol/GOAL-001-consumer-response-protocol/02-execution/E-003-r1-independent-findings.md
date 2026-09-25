@@ -24,4 +24,4 @@ version: 0.1.0
 
 ### Git checkpoint
 
-A-002 与本轮整改变更完成后，以显式 owned paths 创建 checkpoint；hash 于提交后补录。该提交不代表 A-002 findings 已闭合，也不放行 R1。
+A-002 响应与本轮整改 checkpoint：`84e9f9226aac4914d57f7ae4dfb1ed9bd3b10649`。该提交记录对 A-002 的响应，不关闭任何 finding，也不放行 R1。
