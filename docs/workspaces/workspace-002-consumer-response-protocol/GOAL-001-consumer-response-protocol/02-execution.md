@@ -1,25 +1,27 @@
 ---
 id: GOAL-001-consumer-response-protocol
 doc: execution
-status: draft
+status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 执行记录 · GOAL-001
 
-本文件是 Root 的执行索引；新增事实按 `02-execution/E-NNN-*.md` 平铺记录。当前只有开区事实 E-001；R1 尚未启动，不存在协议冻结、试跑或交付事实。
+本文件是 Root 的执行索引；新增事实按 `02-execution/E-NNN-*.md` 平铺记录。E-001 记录开区；E-002 记录 R1 语义实施启动与本轮 checkpoint。R1 独立交叉审计尚待完成。
 
 ## 事实索引
 
 | E-ID | 日期 | 标题 | 文件 |
 |------|------|------|------|
 | E-001 | 2026-09-25 | 工作区与 Root 开设、VP-002 激活及收尾 checkpoint | `02-execution/E-001-workspace-open.md` |
+| E-002 | 2026-09-25 | R1 运行主记录语义实施 | `02-execution/E-002-r1-record-semantics.md` |
 
 ## 当前状态
 
-- Root `status: draft`、`progress: 0%`（R1/R2/R3 均未开始）。
-- 无阶段实施事实；I-001～I-005 均为 `open`（详见 `00-meta.md`）。
-- Git checkpoint：本轮收尾提交一次（hash 按本仓既有做法于下一轮补录）。
+- Root `status: active`、`progress: 0%`（R1 进行中，R1/R2/R3 尚无已完成检查点）。
+- R1 用户确认的语义边界已写入 D-002 和 `runtime-records/README.md`；self A-001 核验 I-004 为 `verified`，R1 仍待独立交叉审计。
+- I-001/I-002/I-003/I-005 仍 `open`；R2/R3 外部参与方、授权和真实需求门禁未放行。
+- E-001 的既有 checkpoint 为 `b3f7bb9cfc9c77217b71f6bab1006d1230406ef3`；本轮 R1 checkpoint 将在提交后补录。

@@ -1,11 +1,11 @@
 ---
 id: GOAL-001-consumer-response-protocol
 doc: decision
-status: draft
+status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 决策记录 · GOAL-001
@@ -18,7 +18,7 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 
 | 阶段 | 计划 / 承接目标 | 说明 |
 |------|-----------------|------|
-| R1 | `01-decision/D-001-bootstrap-scope.md`；I-004 | 冻结双向协议语义与项目根 `runtime-records` 单一主记录的衔接方式；先确定实施前审计模式。 |
+| R1 | `01-decision/D-001-bootstrap-scope.md`、`01-decision/D-002-runtime-record-boundary.md`；I-004 | 冻结双向协议语义与项目根 `runtime-records` 单一主记录的衔接方式；按 P-003 对协议语义采用 `cross` 审计。 |
 | R2 | 待 R1 退出后登记 | 落盘消费方可照做的协议说明，并完成真实下游实践方、试跑仓库、责任人及授权确认（I-001/I-002）。 |
 | R3 | 待 R2 退出后登记 | 对一条真实且获授权处理的需求执行端到端试跑（I-003），修正歧义或登记有界 residual，形成 VP-002 关门证据。 |
 
@@ -38,3 +38,4 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | D-001 | 2026-09-25 | 工作区开设边界、Root 纲领路线图与 vision primary 转移 | accepted | `01-decision/D-001-bootstrap-scope.md` |
+| D-002 | 2026-09-25 | 运行主记录生命周期边界与不受理终态 | accepted | `01-decision/D-002-runtime-record-boundary.md` |

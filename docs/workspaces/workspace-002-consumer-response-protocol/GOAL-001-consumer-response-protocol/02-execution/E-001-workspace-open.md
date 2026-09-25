@@ -35,4 +35,4 @@ version: 0.1.0
 
 ### Git checkpoint
 
-本轮收尾对显式 owned paths 执行一次提交（`docs/vision/*` 与本工作区路径）。按本仓既有做法，commit hash 于下一轮以补录方式写入本条目；提交本身不替代审计、验收或信息门禁结论。
+本轮收尾对显式 owned paths 执行一次提交（`docs/vision/*` 与本工作区路径），commit `b3f7bb9cfc9c77217b71f6bab1006d1230406ef3`（`docs(vision): 激活 VP-002 并开设 workspace-002 工作区`）。提交本身不替代审计、验收或信息门禁结论。

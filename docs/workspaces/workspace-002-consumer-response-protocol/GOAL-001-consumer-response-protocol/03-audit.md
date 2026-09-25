@@ -1,11 +1,11 @@
 ---
 id: GOAL-001-consumer-response-protocol
 doc: audit
-status: draft
+status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 审计 · GOAL-001
@@ -19,17 +19,17 @@ version: 0.1.0
 | I-001：真实实践方 / 试跑仓库 / 责任人 | open | R2 启动前的 required 门禁；尚未指定，不得以假定参与方推进。 |
 | I-002：使用记录授权与敏感信息边界 | open | R2 启动前的 required 门禁；未确认前不得收集或落盘参与方材料。 |
 | I-003：一条真实且获授权的需求 | open | R3 试跑与 VP-002 关门证据前的 required 门禁；模拟需求不可替代。 |
-| I-004：协议语义与 `runtime-records` 衔接 | open | 阻塞 R1 方案冻结；须核对不产生第二状态源。 |
+| I-004：协议语义与 `runtime-records` 衔接 | verified | self A-001 已核对用户裁决、运行说明及单一状态来源；R1 阶段仍等待独立交叉审计。 |
 | I-005：协议说明物理承载形式 | open（non-blocking） | 不阻断 R1 语义冻结。 |
 | 共享资料引用 | 无 | 工作区 `shared_materials_catalog: none`。 |
 | 相关 Vision Review required | 已关闭 | `reviews.md` 当前 `open required: 0`；VRev-003 三条 recommended 已由 `/vision` 记为 `fixed`。 |
-| 实施前审计模式 | 未确定 | 用户须在 R1 实施前确认模式（初步建议 `cross`）与 independent provider。 |
+| R1 审计模式 / provider | cross / 已指定 | self + 上下文独立 Codex Reviewer 子代理；本地 `reviewer.toml` 的 sandbox / developer instructions 无法由当前派发接口完整传入，已如实记录该限制。 |
 
 ## 意见台账索引
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |------|------|--------|-------|---------|---------------|------|
-| — | — | — | — | — | — | 尚未产生正式审计意见。 |
+| A-001 | 2026-09-25 | self | R1 运行记录语义 | pass | 0 | `03-audit/A-001-r1-self-review.md` |
 
 ## 结论状态
 
