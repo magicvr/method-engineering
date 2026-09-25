@@ -16,7 +16,7 @@ version: 0.2.0
 
 | 核对项 | 状态 | 备注 |
 |--------|------|------|
-| I-001：真实实践方 / 试跑仓库 / 责任人 | open | R2 启动前的 required 门禁；尚未指定，不得以假定参与方推进。 |
+| I-001：真实实践方 / 试跑仓库 / 责任人 | collecting | 用户给出候选项目 `magicvr/WorldModel.ModernCultivation`；真实实践关系、参与方与责任联系人未确认，仍阻断 R2 启动。 |
 | I-002：使用记录授权与敏感信息边界 | open | R2 启动前的 required 门禁；未确认前不得收集或落盘参与方材料。 |
 | I-003：一条真实且获授权的需求 | open | R3 试跑与 VP-002 关门证据前的 required 门禁；模拟需求不可替代。 |
 | I-004：协议语义与 `runtime-records` 衔接 | verified | A-004 independent 复核通过整改证据；A-005 已合法闭合 A-002 的 F-001～F-003。 |
