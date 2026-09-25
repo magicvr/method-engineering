@@ -4,13 +4,13 @@ doc: audit
 status: active
 parent: null
 created: 2026-09-25
-updated: 2026-09-25
-version: 0.2.4
+updated: 2026-09-26
+version: 0.2.5
 ---
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件，A-006/A-007 新增 5 条开放 required findings（重叠问题不构成冲突）。开区动作本身不构成协议质量的验证。
+本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-006/A-007 原有 5 条 required finding 已有文档整改、尚待编排器正式闭合；A-008 新增 1 条 required finding。开区动作本身不构成协议质量的验证。
 
 ## 信息就绪核对
 
@@ -37,9 +37,10 @@ version: 0.2.4
 | A-005 | 2026-09-25 | self | R1 finding 闭合与阶段评估 | pass | 0 | `03-audit/A-005-r1-finding-closure.md` |
 | A-006 | 2026-09-25 | independent | R2 草稿语义、留存边界与试跑可执行性 | fail | 2 | [A-006](03-audit/A-006-r2-independent-draft-review.md) |
 | A-007 | 2026-09-25 | self | R2 草稿边界、记录位置及信息项连续性 | fail | 3 | [A-007](03-audit/A-007-r2-self-draft-review.md) |
+| A-008 | 2026-09-26 | independent | R2 整改复审、信号登记与处理授权时序 | fail | 1 | [A-008](03-audit/A-008-r2-remediation-rereview.md) |
 
 ## 结论状态
 
 - A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
-- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`，R2 进行中；R2 草稿 cross 意见已登记为 A-006/A-007，均为 fail。I-003 仍为 required/open，I-005 为 non-blocking/open，I-006 为 required/collecting，R3 未开始；R2 有 5 条开放 required 条目（A-006 F-001/F-002、A-007 F-001/F-002/F-003），未闭合前不得放行相应阶段；运行记录位置已由用户选定 method-engineering 根 runtime-records（D-004），I-005 复用问题已按 I-005/I-006 分离修正文档（E-012）；上述修正仍待后续响应与复审，不在本次关闭 findings。
+- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`，R2 进行中；R2 意见 A-006/A-007/A-008 均为 fail。A-006 F-001/F-002 与 A-007 F-003 的文档整改已由 A-008 核对，尚待编排器正式响应闭合；A-006/A-007 共 5 条历史 required finding 尚未正式闭合。A-008 F-001 是新增开放 required finding，故当前共 6 条开放 required finding，R2 不得放行。I-003 仍为 required/open，I-005 为 non-blocking/open，I-006 为 required/collecting，R3 未开始；运行记录位置已由用户选定 method-engineering 根 runtime-records（D-004），I-005 复用问题已按 I-005/I-006 分离修正文档（E-012）。
 - 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。
