@@ -6,7 +6,7 @@ status: accepted
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## D-003 · 协议指南生命周期与关门前升格
@@ -24,6 +24,10 @@ version: 0.1.0
 3. R3 试跑验收与指南验证完成后，提出一个具体本仓共享运行文档路径及迁移、引用核对方案，由用户确认，再升格唯一权威全文；此项必须在 Root 关门前完成。当前不选定或创建最终路径。
 4. 升格后保留工作区决策、执行、审计作为治理证据，工作区以引用指向共享全文，不保留两份可编辑全文；运行状态继续以既有 `runtime-records` 单一主记录为准。
 5. I-005 从 non-blocking/open 调整为 required/collecting，最晚门禁为 R3 升格、Root 关门前。归属与时点已确认不等于共享路径或迁移结果已验证。I-003 仍为 required/open。
+
+### 信息项编号勘误（2026-09-25）
+
+上文第 5 项是原决定时的编号登记，现由 [D-004](D-004-trial-runtime-record-host.md) 纠正：指南共享路径与单一来源升格使用新信息项 I-006（required/collecting）；I-005 恢复为 D-002 第 5、11 项的运行记录物理细节（non-blocking/open）。本决定的指南生命周期、用户裁决和 R3 验证后、Root 关门前升格时点继续有效。此前将升格指向 I-005 的登记不再作为当前门禁依据。
 
 ### 未采用方案与范围限制
 
