@@ -2,9 +2,9 @@
 title: 项目愿景层说明
 status: active
 created: 2026-09-14
-updated: 2026-09-18
+updated: 2026-09-25
 parent: null
-version: 0.6.0
+version: 0.6.2
 ---
 
 # docs/vision · 项目愿景层
@@ -15,9 +15,9 @@ version: 0.6.0
 
 - **现行 Charter**：[`charter.md`](charter.md)，`method-engineering@0.1.0`，`status: active`
 - **Vision Review**：[`reviews.md`](reviews.md)；当前 `open required: 0`
-- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`（有界闭门）
-- **组合编排 / 路线图设计**：已登记首个 VP；实现层 Root 已建立三阶段纲领路线图
-- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档；VP/Root 证据保留在其历史绑定中
+- **VP**：[`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md)，`status: closed`；[`VP-002-consumer-demand-response-protocol`](plans/VP-002-consumer-demand-response-protocol.md)，`status: active`（2026-09-25 激活），已绑定 `workspace-002-consumer-response-protocol`
+- **组合编排 / 路线图设计**：VP-002 是 VP-001 的后继补充规划；VP-001 的实现层 Root 已完成三阶段纲领路线图并结项，VP-002 的 R1–R3 实现层路线图位于其 Root
+- **工作区**：[`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 已归档（`delivery`）；[`workspace-002-consumer-response-protocol`](../workspaces/workspace-002-consumer-response-protocol/workspace.md) 为当前唯一 `primary`
 
 ## 文件角色
 
@@ -26,7 +26,7 @@ version: 0.6.0
 | `alignment.md` | 愿景对齐契约与门禁（规则权威） |
 | `charter.md` | 项目唯一 active Charter；对齐链源头 |
 | `roadmap.md` | 愿景级组合编排索引，不是目标层纲领路线图 |
-| `plans/VP-*.md` | 已确认并落盘的愿景意图；当前为 VP-001 |
+| `plans/VP-*.md` | 已确认并落盘的愿景意图；当前包括 VP-001 与 VP-002 |
 | `revisions.md` | Charter `VR-NNN` 修订台账 |
 | `reviews.md` | Vision Review 稳定索引 |
 | `reviews/VRev-NNN-*.md` | 单条 self / independent Vision Review 报告 |
@@ -48,4 +48,4 @@ Charter → VP → 工作区 + Root → 纲领路线图 → 阶段计划 → 子
 
 ## 下一步
 
-VP-001 已落盘且 `vision_ref` 精确匹配现行 Charter。`/govern` 已建立明确命名的工作区并绑定 `primary_plan`；后续实现层工作应在该区 Root 内按 S1–S3 路线图推进。
+VP-001 已 `closed`，其实现工作区已归档。VP-002 已于 2026-09-25 按用户指令激活为 `active`，并由 `/govern` 开设其 `primary` 工作区 `workspace-002-consumer-response-protocol` 与 Root `GOAL-001-consumer-response-protocol`（R1–R3 纲领路线图与 P-005 信息项在工作区内）。开区不等于已具备试跑条件：启动真实试跑前仍须确认下游实践方、试跑仓库、真实需求及参与授权。下一步交 `/govern` 推进 R1。

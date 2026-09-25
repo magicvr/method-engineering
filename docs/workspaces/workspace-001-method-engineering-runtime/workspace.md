@@ -5,13 +5,13 @@ status: archived
 root_goal: GOAL-001-method-engineering-runtime
 canonical_scope: docs/workspaces/workspace-001-method-engineering-runtime/
 shared_materials_catalog: none
-vision_role: primary
+vision_role: delivery
 plan_refs: VP-001-demand-driven-method-engineering
 primary_plan: VP-001-demand-driven-method-engineering
 parent: null
 created: 2026-09-18
-updated: 2026-09-18
-version: 0.6.0
+updated: 2026-09-25
+version: 0.6.1
 ---
 
 # 工作区上下文 · Method Engineering 最小运行机制
@@ -24,7 +24,7 @@ version: 0.6.0
 | Root Goal | `GOAL-001-method-engineering-runtime` | 本区唯一 `parent: null` 的 Root。 |
 | canonical 范围 | `docs/workspaces/workspace-001-method-engineering-runtime/` | 本区唯一目标状态范围。 |
 | 共享资料目录 | `none` | 当前工作区不声明共享资料引用。 |
-| 愿景角色 | `primary` | 当前为 VP-001 的首个、唯一实现工作区。 |
+| 愿景角色 | `delivery` | 本区为 VP-001 的历史绑定，已归档；2026-09-25 起 vision 层 `primary` 转移至 `workspace-002-consumer-response-protocol`（`VR-004`）。 |
 | 规划对齐 | `VP-001-demand-driven-method-engineering` | 同时作为 `plan_refs` 与 `primary_plan`。 |
 
 ## 愿景对齐
@@ -43,4 +43,4 @@ version: 0.6.0
 
 ## 备注
 
-本工作区已完成其建立交互规则的职责；S1/S2/S3、Root 整体 close-out 与 VP-001 有界 close-out 均已完成，当前工作区只保存治理与交互规则的历史上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；workspace-001 现为 `archived`，不接收新工作。Root 与 VP-001 的完成不表示 Charter 方向级成功边界或任何具体方法已被验证。
+本工作区已完成其建立交互规则的职责；S1/S2/S3、Root 整体 close-out 与 VP-001 有界 close-out 均已完成，当前工作区只保存治理与交互规则的历史上下文。整个消费仓的运行记录承载位于项目根 `runtime-records/`，不属于本工作区的生命周期；workspace-001 现为 `archived`，不接收新工作。Root 与 VP-001 的完成不表示 Charter 方向级成功边界或任何具体方法已被验证。本区保留的历史 `primary` 事实记录在其目标与 VP-001 证据中；角色字段自 2026-09-25 起为 `delivery`，以使 vision 层唯一 `primary` 指向实际承载现行 active VP 的工作区。

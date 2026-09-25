@@ -3,13 +3,16 @@ doc_type: vision-plans-index
 title: 愿景规划目录说明
 status: active
 created: 2026-09-14
-updated: 2026-09-18
+updated: 2026-09-25
 parent: null
-version: 0.2.0
+version: 0.3.1
 ---
 
 # 愿景规划目录
 
-本目录保存已确认并落盘的 `VP-NNN-<slug>.md` 意图文件。当前首个规划为 [`VP-001-demand-driven-method-engineering.md`](VP-001-demand-driven-method-engineering.md)。
+本目录保存已确认并落盘的 `VP-NNN-<slug>.md` 意图文件：
 
-VP 文件存在后，仍须等用户明确启动实现层，再由 `/govern` 建立工作区并将规划文件用作 `primary_plan`。
+- [`VP-001-demand-driven-method-engineering.md`](VP-001-demand-driven-method-engineering.md)：需求驱动的方法工程最小运行机制，已完成有界闭门。
+- [`VP-002-consumer-demand-response-protocol.md`](VP-002-consumer-demand-response-protocol.md)：消费方与方法工程双向需求—响应协议，2026-09-25 激活为 `active`，已绑定 `workspace-002-consumer-response-protocol`。
+
+VP 文件存在后，仍须等用户明确启动实现层，再由 `/govern` 建立工作区并将规划文件用作 `primary_plan`；VP-002 已按该顺序挂接其实现工作区。
