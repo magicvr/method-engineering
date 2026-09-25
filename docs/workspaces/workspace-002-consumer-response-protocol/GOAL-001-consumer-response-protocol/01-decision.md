@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.2.1
+version: 0.2.2
 ---
 
 # 决策记录 · GOAL-001
@@ -19,8 +19,8 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | 阶段 | 计划 / 承接目标 | 说明 |
 |------|-----------------|------|
 | R1 | `01-decision/D-001-bootstrap-scope.md`、`01-decision/D-002-runtime-record-boundary.md`；I-004 | 冻结双向协议语义与项目根 `runtime-records` 单一主记录的衔接方式；按 P-003 对协议语义采用 `cross` 审计。 |
-| R2 | 进行中；[E-008](02-execution/E-008-r2-readiness.md)；I-001/I-002 verified | 参与、仓库、责任人、授权与最小留存边界已确认；下一步等待用户选择协议说明承载位置，再形成说明并取得消费方可读可执行确认。 |
-| R3 | 待 R2 退出后登记 | 对一条真实且获授权处理的需求执行端到端试跑（I-003），修正歧义或登记有界 residual，形成 VP-002 关门证据。 |
+| R2 | 进行中；[E-008](02-execution/E-008-r2-readiness.md)；I-001/I-002 verified | 参与、仓库、责任人、授权与最小留存边界已确认；按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md) 在 `attachments/consumer-response-protocol.md` 编写唯一草稿，完成 self + independent Reviewer cross 审计，再取得消费方可读可执行确认；尚未实施或出具审计结论。 |
+| R3 | 待 R2 退出后登记 | 对一条真实且获授权处理的需求执行端到端试跑（I-003），修正歧义或登记有界 residual，试跑验收与指南验证后提出具体共享路径迁移方案，取得用户裁决并完成唯一全文升格和引用核对（I-005），在 Root 关门前形成 VP-002 关门证据；审计模式待真实需求范围明确后重新判定。 |
 
 ## 信息需求与阶段门禁
 
@@ -31,7 +31,7 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | R1 方案冻结前 | I-004（协议语义与运行记录衔接） | verified |
 | R2 启动前 | I-001（实践方/试跑仓库/责任人）、I-002（授权与敏感信息边界） | verified；证据见 E-008 |
 | R3 试跑与 VP-002 关门证据前 | I-003（一条真实且获授权的需求） | open |
-| 非阻断 | I-005（协议说明物理承载形式） | open |
+| R3 试跑验收与指南验证后、Root 关门前 | I-005（指南共享路径与单一来源升格） | required / collecting；最终路径待用户裁决，升格尚未执行 |
 
 ## 决策索引
 
@@ -39,3 +39,4 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 |------|------|------|------|------|
 | D-001 | 2026-09-25 | 工作区开设边界、Root 纲领路线图与 vision primary 转移 | accepted | `01-decision/D-001-bootstrap-scope.md` |
 | D-002 | 2026-09-25 | 运行主记录生命周期边界与不受理终态 | accepted | `01-decision/D-002-runtime-record-boundary.md` |
+| D-003 | 2026-09-25 | 协议指南生命周期与关门前升格 | accepted | [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md) |
