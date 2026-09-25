@@ -19,7 +19,7 @@ version: 0.2.0
 GOAL-001-consumer-response-protocol [active] 落地消费方需求—响应协议并完成真实端到端试跑 · progress 33%
 ```
 
-Root 的 P-001 纲领路线图为：R1 冻结协议语义与运行记录衔接（已完成） → R2 形成消费方可执行协议说明并完成真实消费仓与真实需求授权准备（未开始） → R3 执行并审视真实端到端试跑（未开始）。R1–R3 串行。I-004 已由 A-004 independent 复核、A-005 self 闭合为 `verified`；A-002 F-001～F-003 均已以 `fixed` 合法闭合。Root 仍为 `active`、progress 33%。用户提供候选项目 `magicvr/WorldModel.ModernCultivation`，I-001 正在收集参与方/责任人确认；I-002 授权边界仍待确认，R2/R3 尚未启动。
+Root 的 P-001 纲领路线图为：R1 冻结协议语义与运行记录衔接（已完成） → R2 形成消费方可执行协议说明并完成真实消费仓与真实需求授权准备（未开始） → R3 执行并审视真实端到端试跑（未开始）。R1–R3 串行。I-004 已由 A-004 independent 复核、A-005 self 闭合为 `verified`；A-002 F-001～F-003 均已以 `fixed` 合法闭合。Root 仍为 `active`、progress 33%。候选仓库为 `https://github.com/magicvr/WorldModel.ModernCultivation`，I-001/I-002 正收集参与/授权与记录边界信息，R2/R3 尚未启动。
 
 ## 状态表
 
