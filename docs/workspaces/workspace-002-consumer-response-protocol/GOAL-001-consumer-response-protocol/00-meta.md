@@ -9,7 +9,7 @@ serves_summary: 将 VP-002 的双向需求—响应意图落地为消费方可�
 created: 2026-09-25
 updated: 2026-09-25
 version: 0.2.0
-progress: 0%
+progress: 33%
 ---
 
 # GOAL-001 · 落地消费方需求—响应协议并完成真实端到端试跑
@@ -33,7 +33,7 @@ progress: 0%
 
 | 阶段 | 名称 | 状态 | 退出条件 |
 |------|------|------|----------|
-| **R1** | 冻结协议语义与运行记录衔接 | 进行中 | 双向协议语义（回执、澄清、受理/不受理、边界与限额、状态沟通、范围变化、退出、交付/收件/验收/异议区分、反馈分类与新需求重入）与 VP-001 的运行记录语义衔接方式冻结并落盘；I-004 经 self + independent 核验为 `verified`；相关 required finding 为 0。 |
+| **R1** | 冻结协议语义与运行记录衔接 | 已完成 | 双向协议语义（回执、澄清、受理/不受理、边界与限额、状态沟通、范围变化、退出、交付/收件/验收/异议区分、反馈分类与新需求重入）与 VP-001 的运行记录语义衔接方式冻结并落盘；I-004 经 self + independent 核验为 `verified`；相关 required finding 为 0。 |
 | **R2** | 形成消费方可执行的协议说明并完成试跑准备 | 未开始 | 消费方可直接照做的协议说明落盘，并由目标消费方确认可读可执行；真实下游实践方、试跑仓库、参与责任人及其使用/记录与敏感信息处理授权确认完毕；I-001/I-002 `verified`。 |
 | **R3** | 执行并审视真实端到端试跑 | 未开始 | 在真实试跑仓库中对一条真实且获授权处理的需求完成端到端试跑，取得消费方收件回执与验收或具体异议；歧义已修正或列为有界 residual；I-003 `verified`；形成可支撑 VP-002 关门的工作区证据链。 |
 
@@ -41,7 +41,7 @@ R1 → R2 → R3 串行：协议语义未冻结前不形成对外说明；试跑
 
 ## 派生进度展示
 
-`progress: 0%` 由上方 3 个纲领阶段等权计算（已完成 0 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁，也不自动推导 `status: done`。Root 状态变更依据阶段退出条件与审计证据，不由 progress 单独推导。
+`progress: 33%` 由上方 3 个纲领阶段等权计算（已完成 1 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁，也不自动推导 `status: done`。Root 状态变更依据阶段退出条件与审计证据，不由 progress 单独推导。
 
 ## 信息就绪与未知项
 
@@ -50,7 +50,7 @@ R1 → R2 → R3 串行：协议语义未冻结前不形成对外说明；试跑
 | I-001 | required | 真实下游实践方是谁、其真实实践所用的试跑仓库是哪一个、参与责任人如何确认协作与责任边界。 | R2 启动（试跑准备与授权） | R2 | 由用户指定候选方，取得对方对参与、试跑仓库与责任人的明确确认后落盘。 | open | 尚未指定；无延期申请。 | 待确认 |
 | I-002 | required | 试跑所需的使用/记录授权边界与敏感信息处理约定（可记录哪些内容、如何脱敏、保留何种可核对依据）。 | R2 启动、R3 证据落盘 | R2 | 与方法工程一侧及消费方共同确认授权范围与脱敏规则，并落盘为可引用的约定。 | open | 尚未确认；无延期申请。 | 待确认 |
 | I-003 | required | 至少一条符合条件的真实方法需求及其来源、追踪信息、受理/授权状态。 | R3 试跑、VP-002 关门证据 | R3 | 在已授权范围内由消费方提出或转述一条真实需求，按协议登记并取得处理授权。 | open | 尚未获得；不得以模拟需求替代。 | 待确认 |
-| I-004 | required | 双向协议语义（回执、澄清、受理/不受理、边界、交付/收件/验收/异议区分、反馈分类与重入）与项目根 `runtime-records` 单一主记录及事件追踪的具体衔接表达。 | R1 方案冻结 | R1 | 将经用户确认的生命周期边界映射到 `runtime-records/README.md`，由 self + independent 复核语义不产生第二状态源，且所有相关 required findings 合法闭合。 | collecting | A-001 self 意见已记录；A-003 对 A-002 整改复核为 fail；F-001/F-002 实质修正但待编排器闭合响应，F-003 整改与后续独立复核未完成；三项均正式开放。 | `01-decision/D-002-runtime-record-boundary.md`；`runtime-records/README.md`；`03-audit/A-001-r1-self-review.md`；`03-audit/A-002-r1-independent-review.md`；`03-audit/A-003-r1-remediation-rereview.md`；`02-execution/E-004-r1-remediation-rereview.md` |
+| I-004 | required | 双向协议语义（回执、澄清、受理/不受理、边界、交付/收件/验收/异议区分、反馈分类与重入）与项目根 `runtime-records` 单一主记录及事件追踪的具体衔接表达。 | R1 方案冻结 | R1 | 将经用户确认的生命周期边界映射到 `runtime-records/README.md`，由 self + independent 复核语义不产生第二状态源，且所有相关 required findings 合法闭合。 | verified | A-004 independent 复核确认 A-002 F-001～F-003 的文档修正；A-005 已逐项以 fixed 合法闭合，I-004 证据与当前摘要一致。 | `01-decision/D-002-runtime-record-boundary.md`；`runtime-records/README.md`；`03-audit/A-001-r1-self-review.md`；`03-audit/A-002-r1-independent-review.md`；`03-audit/A-003-r1-remediation-rereview.md`；`03-audit/A-004-r1-final-independent-review.md`；`03-audit/A-005-r1-finding-closure.md` |
 | I-005 | non-blocking | 协议说明的物理承载形式（目录位置、模板、字段、消息工具等）。 | 实施便利性 | R1 之后 | 由 R1 冻结的协议责任反推最小承载，不预先冻结字段或工具。 | open | 非阻断；若长期无结论不阻碍 R1 语义冻结。 | 待确认 |
 
 > 本表只登记已识别的未知与门禁；未获 `verified` 或用户书面接受的 `accepted-residual` 前，不得把上述项目写成已确认事实。到达最晚需要阶段仍为 `open` 的 required 项按 P-005 阻断对应门禁。

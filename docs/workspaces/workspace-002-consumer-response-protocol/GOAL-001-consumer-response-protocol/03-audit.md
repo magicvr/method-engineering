@@ -10,7 +10,7 @@ version: 0.2.0
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001 是历史 self pass；A-002 与整改复核 A-003 均为 R1 independent fail，当前仍有 3 项开放 required findings（A-003 未新增）。开区动作本身不构成协议质量的验证。
+本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件，当前开放 required findings 为 0。开区动作本身不构成协议质量的验证。
 
 ## 信息就绪核对
 
@@ -19,7 +19,7 @@ version: 0.2.0
 | I-001：真实实践方 / 试跑仓库 / 责任人 | open | R2 启动前的 required 门禁；尚未指定，不得以假定参与方推进。 |
 | I-002：使用记录授权与敏感信息边界 | open | R2 启动前的 required 门禁；未确认前不得收集或落盘参与方材料。 |
 | I-003：一条真实且获授权的需求 | open | R3 试跑与 VP-002 关门证据前的 required 门禁；模拟需求不可替代。 |
-| I-004：协议语义与 `runtime-records` 衔接 | collecting | self A-001 已核对；independent A-002 发现必改问题；A-003 确认 F-001/F-002 实质修正、待闭合响应，F-003 整改与后续复核未完成。 |
+| I-004：协议语义与 `runtime-records` 衔接 | verified | A-004 independent 复核通过整改证据；A-005 已合法闭合 A-002 的 F-001～F-003。 |
 | I-005：协议说明物理承载形式 | open（non-blocking） | 不阻断 R1 语义冻结。 |
 | 共享资料引用 | 无 | 工作区 `shared_materials_catalog: none`。 |
 | 相关 Vision Review required | 已关闭 | `reviews.md` 当前 `open required: 0`；VRev-003 三条 recommended 已由 `/vision` 记为 `fixed`。 |
@@ -27,14 +27,16 @@ version: 0.2.0
 
 ## 意见台账索引
 
-| A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
+| A-ID | 日期 | source | scope | verdict | 当前开放 required | 文件 |
 |------|------|--------|-------|---------|---------------|------|
 | A-001 | 2026-09-25 | self | R1 运行记录语义 | pass | 0 | `03-audit/A-001-r1-self-review.md` |
-| A-002 | 2026-09-25 | independent | R1 运行记录语义与重入边界、台账一致性 | fail | 3 | `03-audit/A-002-r1-independent-review.md` |
-| A-003 | 2026-09-25 | independent | R1 对 A-002 的整改复核 | fail | 3 | `03-audit/A-003-r1-remediation-rereview.md` |
+| A-002 | 2026-09-25 | independent | R1 运行记录语义与重入边界、台账一致性 | fail | 0 | `03-audit/A-002-r1-independent-review.md` |
+| A-003 | 2026-09-25 | independent | R1 对 A-002 的整改复核 | fail | 0 | `03-audit/A-003-r1-remediation-rereview.md` |
+| A-004 | 2026-09-25 | independent | R1 最终整改独立复核 | conditional | 0 | `03-audit/A-004-r1-final-independent-review.md` |
+| A-005 | 2026-09-25 | self | R1 finding 闭合与阶段评估 | pass | 0 | `03-audit/A-005-r1-finding-closure.md` |
 
 ## 结论状态
 
-- A-001 的 self pass 不放行 R1；A-002/A-003 对 R1 给出 fail verdict。F-001/F-002 已实质修正但待编排器闭合响应；F-003 整改进行中。F-001～F-003 均为 required / open，独立复核与合法闭合完成前不得推进 R2。
-- I-004 保持 `collecting`。R1 尚无阶段通过结论，也未到 Root 关门审计节点。
-- 未合法闭合任何 finding 前，不得以本 Root 的开设或 `progress` 推导阶段放行或 `done`。
+- A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；没有开放 required 或 recommended finding。
+- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；R2 仍未启动，I-001/I-002 保持 required/open。
+- 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。

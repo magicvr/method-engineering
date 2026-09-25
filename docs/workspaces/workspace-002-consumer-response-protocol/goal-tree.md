@@ -16,13 +16,13 @@ version: 0.2.0
 ## 树
 
 ```text
-GOAL-001-consumer-response-protocol [active] 落地消费方需求—响应协议并完成真实端到端试跑 · progress 0%
+GOAL-001-consumer-response-protocol [active] 落地消费方需求—响应协议并完成真实端到端试跑 · progress 33%
 ```
 
-Root 的 P-001 纲领路线图为：R1 冻结协议语义与运行记录衔接（进行中/整改） → R2 形成消费方可执行协议说明并完成真实消费仓与真实需求授权准备（未开始） → R3 执行并审视真实端到端试跑（未开始）。R1–R3 串行。I-004 保持 `collecting`：self A-001 为 pass；independent A-002/A-003 均为 fail。A-003 确认 F-001/F-002 实质修正、待编排器闭合响应；F-003 整改进行中。F-001～F-003 三项 required findings 均正式开放，R1 仍受独立复核与 finding 合法闭合门禁阻断。其余 I-001～I-003 仍为 `open`。I-001/I-002 在 R2 前、I-003 在 R3 前构成 required 信息门禁。R1 未放行下一阶段。
+Root 的 P-001 纲领路线图为：R1 冻结协议语义与运行记录衔接（已完成） → R2 形成消费方可执行协议说明并完成真实消费仓与真实需求授权准备（未开始） → R3 执行并审视真实端到端试跑（未开始）。R1–R3 串行。I-004 已由 A-004 independent 复核、A-005 self 闭合为 `verified`；A-002 F-001～F-003 均已以 `fixed` 合法闭合。Root 仍为 `active`、progress 33%。I-001/I-002 在 R2 前、I-003 在 R3 前构成 required 信息门禁，R2/R3 尚未启动。
 
 ## 状态表
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| `GOAL-001-consumer-response-protocol` | 落地消费方需求—响应协议并完成真实端到端试跑 | `null` | active | 0% | Root；承接 VP-002（`active`）；R1 进行中，受独立复核与 finding 合法闭合阻断；I-004 `collecting`，A-003 fail，A-002 原 3 项 required findings 均正式开放；R2/R3 未开始；I-001/I-002 在 R2 前、I-003 在 R3 前仍阻断真实试跑准备/关门。 |
+| `GOAL-001-consumer-response-protocol` | 落地消费方需求—响应协议并完成真实端到端试跑 | `null` | active | 33% | Root；承接 VP-002（`active`）；R1 已完成，I-004 `verified`，A-002 三项 required findings 已由 A-005 `fixed` 闭合；R2/R3 未开始；I-001/I-002 在 R2 前、I-003 在 R3 前仍阻断试跑准备/关门。 |

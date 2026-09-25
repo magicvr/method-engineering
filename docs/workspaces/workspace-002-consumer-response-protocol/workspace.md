@@ -11,7 +11,7 @@ primary_plan: VP-002-consumer-demand-response-protocol
 parent: null
 created: 2026-09-25
 updated: 2026-09-25
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 工作区上下文 · 消费方需求—响应协议
@@ -21,7 +21,7 @@ version: 0.1.0
 | 字段 | 当前值 | 说明 |
 |------|--------|------|
 | 工作区 ID | `workspace-002-consumer-response-protocol` | 本工作区稳定标识。 |
-| Root Goal | `GOAL-001-consumer-response-protocol` | 本区唯一 `parent: null` 的 Root，当前为 `draft`。 |
+| Root Goal | `GOAL-001-consumer-response-protocol` | 本区唯一 `parent: null` 的 Root，当前为 `active`。 |
 | canonical 范围 | `docs/workspaces/workspace-002-consumer-response-protocol/` | 本区唯一目标状态范围。 |
 | 共享资料目录 | `none` | 当前工作区不声明共享资料引用。 |
 | 愿景角色 | `primary` | 2026-09-25 按用户确认开设，为 vision 层唯一 `primary`（`VR-004`）。 |
