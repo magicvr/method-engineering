@@ -7,7 +7,7 @@ vision_ref: method-engineering@0.1.0
 lead_workspace: workspace-002-consumer-response-protocol
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.4.0
+version: 0.4.1
 parent: null
 ---
 
@@ -95,7 +95,7 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| `workspace-002-consumer-response-protocol` | `GOAL-001-consumer-response-protocol` | `primary` | 2026-09-25 | VP-002 的唯一实现工作区；Root 已于 2026-09-26 `done`。本次关门保留历史绑定，不归档工作区，也不改变 vision 层 `primary`（`VR-004`）。 |
+| `workspace-002-consumer-response-protocol` | `GOAL-001-consumer-response-protocol` | `primary` | 2026-09-25 | VP-002 的唯一实现工作区；Root 已于 2026-09-26 `done`。本次关门保留历史绑定，不归档工作区。本行 `role` 记录关门时的绑定事实；该区 `vision_role` 自 2026-09-26 起改记为 `delivery`（`VR-006`），vision 层唯一 `primary` 移交 `workspace-003-world-model-method-and-tools`。 |
 
 ## 关门核对（2026-09-26）
 
@@ -118,7 +118,7 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 
 | date | outcome | summary | evidence_links | residuals |
 |------|---------|---------|----------------|-----------|
-| 2026-09-26 | closed | 6 项方向级退出判据均满足本次有界协议交接；Root `GOAL-001-consumer-response-protocol` 已 `done`。不证明领域方法或 Charter 方向级成功。 | Root [`00-meta.md`](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md)、[A-021](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-021-root-closeout-review.md)、[A-022](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-022-root-closeout-response.md)、[E-028](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-028-r3-chain-closure.md)、[E-029](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-029-protocol-guide-promotion.md)、[`protocols/consumer-response-protocol.md`](../../../protocols/consumer-response-protocol.md)、workspace [`goal-tree.md`](../../workspaces/workspace-002-consumer-response-protocol/goal-tree.md) | 无遮蔽本 VP 声称范围的 VP 级 residual。同人双角色与授权代行只证明 [`workspace-002-consumer-response-protocol`](../../workspaces/workspace-002-consumer-response-protocol/workspace.md) / `GOAL-001-consumer-response-protocol` 上的本次流程执行，不构成独立团队共识。领域方法未构建属于 Non-goal。工作区保持 `active` / `primary`，本次不归档。 |
+| 2026-09-26 | closed | 6 项方向级退出判据均满足本次有界协议交接；Root `GOAL-001-consumer-response-protocol` 已 `done`。不证明领域方法或 Charter 方向级成功。 | Root [`00-meta.md`](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md)、[A-021](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-021-root-closeout-review.md)、[A-022](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-022-root-closeout-response.md)、[E-028](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-028-r3-chain-closure.md)、[E-029](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-029-protocol-guide-promotion.md)、[`protocols/consumer-response-protocol.md`](../../../protocols/consumer-response-protocol.md)、workspace [`goal-tree.md`](../../workspaces/workspace-002-consumer-response-protocol/goal-tree.md) | 无遮蔽本 VP 声称范围的 VP 级 residual。同人双角色与授权代行只证明 [`workspace-002-consumer-response-protocol`](../../workspaces/workspace-002-consumer-response-protocol/workspace.md) / `GOAL-001-consumer-response-protocol` 上的本次流程执行，不构成独立团队共识。领域方法未构建属于 Non-goal。工作区保持 `active`；关门时其 vision 层角色为 `primary`，该角色自 2026-09-26 起改记为 `delivery`（`VR-006`），本次不归档。 |
 
 ## 规划修订短史
 
@@ -131,3 +131,4 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 | 2026-09-26 | 按用户要求将退出范围修订为双边协议联调演练，解除真实领域方法构建依赖；双方须沿共享追踪实际消费交接，合成材料不得冒充真实需求或建立虚假运行记录。实现层裁决见 [D-007](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/01-decision/D-007-protocol-rehearsal-realignment.md)。 |
 | 2026-09-26 | 用户进一步明确把既有请求修订为跑通真实对接链条；取代合成演练安排，保留请求历史，仅接受有界流程工作。领域方法构建仍非退出前提；实现依据见 D-008。 |
 | 2026-09-26 | 按用户指令完成有界关门：6 项退出判据均有工作区证据，`status` 改为 `closed`；不归档工作区，不创建后继 VP，不改 Charter 目的、边界或非目标。 |
+| 2026-09-26 | 投影修正（`v0.4.0`→`v0.4.1`，editorial）：按 `VR-006` 修正工作区绑定行与关门 residual 的措辞——`workspace-002` 的 `vision_role` 已改记为 `delivery`，vision 层唯一 `primary` 移交 `workspace-003-world-model-method-and-tools`（承担新受理的 `WRK-002-world-model-method-and-tools`）。`status`、意图、判据与关门结论均不变。 |

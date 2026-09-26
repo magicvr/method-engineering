@@ -10,8 +10,8 @@ plan_refs: VP-001-demand-driven-method-engineering
 primary_plan: VP-001-demand-driven-method-engineering
 parent: null
 created: 2026-09-18
-updated: 2026-09-25
-version: 0.6.1
+updated: 2026-09-26
+version: 0.6.2
 ---
 
 # 工作区上下文 · Method Engineering 最小运行机制
@@ -24,7 +24,7 @@ version: 0.6.1
 | Root Goal | `GOAL-001-method-engineering-runtime` | 本区唯一 `parent: null` 的 Root。 |
 | canonical 范围 | `docs/workspaces/workspace-001-method-engineering-runtime/` | 本区唯一目标状态范围。 |
 | 共享资料目录 | `none` | 当前工作区不声明共享资料引用。 |
-| 愿景角色 | `delivery` | 本区为 VP-001 的历史绑定，已归档；2026-09-25 起 vision 层 `primary` 转移至 `workspace-002-consumer-response-protocol`（`VR-004`）。 |
+| 愿景角色 | `delivery` | 本区为 VP-001 的历史绑定，已归档；2026-09-25 起 vision 层 `primary` 转移至 `workspace-002-consumer-response-protocol`（`VR-004`），2026-09-26 起再由 `workspace-003-world-model-method-and-tools` 接任（`VR-006`）。 |
 | 规划对齐 | `VP-001-demand-driven-method-engineering` | 同时作为 `plan_refs` 与 `primary_plan`。 |
 
 ## 愿景对齐
