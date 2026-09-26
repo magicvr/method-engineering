@@ -11,7 +11,7 @@ primary_plan: VP-002-consumer-demand-response-protocol
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.0
+version: 0.3.1
 ---
 
 # 工作区上下文 · 消费方需求—响应协议
@@ -31,7 +31,7 @@ version: 0.3.0
 
 本工作区承接 [`VP-002-consumer-demand-response-protocol`](../../vision/plans/VP-002-consumer-demand-response-protocol.md)，该 VP 通过 `vision_ref: method-engineering@0.1.0` 对齐现行 Charter，并于 2026-09-25 进入 `active`。工作区只承载实现层目标状态；VP、Charter 与本区目标分别保持各自权威。
 
-本区职责是把 VP-002 的双向协议意图落地为消费方可照做的协议说明，并通过双方共同的协议联调演练验证交接。本区不建设 API、Web UI、自动化派发、跨仓同步服务或特定平台适配器，也不为所有消费仓统一仓库结构，不替代 VP-001 的运行记录语义。
+本区职责是把 VP-002 的双向协议意图落地为消费方可照做的协议说明，并通过双方共同的真实流程链验证交接。本区不建设 API、Web UI、自动化派发、跨仓同步服务或特定平台适配器，也不为所有消费仓统一仓库结构，不替代 VP-001 的运行记录语义。
 
 ## 固定共享资料引用
 
@@ -39,10 +39,12 @@ version: 0.3.0
 
 ## 纲领阶段
 
-本区的纲领阶段、先后关系与退出条件只记录在 Root 的 [`00-meta.md`](GOAL-001-consumer-response-protocol/00-meta.md) 中：R1 冻结协议语义与运行记录衔接 → R2 形成消费方可执行的协议说明并完成参与方与基本记录边界准备 → R3 执行并审视双边协议联调演练。R1–R3 串行；同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
+本区的纲领阶段、先后关系与退出条件只记录在 Root 的 [`00-meta.md`](GOAL-001-consumer-response-protocol/00-meta.md) 中：R1 冻结协议语义与运行记录衔接 → R2 形成消费方可执行的协议说明并完成参与方与基本记录边界准备 → R3 执行并审视真实对接链条。R1–R3 串行；同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
 
 ## 备注
 
 2026-09-25 由 `/govern` 按用户确认开设本区并创建 Root（`draft`）。开区只表示实现层目标已建立，**不表示**已具备试跑条件：真实下游实践方、试跑仓库、参与责任人、真实需求与使用/记录授权均尚未指定，相关未知已按 P-005 登记在 Root `00-meta.md`，并在 R2/R3 前构成门禁。本区承载协议文档与方法工程一侧记录引用，项目根 `runtime-records/` 仍是 VP-001 确立的单一运行主记录承载，本区不建立第二套状态源。
 
 2026-09-26 按 [D-007](GOAL-001-consumer-response-protocol/01-decision/D-007-protocol-rehearsal-realignment.md) 重新对齐：R3 使用明确标注的合成非敏感内容，双方在真实实践仓库沿共享追踪消费对方交接。I-008 尚待确认；真实需求 WRK-001 保持待判定并移出 R3 范围。
+
+2026-09-26 后续按 [D-008](GOAL-001-consumer-response-protocol/01-decision/D-008-wrk001-real-chain.md) 用户明确修订：WRK-001 以跑通链条为真实目标，保留 ID 与历史并接受有界处理。上述 D-007 备注是历史。当前 R3 执行真实流程链，领域方法构建仍未完成；实际交接尚未完成。
