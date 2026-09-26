@@ -28,7 +28,7 @@ parent: null
 - 最近条目：[`VRev-006-vp-003-world-model-method-and-tools`](reviews/VRev-006-vp-003-world-model-method-and-tools.md)
 - VRev-004 针对 D-007 合成演练范围的历史 `pass` 保留；VRev-005 审视 D-008 真实流程链修订。
 - VP-002 已于 2026-09-26 有界 `closed`。VRev-005 的历史 `pass` 只确认当时的意图与对齐表达，不是本次关门依据；关门依据是工作区结项证据与用户本轮确认。
-- VRev-006 审视 2026-09-26 落盘并激活的 VP-003（承接 `WRK-002-world-model-method-and-tools`）；`verdict: pass`，2 条 recommended（`V-F-001` 工具口径若在 R1 大幅收窄须走 `/vision` 修订判据；`V-F-002` 保持跨仓引用形并随下游提交更新钉选），无 required。
+- VRev-006 审视 2026-09-26 落盘并激活的 VP-003（承接 `WRK-002-world-model-method-and-tools`）；`verdict: pass`，2 条 recommended（`V-F-001` 工具口径若在 R1 大幅收窄须走 `/vision` 修订判据；`V-F-002` 保持跨仓引用形并随下游提交更新钉选），无 required。同日晚些时候 R1 冻结完成：`V-F-001` 已按 Root `D-002` 复核并关闭（结论为「本轮不引入程序化工具」，VP 判据 3 原文已允许该路径，**未收窄判据**，无需 VP 修订）；`V-F-002` 保持开放至交付阶段。
 
 ## 条目索引
 
@@ -39,4 +39,4 @@ parent: null
 | VRev-003-vp-002-independent | 2026-09-25 | independent | VP-002 / vision-plan | pass | 0 | VP-002 `vision_ref` 精确匹配 Charter，`planned` 且 0 区绑定合法；V-F-001～V-F-003 三条 recommended 已 fixed，无 required。 | [报告](reviews/VRev-003-vp-002-independent.md) |
 | VRev-004-vp-002-realignment | 2026-09-26 | self | VP-002 范围重新对齐 / vision-plan | pass | 0 | 合成协议联调只证明本次对接流程，不声称领域方法或 Charter 方向已获验证；机读对齐保持完整。 | [报告](reviews/VRev-004-vp-002-realignment.md) |
 | VRev-005-vp-002-real-chain | 2026-09-26 | self | VP-002 D-008 真实对接链条修订 / vision-plan | pass | 0 | 真实 WRK-001 链条替代合成演练；不要求领域方法构建；Charter/VP/workspace/Root 对齐保持完整。 | [报告](reviews/VRev-005-vp-002-real-chain.md) |
-| VRev-006-vp-003-world-model-method-and-tools | 2026-09-26 | self | VP-003 / vision-plan | pass | 0 | VP-003 落盘即 `active`，`vision_ref` 精确匹配 Charter，同轮绑定唯一 lead 工作区，无空转；2 条 recommended（`V-F-001`/`V-F-002`），无 required。 | [报告](reviews/VRev-006-vp-003-world-model-method-and-tools.md) |
+| VRev-006-vp-003-world-model-method-and-tools | 2026-09-26 | self | VP-003 / vision-plan | pass | 0 | VP-003 落盘即 `active`，`vision_ref` 精确匹配 Charter，同轮绑定唯一 lead 工作区，无空转；2 条 recommended（`V-F-001`/`V-F-002`），无 required。`V-F-001` 已于同日 R1 冻结后复核关闭（未收窄判据）；`V-F-002` 保持开放至交付阶段。 | [报告](reviews/VRev-006-vp-003-world-model-method-and-tools.md) |
