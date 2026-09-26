@@ -4,10 +4,12 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 独立复审请求 · A-002
+
+> **状态：已使用（2026-09-26）。** 复审结论已落盘为 [`03-audit/A-002-d004-d005-rereview.md`](../03-audit/A-002-d004-d005-rereview.md)（`source: independent`，verdict `conditional`：`A-001-F-002`～`F-005` 确认 `fixed`，`A-001-F-001` 仅 **partially fixed**，新增 `A-002-F-001`(required) 与 2 条 advisory）。本请求包保留为历史，其「请逐条确认」表已由 A-002 逐条回答。
 
 > 本文件是**编排器起草的复审请求包**，供用户交给独立审计者使用。它**不是审计意见**、不含 verdict；复审结论应由独立审计者给出，并写入本目标 `03-audit/A-002-*.md`（或由用户转述、编排器代贴，`source` 保持 `independent`），随后由编排器更新 `03-audit.md` 索引。
 
