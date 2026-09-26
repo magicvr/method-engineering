@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.4.0
+version: 0.5.0
 ---
 
 # 决策记录 · GOAL-002
@@ -36,3 +36,4 @@ version: 0.4.0
 | D-005 | 2026-09-26 | 响应独立审计 A-001：修订 D-004（三层分离、C3/C4 改写、候选分级） | accepted | `01-decision/D-005-w1-mapping-revision.md` |
 | D-006 | 2026-09-26 | 响应独立复审 A-002：修正 §6 / §7.2 / §13 的 ②③ 边界 | accepted | `01-decision/D-006-response-a002.md` |
 | D-007 | 2026-09-26 | closure check 通过：冻结 W1 产物为 W2 输入 | accepted | `01-decision/D-007-w1-freeze.md` |
+| D-008 | 2026-09-26 | `I-205` 三项裁定落盘并开始 W2（含默认章节顺序） | accepted | `01-decision/D-008-i205-adjudication.md` |
