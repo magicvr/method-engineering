@@ -62,4 +62,14 @@
 - **状态变化**：无；WRK-001 仍为「已接受」，尚无响应、交付、收件、验收或异议事实。
 - **依据**：[A-018](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-018-f001-contract-rereview.md) verdict `pass`、无 required finding；[A-019](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-019-f001-closure-response.md) 以 `fixed` 闭合 A-016 F-001；[E-026](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-026-a018-rereview-f001-closure.md) 记录事实。
 - **处理**：I-008 置 `required/verified`，解除对当前 WRK-001 一条流程链实际材料写入的阻断；材料类型、目录、格式与核对约定不变（下游 D-008 / `exchange/README.md`）。
-- **未决 / 下一责任**：下一动作是响应负责人形成交接约定与响应材料并交付至 `exchange/WRK-001/`；交付、实际收件、验收/异议须按真实发生顺序分别留痕，不预填对方回执。I-006 仍 `collecting`，阻断指南升格与关门。
+- **未决 / 下一责任**：下一动作是响应负责人形成交接约定与响应材料并交付至 `exchange/WRK-001/`；交付、实际收件、验收/异议须按真实发生顺序分别留痕，不预填对方回执。I-006 仍 `collecting`，阻断指南升格与关门。本次材料已于同日投放，见 EV-007。
+
+## EV-007 · 首份交付材料投放
+
+- **时间**：2026-09-26
+- **责任角色**：方法工程响应负责人（形成与投放）；用户当前角色为需求方/授权人，未参与形成，故本次不产生消费方事实。
+- **触发**：A-018 独立复审通过、A-019 合法闭合 A-016 F-001 并解除下游写入阻断后，按 D-008 接受条件与 E-022 登记的下一责任形成交付。
+- **状态变化**：无；WRK-001 仍为「已接受」。
+- **依据**：[E-027](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-027-first-exchange-delivery.md)；交付物见下游 `exchange/WRK-001/交付-2026-09-26-流程链交接约定.md`（v1）。
+- **处理**：按下游 `exchange/README.md` v0.1.2 的命名与格式投放首份材料，建立 `exchange/WRK-001/`；材料含交付版本、适用条件、验证结论与证据、限制、未决事项、后续责任。
+- **未决 / 下一责任**：消费方尚未实际收件，无验收/异议/反馈/结束事实；未预填对方回执，未创建 `需求-*` / `收件与验收-*`。下一步由消费方记录收件并给出验收或具体异议，再由响应负责人完成反馈路由与结束。I-006 仍 `collecting`。

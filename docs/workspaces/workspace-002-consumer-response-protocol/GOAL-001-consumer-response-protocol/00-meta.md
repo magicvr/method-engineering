@@ -8,7 +8,7 @@ primary_plan: VP-002-consumer-demand-response-protocol
 serves_summary: 将 VP-002 的双向需求—响应意图落地为消费方可照做的协议说明，并通过双方共同的真实流程链验证交接。
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.3
+version: 0.3.4
 progress: 67%
 ---
 
@@ -67,7 +67,7 @@ R1 涉及协议边界和运行记录语义，按 P-003 风险表采用 **`cross`
 
 ## R2 实施计划与审计模式
 
-按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。用户已在 E-018 确认指南可执行，A-011 自审通过并关闭 R2。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003 required/verified 证明本次边界与授权；I-008 required/verified，契约修订已经 A-018 独立复审通过并由 A-019 合法闭合 F-001，下游实际写入阻断解除。实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。本次规则与范围修订已完成 cross 审视闭环：A-015 self pass 与 A-016 independent fail 的历史 verdict 保留；用户按 D-009 选择窄幅修复路径，A-017 以 `fixed` 关闭 F-002，A-018（independent，grok build / grok-4.6 / effort high）复审 pass 且无 required finding，A-019 以 `fixed` 关闭 F-001，当前开放 required 为 0。R3 下游写入已解除阻断，但仍须按真实发生顺序留痕并逐次记录角色切换。D-007 的历史范围重新对齐按 cross 审视：A-012 self pass，A-013 上下文独立 Reviewer 为 conditional / ACCEPT WITH NOTES，A-014 已 `fixed` 响应两条 minor；无开放 required findings。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须按对应信息门禁确认承载与授权。
+按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。用户已在 E-018 确认指南可执行，A-011 自审通过并关闭 R2。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003 required/verified 证明本次边界与授权；I-008 required/verified，契约修订已经 A-018 独立复审通过并由 A-019 合法闭合 F-001，下游实际写入阻断解除。实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。本次规则与范围修订已完成 cross 审视闭环：A-015 self pass 与 A-016 independent fail 的历史 verdict 保留；用户按 D-009 选择窄幅修复路径，A-017 以 `fixed` 关闭 F-002，A-018（independent，grok build / grok-4.6 / effort high）复审 pass 且无 required finding，A-019 以 `fixed` 关闭 F-001，当前开放 required 为 0。R3 下游写入已解除阻断，响应负责人已于 2026-09-26 投放首份交付材料（下游 `exchange/WRK-001/交付-2026-09-26-流程链交接约定.md`，E-027）；交付事实已发生，实际收件、验收/异议、反馈路由与结束尚未发生。R3 仍未完成；I-006 required/collecting 继续阻断升格与关门。D-007 的历史范围重新对齐按 cross 审视：A-012 self pass，A-013 上下文独立 Reviewer 为 conditional / ACCEPT WITH NOTES，A-014 已 `fixed` 响应两条 minor；无开放 required findings。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须按对应信息门禁确认承载与授权。
 
 ## 愿景对齐
 
