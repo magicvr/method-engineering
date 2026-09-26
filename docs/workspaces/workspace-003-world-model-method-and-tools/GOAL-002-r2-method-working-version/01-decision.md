@@ -30,3 +30,4 @@ version: 0.1.0
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | D-001 | 2026-09-26 | 建立 R2 子目标并以真实问题为适用性判据 | accepted | `01-decision/D-001-r2-subgoal-setup.md` |
+| D-002 | 2026-09-26 | 方法执行主体约束：构建人是创作者，不是 AI 助手 | accepted | `01-decision/D-002-executor-boundary.md` |
