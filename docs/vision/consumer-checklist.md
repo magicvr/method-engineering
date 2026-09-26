@@ -3,8 +3,8 @@ doc_type: vision-consumer-checklist
 title: 愿景体系完整安装核对表
 status: active
 created: 2026-09-14
-updated: 2026-09-25
-version: 0.4.2
+updated: 2026-09-26
+version: 0.4.3
 parent: null
 ---
 
@@ -26,15 +26,15 @@ parent: null
 | 9 | 愿景规则 | `docs/vision/alignment.md` | 已具备 | 对齐契约存在。 |
 | 10 | 愿景入口 | `docs/vision/README.md` | 已具备 | 愿景目录说明已更新。 |
 | 11 | 现行愿景 | `docs/vision/charter.md` 为 `status: active` | 已具备 | `method-engineering@0.1.0`。 |
-| 12 | 愿景树 | `docs/vision/roadmap.md` | 已具备 | 已登记 VP-001（`closed`）与 VP-002（`active`，2026-09-25 激活）；VP-002 已绑定 `workspace-002-consumer-response-protocol`。实现层 Root 路线图位于工作区目标，不在愿景层复制。 |
+| 12 | 愿景树 | `docs/vision/roadmap.md` | 已具备 | 已登记 VP-001 与 VP-002，二者均为 `closed`；VP-002 保留对 `workspace-002-consumer-response-protocol` 的历史绑定。实现层 Root 路线图位于工作区目标，不在愿景层复制。 |
 | 13 | 修订台账 | `docs/vision/revisions.md` | 已具备 | Charter 修订台账已建立。 |
-| 14 | Review 索引 | `docs/vision/reviews.md` | 已具备 | 已登记 `VRev-001`～`VRev-003`；当前 `open required: 0`，VRev-003 的三条 recommended 均已响应为 `fixed`。 |
+| 14 | Review 索引 | `docs/vision/reviews.md` | 已具备 | 已登记 `VRev-001`～`VRev-005`；当前 `open required: 0`。 |
 | 15 | 工作区索引 | `docs/vision/workspaces.md` | 已具备 | 已登记 `workspace-001-method-engineering-runtime`（archived / `delivery`）与 `workspace-002-consumer-response-protocol`（active / 唯一 `primary`）及其 Root。 |
 | 16 | 本核对表 | `docs/vision/consumer-checklist.md` | 已具备 | 与 alignment §0.2 对应。 |
 | 17 | 首个 VP（开区前） | 至少一个 `plans/VP-*.md`，`vision_ref` 精确匹配 | 已具备 | `VP-001-demand-driven-method-engineering`，`method-engineering@0.1.0`，已完成有界 `closed`。 |
 | 18 | 显式工作区（开区后） | `workspaces/workspace-<NNN>-<slug>/workspace.md` | 已具备 | `workspace-001-method-engineering-runtime`（archived）与 `workspace-002-consumer-response-protocol`（active），均含必填 `plan_refs` / `primary_plan`。 |
-| 19 | 目标树与 Root（开区后） | 工作区 `goal-tree.md` + Root 五件套 | 已具备 | Root 为 `GOAL-001-method-engineering-runtime`（done）与 `GOAL-001-consumer-response-protocol`（draft），均 `parent: null`；各自已建三类 ledger 目录与 `attachments/`。 |
+| 19 | 目标树与 Root（开区后） | 工作区 `goal-tree.md` + Root 五件套 | 已具备 | Root 为 `GOAL-001-method-engineering-runtime` 与 `GOAL-001-consumer-response-protocol`，二者均为 `done` 且 `parent: null`；各自已建三类 ledger 目录与 `attachments/`。 |
 
 ## 当前结论
 
-当前已完成 Charter → VP → 工作区 + Root 的冷启动与实现链；Root `GOAL-001-method-engineering-runtime` 已 `done`，VP-001 已完成有界 `closed`，workspace-001 已归档并记为 `delivery`。VP-002 已 `active`，其 `primary` 工作区 `workspace-002-consumer-response-protocol` 与 Root `GOAL-001-consumer-response-protocol` 已开设（Root 为 `draft`，R1–R3 与 P-005 信息项在工作区内）。以上不表示 Charter 方向级成功边界、具体方法有效性或领域效果已经证明，也不表示 VP-002 已具备真实试跑条件。条件性消费契约项仍按其适用条件处理。
+当前已完成 Charter → VP → 工作区 + Root 的冷启动与实现链。VP-001 与 VP-002 均已有界 `closed`；两个 Root 均为 `done`。workspace-001 已归档并记为 `delivery`；workspace-002 仍为 `active` / 唯一 `primary`，本次 VP 关门不归档该区。以上不表示 Charter 方向级成功边界、具体方法有效性或领域效果已经证明。条件性消费契约项仍按其适用条件处理。

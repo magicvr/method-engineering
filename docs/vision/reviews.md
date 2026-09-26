@@ -4,7 +4,7 @@ title: 愿景审视台账（Vision Review）
 status: active
 created: 2026-09-14
 updated: 2026-09-26
-version: 0.7.2
+version: 0.7.3
 parent: null
 ---
 
@@ -27,7 +27,7 @@ parent: null
 - `open required`: **0**
 - 最近条目：[`VRev-005-vp-002-real-chain`](reviews/VRev-005-vp-002-real-chain.md)
 - VRev-004 针对 D-007 合成演练范围的历史 `pass` 保留；VRev-005 审视 D-008 真实流程链修订。
-- 当前 VP-002 仍 active；VRev-005 的 `pass` 只确认意图与对齐表达，不表示交接已完成或放行工作区关门。
+- VP-002 已于 2026-09-26 有界 `closed`。VRev-005 的历史 `pass` 只确认当时的意图与对齐表达，不是本次关门依据；关门依据是工作区结项证据与用户本轮确认。
 
 ## 条目索引
 

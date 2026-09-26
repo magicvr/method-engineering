@@ -2,12 +2,12 @@
 doc_type: vision-plan
 id: VP-002-consumer-demand-response-protocol
 title: 定义消费方与方法工程的双向需求—响应协议
-status: active
+status: closed
 vision_ref: method-engineering@0.1.0
 lead_workspace: workspace-002-consumer-response-protocol
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.1
+version: 0.4.0
 parent: null
 ---
 
@@ -81,7 +81,7 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 
 ## 实施前待确认
 
-参与方与真实实践仓库已经确认；用户明确将既有未承诺请求修订为真实流程目的，承载与授权按下游已选择的 exchange 约定核对。具体接受条件及实施证据由工作区记录；本次修订不构建领域方法、不自动创建后继 VP，实际交接与验收仍待完成。
+本节保留 2026-09-26 范围修订当时的确认状态，不作为关门后的当前缺口。参与方与真实实践仓库已经确认；用户明确将既有未承诺请求修订为真实流程目的。实际交接与验收已由工作区证据完成，见下方关门核对；本次不构建领域方法、不自动创建后继 VP。
 
 ## 方向级阶段结构
 
@@ -95,7 +95,22 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 
 | workspace_id | root_goal | role | joined | notes |
 |--------------|-----------|------|--------|-------|
-| `workspace-002-consumer-response-protocol` | `GOAL-001-consumer-response-protocol` | `primary` | 2026-09-25 | VP-002 的首个实现工作区；按用户确认开设，承载 R1–R3 的实现层证据。vision 层 primary 由已归档的 workspace-001 转移至本区（`VR-004`）。 |
+| `workspace-002-consumer-response-protocol` | `GOAL-001-consumer-response-protocol` | `primary` | 2026-09-25 | VP-002 的唯一实现工作区；Root 已于 2026-09-26 `done`。本次关门保留历史绑定，不归档工作区，也不改变 vision 层 `primary`（`VR-004`）。 |
+
+## 关门核对（2026-09-26）
+
+本次 `/vision` self closeout 核对结果为 `pass`。6 项方向级退出判据均有可追踪的实现层证据。本核对只证明一条真实流程链上的协议交接，不证明领域方法有效，也不把 Charter 方向级成功边界写成已经满足。
+
+| 退出判据 | 结论 | 工作区 / Root 证据 |
+|---------|------|-------------------|
+| 1. 消费方协议明确发起入口、最低信息、角色与授权，且不要求先证明方法缺口 | 满足 | [`protocols/consumer-response-protocol.md`](../../../protocols/consumer-response-protocol.md) v1.0.0；Root 成功标准 1；[D-010](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/01-decision/D-010-protocol-guide-promotion-path.md)、[E-029](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-029-protocol-guide-promotion.md)；R2 [A-011](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-011-r2-stage-closure.md) |
+| 2. 回执、澄清、受理/不受理、边界与限额、状态、范围变化和退出，且与 VP-001 授权语义一致 | 满足 | 协议步骤与 [D-002](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/01-decision/D-002-runtime-record-boundary.md)；I-004 `verified`（A-004 / A-005）；[A-021](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-021-root-closeout-review.md) 成功标准 3 |
+| 3. 区分交付、收件回执、响应验收与异议，并明确后续责任 | 满足 | [E-028](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-028-r3-chain-closure.md)：第 1 轮两条范围内异议，v1.1 修正后第 2 轮接受；A-021 成功标准 4、6 |
+| 4. 反馈分类、运行记录引用与重入明确；单一主记录，事件不是第二状态源 | 满足 | E-028 / EV-009（对象问题 2、运行机制问题 1、方法问题 0）；主记录转「已退出」；A-021 成功标准 5 |
+| 5. 至少一个真实下游需求方沿共享追踪完成真实对接链条 | 满足本次有界范围 | [E-027](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-027-first-exchange-delivery.md)、E-028、[A-020](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-020-r3-stage-closure.md)；下游 `exchange/WRK-001/`。同人双角色与授权代行已标明，不声称独立团队共识，也不交付领域方法 |
+| 6. 试跑证据可复核；歧义已修正或列为不遮蔽完成范围的有界 residual | 满足 | A-020：命名冲突、引用坐标与回执环节、状态滞后均已在范围内闭合；无开放 required finding |
+
+相关愿景门禁同时满足：唯一 active Charter 为 `method-engineering@0.1.0`；`vision_ref` 精确匹配；单一 lead 工作区 `workspace-002-consumer-response-protocol` 的 Root 已 `done`；VRev-003～VRev-005 均为 `pass`，开放 Vision Review required 为 0；无 strategic re-align 债务。用户本轮明确指令即本次关门确认。
 
 ## 关门记录
 
@@ -103,7 +118,7 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 
 | date | outcome | summary | evidence_links | residuals |
 |------|---------|---------|----------------|-----------|
-| — | — | — | — | — |
+| 2026-09-26 | closed | 6 项方向级退出判据均满足本次有界协议交接；Root `GOAL-001-consumer-response-protocol` 已 `done`。不证明领域方法或 Charter 方向级成功。 | Root [`00-meta.md`](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md)、[A-021](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-021-root-closeout-review.md)、[A-022](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-022-root-closeout-response.md)、[E-028](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-028-r3-chain-closure.md)、[E-029](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-029-protocol-guide-promotion.md)、[`protocols/consumer-response-protocol.md`](../../../protocols/consumer-response-protocol.md)、workspace [`goal-tree.md`](../../workspaces/workspace-002-consumer-response-protocol/goal-tree.md) | 无遮蔽本 VP 声称范围的 VP 级 residual。同人双角色与授权代行只证明 [`workspace-002-consumer-response-protocol`](../../workspaces/workspace-002-consumer-response-protocol/workspace.md) / `GOAL-001-consumer-response-protocol` 上的本次流程执行，不构成独立团队共识。领域方法未构建属于 Non-goal。工作区保持 `active` / `primary`，本次不归档。 |
 
 ## 规划修订短史
 
@@ -115,3 +130,4 @@ VP-002 关门须链接双方共同联调的实施与结项证据，明确证据�
 | 2026-09-25 | 按用户确认开设并绑定 `workspace-002-consumer-response-protocol`（`primary`）与 Root `GOAL-001-consumer-response-protocol`；`lead_workspace` 随绑定写入。 |
 | 2026-09-26 | 按用户要求将退出范围修订为双边协议联调演练，解除真实领域方法构建依赖；双方须沿共享追踪实际消费交接，合成材料不得冒充真实需求或建立虚假运行记录。实现层裁决见 [D-007](../../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/01-decision/D-007-protocol-rehearsal-realignment.md)。 |
 | 2026-09-26 | 用户进一步明确把既有请求修订为跑通真实对接链条；取代合成演练安排，保留请求历史，仅接受有界流程工作。领域方法构建仍非退出前提；实现依据见 D-008。 |
+| 2026-09-26 | 按用户指令完成有界关门：6 项退出判据均有工作区证据，`status` 改为 `closed`；不归档工作区，不创建后继 VP，不改 Charter 目的、边界或非目标。 |

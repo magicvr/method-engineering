@@ -4,7 +4,7 @@ title: 愿景规划索引
 status: active
 created: 2026-09-14
 updated: 2026-09-26
-version: 0.6.1
+version: 0.6.2
 parent: null
 ---
 
@@ -18,11 +18,11 @@ parent: null
 | id | title | status（派生投影） | vision_ref | lead_workspace | detail |
 |----|-------|--------------------|------------|----------------|--------|
 | [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | closed | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；8 项退出判据已由 Root/工作区证据满足，VP 已完成有界闭门；工作区保留历史绑定 |
-| [VP-002-consumer-demand-response-protocol](plans/VP-002-consumer-demand-response-protocol.md) | 定义消费方与方法工程的双向需求—响应协议 | active | method-engineering@0.1.0 | workspace-002-consumer-response-protocol | 补足消费方发起、接收与确认交接的协议；2026-09-25 按用户指令激活并挂接首个 `primary` 工作区；2026-09-26 按用户要求进一步修订为真实消费仓参与的实际对接链条，链条本身为真实需求；不要求完成真实领域方法构建 |
+| [VP-002-consumer-demand-response-protocol](plans/VP-002-consumer-demand-response-protocol.md) | 定义消费方与方法工程的双向需求—响应协议 | closed | method-engineering@0.1.0 | workspace-002-consumer-response-protocol | 补足消费方发起、接收与确认交接的协议；2026-09-26 按用户指令完成有界关门。证据为一条真实流程链，不证明领域方法或 Charter 方向级成功；工作区保留历史绑定 |
 
 ## 波次关系
 
-VP-002 是 VP-001 的后继补充规划：它沿用 VP-001 已建立的需求处理与运行记录语义，补足消费方与方法工程之间的双向交互协议。该关系不重开或替代已关闭的 VP-001。VP-002 已于 2026-09-25 按用户指令进入 `active`，并挂接首个实现工作区 `workspace-002-consumer-response-protocol`（`primary`）。后续若出现其他 VP，再在本节记录愿景层组合关系；不在此写目标层纲领路线图、子目标编号、Goal status 或 progress%。
+VP-002 是 VP-001 的后继补充规划：它沿用 VP-001 已建立的需求处理与运行记录语义，补足消费方与方法工程之间的双向交互协议。该关系不重开或替代已关闭的 VP-001。VP-002 已于 2026-09-26 按用户指令完成有界 `closed`，历史绑定保留在 `workspace-002-consumer-response-protocol`。后续若出现其他 VP，再在本节记录愿景层组合关系；不在此写目标层纲领路线图、子目标编号、Goal status 或 progress%。
 
 ## 使用说明
 
