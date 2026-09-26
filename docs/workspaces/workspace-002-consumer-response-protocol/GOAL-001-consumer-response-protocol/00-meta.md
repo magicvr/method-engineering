@@ -8,8 +8,8 @@ primary_plan: VP-002-consumer-demand-response-protocol
 serves_summary: 将 VP-002 的双向需求—响应意图落地为消费方可照做的协议说明，并用一条真实需求完成端到端试跑。
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.2.7
-progress: 33%
+version: 0.2.8
+progress: 67%
 ---
 
 # GOAL-001 · 落地消费方需求—响应协议并完成真实端到端试跑
@@ -37,14 +37,14 @@ progress: 33%
 | 阶段 | 名称 | 状态 | 退出条件 |
 |------|------|------|----------|
 | **R1** | 冻结协议语义与运行记录衔接 | 已完成 | 双向协议语义（回执、澄清、受理/不受理、边界与限额、状态沟通、范围变化、退出、交付/收件/验收/异议区分、反馈分类与新需求重入）与 VP-001 的运行记录语义衔接方式冻结并落盘；I-004 经 self + independent 核验为 `verified`；相关 required finding 为 0。 |
-| **R2** | 形成消费方可执行的协议说明并完成试跑准备 | 进行中 | 消费方可直接照做的协议说明在 `attachments/consumer-response-protocol.md` 落盘，经 self + independent Reviewer 的 cross 审计后，由目标消费方确认可读可执行；真实下游实践方、试跑仓库、参与责任人及其使用/记录与敏感信息处理授权确认完毕；I-001/I-002 `verified`。 |
-| **R3** | 执行并审视真实端到端试跑 | 未开始 | 在真实试跑仓库中对一条真实且获授权处理的需求完成端到端试跑，取得消费方收件回执与验收或具体异议；歧义已修正或列为有界 residual；I-003 `verified`；试跑验收与指南验证完成后，按用户确认的本仓共享路径升格指南唯一权威全文并核对引用，关闭 I-006，且在 Root 关门前完成；形成可支撑 VP-002 关门的工作区证据链。 |
+| **R2** | 形成消费方可执行的协议说明并完成试跑准备 | 已完成 | 消费方可直接照做的协议说明在 `attachments/consumer-response-protocol.md` 落盘，经 self + independent Reviewer cross 审计且 required finding 全部闭合；由目标消费方确认可读可执行；I-001/I-002 `verified`。证据见 A-009、A-010、A-011 与 E-018。 |
+| **R3** | 执行并审视真实端到端试跑 | 未开始 | 在真实试跑仓库中对一条真实且获授权处理的需求完成端到端试跑，取得消费方收件回执与验收或具体异议；歧义已修正或列为有界 residual；I-003 `verified`；试跑验收与指南验证完成后，按用户确认的本仓共享路径升格指南唯一权威全文并核对引用，关闭 I-006，且在 Root 关门前完成；形成可支撑 VP-002 关门的工作区证据链。当前无真实需求，R3 尚待 I-003 信号。 |
 
 R1 → R2 → R3 串行：协议语义未冻结前不形成对外说明；试跑准备与授权未完成前不启动真实试跑。同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
 
 ## 派生进度展示
 
-`progress: 33%` 由上方 3 个纲领阶段等权计算（已完成 1 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁，也不自动推导 `status: done`。Root 状态变更依据阶段退出条件与审计证据，不由 progress 单独推导。
+`progress: 67%` 由上方 3 个纲领阶段等权计算（已完成 2 / 3）。该值仅作展示，不放行阶段、不关闭 finding、不覆盖信息门禁，也不自动推导 `status: done`。Root 状态变更依据阶段退出条件与审计证据，不由 progress 单独推导。
 
 ## 信息就绪与未知项
 
@@ -65,7 +65,7 @@ R1 涉及协议边界和运行记录语义，按 P-003 风险表采用 **`cross`
 
 ## R2 实施计划与审计模式
 
-按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。R2 仍待消费方确认指南可读可执行，确认前不推进阶段。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R3 待真实需求范围明确后重新判定审计模式与 provider。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须确认路径、格式、工具与授权；具体目录随 I-003 真实需求明确。
+按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。用户已在 E-018 确认指南可执行，A-011 自审通过并关闭 R2。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R3 待真实需求范围明确后重新判定审计模式与 provider。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须确认路径、格式、工具与授权；具体目录随 I-003 真实需求明确。
 
 ## 愿景对齐
 

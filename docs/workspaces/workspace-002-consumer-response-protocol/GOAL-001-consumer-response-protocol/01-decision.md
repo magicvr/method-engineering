@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.2.6
+version: 0.2.7
 ---
 
 # 决策记录 · GOAL-001
@@ -19,8 +19,8 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | 阶段 | 计划 / 承接目标 | 说明 |
 |------|-----------------|------|
 | R1 | `01-decision/D-001-bootstrap-scope.md`、`01-decision/D-002-runtime-record-boundary.md`；I-004 | 冻结双向协议语义与项目根 `runtime-records` 单一主记录的衔接方式；按 P-003 对协议语义采用 `cross` 审计。 |
-| R2 | 进行中；[E-008](02-execution/E-008-r2-readiness.md)；I-001/I-002 verified | 参与、仓库、责任人、授权与最小留存边界已确认；按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md) 在 `attachments/consumer-response-protocol.md` 编写唯一草稿并完成 self + independent Reviewer cross 复审。A-009 为 independent pass，A-010 已按 `fixed` 关闭 A-006/A-007/A-008 的 6 条 required findings；v0.1.3 仍待消费方可读可执行确认。D-005 于 2026-09-26 再确认：下游保有目录、格式与工具的最终选择权，可在提交或澄清时决定；若需向下游仓库写入响应材料，须在接受承诺和写入前确认，本次具体目录待真实需求澄清。 |
-| R3 | 待 R2 退出后登记 | 对一条真实且获授权处理的需求执行端到端试跑（I-003）；按 D-004 在 method-engineering 根 `runtime-records/<work-item-id>/` 承载 record.md 与追加式 events.md，按 D-006 在可追踪真实需求信号抵达时，于 I-002 既有范围内建立「待判定」主记录并分配实际 work-item ID；登记、回执与澄清不构成接受或处理承诺，实质处理仍须 I-003 具体授权和「已接受」承诺，不在 WorldModel 克隆创建记录；修正歧义或登记有界 residual，试跑验收与指南验证后提出具体共享路径迁移方案，取得用户裁决并完成唯一全文升格和引用核对（I-006），在 Root 关门前形成 VP-002 关门证据；审计模式待真实需求范围明确后重新判定。 |
+| R2 | 已完成；[E-018](02-execution/E-018-r2-consumer-acceptance.md)；[A-011](03-audit/A-011-r2-stage-closure.md) | 参与、仓库、责任人、授权与最小留存边界已确认；协议 v0.1.3 完成 self + independent Reviewer cross 复审，A-009 为 independent pass，A-010 已按 `fixed` 关闭 6 条 required findings；用户已确认草稿可执行并授权继续，A-011 确认阶段通过。D-005 再确认下游对目录、格式与工具保有最终选择权，可在提交或澄清时决定；若需向下游仓库写入响应材料，须在接受承诺和写入前确认。 |
+| R3 | 下一阶段，待真实需求信号（I-003） | 对一条真实且获授权处理的需求执行端到端试跑；按 D-004 在 method-engineering 根 `runtime-records/<work-item-id>/` 承载 record.md 与追加式 events.md，按 D-006 在可追踪真实需求信号抵达时，于 I-002 既有范围内建立「待判定」主记录并分配实际 work-item ID；登记、回执与澄清不构成接受或处理承诺，实质处理仍须 I-003 具体授权和「已接受」承诺，不在 WorldModel 克隆创建记录；修正歧义或登记有界 residual，试跑验收与指南验证后提出具体共享路径迁移方案，取得用户裁决并完成唯一全文升格和引用核对（I-006），在 Root 关门前形成 VP-002 关门证据；审计模式待真实需求范围明确后重新判定。当前尚无真实需求或试跑。 |
 
 ## 信息需求与阶段门禁
 

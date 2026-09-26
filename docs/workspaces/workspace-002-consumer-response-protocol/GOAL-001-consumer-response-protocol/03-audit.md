@@ -5,12 +5,12 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.2.6
+version: 0.2.7
 ---
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-009 independent 复审通过；A-010 已按 `fixed` 合法关闭 A-006/A-007/A-008 合计 6 条 required findings。历史意见 verdict 保留，当前开放 required 为 0；R2 仍待消费方可读可执行确认。
+本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-009 independent 复审通过；A-010 已按 `fixed` 合法关闭 A-006/A-007/A-008 合计 6 条 required findings；A-011 确认 R2 退出条件已满足。历史意见 verdict 保留，当前开放 required 为 0。
 
 ## 信息就绪核对
 
@@ -40,9 +40,10 @@ version: 0.2.6
 | A-008 | 2026-09-26 | independent | R2 整改复审、信号登记与处理授权时序 | fail | 0 | [A-008](03-audit/A-008-r2-remediation-rereview.md) |
 | A-009 | 2026-09-26 | independent | R2 信号登记时序整改最终复审 | pass | 0 | [A-009](03-audit/A-009-r2-signal-intake-remediation-review.md) |
 | A-010 | 2026-09-26 | self | R2 required finding 响应与闭合 | conditional | 0 | [A-010](03-audit/A-010-r2-required-finding-closure.md) |
+| A-011 | 2026-09-26 | self | R2 阶段退出条件复核 | pass | 0 | [A-011](03-audit/A-011-r2-stage-closure.md) |
 
 ## 结论状态
 
 - A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
-- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`。R2 的历史意见 A-006/A-007/A-008 verdict 保持 fail；A-009 independent pass 核对整改，A-010 已逐项以 `fixed` 合法闭合 A-006 F-001/F-002、A-007 F-001/F-002/F-003、A-008 F-001，当前开放 required 为 0。故审计 finding 门禁已满足，R2 仍待目标消费方确认指南可读、可执行；未取得该确认前不推进 R2。I-003 仍为 required/open，I-005 为 non-blocking/open，I-006 为 required/collecting，R3 未开始；运行记录位置按 D-004 由用户选定 method-engineering 根 `runtime-records/<work-item-id>/`，I-005/I-006 已按 E-012 分离。
+- I-004 为 `verified`，R1 阶段 self + independent 门禁通过；I-001/I-002 已由 E-008 的用户确认事实核验为 `verified`。R2 的历史意见 A-006/A-007/A-008 verdict 保持 fail；A-009 independent pass 核对整改，A-010 已逐项以 `fixed` 合法闭合 A-006 F-001/F-002、A-007 F-001/F-002/F-003、A-008 F-001，当前开放 required 为 0。用户在 E-018 确认协议 v0.1.3 可执行，A-011 self 审据此确认 R2 退出条件满足，R2 已关闭。I-003 仍为 required/open，等待一条真实需求信号；I-005 为 non-blocking/open，I-006 为 required/collecting，R3 尚未开始。运行记录位置按 D-004 由用户选定 method-engineering 根 `runtime-records/<work-item-id>/`，I-005/I-006 已按 E-012 分离。
 - 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。
