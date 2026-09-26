@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.10.0
+version: 0.11.0
 ---
 
 # 审计记录 · GOAL-002
@@ -20,6 +20,7 @@ version: 0.10.0
 | A-004 | 2026-09-26 | **self** | W2 草稿 `v0.1`（对照 W2 退出条件、W1 冻结的三层映射与裁定 `D-008`） | conditional | `03-audit/A-004-w2-draft-self-review.md` |
 | A-005 | 2026-09-26 | **independent** | W2 草稿 `v0.2` + `A-004` 自闭合复核 | **conditional**（历史保留；**有效状态 `pass`**，见 A-006） | `03-audit/A-005-w2-independent-review.md` |
 | A-006 | 2026-09-26 | **independent** | finding closure check · `A-005-F-001`～`F-003`（草稿 `v0.3`） | **pass** | `03-audit/A-006-a005-closure-check.md` |
+| A-007 | 2026-09-26 | **independent** | W2 草稿 `v0.3` 冻结进 W3 前的五处局部规则 | **conditional** | `03-audit/A-007-w2-v03-prefreeze-review.md` |
 
 ## 使用约定
 
@@ -77,4 +78,16 @@ version: 0.10.0
 - **verdict**：**pass**
 - **完整意见**：[`03-audit/A-006-a005-closure-check.md`](03-audit/A-006-a005-closure-check.md)
 
-**当前开放 required：0。** `A-005-F-001`、`F-002`、`F-003` 由本意见确认为 **fixed**；`F-004` 与创作者裁定一致。`A-005` 的原文 `conditional` 保留，**有效状态 `pass`**。本意见**同意重新记 W2 完成并进入 W3**，但不修改目标 `status` / `progress` / `goal-tree`。完成标记由 `/govern` 落账。
+**截至本意见，开放 required：0。** `A-005-F-001`、`F-002`、`F-003` 由本意见确认为 **fixed**；`F-004` 与创作者裁定一致。`A-005` 的原文 `conditional` 保留，**有效状态 `pass`**。本意见**同意重新记 W2 完成并进入 W3**，但不修改目标 `status` / `progress` / `goal-tree`。完成标记由 `/govern` 落账。该「开放 required：0」是 A-006 当时的投影；其后的开放项见 A-007，不改写本段结论。
+
+## A-007 · W2 草稿 v0.3 冻结前独立审（2026-09-26）
+
+- **source**：independent
+- **auditor**：GPT（Web 会话；由用户转述、本会话代为落盘）
+- **类型** / **scope**：design-plan / 草稿 `v0.3` 的五处局部规则（替换检查、条件敏感性负向推论、关键项未知的拒绝句、第 6 章判断点、第 8 章入口句）
+- **verdict**：**conditional**
+- **完整意见**：[`03-audit/A-007-w2-v03-prefreeze-review.md`](03-audit/A-007-w2-v03-prefreeze-review.md)
+
+**当前开放 required：3**（`A-007-F-001` / `F-002` / `F-003`，均为 open）。另有 2 条 recommended（`F-004` / `F-005`），不单独立门禁。本意见承认方法骨架成立，不重开 W1，也不重开 `A-006` 已闭合的 `A-005-F-001`～`F-003`。`F-003` 修订的是 [`D-008`](01-decision/D-008-i205-adjudication.md) 里已经写下的绝对拒绝句，闭合须先有创作者书面裁定。
+
+本意见**不收回** W2 完成标记，**不修改**目标 `status` / `progress` / `goal-tree`。`00-meta` 与 `goal-tree.md` 里「开放 required：0、下一阶段 W3」仍是 `D-011` 之后的投影。在三条 required 合法闭合前，不建议把这三处规则写进 W3 的两份最小结构。响应由 `/govern` 处理。
