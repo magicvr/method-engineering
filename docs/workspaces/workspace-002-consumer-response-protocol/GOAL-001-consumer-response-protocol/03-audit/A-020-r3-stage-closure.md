@@ -53,4 +53,4 @@ R3 阶段退出条件具备可核对证据，阶段可判为**完成**；`progre
 
 ### 后续进展 · 2026-09-26
 
-本条写就后，I-006 已按用户指示与 D-010 完成：协议唯一权威全文升格至 `protocols/consumer-response-protocol.md`（v1.0.0），工作区仅留指向存根（E-029），I-006 转 `verified`。Root 关门现仅待独立关门审计。本条的阶段判定与限制表述保留不改写。
+本条写就后，I-006 已按用户指示与 D-010 完成：协议唯一权威全文升格至 `protocols/consumer-response-protocol.md`（v1.0.0），工作区仅留指向存根（E-029），I-006 转 `verified`。随后 A-021（independent）关门审计 `pass`，A-022 执行关门，Root 置 `done`。本条的阶段判定与限制表述保留不改写。
