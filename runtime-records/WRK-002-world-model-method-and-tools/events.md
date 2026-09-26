@@ -180,3 +180,17 @@
 - **门禁**：开放 required **3**（`F-001`～`F-003`）。**三者闭合前不得推进 W3**；W2 完成标记的维持/收回**待用户裁决**（裁决前不作为 W3 放行依据）。独立审**不改** `status` / `progress` / 正文 / `goal-tree`。
 - **台账分歧已修（本轮）**：`goal-tree.md` 中 `GOAL-002` 备注末句的过时句（"方法主文档…尚未形成"）与 Root `00-meta` 成功标准 R2 行的过时 `progress 0%`（改为**不复制派生数字**，以免再分叉）。
 - **未决 / 下一责任**：由 `/govern` 响应 `A-005`——`F-001`～`F-003` 拟以 **`fixed`** 闭合并出草稿 **`v0.3`**（保留 `v0.2` 供对照）；`F-004` 待创作者裁定后处理；W2 完成标记按用户裁决处理。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-016 · 响应独立审 A-005：出草稿 v0.3 并收回 W2 完成标记
+
+- **时间**：2026-09-26
+- **责任角色**：用户（三项裁决：收回 W2 标记 / `F-004` 口径 / 另跑独立闭审）；方法工程响应负责人（修订与留痕）
+- **触发**：独立审 [`A-005`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-005-w2-independent-review.md)（3 required + 1 recommended；**不能确认** `A-004-F-001` 完全闭合）
+- **状态变化**：无；仍为**「响应中」**。
+- **依据**：本仓子目标 [`D-010`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-010-a005-response.md) 与 [`E-010`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-010-w2-draft-v0-3.md)；产物 [`world-model-method-working-version-v0.3.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/world-model-method-working-version-v0.3.md)。
+- **内容**：**`F-001`** 第 2 章步表重排——步 ⑦「完成裁决」成为**每条向下路径的必经步**，并**分开写明五条出口**（已支持 / 缺状态 / 缺组合 / 缺精度 / 缺机制）；**`F-002`** 第 10 章第 7 行改指**第 7 章新增的「适用范围与条件敏感性的最低核对」**（写明最低核对动作）；**`F-003`** 第 8 章新增**「本方法不覆盖的事项（§12 十一项）」**节（**不新开章**，保持冻结的 10 章）；**`F-004`** 按创作者裁定把第⑤项机制列为**条件关键项**（机制未知可暂定注册，但能力声明**不得声称可独立裁决**并须写明允许的返回类别）。
+- **W2 完成标记：收回**。`A-005` 判两条 W2 退出条件行不满足，则"W2 记完成"的主张不成立；子目标 `progress` **50% → 25%**（1/4），**待独立 closure check 确认后重新记完成**。Root `progress` 不变（25%，1/4）。
+- **闭合口径（保守）**：三条 required 记「**修正已落盘、待 closure check**」，**不由编排器自行宣告闭合**（`A-005` 系独立审，按 `A-002` → `A-003` 先例）。请求包 [`closure-check-request-A-006.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-006.md)。
+- **更正与台账修正**：`A-004` 的 `F-001` 闭合主张按 `A-005` 要求**收窄**为「新建模型路径已改、其余路径仍开放」（追加更正，不改写原文）；`goal-tree.md` 中 `GOAL-002` 备注末句过时句、Root `00-meta` 成功标准 R2 行的派生进度数字（改为不复制）已修。
+- **门禁**：**闭审确认前不得推进 W3、W2 不得重新记完成**。
+- **未决 / 下一责任**：把 [`closure-check-request-A-006.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-006.md) 交 `/audit` 通道，只核 `A-005-F-001`～`F-003` 是否闭合；确认通过后重新记 W2 完成（`progress` 回到 50%）并进入 **W3**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。

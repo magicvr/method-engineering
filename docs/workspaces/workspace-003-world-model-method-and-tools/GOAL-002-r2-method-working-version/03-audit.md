@@ -62,4 +62,10 @@ version: 0.9.0
 - **verdict**：**conditional**
 - **完整意见**：[`03-audit/A-005-w2-independent-review.md`](03-audit/A-005-w2-independent-review.md)
 
-**当前开放 required：3**（`A-005-F-001`、`A-005-F-002`、`A-005-F-003`，均为 open）。`A-005-F-004` 为 recommended。独立核对可以确认 `A-004-F-002`～`F-006` 的 `fixed` 主张；**不能确认** `A-004-F-001` 已全部闭合。本条目不修改目标 `status` / `progress`。响应归 `/govern`。
+**当前开放 required：3**（`A-005-F-001`、`A-005-F-002`、`A-005-F-003`），状态 **「修正已落盘、待独立 closure check」**——修订见 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md)、产物 [`world-model-method-working-version-v0.3.md`](attachments/world-model-method-working-version-v0.3.md)、响应见本条下方 `/govern` 响应节；请求包 [`attachments/closure-check-request-A-006.md`](attachments/closure-check-request-A-006.md)。`A-005-F-004`（recommended）已按创作者裁定处理（第⑤项机制为**条件关键项**，机制未知可暂定注册但**能力声明必须收窄**）。
+
+**编排器已按用户裁决收回 W2 完成标记**（子目标 `progress` 50% → **25%**）：独立审列出两条 W2 退出条件行不满足，则当时"W2 记完成"的主张不成立。**闭审确认前不得推进 W3、W2 不得重新记完成。** 本条目不修改目标 `status` / `progress`；响应归 `/govern`。
+
+### `/govern` 响应 · 2026-09-26
+
+见 [`A-005`](03-audit/A-005-w2-independent-review.md) 的「Finding 响应」节：`F-001`～`F-003` 按关闭要求整改并**落盘于草稿 `v0.3`**（记「修正已落盘、待 closure check」，**不由编排器自行宣告闭合**）；`F-004` 按创作者裁定改为「条件关键项」；**W2 完成标记收回**；`A-004-F-001` 的闭合主张按本意见**收窄**并追加更正；`A-005` 指出的两处台账分歧已修。
