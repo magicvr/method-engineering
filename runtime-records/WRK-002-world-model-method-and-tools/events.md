@@ -155,3 +155,16 @@
 - **门禁**：开放 required **4**。**W2 不得记完成，也不得据此进入 W3**；响应归 `/govern`。
 - **并行会话产物**：工作区中 `attachments/independent-review-request-A-005.md` 由**并行会话**产出（引用一份本仓并不存在的 `A-004-w2-self-review.md`），**未被采用、未被提交**，保持未跟踪状态待用户裁决；其两处有效发现（§6 统一处理缺失、总流程缺回绝出口）已由本自审 `F-006` 与 `F-001` 的补充关闭要求吸收。
 - **未决 / 下一责任**：由 `/govern` 响应 `A-004` 并出草稿 `v0.2`（逐章补适用条件/边界/未决、补 `C1`/`C5`/`C8` 默认设计、对齐总流程次序），再行复核；通过后 W2 记完成并进入 **W3**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-014 · 响应 A-004：草稿 v0.2 形成并完成 W2
+
+- **时间**：2026-09-26
+- **责任角色**：用户（确认整改范围；裁决删除并行会话残留文件）；方法工程响应负责人（整改与复核）
+- **触发**：self 审视 [`A-004`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-004-w2-draft-self-review.md)（4 required + 2 advisory）落盘 + 用户确认。
+- **状态变化**：无；仍为**「响应中」**。
+- **依据**：本仓子目标 [`D-009`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-009-a004-response.md) 与 [`E-009`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-009-w2-draft-v0-2.md)；产物 [`world-model-method-working-version-v0.2.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/world-model-method-working-version-v0.2.md)。
+- **内容**：`F-001` 第 2 章总流程**按需求原文 §13 闭环重排九步**（补**注册能力**、**完成裁决**、**裁决后检查**，补全部出口，并新增「两种检查必须分开」）；`F-002` 10 章**逐章**补适用条件 / 已知边界 / 未决事项；`F-003` 补 `C1`（能力目录承载）/ `C5`（参数归属与谓词合并）/ `C8`（登记最小字段）默认设计；`F-004` 第 1 章**单列「归属待定」**；`F-005` 统一 **〔默认设计〕** 标注并汇总附录 C；`F-006` 第 4 章**改题为「裁决精度：定性与定量的统一处理」**并补回 §6 主张。整改复核对照 W2 退出条件逐项**通过**。
+- **W2 结果**：`A-004` 6 条 finding 以 `fixed` 闭合、开放 required **0**；**W2 记完成**，子目标 `progress` 25% → **50%**（2/4）。**本轮为自审的自闭合，不冒充独立审**（R4 交付前独立审仍由 Root `I-004` 约束）。
+- **空转对照检查**：①③④ 在草稿层判定"设计上不成立"；**② 过程代替内容 移到 W4**（须真实内容检验），该项成功标准本轮未勾选。
+- **并行会话残留文件**：`attachments/independent-review-request-A-005.md`（引用不存在的条目）经用户裁决**删除**；该文件**从未提交**，删除只影响工作区，已在此留痕；其两处有效发现由 `A-004-F-006` 与 `F-001` 的补充关闭要求吸收。
+- **未决 / 下一责任**：**W3** —— 形成「能力缺口判定清单」（对应第 8 章五步）与「模型条目最小结构」（对应第 7 章十一项），要求创作者可填、建议与裁定可区分。`I-202`（W4 结束前）/ `I-203`（R4 交付前）/ `I-204`（W4 开始前）仍 open。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。

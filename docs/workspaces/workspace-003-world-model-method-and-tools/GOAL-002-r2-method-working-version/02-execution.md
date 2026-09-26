@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.5.0
+version: 0.6.0
 ---
 
 # 执行记录 · GOAL-002
@@ -22,7 +22,8 @@ version: 0.5.0
 | E-006 | 2026-09-26 | 响应 A-002 并修正 §6 / §7.2 / §13 的 ②③ 边界 | recorded | `02-execution/E-006-a002-response.md` |
 | E-007 | 2026-09-26 | closure check 通过，W1 产物冻结为 W2 输入 | recorded | `02-execution/E-007-w1-freeze.md` |
 | E-008 | 2026-09-26 | `I-205` 三项裁定落盘并形成 W2 草稿 v0.1 | recorded | `02-execution/E-008-w2-draft-v0-1.md` |
+| E-009 | 2026-09-26 | 响应 A-004：出草稿 v0.2 并完成 W2 | recorded | `02-execution/E-009-w2-draft-v0-2.md` |
 
 ## 事实边界
 
-只写已经发生且有证据的事实。**W1 已完成并冻结为 W2 输入**（`D-007`）；**W2 草稿 `v0.1` 已形成**（[`attachments/world-model-method-working-version-v0.1.md`](attachments/world-model-method-working-version-v0.1.md)），**阶段审视未做**，故 W2 **未记完成**。**W3～W4 未开始**：两个最小结构与适用性核对**尚未形成**。`I-205` 已裁定并 verified；`I-202` / `I-203` / `I-204` open。
+只写已经发生且有证据的事实。**W1 已完成并冻结为 W2 输入**（`D-007`）；**W2 已完成**（草稿 [`v0.2`](attachments/world-model-method-working-version-v0.2.md)，经 `A-004` 整改并按退出条件复核通过；`v0.1` 保留为历史）。**W3～W4 未开始**：两个最小结构与适用性核对**尚未形成**。`I-202` / `I-203` / `I-204` open；空转形态 ② 的完整判定移到 W4。

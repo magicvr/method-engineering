@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.5.0
+version: 0.6.0
 ---
 
 # 决策记录 · GOAL-002
@@ -17,7 +17,7 @@ version: 0.5.0
 | 工作包 | 计划文件 / 落点 | 说明 |
 |--------|-----------------|------|
 | W1 | **已完成**（2026-09-26） | 条款映射与差异登记；产出 [`01-decision/D-004-w1-clause-mapping.md`](01-decision/D-004-w1-clause-mapping.md) |
-| W2 | 未写 | 方法主文档草稿落 `attachments/`；升格路径待 `I-203` 裁决 |
+| W2 | **已完成**（2026-09-26，草稿 `v0.2`） | 方法主文档落 [`attachments/world-model-method-working-version-v0.2.md`](attachments/world-model-method-working-version-v0.2.md)（`v0.1` 保留为历史）；升格路径待 `I-203` 裁决 |
 | W3 | 未写 | 两个最小结构草稿落 `attachments/` |
 | W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
 
@@ -37,3 +37,4 @@ version: 0.5.0
 | D-006 | 2026-09-26 | 响应独立复审 A-002：修正 §6 / §7.2 / §13 的 ②③ 边界 | accepted | `01-decision/D-006-response-a002.md` |
 | D-007 | 2026-09-26 | closure check 通过：冻结 W1 产物为 W2 输入 | accepted | `01-decision/D-007-w1-freeze.md` |
 | D-008 | 2026-09-26 | `I-205` 三项裁定落盘并开始 W2（含默认章节顺序） | accepted | `01-decision/D-008-i205-adjudication.md` |
+| D-009 | 2026-09-26 | 响应 A-004：整改为草稿 v0.2 并完成 W2 | accepted | `01-decision/D-009-a004-response.md` |
