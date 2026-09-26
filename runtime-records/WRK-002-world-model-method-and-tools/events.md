@@ -108,3 +108,15 @@
 - **更正留痕（重要）**：编排器此前把 `A-001-F-001` 记为 `fixed`，该声明**被独立复审部分否定**；[`03-audit.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit.md) 已将状态如实更正为 `partially fixed`，开放 required 由 0 更正为 **2**（由同一处 §6 修正一并闭合）。编排器**不以自身核对结论替代独立审**。
 - **门禁**：closure check 通过前，**不宣布 `A-001` 全部闭合、不冻结经修订的 `D-004` 为 W2 输入、不推进 W2 内容写作**。
 - **未决 / 下一责任**：执行 `A-002-F-001` 的 §6 修正（建议一并修两条 advisory）→ 交独立审阅者做一次轻量 closure check → 通过后冻结 W1 产物并进入 **W2**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-010 · 响应 A-002 并修正 ②③ 边界（保守记闭合）
+
+- **时间**：2026-09-26
+- **责任角色**：用户（确认修正范围与 closure check 方式）；方法工程响应负责人（执行修正与留痕）
+- **触发**：独立复审 [`A-002`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-002-d004-d005-rereview.md) 的 `A-002-F-001`（required）与两条 advisory。
+- **状态变化**：无；仍为**「响应中」**（内部修订，不产生运行状态转换）。
+- **依据**：本仓子目标 [`GOAL-002` 的 `D-006`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-006-response-a002.md) 与 [`E-006`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-006-a002-response.md)。
+- **内容**：修订 `D-005` 三层表的 §6 / §7.2 / §13 三行 ②③——§6 由"须声明精度阶梯"改为"声明当前支持的精度或精度形态及其边界；**若存在**多个精度层级应能表达其关系"（"是否采用精度阶梯"下移 ③）；§7.2 由"须给出前提登记处"改为"前提可被明确识别、引用 + 最小化核对步骤"（登记位置下移 ③）；§13 由"须给出提出异议的位置"改为"须允许并承载异议及替代方案"（是否单设章节下移 ③）。
+- **闭合口径（保守）**：编排器**不自行宣告闭合**（上一轮自行记 `fixed` 已被独立复审部分否定）。`A-002-F-001` / `F-002` / `F-003` 与 `A-001-F-001` 一律记「修正已落盘、待 closure check」；开放 required **仍记 2**。请求包见 [`attachments/closure-check-request-A-003.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-003.md)。
+- **门禁**：closure check 确认前，不宣布 `A-001` 全部闭合、不冻结经修订的 W1 产物为 W2 输入、不推进 W2 内容写作。
+- **未决 / 下一责任**：交回同一独立审阅者做 closure check；通过后另立 `A-003`、更新闭合投影、冻结 W1 产物并进入 **W2**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。

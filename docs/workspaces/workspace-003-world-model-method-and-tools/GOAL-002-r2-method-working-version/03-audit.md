@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.4.0
+version: 0.5.0
 ---
 
 # 审计记录 · GOAL-002
@@ -36,4 +36,6 @@ version: 0.4.0
 
 **`A-002` 的复审结论**：`A-001-F-002` / `F-003` / `F-004` / `F-005` 经独立复审确认为 **fixed**；`A-001-F-001` 为 partially fixed；新增 `A-002-F-001`（required）与 2 条 advisory（`A-002-F-002` §7.2 前提登记处、`A-002-F-003` §13 异议位置）。复审判定**无需重跑 W1、也无需再做一次同规模独立审计**。
 
-**待办**：完成 `A-002-F-001` 的 §6 修正（建议一并修两条 advisory）后，做一次**针对该 finding 的 closure check**（由独立审阅者轻量核对，编排器不冒充）；通过后 `A-002-F-001 → fixed`、`A-001-F-001 → closed`、`A-002` verdict 可转 `pass`，经修订的 `D-004` + `D-005` + 对 `A-002` 的修订记录方可**冻结为 W2 输入**。在该 closure check 通过前，**不得宣布 `A-001` 全部闭合、不得冻结 W2 输入、不得推进 W2 内容写作**。
+**待办**：`A-002-F-001` 的 §6 修正**已落盘**（连同两条 advisory，见 [`D-006`](01-decision/D-006-response-a002.md) 与 [`E-006`](02-execution/E-006-a002-response.md)），现等待**一次针对该 finding 的轻量 closure check**（请求包 [`attachments/closure-check-request-A-003.md`](attachments/closure-check-request-A-003.md)，交回**同一独立审阅者**；编排器不冒充）。
+
+**投影口径（保守）**：虽然修正已落盘，但**闭合须由独立审阅者确认**——前一版投影曾因编排器自行记 `fixed` 而被独立复审部分否定。因此本轮**开放 required 仍记 2**（`A-002-F-001` + `A-001-F-001`），并标注「修正已落盘、待 closure check」。closure check 通过后按 `A-002` 出口条件更新：`A-002-F-001 → fixed`、`A-001-F-001 → closed`、`A-002` 有效状态 `pass`（原 `conditional` 保留为历史），另立 `A-003` 记确认结论，并把经修订的 `D-004` + `D-005` + `D-006` **冻结为 W2 输入**。在该确认到达前，**不得宣布 `A-001` 全部闭合、不得冻结 W2 输入、不得推进 W2 内容写作**。

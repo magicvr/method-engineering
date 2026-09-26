@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.6.0
+version: 0.7.0
 progress: 25%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -117,4 +117,6 @@ primary_plan: VP-003-world-model-method-and-tools
 
 2026-09-26 审计响应：用户确认「按审计意见 `fixed` 修订 + 采用审计建议的升级过滤规则 + 修订后另跑独立复审」。据此产出 [`D-005`](01-decision/D-005-w1-mapping-revision.md) 修订 `D-004`：**三层分离**（原文硬约束 / 对方法的要求 / 未定的实现方式）、`E3` 改写、`C3` / `C4` 改写、`C1`～`C8` 分级；`A-001-F-001`～`F-005` 均以 `fixed` 闭合（[`03-audit.md`](03-audit.md) 开放 required 投影 5 → 0），事实见 [`E-005`](02-execution/E-005-a001-response.md)。
 
-2026-09-26 独立复审到达（**含对编排器的更正**）：用户转述 GPT Web 的复审意见，已代为落盘为 [`A-002`](03-audit/A-002-d004-d005-rereview.md)（`source: independent`，verdict `conditional`）。复审确认 `A-001-F-002` / `F-003` / `F-004` / `F-005` 为 **fixed**，但指出 `A-001-F-001` 仅 **partially fixed**——§6 第二层把「精度阶梯」当成原文推出的强制方法要求，属同类"实现方式上浮"；新增 `A-002-F-001`（required）与 2 条 advisory（§7.2 前提登记处、§13 异议位置）。**编排器上一轮对该条的 `fixed` 声明被独立复审部分否定，台账已如实更正为 partially fixed**，不以自身核对替代独立审。当前开放 required：**2**（由同一处 §6 修正一并闭合）。复审同时判定无需重跑 W1、无需再做一次同规模审计。
+2026-09-26 复审响应：用户确认「required 与两条 advisory 一并修 + 修正后交回同一独立审阅者做轻量 closure check」。据此产出 [`D-006`](01-decision/D-006-response-a002.md) 修订 `D-005` 三层表的 **§6 / §7.2 / §13 三行 ②③ 格**（① 层未动）：§6 ②由"须声明精度阶梯"改为"声明当前支持的精度或精度形态及其边界；**若存在**多个精度层级应能表达其关系"，"是否采用精度阶梯"下移 ③；§7.2 ②由"须给出前提登记处"改为"前提可被明确识别、引用 + 最小化核对步骤"，登记位置下移 ③；§13 ②由"须给出提出异议的位置"改为"须允许并承载异议及替代方案"，是否单设章节下移 ③。事实见 [`E-006`](02-execution/E-006-a002-response.md)。
+
+**闭合口径（保守）**：编排器**不自行宣告闭合**（上一轮自行记 `fixed` 已被独立复审部分否定）。`A-002-F-001` / `A-002-F-002` / `A-002-F-003` 与 `A-001-F-001` 均记「**修正已落盘、待 closure check**」；[`03-audit.md`](03-audit.md) 开放 required 仍记 **2**。closure check 请求包见 [`attachments/closure-check-request-A-003.md`](attachments/closure-check-request-A-003.md)；确认到达后另立 `A-003`、更新闭合投影并冻结 W1 产物为 W2 输入。

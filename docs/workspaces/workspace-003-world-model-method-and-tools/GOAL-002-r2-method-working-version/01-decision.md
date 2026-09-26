@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.2.0
+version: 0.3.0
 ---
 
 # 决策记录 · GOAL-002
@@ -34,3 +34,4 @@ version: 0.2.0
 | D-003 | 2026-09-26 | 修正执行主体约束：助手应尽可能协助，但不得代劳 | accepted | `01-decision/D-003-executor-boundary-revision.md` |
 | D-004 | 2026-09-26 | W1 条款映射与差异登记 | accepted（由 `D-005` 修订，原文保留） | `01-decision/D-004-w1-clause-mapping.md` |
 | D-005 | 2026-09-26 | 响应独立审计 A-001：修订 D-004（三层分离、C3/C4 改写、候选分级） | accepted | `01-decision/D-005-w1-mapping-revision.md` |
+| D-006 | 2026-09-26 | 响应独立复审 A-002：修正 §6 / §7.2 / §13 的 ②③ 边界 | accepted | `01-decision/D-006-response-a002.md` |
