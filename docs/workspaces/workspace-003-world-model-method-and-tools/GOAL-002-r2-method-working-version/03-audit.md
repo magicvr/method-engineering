@@ -88,6 +88,12 @@ version: 0.11.0
 - **verdict**：**conditional**
 - **完整意见**：[`03-audit/A-007-w2-v03-prefreeze-review.md`](03-audit/A-007-w2-v03-prefreeze-review.md)
 
-**当前开放 required：3**（`A-007-F-001` / `F-002` / `F-003`，均为 open）。另有 2 条 recommended（`F-004` / `F-005`），不单独立门禁。本意见承认方法骨架成立，不重开 W1，也不重开 `A-006` 已闭合的 `A-005-F-001`～`F-003`。`F-003` 修订的是 [`D-008`](01-decision/D-008-i205-adjudication.md) 里已经写下的绝对拒绝句，闭合须先有创作者书面裁定。
+**当前开放 required：3（状态：修正已落盘、待 closure check）**（`A-007-F-001` / `F-002` / `F-003`）。另有 2 条 recommended（`F-004` / `F-005`），不单独立门禁，**本轮已一并处理**。本意见承认方法骨架成立，不重开 W1，也不重开 `A-006` 已闭合的 `A-005-F-001`～`F-003`。`F-003` 修订的是 [`D-008`](01-decision/D-008-i205-adjudication.md) 里已经写下的绝对拒绝句——**已由创作者书面裁定改为依赖式**，并经 [`D-012`](01-decision/D-012-a007-response.md) 正式修订（`D-008` 原文不改写 + 追加修订说明）。
 
-本意见**不收回** W2 完成标记，**不修改**目标 `status` / `progress` / `goal-tree`。`00-meta` 与 `goal-tree.md` 里「开放 required：0、下一阶段 W3」仍是 `D-011` 之后的投影。在三条 required 合法闭合前，不建议把这三处规则写进 W3 的两份最小结构。响应由 `/govern` 处理。
+本意见**不收回** W2 完成标记，**不修改**目标 `status` / `progress` / `goal-tree`。`00-meta` 与 `goal-tree.md` 里「开放 required：0、下一阶段 W3」是 `D-011` 之后的投影，已于本轮按本意见更正为 **3** 并标注「修正已落盘、待闭审」。在三条 required 合法闭合前，不建议把这三处规则写进 W3 的两份最小结构。响应由 `/govern` 处理。
+
+### `/govern` 响应 · 2026-09-26
+
+见 [`A-007`](03-audit/A-007-w2-v03-prefreeze-review.md) 的「Finding 响应」节：`F-001`～`F-003` 按关闭要求整改并**落盘于草稿 [`v0.4`](attachments/world-model-method-working-version-v0.4.md)**（记「修正已落盘、待 closure check」，**不由编排器自行宣告闭合**）；`F-004` / `F-005` 两条 recommended 一并处理。其中 `F-003` 经**创作者书面裁定**改为**依赖式**，并**正式修订 [`D-008`](01-decision/D-008-i205-adjudication.md) 第 2 节的绝对句**（原文不改写、末尾追加修订说明；修订见 [`D-012`](01-decision/D-012-a007-response.md) 第 1 项）。
+
+请求包 [`attachments/closure-check-request-A-008.md`](attachments/closure-check-request-A-008.md)。**W2 完成标记不收回**（本意见明确不改，且其 scope 非 W2 退出条件重审）；**W3 暂缓至闭审确认**。

@@ -217,3 +217,14 @@
 - **门禁**：开放 required **3**（`F-001` / `F-002` / `F-003`，另 2 条 recommended 不单独立门禁）。**三条 required 合法闭合前，不把这三处规则写进 W3 的两份最小结构**——故 **W3 暂缓**。`A-007` **不收回** W2 完成标记（`progress` 仍 50%）；`00-meta` 与 `goal-tree.md` 的「开放 required」投影由 0 更正为 **3**。
 - **须创作者裁定**：`F-003` 的修订触及 [`D-008`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-008-i205-adjudication.md) 第 2 节**已落盘的绝对句**——不是草稿抄错。把绝对句改成依赖式 = **修订该裁定**，须创作者书面裁定；编排器不得当笔误直接改字。
 - **未决 / 下一责任**：由 `/govern` 响应 A-007——先取 `F-003` 的创作者裁定，再按关闭要求修订 `v0.3` 出 **`v0.4`**（`F-001` / `F-002` / `F-004` / `F-005` 一并处理），随后按独立审先例交 closure check 确认闭合；确认后 W3 方可开始。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-019 · 响应独立审 A-007：修订 D-008 绝对句并出草稿 v0.4
+
+- **时间**：2026-09-26
+- **责任角色**：用户（三项裁决：`F-003` 改依赖式 / 修五条 / 交独立闭审）；方法工程响应负责人（修订与留痕）
+- **触发**：独立审 [`A-007`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-007-w2-v03-prefreeze-review.md)（3 required + 2 recommended）
+- **状态变化**：无；仍为**「响应中」**。
+- **依据**：本仓子目标 [`D-012`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-012-a007-response.md) 与 [`E-012`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-012-w2-draft-v0-4.md)；产物 [`world-model-method-working-version-v0.4.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/world-model-method-working-version-v0.4.md)。
+- **内容**：**`F-001`** 第 1 章谓词与第 5 章执行检查**限定在"所声称的适用范围内"**（机制可合法依赖地点 / 制度 / 对象类型；跨出边界后失效只说明**越界**，不因此变成世界状态；保留"只覆盖当前这一个案例仍不合格"）；**`F-002`** 条件敏感性改为 **challenge test**（无变化只记"本次检查未证明该条件敏感"并重新审视边界依据，**不得自动删除边界**）；**`F-003`** 拒绝句改为**依赖式**，并经创作者书面裁定**正式修订 [`D-008`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-008-i205-adjudication.md) 第 2 节的绝对句**（**原文不改写**、末尾追加修订说明；`C3` 其余内容不变）；**`F-004`** 第 6 章判断点与留痕栏位一并去掉"分类"压力；**`F-005`** 第 8 章入口句改为"**是否存在新的世界模型能力缺口**"。
+- **门禁**：开放 required **3**（状态「**修正已落盘、待 closure check**」）；请求包 [`closure-check-request-A-008.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-008.md)。**W3 暂缓至闭审确认**；**W2 完成标记不收回**（`A-007` 明确不改，且其 scope 非 W2 退出条件重审）——与 `A-005` 那次（明确列出两条退出条件行不满足）处理不同，理由见 `D-012`。
+- **未决 / 下一责任**：把 [`closure-check-request-A-008.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-008.md) 交 `/audit` 通道，只核 `A-007-F-001`～`F-003` 是否闭合；确认通过后**开始 W3**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
