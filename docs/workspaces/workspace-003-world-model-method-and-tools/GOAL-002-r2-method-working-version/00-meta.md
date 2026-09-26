@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.9.0
+version: 0.10.0
 progress: 25%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -126,3 +126,7 @@ primary_plan: VP-003-world-model-method-and-tools
 **计数口径（采纳 `A-003` 非阻断建议）**：本目标 `03-audit` 的开放 required 按「**独立的开放必改项**」计数——父 finding 处于 `partially fixed` 时与其残留子 finding **合并计为 1**，不重复计数；`D-006` 正文未改（`A-003` 明确无需修改），历史陈述保留。**仓库级**是否统一该口径（`AGENTS.md` §6b / `principles.md` P-003）属元规则文本修改，**留待用户裁定**，本目标未越权修改。
 
 2026-09-26 `I-205` 裁定与 W2 起草：用户就三项需创作者裁定的设计选择给出结论，产出 [`D-008`](01-decision/D-008-i205-adjudication.md)／[`E-008`](02-execution/E-008-w2-draft-v0-1.md)：**`C2`** 不建统一「稳定性」判据，改以举例＋**强制显式适用条件声明**（按创作者细化措辞："与该参考相匹配、且可能影响裁决有效性的适用条件"；高度情境化六类必须显式说明文化/制度/组织条件；关键条件无法明确且实质影响结果 → 建专门机制或拒绝当前精度）；**`C3`** 十一项均须被处理，允许「未知 / 尚待验证 / 不适用」作为显式结果，**不阻止暂定注册但限制可声明的裁决能力**，"关键项未知"应拒绝裁决；**`C6`** 确认 §3 立为「**总流程**」章作为运行主线，**章节顺序授权助手默认设计**。据此采用默认章节顺序（前言 + 10 章）并形成 **W2 草稿 `v0.1`**：[`attachments/world-model-method-working-version-v0.1.md`](attachments/world-model-method-working-version-v0.1.md)（含每章判断点与协作位、建议/裁定分开留痕约定、未决事项附录）。**W2 检查点在草稿经阶段审视后才记完成**，`progress` 仍 25%（1/4）。
+
+2026-09-26 W2 self 审视（**未通过**）：用户选择「自审计即可」。产出 [`A-004`](03-audit/A-004-w2-draft-self-review.md)（`source: self`，verdict **`conditional`**）：草稿结构与覆盖面成立（10 章齐备、每章协作位齐备、`C2` / `C3` 落实、两条防空转硬纪律与第 8 章第①步回绝闸门到位、边界纪律正确——共 **6 项通过项**），但有 **4 条 required**：`F-001` 第 2 章六步与需求原文 §13「最低可用结果」的闭环次序不一致（"检查"被并入建模步、**缺少裁决后的检查步**，且总流程未标出「非客观问题 → 回绝」出口，而该闭环正是 W4 判据）；`F-002` **未逐章给出适用条件 / 已知边界 / 未决事项**（W2 退出条件的明列项）；`F-003` W1 标注"由 W2 给默认设计"的 `C1` / `C5` / `C8` **缺失或不完整**；`F-006`（**补记**）第 4 章**未落实 R1 冻结章节「定性与定量的统一处理」**的实质主张。另有 2 条 advisory（`F-004` 混淆「未定义」与「归属待定」、`F-005` ③ 层默认设计未统一标注）。**W2 不记完成，也不据此进入 W3**；响应归 `/govern`。
+
+> **并行会话产物未纳入**：工作区中 [`attachments/independent-review-request-A-005.md`](attachments/independent-review-request-A-005.md) 由**并行会话**产出、引用一份本仓并不存在的 `A-004-w2-self-review.md`；本目标**未采用、未提交**，保持未跟踪状态待用户裁决（其两处有效发现已由本自审 `F-006` 与 `F-001` 补记吸收）。
