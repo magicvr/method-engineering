@@ -4,8 +4,8 @@ title: 运行记录最小承载说明
 status: active
 parent: null
 created: 2026-09-18
-updated: 2026-09-25
-version: 0.3.0
+updated: 2026-09-26
+version: 0.3.1
 ---
 
 # 运行记录最小承载说明
@@ -26,7 +26,7 @@ runtime-records/
 
 `<work-item-id>` 优先复用需求方已有的稳定需求 ID；没有现成 ID 时，在当前消费仓内分配 `WRK-NNN-<slug>`。不要把工作区编号嵌入该 ID，也不要使用 `GOAL-*` 作为运行记录 ID。
 
-当前目录只落承载说明，尚无真实需求，因此没有创建示例处理记录或虚构 Method Case。若需追踪某次治理来源，记录可以引用相关 workspace/Goal，但该引用不改变运行记录的仓库级归属，也不成为 Goal 状态来源。
+不创建虚构示例处理记录或 Method Case；每个处理目录必须对应一条有可追踪来源的真实需求信号。若需追踪某次治理来源，记录可以引用相关 workspace/Goal，但该引用不改变运行记录的仓库级归属，也不成为 Goal 状态来源。
 
 ## 两个记录的职责
 
