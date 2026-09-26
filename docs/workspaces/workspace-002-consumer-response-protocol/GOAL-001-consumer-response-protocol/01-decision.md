@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.3
+version: 0.3.4
 ---
 
 # 决策记录 · GOAL-001
@@ -34,7 +34,7 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | 可追踪信号抵达建档与逐案协作时（非阶段门禁） | I-005（字段、模板、work-item ID、引用、渠道） | non-blocking / open；D-004 确定试点宿主，D-006 确定 I-002 范围内信号抵达即建档并分配 ID；不新增逐条登记同意、签字或表单，其余逐案确认 |
 | R3 范围重新对齐 | I-007（需求与 Root 范围冲突） | resolved；D-007 后由 D-008 将 WRK-001 改为有界真实流程链，仍排除方法构建 |
 | 联调与下游材料写入前 | I-008（真实流程角色、追踪、核对和下游承载/授权） | required / verified；A-016 F-001 经 D-009 窄幅修复，A-018 独立复审通过并由 A-019 以 `fixed` 闭合；材料范围限于当前 WRK-001 一条流程链 |
-| R3 试跑验收与指南验证后、Root 关门前 | I-006（指南共享路径与单一来源升格） | required / collecting；最终路径待用户裁决，升格尚未执行 |
+| R3 试跑验收与指南验证后、Root 关门前 | I-006（指南共享路径与单一来源升格） | required / verified；用户指示 `docs/` 留给治理框架，D-010 选定仓库根 `protocols/`，v1.0.0 权威全文已升格（E-029） |
 
 ## 决策索引
 
@@ -49,3 +49,4 @@ Root 采用 `R1 冻结协议语义与运行记录衔接 → R2 形成消费方�
 | D-007 | 2026-09-26 | VP-002 与 Root 改为双边协议联调演练 | accepted | [D-007](01-decision/D-007-protocol-rehearsal-realignment.md) |
 | D-008 | 2026-09-26 | WRK-001 修订为真实对接链条并接受有界处理 | accepted | [D-008](01-decision/D-008-wrk001-real-chain.md) |
 | D-009 | 2026-09-26 | 下游 exchange 流程材料契约窄幅扩展 | accepted | [D-009](01-decision/D-009-exchange-process-material-scope.md) |
+| D-010 | 2026-09-26 | 协议指南共享承载路径：`protocols/` | accepted | [D-010](01-decision/D-010-protocol-guide-promotion-path.md) |

@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.7
+version: 0.3.8
 ---
 
 # 审计 · GOAL-001
@@ -59,6 +59,6 @@ A-015（self pass）与 A-016（independent fail）对 R3 接受/写入就绪范
 
 - A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
 - I-004 verified；R1/R2 历史阶段审计保持有效，A-009/A-010/A-011 及既有 finding 闭合不改写。R1、R2、R3 三个纲领阶段均已完成，Root 仍为 `active`、`progress` 派生为 100%。按 D-008，R3 承接 WRK-001 的真实流程链请求；WRK-001 运行主线由「已接受」经「已交付」转「已退出」（EV-008/EV-009、E-028）。I-003 required/verified 证明本次边界与授权；I-008 由 A-018 独立复审通过后置 required/verified（材料范围按 D-009 限于当前一条链）。A-015 self pass、A-016 independent fail 的历史 verdict 保留，用户已在 D-009 裁决走窄幅修复路径；A-017 以 `fixed` 关闭 F-002，A-018 复审 pass，A-019 以 `fixed` 关闭 F-001，A-016 开放 required 归零。R3 完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束），由 A-020 self 复核判为阶段完成；消费方动作经用户授权**代行**并标明，代行不构成独立团队共识。I-006 required/collecting 仍阻断指南升格与 Root 关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。A-012 self pass、A-013 independent conditional 后，A-014 已响应两条 minor；D-007 历史范围修订无开放 required finding。
-- 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。Root 关门尚需：I-006 指南升格落盘并核对引用 + 独立的关门审计。
+- 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。I-006 已由 D-010 / E-029 完成升格并转 `verified`，Root 关门现仅待**独立关门审计**。
 
 本次 D-008/D-009 修订：A-015 self pass 与 A-016 independent fail 的 verdict 冲突已按 P-004 由用户在 D-009 裁决为修复路径；A-016 F-002 由 A-017 以 `fixed` 闭合，F-001 由 A-018 独立复审确认后经 A-019 以 `fixed` 合法闭合，A-018 的唯一 recommended finding 亦已 `fixed`。当前开放 required finding 为 0。R3 阶段由 A-020 复核为完成，但 Root 关门仍取决于 I-006 升格与独立关门审计，本条不构成放行。

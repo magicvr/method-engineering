@@ -72,3 +72,5 @@ runtime-records/
 - `record.md` 与 `events.md` 只记录本条处理主线；Goal 关系仍由工作区根下的目标五件套和 `goal-tree.md` 维护。
 - 方法声明、假设、适用条件和已验证结论必须可区分；本说明不定义完整字段 Schema。
 - 如需引用外部响应材料或验证证据，使用稳定路径/版本引用即可；不要因引用而新增强制对象或自动化流程。
+
+本目录只承载记录；与消费方协作的**运行协议**全文位于 [`../protocols/consumer-response-protocol.md`](../protocols/consumer-response-protocol.md)（唯一权威全文），两者互为配套：协议描述双方如何协作，本目录承载协作产生的记录。

@@ -32,7 +32,7 @@
 
 ## 文档与版本控制
 
-研究材料仍可随着真实实践增长而演化，不预设一套永久固定的研究目录；新增结构应服务于检索、追溯、复核或协作，而不是为了形式完整。治理层的固定入口与分层边界见 [`docs/README.md`](docs/README.md) 及 [`docs/vision/`](docs/vision/)。
+研究材料仍可随着真实实践增长而演化，不预设一套永久固定的研究目录；新增结构应服务于检索、追溯、复核或协作，而不是为了形式完整。治理层的固定入口与分层边界见 [`docs/README.md`](docs/README.md) 及 [`docs/vision/`](docs/vision/)；与消费方协作的运行协议见 [`protocols/`](protocols/README.md)（协议全文唯一权威位置），运行主记录见 [`runtime-records/`](runtime-records/README.md)。
 
 Git 用于保存可审阅的研究材料和约束文件。操作系统文件、编辑器状态、临时文件、依赖目录、敏感配置以及生成的文档产物默认不纳入版本控制；具体规则见 [`.gitignore`](.gitignore)。
 
