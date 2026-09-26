@@ -5,14 +5,14 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.8
+version: 0.4.0
 ---
 
 # 审计 · GOAL-001
 
 本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-009 independent 复审通过；A-010 已按 `fixed` 合法关闭 A-006/A-007/A-008 合计 6 条 required findings；A-011 确认 R2 退出条件已满足。A-012～A-014 记录 D-007 范围重新对齐的 self / independent cross 审视及意见响应。历史意见 verdict 保留；D-007 审视无开放 required finding。D-008 的真实链条修订已完成 cross 审视并闭环：意见与响应见 A-015～A-017，整改之后由 A-018（independent，grok build / grok-4.6 / effort high）复审 pass，A-019 以 `fixed` 闭合 A-016 F-001。
 
-A-015（self pass）与 A-016（independent fail）对 R3 接受/写入就绪范围 verdict 相反，构成意见冲突；用户已在 D-009 裁决走窄幅修复路径，历史 verdict 全部保留。A-018 确认下游契约已明确覆盖当前 WRK-001 一条流程链材料，A-016 开放 required 归零，I-008 置 `verified`，R3 下游实际写入阻断解除。此前 A-012～A-014 只覆盖 D-007 的合成演练范围，不能替代本次 cross。R3 仍未完成，I-006 仍阻断升格与关门。
+A-015（self pass）与 A-016（independent fail）对 R3 接受/写入就绪范围 verdict 相反，构成意见冲突；用户已在 D-009 裁决走窄幅修复路径，历史 verdict 全部保留。A-018 确认下游契约已明确覆盖当前 WRK-001 一条流程链材料，A-016 开放 required 归零，I-008 置 `verified`，R3 下游实际写入阻断解除。此前 A-012～A-014 只覆盖 D-007 的合成演练范围，不能替代本次 cross。R3 已完成一轮真实往返并由 A-020 self 复核为阶段完成；I-006 已由 D-010 / E-029 完成升格并转 `verified`，Root 关门仅待独立关门审计。
 
 ## 信息就绪核对
 
@@ -23,7 +23,7 @@ A-015（self pass）与 A-016（independent fail）对 R3 接受/写入就绪范
 | I-003：本次流程链具体授权 | verified（required） | D-008 逐项依据与 EV-003；已接受仅限一条流程链，未验收。 |
 | I-004：协议语义与 `runtime-records` 衔接 | verified | A-004 independent 复核通过整改证据；A-005 已合法闭合 A-002 的 F-001～F-003。 |
 | I-005：字段、模板、实际 work-item ID、引用与渠道 | open（non-blocking） | 保留 D-002 第 5、11 项身份；D-004 仅确定试点宿主，具体细节逐案确认。 |
-| I-006：指南共享路径与单一来源升格 | collecting（required） | D-003 / E-009 已确认生命周期及升格时点，编号由 D-004 / E-012 勘误；R3 试跑验收与指南验证后提出具体路径供用户裁决，完成迁移与引用核对后才可解除 Root 关门门禁；当前未验证。 |
+| I-006：指南共享路径与单一来源升格 | verified（required） | 用户 2026-09-26 指示 `docs/` 留给治理框架并授权编排器另规划路径；D-010 选定仓库根 `protocols/`，v1.0.0 权威全文已升格、相对链接已核对，工作区仅留指向存根（E-029）。 |
 | I-007：需求与 Root 范围适配 | resolved | D-007 曾改为合成演练；D-008 进一步修订为真实流程链，仍排除领域方法构建。 |
 | I-008：流程约定与下游写入选择/授权 | verified（required） | A-016 F-001 指出 exchange 原规则未明确覆盖流程类入站材料；D-009 选择窄幅修复，契约已修订并由 A-018 独立复审通过，A-019 以 `fixed` 闭合。`verified` 仅表示角色、追踪、核对办法、路径/格式/工具、材料类型与写入授权已确认，不代表实际交接已发生。 |
 | 共享资料引用 | 无 | 工作区 `shared_materials_catalog: none`。 |
@@ -54,11 +54,14 @@ A-015（self pass）与 A-016（independent fail）对 R3 接受/写入就绪范
 | A-018 | 2026-09-26 | independent | A-016 F-001 契约整改复审、F-002 复核与 I-008 门禁核对 | pass | 0 | [A-018](03-audit/A-018-f001-contract-rereview.md) |
 | A-019 | 2026-09-26 | self | 响应 A-018；纳入 F-001 合法闭合与 I-008 更新 | pass | 0 | [A-019](03-audit/A-019-f001-closure-response.md) |
 | A-020 | 2026-09-26 | self | R3 阶段退出条件复核（真实链条完成度与分记） | pass | 0 | [A-020](03-audit/A-020-r3-stage-closure.md) |
+| A-021 | 2026-09-26 | independent | Root 关门审计（8 条成功标准、门禁、升格、状态源、愿景对齐） | pass | 0 | [A-021](03-audit/A-021-root-closeout-review.md) |
+| A-022 | 2026-09-26 | self | 响应 A-021、闭合两条 recommended 并执行 Root 关门 | pass | 0 | [A-022](03-audit/A-022-root-closeout-response.md) |
 
 ## 结论状态
 
 - A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
-- I-004 verified；R1/R2 历史阶段审计保持有效，A-009/A-010/A-011 及既有 finding 闭合不改写。R1、R2、R3 三个纲领阶段均已完成，Root 仍为 `active`、`progress` 派生为 100%。按 D-008，R3 承接 WRK-001 的真实流程链请求；WRK-001 运行主线由「已接受」经「已交付」转「已退出」（EV-008/EV-009、E-028）。I-003 required/verified 证明本次边界与授权；I-008 由 A-018 独立复审通过后置 required/verified（材料范围按 D-009 限于当前一条链）。A-015 self pass、A-016 independent fail 的历史 verdict 保留，用户已在 D-009 裁决走窄幅修复路径；A-017 以 `fixed` 关闭 F-002，A-018 复审 pass，A-019 以 `fixed` 关闭 F-001，A-016 开放 required 归零。R3 完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束），由 A-020 self 复核判为阶段完成；消费方动作经用户授权**代行**并标明，代行不构成独立团队共识。I-006 required/collecting 仍阻断指南升格与 Root 关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。A-012 self pass、A-013 independent conditional 后，A-014 已响应两条 minor；D-007 历史范围修订无开放 required finding。
-- 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。I-006 已由 D-010 / E-029 完成升格并转 `verified`，Root 关门现仅待**独立关门审计**。
+- I-004 verified；R1/R2 历史阶段审计保持有效，A-009/A-010/A-011 及既有 finding 闭合不改写。R1、R2、R3 三个纲领阶段均已完成，Root 仍为 `active`、`progress` 派生为 100%。按 D-008，R3 承接 WRK-001 的真实流程链请求；WRK-001 运行主线由「已接受」经「已交付」转「已退出」（EV-008/EV-009、E-028）。I-003 required/verified 证明本次边界与授权；I-008 由 A-018 独立复审通过后置 required/verified（材料范围按 D-009 限于当前一条链）。A-015 self pass、A-016 independent fail 的历史 verdict 保留，用户已在 D-009 裁决走窄幅修复路径；A-017 以 `fixed` 关闭 F-002，A-018 复审 pass，A-019 以 `fixed` 关闭 F-001，A-016 开放 required 归零。R3 完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束），由 A-020 self 复核判为阶段完成；消费方动作经用户授权**代行**并标明，代行不构成独立团队共识。I-006 已由 D-010 / E-029 完成升格并转 `verified`，Root 关门仅待独立关门审计。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。A-012 self pass、A-013 independent conditional 后，A-014 已响应两条 minor；D-007 历史范围修订无开放 required finding。
+- **Root 已于 2026-09-26 置 `status: done`**：A-021（independent，grok build / `grok-4.6` / effort `high`）关门审计 `pass`、无 required finding，A-022 响应并闭合其两条 recommended（滞后投影修正、工作树提交）。8 条成功标准逐项有可核对证据；R1–R3 阶段均完成；required 信息项无开放阻断；无未合法闭合的 required / 必改 finding。`progress` 100% 仅为派生展示，未用于推导状态。
 
-本次 D-008/D-009 修订：A-015 self pass 与 A-016 independent fail 的 verdict 冲突已按 P-004 由用户在 D-009 裁决为修复路径；A-016 F-002 由 A-017 以 `fixed` 闭合，F-001 由 A-018 独立复审确认后经 A-019 以 `fixed` 合法闭合，A-018 的唯一 recommended finding 亦已 `fixed`。当前开放 required finding 为 0。R3 阶段由 A-020 复核为完成，但 Root 关门仍取决于 I-006 升格与独立关门审计，本条不构成放行。
+本次 D-008/D-009 修订：A-015 self pass 与 A-016 independent fail 的 verdict 冲突已按 P-004 由用户在 D-009 裁决为修复路径；A-016 F-002 由 A-017 以 `fixed` 闭合，F-001 由 A-018 独立复审确认后经 A-019 以 `fixed` 合法闭合，A-018 的唯一 recommended finding 亦已 `fixed`。当前开放 required finding 为 0。R3 阶段由 A-020 复核为完成，Root 关门由 A-021 独立审计 `pass`，A-022 执行关门。
+- **保留限制**：本轮消费方动作经用户授权代行并逐条标明，代行不等于用户本人的验收价值判断；若用户本人随后否定，按 P-004 回流修订。关门不表示任何领域方法已交付或有效，也不改变下游 Root/VP 成功标准；原领域方法需求仍未完成，须另建处理主线。VP-002 与工作区状态不由本次关门自动改变。

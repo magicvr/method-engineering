@@ -11,7 +11,7 @@ primary_plan: VP-002-consumer-demand-response-protocol
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.2
+version: 0.4.0
 ---
 
 # 工作区上下文 · 消费方需求—响应协议
@@ -21,7 +21,7 @@ version: 0.3.2
 | 字段 | 当前值 | 说明 |
 |------|--------|------|
 | 工作区 ID | `workspace-002-consumer-response-protocol` | 本工作区稳定标识。 |
-| Root Goal | `GOAL-001-consumer-response-protocol` | 本区唯一 `parent: null` 的 Root，当前为 `active`。 |
+| Root Goal | `GOAL-001-consumer-response-protocol` | 本区唯一 `parent: null` 的 Root，已于 2026-09-26 关门（`done`）。 |
 | canonical 范围 | `docs/workspaces/workspace-002-consumer-response-protocol/` | 本区唯一目标状态范围。 |
 | 共享资料目录 | `none` | 当前工作区不声明共享资料引用。 |
 | 愿景角色 | `primary` | 2026-09-25 按用户确认开设，为 vision 层唯一 `primary`（`VR-004`）。 |
@@ -47,4 +47,4 @@ version: 0.3.2
 
 2026-09-26 按 [D-007](GOAL-001-consumer-response-protocol/01-decision/D-007-protocol-rehearsal-realignment.md) 重新对齐：R3 使用明确标注的合成非敏感内容，双方在真实实践仓库沿共享追踪消费对方交接。I-008 尚待确认；真实需求 WRK-001 保持待判定并移出 R3 范围。
 
-2026-09-26 后续按 [D-008](GOAL-001-consumer-response-protocol/01-decision/D-008-wrk001-real-chain.md) 用户明确修订：WRK-001 以跑通链条为真实目标，保留 ID 与历史并接受有界处理。上述 D-007 备注是历史。当前 R3 已完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束，运行主线转「已退出」），领域方法构建仍未完成；协议权威全文已升格至 [`protocols/`](../../../protocols/consumer-response-protocol.md)，Root 关门待独立关门审计。
+2026-09-26 后续按 [D-008](GOAL-001-consumer-response-protocol/01-decision/D-008-wrk001-real-chain.md) 用户明确修订：WRK-001 以跑通链条为真实目标，保留 ID 与历史并接受有界处理。上述 D-007 备注是历史。R3 已完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束，运行主线转「已退出」），领域方法构建仍未完成；协议权威全文已升格至 [`protocols/`](../../../protocols/consumer-response-protocol.md)；Root 已于 2026-09-26 关门（A-021 / A-022）。本工作区自身的归档与其承接的 VP-002 状态不由 Root 关门自动改变，属愿景层动作。
