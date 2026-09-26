@@ -6,7 +6,7 @@ status: accepted
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.1
+version: 0.1.2
 ---
 
 ## D-008 · WRK-001 修订为真实对接链条并接受有界处理
@@ -42,4 +42,8 @@ README 第 10 项与 D-002 的关系按 D-002 追加修订澄清：未承诺非�
 
 ### D-009 后续响应 · 2026-09-26
 
-用户已选择窄幅扩展 exchange；下游 D-008 与 README 明确纳入当前 WRK-001 一条流程链材料。此前 v0.1.0 读取结论保留为历史；当前 I-008 required/open、F-001 open，待独立复审，不得据契约修改推导已验证或允许写入实际链条材料。见 [D-009](D-009-exchange-process-material-scope.md)。
+用户已选择窄幅扩展 exchange；下游 D-008 与 README 明确纳入当前 WRK-001 一条流程链材料。此前 v0.1.0 读取结论保留为历史；该段记录的 I-008 required/open、F-001 open 为当时状态，不得据契约修改推导已验证或允许写入实际链条材料。见 [D-009](D-009-exchange-process-material-scope.md)。
+
+### A-018/A-019 后续响应 · 2026-09-26
+
+上述待复审状态已闭环：[A-018](../03-audit/A-018-f001-contract-rereview.md)（independent，grok build / `grok-4.6` / effort `high`）复审 `pass`、无 required finding；[A-019](../03-audit/A-019-f001-closure-response.md) 以 `fixed` 合法闭合 A-016 F-001，I-008 置 `verified`，R3 下游实际材料写入阻断解除。WRK-001 仍为「已接受」，实际交接尚未发生；R3 仍未完成，I-006 仍阻断关门。本条不因此改写 D-008 的接受条件。

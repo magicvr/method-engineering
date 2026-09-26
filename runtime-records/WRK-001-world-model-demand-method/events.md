@@ -53,3 +53,13 @@
 - **依据**：上游 D-009 记录用户选择；下游 D-008 与 `exchange/README.md` 仅允许当前 WRK-001 一条链的交接约定、往返材料和核对结论。A-017 记录响应；E-024 记录契约修订。
 - **处理**：更新本 `record.md` 当前承载边界；不创建 `exchange/WRK-001/`，不写入任何实际链条材料，不改变下游 Root/VP 成功标准，也不把流程材料等同方法工作版或真实领域试跑。
 - **未决 / 下一责任**：A-016 F-001 与 I-008 仍待独立复审和合法闭合；关闭前不得写实际材料。门禁解除后由响应负责人逐次交接，用户分别提供真实收件与验收/异议事实。
+
+## EV-006 · 独立复审通过并解除下游写入阻断
+
+- **时间**：2026-09-26
+- **责任角色**：独立审计者（`grok build` / `grok-4.6` / reasoning high，只读）；编排器（响应与记录）
+- **触发**：D-009 窄幅契约修订落盘后，按 A-018 独立复审核对 A-016 F-001 的整改证据。
+- **状态变化**：无；WRK-001 仍为「已接受」，尚无响应、交付、收件、验收或异议事实。
+- **依据**：[A-018](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-018-f001-contract-rereview.md) verdict `pass`、无 required finding；[A-019](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/03-audit/A-019-f001-closure-response.md) 以 `fixed` 闭合 A-016 F-001；[E-026](../../docs/workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/02-execution/E-026-a018-rereview-f001-closure.md) 记录事实。
+- **处理**：I-008 置 `required/verified`，解除对当前 WRK-001 一条流程链实际材料写入的阻断；材料类型、目录、格式与核对约定不变（下游 D-008 / `exchange/README.md`）。
+- **未决 / 下一责任**：下一动作是响应负责人形成交接约定与响应材料并交付至 `exchange/WRK-001/`；交付、实际收件、验收/异议须按真实发生顺序分别留痕，不预填对方回执。I-006 仍 `collecting`，阻断指南升格与关门。

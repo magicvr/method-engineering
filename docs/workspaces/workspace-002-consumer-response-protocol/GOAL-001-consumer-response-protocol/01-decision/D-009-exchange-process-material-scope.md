@@ -6,7 +6,7 @@ status: accepted
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## D-009 · 按用户裁决窄幅扩展下游 exchange 材料契约
@@ -17,4 +17,8 @@ version: 0.1.0
 
 流程材料不构成领域方法工作版，不满足下游 Root 的方法及真实世界问题验证成功标准。原领域方法需求仍未接受或交付；下游 I-002、I-010 保持 open，Root/VP 成功标准与 status/progress 不变。
 
-未选保留原契约并停止交接，因为用户明确选择修复；未选一般化扩大入站范围，因为本次授权仅限 WRK-001。I-008 与 F-001 仍 open，须经独立复审与合法闭合才能写入实际链条材料。见 [E-024](../02-execution/E-024-exchange-contract-extension.md)。
+未选保留原契约并停止交接，因为用户明确选择修复；未选一般化扩大入站范围，因为本次授权仅限 WRK-001。I-008 与 F-001 当时为 open，须经独立复审与合法闭合才能写入实际链条材料。见 [E-024](../02-execution/E-024-exchange-contract-extension.md)。
+
+### A-018/A-019 后续响应 · 2026-09-26
+
+独立复审已完成：[A-018](../03-audit/A-018-f001-contract-rereview.md)（independent，grok build / `grok-4.6` / effort `high`）`pass`、无 required finding；[A-019](../03-audit/A-019-f001-closure-response.md) 以 `fixed` 合法闭合 A-016 F-001，I-008 置 `verified`，下游实际材料写入阻断解除。本决定的授权边界不变：仅当前 WRK-001 一条流程链，不推广到领域方法交付或其他请求。

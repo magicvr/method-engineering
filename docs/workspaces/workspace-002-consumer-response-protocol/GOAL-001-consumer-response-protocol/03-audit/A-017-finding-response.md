@@ -8,7 +8,7 @@ status: recorded
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.2
+version: 0.1.3
 ---
 
 ## A-017 · 响应 A-016 的 required findings
@@ -32,4 +32,8 @@ A-015 self pass 与 A-016 independent fail 的 verdict 冲突已由用户在 D-0
 
 ### 用户裁决后的响应进展 · 2026-09-26
 
-[D-009](../01-decision/D-009-exchange-process-material-scope.md) 记录用户选择窄幅扩展 exchange，以修复路径解决 A-015 / A-016 verdict 冲突。下游契约已修订；F-001 与 I-008 仍 open，待独立复审，不作 residual / overruled。本条已同步当前响应状态；实际链条材料未写入，R3 未放行。
+[D-009](../01-decision/D-009-exchange-process-material-scope.md) 记录用户选择窄幅扩展 exchange，以修复路径解决 A-015 / A-016 verdict 冲突。下游契约已修订；F-001 与 I-008 当时仍 open，待独立复审，不作 residual / overruled。本条已同步当前响应状态；实际链条材料未写入，R3 未放行。
+
+### 后续闭合 · 2026-09-26
+
+本条记录的开放状态已由后续条目闭环：[A-018](A-018-f001-contract-rereview.md)（independent）复审 `pass`，[A-019](A-019-f001-closure-response.md) 以 `fixed` 合法闭合 A-016 F-001 并将 I-008 置 `verified`。本条 verdict 与当时事实保留不改写。
