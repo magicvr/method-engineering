@@ -194,3 +194,14 @@
 - **更正与台账修正**：`A-004` 的 `F-001` 闭合主张按 `A-005` 要求**收窄**为「新建模型路径已改、其余路径仍开放」（追加更正，不改写原文）；`goal-tree.md` 中 `GOAL-002` 备注末句过时句、Root `00-meta` 成功标准 R2 行的派生进度数字（改为不复制）已修。
 - **门禁**：**闭审确认前不得推进 W3、W2 不得重新记完成**。
 - **未决 / 下一责任**：把 [`closure-check-request-A-006.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-006.md) 交 `/audit` 通道，只核 `A-005-F-001`～`F-003` 是否闭合；确认通过后重新记 W2 完成（`progress` 回到 50%）并进入 **W3**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-017 · A-006 闭审通过，重新记 W2 完成
+
+- **时间**：2026-09-26
+- **责任角色**：独立审计者（Grok 4.7，`/audit` 入口，保证等级 L0，出具 closure check）；方法工程响应负责人（接受确认并落账）
+- **触发**：独立 closure check [`A-006`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-006-a005-closure-check.md)（verdict **`pass`**）到达。
+- **状态变化**：无；仍为**「响应中」**。
+- **依据**：本仓子目标 [`D-011`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-011-a006-closure.md) 与 [`E-011`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-011-w2-completion.md)。
+- **结论摘要**：`A-005-F-001`（第 2 章每条向下路径先完成裁决 + 五条出口分开写明）、`F-002`（第 10 章第 7 行改指第 7 章「适用范围与条件敏感性的最低核对」且最低核对动作已写明）、`F-003`（第 8 章 §12 十一项边界节，写明走步 ① 回绝不转建模）均判 **`fixed`**；`F-004` **与创作者裁定一致**；**无新的 open required**；并**同意重新记 W2 完成、进入 W3**。
+- **落账**：**重新记 W2 完成**，子目标 `progress` **25% → 50%**（2/4；Root 不变，仍 25%）；开放 required 投影 **0**；**审计门禁解除**（R4 交付前的独立审仍由 Root `I-004` 约束，未到达）。按 `A-006` 的台账观察更新：`goal-tree.md` Root 行 → 「草稿 `v0.3` / 开放 required 0」；子目标行 → 「完成（`v0.3`）」、`progress` 50%。
+- **未决 / 下一责任**：进入 **W3** —— 形成「能力缺口判定清单」（对应第 8 章五步）与「模型条目最小结构」（对应第 7 章十一项），要求创作者可填、建议与裁定可区分，并落实第 7 章的**条件关键项**与允许的返回类别。空转形态 ②「过程代替内容」的完整判定仍留 **W4**；`I-202` / `I-203` / `I-204` 均未到期、不阻断 W3。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。

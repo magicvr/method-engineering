@@ -24,7 +24,8 @@ version: 0.6.0
 | E-008 | 2026-09-26 | `I-205` 三项裁定落盘并形成 W2 草稿 v0.1 | recorded | `02-execution/E-008-w2-draft-v0-1.md` |
 | E-009 | 2026-09-26 | 响应 A-004：出草稿 v0.2 并完成 W2 | recorded | `02-execution/E-009-w2-draft-v0-2.md` |
 | E-010 | 2026-09-26 | 响应独立审 A-005：出草稿 v0.3 并收回 W2 完成标记 | recorded | `02-execution/E-010-w2-draft-v0-3.md` |
+| E-011 | 2026-09-26 | 接受 A-006 闭合确认，重新记 W2 完成 | recorded | `02-execution/E-011-w2-completion.md` |
 
 ## 事实边界
 
-只写已经发生且有证据的事实。**W1 已完成并冻结为 W2 输入**（`D-007`）；**W2 整改中**（草稿 [`v0.3`](attachments/world-model-method-working-version-v0.3.md)；`v0.2` 的完成标记已按独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 与 [`D-010`](01-decision/D-010-a005-response.md) **收回**，三条 required 记「修正已落盘、待独立 closure check」）。**W3～W4 未开始**：两个最小结构与适用性核对**尚未形成**。`I-202` / `I-203` / `I-204` open；空转形态 ② 的完整判定移到 W4。
+只写已经发生且有证据的事实。**W1 已完成并冻结**；**W2 已完成**（草稿 [`v0.3`](attachments/world-model-method-working-version-v0.3.md)；三条 required 经独立 closure check [`A-006`](03-audit/A-006-a005-closure-check.md)（`pass`）确认 `fixed` 后重新记完成，见 [`D-011`](01-decision/D-011-a006-closure.md)）。**W3～W4 未开始**：两个最小结构与适用性核对**尚未形成**。`I-202` / `I-203` / `I-204` open（均未到期、不阻断 W3）；空转形态 ② 的完整判定移到 W4。

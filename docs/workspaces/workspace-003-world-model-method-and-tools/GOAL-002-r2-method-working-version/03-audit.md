@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.9.0
+version: 0.10.0
 ---
 
 # 审计记录 · GOAL-002
@@ -18,7 +18,8 @@ version: 0.9.0
 | A-002 | 2026-09-26 | independent | `D-004` + `D-005` / `A-001` 五条 required 的复审与「能否冻结为 W2 输入」 | conditional | `03-audit/A-002-d004-d005-rereview.md` |
 | A-003 | 2026-09-26 | independent | finding closure check · `A-002-F-001` 及其关联闭合链 | **pass** | `03-audit/A-003-closure-check.md` |
 | A-004 | 2026-09-26 | **self** | W2 草稿 `v0.1`（对照 W2 退出条件、W1 冻结的三层映射与裁定 `D-008`） | conditional | `03-audit/A-004-w2-draft-self-review.md` |
-| A-005 | 2026-09-26 | **independent** | W2 草稿 `v0.2` + `A-004` 自闭合复核 | **conditional** | `03-audit/A-005-w2-independent-review.md` |
+| A-005 | 2026-09-26 | **independent** | W2 草稿 `v0.2` + `A-004` 自闭合复核 | **conditional**（历史保留；**有效状态 `pass`**，见 A-006） | `03-audit/A-005-w2-independent-review.md` |
+| A-006 | 2026-09-26 | **independent** | finding closure check · `A-005-F-001`～`F-003`（草稿 `v0.3`） | **pass** | `03-audit/A-006-a005-closure-check.md` |
 
 ## 使用约定
 
@@ -62,10 +63,18 @@ version: 0.9.0
 - **verdict**：**conditional**
 - **完整意见**：[`03-audit/A-005-w2-independent-review.md`](03-audit/A-005-w2-independent-review.md)
 
-**当前开放 required：3**（`A-005-F-001`、`A-005-F-002`、`A-005-F-003`），状态 **「修正已落盘、待独立 closure check」**——修订见 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md)、产物 [`world-model-method-working-version-v0.3.md`](attachments/world-model-method-working-version-v0.3.md)、响应见本条下方 `/govern` 响应节；请求包 [`attachments/closure-check-request-A-006.md`](attachments/closure-check-request-A-006.md)。`A-005-F-004`（recommended）已按创作者裁定处理（第⑤项机制为**条件关键项**，机制未知可暂定注册但**能力声明必须收窄**）。
+**A-005 在闭审前的状态（历史保留）**：`F-001`～`F-003` 曾记为「修正已落盘、待独立 closure check」——修订见 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md)、产物 [`world-model-method-working-version-v0.3.md`](attachments/world-model-method-working-version-v0.3.md)。`A-005-F-004`（recommended）已按创作者裁定处理。编排器曾收回 W2 完成标记（子目标进度 50% → 25%）。
 
-**编排器已按用户裁决收回 W2 完成标记**（子目标 `progress` 50% → **25%**）：独立审列出两条 W2 退出条件行不满足，则当时"W2 记完成"的主张不成立。**闭审确认前不得推进 W3、W2 不得重新记完成。** 本条目不修改目标 `status` / `progress`；响应归 `/govern`。
+### `/govern` 响应 · 2026-09-26（针对 A-005，闭审前）
 
-### `/govern` 响应 · 2026-09-26
+见 [`A-005`](03-audit/A-005-w2-independent-review.md) 的「Finding 响应」节：`F-001`～`F-003` 按关闭要求整改并落盘于草稿 `v0.3`（当时记「修正已落盘、待 closure check」，不由编排器自行宣告闭合）；`F-004` 按创作者裁定改为「条件关键项」；W2 完成标记收回；`A-004-F-001` 的闭合主张按 `A-005` 收窄并追加更正；`A-005` 指出的两处台账分歧已修。
 
-见 [`A-005`](03-audit/A-005-w2-independent-review.md) 的「Finding 响应」节：`F-001`～`F-003` 按关闭要求整改并**落盘于草稿 `v0.3`**（记「修正已落盘、待 closure check」，**不由编排器自行宣告闭合**）；`F-004` 按创作者裁定改为「条件关键项」；**W2 完成标记收回**；`A-004-F-001` 的闭合主张按本意见**收窄**并追加更正；`A-005` 指出的两处台账分歧已修。
+## A-006 · A-005 闭合复核（2026-09-26）
+
+- **source**：independent
+- **auditor**：Grok 4.7（`/audit`；保证等级 L0）
+- **类型** / **scope**：finding-closure / `A-005-F-001`～`F-003`，对照草稿 `v0.3`
+- **verdict**：**pass**
+- **完整意见**：[`03-audit/A-006-a005-closure-check.md`](03-audit/A-006-a005-closure-check.md)
+
+**当前开放 required：0。** `A-005-F-001`、`F-002`、`F-003` 由本意见确认为 **fixed**；`F-004` 与创作者裁定一致。`A-005` 的原文 `conditional` 保留，**有效状态 `pass`**。本意见**同意重新记 W2 完成并进入 W3**，但不修改目标 `status` / `progress` / `goal-tree`。完成标记由 `/govern` 落账。

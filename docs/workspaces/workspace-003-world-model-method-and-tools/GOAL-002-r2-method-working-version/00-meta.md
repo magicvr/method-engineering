@@ -5,8 +5,8 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.14.0
-progress: 25%
+version: 0.15.0
+progress: 50%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 ---
@@ -22,7 +22,7 @@ primary_plan: VP-003-world-model-method-and-tools
 ## 成功标准
 
 - [x] **W1** 条款映射与差异登记 **完成**（2026-09-26，[`D-004`](01-decision/D-004-w1-clause-mapping.md) / [`E-004`](02-execution/E-004-w1-clause-mapping.md)）：覆盖 §4～§11 与 §13；差异 `E1`～`E3`；需取舍/研究点登记为候选 `C1`～`C8`（信息项 `I-205`）。
-- [ ] **W2** 方法主文档形成 **整改中**：`v0.2` 曾被记为完成，但独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 判其退出条件中**两条行不满足**（总流程有路径跳过「完成裁决」；`E2` 的 §12 边界节缺失），**完成标记按 [`D-010`](01-decision/D-010-a005-response.md) 收回**。已出草稿 [`v0.3`](attachments/world-model-method-working-version-v0.3.md) 整改 `F-001`～`F-003`（见 [`E-010`](02-execution/E-010-w2-draft-v0-3.md)），**修正已落盘、待独立 closure check**；确认通过后重新记完成。
+- [x] **W2** 方法主文档形成 **完成**（2026-09-26，草稿 [`v0.3`](attachments/world-model-method-working-version-v0.3.md)）：`v0.2` 的完成标记曾因独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 判其两条退出条件行不满足而**按 [`D-010`](01-decision/D-010-a005-response.md) 收回**；经 `v0.3` 整改后，独立 closure check [`A-006`](03-audit/A-006-a005-closure-check.md)（**`pass`**）确认三条 required **`fixed`** 并同意重新记完成——重新记完成见 [`D-011`](01-decision/D-011-a006-closure.md) / [`E-011`](02-execution/E-011-w2-completion.md)。`v0.1` / `v0.2` 保留为历史。
 - [ ] **W3 / W4** 均按其退出条件完成（见「纲领路线图」）。
 - [x] 方法主文档含 R1 冻结的九章结构（需求原文 §4～§11）与 §13 十项指导的可核对映射表；**每章写明适用条件、已知边界与未决事项**（10 章逐章三行，第 10 章为映射表）。
 - [x] **每章标明人机协作位**：判断点 / 助手可协助形式 / 不得越过的界线 / 留痕；且前言给出**建议与裁定分开的留痕要求**与〔默认设计〕标注约定（见「执行主体与协作约束」节）。
@@ -60,7 +60,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | 工作包 | 名称 | 状态 | 退出条件 |
 |--------|------|------|----------|
 | **W1** | 条款映射与差异登记 | **完成**（2026-09-26） | 已覆盖需求原文 §4～§11 与 §13：17 行条款级映射 + 附表 A（§9 十一项 → W3 字段候选）+ 附表 B（§13 十项 → W2 章节）；差异 `E1`～`E3`；需研究/需取舍点登记为候选 `C1`～`C8`（信息项 `I-205`，最晚 W2 冻结前裁定）。见 [`D-004`](01-decision/D-004-w1-clause-mapping.md) / [`E-004`](02-execution/E-004-w1-clause-mapping.md)。 |
-| **W2** | 方法主文档形成 | **整改中**（草稿 `v0.3`；原 `v0.2` 的完成标记已按独立审收回） | 正文按 R1 冻结九章结构齐备（`C6` 另增「总流程」章，共 10 章），含 §13 映射表、**逐章**适用条件 / 已知边界 / 未决事项、**逐章**人机协作位，并给出**建议与裁定分开的留痕要求**；草稿落 [`attachments/world-model-method-working-version-v0.3.md`](attachments/world-model-method-working-version-v0.3.md)。独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 判三条 required 未满足，已按 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md) 出 `v0.3` 整改——**「修正已落盘、待独立 closure check」**；确认后方重新记完成。 |
+| **W2** | 方法主文档形成 | **完成**（2026-09-26，草稿 `v0.3`） | 正文按 R1 冻结九章结构齐备（`C6` 另增「总流程」章，共 10 章），含 §13 映射表、**逐章**适用条件 / 已知边界 / 未决事项、**逐章**人机协作位，并给出**建议与裁定分开的留痕要求**；草稿落 [`attachments/world-model-method-working-version-v0.3.md`](attachments/world-model-method-working-version-v0.3.md)（`v0.1` / `v0.2` 保留）。独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 曾判三条 required 未满足，经 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md) 整改后由独立 closure check [`A-006`](03-audit/A-006-a005-closure-check.md)（`pass`）确认闭合；重新记完成见 [`D-011`](01-decision/D-011-a006-closure.md) / [`E-011`](02-execution/E-011-w2-completion.md)。 |
 | **W3** | 两个最小结构形成 | 未开始 | 「能力缺口判定清单」（对 §10）与「模型条目最小结构」（对 §9）形成，可直接填写；每个字段能指回对应条款；**逐项通过创作者可填性核对**（字段不依赖任何程序输出；若借助助手填写，结构与留痕须能区分建议与裁定）；与 W2 正文无矛盾。证据落点：本目标 `attachments/` + E。 |
 | **W4** | 适用性核对（判据 = 真实问题） | 未开始 | 以真实问题为判据，按 W2 + W3 走一遍并留痕：问题拆解 → 缺口归类 → 定义裁决能力 → 模型条目草案 → 方法暴露的缺口清单；**核对按 `I-204` 裁决的协作安排执行**（裁决前，未经创作者裁定的核对结论不得作为本项证据）；暴露缺口已在 R2 内修正或登记为有界 residual 并写明影响；**并对照四种空转禁止形态逐条给出结论**。核对记录不得冒充 R4 交付证据或下游 canon。证据落点：本目标 D/E + `attachments/`。 |
 
@@ -68,7 +68,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 派生进度展示
 
-`progress: 25%` 由上表 4 个工作包检查点中的 1 个完成项等权计算（1/4）。W2 的完成标记已按独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 与 [`D-010`](01-decision/D-010-a005-response.md) 收回，待独立 closure check 确认后重新计入。progress 只作展示。它不放行阶段、不关闭 finding、不覆盖信息门禁，也不推导 `status: done`。Root 的 `progress` 不由本表推导，两者各自按其检查点独立计算。
+`progress: 50%` 由上表 4 个工作包检查点中的 2 个完成项等权计算（2/4）。W2 曾因独立审 [`A-005`](03-audit/A-005-w2-independent-review.md) 判两条退出条件行不满足而**收回**完成标记（[`D-010`](01-decision/D-010-a005-response.md)），后经独立 closure check [`A-006`](03-audit/A-006-a005-closure-check.md)（`pass`）确认闭合并**重新记完成**（[`D-011`](01-decision/D-011-a006-closure.md)）。progress 只作展示。它不放行阶段、不关闭 finding、不覆盖信息门禁，也不推导 `status: done`。Root 的 `progress` 不由本表推导，两者各自按其检查点独立计算。
 
 ## 信息就绪与未知项
 
@@ -82,7 +82,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | I-204 | required | W4 适用性核对的**协作安排**：助手可协助到哪一步、创作者的裁定点如何留痕，使 W4 证据足以证明「结论由创作者作出且闭环可跑」 | W4 出口；交付验收口径 | W4 开始前 | 用户书面裁决 | open | 修正后的问题形态（见 [`D-003`](01-decision/D-003-executor-boundary-revision.md)）：不再是「谁执行」，而是「如何安排创作者裁定与助手协助」。用户已表示稍后再裁。责任人：用户 | 待裁决。**未经创作者裁定的核对结论不得作为 W4 证据** |
 | I-205 | required | **3 项需创作者裁定**的方法设计选择：`C2`（§8 划界形态）、`C3`（§9 完成语义）、`C6`（§3 是否立为「总流程」章）。另 5 项（`C1` / `C4` / `C5` / `C7` / `C8`）已按 [`D-005`](01-decision/D-005-w1-mapping-revision.md) 降为「助手默认设计 + 创作者审阅」 | 方法正文（W2）与两个最小结构（W3）的内容 | **W2 定稿前** | 用户书面裁定（可一次性给口径） | **verified** | 等级按用户确认的过滤规则划分（仅语义 / 责任边界 / 成本等级 / 不可逆承诺升级）。责任人：用户 | 2026-09-26 三项均已裁定，见 [`D-008`](01-decision/D-008-i205-adjudication.md)：`C2` ＝不建统一判据、举例＋强制显式适用条件声明（含创作者细化的措辞与"关键条件无法明确 → 专门机制或拒绝当前精度"出口）；`C3` ＝不阻止注册但限制可声明的裁决能力、关键项未知应拒绝裁决；`C6` ＝确认立为总流程章（运行主线），**章节顺序授权助手默认设计** |
 
-**门禁现状（2026-09-26，`A-005` 响应后）**：**信息项**：`I-201` / `I-205` verified；`I-202`（W4 结束前）/ `I-203`（R4 交付前）/ `I-204`（W4 开始前）open——**均不到期**。**审计门禁**：`A-005` 的 3 条 required（`F-001` 第 2 章有路径跳过「完成裁决」；`F-002` §13 第 7 项落点与条件敏感性最低核对；`F-003` `E2` 的 §12 边界节缺失）已按 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md) 出草稿 `v0.3` 整改，状态为「**修正已落盘、待独立 closure check**」——**闭审确认前不得推进 W3、W2 不得重新记完成**。**W2 完成标记已按用户裁决收回**（子目标 `progress` 50% → 25%）。`A-005-F-004` 已按创作者裁定处理：第⑤项机制列为**条件关键项**，机制未知可暂定注册但**能力声明必须收窄**。
+**门禁现状（2026-09-26，`A-006` 闭审后）**：**信息项**：`I-201` / `I-205` verified；`I-202`（W4 结束前）/ `I-203`（R4 交付前）/ `I-204`（W4 开始前）open——**均不到期、不阻断 W3**。**审计门禁：已解除**——`A-005` 的 3 条 required（`F-001` / `F-002` / `F-003`）由独立 closure check [`A-006`](03-audit/A-006-a005-closure-check.md)（`pass`）确认为 **`fixed`**，`A-005-F-004` 与创作者裁定一致，开放 required 投影 **0**。**W2 已重新记完成**（`progress` 25% → **50%**，2/4）。**下一阶段：W3**（「能力缺口判定清单」与「模型条目最小结构」）。R4 交付前的独立审仍由 Root `I-004` 约束，尚未到达。
 
 ## 父目标
 
@@ -132,6 +132,6 @@ primary_plan: VP-003-world-model-method-and-tools
 
 2026-09-26 独立审 A-005 到达（**W2 完成标记的依据被部分挑战**）：另一会话以 `/audit` 入口产出 [`A-005`](03-audit/A-005-w2-independent-review.md)（`source: independent`，auditor = Grok 4.7，保证等级 L0），对草稿 `v0.2` 与 `A-004` 的自闭合做复核：verdict **`conditional`**——**可以确认** `A-004-F-002`～`F-006` 的闭合，**不能确认** `A-004-F-001` 完全闭合（残留即 `A-005-F-001`：第 2 章"已支持"路径（②→③→⑧）与"非机制缺口"路径（④ 回 ③）**跳过步 ⑦「完成裁决」**，两条路径上没有可被步 ⑧ 检查的裁决）；另有 `F-002`（§13 第 7 项映射落点指向的第 4 / 6 章都没有"改变条件后结论是否仍成立"的核对，第 7 章第⑩项也无最低核对动作）与 `F-003`（冻结输入 `E2` 要求的 **§12 边界节**在正文中缺失；第 8 章第①步只给了三个例子）。`F-004`（recommended）：「关键项」默认清单 `D-e` 未含第⑤项机制本身，交创作者审阅。**独立审同时指出两处台账分歧**（`goal-tree.md` 中 `GOAL-002` 备注末句仍写"方法主文档…尚未形成"；Root `00-meta` 成功标准 R2 行仍写子目标 `progress 0%`）——**两处本轮已修正**（后者改为不复制派生数字，以免再分叉）。**该独立审不改 W2 完成标记**；按用户此前确认的保守口径，其在裁决前**不作为 W3 放行依据**。
 
-2026-09-26 响应 A-005：用户三项裁决——① **收回 W2 完成标记**（`progress` 50% → **25%**）；② `F-004` 按「**机制未知可暂定注册，但能力声明必须收窄**」处理；③ 三条 required 修完后**另交一次独立 closure check**。据此产出 [`D-010`](01-decision/D-010-a005-response.md) / [`E-010`](02-execution/E-010-w2-draft-v0-3.md) 与草稿 [`v0.3`](attachments/world-model-method-working-version-v0.3.md)（`v0.1` / `v0.2` 保留）：`F-001` 第 2 章步表重排使**步 ⑦ 成为每条向下路径的必经步**并分开写明**五条出口**；`F-002` 第 10 章第 7 行改指**第 7 章新增的「适用范围与条件敏感性的最低核对」**；`F-003` 第 8 章新增**「本方法不覆盖的事项（§12 十一项）」**节（**不新开章**，保持冻结的 10 章）；`F-004` 第⑤项机制列为**条件关键项**。三条 required 记「**修正已落盘、待 closure check**」；请求包 [`closure-check-request-A-006.md`](attachments/closure-check-request-A-006.md)。`A-004` 的 `F-001` 闭合主张按 `A-005` 要求**收窄**（附录更正，不改写原文）。**闭审确认前不得推进 W3。**
+2026-09-26 独立 closure check A-006 通过并重新记 W2 完成：独立闭审 [`A-006`](03-audit/A-006-a005-closure-check.md)（`source: independent`，Grok 4.7，保证等级 L0，verdict **`pass`**）逐条核对草稿 `v0.3`，确认 `A-005-F-001` / `F-002` / `F-003` 均 **`fixed`**、`F-004` 与创作者裁定一致，**无新的 open required**，并同意重新记 W2 完成、进入 W3。据此产出 [`D-011`](01-decision/D-011-a006-closure.md) / [`E-011`](02-execution/E-011-w2-completion.md)：**重新记 W2 完成**，`progress` 25% → **50%**（2/4；Root 不变，仍 25%）；开放 required 投影 **0**、审计门禁解除；并按 `A-006` 的台账观察更新 `goal-tree.md` 的 Root 行（`v0.2` / required 3 → **`v0.3` / required 0**）与子目标行（W2 整改中 → **完成（`v0.3`）**）。**空转形态 ②「过程代替内容」仍留 W4** 判定。下一阶段：**W3**。
 
 2026-09-26 响应 A-004 并完成 W2：用户确认「按 `A-004` 一并修 + 出草稿 `v0.2` + 编排器自行复核」，并裁决删除上述并行会话残留文件。据此产出 [`D-009`](01-decision/D-009-a004-response.md) / [`E-009`](02-execution/E-009-w2-draft-v0-2.md) 与草稿 [`v0.2`](attachments/world-model-method-working-version-v0.2.md)（`v0.1` 保留为历史）：4 条 required（`F-001` 第 2 章总流程**按 §13 闭环重排九步**并补全部出口与"两种检查分开"；`F-002` 10 章**逐章**补适用条件 / 已知边界 / 未决事项；`F-003` 补 `C1` / `C5` / `C8` 默认设计；`F-006` 第 4 章补回「定性与定量的统一处理」）与 2 条 advisory 均以 `fixed` 闭合，开放 required **0**；**整改复核对照 W2 退出条件逐项通过**，故 **W2 记完成**，子目标 `progress` 25% → **50%**（2/4；Root 不变，仍 25%）。**本轮为自审的自闭合，不冒充独立审计**；R4 交付前的独立审仍由 Root `I-004` 约束。空转形态 **② 过程代替内容** 的完整判定移到 **W4**，该项成功标准本轮**未勾选**。下一动作：**W3**（两个最小结构）。
