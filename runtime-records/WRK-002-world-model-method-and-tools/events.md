@@ -120,3 +120,15 @@
 - **闭合口径（保守）**：编排器**不自行宣告闭合**（上一轮自行记 `fixed` 已被独立复审部分否定）。`A-002-F-001` / `F-002` / `F-003` 与 `A-001-F-001` 一律记「修正已落盘、待 closure check」；开放 required **仍记 2**。请求包见 [`attachments/closure-check-request-A-003.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-003.md)。
 - **门禁**：closure check 确认前，不宣布 `A-001` 全部闭合、不冻结经修订的 W1 产物为 W2 输入、不推进 W2 内容写作。
 - **未决 / 下一责任**：交回同一独立审阅者做 closure check；通过后另立 `A-003`、更新闭合投影、冻结 W1 产物并进入 **W2**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-011 · closure check 通过，W1 正式结束并冻结为 W2 输入
+
+- **时间**：2026-09-26
+- **责任角色**：独立审计者（GPT Web，用户转述）；方法工程响应负责人（代为落盘、更新投影与冻结留痕）
+- **触发**：独立 closure check [`A-003`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-003-closure-check.md)（`source: independent`，verdict **`pass`**）到达。
+- **状态变化**：无；仍为**「响应中」**（审计闭合与 W1 冻结不改变运行主线状态）。
+- **依据**：本仓子目标 [`GOAL-002` 的 `D-007`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-007-w1-freeze.md) 与 [`E-007`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-007-w1-freeze.md)。
+- **内容**：`A-003` 判定 `A-002-F-001` / `F-002` / `F-003` → `fixed`、`A-001-F-001` → `closed`、`A-001` 全部 required 闭合、`A-002` 有效状态 `pass`，并明确**无需第四轮审计**。据此：开放 required 投影 **2 → 0**、**审计门禁解除**、**W1 产物（`D-004` + `D-005` + `D-006`）冻结为 W2 输入**、**W1 正式结束**。
+- **计数口径修正（非阻断建议）**：采纳 `A-003` 的建议，本目标台账按「**独立的开放必改项**」计数——父 finding `partially fixed` 时与其残留子 finding 合并计 1；`D-006` 正文未改。**仓库级**口径（`AGENTS.md` §6b / `principles.md` P-003）未动，留待用户裁定。
+- **门禁**：审计门禁**已解除**；剩余 required 为 `I-202`（W4 结束前）、`I-203`（R4 交付前）、`I-204`（W4 开始前）、`I-205`（`C2` / `C3` / `C6`，W2 定稿前）——**均不阻断 W2 起草**。
+- **未决 / 下一责任**：**W2 方法主文档形成**（草稿落本目标 `attachments/`，每章标明人机协作位与建议 / 裁定留痕）。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
