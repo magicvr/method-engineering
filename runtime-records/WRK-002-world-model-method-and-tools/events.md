@@ -228,3 +228,14 @@
 - **内容**：**`F-001`** 第 1 章谓词与第 5 章执行检查**限定在"所声称的适用范围内"**（机制可合法依赖地点 / 制度 / 对象类型；跨出边界后失效只说明**越界**，不因此变成世界状态；保留"只覆盖当前这一个案例仍不合格"）；**`F-002`** 条件敏感性改为 **challenge test**（无变化只记"本次检查未证明该条件敏感"并重新审视边界依据，**不得自动删除边界**）；**`F-003`** 拒绝句改为**依赖式**，并经创作者书面裁定**正式修订 [`D-008`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-008-i205-adjudication.md) 第 2 节的绝对句**（**原文不改写**、末尾追加修订说明；`C3` 其余内容不变）；**`F-004`** 第 6 章判断点与留痕栏位一并去掉"分类"压力；**`F-005`** 第 8 章入口句改为"**是否存在新的世界模型能力缺口**"。
 - **门禁**：开放 required **3**（状态「**修正已落盘、待 closure check**」）；请求包 [`closure-check-request-A-008.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-008.md)。**W3 暂缓至闭审确认**；**W2 完成标记不收回**（`A-007` 明确不改，且其 scope 非 W2 退出条件重审）——与 `A-005` 那次（明确列出两条退出条件行不满足）处理不同，理由见 `D-012`。
 - **未决 / 下一责任**：把 [`closure-check-request-A-008.md`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/closure-check-request-A-008.md) 交 `/audit` 通道，只核 `A-007-F-001`～`F-003` 是否闭合；确认通过后**开始 W3**。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。
+
+## EV-020 · A-008 闭审通过，冻结 W2（v0.4）并解锁 W3
+
+- **时间**：2026-09-26
+- **责任角色**：独立审计者（GPT Web；用户转述、代贴）；用户（指示代贴 + 顺手修非阻断问题 + 准备进入 W3）；方法工程响应负责人（落盘、清理与留痕）
+- **触发**：独立闭审 [`A-008`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/03-audit/A-008-a007-closure-check.md)（verdict **`pass`**）到达。
+- **状态变化**：无；仍为**「响应中」**。
+- **依据**：本仓子目标 [`D-013`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/01-decision/D-013-a008-closure.md) 与 [`E-013`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/02-execution/E-013-w2-freeze.md)。
+- **结论摘要**：`A-007-F-001`～`F-005` 由本意见确认**全部 `fixed`**（审计者逐条说明"修到了语义、不只是换措辞"）：归属判定已限定在所称适用范围内且第 1 / 5 章口径一致；条件敏感性已改为 challenge test（消除"一次没变化 → 不是边界"）；`C3` 的"未知沿依赖传播"语义已恢复（**允许不完备模型存在，但不允许不完备知识冒充完备能力**）；第 6 章不再要求给参考贴分类标签、留痕记录实际适用条件；第 8 章职责收窄为"判断是否存在新的世界模型能力缺口"。**无新增 required finding**；另有 **1 条 non-blocking wording advisory**（第 6 章「已知边界」一句的表述一致性）。结论：「**W2 可以冻结**」「**可以进入 W3**」，并建议**停止继续纯文本打磨 W2**。
+- **落账**：**接受闭审**；**开放 required 投影 → 0**；`A-007` 有效状态 **`pass`**；**W2 完成版本冻结为 [`v0.4`](../../docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-002-r2-method-working-version/attachments/world-model-method-working-version-v0.4.md)**（`v0.1`～`v0.3` 保留）；**唯一非阻断 advisory 已应用**（第 6 章「已知边界」一句替换为审计者建议文本；**改动前后原文记于 `D-013`**，并在 `v0.4`「修订说明」加注第 ⑥ 条，使闭审所引原句仍可核对；无语义变化，不改变 `pass` 结论）；`progress` 保持 **50%**（2/4；Root 不变，25%）。**W3 解锁。**
+- **未决 / 下一责任**：**W3** —— 形成两份可填写最小结构：①「能力缺口判定清单」（第 8 章五步 + §12 十一项回绝）；②「模型条目最小结构」（第 7 章十一项，含**条件关键项**与**依赖式**拒绝规则、能力声明范围栏）。要求创作者可填、建议与裁定可区分、不依赖任何程序输出。审计者并建议**停止继续纯文本打磨 W2**，把剩余判定交给 W3 与 W4。**方法工作版与两个最小结构尚未形成**；未交付、未收件、未验收、未退出。

@@ -20,7 +20,8 @@ version: 0.11.0
 | A-004 | 2026-09-26 | **self** | W2 草稿 `v0.1`（对照 W2 退出条件、W1 冻结的三层映射与裁定 `D-008`） | conditional | `03-audit/A-004-w2-draft-self-review.md` |
 | A-005 | 2026-09-26 | **independent** | W2 草稿 `v0.2` + `A-004` 自闭合复核 | **conditional**（历史保留；**有效状态 `pass`**，见 A-006） | `03-audit/A-005-w2-independent-review.md` |
 | A-006 | 2026-09-26 | **independent** | finding closure check · `A-005-F-001`～`F-003`（草稿 `v0.3`） | **pass** | `03-audit/A-006-a005-closure-check.md` |
-| A-007 | 2026-09-26 | **independent** | W2 草稿 `v0.3` 冻结进 W3 前的五处局部规则 | **conditional** | `03-audit/A-007-w2-v03-prefreeze-review.md` |
+| A-007 | 2026-09-26 | **independent** | W2 草稿 `v0.3` 冻结进 W3 前的五处局部规则 | **conditional**（历史保留；**有效状态 `pass`**，见 A-008） | `03-audit/A-007-w2-v03-prefreeze-review.md` |
+| A-008 | 2026-09-26 | **independent** | finding closure check · `A-007-F-001`～`F-005`（草稿 `v0.4`）；W2 冻结前复审 | **pass** | `03-audit/A-008-a007-closure-check.md` |
 
 ## 使用约定
 
@@ -97,3 +98,19 @@ version: 0.11.0
 见 [`A-007`](03-audit/A-007-w2-v03-prefreeze-review.md) 的「Finding 响应」节：`F-001`～`F-003` 按关闭要求整改并**落盘于草稿 [`v0.4`](attachments/world-model-method-working-version-v0.4.md)**（记「修正已落盘、待 closure check」，**不由编排器自行宣告闭合**）；`F-004` / `F-005` 两条 recommended 一并处理。其中 `F-003` 经**创作者书面裁定**改为**依赖式**，并**正式修订 [`D-008`](01-decision/D-008-i205-adjudication.md) 第 2 节的绝对句**（原文不改写、末尾追加修订说明；修订见 [`D-012`](01-decision/D-012-a007-response.md) 第 1 项）。
 
 请求包 [`attachments/closure-check-request-A-008.md`](attachments/closure-check-request-A-008.md)。**W2 完成标记不收回**（本意见明确不改，且其 scope 非 W2 退出条件重审）；**W3 暂缓至闭审确认**。
+
+## A-008 · A-007 闭合复核（2026-09-26）
+
+- **source**：independent
+- **auditor**：GPT（Web 会话；由用户转述、本会话代为落盘）
+- **类型** / **scope**：finding-closure（pre-freeze closure review）/ `A-007-F-001`～`F-005`，对照草稿 `v0.4`
+- **verdict**：**`pass`**
+- **完整意见**：[`03-audit/A-008-a007-closure-check.md`](03-audit/A-008-a007-closure-check.md)
+
+**当前开放 required：0。** `A-007-F-001`～`F-005` 由本意见确认**全部 `fixed`**（审计者逐条说明"修到了语义、不只是换措辞"）；**无新增 required**；另有 **1 条 non-blocking wording advisory**（第 6 章「已知边界」一句的表述一致性），审计者明确其"不阻断 pass、不需要再开审计轮次"。`A-007` 原文 `conditional` 保留，**有效状态 `pass`**。
+
+**本意见确认：W2 可以冻结，可以进入 W3**；并建议**停止继续纯文本打磨 W2**——继续读方法的边际价值已很低，最可能发现真正问题的地方是把它变成 W3 的可执行结构、再跑一次 W4。
+
+### `/govern` 响应 · 2026-09-26
+
+用户指示按格式代贴该意见、顺手修掉非阻断问题、准备进入 W3。据此产出 [`D-013`](01-decision/D-013-a008-closure.md) / [`E-013`](02-execution/E-013-w2-freeze.md)：**接受闭审**（`A-007` 五条全 `fixed`，开放 required → **0**）；**冻结 W2，完成版本 = [草稿 `v0.4`](attachments/world-model-method-working-version-v0.4.md)**（`v0.1`～`v0.3` 保留）；**唯一非阻断 advisory 已应用**（第 6 章「已知边界」一句替换为审计者建议文本，**改动前后原文记于 `D-013`** 并在 `v0.4`「修订说明」加注第 ⑥ 条，使本意见所引原句仍可核对）；**W3 解锁**。本条目**不改**目标 `status` / `progress`。
