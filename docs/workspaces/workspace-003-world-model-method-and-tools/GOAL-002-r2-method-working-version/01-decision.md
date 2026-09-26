@@ -1,0 +1,32 @@
+---
+id: GOAL-002-r2-method-working-version
+doc: decision
+status: active
+parent: GOAL-001-world-model-method-and-tools
+created: 2026-09-26
+updated: 2026-09-26
+version: 0.1.0
+---
+
+# 决策记录 · GOAL-002
+
+## 纲领路线图与阶段计划
+
+纲领路线图（工作包 W1～W4）只写在 [00-meta.md](00-meta.md)。本文件不复制第二份阶段表。
+
+| 工作包 | 计划文件 / 落点 | 说明 |
+|--------|-----------------|------|
+| W1 | 未写 | 条款映射与差异登记；产出落 `01-decision/D-002-*` |
+| W2 | 未写 | 方法主文档草稿落 `attachments/`；升格路径待 `I-203` 裁决 |
+| W3 | 未写 | 两个最小结构草稿落 `attachments/` |
+| W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
+
+## 信息需求与阶段门禁
+
+权威信息表在 [00-meta.md](00-meta.md)。本文件不复制第二份表。
+
+## 决策索引
+
+| D-ID | 日期 | 标题 | 状态 | 文件 |
+|------|------|------|------|------|
+| D-001 | 2026-09-26 | 建立 R2 子目标并以真实问题为适用性判据 | accepted | `01-decision/D-001-r2-subgoal-setup.md` |
