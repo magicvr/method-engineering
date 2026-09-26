@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.6.0
+version: 0.7.0
 ---
 
 # 决策记录 · GOAL-002
@@ -18,7 +18,7 @@ version: 0.6.0
 |--------|-----------------|------|
 | W1 | **已完成**（2026-09-26） | 条款映射与差异登记；产出 [`01-decision/D-004-w1-clause-mapping.md`](01-decision/D-004-w1-clause-mapping.md) |
 | W2 | **已完成并冻结**（完成版本 `v0.4`；经 [`A-008`](03-audit/A-008-a007-closure-check.md) 闭审 `pass`） | 方法主文档落 [`attachments/world-model-method-working-version-v0.4.md`](attachments/world-model-method-working-version-v0.4.md)（`v0.1`～`v0.3` 保留）；升格路径待 `I-203` 裁决 |
-| W3 | 未写 | 两个最小结构草稿落 `attachments/` |
+| W3 | [D-014](01-decision/D-014-w3-subgoal-setup.md)；[GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 已立项 | 两个结构、字段映射及核对证据统一落子目标，结构实施未开始 |
 | W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
 
 ## 信息需求与阶段门禁
@@ -42,3 +42,4 @@ version: 0.6.0
 | D-011 | 2026-09-26 | 接受 A-006 的闭合确认：重新记 W2 完成 | accepted | `01-decision/D-011-a006-closure.md` |
 | D-012 | 2026-09-26 | 响应独立审 A-007：修订 D-008 关键项绝对句、出草稿 v0.4 | accepted | `01-decision/D-012-a007-response.md` |
 | D-013 | 2026-09-26 | 接受 A-008 闭审：冻结 W2（v0.4）并进入 W3 | accepted | `01-decision/D-013-a008-closure.md` |
+| D-014 | 2026-09-26 | 为 W3 建立统一承载子目标 | accepted | [D-014](01-decision/D-014-w3-subgoal-setup.md) |

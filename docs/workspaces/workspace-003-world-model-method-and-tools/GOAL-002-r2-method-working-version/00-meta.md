@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.18.0
+version: 0.19.0
 progress: 50%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -61,7 +61,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |--------|------|------|----------|
 | **W1** | 条款映射与差异登记 | **完成**（2026-09-26） | 已覆盖需求原文 §4～§11 与 §13：17 行条款级映射 + 附表 A（§9 十一项 → W3 字段候选）+ 附表 B（§13 十项 → W2 章节）；差异 `E1`～`E3`；需研究/需取舍点登记为候选 `C1`～`C8`（信息项 `I-205`，最晚 W2 冻结前裁定）。见 [`D-004`](01-decision/D-004-w1-clause-mapping.md) / [`E-004`](02-execution/E-004-w1-clause-mapping.md)。 |
 | **W2** | 方法主文档形成 | **完成并冻结**（完成版本：草稿 `v0.4`） | 正文按 R1 冻结九章结构齐备（`C6` 另增「总流程」章，共 10 章），含 §13 映射表、**逐章**适用条件 / 已知边界 / 未决事项、**逐章**人机协作位，并给出**建议与裁定分开的留痕要求**；完成版本落 [`attachments/world-model-method-working-version-v0.4.md`](attachments/world-model-method-working-version-v0.4.md)（`v0.1`～`v0.3` 保留）。链条：`A-004`（self）→ `A-005`（independent，3 required）→ `A-006`（闭审 `pass`）→ 重新记完成 [`D-011`](01-decision/D-011-a006-closure.md)；`A-007`（independent，冻结前五处局部规则）→ [`A-008`](03-audit/A-008-a007-closure-check.md)（闭审 **`pass`**，五条全 `fixed`、无新增 required）→ **冻结 W2 并进入 W3**（[`D-013`](01-decision/D-013-a008-closure.md) / [`E-013`](02-execution/E-013-w2-freeze.md)）。 |
-| **W3** | 两个最小结构形成 | 未开始 | 「能力缺口判定清单」（对 §10）与「模型条目最小结构」（对 §9）形成，可直接填写；每个字段能指回对应条款；**逐项通过创作者可填性核对**（字段不依赖任何程序输出；若借助助手填写，结构与留痕须能区分建议与裁定）；与 W2 正文无矛盾。证据落点：本目标 `attachments/` + E。 |
+| **W3** | 两个最小结构形成 | 子目标已立项，结构实施未开始 | 「能力缺口判定清单」（对 §10）与「模型条目最小结构」（对 §9）形成，可直接填写；每个字段能指回对应条款；**逐项通过创作者可填性核对**（字段不依赖任何程序输出；若借助助手填写，结构与留痕须能区分建议与裁定）；与 W2 正文无矛盾。证据落点：[GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 的 `attachments/` + D/E/A；承载决定见 [D-014](01-decision/D-014-w3-subgoal-setup.md)。 |
 | **W4** | 适用性核对（判据 = 真实问题） | 未开始 | 以真实问题为判据，按 W2 + W3 走一遍并留痕：问题拆解 → 缺口归类 → 定义裁决能力 → 模型条目草案 → 方法暴露的缺口清单；**核对按 `I-204` 裁决的协作安排执行**（裁决前，未经创作者裁定的核对结论不得作为本项证据）；暴露缺口已在 R2 内修正或登记为有界 residual 并写明影响；**并对照四种空转禁止形态逐条给出结论**。核对记录不得冒充 R4 交付证据或下游 canon。证据落点：本目标 D/E + `attachments/`。 |
 
 先后关系：**W1 → W2 → W3 → W4**（W1 冻结问题清单后 W2 才有可核对的覆盖对象；W3 依赖 W2 的章节编号；W4 依赖 W2 + W3 就绪）。本目标内不并行。
@@ -82,7 +82,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | I-204 | required | W4 适用性核对的**协作安排**：助手可协助到哪一步、创作者的裁定点如何留痕，使 W4 证据足以证明「结论由创作者作出且闭环可跑」 | W4 出口；交付验收口径 | W4 开始前 | 用户书面裁决 | open | 修正后的问题形态（见 [`D-003`](01-decision/D-003-executor-boundary-revision.md)）：不再是「谁执行」，而是「如何安排创作者裁定与助手协助」。用户已表示稍后再裁。责任人：用户 | 待裁决。**未经创作者裁定的核对结论不得作为 W4 证据** |
 | I-205 | required | **3 项需创作者裁定**的方法设计选择：`C2`（§8 划界形态）、`C3`（§9 完成语义）、`C6`（§3 是否立为「总流程」章）。另 5 项（`C1` / `C4` / `C5` / `C7` / `C8`）已按 [`D-005`](01-decision/D-005-w1-mapping-revision.md) 降为「助手默认设计 + 创作者审阅」 | 方法正文（W2）与两个最小结构（W3）的内容 | **W2 定稿前** | 用户书面裁定（可一次性给口径） | **verified** | 等级按用户确认的过滤规则划分（仅语义 / 责任边界 / 成本等级 / 不可逆承诺升级）。责任人：用户 | 2026-09-26 三项均已裁定，见 [`D-008`](01-decision/D-008-i205-adjudication.md)：`C2` ＝不建统一判据、举例＋强制显式适用条件声明（含创作者细化的措辞与"关键条件无法明确 → 专门机制或拒绝当前精度"出口）；`C3` ＝不阻止注册但限制可声明的裁决能力、关键项未知应拒绝裁决；`C6` ＝确认立为总流程章（运行主线），**章节顺序授权助手默认设计** |
 
-**门禁现状（2026-09-26，`A-008` 闭审后）**：**信息项**：`I-201` / `I-205` verified；`I-202`（W4 结束前）/ `I-203`（R4 交付前）/ `I-204`（W4 开始前）open——**均不阻断 W3**。**审计门禁：已解除**——`A-007` 的 3 条 required（`F-001` / `F-002` / `F-003`）由独立闭审 [`A-008`](03-audit/A-008-a007-closure-check.md)（**`pass`**）确认全部 **`fixed`**、**无新增 required**，2 条 recommended（`F-004` / `F-005`）亦已落实；**开放 required 投影 0**。**W2 已冻结**（完成版本 [`v0.4`](attachments/world-model-method-working-version-v0.4.md)）。**下一阶段：W3**（「能力缺口判定清单」与「模型条目最小结构」）；审计者并建议**停止继续纯文本打磨 W2**，把剩余判定交给 W3 的可执行结构与 W4 的有界检验。R4 交付前的独立审仍由 Root `I-004` 约束，尚未到达。
+**门禁现状（2026-09-26，`A-008` 闭审后）**：**信息项**：`I-201` / `I-205` verified；`I-202`（W4 结束前）/ `I-203`（R4 交付前）/ `I-204`（W4 开始前）open——**均不阻断 W3**。**审计门禁：已解除**——`A-007` 的 3 条 required（`F-001` / `F-002` / `F-003`）由独立闭审 [`A-008`](03-audit/A-008-a007-closure-check.md)（**`pass`**）确认全部 **`fixed`**、**无新增 required**，2 条 recommended（`F-004` / `F-005`）亦已落实；**开放 required 投影 0**。**W2 已冻结**（完成版本 [`v0.4`](attachments/world-model-method-working-version-v0.4.md)）。**当前承载：W3 子目标 [GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 已立项，结构实施未开始**（「能力缺口判定清单」与「模型条目最小结构」）；审计者并建议**停止继续纯文本打磨 W2**，把剩余判定交给 W3 的可执行结构与 W4 的有界检验。R4 交付前的独立审仍由 Root `I-004` 约束，尚未到达。
 
 ## 父目标
 
@@ -90,7 +90,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 台账布局
 
-`01-decision/`、`02-execution/`、`03-audit/` 为可追加台账；索引文件只保留 frontmatter、摘要和条目索引。独立记录使用 `D-NNN-*`、`E-NNN-*`、`A-NNN-*` 文件。`attachments/` 承载方法与最小结构的草稿。
+`01-decision/`、`02-execution/`、`03-audit/` 为可追加台账；索引文件只保留 frontmatter、摘要和条目索引。独立记录使用 `D-NNN-*`、`E-NNN-*`、`A-NNN-*` 文件。本目标 `attachments/` 承载方法草稿；W3 两个最小结构及核对证据由 GOAL-003 的 `attachments/` 承载。
 
 ## 执行主体与协作约束（2026-09-26，**已修正**）
 
@@ -108,7 +108,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 审计模式：R2 的阶段审视为 `self`。R4 交付前的高影响门禁仍由 Root `I-004` 约束（独立审计模式与 provider 由用户指定），本目标不以其替代。
 
-工作体量与拆分：W1～W4 串行且相互依赖强，暂不作为独立子目标；若 W2 或 W4 出现具有独立范围、依赖或交付证据的工作（例如需要独立的方法论检索或形式化检查），再按 P-001 建立本目标的子节点。嵌套子目标仍须五件套 + `parent` 完整 id，并同步本目标与工作区 `goal-tree.md`。
+工作体量与拆分：按 [D-014](01-decision/D-014-w3-subgoal-setup.md)，W3 由平铺子目标 [GOAL-003-w3-minimal-structures](../GOAL-003-w3-minimal-structures/00-meta.md) 统一承载两个结构及治理证据。其独立输入为 W2 v0.4，两个结构共同验收；W4 留本目标。父级检查点仍按原退出条件判定，子目标立项不计 W3 完成。
 
 2026-09-26 约束修正：用户在 [`D-002`](01-decision/D-002-executor-boundary.md) 登记后指出其「助手只做非判断性工作 / 不得以 AI 为前提」的表述**过强**，正确口径为「**决策权属于创作者、不得代劳，但助手应尽可能协助（可充分给提示与引导）**」。本目标据 [`D-003`](01-decision/D-003-executor-boundary-revision.md) 修正约束、成功标准与 W2 / W3 / W4 退出条件；`D-002` 原文保留，其第 1 项后半、第 2 项与第 4 项 A 形态由 `D-003` 取代。事实见 [`E-003`](02-execution/E-003-executor-boundary-revision-recorded.md)。
 
