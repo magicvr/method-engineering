@@ -3,8 +3,8 @@ doc_type: vision-roadmap
 title: 愿景规划索引
 status: active
 created: 2026-09-14
-updated: 2026-09-25
-version: 0.5.1
+updated: 2026-09-26
+version: 0.6.0
 parent: null
 ---
 
@@ -18,7 +18,7 @@ parent: null
 | id | title | status（派生投影） | vision_ref | lead_workspace | detail |
 |----|-------|--------------------|------------|----------------|--------|
 | [VP-001-demand-driven-method-engineering](plans/VP-001-demand-driven-method-engineering.md) | 建立需求驱动的方法工程最小运行机制 | closed | method-engineering@0.1.0 | workspace-001-method-engineering-runtime | 首个 VP；8 项退出判据已由 Root/工作区证据满足，VP 已完成有界闭门；工作区保留历史绑定 |
-| [VP-002-consumer-demand-response-protocol](plans/VP-002-consumer-demand-response-protocol.md) | 定义消费方与方法工程的双向需求—响应协议 | active | method-engineering@0.1.0 | workspace-002-consumer-response-protocol | 补足消费方发起、接收与确认交接的协议；2026-09-25 按用户指令激活并挂接首个 `primary` 工作区；关门要求真实消费仓完成一条真实需求的端到端试跑 |
+| [VP-002-consumer-demand-response-protocol](plans/VP-002-consumer-demand-response-protocol.md) | 定义消费方与方法工程的双向需求—响应协议 | active | method-engineering@0.1.0 | workspace-002-consumer-response-protocol | 补足消费方发起、接收与确认交接的协议；2026-09-25 按用户指令激活并挂接首个 `primary` 工作区；2026-09-26 按用户要求修订为真实消费仓参与的双边协议联调演练；不要求完成真实领域方法构建 |
 
 ## 波次关系
 
