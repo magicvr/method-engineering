@@ -5,13 +5,13 @@ status: active
 root_goal: GOAL-001-consumer-response-protocol
 canonical_scope: docs/workspaces/workspace-002-consumer-response-protocol/
 shared_materials_catalog: none
-vision_role: primary
+vision_role: delivery
 plan_refs: VP-002-consumer-demand-response-protocol
 primary_plan: VP-002-consumer-demand-response-protocol
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.4.0
+version: 0.5.0
 ---
 
 # 工作区上下文 · 消费方需求—响应协议
@@ -24,7 +24,7 @@ version: 0.4.0
 | Root Goal | `GOAL-001-consumer-response-protocol` | 本区唯一 `parent: null` 的 Root，已于 2026-09-26 关门（`done`）。 |
 | canonical 范围 | `docs/workspaces/workspace-002-consumer-response-protocol/` | 本区唯一目标状态范围。 |
 | 共享资料目录 | `none` | 当前工作区不声明共享资料引用。 |
-| 愿景角色 | `primary` | 2026-09-25 按用户确认开设，为 vision 层唯一 `primary`（`VR-004`）。 |
+| 愿景角色 | `delivery` | 2026-09-25 按用户确认开设时为 vision 层唯一 `primary`（`VR-004`）；2026-09-26 按用户确认改记为 `delivery`（`VR-006`），唯一 `primary` 移交 [`workspace-003-world-model-method-and-tools`](../workspace-003-world-model-method-and-tools/workspace.md)。本区自身仍为 `active`，本次不归档。 |
 | 规划对齐 | `VP-002-consumer-demand-response-protocol` | 同时作为 `plan_refs` 与 `primary_plan`。 |
 
 ## 愿景对齐
@@ -48,3 +48,5 @@ version: 0.4.0
 2026-09-26 按 [D-007](GOAL-001-consumer-response-protocol/01-decision/D-007-protocol-rehearsal-realignment.md) 重新对齐：R3 使用明确标注的合成非敏感内容，双方在真实实践仓库沿共享追踪消费对方交接。I-008 尚待确认；真实需求 WRK-001 保持待判定并移出 R3 范围。
 
 2026-09-26 后续按 [D-008](GOAL-001-consumer-response-protocol/01-decision/D-008-wrk001-real-chain.md) 用户明确修订：WRK-001 以跑通链条为真实目标，保留 ID 与历史并接受有界处理。上述 D-007 备注是历史。R3 已完成一轮真实往返（交付 v1 → 两条范围内异议 → v1.1 → 接受 → 反馈路由与结束，运行主线转「已退出」），领域方法构建仍未完成；协议权威全文已升格至 [`protocols/`](../../../protocols/consumer-response-protocol.md)；Root 已于 2026-09-26 关门（A-021 / A-022）。本工作区自身的归档与其承接的 VP-002 状态不由 Root 关门自动改变，属愿景层动作。
+
+2026-09-26 愿景层动作（`VR-006`）：本区 `vision_role` 由 `primary` 改为 `delivery`，唯一 `primary` 移交 `workspace-003-world-model-method-and-tools`——后者承载 2026-09-26 落盘即 `active` 的 [`VP-003-world-model-method-and-tools`](../../vision/plans/VP-003-world-model-method-and-tools.md)，即 `WRK-001` 未获交付的原领域方法需求所另建的处理主线 `WRK-002-world-model-method-and-tools`。本区与 VP-002 的 `closed` 结论、Root 的 `done` 结论均不变，历史绑定保留，本区不归档。

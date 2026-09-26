@@ -5,7 +5,7 @@ title: 可靠的方法工程能力
 status: active
 version: 0.1.0
 effective_date: 2026-09-14
-primary_workspace: workspace-002-consumer-response-protocol
+primary_workspace: workspace-003-world-model-method-and-tools
 created: 2026-09-14
 updated: 2026-09-26
 parent: null
@@ -60,7 +60,8 @@ parent: null
 - 本 Charter 是本项目唯一的愿景与对齐链源头；不可使用 Goal 的 `done` 表示它已完成。
 - 后续意图落盘为 `{governance_root}/vision/plans/VP-*.md`，其 `vision_ref` 必须精确匹配 `method-engineering@0.1.0`。
 - 工作区与 Root Goal 应通过 `plan_refs` / `primary_plan` 对齐 VP；目标状态、目标审计与 progress 不在本 Charter 中维护。
-- Charter 冷启动已完成。首个 VP [`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md) 于 2026-09-18 落盘并曾进入 `active`，现已 `closed`；其首个实现工作区 [`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 与 Root [`GOAL-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/GOAL-001-method-engineering-runtime/00-meta.md) 已完成并归档，历史绑定保留为 `delivery`。后继补充意图 [`VP-002-consumer-demand-response-protocol`](plans/VP-002-consumer-demand-response-protocol.md) 曾于 2026-09-25 进入 `active`，现已有界 `closed`；其 `primary` 工作区 [`workspace-002-consumer-response-protocol`](../workspaces/workspace-002-consumer-response-protocol/workspace.md) 与 Root [`GOAL-001-consumer-response-protocol`](../workspaces/workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 保留历史绑定。Root 已 `done`，工作区本身仍为 vision 层唯一 `primary`，本次关门不归档该区。
+- Charter 冷启动已完成。首个 VP [`VP-001-demand-driven-method-engineering`](plans/VP-001-demand-driven-method-engineering.md) 于 2026-09-18 落盘并曾进入 `active`，现已 `closed`；其首个实现工作区 [`workspace-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/workspace.md) 与 Root [`GOAL-001-method-engineering-runtime`](../workspaces/workspace-001-method-engineering-runtime/GOAL-001-method-engineering-runtime/00-meta.md) 已完成并归档，历史绑定保留为 `delivery`。后继补充意图 [`VP-002-consumer-demand-response-protocol`](plans/VP-002-consumer-demand-response-protocol.md) 曾于 2026-09-25 进入 `active`，现已有界 `closed`；其历史绑定工作区 [`workspace-002-consumer-response-protocol`](../workspaces/workspace-002-consumer-response-protocol/workspace.md) 自 2026-09-26 起改记为 `delivery`，不再声称 vision 层唯一 `primary`（`VR-006`），该区自身保持 `active`，本次不归档。
+- 现行 `active` 意图为 [`VP-003-world-model-method-and-tools`](plans/VP-003-world-model-method-and-tools.md)（2026-09-26 落盘即 `active`），承接真实需求 `WRK-002-world-model-method-and-tools`（下游 `WorldModel.ModernCultivation` 提报）。其 lead 与唯一实现工作区 [`workspace-003-world-model-method-and-tools`](../workspaces/workspace-003-world-model-method-and-tools/workspace.md) 即本 Charter 的 `primary_workspace`（`VR-006`）。目标状态、目标审计与进度仍不在本 Charter 中维护。
 
 ## 现行版本
 
