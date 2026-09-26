@@ -8,7 +8,7 @@ status: recorded
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.0
+version: 0.1.2
 ---
 
 ## A-017 · 响应 A-016 的 required findings
@@ -24,8 +24,12 @@ version: 0.1.0
 
 ### F-001 · open
 
-下游 `exchange/README.md` 与 D-007 对入站材料的定义仍未明确覆盖本次流程约定、往返材料与核对结论。I-008 已改为 `open`。在用户裁决并完成契约响应及 independent 复审前，不向下游 `exchange/` 写入，也不把本 finding 记为 residual 或 overruled。
+用户已在 D-009 选择 fixed 修复路径；两仓契约扩展已经写入，下游 D-008 与 exchange/README.md 明确容纳当前 WRK-001 一条流程链的交接约定、实际往返材料与核对结论。F-001 与 I-008 仍为 open，须待 independent rereview 通过并完成合法闭合，才可分别记为 fixed / verified。在此之前不得写入实际链条材料，不作 residual 或 overruled。
 
 ### 阶段意见与门禁
 
-A-015 self pass 与 A-016 independent fail 对同一 R3 接受/写入就绪范围构成 verdict 冲突。F-002 已 fixed，但 F-001 仍开放且冲突尚未由用户裁决；R3 下游写入与 Root 关门继续阻断。本条不宣称 R3 或 cross 审计通过。
+A-015 self pass 与 A-016 independent fail 的 verdict 冲突已由用户在 D-009 裁决采用修复路径处理，历史 verdict 保留。F-002 已 fixed，F-001 仍 open，等待 independent rereview；实际链条材料写入与 Root 关门继续阻断。本条不宣称 R3 或 cross 审计通过。
+
+### 用户裁决后的响应进展 · 2026-09-26
+
+[D-009](../01-decision/D-009-exchange-process-material-scope.md) 记录用户选择窄幅扩展 exchange，以修复路径解决 A-015 / A-016 verdict 冲突。下游契约已修订；F-001 与 I-008 仍 open，待独立复审，不作 residual / overruled。本条已同步当前响应状态；实际链条材料未写入，R3 未放行。

@@ -5,14 +5,14 @@ status: active
 parent: null
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.3
+version: 0.3.5
 ---
 
 # 审计 · GOAL-001
 
-本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-009 independent 复审通过；A-010 已按 `fixed` 合法关闭 A-006/A-007/A-008 合计 6 条 required findings；A-011 确认 R2 退出条件已满足。A-012～A-014 记录 D-007 范围重新对齐的 self / independent cross 审视及意见响应。历史意见 verdict 保留；D-007 审视无开放 required finding。D-008 的真实链条修订及规则澄清尚待本次 cross 审计，不能引用历史意见代替。
+本文件是 Root 的审计索引；正式审计意见按 `03-audit/A-NNN-*.md` 平铺记录，self 与 independent 共用编号序列。A-001、A-002、A-003、A-004 保留各自审计时的历史 verdict；A-005 已响应 A-002/A-003 并满足 A-004 的 conditional 条件。A-009 independent 复审通过；A-010 已按 `fixed` 合法关闭 A-006/A-007/A-008 合计 6 条 required findings；A-011 确认 R2 退出条件已满足。A-012～A-014 记录 D-007 范围重新对齐的 self / independent cross 审视及意见响应。历史意见 verdict 保留；D-007 审视无开放 required finding。D-008 的真实链条修订已完成首轮 cross 审视，意见与当前响应见 A-015～A-017。
 
-A-015 是 D-008 规则与范围修订的 self 审视（pass）；A-016 为上下文独立 Reviewer 的 cross 审视（fail），发现两条 required finding。A-015 与 A-016 对 R3 接受/写入就绪范围 verdict 相反，构成待用户裁决的意见冲突；在 finding 合法闭合前不得开始下游写入或放行 R3。此前 A-012～A-014 只覆盖 D-007 的合成演练范围，不能替代本次 cross。
+A-015 是 D-008 规则与范围修订的 self 审视（pass）；A-016 为上下文独立 Reviewer 的 cross 审视（fail），发现两条 required finding。A-015 与 A-016 对 R3 接受/写入就绪范围 verdict 相反，构成意见冲突，现由 D-009 用户裁决选择窄幅修复路径；在 finding 合法闭合前不得开始下游写入或放行 R3。此前 A-012～A-014 只覆盖 D-007 的合成演练范围，不能替代本次 cross。
 
 ## 信息就绪核对
 
@@ -25,7 +25,7 @@ A-015 是 D-008 规则与范围修订的 self 审视（pass）；A-016 为上下
 | I-005：字段、模板、实际 work-item ID、引用与渠道 | open（non-blocking） | 保留 D-002 第 5、11 项身份；D-004 仅确定试点宿主，具体细节逐案确认。 |
 | I-006：指南共享路径与单一来源升格 | collecting（required） | D-003 / E-009 已确认生命周期及升格时点，编号由 D-004 / E-012 勘误；R3 试跑验收与指南验证后提出具体路径供用户裁决，完成迁移与引用核对后才可解除 Root 关门门禁；当前未验证。 |
 | I-007：需求与 Root 范围适配 | resolved | D-007 曾改为合成演练；D-008 进一步修订为真实流程链，仍排除领域方法构建。 |
-| I-008：流程约定与下游写入选择/授权 | open（required） | A-016 F-001 指出 exchange 当前规则未明确覆盖流程类入站材料；等待用户裁决与契约响应，期间不得写入下游。 |
+| I-008：流程约定与下游写入选择/授权 | open（required） | A-016 F-001 指出 exchange 当前规则未明确覆盖流程类入站材料；D-009 已选择窄幅修复；契约已修订待独立复审，实际链条材料不得写入。 |
 | 共享资料引用 | 无 | 工作区 `shared_materials_catalog: none`。 |
 | 相关 Vision Review required | 已关闭 | `reviews.md` 当前 `open required: 0`；VRev-003 三条 recommended 已由 `/vision` 记为 `fixed`。 |
 | D-007 历史范围重新对齐审计 / provider | cross / 已指定 | A-012 self pass；A-013 上下文独立 Codex Reviewer 为 conditional（ACCEPT WITH NOTES），两条 minor 已由 A-014 以 `fixed` 响应。派发接口未传入本地 `reviewer.toml` 的 sandbox / developer instructions，不宣称配置已生效。 |
@@ -50,12 +50,12 @@ A-015 是 D-008 规则与范围修订的 self 审视（pass）；A-016 为上下
 | A-014 | 2026-09-26 | self | 响应 A-013 两条 minor 意见 | pass | 0 | [A-014](03-audit/A-014-scope-realignment-finding-response.md) |
 | A-015 | 2026-09-26 | self | D-008 规则澄清、WRK-001 接受边界与真实链条对齐 | pass | 0 | [A-015](03-audit/A-015-real-chain-scope-self-review.md) |
 | A-016 | 2026-09-26 | independent | D-008 / WRK-001 接受依据、历史连续性与 R3 下游写入就绪 | fail | 1 | [A-016](03-audit/A-016-wrk001-independent-cross-review.md) |
-| A-017 | 2026-09-26 | self | 响应 A-016 F-002；F-001 与 verdict 冲突仍开放 | conditional | 1 | [A-017](03-audit/A-017-finding-response.md) |
+| A-017 | 2026-09-26 | self | 响应 A-016 F-002；F-001 仍开放；D-009 已裁决修复路径 | conditional | 1 | [A-017](03-audit/A-017-finding-response.md) |
 
 ## 结论状态
 
 - A-002 F-001～F-003 均由 A-005 以 `fixed` 合法闭合；A-004 的 conditional 条件（编排器闭合响应）已满足。A-004 记录的一项 recommended 文案问题也已修复；R1 无开放 required 或 recommended finding。
-- I-004 verified；R1/R2 历史阶段审计保持有效，A-009/A-010/A-011 及既有 finding 闭合不改写。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003/I-008 required/verified 仅证明本次边界、授权与交接安排就绪；实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。本次规则与范围修订仍待 cross 审计，历史 pass 不替代本次审视。A-012 self pass、A-013 independent conditional 后，A-014 已响应两条 minor；D-007 历史范围修订无开放 required finding。D-008 尚待 cross 审视，未宣称完整链路已执行。
+- I-004 verified；R1/R2 历史阶段审计保持有效，A-009/A-010/A-011 及既有 finding 闭合不改写。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003 required/verified 证明本次边界与授权；I-008 required/open，契约修订已落盘但待 independent rereview；实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。A-015 self pass、A-016 independent fail 的历史 verdict 保留；D-009 记录用户选定窄幅修复路径，A-017 已以 `fixed` 关闭 F-002，F-001 仍 open，等待独立复审契约修订。复审与合法闭合前不放行 R3 下游实际写入。A-012 self pass、A-013 independent conditional 后，A-014 已响应两条 minor；D-007 历史范围修订无开放 required finding。当前尚未宣称完整链路已执行。
 - 本目标尚未到 Root 关门审计节点，`status: active`；不得以阶段通过或 progress 单独推导 `done`。
 
-本次 D-008 修订：A-015 self pass 与 A-016 independent fail 存在 verdict 冲突。A-016 F-002 已由 A-017 以 `fixed` 合法闭合；F-001 required finding 仍开放，I-008 维持 open。按 P-004 等待用户对下游 exchange 契约处理方式的裁决，并完成相应修正及独立复审前，不放行 R3 下游写入或任何关门门禁。
+本次 D-008 修订：A-015 self pass 与 A-016 independent fail 存在 verdict 冲突。A-016 F-002 已由 A-017 以 `fixed` 合法闭合；F-001 required finding 仍开放，I-008 维持 open。用户已按 P-004 在 D-009 选择窄幅修复路径；完成独立复审与 finding 合法闭合前，不放行 R3 下游写入或任何关门门禁。

@@ -8,7 +8,7 @@ primary_plan: VP-002-consumer-demand-response-protocol
 serves_summary: 将 VP-002 的双向需求—响应意图落地为消费方可照做的协议说明，并通过双方共同的真实流程链验证交接。
 created: 2026-09-25
 updated: 2026-09-26
-version: 0.3.1
+version: 0.3.2
 progress: 67%
 ---
 
@@ -57,7 +57,7 @@ R1 → R2 → R3 串行：协议语义未冻结前不形成对外说明；试跑
 | I-005 | non-blocking | 运行记录的具体字段、模板、work-item ID、引用字段及沟通渠道等尚未确定的物理承载细节。 | 不阻断 R2 协议语义；具体建档与协作时核对适用细节 | 可追踪信号抵达建档与逐案协作时 | 沿用既有 record.md + events.md 模式；按 D-006 在需要双方跟踪的可追踪真实需求信号抵达时，于 I-002 既有最小留存范围内建立「待判定」主记录并分配实际 work-item ID；字段、引用和渠道按需逐案确认，不增加登记手续，不以 I-003 处理授权作为建档前提。 | open | 责任人：运行记录维护者与消费方；复核触发：可追踪真实需求信号抵达及建档准备。尚未定案的细节不得写成已验证。 | D-002 第 5、11 项保留原信息项身份；[D-004](01-decision/D-004-trial-runtime-record-host.md) 仅确定本次试点宿主与目录模式，[D-006](01-decision/D-006-signal-intake-record-timing.md) 确定信号建档和 ID 时点；D-008 确认本次未承诺修订沿用 ID、承载与渠道；其余通用细节仍待逐案确定。 |
 | I-006 | required | 协议指南经 R3 验证后的本仓共享运行文档承载路径与单一权威全文迁移方案。 | R3 升格、Root 关门 | R3 试跑验收与指南验证后、Root 关门前 | R2/R3 在 `attachments/consumer-response-protocol.md` 维护唯一草稿；R3 提供证据后提出具体共享路径与迁移方案，请用户确认，再迁移唯一来源并核对引用。 | collecting | 责任人：本仓维护人（用户）裁决路径，编排器准备方案并执行；复核触发：R3 试跑验收与指南验证完成。此前不预选最终路径，未完成升格不得关门。 | [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)、[E-009](02-execution/E-009-protocol-guide-promotion-timing.md)：用户已确认归属、临时路径策略与升格时点；最终共享路径及迁移结果未验证。 |
 | I-007 | required | 真实方法需求与 Root 非目标的范围冲突。 | R3 范围重新对齐 | R3 范围修订时 | 按用户要求修改 VP 与 Root 退出条件，解除方法构建依赖。 | resolved | D-007 当时将 WRK-001 移出 R3；后经 D-008 用户明确修订为流程链并重新纳入。本次仍排除领域方法构建。本项以范围决定解决，不代表需求处理条件已验证。 | [D-007](01-decision/D-007-protocol-rehearsal-realignment.md)；[D-008](01-decision/D-008-wrk001-real-chain.md) |
-| I-008 | required | 真实流程链角色、共享追踪、核对办法及下游路径、格式、工具与写入授权。 | R3 联调与下游材料写入前 | R3 | 核对 E-008、本次用户指令及下游 D-006/D-007、exchange/README；逐项约定见 D-008。 | open | 路径/格式/工具已识别，但 A-016 F-001 指出 exchange 当前规则未明确覆盖流程类入站材料；待用户裁决及契约响应前不写入下游。 | [D-008](01-decision/D-008-wrk001-real-chain.md)、[A-016](03-audit/A-016-wrk001-independent-cross-review.md)。 |
+| I-008 | required | 真实流程链角色、共享追踪、核对办法及下游路径、格式、工具与写入授权。 | R3 联调与下游材料写入前 | R3 | 核对用户裁决 D-009、下游 D-008 / exchange/README 的材料类型范围及既有目录、格式、核对和授权约定；由 independent rereview 核对 A-016 F-001 的整改证据。 | open | 用户已选择窄幅扩展；下游契约已明确当前 WRK-001 一条流程链的交接约定、实际往返材料与核对结论，并保留非 canon、人工核对、无新工具与单一运行状态来源边界。A-016 F-001 仍 open，须独立复审通过并合法闭合后才可写入实际材料。 | [D-009](01-decision/D-009-exchange-process-material-scope.md)、[E-024](02-execution/E-024-exchange-contract-extension.md)、下游 D-008 / exchange/README、[A-016](03-audit/A-016-wrk001-independent-cross-review.md)。 |
 
 > `resolved` 仅表示 I-007 的范围问题由用户裁决解决，不代替 I-003/I-008 的授权核对或实际交接证据。本表只登记已识别的未知与门禁；未获 `verified` 或用户书面接受的 `accepted-residual` 前，不得把上述项目写成已确认事实。到达最晚需要阶段仍为 `open` 的 required 项按 P-005 阻断对应门禁。
 
@@ -67,7 +67,7 @@ R1 涉及协议边界和运行记录语义，按 P-003 风险表采用 **`cross`
 
 ## R2 实施计划与审计模式
 
-按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。用户已在 E-018 确认指南可执行，A-011 自审通过并关闭 R2。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003 required/verified 证明本次边界与授权；I-008 required/open，待解决 exchange 流程材料范围；实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。本次规则与范围修订已完成首次 cross 审视：A-015 self pass 与 A-016 independent fail 存在 verdict 冲突；A-016 F-001 required finding 尚开放，R3 下游写入受阻。历史 pass 不替代本次整改复审。D-007 的历史范围重新对齐按 cross 审视：A-012 self pass，A-013 上下文独立 Reviewer 为 conditional / ACCEPT WITH NOTES，A-014 已 `fixed` 响应两条 minor；无开放 required findings。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须按对应信息门禁确认承载与授权。
+按 [D-003](01-decision/D-003-protocol-guide-lifecycle-and-promotion.md)，先在本目标 `attachments/consumer-response-protocol.md` 编写唯一协议草稿，再完成 self + 上下文独立 Codex Reviewer 的 **cross** 审计，最后取得消费方可读可执行确认。R2 涉及跨边界运行协议，依 P-003 采用 cross；草稿 v0.1.3 已完成复审：A-009 independent verdict 为 pass，A-010 已按 `fixed` 闭合 A-006/A-007/A-008 共 6 条 required findings，当前开放 required 为 0。用户已在 E-018 确认指南可执行，A-011 自审通过并关闭 R2。独立 provider 沿用本会话指定的 Codex Reviewer；派发限制同上。R1、R2 已完成，Root 保持 active / 67%。按 D-008，R3 已开始承接 WRK-001 的真实流程链请求，WRK-001 当前为「已接受」。I-003 required/verified 证明本次边界与授权；I-008 required/open，契约修订已落盘但待 independent rereview；实际双边交接尚未执行完成，R3 仍未完成。I-006 required/collecting 继续阻断升格与关门。原领域方法需求保留为历史且未完成；未创建后继 VP，也未满足下游 Root 的方法构建成功标准。本次规则与范围修订已完成首轮 cross 审视：A-015 self pass 与 A-016 independent fail 的历史 verdict 保留；用户按 D-009 选择窄幅修复路径，A-017 已以 `fixed` 关闭 F-002，F-001 required 仍 open，等待对下游契约修订的独立复审。复审与合法闭合前 R3 下游实际写入仍受阻。D-007 的历史范围重新对齐按 cross 审视：A-012 self pass，A-013 上下文独立 Reviewer 为 conditional / ACCEPT WITH NOTES，A-014 已 `fixed` 响应两条 minor；无开放 required findings。D-005 于 2026-09-26 再确认下游拥有交付目录、格式与工具最终选择权；可在提交或澄清时确定，向下游仓库写入响应材料前须按对应信息门禁确认承载与授权。
 
 ## 愿景对齐
 

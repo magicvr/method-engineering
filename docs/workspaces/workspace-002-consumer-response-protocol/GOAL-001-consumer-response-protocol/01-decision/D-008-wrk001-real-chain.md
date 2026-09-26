@@ -6,7 +6,7 @@ status: accepted
 parent: GOAL-001-consumer-response-protocol
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## D-008 · WRK-001 修订为真实对接链条并接受有界处理
@@ -39,3 +39,7 @@ WRK-001 从「待判定」转为「已接受」；EV-003 记录用户修订和�
 README 第 10 项与 D-002 的关系按 D-002 追加修订澄清：未承诺非终态请求由原需求方明确修订可保留 ID；已接受变化走重新确认；新需求及终态重提另建主线。未选「终结 WRK-001 再建新 ID」是因为用户明确选择修订当前未承诺请求，且历史完整保留。
 
 本次触及协议与跨边界语义，沿用 cross（self + 上下文独立 Codex Reviewer）；本条记录用户决定与接受承诺，不宣称本次审计已完成，也不复用 A-012～A-014 或 VRev-004 的历史 pass 放行 R3 退出。
+
+### D-009 后续响应 · 2026-09-26
+
+用户已选择窄幅扩展 exchange；下游 D-008 与 README 明确纳入当前 WRK-001 一条流程链材料。此前 v0.1.0 读取结论保留为历史；当前 I-008 required/open、F-001 open，待独立复审，不得据契约修改推导已验证或允许写入实际链条材料。见 [D-009](D-009-exchange-process-material-scope.md)。
