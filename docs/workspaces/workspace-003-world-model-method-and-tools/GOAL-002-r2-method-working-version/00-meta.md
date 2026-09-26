@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-26
-version: 0.4.0
+version: 0.4.1
 progress: 25%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -112,3 +112,5 @@ primary_plan: VP-003-world-model-method-and-tools
 2026-09-26 约束修正：用户在 [`D-002`](01-decision/D-002-executor-boundary.md) 登记后指出其「助手只做非判断性工作 / 不得以 AI 为前提」的表述**过强**，正确口径为「**决策权属于创作者、不得代劳，但助手应尽可能协助（可充分给提示与引导）**」。本目标据 [`D-003`](01-decision/D-003-executor-boundary-revision.md) 修正约束、成功标准与 W2 / W3 / W4 退出条件；`D-002` 原文保留，其第 1 项后半、第 2 项与第 4 项 A 形态由 `D-003` 取代。事实见 [`E-003`](02-execution/E-003-executor-boundary-revision-recorded.md)。
 
 2026-09-26 W1 完成：条款映射与差异登记产出 [`D-004`](01-decision/D-004-w1-clause-mapping.md)（17 行条款级映射 + 附表 A/B + 差异 `E1`～`E3` + 候选 `C1`～`C8`），事实见 [`E-004`](02-execution/E-004-w1-clause-mapping.md)。W1 完成只表示**映射与登记到位**，不表示方法内容已定：`C1`～`C8` 属创作者裁定点（`I-205`，最晚 W2 冻结前），裁定前方法正文不得写出未裁定的倾向。
+
+2026-09-26 独立审计到达：用户转述 GPT Web 对 `D-004` 的独立审计，已代为落盘为 [`A-001`](03-audit/A-001-d004-independent-review.md)（`source: independent`，verdict `conditional`）。该意见**承认「条款映射与差异登记已经完成」**（W1 记完成不变），但**不建议 `D-004` 原样作为 W2 输入冻结**，提出 5 条 required（`A-001-F-001`～`F-005`；其中 `F-003` / `F-004` 被列为本轮最重要）。审计**不改变**本目标 `status` / `progress` 与 `D-004` 正文，也不改变 `I-205` 的登记；但依 P-003 开放必改门禁，**在其合法闭合前不得把 `D-004` 冻结为 W2 输入**。响应归 `/govern`。
