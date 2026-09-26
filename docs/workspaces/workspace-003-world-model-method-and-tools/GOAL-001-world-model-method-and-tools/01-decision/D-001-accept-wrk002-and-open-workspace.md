@@ -19,7 +19,7 @@ version: 0.1.0
 
 ### 决定
 
-1. **受理**：`WRK-002-world-model-method-and-tools` 由「待判定」转为**「已接受」**；运行主记录为 [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)，事件见其 `events.md` 的 EV-001 / EV-002。
+1. **受理**：`WRK-002-world-model-method-and-tools` 由「待判定」转为**「已接受」**；运行主记录为 [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)，事件见其 `events.md` 的 EV-001 / EV-002。
 2. **承接边界**：在限额内交付「世界模型构建方法工作版 + 配套工具」，在至少一个真实世界问题上有界检验，并完成交付 / 实际收件 / 验收或异议 / 反馈路由 / 结束回路。工具形态在 R1 澄清阶段按下游需求原文 §9「结构化和工具化只在重复使用确有价值后进行」界定。**不含**：替下游编写 `world/` 设定正文或 canon、替其关闭承载未知 `U-1`～`U-8`、承诺方法普遍有效、承诺工具被下游启用、建设 API / Web UI / 自动化派发或跨仓同步服务。
 3. **角色与授权**：需求方、授权人、接收与验收责任人均为用户（两仓维护人）；响应与运行记录为方法工程响应负责人。助手的每项代行须逐次授权并逐条标明，代行不构成独立团队共识，也不替代用户本人的价值判断。
 4. **愿景层**：落盘 `VP-003-world-model-method-and-tools`（`v0.1.0`），`status: active`，`vision_ref: method-engineering@0.1.0`，`lead_workspace` 为本区；追加 self Vision Review `VRev-006`（`pass`，`V-001`/`V-F-002` 两条 recommended，无 required）；刷新 `roadmap.md` 与 `reviews.md`。同轮将 `primary_workspace` 由 `workspace-002-consumer-response-protocol` 改为本区，并把 `workspace-002` 的 `vision_role` 改为 `delivery`（editorial，`VR-006`，Charter 版本仍为 `0.1.0`）。
