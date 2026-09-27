@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 4.6.0
+version: 4.7.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -59,3 +59,4 @@ doc: execution
 | E-044 | 2026-09-27 | 记录确认阶段反馈并派发案例结构的有界重组 | recorded | [E-044](02-execution/E-044-confirmation-stage-reorganization.md) |
 | E-045 | 2026-09-27 | 记录案例结构有界重组的产物（呈示 02）与三处待确认项 | recorded | [E-045](02-execution/E-045-reorganization-output.md) |
 | E-046 | 2026-09-27 | 定稿组织框架 v1 并派发 ①-b 的局部递归细化 | recorded | [E-046](02-execution/E-046-framework-v1-and-b-refinement.md) |
+| E-047 | 2026-09-27 | 记录 ①-b 的局部递归细化结果（含一处待创作者裁定的口径分叉） | recorded | [E-047](02-execution/E-047-b-refinement.md) |
