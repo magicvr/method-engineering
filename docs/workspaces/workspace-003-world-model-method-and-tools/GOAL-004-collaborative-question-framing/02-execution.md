@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 4.1.0
+version: 4.2.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -54,3 +54,4 @@ doc: execution
 | E-039 | 2026-09-27 | 落盘独立审计 A-001（verdict fail，三项 required 未闭合） | recorded | [E-039](02-execution/E-039-audit-A001-landed.md) |
 | E-040 | 2026-09-27 | 按 A-001 做最小闭合修正形成 v0.16（三项 required 全部 fixed） | recorded | [E-040](02-execution/E-040-v016-a001-closure.md) |
 | E-041 | 2026-09-27 | 门禁一致性最小修正形成 v0.16.1 并冻结启动 run-10 | recorded | [E-041](02-execution/E-041-v0161-freeze-run10.md) |
+| E-042 | 2026-09-27 | 记录探针一对 v0.16.1 的第十次阶段一试跑（continuation；首次达到可交接第三态） | recorded | [E-042](02-execution/E-042-probe01-v0161-run10.md) |

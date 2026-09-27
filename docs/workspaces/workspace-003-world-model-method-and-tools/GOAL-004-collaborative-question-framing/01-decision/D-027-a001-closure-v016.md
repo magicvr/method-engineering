@@ -50,7 +50,7 @@ doc: decision-entry
 
 ## 处置
 
-- 形成 [v0.16 候选](../attachments/stage1-framing-method-candidate-v0.16.md)：指纹 `sha256 CB9D4C227494C4ADA18227F1AEF2900C317F18DE12E411B85BA90FFDA6CFFC4C`（56,909 B，242 行）；**v0.15.1 原文保留不改写**。
+- 形成 [v0.16 候选](../attachments/stage1-framing-method-candidate-v0.16.md)：指纹 `sha256 CB9D4C227494C4ADA18227F1AEF2900C317F18DE12E411B85BA90FFDA6CFFC4C`（56,909 B，394 行）；**v0.15.1 原文保留不改写**。
 - **A-001 的 F-001／F-002／F-003 以 `fixed` 闭合**（证据＝本裁定 ＋ v0.16 的对应条款；`03-audit.md` 索引同步）。
 - **未改 v0.15.1、未开 run-10、未改目标 `status` / `progress`。**
 - **下一步（待创作者确认）**：以 **v0.16** 为基线，**以 continuation 恢复续跑（run-10）**，继承 [续跑状态冻结 01](../attachments/continuation-state-frozen-01.md) 的状态；run-10 同时是**新收束判据的首次试跑**（观察：是否产生**交接相关增量**、是否写出**残余遗漏登记**、是否把「构造不出」当充分性证明、读法写定后是否误当归零、问题集不唯一时是否先按规则 F 处理）。事实见 [E-040](../02-execution/E-040-v016-a001-closure.md)。
