@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 3.6.0
+version: 3.7.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -49,3 +49,4 @@ doc: execution
 | E-034 | 2026-09-27 | 采用通用攻击指令重写规则 G 并形成 v0.15 | recorded | [E-034](02-execution/E-034-v015-general-attack.md) |
 | E-035 | 2026-09-27 | 两处最小一致性修正形成 v0.15.1 并启动 run-08 | recorded | [E-035](02-execution/E-035-v0151-freeze-run08.md) |
 | E-036 | 2026-09-27 | 记录探针一对 v0.15.1 的第八次阶段一试跑（通用攻击指令生效；攻击未达停止条件，G.3 阻断交接） | recorded | [E-036](02-execution/E-036-probe01-v0151-run08.md) |
+| E-037 | 2026-09-27 | 按 run-08 判定整改 U-6 归属并以修正结构续跑 run-09 | recorded | [E-037](02-execution/E-037-run08-correction-run09.md) |
