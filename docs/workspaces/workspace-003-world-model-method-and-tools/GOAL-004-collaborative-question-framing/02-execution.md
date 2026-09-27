@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 3.3.0
+version: 3.4.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -46,3 +46,4 @@ doc: execution
 | E-031 | 2026-09-27 | 最小一致性修订形成 v0.13.1 并启动 run-07 | recorded | [E-031](02-execution/E-031-v0131-freeze-run07.md) |
 | E-032 | 2026-09-27 | 记录探针一对 v0.13.1 的第七次阶段一试跑（覆盖攻击 4 轮、3 个新维度；门禁待一次裁定） | recorded | [E-032](02-execution/E-032-probe01-v0131-run07.md) |
 | E-033 | 2026-09-27 | 按 run-07 判定收紧规则 G（正交搜索与候选差异清算）并形成 v0.14 | recorded | [E-033](02-execution/E-033-v014-rule-g-breadth.md) |
+| E-034 | 2026-09-27 | 采用通用攻击指令重写规则 G 并形成 v0.15 | recorded | [E-034](02-execution/E-034-v015-general-attack.md) |
