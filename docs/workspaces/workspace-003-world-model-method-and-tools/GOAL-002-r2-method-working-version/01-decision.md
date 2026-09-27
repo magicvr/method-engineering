@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-27
-version: 0.9.0
+version: 0.9.1
 ---
 
 # 决策记录 · GOAL-002
@@ -17,7 +17,7 @@ version: 0.9.0
 | 工作包 | 计划文件 / 落点 | 说明 |
 |--------|-----------------|------|
 | W1 | **已完成**（2026-09-26） | 条款映射与差异登记；产出 [`01-decision/D-004-w1-clause-mapping.md`](01-decision/D-004-w1-clause-mapping.md) |
-| W2 | **有界修订中**，由 [GOAL-004](../GOAL-004-collaborative-question-framing/00-meta.md) 承载 | 当前状态见 [D-015](01-decision/D-015-w2-bounded-reflow.md)；[v0.4](attachments/world-model-method-working-version-v0.4.md) / [A-008](03-audit/A-008-a007-closure-check.md) 保留为历史版本与闭审事实；升格路径仍待 I-203 裁决 |
+| W2 | **有界修订中**，GOAL-004 承载阶段一方法；当前顺序处理 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md) 共享研究设计切片 | 当前状态见 [D-015](01-decision/D-015-w2-bounded-reflow.md) 与 [D-016](01-decision/D-016-shared-research-loop-slice.md)；[v0.4](attachments/world-model-method-working-version-v0.4.md) / [A-008](03-audit/A-008-a007-closure-check.md) 保留为历史版本与闭审事实；GOAL-005 只产出 S1/S2 共享研究候选，不接入版本或自动放行 W2/W3；不与 GOAL-004 并行，不增设 W5 或进度分母；升格路径仍待 I-203 裁决 |
 | W3 | [GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 承载；建立依据 [D-014](01-decision/D-014-w3-subgoal-setup.md) 保留 | S1 两结构及字段映射草案已完成；S2 暂停，等待 GOAL-004 形成 W2 新版基线与影响交接；创作者逐字段可填性仍待核 |
 | W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
 
@@ -44,3 +44,4 @@ version: 0.9.0
 | D-013 | 2026-09-26 | 接受 A-008 闭审：冻结 W2（v0.4）并进入 W3 | accepted | `01-decision/D-013-a008-closure.md` |
 | D-014 | 2026-09-26 | 为 W3 建立统一承载子目标 | accepted | [D-014](01-decision/D-014-w3-subgoal-setup.md) |
 | D-015 | 2026-09-27 | 按真实方法探针有界回流 W2 | accepted | [D-015](01-decision/D-015-w2-bounded-reflow.md) |
+| D-016 | 2026-09-27 | 建立 W2 内共享研究闭环设计切片 GOAL-005 | accepted | [D-016](01-decision/D-016-shared-research-loop-slice.md) |

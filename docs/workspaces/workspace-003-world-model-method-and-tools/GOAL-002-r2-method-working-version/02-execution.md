@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-27
-version: 0.9.0
+version: 0.9.1
 ---
 
 # 执行记录 · GOAL-002
@@ -29,7 +29,8 @@ version: 0.9.0
 | E-013 | 2026-09-26 | 接受 A-008 闭审，冻结 W2（v0.4） | recorded | `02-execution/E-013-w2-freeze.md` |
 | E-014 | 2026-09-26 | 创建 W3 子目标治理上下文 | recorded | [E-014](02-execution/E-014-w3-subgoal-created.md) |
 | E-015 | 2026-09-27 | 登记 W2 回流及子目标依赖 | recorded | [E-015](02-execution/E-015-w2-reflow-registered.md) |
+| E-016 | 2026-09-27 | 建立共享研究闭环设计子目标并同步 W2 投影 | recorded | [E-016](02-execution/E-016-shared-research-loop-slice-created.md) |
 
 ## 事实边界
 
-W1 已完成；W2 按 D-015 有界回流，当前未完成，由 GOAL-004 承载。v0.4/A-008 的历史事实保留；开放 required audit finding 仍为 0，本次需求未登记为审计意见。W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。
+W1 已完成；W2 按 D-015 有界回流，当前未完成。GOAL-004 承载阶段一方法改进，其 Probe 1 与父层确认暂停；共享研究闭环设计由 GOAL-005 作为 W2 内当前顺序切片承载，未与 GOAL-004 并行，也未接入 S1/S2 版本。v0.4/A-008 的历史事实保留；开放 required audit finding 仍为 0，本次需求未登记为审计意见。GOAL-002 progress 保持 25%（W1～W4 四个工作包）；W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。
