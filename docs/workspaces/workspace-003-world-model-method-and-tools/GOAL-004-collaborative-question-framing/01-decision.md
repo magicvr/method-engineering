@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.2.0
+version: 2.3.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -34,3 +34,4 @@ doc: decision
 | D-019 | 2026-09-27 | 裁定 run-06 通过（运行行为与交接门禁），案例结构待创作者确认 | **部分作废**（见 D-020；「不另立 B1（精度）」子判断仍有效） | [D-019](01-decision/D-019-run06-verdict.md) |
 | D-020 | 2026-09-27 | 裁定 run-06 不通过（单轴坍缩）并新增规则 G 问题集充分性 | accepted | [D-020](01-decision/D-020-run06-fail-coverage-rule-g.md) |
 | D-021 | 2026-09-27 | 试跑前最小一致性修订（规则 D↔G 边界、规则 E↔G 接口）并冻结 v0.13.1 | accepted | [D-021](01-decision/D-021-v0131-boundary-freeze.md) |
+| D-022 | 2026-09-27 | 裁定 run-07 未通过（覆盖搜索近视）并收紧规则 G 的搜索广度与停止证据 | accepted | [D-022](01-decision/D-022-run07-fail-search-myopia.md) |
