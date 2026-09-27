@@ -4,8 +4,8 @@ doc: decision
 status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
-updated: 2026-09-26
-version: 0.7.0
+updated: 2026-09-27
+version: 0.9.0
 ---
 
 # 决策记录 · GOAL-002
@@ -17,8 +17,8 @@ version: 0.7.0
 | 工作包 | 计划文件 / 落点 | 说明 |
 |--------|-----------------|------|
 | W1 | **已完成**（2026-09-26） | 条款映射与差异登记；产出 [`01-decision/D-004-w1-clause-mapping.md`](01-decision/D-004-w1-clause-mapping.md) |
-| W2 | **已完成并冻结**（完成版本 `v0.4`；经 [`A-008`](03-audit/A-008-a007-closure-check.md) 闭审 `pass`） | 方法主文档落 [`attachments/world-model-method-working-version-v0.4.md`](attachments/world-model-method-working-version-v0.4.md)（`v0.1`～`v0.3` 保留）；升格路径待 `I-203` 裁决 |
-| W3 | [D-014](01-decision/D-014-w3-subgoal-setup.md)；[GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 已立项 | 两个结构、字段映射及核对证据统一落子目标，结构实施未开始 |
+| W2 | **有界修订中**，由 [GOAL-004](../GOAL-004-collaborative-question-framing/00-meta.md) 承载 | 当前状态见 [D-015](01-decision/D-015-w2-bounded-reflow.md)；[v0.4](attachments/world-model-method-working-version-v0.4.md) / [A-008](03-audit/A-008-a007-closure-check.md) 保留为历史版本与闭审事实；升格路径仍待 I-203 裁决 |
+| W3 | [GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 承载；建立依据 [D-014](01-decision/D-014-w3-subgoal-setup.md) 保留 | S1 两结构及字段映射草案已完成；S2 暂停，等待 GOAL-004 形成 W2 新版基线与影响交接；创作者逐字段可填性仍待核 |
 | W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
 
 ## 信息需求与阶段门禁
@@ -43,3 +43,4 @@ version: 0.7.0
 | D-012 | 2026-09-26 | 响应独立审 A-007：修订 D-008 关键项绝对句、出草稿 v0.4 | accepted | `01-decision/D-012-a007-response.md` |
 | D-013 | 2026-09-26 | 接受 A-008 闭审：冻结 W2（v0.4）并进入 W3 | accepted | `01-decision/D-013-a008-closure.md` |
 | D-014 | 2026-09-26 | 为 W3 建立统一承载子目标 | accepted | [D-014](01-decision/D-014-w3-subgoal-setup.md) |
+| D-015 | 2026-09-27 | 按真实方法探针有界回流 W2 | accepted | [D-015](01-decision/D-015-w2-bounded-reflow.md) |
