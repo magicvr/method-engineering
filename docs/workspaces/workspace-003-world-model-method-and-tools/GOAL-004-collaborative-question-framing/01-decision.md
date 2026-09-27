@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.7.0
+version: 2.8.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -39,3 +39,4 @@ doc: decision
 | D-024 | 2026-09-27 | 两处最小一致性修正形成 v0.15.1 并冻结为 run-08 基线 | accepted | [D-024](01-decision/D-024-v0151-precision-identity-freeze.md) |
 | D-025 | 2026-09-27 | 裁定 run-08：唯一阻断性执行错误为 U-6，按 B2＋B3 整改并以修正结构续跑 run-09 | accepted | [D-025](01-decision/D-025-run08-u6-correction-run09.md) |
 | D-026 | 2026-09-27 | 裁定 run-09 运行行为通过、暂不续跑，并启动「有界收束机制」独立方法审计 | accepted | [D-026](01-decision/D-026-run09-verdict-freeze-audit.md) |
+| D-027 | 2026-09-27 | 按 A-001 三项 required 做最小闭合修正（全部 fixed）并形成 v0.16 | accepted | [D-027](01-decision/D-027-a001-closure-v016.md) |
