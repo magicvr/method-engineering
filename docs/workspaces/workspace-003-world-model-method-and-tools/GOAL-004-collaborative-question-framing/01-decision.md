@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 3.2.0
+version: 3.3.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -44,3 +44,4 @@ doc: decision
 | D-029 | 2026-09-27 | 修正两处编排器缺陷：冻结状态的基线引用与记录中的文件行数 | accepted | [D-029](01-decision/D-029-frozen-state-and-line-count-fixes.md) |
 | D-030 | 2026-09-27 | 裁定 run-10 通过并进入确认阶段：呈示案例结构、把 U-2 改写为可并存的 AND 型覆盖维度 | accepted | [D-030](01-decision/D-030-run10-verdict-and-presentation.md) |
 | D-031 | 2026-09-27 | 确认阶段反馈：候选结构需重新组织（区分覆盖维度与横切条件），先做一次有界重组 | accepted | [D-031](01-decision/D-031-confirmation-stage-reorganization.md) |
+| D-032 | 2026-09-27 | 定稿组织框架并派发 ①-b 的局部递归细化（不重启全局覆盖搜索） | accepted | [D-032](01-decision/D-032-framework-v1-and-b-refinement.md) |
