@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.6.0
+version: 2.7.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -39,3 +39,4 @@ doc: execution
 | E-024 | 2026-09-27 | 修 M1／M2 形成 v0.11.1 并启动 run-05 | recorded | [E-024](02-execution/E-024-v0111-m1-m2-fixes.md) |
 | E-025 | 2026-09-27 | 记录探针一对 v0.11.1 的第五次阶段一试跑（发现规则 F／C 死循环） | recorded | [E-025](02-execution/E-025-probe01-v0111-run05.md) |
 | E-026 | 2026-09-27 | 按 run-05 判定重构规则 F 并形成 v0.12 | recorded | [E-026](02-execution/E-026-v012-rule-f-rebuild.md) |
+| E-027 | 2026-09-27 | 文本一致性小修形成 v0.12.1 并启动 run-06 | recorded | [E-027](02-execution/E-027-v0121-freeze-run06.md) |
