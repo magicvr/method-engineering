@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 3.1.0
+version: 3.2.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -43,3 +43,4 @@ doc: decision
 | D-028 | 2026-09-27 | 门禁一致性最小修正形成 v0.16.1 并冻结恢复续跑（run-10） | accepted | [D-028](01-decision/D-028-v0161-gate-sync-run10.md) |
 | D-029 | 2026-09-27 | 修正两处编排器缺陷：冻结状态的基线引用与记录中的文件行数 | accepted | [D-029](01-decision/D-029-frozen-state-and-line-count-fixes.md) |
 | D-030 | 2026-09-27 | 裁定 run-10 通过并进入确认阶段：呈示案例结构、把 U-2 改写为可并存的 AND 型覆盖维度 | accepted | [D-030](01-decision/D-030-run10-verdict-and-presentation.md) |
+| D-031 | 2026-09-27 | 确认阶段反馈：候选结构需重新组织（区分覆盖维度与横切条件），先做一次有界重组 | accepted | [D-031](01-decision/D-031-confirmation-stage-reorganization.md) |
