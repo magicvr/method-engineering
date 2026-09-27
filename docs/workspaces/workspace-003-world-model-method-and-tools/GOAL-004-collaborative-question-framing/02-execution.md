@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.3.0
+version: 2.4.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -36,3 +36,4 @@ doc: execution
 | E-021 | 2026-09-27 | 记录探针一对 v0.10 的第三次阶段一试跑 | recorded | [E-021](02-execution/E-021-probe01-v010-run03.md) |
 | E-022 | 2026-09-27 | 记录探针一对 v0.10.1 的第四次阶段一试跑 | recorded | [E-022](02-execution/E-022-probe01-v0101-run04.md) |
 | E-023 | 2026-09-27 | 按 run-04 判定引入变量分级并形成 v0.11 | recorded | [E-023](02-execution/E-023-v011-variable-grading.md) |
+| E-024 | 2026-09-27 | 修 M1／M2 形成 v0.11.1 并启动 run-05 | recorded | [E-024](02-execution/E-024-v0111-m1-m2-fixes.md) |
