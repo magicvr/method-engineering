@@ -32,4 +32,4 @@ doc: decision-entry
 ## 处置与边界
 
 - 本轮不新建子目标、不改目标 `status` / `progress`；不进入 W2；`I-401` 仍 `open`、`I-402` 仍 `collecting`。
-- run-04 的事实见 `E-022`（随后落盘）。
+- run-04 的事实见 [E-022](../02-execution/E-022-probe01-v0101-run04.md) 与其运行记录。
