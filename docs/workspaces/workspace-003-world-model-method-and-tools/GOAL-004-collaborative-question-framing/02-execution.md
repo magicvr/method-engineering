@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.7.0
+version: 1.9.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -30,3 +30,5 @@ doc: execution
 | E-015 | 2026-09-27 | 记录探针一对 v0.6 的同案例阶段一复测 | recorded | [E-015](02-execution/E-015-probe01-stage1-v06-test-result.md) |
 | E-016 | 2026-09-27 | 记录创作者对 v0.6 试跑的裁定与修订响应 | recorded | [E-016](02-execution/E-016-v06-run-failed-analysis-first.md) |
 | E-017 | 2026-09-27 | 按 elicitation 诊断改造操作定义并形成 v0.8 | recorded | [E-017](02-execution/E-017-cognitive-ops-anti-elicitation-revision.md) |
+| E-018 | 2026-09-27 | 试跑前形成 v0.9 基线（路由、诊断探索、命名） | recorded | [E-018](02-execution/E-018-prerun-revision-v09.md) |
+| E-019 | 2026-09-27 | 记录探针一对 v0.9 的第二次阶段一试跑 | recorded | [E-019](02-execution/E-019-probe01-v09-test-result.md) |

@@ -12,6 +12,8 @@ acceptance: unaccepted
 
 **draft / candidate / unaccepted；尚无经检验通过的方法证据，未交接 W2。** 本版修正 v0.7 未触及的**结构性问题**：认知操作本身被退化为 elicitation——未定项在图里只有「创作者给定」一条出路，操作又以动作完成而非结构产出为准，于是每次识别歧义都变成一次索要定义。诊断与三条对治规则见 [D-010](../01-decision/D-010-operations-must-produce-structure.md) / [E-017](../02-execution/E-017-cognitive-ops-anti-elicitation-revision.md)。v0.7、v0.6.1、v0.5 与既有运行记录保留为历史，不构成本版的验证证据。
 
+> **2026-09-27 后续（历史保留）**：本版方向经创作者通过（方法主体表现为「由认知困难触发、必须形成结构性分析产物、仅在不可约创作者取舍处回问」的操作系统，而非澄清问卷），并按试跑前三项小修形成 [v0.9](stage1-framing-method-candidate-v0.9.md)（[D-011](../01-decision/D-011-routing-and-bounded-exploration.md) / [E-018](../02-execution/E-018-prerun-revision-v09.md)）。本版原文保留不改写。
+
 ## 退化诊断（本版要修的东西）
 
 | 环节 | 机制 | 结果 |
