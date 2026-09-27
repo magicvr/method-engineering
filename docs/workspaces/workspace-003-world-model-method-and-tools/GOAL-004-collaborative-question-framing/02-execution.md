@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.8.0
+version: 2.9.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -41,3 +41,4 @@ doc: execution
 | E-026 | 2026-09-27 | 按 run-05 判定重构规则 F 并形成 v0.12 | recorded | [E-026](02-execution/E-026-v012-rule-f-rebuild.md) |
 | E-027 | 2026-09-27 | 文本一致性小修形成 v0.12.1 并启动 run-06 | recorded | [E-027](02-execution/E-027-v0121-freeze-run06.md) |
 | E-028 | 2026-09-27 | 记录探针一对 v0.12.1 的第六次阶段一试跑（交接门禁首次判定通过） | recorded | [E-028](02-execution/E-028-probe01-v0121-run06.md) |
+| E-029 | 2026-09-27 | 记录 run-06 判定与阶段一呈示待确认 | recorded | [E-029](02-execution/E-029-run06-verdict-present.md) |

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.9.0
+version: 2.0.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -31,3 +31,4 @@ doc: decision
 | D-016 | 2026-09-27 | 修 M1／M2 并形成 v0.11.1（run-05 固定基线） | accepted | [D-016](01-decision/D-016-m1-m2-fixes.md) |
 | D-017 | 2026-09-27 | 裁定 run-05 并据 B1／B2／B3 分流重构规则 F | accepted | [D-017](01-decision/D-017-rule-f-rebuild-b1b2b3.md) |
 | D-018 | 2026-09-27 | 文本一致性小修并冻结 v0.12.1（run-06 基线） | accepted | [D-018](01-decision/D-018-v0121-consistency-freeze.md) |
+| D-019 | 2026-09-27 | 裁定 run-06 通过（运行行为与交接门禁），案例结构待创作者确认 | accepted | [D-019](01-decision/D-019-run06-verdict.md) |
