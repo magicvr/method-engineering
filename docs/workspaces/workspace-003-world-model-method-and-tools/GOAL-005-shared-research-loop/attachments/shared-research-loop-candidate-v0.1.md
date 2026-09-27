@@ -5,12 +5,12 @@ created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-005-shared-research-loop
 version: 0.1.0
-acceptance: unaccepted
+acceptance: design-baseline-accepted
 ---
 
 # S1/S2 共享外部研究闭环 · 候选 v0.1
 
-> **状态：draft / unaccepted。** 这是供创作者审阅的最小方法候选，不是已接受规则、已验证流程或已经接入 S1/S2 的正式方法。目标仅设计共享研究子过程；与 v0.17.0、W2 v0.4 或未来 S2 的具体版本接入，另行裁决。
+> **状态：draft / design-baseline-accepted。** 创作者接受本候选作为 shared research core 的设计基线；它仍不是已接入 S1/S2 的正式方法，也未通过调用试跑验证。与 v0.17.0、W2 v0.4 或未来 S2 的具体版本接入，另行裁决。
 
 ## 1. 定位：按需调用的共享子过程
 

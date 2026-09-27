@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-27
-version: 0.26.2
+version: 0.26.6
 progress: 25%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -22,7 +22,7 @@ primary_plan: VP-003-world-model-method-and-tools
 ## 成功标准
 
 - [x] **W1** 条款映射与差异登记 **完成**（2026-09-26，[`D-004`](01-decision/D-004-w1-clause-mapping.md) / [`E-004`](02-execution/E-004-w1-clause-mapping.md)）：覆盖 §4～§11 与 §13；差异 `E1`～`E3`；需取舍/研究点登记为候选 `C1`～`C8`（信息项 `I-205`）。
-- [ ] **W2** 有界修订中，由 [GOAL-004](../GOAL-004-collaborative-question-framing/00-meta.md) 承载阶段一认知方法与交接结构（[D-005](../GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md)）：从不完整原问到明确可解单元及依赖；阶段二沿用能力发现、缺口判定与最小充分机制模型构建，一问题不等于一模型。v0.4/A-008 历史保留；当前完成投影仍撤回。冻结的 run-10 方法试跑基线为 v0.16.1，方法运行与第三态判定通过，但父层案例结构仍待确认，尚未交接 W2 答案求解或建模；v0.17.0 为包含局部递归细化的 draft/unaccepted 候选，未成为新试跑基线。新退出条件待证据形成。GOAL-004 的 Probe 1 与父层确认暂停期间，当前按顺序处理共享研究闭环设计切片 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md)；它不与 GOAL-004 并行，不增设 W5，不扩大进度分母，也不代表方法版本集成或 W2/W3 放行。
+- [ ] **W2** 有界修订中，由 [GOAL-004](../GOAL-004-collaborative-question-framing/00-meta.md) 承载阶段一认知方法与交接结构（[D-005](../GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md)）：从不完整原问到明确可解单元及依赖；阶段二沿用能力发现、缺口判定与最小充分机制模型构建，一问题不等于一模型。v0.4/A-008 历史保留；当前完成投影仍撤回。冻结的 run-10 方法试跑基线为 v0.16.1，方法运行与第三态判定通过，但父层案例结构仍待确认，尚未交接 W2 答案求解或建模；v0.17.0 为包含局部递归细化的 draft/unaccepted 候选，未成为新试跑基线。新退出条件待证据形成。GOAL-004 的 Probe 1 与父层确认暂停期间，当前按顺序处理共享研究闭环切片 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md)；它不与 GOAL-004 并行，不增设 W5，不扩大进度分母。GOAL-005 的 core 研究语义设计基线与接入方案边界/顺序基线已分别接受；四个 v0.1.0 组件候选已形成并通过独立复核，schema 与两个 adapter 待创作者审阅。该目标只规划未来接入边界，不修改方法版本或放行 W2/W3；未来 S1/S2 试跑共用同一冻结 core/schema，计划已记顺序、验证目标与证据接口。用户已按 D-018/D-003 裁决 shared components 集中置于 GOAL-005/attachments、各以 v0.1.0 作为候选修订标识，两个 host 各只增加窄调用/回流接口；S1/S2 host 正式版本号与具体插入点待可用基线确定，具体试跑规划待后续决定。
 - [ ] **W3 / W4** 均按其退出条件完成（见「纲领路线图」）。
 - [x] 方法主文档含 R1 冻结的九章结构（需求原文 §4～§11）与 §13 十项指导的可核对映射表；**每章写明适用条件、已知边界与未决事项**（10 章逐章三行，第 10 章为映射表）。
 - [x] **每章标明人机协作位**：判断点 / 助手可协助形式 / 不得越过的界线 / 留痕；且前言给出**建议与裁定分开的留痕要求**与〔默认设计〕标注约定（见「执行主体与协作约束」节）。
@@ -60,7 +60,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | 工作包 | 名称 | 状态 | 退出条件 |
 |--------|------|------|----------|
 | **W1** | 条款映射与差异登记 | **完成**（2026-09-26） | 已覆盖需求原文 §4～§11 与 §13：17 行条款级映射 + 附表 A（§9 十一项 → W3 字段候选）+ 附表 B（§13 十项 → W2 章节）；差异 `E1`～`E3`；需研究/需取舍点登记为候选 `C1`～`C8`（信息项 `I-205`，最晚 W2 冻结前裁定）。见 [`D-004`](01-decision/D-004-w1-clause-mapping.md) / [`E-004`](02-execution/E-004-w1-clause-mapping.md)。 |
-| **W2** | 两阶段方法主文档形成与有界修订 | 有界修订中（GOAL-004；当前顺序处理 GOAL-005 共享研究闭环设计切片） | 按子目标 [D-005](../GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md) 形成阶段一认知操作及可解单元/依赖输出，交接已有阶段二能力发现、状态/组合/精度/机制缺口判定和模型构建；冻结的 run-10 方法试跑基线为 v0.16.1，方法运行与第三态判定通过，但父层案例结构仍待确认，尚未交接 W2 答案求解或建模；v0.17.0 为 draft/unaccepted 候选，未成为新试跑基线。保留 v0.4/A-008 历史，新退出条件待证据形成。GOAL-005 只形成共享研究机制候选，不修改或接入 S1/S2 版本，完成后再单独决定接入；不与 GOAL-004 并行，不新增 W5，W2 仍按 4 个工作包计算。 |
+| **W2** | 两阶段方法主文档形成与有界修订 | 有界修订中（GOAL-004 暂停；当前顺序处理 GOAL-005 共享研究闭环切片） | 按子目标 [D-005](../GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md) 形成阶段一认知操作及可解单元/依赖输出，交接已有阶段二能力发现、状态/组合/精度/机制缺口判定和模型构建；冻结的 run-10 方法试跑基线为 v0.16.1，方法运行与第三态判定通过，但父层案例结构仍待确认，尚未交接 W2 答案求解或建模；v0.17.0 为 draft/unaccepted 候选，未成为新试跑基线。保留 v0.4/A-008 历史，新退出条件待证据形成。GOAL-005 负责 shared core 与双 adapter 候选、共同 schema 及版本化接入边界设计，不负责实际方法修改；未来两次独立试跑共用同一冻结 core/schema，计划已记顺序、验证目标与证据接口。shared components 集中落点和首个候选修订标识已由 D-018/D-003 裁决，S1/S2 host 各仅增加窄调用/回流接口；host 正式版本号及具体插入点待可用基线明确，core 设计基线与接入方案边界/顺序基线已接受，四个组件候选的独立复核通过，schema 与两个 adapter 待创作者审阅；本轮不选案例、不运行；不与 GOAL-004 并行，不新增 W5，W2 仍按 4 个工作包计算。 |
 | **W3** | 两个最小结构形成 | 子目标 S1 草案保留；S2 暂停，等待 GOAL-004 形成 W2 新版及交接；逐字段可填性待核 | 「能力缺口判定清单」（对 §10）与「模型条目最小结构」（对 §9）形成，可直接填写；每个字段能指回对应条款；**逐项通过创作者可填性核对**（字段不依赖任何程序输出；若借助助手填写，结构与留痕须能区分建议与裁定）；与 W2 正文无矛盾。证据落点：[GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 的 `attachments/` + D/E/A；承载决定见 [D-014](01-decision/D-014-w3-subgoal-setup.md)。 |
 | **W4** | 适用性核对（判据 = 真实问题） | 未开始 | 以真实问题为判据，按 W2 + W3 走一遍并留痕：问题拆解 → 缺口归类 → 定义裁决能力 → 模型条目草案 → 方法暴露的缺口清单；**核对按 `I-204` 裁决的协作安排执行**（裁决前，未经创作者裁定的核对结论不得作为本项证据）；暴露缺口已在 R2 内修正或登记为有界 residual 并写明影响；**并对照四种空转禁止形态逐条给出结论**。核对记录不得冒充 R4 交付证据或下游 canon。证据落点：本目标 D/E + `attachments/`。 |
 
@@ -149,4 +149,4 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 当前回流状态（2026-09-27）
 
-以上带日期的历史记录保留；当前状态以 [D-015](01-decision/D-015-w2-bounded-reflow.md) 与 [D-016](01-decision/D-016-shared-research-loop-slice.md) 为准：W2 有界修订中，GOAL-004 active 33%，其 Probe 1 与父层确认暂停；共享研究闭环设计由 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md) 按顺序承载，尚未接入 S1/S2。GOAL-003 S2 暂停、blocked 33%。GOAL-002 progress 仍为 25%（4 个工作包中的 W1 完成），未增设 W5；W2 v0.4/A-008 保留原文；本次没有新增正式 required audit finding。“世界有多大”为方法探针，原 W4 正式判据保留。
+以上带日期的历史记录保留；当前状态以 [D-015](01-decision/D-015-w2-bounded-reflow.md)、[D-016](01-decision/D-016-shared-research-loop-slice.md)、[D-017](01-decision/D-017-versioned-integration-plan-scope.md)、[D-018](01-decision/D-018-shared-component-boundary.md) 与 [D-019](01-decision/D-019-research-design-baselines.md) 为准：W2 有界修订中，GOAL-004 active 33%，其 Probe 1 与父层确认暂停；共享研究闭环由 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md) 按顺序承载。Core 设计基线和接入方案边界/顺序基线已接受；四个 v0.1.0 组件候选已形成并通过独立复核，schema 与两个 adapter 待创作者审阅，未修改或接入 S1/S2 方法。用户已裁决 shared components 集中置于 GOAL-005/attachments、各以 v0.1.0 作为首个候选修订标识、两个 host 各只增加窄调用/回流接口；host 正式版本号与插入点待可用基线确定。GOAL-003 S2 暂停、blocked 33%。GOAL-002 progress 仍为 25%（4 个工作包中的 W1 完成），未增设 W5；W2 v0.4/A-008 保留原文；本次没有新增正式 required audit finding。“世界有多大”为方法探针，原 W4 正式判据保留。
