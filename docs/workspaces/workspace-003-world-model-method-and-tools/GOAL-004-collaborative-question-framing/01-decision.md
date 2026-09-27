@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.0.0
+version: 1.1.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -22,3 +22,4 @@ doc: decision
 | D-007 | 2026-09-27 | 保留并存判断并先分析关系 | accepted | [D-007](01-decision/D-007-coexisting-judgments-and-relations.md) |
 | D-008 | 2026-09-27 | 明确两阶段通用方法与探针测试边界 | accepted | [D-008](01-decision/D-008-general-two-stage-method-and-probe-boundary.md) |
 | D-009 | 2026-09-27 | 按创作者试跑裁定收紧回问条件并禁止操作打卡 | accepted | [D-009](01-decision/D-009-analysis-first-and-non-checklist.md) |
+| D-010 | 2026-09-27 | 纠正认知操作退化为 elicitation 的结构性缺陷 | accepted | [D-010](01-decision/D-010-operations-must-produce-structure.md) |

@@ -12,6 +12,8 @@ acceptance: unaccepted
 
 **draft / candidate / unaccepted；尚无经检验通过的方法证据，未交接 W2。** 本版按创作者对 v0.6.0 第一例隔离试跑的判定修订（[D-009](../01-decision/D-009-analysis-first-and-non-checklist.md) / [E-016](../02-execution/E-016-v06-run-failed-analysis-first.md)）：该次运行（[运行 01](probe-01-stage1-test-v0.6-run-01.md)）**未通过**，失败机制为 **premature elicitation**——识别出语义开放性后未继续有界的候选解释、比较与结构发现，而是把定界任务交回创作者；另有八类操作被近似逐项打卡的观察。v0.6.1、v0.5 与既有探针记录保留为历史，不构成本版的验证证据；任何案例节点、关系或结论均不提升为通用结构。
 
+> **2026-09-27 后续（历史保留，本版已被取代）**：创作者指出本版未解决根本问题——**认知操作本身被退化成 elicitation（以「未定项」为终点、以提问完成动作）**；本版只收紧了回问门槛，未改变操作终点。据此形成 [v0.8](stage1-dynamic-relation-graph-candidate-v0.8.md)（[D-010](../01-decision/D-010-operations-must-produce-structure.md) / [E-017](../02-execution/E-017-cognitive-ops-anti-elicitation-revision.md)）。本版原文保留不改写。
+
 ## 方法对象与工作表示
 
 阶段一从创作者的原问和现有上下文出发，逐步辨认需要回答什么、为什么需要回答、哪些内容相互依赖以及哪里仍不确定。动态问题关系图是协助思考的工作表示：随理解变化而增删、改写、合并或撤销，服务于形成**足以启动阶段二求解的候选结构，交创作者确认**。它不保证问题一定可解，也不表示答案或模型已经存在。

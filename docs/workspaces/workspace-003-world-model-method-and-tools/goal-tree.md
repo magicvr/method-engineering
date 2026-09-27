@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-09-27
 parent: null
-version: 0.14.0
+version: 0.15.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -20,7 +20,7 @@ version: 0.14.0
 GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · progress 25%
 └── GOAL-002-r2-method-working-version [active] 形成《世界模型构建方法（工作版）》与两个最小结构 · progress 25%
     ├── GOAL-003-w3-minimal-structures [blocked] W3 · 两个最小结构形成 · progress 33%（S2 暂停）
-    └── GOAL-004-collaborative-question-framing [active] 阶段一协作定界认知方法与 W2 交接 · progress 33%（S1 完成；S2 进行中，候选 v0.7 待验）
+    └── GOAL-004-collaborative-question-framing [active] 阶段一协作定界认知方法与 W2 交接 · progress 33%（S1 完成；S2 进行中，候选 v0.8 待验）
 ```
 
 Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。R1 已完成（2026-09-26）：适用对象、退出形态、限额与责任、工具边界均已冻结（`D-002` / `E-003`）。**R2 进行中**，由子目标 `GOAL-002` 承载（工作包 W1～W4，**1/4**：仅 W1 完成；W2 有界回流，由 GOAL-004 承载，W3 S2 暂停）；R3 经复核无独立形成工作，待交付材料落定后确认；R4 未开始。Root 派生 `progress: 25%`（1/4）——R2 未完成，故不计完成。progress 不推导 `done`。
@@ -38,4 +38,4 @@ Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。R1 已完成（2026-
 | `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 25% | R1 完成；R2 进行中；R3 待交付材料确认；R4 未开始。Root 进度独立计算为 1/4。I-004 仍 open。 |
 | `GOAL-002-r2-method-working-version` | 形成《世界模型构建方法（工作版）》与两个最小结构 | `GOAL-001-world-model-method-and-tools` | active | 25% | W1 完成，W2 有界修订，W3 S2 暂停，W4 未开始（1/4）。[D-015](GOAL-002-r2-method-working-version/01-decision/D-015-w2-bounded-reflow.md) 撤回当前 W2 完成/冻结投影；v0.4/A-008 保留历史事实，开放 required audit finding 0。原 W4 正式判据不变；I-202/I-203/I-204 open。 |
 | `GOAL-003-w3-minimal-structures` | W3 · 两个最小结构形成 | `GOAL-002-r2-method-working-version` | blocked | 33% | S1 草案保留；S2 暂停，等待 GOAL-004 形成 W2 新版及影响交接；S3 未开始。I-301 open，真实问题“世界有多大”为方法探针；创作者逐字段可填性和填写负担仍待核。见 [D-004](GOAL-003-w3-minimal-structures/01-decision/D-004-real-method-probe-and-pause.md)。 |
-| `GOAL-004-collaborative-question-framing` | 阶段一协作定界认知方法与 W2 交接 | `GOAL-002-r2-method-working-version` | active | 33% | [D-005](GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md) 纠正方法层级，范围再按 [D-008](GOAL-004-collaborative-question-framing/01-decision/D-008-general-two-stage-method-and-probe-boundary.md) 明确：S1 完成；S2 当前为动态问题关系图候选 v0.7.0 draft/unaccepted，按创作者对 v0.6.0 试跑的判定修订：该次运行**未通过**（premature elicitation 与操作打卡）→ 先分析后回问、未定参数变量化、未触发操作如实标注（[D-009](GOAL-004-collaborative-question-framing/01-decision/D-009-analysis-first-and-non-checklist.md) / [E-016](GOAL-004-collaborative-question-framing/02-execution/E-016-v06-run-failed-analysis-first.md)）；尚无通过检验的方法证据、未交接 W2。第一例两次运行证据：v0.5 初次（[运行 01](GOAL-004-collaborative-question-framing/attachments/probe-01-stage1-test-v0.5-run-01.md)）与 v0.6 复测（[运行 01](GOAL-004-collaborative-question-framing/attachments/probe-01-stage1-test-v0.6-run-01.md)、[E-015](GOAL-004-collaborative-question-framing/02-execution/E-015-probe01-stage1-v06-test-result.md)）；第二个不同真实创作问题尚未选定，跨案例验证仍 collecting；没有回答原问、构建世界模型或图工具。案例结果不等于通用方法；I-401 open、I-402 collecting；S3 未开始。 |
+| `GOAL-004-collaborative-question-framing` | 阶段一协作定界认知方法与 W2 交接 | `GOAL-002-r2-method-working-version` | active | 33% | [D-005](GOAL-004-collaborative-question-framing/01-decision/D-005-stage1-method-level-correction.md) 纠正方法层级，范围再按 [D-008](GOAL-004-collaborative-question-framing/01-decision/D-008-general-two-stage-method-and-probe-boundary.md) 明确：S1 完成；S2 当前为动态问题关系图候选 v0.8.0 draft/unaccepted：v0.6.0 试跑经创作者判定**未通过**（premature elicitation、操作打卡 → [D-009](GOAL-004-collaborative-question-framing/01-decision/D-009-analysis-first-and-non-checklist.md) / [E-016](GOAL-004-collaborative-question-framing/02-execution/E-016-v06-run-failed-analysis-first.md)）；创作者进一步指出根本问题是**认知操作被退化成 elicitation**，故据 [D-010](GOAL-004-collaborative-question-framing/01-decision/D-010-operations-must-produce-structure.md) / [E-017](GOAL-004-collaborative-question-framing/02-execution/E-017-cognitive-ops-anti-elicitation-revision.md) 改造操作定义与产出规则（产出物规则、未定项四步次序、回问末位且携带分析、出口退回检查）；尚无通过检验的方法证据、未交接 W2。第一例两次运行证据：v0.5 初次（[运行 01](GOAL-004-collaborative-question-framing/attachments/probe-01-stage1-test-v0.5-run-01.md)）与 v0.6 复测（[运行 01](GOAL-004-collaborative-question-framing/attachments/probe-01-stage1-test-v0.6-run-01.md)、[E-015](GOAL-004-collaborative-question-framing/02-execution/E-015-probe01-stage1-v06-test-result.md)）；第二个不同真实创作问题尚未选定，跨案例验证仍 collecting；没有回答原问、构建世界模型或图工具。案例结果不等于通用方法；I-401 open、I-402 collecting；S3 未开始。 |
