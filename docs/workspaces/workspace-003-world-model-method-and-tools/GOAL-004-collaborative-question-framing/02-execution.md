@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.3.0
+version: 1.5.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -26,3 +26,5 @@ doc: execution
 | E-011 | 2026-09-27 | 记录并存判断修正及资料检索 | recorded | [E-011](02-execution/E-011-coexisting-judgments-and-research.md) |
 | E-012 | 2026-09-27 | 形成 v0.5 阶段一候选并启动第一例测试 | recorded | [E-012](02-execution/E-012-method-v05-and-probe-run-started.md) |
 | E-013 | 2026-09-27 | 记录探针一对 v0.5 阶段一候选的测试结果 | recorded | [E-013](02-execution/E-013-probe01-stage1-test-result.md) |
+| E-014 | 2026-09-27 | 形成动态问题关系图方法候选 v0.6 | recorded | [E-014](02-execution/E-014-dynamic-relation-graph-candidate.md) |
+| E-015 | 2026-09-27 | 记录探针一对 v0.6 的同案例阶段一复测 | recorded | [E-015](02-execution/E-015-probe01-stage1-v06-test-result.md) |
