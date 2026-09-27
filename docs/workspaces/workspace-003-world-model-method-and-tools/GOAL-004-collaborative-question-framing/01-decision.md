@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.7.0
+version: 1.8.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -29,3 +29,4 @@ doc: decision
 | D-014 | 2026-09-27 | 裁定 run-03 证据不采信并在 v0.10.1 上重跑 | accepted | [D-014](01-decision/D-014-run03-evidence-not-accepted.md) |
 | D-015 | 2026-09-27 | 裁定 run-04 不通过交接门禁并引入变量分级 | accepted | [D-015](01-decision/D-015-run04-gate-fail-variable-grading.md) |
 | D-016 | 2026-09-27 | 修 M1／M2 并形成 v0.11.1（run-05 固定基线） | accepted | [D-016](01-decision/D-016-m1-m2-fixes.md) |
+| D-017 | 2026-09-27 | 裁定 run-05 并据 B1／B2／B3 分流重构规则 F | accepted | [D-017](01-decision/D-017-rule-f-rebuild-b1b2b3.md) |
