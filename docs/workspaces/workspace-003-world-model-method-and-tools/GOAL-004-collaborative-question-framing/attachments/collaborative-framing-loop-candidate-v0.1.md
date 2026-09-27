@@ -4,9 +4,11 @@ status: draft
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 0.1.0
-acceptance: unaccepted
+version: 0.2.0
+acceptance: withdrawn
 ---
+
+> 历史候选已撤回（见 [D-005](../01-decision/D-005-stage1-method-level-correction.md)），不作为当前方法或探针方案依据。下方原文保留；其中原有候选状态陈述仅代表历史。
 
 # 世界模型协作定界闭环候选 v0.1
 
