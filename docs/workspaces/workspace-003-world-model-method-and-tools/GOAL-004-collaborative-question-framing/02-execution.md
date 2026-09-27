@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 4.8.0
+version: 5.3.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -61,3 +61,7 @@ doc: execution
 | E-046 | 2026-09-27 | 定稿组织框架 v1 并派发 ①-b 的局部递归细化 | recorded | [E-046](02-execution/E-046-framework-v1-and-b-refinement.md) |
 | E-047 | 2026-09-27 | 记录 ①-b 的局部递归细化结果（含一处待创作者裁定的口径分叉） | recorded | [E-047](02-execution/E-047-b-refinement.md) |
 | E-048 | 2026-09-27 | 记录方向暂停与可恢复状态冻结 | recorded | [E-048](02-execution/E-048-direction-paused.md) |
+| E-049 | 2026-09-27 | 形成 v0.17.0 局部递归细化候选并完成①-b第二层分析（Reviewer复核后更正为未达到 handoff-ready） | recorded | [E-049](02-execution/E-049-v017-semantic-zoom-b-refinement.md) |
+| E-050 | 2026-09-27 | 按 D-035 对①-b答案结构 B2 再运行一层局部阶段一方法（聚焦修订：档案纳入域、局部 G 收束与 HRO 候选；待创作者三态） | recorded | [E-050](02-execution/E-050-v017-b-refinement-03.md) |
+| E-051 | 2026-09-27 | 记录创作者确认①-b局部粒度；整体阶段一交接待确认 | recorded | [E-051](02-execution/E-051-local-b-granularity-confirmed.md) |
+| E-052 | 2026-09-27 | 形成父层候选呈示 03 并诊断①-a的 HRO 候选 | recorded | [E-052](02-execution/E-052-parent-presentation-03-and-spatial-hro.md) |
