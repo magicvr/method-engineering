@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.5.0
+version: 1.6.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -27,3 +27,4 @@ doc: decision
 | D-012 | 2026-09-27 | 以 run-02 为失败样本修正候选门槛、探索假定边界与层级区分 | accepted | [D-012](01-decision/D-012-run02-failure-three-fixes.md) |
 | D-013 | 2026-09-27 | 补回 v0.10 缺失的规则 C 并形成 v0.10.1 | accepted | [D-013](01-decision/D-013-v0101-rule-c-restored.md) |
 | D-014 | 2026-09-27 | 裁定 run-03 证据不采信并在 v0.10.1 上重跑 | accepted | [D-014](01-decision/D-014-run03-evidence-not-accepted.md) |
+| D-015 | 2026-09-27 | 裁定 run-04 不通过交接门禁并引入变量分级 | accepted | [D-015](01-decision/D-015-run04-gate-fail-variable-grading.md) |

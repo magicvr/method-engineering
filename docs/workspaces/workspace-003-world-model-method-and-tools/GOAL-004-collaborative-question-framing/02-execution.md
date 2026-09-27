@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 2.2.0
+version: 2.3.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -35,3 +35,4 @@ doc: execution
 | E-020 | 2026-09-27 | 按 run-02 失败判定修订三条结构性问题并形成 v0.10 | recorded | [E-020](02-execution/E-020-v010-structural-fixes.md) |
 | E-021 | 2026-09-27 | 记录探针一对 v0.10 的第三次阶段一试跑 | recorded | [E-021](02-execution/E-021-probe01-v010-run03.md) |
 | E-022 | 2026-09-27 | 记录探针一对 v0.10.1 的第四次阶段一试跑 | recorded | [E-022](02-execution/E-022-probe01-v0101-run04.md) |
+| E-023 | 2026-09-27 | 按 run-04 判定引入变量分级并形成 v0.11 | recorded | [E-023](02-execution/E-023-v011-variable-grading.md) |
