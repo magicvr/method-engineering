@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 3.8.0
+version: 3.9.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -51,3 +51,4 @@ doc: execution
 | E-036 | 2026-09-27 | 记录探针一对 v0.15.1 的第八次阶段一试跑（通用攻击指令生效；攻击未达停止条件，G.3 阻断交接） | recorded | [E-036](02-execution/E-036-probe01-v0151-run08.md) |
 | E-037 | 2026-09-27 | 按 run-08 判定整改 U-6 归属并以修正结构续跑 run-09 | recorded | [E-037](02-execution/E-037-run08-correction-run09.md) |
 | E-038 | 2026-09-27 | 记录探针一对 v0.15.1 的第九次阶段一试跑（continuation；新维度＋修复继承缺口；停止条件未满足） | recorded | [E-038](02-execution/E-038-probe01-v0151-run09.md) |
+| E-039 | 2026-09-27 | 落盘独立审计 A-001（verdict fail，三项 required 未闭合） | recorded | [E-039](02-execution/E-039-audit-A001-landed.md) |

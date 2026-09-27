@@ -54,3 +54,12 @@ run-09 新发现的**具体维度**与**案例结构**仍**只作为案例证据
 - **冻结续跑状态**：[续跑状态冻结 01](../attachments/continuation-state-frozen-01.md)（run-09 后的权威可继承状态；后续如需续跑，以其为输入）；
 - **启动独立审计**：按 `/audit` 流程派发**独立审计员**（`source: independent`），scope＝**阶段一方法候选 v0.15.1 规则 G 的停止与收束机制**；先答上述四个机制问题，**不设计补丁**；意见经编排器**代贴**至 `03-audit/A-001-*.md` 并更新 `03-audit.md` 索引。审计期间**不改方法正文、不开 run-10**。
 - 不新建子目标、不改目标 `status` / `progress`；未进入 S2。
+
+## 审计 provider（2026-09-27 补记）
+
+创作者指定本次独立审计**使用本地 grok build CLI、模型 `grok-4.7`、思考强度 `high`**。
+
+- 编排器最初按 `/audit` 流程派发的**同 provider 分会话独立审计**（隔离 subagent `c41152a5`）在创作者指定 provider 后**被中断**——**未产出任何意见**（无残留输出、未写盘、未改任何文件）。
+- 改由 **`grok-4.7`**（本地 `~/.grok/bin/grok.exe`，`--reasoning-effort high`，headless `--prompt-file`，`--disable-web-search`，cwd＝仓库根）执行**同一份审计输入**；其输出经编排器**代贴**至 `03-audit/A-001-*.md` 并更新 `03-audit.md` 索引，**保留 `source: independent`**、`auditor: grok-4.7（本地 grok build CLI，reasoning effort: high）`。
+- 审计期间仍**不改 v0.15.1**、**不开 run-10**；审计员的硬约束为**只读**（不得写盘、不得改状态、不得联网）。
+
