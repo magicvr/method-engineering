@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.2.0
+version: 1.3.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -24,3 +24,4 @@ doc: decision
 | D-009 | 2026-09-27 | 按创作者试跑裁定收紧回问条件并禁止操作打卡 | accepted | [D-009](01-decision/D-009-analysis-first-and-non-checklist.md) |
 | D-010 | 2026-09-27 | 纠正认知操作退化为 elicitation 的结构性缺陷 | accepted | [D-010](01-decision/D-010-operations-must-produce-structure.md) |
 | D-011 | 2026-09-27 | 按未定项性质路由主动分析并允许有界诊断性探索 | accepted | [D-011](01-decision/D-011-routing-and-bounded-exploration.md) |
+| D-012 | 2026-09-27 | 以 run-02 为失败样本修正候选门槛、探索假定边界与层级区分 | accepted | [D-012](01-decision/D-012-run02-failure-three-fixes.md) |

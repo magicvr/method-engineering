@@ -14,6 +14,8 @@ acceptance: unaccepted
 
 本版为第二次试跑的固定基线（跑前不再改动）。文件名不再沿用 `dynamic-relation-graph`，方法要求与 v0.8 保持连续，只是不再由图形命名。
 
+> **2026-09-27 后续（历史保留，本版试跑未通过）**：本版的第二次试跑（[运行 02](probe-01-stage1-test-v0.9-run-02.md)）经创作者判定**未通过**——premature elicitation 已实质改善（保留为局部正证据），但暴露三条结构性问题：候选过生成、诊断性探索越界、层级混合。据此形成 [v0.10](stage1-framing-method-candidate-v0.10.md)（[D-012](../01-decision/D-012-run02-failure-three-fixes.md) / [E-020](../02-execution/E-020-v010-structural-fixes.md)）。本版原文保留不改写。
+
 ## 为什么会有这一版（退化诊断，历史保留）
 
 | 环节 | 机制 | 结果 |

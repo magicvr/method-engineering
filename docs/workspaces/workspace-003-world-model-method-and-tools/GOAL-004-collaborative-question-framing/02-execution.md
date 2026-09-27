@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-27
 parent: GOAL-002-r2-method-working-version
-version: 1.9.0
+version: 2.0.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -32,3 +32,4 @@ doc: execution
 | E-017 | 2026-09-27 | 按 elicitation 诊断改造操作定义并形成 v0.8 | recorded | [E-017](02-execution/E-017-cognitive-ops-anti-elicitation-revision.md) |
 | E-018 | 2026-09-27 | 试跑前形成 v0.9 基线（路由、诊断探索、命名） | recorded | [E-018](02-execution/E-018-prerun-revision-v09.md) |
 | E-019 | 2026-09-27 | 记录探针一对 v0.9 的第二次阶段一试跑 | recorded | [E-019](02-execution/E-019-probe01-v09-test-result.md) |
+| E-020 | 2026-09-27 | 按 run-02 失败判定修订三条结构性问题并形成 v0.10 | recorded | [E-020](02-execution/E-020-v010-structural-fixes.md) |
