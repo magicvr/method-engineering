@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-27
-version: 0.26.0
+version: 0.26.1
 progress: 25%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -112,7 +112,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 工作体量与拆分：按 [D-014](01-decision/D-014-w3-subgoal-setup.md)，W3 由平铺子目标 [GOAL-003-w3-minimal-structures](../GOAL-003-w3-minimal-structures/00-meta.md) 统一承载两个结构及治理证据。其独立输入为 W2 v0.4，两个结构共同验收；W4 留本目标。父级检查点仍按原退出条件判定，子目标立项不计 W3 完成。
 
-2026-09-27 W3 S2 开始：用户选择当前两份 draft v0.1 作为**临时试填基线**（GOAL-003 [`D-002`](../GOAL-003-w3-minimal-structures/01-decision/D-002-s2-baseline-selection.md)）。子目标完成结构级预核 [`E-003`](../GOAL-003-w3-minimal-structures/02-execution/E-003-w3-s2-start-and-crosscheck.md)：字段覆盖、§12 边界、条件关键项/依赖式拒绝、challenge test 与建议/裁定留痕未发现明确冲突；这不是创作者可填性结论，布局未冻结。GOAL-003 S2 进行中、创作者逐字段核验待完成；GOAL-002 progress 仍 50%，Root 仍 25%，W3 未完成。
+2026-09-27 W3 S2 开始：用户选择当前两份 draft v0.1 作为**临时试填基线**（GOAL-003 [`D-002`](../GOAL-003-w3-minimal-structures/01-decision/D-002-s2-baseline-selection.md)）。子目标完成结构级预核 [`E-003`](../GOAL-003-w3-minimal-structures/02-execution/E-003-w3-s2-start-and-crosscheck.md)：字段覆盖、§12 边界、条件关键项/依赖式拒绝、challenge test 与建议/裁定留痕未发现明确冲突；这不是创作者可填性结论，布局未冻结。GOAL-003 S2 进行中、创作者逐字段核验待完成。**（历史快照）** 该条记录时 `GOAL-002 progress` 为 50%、Root 25%、W3 未完成；本目标当日稍后按 [D-015](01-decision/D-015-w2-bounded-reflow.md) 撤回 W2 完成投影，**现行 `progress` 为 25%**（1/4），见「派生进度展示」节。
 
 2026-09-26 约束修正：用户在 [`D-002`](01-decision/D-002-executor-boundary.md) 登记后指出其「助手只做非判断性工作 / 不得以 AI 为前提」的表述**过强**，正确口径为「**决策权属于创作者、不得代劳，但助手应尽可能协助（可充分给提示与引导）**」。本目标据 [`D-003`](01-decision/D-003-executor-boundary-revision.md) 修正约束、成功标准与 W2 / W3 / W4 退出条件；`D-002` 原文保留，其第 1 项后半、第 2 项与第 4 项 A 形态由 `D-003` 取代。事实见 [`E-003`](02-execution/E-003-executor-boundary-revision-recorded.md)。
 

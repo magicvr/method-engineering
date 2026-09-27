@@ -12,6 +12,8 @@ acceptance: unaccepted
 
 **draft / candidate / unaccepted；已有一例局部测试证据，尚无创作者纠正，未交接 W2。** 本版按本轮用户提出的图式重构方向形成，执行事实见 [E-014](../02-execution/E-014-dynamic-relation-graph-candidate.md)。[v0.5](stage1-cognitive-operations-candidate-v0.5.md) 与既有探针记录保留为历史，不构成本版的验证证据；任何案例节点、关系或结论均不提升为通用结构。
 
+> **2026-09-27 后续（历史保留）**：本版的第一例隔离运行（[运行 01](probe-01-stage1-test-v0.6-run-01.md)）经创作者判定**未通过**——失败机制为 premature elicitation，另有八类操作近似逐项打卡的观察。本版作为历史基线保留不动，当前审视对象为 [v0.7](stage1-dynamic-relation-graph-candidate-v0.7.md)（[D-009](../01-decision/D-009-analysis-first-and-non-checklist.md) / [E-016](../02-execution/E-016-v06-run-failed-analysis-first.md)）。
+
 ## 方法对象与工作表示
 
 阶段一从创作者的原问和现有上下文出发，逐步辨认需要回答什么、为什么需要回答、哪些内容相互依赖以及哪里仍不确定。动态问题关系图是协助思考的工作表示：随理解变化而增删、改写、合并或撤销，服务于形成**足以启动阶段二求解的候选结构，交创作者确认**。它不保证问题一定可解，也不表示答案或模型已经存在。

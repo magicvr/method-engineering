@@ -4,8 +4,8 @@ doc: audit
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-09-26
-version: 0.1.0
+updated: 2026-09-27
+version: 0.2.0
 ---
 
 # 审计记录 · GOAL-001
@@ -27,4 +27,4 @@ version: 0.1.0
 
 审计模式：开区、受理与纲领路线图登记为 `self`；R4 交付前的高影响门禁（`I-004`）尚未到达，到达时按用户指定的 provider 执行独立审计。
 
-**本目标自身的 `03-audit` 尚无条目、开放 required finding：0。** 但**子树不受此豁免**：R2 由子目标 [`GOAL-002`](../GOAL-002-r2-method-working-version/00-meta.md) 承载，该子目标已于 2026-09-26 先后收到独立审计 [`A-001`](../GOAL-002-r2-method-working-version/03-audit/A-001-d004-independent-review.md) 与独立复审 [`A-002`](../GOAL-002-r2-method-working-version/03-audit/A-002-d004-d005-rereview.md)（均 `source: independent`，均 verdict `conditional`）。当前子目标 **开放 required：2**（`A-002-F-001` + 待随之关闭的 `A-001-F-001`，二者由同一处 §6 修正一并闭合）；其中 `A-001-F-002`～`F-005` 已经独立复审确认 `fixed`。依 P-003 开放必改门禁，在子目标 findings 合法闭合前**不得把经修订的 `D-004` 冻结为 W2 输入、不得推进 W2 内容写作**；本条只作交叉提示，不复制其意见正文。
+**本目标自身的 `03-audit` 尚无条目、开放 required finding：0。** **子树不受此豁免**：R2 由子目标 [`GOAL-002`](../GOAL-002-r2-method-working-version/00-meta.md) 承载，该子目标已走完 A-001～A-008 三轮独立意见与闭审（A-001 / A-002、A-004～A-007 的 required 均已合法闭合，独立闭审 [`A-008`](../GOAL-002-r2-method-working-version/03-audit/A-008-a007-closure-check.md) `pass`）。**当前子树开放 required：0**（以子目标台账为准）。2026-09-26 曾按 `A-002` 记「开放 required：2」并据此设门禁，该投影已由 `A-003` 与 `A-008` 陆续闭合解除；上句历史陈述保留不改写。R4 交付前的高影响门禁仍由 `I-004` 约束。本条只作交叉提示，不复制子目标意见正文。
