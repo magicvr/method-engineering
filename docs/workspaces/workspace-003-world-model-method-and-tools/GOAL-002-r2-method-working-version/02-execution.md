@@ -4,8 +4,8 @@ doc: execution
 status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
-updated: 2026-09-27
-version: 0.9.6
+updated: 2026-09-28
+version: 0.9.11
 ---
 
 # 执行记录 · GOAL-002
@@ -34,7 +34,13 @@ version: 0.9.6
 | E-018 | 2026-09-27 | 复核接入计划并修正 adapter 调用图示 | recorded | [E-018](02-execution/E-018-integration-plan-review-fix.md) |
 | E-019 | 2026-09-27 | 登记集中共享落点与宿主最小接入边界裁决 | recorded | [E-019](02-execution/E-019-shared-component-boundary.md) |
 | E-020 | 2026-09-27 | 记录设计基线接受及四份组件候选形成 | recorded | [E-020](02-execution/E-020-research-design-baselines-and-components.md) |
+| E-021 | 2026-09-27 | 记录 schema 与两个 adapter 组件设计基线接受 | recorded | [E-021](02-execution/E-021-research-components-accepted.md) |
+| E-022 | 2026-09-27 | 记录 S1 设计参照选择与独立调用试跑方案草拟 | recorded | [E-022](02-execution/E-022-s1-trial-design.md) |
+| E-023 | 2026-09-27 | 记录 S1 试跑设计获接受并授权 host 集成候选 | recorded | [E-023](02-execution/E-023-s1-trial-design-accepted.md) |
+| E-024 | 2026-09-27 | 记录 S1 窄 host 集成候选形成并通过只读复核 | recorded | [E-024](02-execution/E-024-s1-host-candidate-review.md) |
+| E-025 | 2026-09-27 | 记录 S1 research-loop 集成候选 v0.16.2 形成与复核 | recorded | [E-025](02-execution/E-025-s1-host-v0162-integration-review.md) |
+| E-026 | 2026-09-28 | 记录接受 S1 host 基线并准备试跑绑定包 | recorded | [E-026](02-execution/E-026-s1-host-baseline-and-trial-binding.md) |
 
 ## 事实边界
 
-W1 已完成；W2 按 D-015 有界回流，当前未完成。GOAL-004 承载阶段一方法改进，其 Probe 1 与父层确认暂停；GOAL-005 作为 W2 内当前顺序切片，core 设计基线和接入方案边界/顺序基线已由创作者分别接受，计划经内部独立只读复核、修正调用图示并按 D-018/D-003 裁决集中共享落点、候选修订标识和宿主最小接入范围；四份 shared component v0.1.0 候选已形成并通过独立复核，schema 与两份 adapter 待创作者审阅。未与 GOAL-004 并行，也未接入 S1/S2 方法版本。S1/S2 host 正式版本号及具体插入点待可用基线确定；未来试跑尚未选案例或执行。v0.4/A-008 的历史事实保留；开放 required audit finding 仍为 0，本次需求未登记为审计意见。GOAL-002 progress 保持 25%（W1～W4 四个工作包）；W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。
+W1 已完成；W2 按 D-015 有界回流，当前未完成。GOAL-004 承载阶段一方法改进，其 Probe 1 与父层确认暂停；GOAL-005 作为 W2 内当前顺序切片，core、接入方案边界/顺序、schema 与两个 adapter 组件设计基线均已由创作者接受，四份 v0.1.0 候选均经独立复核。S1 设计参照 v0.16.1 和经纯度修正的试跑设计 v0.1 已接受；完整 S1 host v0.16.2 已通过 Reviewer 复核并由创作者接受为本轮试跑基线，绑定包已固定身份与边界。没有与 GOAL-004 Probe 1 或父层确认并行；冻结的 v0.16.1、v0.17.0 与共享组件未修改。没有运行研究或试跑，实际调用仍须另行授权。v0.4/A-008 的历史事实保留；开放 required audit finding 仍为 0，本次需求未登记为审计意见。GOAL-002 progress 保持 25%（W1～W4 四个工作包）；W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。

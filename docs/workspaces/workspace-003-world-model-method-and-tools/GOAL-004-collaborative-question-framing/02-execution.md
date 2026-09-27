@@ -2,9 +2,9 @@
 title: 执行记录 · GOAL-004
 status: active
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.3.0
+version: 5.5.0
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -65,3 +65,5 @@ doc: execution
 | E-050 | 2026-09-27 | 按 D-035 对①-b答案结构 B2 再运行一层局部阶段一方法（聚焦修订：档案纳入域、局部 G 收束与 HRO 候选；待创作者三态） | recorded | [E-050](02-execution/E-050-v017-b-refinement-03.md) |
 | E-051 | 2026-09-27 | 记录创作者确认①-b局部粒度；整体阶段一交接待确认 | recorded | [E-051](02-execution/E-051-local-b-granularity-confirmed.md) |
 | E-052 | 2026-09-27 | 形成父层候选呈示 03 并诊断①-a的 HRO 候选 | recorded | [E-052](02-execution/E-052-parent-presentation-03-and-spatial-hro.md) |
+| E-053 | 2026-09-27 | 形成并复核 S1 research-loop 集成候选 v0.16.2 | recorded | [E-053](02-execution/E-053-s1-research-loop-host-v0162-review.md) |
+| E-054 | 2026-09-28 | 记录 v0.16.2 被接受为 S1 research-loop 试跑 host 基线 | recorded | [E-054](02-execution/E-054-s1-host-baseline-accepted.md) |

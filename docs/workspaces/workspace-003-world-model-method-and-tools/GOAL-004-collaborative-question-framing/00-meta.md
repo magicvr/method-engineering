@@ -2,9 +2,9 @@
 title: 阶段一协作定界认知方法与 W2 交接
 status: active
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.50.0
+version: 0.52.1
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。当前新增方法候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)（`draft/unaccepted`，未冻结、未验证通过）；它只补「局部递归细化／semantic zoom」，不改写 run-10 第三态。阶段一的现行形态：
+**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。局部递归细化／semantic zoom 候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)（`draft/unaccepted`，未冻结、未验证通过）；它只补「局部递归细化／semantic zoom」，不改写 run-10 第三态。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -32,6 +32,8 @@ primary_plan: VP-003-world-model-method-and-tools
 阶段二从确认结构逆向识别模型依赖属于后续研究，本轮不设计。
 
 阶段一围绕可修订的问题关系结构执行按需、可往返的认知操作：从原问和上下文发现需要澄清或回答的内容，按需展开、拆分/合并、辨认关系、剪枝并挑战覆盖。节点与关系称谓保持开放，不规定固定顺序或问题分类；同时辨认创作者意图、客观待答内容、助手推断与证据来源，不混淆答案支持判断的关系和求解依赖。收束为足以启动 W2 求解、待创作者确认的候选结构。
+
+**S1 research-loop 集成 host**：[v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md) 以冻结的 v0.16.1 为唯一基线，仅增加一处研究调用／回流接口；经 Reviewer 复核 ACCEPT 后，创作者已接受为本轮试跑 host 基线（[D-038](01-decision/D-038-accept-s1-research-host-v0162.md)）。方法仍为 draft、未验证且未试跑，实际调用仍须另行授权。GOAL-004 Probe 1、run-10 与父层案例结论均未因此重开或修改。
 
 **局部递归细化（v0.17.0 候选）**：以阶段二 handoff-ready 为粒度终点，不要求原子；AI 判断并举证节点是否仍是问题族、生成比较攻击候选子结构，创作者只作保持／继续展开／否定三态。继续展开时以该节点为局部原问复用现有阶段一方法，允许局部深度不一；沿用局部 G.1.3 原判据与向上冒泡纪律，不自动重开全局 coverage search。
 
@@ -57,7 +59,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## S2 当前依据与两阶段关系
 
-**当前供审视的方法候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)，draft/unaccepted；其冻结的 run-10 前序基线为 [v0.16.1](attachments/stage1-framing-method-candidate-v0.16.1.md)。**以下修订链保留为历史记录。
+**semantic zoom 方法候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)，draft/unaccepted；其冻结的 run-10 前序基线为 [v0.16.1](attachments/stage1-framing-method-candidate-v0.16.1.md)。S1 research-loop 集成另有从 v0.16.1 派生的 [v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md)，创作者已按 [D-038](01-decision/D-038-accept-s1-research-host-v0162.md) 接受其作为本轮试跑 host 基线；它不含 semantic zoom，仍为 draft、未验证且未试跑。以下修订链保留为历史记录。
 
 早期阶段曾供审视的候选版本为 [阶段一协作定界方法候选 v0.12.1](attachments/stage1-framing-method-candidate-v0.12.1.md)，**draft/unaccepted，尚无通过检验的方法证据、未交接 W2**。修订链：第一例 v0.6.0 运行经创作者判定**未通过**（premature elicitation 与八类操作近似逐项打卡；[E-016](02-execution/E-016-v06-run-failed-analysis-first.md)）→ [D-009](01-decision/D-009-analysis-first-and-non-checklist.md) 六项要求与 v0.7 的门禁收紧 → 创作者指出根本问题是**认知操作本身退化成 elicitation** → [D-010](01-decision/D-010-operations-must-produce-structure.md) 与 v0.8（产出物规则、未定项处理次序、回问末位、出口退回检查）→ 创作者通过 v0.8 方向并允许第二次试跑，同时给出三项试跑前小修 → [D-011](01-decision/D-011-routing-and-bounded-exploration.md) 与 v0.9：**按未定项性质路由主动分析**（N1～N5，只做该性质需要的动作，禁止制造虚假候选）、**有界诊断性探索**（判断解释/依赖/边界，不升级为模型或答案）、**弱化表示命名**（方法身份是操作与产物，不要求建图）。v0.9 为第二次试跑的固定基线。
 

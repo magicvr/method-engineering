@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-27
-version: 0.1.0
+version: 0.3.1
 ---
 
 # 审计 · GOAL-005
@@ -24,4 +24,4 @@ version: 0.1.0
 
 ## 结论状态
 
-尚未到达审计节点。共享研究闭环候选为 `draft / unaccepted`；未声称经过方法验证、版本集成或独立审计。
+尚未到达正式审计节点。共享 core/schema/adapters 与 S1 调用试跑设计基线已由创作者接受（D-004/D-006/D-008）；窄 S1 host 集成候选已通过只读独立复核（E-010），但仍待创作者裁决，不构成正式集成或试跑证据。本文件不将设计接受或候选复核记为目标级审计或方法验证结论。
