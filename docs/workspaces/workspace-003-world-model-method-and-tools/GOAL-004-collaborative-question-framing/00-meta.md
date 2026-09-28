@@ -1,10 +1,10 @@
----
+﻿---
 title: 阶段一协作定界认知方法与 W2 交接
 status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.6
+version: 0.52.7
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -33,7 +33,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 阶段一围绕可修订的问题关系结构执行按需、可往返的认知操作：从原问和上下文发现需要澄清或回答的内容，按需展开、拆分/合并、辨认关系、剪枝并挑战覆盖。节点与关系称谓保持开放，不规定固定顺序或问题分类；同时辨认创作者意图、客观待答内容、助手推断与证据来源，不混淆答案支持判断的关系和求解依赖。收束为足以启动 W2 求解、待创作者确认的候选结构。
 
-**S1 research-loop 集成 host**：[v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md) 以冻结的 v0.16.1 为唯一基线，仅增加一处研究调用／回流接口；经 Reviewer 复核 ACCEPT 后，创作者已接受为 run-01 host 基线（[D-038](01-decision/D-038-accept-s1-research-host-v0162.md)）。其后创作者按 GOAL-005 [D-011](../GOAL-005-shared-research-loop/01-decision/D-011-s1-trial-execution-authorized.md) 授权的一次有界调用已完成，执行与结果见 GOAL-005 [E-014](../GOAL-005-shared-research-loop/02-execution/E-014-s1-independent-call-trial-run-01.md) / [run-01](../GOAL-005-shared-research-loop/attachments/s1-independent-call-trial-run-01.md)。创作者按 GOAL-005 [D-012](../GOAL-005-shared-research-loop/01-decision/D-012-run01-sample-accepted-e-f-review-pending.md) 接受该调用为有效试跑样本及 Core outcome，但未整体接受 E/F/G 回流。GOAL-005 A-001 对 Rule E 准入/目标事实边界给出 conditional 意见；F-001 已按 GOAL-005 D-014 以 fixed 路径关闭（独立复核 A-002）；创作者按 GOAL-005 [D-013](../GOAL-005-shared-research-loop/01-decision/D-013-rule-e-research-relevance-clarification-authorized.md) 授权形成独立候选 S1 adapter v0.1.1 与 host v0.16.3。v0.16.2、run-01 与 v0.17.0 保持不变，新候选在独立复核与创作者接受前不成为基线；未授权新的 research call 或盲试。该单次调用不重开 GOAL-004 Probe 1、run-10 或父层案例结论。
+**S1 research-loop 集成 host**：[v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md) 以冻结的 v0.16.1 为唯一基线，仅增加一处研究调用／回流接口；经 Reviewer 复核 ACCEPT 后，创作者已接受为 run-01 host 基线（[D-038](01-decision/D-038-accept-s1-research-host-v0162.md)）。其后创作者按 GOAL-005 [D-011](../GOAL-005-shared-research-loop/01-decision/D-011-s1-trial-execution-authorized.md) 授权的一次有界调用已完成，执行与结果见 GOAL-005 [E-014](../GOAL-005-shared-research-loop/02-execution/E-014-s1-independent-call-trial-run-01.md) / [run-01](../GOAL-005-shared-research-loop/attachments/s1-independent-call-trial-run-01.md)。创作者按 GOAL-005 [D-012](../GOAL-005-shared-research-loop/01-decision/D-012-run01-sample-accepted-e-f-review-pending.md) 接受该调用为有效试跑样本及 Core outcome，但未整体接受 E/F/G 回流。GOAL-005 A-001 对 Rule E 准入/目标事实边界给出 conditional 意见；F-001 已按 GOAL-005 D-014 以 fixed 路径关闭（独立复核 A-002）；创作者按 GOAL-005 [D-013](../GOAL-005-shared-research-loop/01-decision/D-013-rule-e-research-relevance-clarification-authorized.md) 授权形成独立候选 S1 adapter v0.1.1 与 host v0.16.3。v0.16.2、run-01 与 v0.17.0 保持不变，新候选在独立复核与创作者接受前不成为基线；按 GOAL-005 D-015，创作者另行授权并已完成一次独立 run-02 research-loop 试跑（GOAL-005 E-019 / run-02），此调用仅测试新上下文中的有界研究行为；v0.16.3 与 adapter v0.1.1 仍未获通用基线接受。该调用不重开 GOAL-004 Probe 1、run-10 或父层案例结论。
 
 **局部递归细化（v0.17.0 候选）**：以阶段二 handoff-ready 为粒度终点，不要求原子；AI 判断并举证节点是否仍是问题族、生成比较攻击候选子结构，创作者只作保持／继续展开／否定三态。继续展开时以该节点为局部原问复用现有阶段一方法，允许局部深度不一；沿用局部 G.1.3 原判据与向上冒泡纪律，不自动重开全局 coverage search。
 

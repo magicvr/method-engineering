@@ -1,16 +1,16 @@
 ---
 title: S1 research-loop 独立调用后续试跑设计
-status: draft
+status: accepted
 created: 2026-09-28
 updated: 2026-09-28
 parent: GOAL-005-shared-research-loop
 version: 0.2.0
-acceptance: unaccepted
+acceptance: accepted-for-run-02
 ---
 
 # S1 Research-Loop 独立调用后续试跑设计 · v0.2
 
-> **状态：draft / unaccepted / not trialled。** 这是在已接受的 v0.1 设计与 run-01 之后提出的单次后续试跑方案；不替换或改写两项既有记录，不授权研究调用。
+> **状态：创作者已接受为 run-02 的单次执行设计；截至本记录更新时尚未试跑。** 本方案不替换或改写 v0.1 设计与 run-01，也不构成普遍方法验证。
 
 ## 1. 目的与证据边界
 
@@ -22,19 +22,19 @@ acceptance: unaccepted
 
 拟用的 S1 特定修正组合为：
 
-| 组件 | 拟用修订 | 当前状态 | 运行前条件 |
+| 组件 | 本次修订 | 接受范围 | 执行绑定 |
 |---|---|---|---|
-| S1 host | [GOAL-004 v0.16.3](../../GOAL-004-collaborative-question-framing/attachments/stage1-framing-method-candidate-v0.16.3.md) | draft / unaccepted | 创作者另行接受为本次 host 基线 |
-| S1 adapter | [v0.1.1](s1-research-adapter-v0.1.1.md) | draft / unaccepted | 创作者另行接受为本次 adapter 修订 |
+| S1 host | [GOAL-004 v0.16.3](../../GOAL-004-collaborative-question-framing/attachments/stage1-framing-method-candidate-v0.16.3.md) | 创作者接受为 run-02 的 host 修订 | 仅适用于 D-015 绑定的一次调用，不替换 v0.16.2 通用基线 |
+| S1 adapter | [v0.1.1](s1-research-adapter-v0.1.1.md) | 创作者接受为 run-02 的 S1 adapter 修订 | 仅适用于 D-015 绑定的一次调用，不取代组件 v0.1.0 基线 |
 | Shared Research Core | [v0.1.0](shared-research-loop-core-v0.1.0.md) | 已接受设计基线 | 保持原文件与语义不变 |
 | Shared Research Record Schema | [v0.1.0](shared-research-record-schema-v0.1.0.md) | 已接受设计基线 | 保持原文件与字段不变 |
 | S2 adapter | [v0.1.0](s2-research-adapter-v0.1.0.md) | 已接受设计基线 | 本轮不调用、不修改 |
 
 已接受的 S1 adapter v0.1.0 与 host v0.16.2、原试跑设计 v0.1、绑定包 v0.1.0 和 run-01 全部保持原样。S1 host v0.16.3 / adapter v0.1.1 只作为拟用的后续修订，不因本设计而自动成为实际基线。若创作者选择继续使用已接受的 v0.16.2 / v0.1.0 栈，本设计须先修订其 Rule E 观察范围，再提交接受；不能把两组版本混称为同一栈。
 
-本次沿用创作者已接受的 S1 host v0.16.2 作为后续候选的派生基线。为检验 A-001/F-001 的修正，run-02 设计暂以其后继 host v0.16.3 与 adapter v0.1.1 为拟用执行栈；在两份版本另行获创作者接受前，run-02 的可执行 host/adapter 基线仍未定。
+本次沿用创作者已接受的 S1 host v0.16.2 作为派生基线；按 D-015，host v0.16.3 与 adapter v0.1.1 被接受为 run-02 的一次性执行修订。该接受不改变两份文件的候选属性，也不把它们提升为一般 S1 方法/组件基线。
 
-四元身份、SHA-256、案例/研究问题、来源策略、预算及执行者隔离方式，须在单独绑定记录中按 schema 记录。拟用修订未获创作者接受前，不得生成已绑定或已执行记录。
+四元身份、SHA-256、案例/研究问题、来源策略、预算及执行者隔离方式在单独绑定记录中按 schema 记录。试跑结果仅提供一份行为样本。
 
 ## 3. 盲测案例候选
 
@@ -68,12 +68,10 @@ acceptance: unaccepted
 
 达到本轮用途标准且无未处理高影响冲突时停止回流；上限耗尽仍不足则记为 `partial/insufficient`、`conflicting` 或适用的 Core 结局，并登记 residual。不得扩成开放式 coverage search、第二次调用、S2 试跑或 GOAL-004 案例复查。
 
-## 6. 接受与执行门禁
+## 6. 接受与执行边界
 
-本文件仅为候选设计，不接受 host/adapter 版本、不绑定案例、不授权调用。运行前还须由创作者书面确认：
+创作者于 D-015 接受本设计的职责边界、接口语义、合成案例、隔离要求、来源策略、工作预算及评估标准，并接受 v0.16.3 / v0.1.1 仅作为本次运行的 S1 host/adapter 修订；Core、Schema、S1/S2 adapter v0.1.0 组件基线保持不变。该裁决同时绑定案例与组件身份，并授权执行一次 run-02 调用。
 
-1. 是否接受 v0.16.3 / v0.1.1 为这次运行的 S1 host/adapter 修订；Core、Schema 与 S2 adapter v0.1.0 保持不变；
-2. 是否接受 §3 合成问题、隔离执行要求、来源/预算边界与评估标准；
-3. 是否另行授权一次 run-02 调用，以及是否接受执行者通过其隔离方式满足“盲态”声明。
+授权范围仅为 §3 单一合成案例的一次 S1 research-loop 调用：最多 5 个定向查询变体、最多查看 6 份来源、查看 3 份来源后检查是否继续，计划总量 45 分钟。执行者须在隔离会话中只获得案例卡与指定方法组件，不得查看 run-01、审计意见、过往查询/来源或已知机制提示；若不能满足隔离条件，结果须降格为“去提示试跑”，并如实说明。
 
-以上裁决未完成前，既有组件/host 文件保持不变，状态仍为未接受设计、无新调用授权。
+不授权第二次调用、S2 试跑、Probe 1 或父层结构确认、开放式 coverage search，也不授权修改 Core、Schema 或任何已接受的 v0.1.0 组件文件。run-01 及原 host v0.16.2 基线保持原样。
