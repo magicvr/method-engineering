@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.10
+version: 5.5.11
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -76,3 +76,4 @@ doc: execution
 | E-061 | 2026-09-28 | 记录创作者接受阶段一呈示 03 父层结构 | recorded | [E-061](02-execution/E-061-record-parent-presentation-03-accepted.md) |
 | E-062 | 2026-09-28 | 补齐 S-1～S-4 的 F.2 “S1 不能回答原因”；父层 Rule G 收束检查待执行 | recorded | [E-062](02-execution/E-062-s1-handoff-f2-supplement.md) |
 | E-063 | 2026-09-28 | 完成 presentation-03 范围的 Rule G 收束与 S1 handoff 合同预检；实际 S2 待单独授权 | recorded | [E-063](02-execution/E-063-s1-handoff-preflight-g-closure.md) |
+| E-064 | 2026-09-28 | 澄清冻结合同 v0.1.1 中案例状态句为冻结时点快照；后续 D/E 状态已更新 | recorded | [E-064](02-execution/E-064-clarify-frozen-contract-case-snapshot.md) |

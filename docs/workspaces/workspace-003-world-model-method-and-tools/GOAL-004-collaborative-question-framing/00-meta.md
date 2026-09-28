@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.14
+version: 0.52.15
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -155,3 +155,7 @@ S-1～S-4 的 F.2“ S1 不能回答原因”已补入 [S1 交接预检补证 01
 ### 2026-09-28 · 当前状态补记（E-063）
 
 在 presentation-03 已确认范围上，按合同规范基线 v0.16.1 完成 Rule G 收束攻击与剩余候选清算，四项收束判据均有证据；S-1～S-4 F.2 原因补证及 R-1～R-3 owner／依赖／不阻断理由／回流 trigger 已整理在 [S1 交接预检补证 01](attachments/s1-handoff-preflight-01.md)。该范围的 S1 handoff package 通过冻结合同 v0.1.1 的 S1 侧预检；具体结构尚未实际交给 W2，S2 未启动，仍待创作者单独授权。R-1／R-2／R-3 保持 residual；I-401 open、I-402 collecting；v0.17.0 draft/unaccepted；GOAL status/progress 不变。详见 [E-063](02-execution/E-063-s1-handoff-preflight-g-closure.md)。
+
+### 2026-09-28 · 当前状态补记（E-064）
+
+冻结合同 v0.1.1 §1 中“父层与①-a仍待确认”是冻结时点的案例状态快照，随后已被 D-042／E-061 的创作者确认与 E-063 的范围预检状态取代；不得再把该句当作当前案例事实。后续引用合同仅依其有效规范规则，①-b／B3-b-01 随整体结构交接且不得单独交给 S2。合同原文保持冻结、不发 v0.1.2；当前案例状态说明见 [presentation-03 §7](attachments/case-structure-presentation-03.md) 与 [E-064](02-execution/E-064-clarify-frozen-contract-case-snapshot.md)。

@@ -4,7 +4,7 @@ status: accepted
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.1.2
+version: 0.1.3
 acceptance: accepted-by-creator
 ---
 
@@ -110,6 +110,7 @@ acceptance: accepted-by-creator
 - **本呈示所载父层结构及①-a当前粒度已获创作者确认**；①-a粒度确认属于父层结构的一部分，不构成独立节点级 handoff 授权；该结构接受不表示 S2 handoff/readiness passed。
 - ①-b仅在局部粒度上 handoff-ready／递归结束；该决定不等于父层结构或 v0.17.0 方法被接受，也不确认世界事实。
 - S-1～S-4 与 B3-b-01 继续作为 S1 handoff package 保留；其 S1 侧最低内容与 Rule G 门禁已按冻结合同 v0.1.1 完成预检（[E-063](../02-execution/E-063-s1-handoff-preflight-g-closure.md)）。具体结构尚未实际交给 W2；实际进入 S2 仍待创作者单独授权，当前没有启动 W2／阶段二。
+- **合同案例状态注**：v0.1.1 §1 中“父层与①-a仍待确认”是该合同冻结时点的案例状态快照；随后 D-042／E-061 已记录父层结构与①-a当前粒度获创作者确认，E-063 已完成该范围的 S1 侧预检。引用合同 §1 时，此前半句不再作为当前案例状态；其后半句“①-b／B3-b-01 须随整体结构交给 W2、不得单独交给 S2”仍是有效接口约束。具体时点与引用规则见 [E-064](../02-execution/E-064-clarify-frozen-contract-case-snapshot.md)。
 - R-1／R-2／R-3 按呈示保持 residual；本次裁决没有关闭或重新打开全局 coverage search。
 
-本次版本更新只同步 D-042 接受结构之后的合同门禁预检状态；不改变 D-042 接受的结构、节点粒度、B3 项或 residual 内容，不表示 S1 方法或一般 handoff 已获接受。
+本次版本更新只同步 D-042 接受结构之后的合同门禁预检状态，并澄清冻结合同中的案例状态句为历史快照；不改变 D-042 接受的结构、节点粒度、B3 项、residual 内容或合同规范语义，不表示 S1 方法或一般 handoff 已获接受。
