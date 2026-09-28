@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.5.15
+version: 0.5.17
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 ---
@@ -40,7 +40,11 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 当前状态
 
-创作者已接受原 core 候选 v0.1 为设计基线（D-004）、接入方案 v0.2 为组件边界与顺序基线（D-005），并裁决集中落点及宿主最小接口范围（D-003）。四份 v0.1.0 候选均已形成并通过独立复核；schema 与两个 adapter 已由创作者接受为组件设计基线（D-006），其原版本保持不变。S1 host v0.16.2 仍为原通用试跑基线且未获方法普遍验证；run-01 按 D-011 完成（E-014），创作者按 D-012 接受其为有效调用/取证样本及 Core outcome `sufficient-for-next-step`，但未整体接受 Rule E/F/G 回流；机制自主发现能力未由本轮证明，R-03 保留。A-001 对 Rule E 准入/目标事实边界给出 conditional 意见，D-013 授权形成 S1 adapter v0.1.1 与 host v0.16.3 的澄清候选；F-001 已按 D-014 以 fixed 路径闭合（独立复核 A-002）。后续试跑设计 v0.2 已于 D-015 接受；v0.16.3/v0.1.1 仅作为 run-02 单次调用的 host/adapter 修订，并已绑定身份 hash、合成案例、隔离条件和预算（见 run-02 binding）。一次有界调用已按 D-015 完成（E-019）；A-003 独立复核为 ACCEPT WITH NOTES，可保存为行为样本，但候选去重和 Rule F B3 四要素须在创作者裁决前处理，隔离/访问过程未能通过原始轨迹独立复放。创作者尚未裁定 run-02 的 E/F/G 候选。本目标保持 `active`，不声明完成。
+创作者已接受原 core 候选 v0.1 为设计基线（D-004）、接入方案 v0.2 为组件边界与顺序基线（D-005），并裁决集中落点及宿主最小接口范围（D-003）。四份 v0.1.0 候选均已形成并通过独立复核；schema 与两个 adapter 已由创作者接受为组件设计基线（D-006），其原版本保持不变。S1 host v0.16.2 仍为原通用试跑基线且未获方法普遍验证；run-01 按 D-011 完成（E-014），创作者按 D-012 接受其为有效调用/取证样本及 Core outcome `sufficient-for-next-step`，但未整体接受 Rule E/F/G 回流；机制自主发现能力未由本轮证明，R-03 保留。A-001 对 Rule E 准入/目标事实边界给出 conditional 意见，D-013 授权形成 S1 adapter v0.1.1 与 host v0.16.3 的澄清候选；F-001 已按 D-014 以 fixed 路径闭合（独立复核 A-002）。后续试跑设计 v0.2 已于 D-015 接受；v0.16.3/v0.1.1 仅作为 run-02 单次调用的 host/adapter 修订，并已绑定身份 hash、合成案例、隔离条件和预算（见 run-02 binding）。一次有界调用已按 D-015 完成（E-019）；A-003 独立复核为 ACCEPT WITH NOTES，可保存为行为样本；其隔离/访问过程无法由现有原始轨迹独立复放。样本接受、两项局部候选协调及 D-017 创作者裁决见下方补记。本目标保持 `active`，不声明完成。
+
+## 当前状态补记（2026-09-28）
+
+创作者按 [D-016](01-decision/D-016-run02-sample-accepted-and-reconciliation-authorized.md) 接受 run-02 为有效、相对干净的有界 S1 行为样本，并保留 A-003 两项 MINOR 注意项；注意项不是 required findings。按 D-016 授权的一次既有候选协调与 Rule F.2 四字段转写已于 [E-020](02-execution/E-020-run02-candidate-reconciliation.md) 完成。创作者按 [D-017](01-decision/D-017-run02-local-candidates-accepted.md) 接受合并后的 B3-1 与条件性 B3-2，并保留当前粒度；B3-2 的适用性仍待求解项核实，household storage 仍未准入且保持未知。两项是局部内容完整的 S2 求解项，但没有执行全局 Rule G 收束，因此总体 S1→S2 handoff-ready 未建立。本目标仍为 `active`，不声明完成。
 
 ## 愿景对齐
 

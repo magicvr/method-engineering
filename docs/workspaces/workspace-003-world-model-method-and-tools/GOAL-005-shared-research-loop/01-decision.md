@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.5.11
+version: 0.5.13
 ---
 
 # 决策记录 · GOAL-005
@@ -33,3 +33,5 @@ version: 0.5.11
 | D-013 | 2026-09-28 | 授权澄清研究证据与 S1 条件问题准入边界 | accepted | `01-decision/D-013-rule-e-research-relevance-clarification-authorized.md` |
 | D-014 | 2026-09-28 | 按修正与独立复核关闭 A-001/F-001 | accepted | `01-decision/D-014-a001-f001-fixed-response.md` |
 | D-015 | 2026-09-28 | 接受 run-02 设计并授权一次 S1 research-loop 调用 | accepted | `01-decision/D-015-run02-trial-accepted-and-authorized.md` |
+| D-016 | 2026-09-28 | 接受 run-02 为有界行为样本并授权一次候选协调 | accepted | `01-decision/D-016-run02-sample-accepted-and-reconciliation-authorized.md` |
+| D-017 | 2026-09-28 | 接受 run-02 两项局部 B3 候选并保留当前粒度 | accepted | [D-017](01-decision/D-017-run02-local-candidates-accepted.md) |

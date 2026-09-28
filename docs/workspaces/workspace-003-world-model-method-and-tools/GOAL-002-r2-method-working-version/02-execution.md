@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-28
-version: 0.9.17
+version: 0.9.19
 ---
 
 # 执行记录 · GOAL-002
@@ -45,6 +45,8 @@ version: 0.9.17
 | E-029 | 2026-09-28 | 记录 run-01 样本接受与 Rule E 边界审查方向 | recorded | [E-029](02-execution/E-029-run01-disposition-recorded.md) |
 | E-030 | 2026-09-28 | 记录 A-001/F-001 澄清修正与闭合 | recorded | [E-030](02-execution/E-030-a001-f001-closure-recorded.md) |
 | E-031 | 2026-09-28 | 登记 GOAL-005 run-02 研究试跑完成 | recorded | [E-031](02-execution/E-031-goal005-run02-research-trial-recorded.md) |
+| E-032 | 2026-09-28 | 记录 GOAL-005 run-02 样本接受与局部候选协调 | recorded | [E-032](02-execution/E-032-goal005-run02-disposition-and-reconciliation.md) |
+| E-033 | 2026-09-28 | 记录 GOAL-005 run-02 局部候选获创作者接受 | recorded | [E-033](02-execution/E-033-goal005-run02-local-candidates-accepted.md) |
 
 ## 事实边界
 

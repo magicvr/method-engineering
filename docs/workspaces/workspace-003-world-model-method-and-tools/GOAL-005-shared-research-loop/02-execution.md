@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.8.13
+version: 0.8.15
 ---
 
 # 执行记录 · GOAL-005
@@ -33,6 +33,8 @@ version: 0.8.13
 | E-017 | 2026-09-28 | 记录 A-001/F-001 最小修正候选与独立复核 | recorded | `02-execution/E-017-f001-correction-and-review.md` |
 | E-018 | 2026-09-28 | 起草 S1 research-loop 后续独立调用试跑设计 | recorded | [E-018](02-execution/E-018-s1-follow-up-trial-design-drafted.md) |
 | E-019 | 2026-09-28 | 完成一次隔离 S1 research-loop run-02 调用 | recorded | [E-019](02-execution/E-019-s1-run02-trial-completed.md) |
+| E-020 | 2026-09-28 | 完成 run-02 候选协调与 Rule F.2 四字段转写 | recorded | [E-020](02-execution/E-020-run02-candidate-reconciliation.md) |
+| E-021 | 2026-09-28 | 记录 run-02 两项局部 B3 候选获创作者接受 | recorded | [E-021](02-execution/E-021-run02-local-candidate-disposition.md) |
 
 ## 事实边界
 
