@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.16
+version: 0.52.18
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。局部递归细化／semantic zoom 候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)（`draft/unaccepted`，未冻结、未验证通过）；它只补「局部递归细化／semantic zoom」，不改写 run-10 第三态。阶段一的现行形态：
+**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。当前 semantic zoom 候选为 [v0.17.1](attachments/stage1-framing-method-candidate-v0.17.1.md)（`draft/unaccepted`；仅澄清粒度就绪与独立节点交接许可边界），原 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md) 保留不变。两者均未冻结、未验证通过，不改写 run-10 第三态。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -63,7 +63,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## S2 当前依据与两阶段关系
 
-**semantic zoom 方法候选为 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md)，draft/unaccepted；其冻结的 run-10 前序基线为 [v0.16.1](attachments/stage1-framing-method-candidate-v0.16.1.md)。S1 research-loop 集成另有从 v0.16.1 派生的 [v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md)，创作者已按 [D-038](01-decision/D-038-accept-s1-research-host-v0162.md) 接受其作为 run-01 试跑 host 基线；它不含 semantic zoom，仍为 draft、未获方法验证。GOAL-005 A-001 对 Rule E 准入/目标事实边界给出 conditional 意见；其 F-001 已按 GOAL-005 D-014 以 `fixed` 路径关闭，独立复核见 A-002。配套 host v0.16.3 与 S1 adapter v0.1.1 仍为未接受候选；v0.16.2、v0.17.0 与 run-01 保持不变，未授权新 research call/trial。以下修订链保留为历史记录。
+**当前 semantic zoom 方法候选为 [v0.17.1](attachments/stage1-framing-method-candidate-v0.17.1.md)，draft/unaccepted；其未修改的前身 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md) 保留为历史候选；冻结的 run-10 前序基线仍为 [v0.16.1](attachments/stage1-framing-method-candidate-v0.16.1.md)。S1 research-loop 集成另有从 v0.16.1 派生的 [v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md)，创作者已按 [D-038](01-decision/D-038-accept-s1-research-host-v0162.md) 接受其作为 run-01 试跑 host 基线；它不含 semantic zoom，仍为 draft、未获方法验证。GOAL-005 A-001 对 Rule E 准入/目标事实边界给出 conditional 意见；其 F-001 已按 GOAL-005 D-014 以 `fixed` 路径关闭，独立复核见 A-002。配套 host v0.16.3 与 S1 adapter v0.1.1 仍为未接受候选；v0.16.2、v0.17.0 与 run-01 保持不变，未授权新 research call/trial。以下修订链保留为历史记录。
 
 早期阶段曾供审视的候选版本为 [阶段一协作定界方法候选 v0.12.1](attachments/stage1-framing-method-candidate-v0.12.1.md)，**draft/unaccepted，尚无通过检验的方法证据、未交接 W2**。修订链：第一例 v0.6.0 运行经创作者判定**未通过**（premature elicitation 与八类操作近似逐项打卡；[E-016](02-execution/E-016-v06-run-failed-analysis-first.md)）→ [D-009](01-decision/D-009-analysis-first-and-non-checklist.md) 六项要求与 v0.7 的门禁收紧 → 创作者指出根本问题是**认知操作本身退化成 elicitation** → [D-010](01-decision/D-010-operations-must-produce-structure.md) 与 v0.8（产出物规则、未定项处理次序、回问末位、出口退回检查）→ 创作者通过 v0.8 方向并允许第二次试跑，同时给出三项试跑前小修 → [D-011](01-decision/D-011-routing-and-bounded-exploration.md) 与 v0.9：**按未定项性质路由主动分析**（N1～N5，只做该性质需要的动作，禁止制造虚假候选）、**有界诊断性探索**（判断解释/依赖/边界，不升级为模型或答案）、**弱化表示命名**（方法身份是操作与产物，不要求建图）。v0.9 为第二次试跑的固定基线。
 
@@ -130,7 +130,7 @@ parent = GOAL-002-r2-method-working-version；目录在本工作区根平铺。�
 
 ## 台账布局
 
-D/E/A 分别记录于 01-decision/、02-execution/、03-audit/ 并由同名 Markdown 索引；附件承载产物与证据。当前需求是方法改进需求；没有新增正式 required audit finding，但 A-004 对 v0.17.0 候选提出一项 MAJOR finding，待创作者处置。方法方案审视模式与实施范围在 S2 具体方案形成时按治理规则判定，不以本次立项替代方法验收。
+D/E/A 分别记录于 01-decision/、02-execution/、03-audit/ 并由同名 Markdown 索引；附件承载产物与证据。当前需求是方法改进需求；A-004 对原候选 v0.17.0 提出一项 MAJOR finding，创作者按 D-043 选择 fixed，文本更正已进入 v0.17.1，且独立复核 A-005 已通过。方法方案审视模式与实施范围在 S2 具体方案形成时按治理规则判定，不以本次立项替代方法验收。
 
 **独立审计 A-001 已落盘并闭合**（[A-001](03-audit/A-001-rule-g-bounded-convergence.md)，`source: independent`，auditor＝grok-4.7，scope＝规则 G 停止与收束机制）：**verdict＝fail**，三项 **required／high**——**F-001** 停止条件①不是开放式问题上的有限可验证判据（却是唯一合法停止出口）；**F-002** 门禁只认失败搜索式停止、缺「剩余遗漏已有界＋回流触发」的可检查交接状态；**F-003**「还能想到一个差异」与「该差异改变阶段一应否交接」没有分开的谓词。创作者裁定**全部 `fixed`**，据 [D-027](01-decision/D-027-a001-closure-v016.md) / [E-040](02-execution/E-040-v016-a001-closure.md) 以**最小闭合集**形成 **v0.16**（G.1.3 交接相关增量／G.1.4 收束前提／G.1.5 残余遗漏登记／收束判据＋第三态；同步 G.2、G.3、操作表、出口第 8 项、收束段、风险表、观察项；**规则 F 与规则 E 段逐字未改**）→ **原「三项闭合前不得放行规则 G 收束门禁」的阻断已解除**。**后续（2026-09-27）：创作者指出 G.1 收束判据与 G.3／出口第 8 项尚未完全同步**（G.3 只要求「已发现增量都已处理」→ 会出现「刚加入一个结构改变、就因该改变已处理完而立即交接」的漏洞），据 [D-028](01-decision/D-028-v0161-gate-sync-run10.md) / [E-041](02-execution/E-041-v0161-freeze-run10.md) 做**只改两处**的门禁一致性修正形成 **v0.16.1**（**G.3 引用 G.1 四项收束判据＋两状态区分＋收束攻击仍可构造新差异**；**出口第 8 项增加「问题集是否已冻结且唯一」与「最新增量处理后是否在更新结构上重跑收束攻击并得到未再产生增量的结果」两项检查**；**未触规则 F／规则 E／攻击指令／候选清算**，已核对三段逐字相同），**冻结为 run-10 基线**并**已启动 run-10**（continuation，继承 [续跑状态冻结 01](attachments/continuation-state-frozen-01.md)）。**未改 v0.15.1／v0.16、未改 status/progress。**
 
@@ -162,4 +162,4 @@ S-1～S-4 的 F.2“ S1 不能回答原因”已补入 [S1 交接预检补证 01
 
 ### 2026-09-28 · 当前审阅状态补记（A-004）
 
-Reviewer 对 semantic zoom 候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-001 指出第 302 行可能把 handoff-ready 粒度误作节点级独立交接许可，建议改为候选求解节点并明确冻结合同 §1 的三项节点门禁。finding 已登记于 [A-004](03-audit/A-004-s1-v017-semantic-zoom-review.md)，当前待创作者处置；v0.17.0 仍为 draft/unaccepted，本次未修改候选、未试跑，也未进入 S2。
+Reviewer 对原候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-001 指出第 302 行可能把 handoff-ready 粒度误作节点级独立交接许可。创作者按 [D-043](01-decision/D-043-fix-a004-v0171-handoff-boundary.md) 选择 fixed，已按 [E-065](02-execution/E-065-v0171-a004-f001-fix.md) 形成 v0.17.1 澄清候选求解节点与合同三门禁的边界；A-005 独立复核 verdict=pass，A-004 F-001 已闭合（[E-066](02-execution/E-066-a005-v0171-f001-closure.md)）。A-004 对 v0.17.0 的原始 fail verdict 保留。v0.17.0 保持不变；v0.17.1 仍为 draft/unaccepted，未试跑，也未进入 S2。

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-28
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.1.0
+version: 0.1.1
 id: GOAL-004-collaborative-question-framing
 record_id: A-004
 doc: audit-entry
@@ -41,3 +41,9 @@ source: independent
 ## Unable to verify
 
 - v0.17.0 仍为 draft/unaccepted；只读设计审阅不能证明运行表现或方法有效性。本审阅不启动试跑、不改变 v0.16.1／v0.16.2 基线，也不授权任何 S2 操作。
+
+## 编排响应与 finding 状态（2026-09-28）
+
+创作者按 [D-043](../01-decision/D-043-fix-a004-v0171-handoff-boundary.md) 选择以 `fixed` 路径修正 F-001。修订证据见 [E-065](../02-execution/E-065-v0171-a004-f001-fix.md)；独立复核见 [A-005](A-005-v0171-a004-f001-closure-review.md)，verdict=`pass`。因此 F-001 已闭合，A-004 对 v0.17.0 的原始 verdict=`fail` 保持不变。
+
+该闭合只确认 v0.17.1 已澄清粒度就绪与独立节点交接许可的区别，并引用冻结合同 §1 三项门禁；不表示 v0.17.1 已被接受、试跑验证或授权 S2。

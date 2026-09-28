@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.11
+version: 5.5.13
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -77,3 +77,5 @@ doc: execution
 | E-062 | 2026-09-28 | 补齐 S-1～S-4 的 F.2 “S1 不能回答原因”；父层 Rule G 收束检查待执行 | recorded | [E-062](02-execution/E-062-s1-handoff-f2-supplement.md) |
 | E-063 | 2026-09-28 | 完成 presentation-03 范围的 Rule G 收束与 S1 handoff 合同预检；实际 S2 待单独授权 | recorded | [E-063](02-execution/E-063-s1-handoff-preflight-g-closure.md) |
 | E-064 | 2026-09-28 | 澄清冻结合同 v0.1.1 中案例状态句为冻结时点快照；后续 D/E 状态已更新 | recorded | [E-064](02-execution/E-064-clarify-frozen-contract-case-snapshot.md) |
+| E-065 | 2026-09-28 | 按 D-043 形成 v0.17.1，仅澄清 handoff-ready 与节点级独立交接许可边界 | recorded | [E-065](02-execution/E-065-v0171-a004-f001-fix.md) |
+| E-066 | 2026-09-28 | 记录 A-005 复核通过并闭合 A-004 F-001 | recorded | [E-066](02-execution/E-066-a005-v0171-f001-closure.md) |
