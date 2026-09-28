@@ -2,9 +2,9 @@
 title: 执行记录 · GOAL-004
 status: active
 created: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.28
+version: 5.5.29
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -94,3 +94,4 @@ doc: execution
 | E-079 | 2026-09-28 | 记录 A-012 独立复核与 run-13 binding 完整性核验 | recorded | [E-079](02-execution/E-079-run13-package-independent-review.md) |
 | E-080 | 2026-09-28 | 记录创作者接受 run-13 准备包但未授权执行 | recorded | [E-080](02-execution/E-080-record-run13-package-accepted.md) |
 | E-081 | 2026-09-28 | 记录 run-13 v0.1.1 修订、独立复核与最终 preflight | recorded | [E-081](02-execution/E-081-run13-v011-final-preflight.md) |
+| E-082 | 2026-09-28 | run-13 启动前隔离门禁失败，试跑未开始 | recorded | [E-082](02-execution/E-082-run13-startup-isolation-gate-failed.md) |

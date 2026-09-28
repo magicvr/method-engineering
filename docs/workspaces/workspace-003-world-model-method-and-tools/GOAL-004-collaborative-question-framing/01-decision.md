@@ -2,9 +2,9 @@
 title: 决策记录 · GOAL-004
 status: active
 created: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.13.0
+version: 3.14.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -63,3 +63,5 @@ doc: decision
 | D-048 | 2026-09-28 | 接受 run-12 有限 reviewer disposition 并冻结 v0.18.0 为下一轮试跑基线 | accepted | [D-048](01-decision/D-048-run12-review-and-freeze-v018-trial-baseline.md) |
 | D-049 | 2026-09-28 | 接受 run-13 隔离合同与试跑包作为准备基线，不授权执行 | accepted | [D-049](01-decision/D-049-accept-run13-preparation-package.md) |
 | D-050 | 2026-09-28 | 接受 run-13 基线架构并裁决两项最小试跑设计修订 | accepted | [D-050](01-decision/D-050-run13-minimal-design-revision.md) |
+| D-051 | 2026-09-28 | 授权按精确 binding 执行 run-13 | accepted | [D-051](01-decision/D-051-authorize-run13-exact-binding.md) |
+| D-052 | 2026-09-29 | 接受 run-13 isolated CLI harness 修订；只授权 disposable smoke | accepted | [D-052](01-decision/D-052-run13-isolated-cli-harness-v012.md) |
