@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.14
+version: 5.5.15
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -80,3 +80,4 @@ doc: execution
 | E-065 | 2026-09-28 | 按 D-043 形成 v0.17.1，仅澄清 handoff-ready 与节点级独立交接许可边界 | recorded | [E-065](02-execution/E-065-v0171-a004-f001-fix.md) |
 | E-066 | 2026-09-28 | 记录 A-005 复核通过并闭合 A-004 F-001 | recorded | [E-066](02-execution/E-066-a005-v0171-f001-closure.md) |
 | E-067 | 2026-09-28 | 完成 v0.17.2 最小一致性修订、独立复核并冻结为试跑基线 | recorded | [E-067](02-execution/E-067-v0172-consistency-freeze.md) |
+| E-068 | 2026-09-28 | 记录 run-11 准备包 v0.1.2、A-007 闭合与 A-008 独立复核 | recorded | [E-068](02-execution/E-068-run11-package-v012-a008-review.md) |

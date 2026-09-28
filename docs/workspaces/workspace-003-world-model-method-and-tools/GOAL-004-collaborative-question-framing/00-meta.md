@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.19
+version: 0.52.20
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。当前 semantic zoom 候选为 [v0.17.1](attachments/stage1-framing-method-candidate-v0.17.1.md)（`draft/unaccepted`；仅澄清粒度就绪与独立节点交接许可边界），原 [v0.17.0](attachments/stage1-framing-method-candidate-v0.17.0.md) 保留不变。两者均未冻结、未验证通过，不改写 run-10 第三态。阶段一的现行形态：
+**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。[v0.17.2](attachments/stage1-framing-method-candidate-v0.17.2.md) 已冻结为下一次（run-11）单次隔离 S1 试跑基线；方法仍为 `draft/unaccepted`，冻结不表示验证通过或取代 v0.16.1/run-10 证据。v0.17.0 与 v0.17.1 原文保留不变。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -167,3 +167,7 @@ Reviewer 对原候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-0
 ### 2026-09-28 · 当前方法基线补记（D-044／E-067／A-006）
 
 创作者接受 v0.17.1 主体设计并要求最小一致性修订；修订后独立只读复核 A-006 verdict=`pass`、required=0，故按 D-044 冻结 [v0.17.2](attachments/stage1-framing-method-candidate-v0.17.2.md) 为新的试跑基线。该冻结只固定实验版本；方法仍为 draft/unaccepted，尚无 v0.17.2 试跑验证。v0.16.1 原文与 run-10 证据地位不变，v0.17.2 不取代其既有证据；未执行 S2 或实际 S1→S2 交接。SHA-256、精确修订和边界见 [E-067](02-execution/E-067-v0172-consistency-freeze.md)。A-004 F-001 保持按 fixed 路径闭合；I-401 仍 open，I-402 仍 collecting；GOAL status/progress 未变。
+
+### 2026-09-28 · run-11 准备包复核与单次试跑授权（D-045／E-068／A-008）
+
+run-11 准备包 v0.1.2 经 A-008 独立复核为 `pass`（原 verdict：`ACCEPT WITH NOTES`）；A-007 F-001/F-002 在 v0.1.2 中均按 `fixed` 闭合。A-008 留有一项非阻断 MINOR note：projection map v0.1.1 的第 316–317 行表头与分隔线为移除 examples 列而修改，不改变规范规则，本次未修改 map。创作者接受 v0.17.2 仅作为下一次单次隔离 S1 试跑基线，并授权该次试跑；隔离限于上下文／行为层面，不是平台 sandbox。方法仍为 `draft/unaccepted`，不宣称已验证，且不取代 v0.16.1/run-10 证据。截至 E-068，run-11 尚未开始；未发生 S1→S2 或节点级独立交接、W2/S2 启动或方法接受。I-401 仍 open，I-402 仍 collecting；GOAL status/progress 未变。详情与六项 SHA-256 见 [E-068](02-execution/E-068-run11-package-v012-a008-review.md)。

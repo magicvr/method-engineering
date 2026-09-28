@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 3.11.5
+version: 3.11.6
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -57,3 +57,4 @@ doc: decision
 | D-042 | 2026-09-28 | 接受阶段一呈示 03 父层结构及①-a当前粒度 | accepted | [D-042](01-decision/D-042-accept-parent-presentation-03.md) |
 | D-043 | 2026-09-28 | 响应 A-004 F-001，修订 semantic zoom 候选并复核 | accepted | [D-043](01-decision/D-043-fix-a004-v0171-handoff-boundary.md) |
 | D-044 | 2026-09-28 | 对 v0.17.1 做最小一致性修订并冻结 v0.17.2 为试跑基线 | accepted | [D-044](01-decision/D-044-v0172-consistency-freeze.md) |
+| D-045 | 2026-09-28 | 确认 v0.17.2 为 run-11 单次隔离试跑基线并授权试跑 | accepted | [D-045](01-decision/D-045-run11-baseline-and-trial-authorization.md) |
