@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.15
+version: 0.52.16
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -130,7 +130,7 @@ parent = GOAL-002-r2-method-working-version；目录在本工作区根平铺。�
 
 ## 台账布局
 
-D/E/A 分别记录于 01-decision/、02-execution/、03-audit/ 并由同名 Markdown 索引；附件承载产物与证据。当前需求是方法改进需求，没有新增正式 required audit finding。方法方案审视模式与实施范围在 S2 具体方案形成时按治理规则判定，不以本次立项替代方法验收。
+D/E/A 分别记录于 01-decision/、02-execution/、03-audit/ 并由同名 Markdown 索引；附件承载产物与证据。当前需求是方法改进需求；没有新增正式 required audit finding，但 A-004 对 v0.17.0 候选提出一项 MAJOR finding，待创作者处置。方法方案审视模式与实施范围在 S2 具体方案形成时按治理规则判定，不以本次立项替代方法验收。
 
 **独立审计 A-001 已落盘并闭合**（[A-001](03-audit/A-001-rule-g-bounded-convergence.md)，`source: independent`，auditor＝grok-4.7，scope＝规则 G 停止与收束机制）：**verdict＝fail**，三项 **required／high**——**F-001** 停止条件①不是开放式问题上的有限可验证判据（却是唯一合法停止出口）；**F-002** 门禁只认失败搜索式停止、缺「剩余遗漏已有界＋回流触发」的可检查交接状态；**F-003**「还能想到一个差异」与「该差异改变阶段一应否交接」没有分开的谓词。创作者裁定**全部 `fixed`**，据 [D-027](01-decision/D-027-a001-closure-v016.md) / [E-040](02-execution/E-040-v016-a001-closure.md) 以**最小闭合集**形成 **v0.16**（G.1.3 交接相关增量／G.1.4 收束前提／G.1.5 残余遗漏登记／收束判据＋第三态；同步 G.2、G.3、操作表、出口第 8 项、收束段、风险表、观察项；**规则 F 与规则 E 段逐字未改**）→ **原「三项闭合前不得放行规则 G 收束门禁」的阻断已解除**。**后续（2026-09-27）：创作者指出 G.1 收束判据与 G.3／出口第 8 项尚未完全同步**（G.3 只要求「已发现增量都已处理」→ 会出现「刚加入一个结构改变、就因该改变已处理完而立即交接」的漏洞），据 [D-028](01-decision/D-028-v0161-gate-sync-run10.md) / [E-041](02-execution/E-041-v0161-freeze-run10.md) 做**只改两处**的门禁一致性修正形成 **v0.16.1**（**G.3 引用 G.1 四项收束判据＋两状态区分＋收束攻击仍可构造新差异**；**出口第 8 项增加「问题集是否已冻结且唯一」与「最新增量处理后是否在更新结构上重跑收束攻击并得到未再产生增量的结果」两项检查**；**未触规则 F／规则 E／攻击指令／候选清算**，已核对三段逐字相同），**冻结为 run-10 基线**并**已启动 run-10**（continuation，继承 [续跑状态冻结 01](attachments/continuation-state-frozen-01.md)）。**未改 v0.15.1／v0.16、未改 status/progress。**
 
@@ -159,3 +159,7 @@ S-1～S-4 的 F.2“ S1 不能回答原因”已补入 [S1 交接预检补证 01
 ### 2026-09-28 · 当前状态补记（E-064）
 
 冻结合同 v0.1.1 §1 中“父层与①-a仍待确认”是冻结时点的案例状态快照，随后已被 D-042／E-061 的创作者确认与 E-063 的范围预检状态取代；不得再把该句当作当前案例事实。后续引用合同仅依其有效规范规则，①-b／B3-b-01 随整体结构交接且不得单独交给 S2。合同原文保持冻结、不发 v0.1.2；当前案例状态说明见 [presentation-03 §7](attachments/case-structure-presentation-03.md) 与 [E-064](02-execution/E-064-clarify-frozen-contract-case-snapshot.md)。
+
+### 2026-09-28 · 当前审阅状态补记（A-004）
+
+Reviewer 对 semantic zoom 候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-001 指出第 302 行可能把 handoff-ready 粒度误作节点级独立交接许可，建议改为候选求解节点并明确冻结合同 §1 的三项节点门禁。finding 已登记于 [A-004](03-audit/A-004-s1-v017-semantic-zoom-review.md)，当前待创作者处置；v0.17.0 仍为 draft/unaccepted，本次未修改候选、未试跑，也未进入 S2。
