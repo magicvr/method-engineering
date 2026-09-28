@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.18
+version: 0.52.19
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -163,3 +163,7 @@ S-1～S-4 的 F.2“ S1 不能回答原因”已补入 [S1 交接预检补证 01
 ### 2026-09-28 · 当前审阅状态补记（A-004）
 
 Reviewer 对原候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-001 指出第 302 行可能把 handoff-ready 粒度误作节点级独立交接许可。创作者按 [D-043](01-decision/D-043-fix-a004-v0171-handoff-boundary.md) 选择 fixed，已按 [E-065](02-execution/E-065-v0171-a004-f001-fix.md) 形成 v0.17.1 澄清候选求解节点与合同三门禁的边界；A-005 独立复核 verdict=pass，A-004 F-001 已闭合（[E-066](02-execution/E-066-a005-v0171-f001-closure.md)）。A-004 对 v0.17.0 的原始 fail verdict 保留。v0.17.0 保持不变；v0.17.1 仍为 draft/unaccepted，未试跑，也未进入 S2。
+
+### 2026-09-28 · 当前方法基线补记（D-044／E-067／A-006）
+
+创作者接受 v0.17.1 主体设计并要求最小一致性修订；修订后独立只读复核 A-006 verdict=`pass`、required=0，故按 D-044 冻结 [v0.17.2](attachments/stage1-framing-method-candidate-v0.17.2.md) 为新的试跑基线。该冻结只固定实验版本；方法仍为 draft/unaccepted，尚无 v0.17.2 试跑验证。v0.16.1 原文与 run-10 证据地位不变，v0.17.2 不取代其既有证据；未执行 S2 或实际 S1→S2 交接。SHA-256、精确修订和边界见 [E-067](02-execution/E-067-v0172-consistency-freeze.md)。A-004 F-001 保持按 fixed 路径闭合；I-401 仍 open，I-402 仍 collecting；GOAL status/progress 未变。

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.13
+version: 5.5.14
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -79,3 +79,4 @@ doc: execution
 | E-064 | 2026-09-28 | 澄清冻结合同 v0.1.1 中案例状态句为冻结时点快照；后续 D/E 状态已更新 | recorded | [E-064](02-execution/E-064-clarify-frozen-contract-case-snapshot.md) |
 | E-065 | 2026-09-28 | 按 D-043 形成 v0.17.1，仅澄清 handoff-ready 与节点级独立交接许可边界 | recorded | [E-065](02-execution/E-065-v0171-a004-f001-fix.md) |
 | E-066 | 2026-09-28 | 记录 A-005 复核通过并闭合 A-004 F-001 | recorded | [E-066](02-execution/E-066-a005-v0171-f001-closure.md) |
+| E-067 | 2026-09-28 | 完成 v0.17.2 最小一致性修订、独立复核并冻结为试跑基线 | recorded | [E-067](02-execution/E-067-v0172-consistency-freeze.md) |
