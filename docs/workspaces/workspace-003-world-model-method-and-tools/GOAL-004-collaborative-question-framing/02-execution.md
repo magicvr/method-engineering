@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.27
+version: 5.5.28
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -93,3 +93,4 @@ doc: execution
 | E-078 | 2026-09-28 | 准备 run-13 S1 research-loop 集成试跑 binding 供创作者裁决 | recorded | [E-078](02-execution/E-078-run13-trial-design-package-prepared.md) |
 | E-079 | 2026-09-28 | 记录 A-012 独立复核与 run-13 binding 完整性核验 | recorded | [E-079](02-execution/E-079-run13-package-independent-review.md) |
 | E-080 | 2026-09-28 | 记录创作者接受 run-13 准备包但未授权执行 | recorded | [E-080](02-execution/E-080-record-run13-package-accepted.md) |
+| E-081 | 2026-09-28 | 记录 run-13 v0.1.1 修订、独立复核与最终 preflight | recorded | [E-081](02-execution/E-081-run13-v011-final-preflight.md) |
