@@ -92,7 +92,7 @@ Runner 理论上能够访问 trial directory 之外的文件，不构成隔离�
 
 ## 5. 启动、运行后与有效性门禁
 
-**启动前**：重算本 binding 所列 packet 与 source/projection chain 的 SHA-256，并逐项匹配 manifest。重新读取 C:Usersmagicvr.codexAGENTS.md，确认其 hash 与已审计 allow-list 相同。创建 fresh Codex conversation/session；cwd/workspace 指向原仓库之外的独立 sibling trial directory：C:UsersmagicvrDocumentsCodemethod-engineering-run13-isolated。该目录初始只含 §2.1 五项 packet 与必要输出目录 trace/。确认 trial directory 及其 ancestor 不存在 project-specific AGENTS.md。不得主动加载或提供原仓库、旧 Probe/run/audit、binding/design/contract 或历史 conversation。满足以上条件并取得授权后即可启动；不要求 shell、filesystem-security 或 research-tool smoke。
+**启动前**：重算本 binding 所列 packet 与 source/projection chain 的 SHA-256，并逐项匹配 manifest。重新读取 `C:\Users\magicvr\.codex\AGENTS.md`，确认其 hash 与已审计 allow-list 相同。创建 fresh Codex conversation/session；cwd/workspace 指向原仓库之外的独立 sibling trial directory：`C:\Users\magicvr\Documents\Code\method-engineering-run13-isolated`。该目录初始只含 §2.1 五项 packet 与必要输出目录 trace/。确认 trial directory 及其 ancestor 不存在 project-specific AGENTS.md。不得主动加载或提供原仓库、旧 Probe/run/audit、binding/design/contract 或历史 conversation。满足以上条件并取得授权后即可启动；不要求 shell、filesystem-security 或 research-tool smoke。
 
 **执行授权**：完整 manifest 与启动前条件就绪后，仍须先取得对本 binding 最终 SHA-256 的明确执行授权。授权前不创建正式 runner、不输入 Probe。授权只覆盖本轮 S1 runner；不授权实际 handoff、节点级独立交接或启动 W2/S2。
 
