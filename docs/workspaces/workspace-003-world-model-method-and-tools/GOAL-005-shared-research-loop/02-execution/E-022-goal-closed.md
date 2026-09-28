@@ -4,7 +4,7 @@ status: recorded
 created: 2026-09-28
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.1.0
+version: 0.1.1
 id: GOAL-005-shared-research-loop
 record_id: E-022
 doc: execution-entry
@@ -24,4 +24,4 @@ doc: execution-entry
 - GOAL-005 六项成功标准均有 A-004 所列证据路径；该目标无开放 required 信息项或 finding。
 - Charter、VP-003、workspace-003 与本目标 `plan_refs` / `primary_plan` 对齐；Vision Review open required=0。
 - `git diff --check` 与链接存在性核对完成；未运行软件测试（本次为治理文档闭门）。
-- 本记录随后补入本次闭门 checkpoint 的 commit hash 与 scope，见本文件版本历史。
+- 闭门 checkpoint：`17e8387f872f1e101053d1afbf44cdbff036d2f4`，提交说明 `docs(governance): close GOAL-005 research loop`。提交范围为 GOAL-005 的决策、执行、审计记录及工作区 `goal-tree.md`，共 8 个明确路径。
