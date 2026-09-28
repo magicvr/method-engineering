@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 3.11.8
+version: 3.12.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -60,3 +60,5 @@ doc: decision
 | D-045 | 2026-09-28 | 确认 v0.17.2 为 run-11 单次隔离试跑基线并授权试跑 | accepted | [D-045](01-decision/D-045-run11-baseline-and-trial-authorization.md) |
 | D-046 | 2026-09-28 | 裁定 A-009 三项 required finding 均按 fixed 响应 | accepted | [D-046](01-decision/D-046-a009-run11-findings-fixed-response.md) |
 | D-047 | 2026-09-28 | 接受 run-12 为有限 S1 E2E 行为样本并明确 bootstrap 隔离边界 | accepted | [D-047](01-decision/D-047-run12-limited-sample-and-bootstrap-boundary.md) |
+| D-048 | 2026-09-28 | 接受 run-12 有限 reviewer disposition 并冻结 v0.18.0 为下一轮试跑基线 | accepted | [D-048](01-decision/D-048-run12-review-and-freeze-v018-trial-baseline.md) |
+| D-049 | 2026-09-28 | 接受 run-13 隔离合同与试跑包作为准备基线，不授权执行 | accepted | [D-049](01-decision/D-049-accept-run13-preparation-package.md) |

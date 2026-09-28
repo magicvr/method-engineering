@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.5.9
+version: 0.7.0
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -23,6 +23,8 @@ doc: audit
 | A-008 | 2026-09-28 | 复核 run-11 准备包 v0.1.2 对 A-007 findings 的闭合 | **pass**（Reviewer verdict `ACCEPT WITH NOTES`；A-007 F-001/F-002 fixed；另有 1 项非阻断 MINOR note） | [A-008](03-audit/A-008-run11-v012-package-closure-review.md) |
 | A-009 | 2026-09-28 | 独立复核 run-11 试跑行为 | **fail（原始 verdict 保留；F-001/F-002/F-003 均按 `fixed` 响应，N-001 保留）** | [A-009](03-audit/A-009-run11-behavior-review.md) |
 | A-010 | 2026-09-28 | 独立复核 run-11 Q1 的 B2/B3 归类边界 | **pass（v0.17.2 Rule F 足够；初始错分登记为 runner regression observation）** | [A-010](03-audit/A-010-run11-q1-b2-b3-boundary-review.md) |
+| A-011 | 2026-09-28 | 独立复核 run-12 S1 E2E 行为与证据范围 | **conditional（ACCEPT WITH NOTES；required 方法 findings=0；完整 handoff contract-content fit 有 MAJOR runner-output gap）** | [A-011](03-audit/A-011-run12-s1-e2e-behavior-review.md) |
+| A-012 | 2026-09-28 | 独立复核 run-13 隔离合同与试跑包 | **pass**（ACCEPT WITH NOTES；0 required 方法 findings；1 项 non-blocking NOTE） | [A-012](03-audit/A-012-run13-isolation-and-trial-package-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -115,3 +117,7 @@ A-007 原始 verdict `fail` 保留为对准备包 v0.1.1 的历史判断。独�
 独立复核认为，runner 因输入没有空间事实而将“世界所指对象／范围”归为 B3，混淆了“原问所指为何物”的 S1 framing 与“该对象的实际空间范围如何”的 B3 客观求解。Rule B 对指称歧义的路由及 Rule F 对 B2 理解／结构与 B3 目标世界命题的区分，已足以处理这一边界。创作者对 Q1→Q2 结构的接受没有提供“overall world”作为答案；runner 随后的 referent-level 说明可作为对指称对象的 B2 收敛解释，但不建立任何实际边界或空间大小。
 
 本意见仅回答错分原因与规则充分性；**不追溯改写 A-009 或 D-046 的 run-11 处置，不把 Q1 自动改记为已收敛，也不重开 handoff 判断**。run-11 的初始错分保留为 runner regression observation；v0.17.2 Rule F 不修改。
+
+## A-012 · 独立复核 run-13 隔离合同与试跑包（2026-09-28）
+
+[A-012](03-audit/A-012-run13-isolation-and-trial-package-review.md) 对 run-12 disposition、global generic bootstrap 的分类、run-13 隔离合同、Probe、trial design 与完整 binding 作只读独立复核。Reviewer 原始 verdict 为 `ACCEPT WITH NOTES`，本台账 verdict 为 `pass`；required 级方法 findings=0，阻止提交创作者裁决的 findings=0。唯一 NOTE 是 Probe 较宽泛，research 可能仍自然地 `not observed`；设计未因此强制搜索。Binding 18 项 manifest 的 bytes/hash 和 projection source→projection 链均核对一致，binding SHA-256 为 `447A250197EB85973FDF75A3B3B7F2262B86A7751B1DF3577544D1E8B11E8E1F`。审计不授权执行；运行时上下文与 filesystem 隔离仍须启动前核验。

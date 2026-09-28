@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.23
+version: 5.5.27
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -89,3 +89,7 @@ doc: execution
 | E-074 | 2026-09-28 | 记录 run-12 初次隔离判定与完整 trace（后由 E-075 复核） | recorded | [E-074](02-execution/E-074-run12-invalidated-isolation.md) |
 | E-075 | 2026-09-28 | 复核 run-12 global bootstrap context 来源与隔离范围 | recorded | [E-075](02-execution/E-075-run12-bootstrap-context-isolation-review.md) |
 | E-076 | 2026-09-28 | 记录 run-12 有限行为样本裁决及 bootstrap 偏差边界 | recorded | [E-076](02-execution/E-076-run12-limited-sample-disposition.md) |
+| E-077 | 2026-09-28 | 记录 run-12 reviewer disposition、证据矩阵与 v0.18.0 试跑基线冻结 | recorded | [E-077](02-execution/E-077-run12-review-disposition-and-v018-baseline.md) |
+| E-078 | 2026-09-28 | 准备 run-13 S1 research-loop 集成试跑 binding 供创作者裁决 | recorded | [E-078](02-execution/E-078-run13-trial-design-package-prepared.md) |
+| E-079 | 2026-09-28 | 记录 A-012 独立复核与 run-13 binding 完整性核验 | recorded | [E-079](02-execution/E-079-run13-package-independent-review.md) |
+| E-080 | 2026-09-28 | 记录创作者接受 run-13 准备包但未授权执行 | recorded | [E-080](02-execution/E-080-record-run13-package-accepted.md) |
