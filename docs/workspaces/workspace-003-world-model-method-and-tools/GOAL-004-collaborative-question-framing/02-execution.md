@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.3
+version: 5.5.10
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -70,3 +70,9 @@ doc: execution
 | E-055 | 2026-09-28 | 记录 v0.16.2 的一次授权 S1 research-loop 调用已完成 | recorded | [E-055](02-execution/E-055-s1-research-loop-trial-run-01.md) |
 | E-056 | 2026-09-28 | 记录创作者接受 S1 调用样本但保留 Rule E 边界审查 | recorded | [E-056](02-execution/E-056-s1-trial-sample-disposition.md) |
 | E-057 | 2026-09-28 | 记录 S1 Rule E 澄清候选与 F-001 独立复核 | recorded | [E-057](02-execution/E-057-s1-rule-e-clarification-candidate-reviewed.md) |
+| E-058 | 2026-09-28 | 记录 S1→S2 合同双边复核通过；正式 cross gate 待创作者裁决 | recorded | [E-058](02-execution/E-058-s1-s2-handoff-contract-draft-and-bilateral-review.md) |
+| E-059 | 2026-09-28 | 记录创作者裁决等待外部 formal cross review 后冻结合同 | recorded | [E-059](02-execution/E-059-record-cross-gate-disposition.md) |
+| E-060 | 2026-09-28 | 响应 A-002/A-003 并冻结 S1→S2 交接合同 v0.1.1 | recorded | [E-060](02-execution/E-060-close-a002-and-freeze-handoff-contract.md) |
+| E-061 | 2026-09-28 | 记录创作者接受阶段一呈示 03 父层结构 | recorded | [E-061](02-execution/E-061-record-parent-presentation-03-accepted.md) |
+| E-062 | 2026-09-28 | 补齐 S-1～S-4 的 F.2 “S1 不能回答原因”；父层 Rule G 收束检查待执行 | recorded | [E-062](02-execution/E-062-s1-handoff-f2-supplement.md) |
+| E-063 | 2026-09-28 | 完成 presentation-03 范围的 Rule G 收束与 S1 handoff 合同预检；实际 S2 待单独授权 | recorded | [E-063](02-execution/E-063-s1-handoff-preflight-g-closure.md) |

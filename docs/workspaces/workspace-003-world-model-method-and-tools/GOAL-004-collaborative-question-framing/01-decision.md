@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 3.11.0
+version: 3.11.3
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -52,3 +52,6 @@ doc: decision
 | D-037 | 2026-09-27 | 授权形成并复核 S1 research-loop 集成方法候选 v0.16.2 | accepted | [D-037](01-decision/D-037-s1-research-loop-host-v0162.md) |
 | D-038 | 2026-09-28 | 接受 v0.16.2 为 S1 research-loop 试跑 host 基线 | accepted | [D-038](01-decision/D-038-accept-s1-research-host-v0162.md) |
 | D-039 | 2026-09-28 | 授权形成 Rule E 研究证据准入澄清候选 | accepted | [D-039](01-decision/D-039-rule-e-research-question-clarification-authorized.md) |
+| D-040 | 2026-09-28 | 裁决等待外部跨边界审查后再冻结 S1→S2 交接合同 | accepted | [D-040](01-decision/D-040-handoff-contract-wait-external-cross-review.md) |
+| D-041 | 2026-09-28 | 接受 A-003 并冻结 S1→S2 交接合同 v0.1.1 | accepted | [D-041](01-decision/D-041-accept-a003-and-freeze-handoff-contract.md) |
+| D-042 | 2026-09-28 | 接受阶段一呈示 03 父层结构及①-a当前粒度 | accepted | [D-042](01-decision/D-042-accept-parent-presentation-03.md) |

@@ -1,10 +1,10 @@
-﻿---
+---
 title: 阶段一协作定界认知方法与 W2 交接
 status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.7
+version: 0.52.14
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -36,6 +36,10 @@ primary_plan: VP-003-world-model-method-and-tools
 **S1 research-loop 集成 host**：[v0.16.2](attachments/stage1-framing-method-candidate-v0.16.2.md) 以冻结的 v0.16.1 为唯一基线，仅增加一处研究调用／回流接口；经 Reviewer 复核 ACCEPT 后，创作者已接受为 run-01 host 基线（[D-038](01-decision/D-038-accept-s1-research-host-v0162.md)）。其后创作者按 GOAL-005 [D-011](../GOAL-005-shared-research-loop/01-decision/D-011-s1-trial-execution-authorized.md) 授权的一次有界调用已完成，执行与结果见 GOAL-005 [E-014](../GOAL-005-shared-research-loop/02-execution/E-014-s1-independent-call-trial-run-01.md) / [run-01](../GOAL-005-shared-research-loop/attachments/s1-independent-call-trial-run-01.md)。创作者按 GOAL-005 [D-012](../GOAL-005-shared-research-loop/01-decision/D-012-run01-sample-accepted-e-f-review-pending.md) 接受该调用为有效试跑样本及 Core outcome，但未整体接受 E/F/G 回流。GOAL-005 A-001 对 Rule E 准入/目标事实边界给出 conditional 意见；F-001 已按 GOAL-005 D-014 以 fixed 路径关闭（独立复核 A-002）；创作者按 GOAL-005 [D-013](../GOAL-005-shared-research-loop/01-decision/D-013-rule-e-research-relevance-clarification-authorized.md) 授权形成独立候选 S1 adapter v0.1.1 与 host v0.16.3。v0.16.2、run-01 与 v0.17.0 保持不变，新候选在独立复核与创作者接受前不成为基线；按 GOAL-005 D-015，创作者另行授权并已完成一次独立 run-02 research-loop 试跑（GOAL-005 E-019 / run-02），此调用仅测试新上下文中的有界研究行为；v0.16.3 与 adapter v0.1.1 仍未获通用基线接受。该调用不重开 GOAL-004 Probe 1、run-10 或父层案例结论。
 
 **局部递归细化（v0.17.0 候选）**：以阶段二 handoff-ready 为粒度终点，不要求原子；AI 判断并举证节点是否仍是问题族、生成比较攻击候选子结构，创作者只作保持／继续展开／否定三态。继续展开时以该节点为局部原问复用现有阶段一方法，允许局部深度不一；沿用局部 G.1.3 原判据与向上冒泡纪律，不自动重开全局 coverage search。
+
+### 2026-09-28 · 当前状态补记（D-040／E-059）
+
+已形成 [S1→S2 交接合同候选 v0.1.0](attachments/s1-to-s2-handoff-contract-v0.1.0.md)，当前为 `draft` / `bilateral-interface-review-passed` / `pending-external-cross-review`。双边 Codex Reviewer side reviews 均 PASS（S1 原 MINOR 已闭合），但 scope 仅为接口候选兼容性，不能替代 formal cross review。创作者按 [D-040](01-decision/D-040-handoff-contract-wait-external-cross-review.md) 选择等待外部 independent provider 审查同一版本后再冻结；意见尚未产生。未改方法、Core/Schema/Adapter/host，未开始 S2 集成、试跑或求解；①-b不单独移交，run-02 局部接受不授权 S2。详见 [E-058](02-execution/E-058-s1-s2-handoff-contract-draft-and-bilateral-review.md) 与 [E-059](02-execution/E-059-record-cross-gate-disposition.md)。
 
 ## 成功标准与验收意图
 
@@ -131,3 +135,23 @@ D/E/A 分别记录于 01-decision/、02-execution/、03-audit/ 并由同名 Mark
 **独立审计 A-001 已落盘并闭合**（[A-001](03-audit/A-001-rule-g-bounded-convergence.md)，`source: independent`，auditor＝grok-4.7，scope＝规则 G 停止与收束机制）：**verdict＝fail**，三项 **required／high**——**F-001** 停止条件①不是开放式问题上的有限可验证判据（却是唯一合法停止出口）；**F-002** 门禁只认失败搜索式停止、缺「剩余遗漏已有界＋回流触发」的可检查交接状态；**F-003**「还能想到一个差异」与「该差异改变阶段一应否交接」没有分开的谓词。创作者裁定**全部 `fixed`**，据 [D-027](01-decision/D-027-a001-closure-v016.md) / [E-040](02-execution/E-040-v016-a001-closure.md) 以**最小闭合集**形成 **v0.16**（G.1.3 交接相关增量／G.1.4 收束前提／G.1.5 残余遗漏登记／收束判据＋第三态；同步 G.2、G.3、操作表、出口第 8 项、收束段、风险表、观察项；**规则 F 与规则 E 段逐字未改**）→ **原「三项闭合前不得放行规则 G 收束门禁」的阻断已解除**。**后续（2026-09-27）：创作者指出 G.1 收束判据与 G.3／出口第 8 项尚未完全同步**（G.3 只要求「已发现增量都已处理」→ 会出现「刚加入一个结构改变、就因该改变已处理完而立即交接」的漏洞），据 [D-028](01-decision/D-028-v0161-gate-sync-run10.md) / [E-041](02-execution/E-041-v0161-freeze-run10.md) 做**只改两处**的门禁一致性修正形成 **v0.16.1**（**G.3 引用 G.1 四项收束判据＋两状态区分＋收束攻击仍可构造新差异**；**出口第 8 项增加「问题集是否已冻结且唯一」与「最新增量处理后是否在更新结构上重跑收束攻击并得到未再产生增量的结果」两项检查**；**未触规则 F／规则 E／攻击指令／候选清算**，已核对三段逐字相同），**冻结为 run-10 基线**并**已启动 run-10**（continuation，继承 [续跑状态冻结 01](attachments/continuation-state-frozen-01.md)）。**未改 v0.15.1／v0.16、未改 status/progress。**
 
 2026-09-27 历史状态补记（截至 D-033／E-048；当前状态见上方 D-035／E-050）：当时方案为 **v0.16.1**（v0.16 的门禁一致性最小修正版，**冻结为 run-10 基线**），**尚无通过检验的方法证据、S2 未到出口**：run-02 判定未通过并保留局部正证据；run-03 证据经裁定不采信（保留为历史样本）；**run-04 记录接受但不通过交接门禁**——新阻断性问题是**变量化被错误地视为消除了残余差异，从而绕过规则 C**（[D-015](01-decision/D-015-run04-gate-fail-variable-grading.md)），据此形成 v0.11 的变量分级（**其口径已被 v0.12 取代**：V-阻断会把阶段二本应回答的客观命题误判为阶段一必须清零的事项）。待修文本项：**M1／M2 已按 [D-016](01-decision/D-016-m1-m2-fixes.md) 修复**（需求接口须指名 L1 需产出的具体信息/精度项；变量取值域明确为非结构记录、须标依据类型与三项影响）；继续观察：**12/14 触发无外部判据**。**run-05 已在 v0.11.1 上完成**：交接门禁不通过，但创作者判定**执行行为正确、暴露的是方法规则内部死循环**；据此据 [D-017](01-decision/D-017-rule-f-rebuild-b1b2b3.md) 重构规则 F（B1／B2／B3 分类＋resolution owner 门禁）并形成 **v0.12**，再据 [D-018](01-decision/D-018-v0121-consistency-freeze.md) 做文本一致性小修形成 **v0.12.1**（冻结为 run-06 基线）。**run-06 已完成**：按方法自身的交接门禁判定为**「通过」**（无悬空未决项、0 回问项；出口第 1–7 项通过、第 8 项条件通过），**创作者最终判定（2026-09-27）：run-06 不通过**（coverage failure／单轴坍缩）→ 据 [D-020](01-decision/D-020-run06-fail-coverage-rule-g.md) 新增规则 G（问题集充分性／覆盖攻击）并形成 **v0.13**；run-06 案例产物封存、Q1／Q2 不再求解；D-019 的「门禁通过」结论作废（其「不另立 B1（精度）」子判断仍有效）；文首 L31「13/13」与 14 行操作表的计数差**已在 v0.13 一并修正**（原登记于 [E-028](02-execution/E-028-probe01-v0121-run06.md)）；**v0.13.1 已冻结为 run-07 基线**；**run-07 最终判定：未通过**（覆盖搜索近视：只沿已采纳轴做局部变化、未搜索正交 AND 型维度，候选池中已出现的非空间尺度候选未在停止前受检；第 4 轮停止结论被实际反例证伪）→ 据 [D-022](01-decision/D-022-run07-fail-search-myopia.md) / [E-033](02-execution/E-033-v014-rule-g-breadth.md) 收紧规则 G 并形成 **v0.14**（正交搜索＋候选差异清算＋停止条件收紧），再按创作者在审阅中提出的**通用攻击指令**据 [D-023](01-decision/D-023-v015-general-attack.md) 重写规则 G 形成 **v0.15**，再按创作者要求做两处最小一致性修正（F.2 精度口径：只有当前输入实际存在创作者侧精度要求时才立 B1；文末版本身份残留清除）据 [D-024](01-decision/D-024-v0151-precision-identity-freeze.md) 形成 **v0.15.1 并冻结为 run-08 基线**；**run-08 已完成**：通用攻击指令生效（4 轮、多次换向、候选差异清算逐项、B1＝0），但**攻击未达停止条件 → G.3 阻断交接**（条件性候选结构＋「仍可能遗漏」声明）。**创作者判定（2026-09-27）：保留绝大多数正证据，唯一阻断性执行错误为 U-6**（违反 G→E 接口）→ 已按 [D-025](01-decision/D-025-run08-u6-correction-run09.md) 整改 run-08 记录（**B2 已收敛＝所求带条件槽（L1-6 已采纳）＋B3 新设 S-2**；台账 6 项；B1 仍 0；门禁结论不变），方法正文**暂不改**；以修正结构**续跑 run-09**（continuation）。**run-09 已完成**：第 5 轮长出新维度（度量自由度／确定性 → **L1-8＋S-3**）、收敛三处读法口径（Q1 存在性／Q3 度量／Q5 实际确定性）、**修复继承台账两处形式缺口**（U-5 客观部分补转写 **S-4**；U-6 拆为 U-6a／U-6b）、候选差异 L-1…L-14 逐项清算；**停止条件仍未满足**（约束集在本轮内两次更新 → 最终口径下尚无完整一轮；U-2 的 OR 未裁决）→ **G.3 阻断交接**。**创作者裁定 run-09 运行行为通过**（**只评价执行行为**），**暂不启动 run-10** 并**冻结续跑状态**（[续跑状态冻结 01](attachments/continuation-state-frozen-01.md)），**启动独立的「有界收束机制」方法审计**（先答机制问题、不设计补丁；期间不改 v0.15.1、不开 run-10）；观察项**「coverage 长期不收敛」**（两个 continuation cycle 均在高产状态结束且无合法停止）。**后续**：审计 A-001 判 **fail**（三项 required）→ 创作者裁定**全部 fixed** → v0.16 最小闭合 → **v0.16.1 门禁一致性修正** → **run-10 完成并首次达到可交接第三态**（详见 [运行 10](attachments/probe-01-stage1-test-v0.16.1-run-10.md) 与 [D-029](01-decision/D-029-frozen-state-and-line-count-fixes.md)）；**run-09 之后的权威继承状态为 [续跑状态冻结 02](attachments/continuation-state-frozen-02.md)**（基线＝v0.16.1）。**U-8 不成立为 B1**（沿用 run-06 口径），run-07 的「F.3 未通过」随之不成立，但整轮仍不交接。未处理项另含「L1/L2 分层对父级 W2/W3 的潜在影响」。S2 出口前仍应有一次阶段审视（`self`；R4 交付前的独立审仍由 Root `I-004` 约束）。**未通过门禁前不进入 S2**；run-08 是否执行待创作者裁定，未落定前不把 S2 记为完成。
+
+### 2026-09-28 · 阶段快照（D-041／E-060）
+
+[S1→S2 交接合同 v0.1.1](attachments/s1-to-s2-handoff-contract-v0.1.1.md) 已仅作为接口合同冻结：A-003 verdict=pass，A-002 F-001/F-002 已 fixed，F-003/F-004 已吸收，A-003 F-001 建议已响应。冻结不表示 S1 完成、不表示方法或案例结构已接受，也不授权实际 S2 integration、trial 或 solving；具体范围须满足合同门禁且另获授权。[D-041](01-decision/D-041-accept-a003-and-freeze-handoff-contract.md) / [E-060](02-execution/E-060-close-a002-and-freeze-handoff-contract.md)。
+
+在该记录时点，S1 仍为当前主线，[presentation-03](attachments/case-structure-presentation-03.md) 中 ①-a 的三态与父层结构尚待创作者裁定（后由 D-042／E-061 记录裁决）。I-401 保持 open，I-402 保持 collecting。
+
+### 2026-09-28 · 阶段快照（D-042／E-061）
+
+创作者已接受 [presentation-03](attachments/case-structure-presentation-03.md) 当前呈示的父层结构，并选择接受①-a「空间延展」及保持当前粒度；记录见 [D-042](01-decision/D-042-accept-parent-presentation-03.md) / [E-061](02-execution/E-061-record-parent-presentation-03-accepted.md)。R-1／R-2／R-3 按呈示保留为 residual，不关闭或重新打开 coverage search；S-1～S-4 与 B3-b-01 继续作为 S1 handoff package 保留。
+
+这项结构确认不表示 S2 handoff/readiness passed。该记录时点尚未执行具体范围的合同门禁核实；W2／S2 未启动。I-401 仍为 open，I-402 仍为 collecting；v0.17.0 保持 draft/unaccepted，v0.16.1 run-10 baseline 不变；GOAL status/progress 不变。
+
+### 2026-09-28 · 阶段快照（E-062）
+
+S-1～S-4 的 F.2“ S1 不能回答原因”已补入 [S1 交接预检补证 01](attachments/s1-handoff-preflight-01.md)；B3-b-01 的既有 F.2 记录不变。该记录时点尚未执行父层 Rule G 收束攻击；未表示攻击已发现新结构增量。
+
+### 2026-09-28 · 当前状态补记（E-063）
+
+在 presentation-03 已确认范围上，按合同规范基线 v0.16.1 完成 Rule G 收束攻击与剩余候选清算，四项收束判据均有证据；S-1～S-4 F.2 原因补证及 R-1～R-3 owner／依赖／不阻断理由／回流 trigger 已整理在 [S1 交接预检补证 01](attachments/s1-handoff-preflight-01.md)。该范围的 S1 handoff package 通过冻结合同 v0.1.1 的 S1 侧预检；具体结构尚未实际交给 W2，S2 未启动，仍待创作者单独授权。R-1／R-2／R-3 保持 residual；I-401 open、I-402 collecting；v0.17.0 draft/unaccepted；GOAL status/progress 不变。详见 [E-063](02-execution/E-063-s1-handoff-preflight-g-closure.md)。
