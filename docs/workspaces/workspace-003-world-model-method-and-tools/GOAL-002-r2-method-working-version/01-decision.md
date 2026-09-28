@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-28
-version: 0.9.10
+version: 0.9.14
 ---
 
 # 决策记录 · GOAL-002
@@ -17,7 +17,7 @@ version: 0.9.10
 | 工作包 | 计划文件 / 落点 | 说明 |
 |--------|-----------------|------|
 | W1 | **已完成**（2026-09-26） | 条款映射与差异登记；产出 [`01-decision/D-004-w1-clause-mapping.md`](01-decision/D-004-w1-clause-mapping.md) |
-| W2 | **有界修订中**，GOAL-004 承载阶段一方法；当前顺序处理 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md) 的共享研究闭环 | 当前状态见 [D-015](01-decision/D-015-w2-bounded-reflow.md)～[D-024](01-decision/D-024-s1-host-baseline-accepted.md)；[v0.4](attachments/world-model-method-working-version-v0.4.md) / [A-008](03-audit/A-008-a007-closure-check.md) 保留为历史版本与闭审事实；GOAL-005 core、接入方案边界/顺序、schema 与两个 adapter 设计基线均已接受（GOAL-005 D-004～D-006）；S1 试跑设计 v0.1 经案例纯度修正后已接受，完整 S1 host v0.16.2 已经 Reviewer 复核并由创作者接受为本轮试跑基线（GOAL-005 D-010／GOAL-004 D-038）。试跑绑定包已固定版本与范围；实际研究/试跑未执行，仍需单独授权；不与 GOAL-004 的 Probe 1 并行，不增设 W5 或进度分母；升格路径仍待 I-203 裁决 |
+| W2 | **有界修订中**，GOAL-004 承载阶段一方法；当前顺序处理 [GOAL-005](../GOAL-005-shared-research-loop/00-meta.md) 的共享研究闭环 | 当前状态见 [D-015](01-decision/D-015-w2-bounded-reflow.md)～[D-027](01-decision/D-027-a001-f001-minimal-clarification-authorized.md)；[v0.4](attachments/world-model-method-working-version-v0.4.md) / [A-008](03-audit/A-008-a007-closure-check.md) 保留为历史版本与闭审事实；GOAL-005 core、接入方案边界/顺序、schema 与原两个 adapter 设计基线均已接受（GOAL-005 D-004～D-006）；S1 试跑设计 v0.1 经案例纯度修正后已接受，完整 S1 host v0.16.2 已经 Reviewer 复核并由创作者接受为本轮试跑 host 基线（GOAL-005 D-010／GOAL-004 D-038）。GOAL-005 D-012 接受一次绑定试跑为有效调用/取证样本及 Core outcome，但未整体接受 E/F/G 回流；A-001/F-001 对 Rule E 准入/目标事实边界给出 conditional，GOAL-005 D-014 已依据修正证据和独立复核 A-002 按 `fixed` 路径关闭 F-001。配套 S1 adapter v0.1.1 与 host v0.16.3 仍为 draft/unaccepted，不替代已接受基线；该闭合不构成方法验证，也不授权新的 research call/盲试。GOAL-004 Probe 1/父层确认仍暂停，不与当前顺序切片并行，不增设 W5 或进度分母；升格路径仍待 I-203 裁决 |
 | W3 | [GOAL-003](../GOAL-003-w3-minimal-structures/00-meta.md) 承载；建立依据 [D-014](01-decision/D-014-w3-subgoal-setup.md) 保留 | S1 两结构及字段映射草案已完成；S2 暂停，等待 GOAL-004 形成 W2 新版基线与影响交接；创作者逐字段可填性仍待核 |
 | W4 | 未写 | 适用性核对；走查记录是否并入交付包待 `I-202` 裁决 |
 
@@ -53,3 +53,6 @@ version: 0.9.10
 | D-022 | 2026-09-27 | 接受 S1 research-loop 试跑设计并授权形成窄 host 集成候选 | accepted | [D-022](01-decision/D-022-s1-trial-and-host-candidate.md) |
 | D-023 | 2026-09-27 | 授权形成并复核 S1 research-loop 集成方法候选 v0.16.2 | accepted | [D-023](01-decision/D-023-s1-host-v0162-integration.md) |
 | D-024 | 2026-09-28 | 接受 S1 research-loop 集成版 v0.16.2 为试跑 host 基线 | accepted | [D-024](01-decision/D-024-accept-s1-host-baseline-v0162.md) |
+| D-025 | 2026-09-28 | 记录授权执行一次 S1 research-loop 独立调用试跑 | accepted | [D-025](01-decision/D-025-s1-trial-execution-authorized.md) |
+| D-026 | 2026-09-28 | 记录 run-01 有效样本裁决及 Rule E 边界审查方向 | accepted | [D-026](01-decision/D-026-run01-sample-accepted-e-f-review.md) |
+| D-027 | 2026-09-28 | 响应 A-001/F-001 并授权 S1 Rule E 最小澄清候选 | accepted | [D-027](01-decision/D-027-a001-f001-minimal-clarification-authorized.md) |

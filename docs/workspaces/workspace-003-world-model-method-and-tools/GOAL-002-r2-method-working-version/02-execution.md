@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-09-26
 updated: 2026-09-28
-version: 0.9.11
+version: 0.9.16
 ---
 
 # 执行记录 · GOAL-002
@@ -40,7 +40,11 @@ version: 0.9.11
 | E-024 | 2026-09-27 | 记录 S1 窄 host 集成候选形成并通过只读复核 | recorded | [E-024](02-execution/E-024-s1-host-candidate-review.md) |
 | E-025 | 2026-09-27 | 记录 S1 research-loop 集成候选 v0.16.2 形成与复核 | recorded | [E-025](02-execution/E-025-s1-host-v0162-integration-review.md) |
 | E-026 | 2026-09-28 | 记录接受 S1 host 基线并准备试跑绑定包 | recorded | [E-026](02-execution/E-026-s1-host-baseline-and-trial-binding.md) |
+| E-027 | 2026-09-28 | 记录一次授权 S1 research-loop 独立调用试跑完成 | recorded | [E-027](02-execution/E-027-s1-independent-call-trial-run-01.md) |
+| E-028 | 2026-09-28 | 记录 S1 run-01 授权链与运行记录复核通过 | recorded | [E-028](02-execution/E-028-s1-trial-record-rereview.md) |
+| E-029 | 2026-09-28 | 记录 run-01 样本接受与 Rule E 边界审查方向 | recorded | [E-029](02-execution/E-029-run01-disposition-recorded.md) |
+| E-030 | 2026-09-28 | 记录 A-001/F-001 澄清修正与闭合 | recorded | [E-030](02-execution/E-030-a001-f001-closure-recorded.md) |
 
 ## 事实边界
 
-W1 已完成；W2 按 D-015 有界回流，当前未完成。GOAL-004 承载阶段一方法改进，其 Probe 1 与父层确认暂停；GOAL-005 作为 W2 内当前顺序切片，core、接入方案边界/顺序、schema 与两个 adapter 组件设计基线均已由创作者接受，四份 v0.1.0 候选均经独立复核。S1 设计参照 v0.16.1 和经纯度修正的试跑设计 v0.1 已接受；完整 S1 host v0.16.2 已通过 Reviewer 复核并由创作者接受为本轮试跑基线，绑定包已固定身份与边界。没有与 GOAL-004 Probe 1 或父层确认并行；冻结的 v0.16.1、v0.17.0 与共享组件未修改。没有运行研究或试跑，实际调用仍须另行授权。v0.4/A-008 的历史事实保留；开放 required audit finding 仍为 0，本次需求未登记为审计意见。GOAL-002 progress 保持 25%（W1～W4 四个工作包）；W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。
+W1 已完成；W2 按 D-015 有界回流，当前未完成。GOAL-004 承载阶段一方法改进，其 Probe 1 与父层确认暂停；GOAL-005 作为 W2 内当前顺序切片，core、接入方案边界/顺序、schema 与两个 adapter 组件设计基线均已由创作者接受，四份 v0.1.0 候选均经独立复核。S1 设计参照 v0.16.1 和经纯度修正的试跑设计 v0.1 已接受；完整 S1 host v0.16.2 已通过 Reviewer 复核并由创作者接受为本轮试跑基线，绑定包已固定身份与边界。按 GOAL-005 D-011 已授权并完成一次 S1 独立调用（E-014）；创作者按 D-012 接受其为有效调用/取证样本及 Core outcome，但未整体接受 E/F/G 回流。其后 GOAL-005 A-001/F-001 已按 D-014 以 `fixed` 路径关闭，依据为 S1 adapter v0.1.1 / host v0.16.3 的修正候选与独立复核 A-002；两份候选仍 draft/unaccepted，不替代已接受基线，不构成方法验证或新调用授权。没有与 GOAL-004 Probe 1 或父层确认并行；冻结的 v0.16.1、v0.17.0 与已接受共享组件未修改。v0.4/A-008 的历史事实保留；GOAL-002 progress 保持 25%（W1～W4 四个工作包）；W3 两份 draft v0.1 与字段追溯已形成，S1 完成，S2 暂停等待 W2 新版及影响交接，创作者逐字段可填性未通过。W4 未开始，原正式判据及 I-202/I-203/I-204 保留。

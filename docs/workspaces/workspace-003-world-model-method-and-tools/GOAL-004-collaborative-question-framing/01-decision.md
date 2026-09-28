@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 3.10.0
+version: 3.11.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -51,3 +51,4 @@ doc: decision
 | D-036 | 2026-09-27 | 确认①-b参数化尺度档案达到局部 handoff-ready 粒度；整体交接仍待确认 | accepted | [D-036](01-decision/D-036-accept-local-b-granularity.md) |
 | D-037 | 2026-09-27 | 授权形成并复核 S1 research-loop 集成方法候选 v0.16.2 | accepted | [D-037](01-decision/D-037-s1-research-loop-host-v0162.md) |
 | D-038 | 2026-09-28 | 接受 v0.16.2 为 S1 research-loop 试跑 host 基线 | accepted | [D-038](01-decision/D-038-accept-s1-research-host-v0162.md) |
+| D-039 | 2026-09-28 | 授权形成 Rule E 研究证据准入澄清候选 | accepted | [D-039](01-decision/D-039-rule-e-research-question-clarification-authorized.md) |

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.0
+version: 5.5.3
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -67,3 +67,6 @@ doc: execution
 | E-052 | 2026-09-27 | 形成父层候选呈示 03 并诊断①-a的 HRO 候选 | recorded | [E-052](02-execution/E-052-parent-presentation-03-and-spatial-hro.md) |
 | E-053 | 2026-09-27 | 形成并复核 S1 research-loop 集成候选 v0.16.2 | recorded | [E-053](02-execution/E-053-s1-research-loop-host-v0162-review.md) |
 | E-054 | 2026-09-28 | 记录 v0.16.2 被接受为 S1 research-loop 试跑 host 基线 | recorded | [E-054](02-execution/E-054-s1-host-baseline-accepted.md) |
+| E-055 | 2026-09-28 | 记录 v0.16.2 的一次授权 S1 research-loop 调用已完成 | recorded | [E-055](02-execution/E-055-s1-research-loop-trial-run-01.md) |
+| E-056 | 2026-09-28 | 记录创作者接受 S1 调用样本但保留 Rule E 边界审查 | recorded | [E-056](02-execution/E-056-s1-trial-sample-disposition.md) |
+| E-057 | 2026-09-28 | 记录 S1 Rule E 澄清候选与 F-001 独立复核 | recorded | [E-057](02-execution/E-057-s1-rule-e-clarification-candidate-reviewed.md) |
