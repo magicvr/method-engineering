@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.3.9
+version: 0.3.10
 ---
 
 # 审计 · GOAL-005
@@ -23,8 +23,9 @@ version: 0.3.9
 |------|------|--------|-------|---------|---------------|------|
 | A-001 | 2026-09-28 | independent | Rule E 候选问题准入与目标事实边界 | conditional | 0（F-001 已由 D-014 fixed） | [A-001](03-audit/A-001-rule-e-question-admission-boundary.md) |
 | A-002 | 2026-09-28 | independent | A-001/F-001 修正证据复核 | pass | 0 | [A-002](03-audit/A-002-f001-closure-review.md) |
-| A-003 | 2026-09-28 | independent | run-02 试跑记录与回流建议复核 | accept with notes | 0 | [A-003](03-audit/A-003-run02-trial-record-review.md) |
+| A-003 | 2026-09-28 | independent | run-02 试跑记录与回流建议复核 | pass（原意见用语 `ACCEPT WITH NOTES`；两项 MINOR 保留，均非 required） | 0 | [A-003](03-audit/A-003-run02-trial-record-review.md) |
+| A-004 | 2026-09-28 | independent | GOAL-005 六项成功标准、信息门禁、意见响应与有界结项条件 | pass | 0 | [A-004](03-audit/A-004-goal-closeout.md) |
 
 ## 结论状态
 
-尚未到达正式目标级审计节点。共享 core/schema/adapters 与 S1 调用试跑设计基线已由创作者接受（D-004/D-006/D-008），S1 host v0.16.2 已由创作者接受为 run-01 host 基线（D-010）。run-01 按 D-011 完成（E-014），创作者按 D-012 接受其为有效样本和 Core outcome，但不整体接受 E/F/G 回流。A-001 对 Rule E 候选问题准入与目标事实边界给出 conditional 意见；其 required F-001 已由 D-014 按 `fixed` 路径关闭，独立闭合复核见 A-002，修正事实见 E-017。run-02 按 D-015 授权并完成（E-019）；A-003 独立复核为 ACCEPT WITH NOTES，接受范围是保存为有界行为样本；该复核时创作者尚未裁决候选结构，且无法核实原始隔离/访问轨迹。其后创作者按 D-016 接受该样本、保留两项 MINOR，并按 D-017 接受两个局部 B3 当前粒度；相关 F.2/F.3 结构见 run-02 回流整理记录。没有执行全局 Rule G 收束，因此总体 S1→S2 handoff-ready 未建立。以上均不等于整体目标审计、一般版本基线接受或方法普遍验证。本文件不将设计接受、调用运行或局部候选裁决记为目标级审计结论。
+独立目标级关门意见见 [A-004](03-audit/A-004-goal-closeout.md)：verdict=`pass`，开放 required=0。创作者按 [D-018](01-decision/D-018-goal-closeout.md) 结项，执行记录见 [E-022](02-execution/E-022-goal-closed.md)。关门范围限于 GOAL-005 的共享研究闭环设计与两次有界 S1 样本；不意味着 S2 已集成/试跑、方法普遍有效或整体 S1→S2 handoff-ready。A-003 两项 MINOR 的回应、run-02 无法重放的过程细节、未准入的 household storage 与两个 S2 求解项的目标侧未知均按各自范围保留；一般 adapter/host 版本边界见 A-004 与 E-022。

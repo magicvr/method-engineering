@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.5.13
+version: 0.5.14
 ---
 
 # 决策记录 · GOAL-005
@@ -35,3 +35,4 @@ version: 0.5.13
 | D-015 | 2026-09-28 | 接受 run-02 设计并授权一次 S1 research-loop 调用 | accepted | `01-decision/D-015-run02-trial-accepted-and-authorized.md` |
 | D-016 | 2026-09-28 | 接受 run-02 为有界行为样本并授权一次候选协调 | accepted | `01-decision/D-016-run02-sample-accepted-and-reconciliation-authorized.md` |
 | D-017 | 2026-09-28 | 接受 run-02 两项局部 B3 候选并保留当前粒度 | accepted | [D-017](01-decision/D-017-run02-local-candidates-accepted.md) |
+| D-018 | 2026-09-28 | 按独立关门审计通过结项 GOAL-005 | accepted | [D-018](01-decision/D-018-goal-closeout.md) |

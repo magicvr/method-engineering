@@ -5,7 +5,7 @@ status: active
 parent: GOAL-002-r2-method-working-version
 created: 2026-09-27
 updated: 2026-09-28
-version: 0.8.15
+version: 0.8.16
 ---
 
 # 执行记录 · GOAL-005
@@ -35,7 +35,12 @@ version: 0.8.15
 | E-019 | 2026-09-28 | 完成一次隔离 S1 research-loop run-02 调用 | recorded | [E-019](02-execution/E-019-s1-run02-trial-completed.md) |
 | E-020 | 2026-09-28 | 完成 run-02 候选协调与 Rule F.2 四字段转写 | recorded | [E-020](02-execution/E-020-run02-candidate-reconciliation.md) |
 | E-021 | 2026-09-28 | 记录 run-02 两项局部 B3 候选获创作者接受 | recorded | [E-021](02-execution/E-021-run02-local-candidate-disposition.md) |
+| E-022 | 2026-09-28 | 按 A-004 与 D-018 结项 GOAL-005 | recorded | [E-022](02-execution/E-022-goal-closed.md) |
 
 ## 事实边界
 
-GOAL-005 五件套、台账目录、共享研究 core 候选、P-005 门禁接口、接入方案 v0.2 及四份独立 v0.1.0 组件候选均已落盘并通过独立复核；创作者已接受 core、schema、两个 adapter 的组件设计基线及接入方案的边界/顺序基线，并裁决集中共享边界。S1 host v0.16.1 已选为试跑设计参照，试跑设计 v0.1 经指定的案例纯度修正后由创作者接受。按授权先形成窄接口 overlay v0.1.0 并经 Reviewer 复核（E-010），再按 D-009 从冻结 S1 v0.16.1 派生完整方法集成候选 v0.16.2；该版本由只读 Reviewer 独立复核为 ACCEPT（E-011），后由创作者接受为 run-01 host 基线（D-010）。run-01 按 D-011 完成（E-014），创作者按 D-012 接受为有效调用/取证样本及 Core outcome `sufficient-for-next-step`，但未整体接受 E/F/G 回流；复核见 E-015。A-001 对 Rule E 候选问题准入/目标事实边界给出 conditional；按 D-013 形成的 S1 adapter v0.1.1 与 host v0.16.3 经 A-002 复核后，F-001 已按 D-014 以 `fixed` 路径闭合，二者仍是一般候选而非通用基线。其后 run-02 设计 v0.2 按 D-015 接受并绑定一次调用；该调用已完成（E-019 / run-02 记录），4 条查询、4 份成功打开来源和 2 份 403 尝试未超预算。独立复核 A-003 为 ACCEPT WITH NOTES：可保存为单次有界行为样本，但提示候选去重与 Rule F B3 文本完整性需在创作者正式接受候选前处理；隔离/访问细节无原始轨迹，未被独立重放。创作者尚未裁定 run-02 的 E/F/G 候选。Core、Schema、S1/S2 adapter v0.1.0、S1 host v0.16.2、run-01 与其记录均未修改；没有 S2 调用、Probe 1 或全局 coverage search。
+GOAL-005 五件套、台账目录、共享研究 core 候选、P-005 门禁接口、接入方案 v0.2 及四份独立 v0.1.0 组件候选均已落盘并通过独立复核；创作者已接受 core、schema、两个 adapter 的组件设计基线及接入方案的边界/顺序基线，并裁决集中共享边界。S1 host v0.16.1 已选为试跑设计参照，试跑设计 v0.1 经指定的案例纯度修正后由创作者接受。按授权先形成窄接口 overlay v0.1.0 并经 Reviewer 复核（E-010），再按 D-009 从冻结 S1 v0.16.1 派生完整方法集成候选 v0.16.2；该版本由只读 Reviewer 独立复核为 ACCEPT（E-011），后由创作者接受为 run-01 host 基线（D-010）。run-01 按 D-011 完成（E-014），创作者按 D-012 接受为有效调用/取证样本及 Core outcome `sufficient-for-next-step`，但未整体接受 E/F/G 回流；复核见 E-015。A-001 对 Rule E 候选问题准入/目标事实边界给出 conditional；按 D-013 形成的 S1 adapter v0.1.1 与 host v0.16.3 经 A-002 复核后，F-001 已按 D-014 以 `fixed` 路径闭合，二者仍是一般候选而非通用基线。其后 run-02 设计 v0.2 按 D-015 接受并绑定一次调用；该调用已完成（E-019 / run-02 记录），4 条查询、4 份成功打开来源和 2 份 403 尝试未超预算。独立复核 A-003 为 ACCEPT WITH NOTES：可保存为单次有界行为样本，但提示候选去重与 Rule F B3 文本完整性需在创作者正式接受候选前处理；隔离/访问细节无原始轨迹，未被独立重放。创作者按 D-016 接受 run-02 为有效、相对干净的有界行为样本；按 D-017 接受经 E-020 协调与 F.2 转写后的两项局部候选当前粒度。Core、Schema、S1/S2 adapter v0.1.0、S1 host v0.16.2、run-01 与其记录均未修改；没有 S2 调用、Probe 1 或全局 coverage search。
+
+## 结项事实
+
+独立目标级关门审计 A-004 verdict=`pass`、开放 required=0；六项成功标准均有直接证据。创作者按 D-018 结项，GOAL-005 status=`done`，并已同步工作区 goal-tree.md 的树与状态表。A-003 的两项 MINOR、run-02 隔离/访问过程无法独立重放、household storage 未准入和目标侧 B3 未知仍按原范围保留。结项不建立总体 S1→S2 handoff-ready，不授权 S2 集成/试跑/求解，也不宣称方法普遍有效；GOAL-002 与 Root 仍为 `active / 25%`。本次闭门为治理文档更新，未运行软件测试。
