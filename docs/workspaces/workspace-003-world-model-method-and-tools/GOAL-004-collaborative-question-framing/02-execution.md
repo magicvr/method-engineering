@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.21
+version: 5.5.23
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -86,4 +86,6 @@ doc: execution
 | E-071 | 2026-09-28 | 记录 run-11 Q1 B2/B3 独立审计为执行回归观察 | recorded | [E-071](02-execution/E-071-a010-q1-b2-b3-audit.md) |
 | E-072 | 2026-09-28 | 准备 S1 integration candidate 与 run-12 E2E 试跑设计和 binding | recorded | [E-072](02-execution/E-072-s1-e2e-integration-trial-package-prepared.md) |
 | E-073 | 2026-09-28 | 修正 run-12 封装边界、projection hash 链并形成最终 binding v0.1.1 | recorded | [E-073](02-execution/E-073-run12-packaging-and-binding-v011.md) |
-| E-074 | 2026-09-28 | Run-12 隔离失败并保全完整 runner / creator / tool trace | recorded | [E-074](02-execution/E-074-run12-invalidated-isolation.md) |
+| E-074 | 2026-09-28 | 记录 run-12 初次隔离判定与完整 trace（后由 E-075 复核） | recorded | [E-074](02-execution/E-074-run12-invalidated-isolation.md) |
+| E-075 | 2026-09-28 | 复核 run-12 global bootstrap context 来源与隔离范围 | recorded | [E-075](02-execution/E-075-run12-bootstrap-context-isolation-review.md) |
+| E-076 | 2026-09-28 | 记录 run-12 有限行为样本裁决及 bootstrap 偏差边界 | recorded | [E-076](02-execution/E-076-run12-limited-sample-disposition.md) |
