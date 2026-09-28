@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.17
+version: 5.5.19
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -83,3 +83,5 @@ doc: execution
 | E-068 | 2026-09-28 | 记录 run-11 准备包 v0.1.2、A-007 闭合与 A-008 独立复核 | recorded | [E-068](02-execution/E-068-run11-package-v012-a008-review.md) |
 | E-069 | 2026-09-28 | 记录 run-11 v0.17.2 单次 S1 试跑输出与 handoff 判断候选状态 | recorded | [E-069](02-execution/E-069-run11-v0172-semantic-zoom-trial.md) |
 | E-070 | 2026-09-28 | 记录 A-009 三项 required finding 的 fixed 响应及边界 | recorded | [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md) |
+| E-071 | 2026-09-28 | 记录 run-11 Q1 B2/B3 独立审计为执行回归观察 | recorded | [E-071](02-execution/E-071-a010-q1-b2-b3-audit.md) |
+| E-072 | 2026-09-28 | 准备 S1 integration candidate 与 run-12 E2E 试跑设计和 binding | recorded | [E-072](02-execution/E-072-s1-e2e-integration-trial-package-prepared.md) |

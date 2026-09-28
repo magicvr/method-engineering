@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.5.8
+version: 0.5.9
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -22,6 +22,7 @@ doc: audit
 | A-007 | 2026-09-28 | 独立复核 S1 run-11 试跑准备包 v0.1.1 | **fail**（F-001 MAJOR：输入上下文未逐字一致；F-002 MINOR：停止点可能早于出口检查；未执行试跑） | [A-007](03-audit/A-007-run11-trial-package-review.md) |
 | A-008 | 2026-09-28 | 复核 run-11 准备包 v0.1.2 对 A-007 findings 的闭合 | **pass**（Reviewer verdict `ACCEPT WITH NOTES`；A-007 F-001/F-002 fixed；另有 1 项非阻断 MINOR note） | [A-008](03-audit/A-008-run11-v012-package-closure-review.md) |
 | A-009 | 2026-09-28 | 独立复核 run-11 试跑行为 | **fail（原始 verdict 保留；F-001/F-002/F-003 均按 `fixed` 响应，N-001 保留）** | [A-009](03-audit/A-009-run11-behavior-review.md) |
+| A-010 | 2026-09-28 | 独立复核 run-11 Q1 的 B2/B3 归类边界 | **pass（v0.17.2 Rule F 足够；初始错分登记为 runner regression observation）** | [A-010](03-audit/A-010-run11-q1-b2-b3-boundary-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -101,3 +102,16 @@ A-007 原始 verdict `fail` 保留为对准备包 v0.1.1 的历史判断。独�
 | A-009 N-001 | non-blocking / MINOR | non-blocking note retained | 作为备注保留；不转为 required finding，也不标记为已关闭；D-046 / E-070 |
 
 七项行为观察的处置保持原意见所载：#1 pass、#2 fail、#3 pass（有污染说明）、#4 fail、#5 pass（证据有限）、#6 pass、#7 pass。“true trigger vs checklist”仍为 non-gating。v0.17.2 继续为 `draft/unaccepted`；不改 v0.16.1/run-10 证据、方法、设计、binding、projection 或 transcript。D-045 的单次试跑范围已耗尽，不授权重跑；未发生实际 handoff、transfer 或 S2。GOAL status/progress 与 I-401/I-402 保持不变。
+
+## A-010 · 独立复核 run-11 Q1 的 B2/B3 归类边界（2026-09-28）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；read-only）
+- **类型 / scope**：narrow behavior/method-boundary review / 仅审查 run-11 中“确定原问所指的空间对象／范围”最初被归为 B3 而非 B2 的原因，以及 v0.17.2 Rule F 是否足够明确；不复核 run-11 的其他 A-009 findings、coverage 收束或 handoff 判断。
+- **verdict**：pass（Reviewer 结论：`EXECUTION FAILURE / RULE F SUFFICIENT`）
+- **required findings**：0
+- **非阻断观察**：初始 B3 分类属于 runner failure / regression observation；不要求修改方法正文。
+
+独立复核认为，runner 因输入没有空间事实而将“世界所指对象／范围”归为 B3，混淆了“原问所指为何物”的 S1 framing 与“该对象的实际空间范围如何”的 B3 客观求解。Rule B 对指称歧义的路由及 Rule F 对 B2 理解／结构与 B3 目标世界命题的区分，已足以处理这一边界。创作者对 Q1→Q2 结构的接受没有提供“overall world”作为答案；runner 随后的 referent-level 说明可作为对指称对象的 B2 收敛解释，但不建立任何实际边界或空间大小。
+
+本意见仅回答错分原因与规则充分性；**不追溯改写 A-009 或 D-046 的 run-11 处置，不把 Q1 自动改记为已收敛，也不重开 handoff 判断**。run-11 的初始错分保留为 runner regression observation；v0.17.2 Rule F 不修改。
