@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.19
+version: 5.5.21
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -85,3 +85,5 @@ doc: execution
 | E-070 | 2026-09-28 | 记录 A-009 三项 required finding 的 fixed 响应及边界 | recorded | [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md) |
 | E-071 | 2026-09-28 | 记录 run-11 Q1 B2/B3 独立审计为执行回归观察 | recorded | [E-071](02-execution/E-071-a010-q1-b2-b3-audit.md) |
 | E-072 | 2026-09-28 | 准备 S1 integration candidate 与 run-12 E2E 试跑设计和 binding | recorded | [E-072](02-execution/E-072-s1-e2e-integration-trial-package-prepared.md) |
+| E-073 | 2026-09-28 | 修正 run-12 封装边界、projection hash 链并形成最终 binding v0.1.1 | recorded | [E-073](02-execution/E-073-run12-packaging-and-binding-v011.md) |
+| E-074 | 2026-09-28 | Run-12 隔离失败并保全完整 runner / creator / tool trace | recorded | [E-074](02-execution/E-074-run12-invalidated-isolation.md) |
