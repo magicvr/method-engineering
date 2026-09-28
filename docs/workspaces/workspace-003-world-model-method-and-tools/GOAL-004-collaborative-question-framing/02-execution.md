@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 5.5.15
+version: 5.5.17
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -81,3 +81,5 @@ doc: execution
 | E-066 | 2026-09-28 | 记录 A-005 复核通过并闭合 A-004 F-001 | recorded | [E-066](02-execution/E-066-a005-v0171-f001-closure.md) |
 | E-067 | 2026-09-28 | 完成 v0.17.2 最小一致性修订、独立复核并冻结为试跑基线 | recorded | [E-067](02-execution/E-067-v0172-consistency-freeze.md) |
 | E-068 | 2026-09-28 | 记录 run-11 准备包 v0.1.2、A-007 闭合与 A-008 独立复核 | recorded | [E-068](02-execution/E-068-run11-package-v012-a008-review.md) |
+| E-069 | 2026-09-28 | 记录 run-11 v0.17.2 单次 S1 试跑输出与 handoff 判断候选状态 | recorded | [E-069](02-execution/E-069-run11-v0172-semantic-zoom-trial.md) |
+| E-070 | 2026-09-28 | 记录 A-009 三项 required finding 的 fixed 响应及边界 | recorded | [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md) |

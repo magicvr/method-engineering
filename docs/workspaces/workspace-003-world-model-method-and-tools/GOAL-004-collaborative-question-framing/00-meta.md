@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.52.20
+version: 0.52.21
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -171,3 +171,9 @@ Reviewer 对原候选 v0.17.0 的独立只读审阅 verdict 为 fail；MAJOR F-0
 ### 2026-09-28 · run-11 准备包复核与单次试跑授权（D-045／E-068／A-008）
 
 run-11 准备包 v0.1.2 经 A-008 独立复核为 `pass`（原 verdict：`ACCEPT WITH NOTES`）；A-007 F-001/F-002 在 v0.1.2 中均按 `fixed` 闭合。A-008 留有一项非阻断 MINOR note：projection map v0.1.1 的第 316–317 行表头与分隔线为移除 examples 列而修改，不改变规范规则，本次未修改 map。创作者接受 v0.17.2 仅作为下一次单次隔离 S1 试跑基线，并授权该次试跑；隔离限于上下文／行为层面，不是平台 sandbox。方法仍为 `draft/unaccepted`，不宣称已验证，且不取代 v0.16.1/run-10 证据。截至 E-068，run-11 尚未开始；未发生 S1→S2 或节点级独立交接、W2/S2 启动或方法接受。I-401 仍 open，I-402 仍 collecting；GOAL status/progress 未变。详情与六项 SHA-256 见 [E-068](02-execution/E-068-run11-package-v012-a008-review.md)。
+
+### 2026-09-28 · run-11 行为判定与 A-009 响应（D-046／E-070）
+
+run-11 未证明达到 handoff-ready：Q1 仍为未解决的 B2、由 S1 持有；本轮未证成 G.1 覆盖收敛，且 AI 在创作者选择粒度前未攻击候选子结构。Runner 原先关于 Q1 B2 收敛及 handoff-ready 的陈述与完整 transcript 保留为原始证据，但不采纳为当前结论。创作者按 [D-046](01-decision/D-046-a009-run11-findings-fixed-response.md) 裁定 A-009 F-001、F-002、F-003 均以 `fixed` 路径响应；这是对当前结果／处置记录的修正，不表示运行行为被追溯改变。A-009 原始 `fail` verdict 与意见原文不变；N-001 作为非阻断备注保留。七项观察处置保持 #1 pass、#2 fail、#3 pass（有污染说明）、#4 fail、#5 pass（证据有限）、#6 pass、#7 pass；“true trigger vs checklist”仍为 non-gating。
+
+v0.17.2 仍为 `draft/unaccepted`，无方法修订或进一步试跑授权；D-045 的一次运行范围已用尽。v0.16.1/run-10 证据不变，未发生实际 handoff／transfer 或 S2。I-401 仍 open，I-402 仍 collecting；GOAL status/progress 不变。详情见 [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md)。

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-28
 parent: GOAL-002-r2-method-working-version
-version: 0.5.6
+version: 0.5.8
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -21,6 +21,7 @@ doc: audit
 | A-006 | 2026-09-28 | 独立复核 v0.17.2 的最小文本一致性与交接边界 | **pass**（Reviewer verdict `ACCEPT`；required=0） | [A-006](03-audit/A-006-v0172-text-consistency-review.md) |
 | A-007 | 2026-09-28 | 独立复核 S1 run-11 试跑准备包 v0.1.1 | **fail**（F-001 MAJOR：输入上下文未逐字一致；F-002 MINOR：停止点可能早于出口检查；未执行试跑） | [A-007](03-audit/A-007-run11-trial-package-review.md) |
 | A-008 | 2026-09-28 | 复核 run-11 准备包 v0.1.2 对 A-007 findings 的闭合 | **pass**（Reviewer verdict `ACCEPT WITH NOTES`；A-007 F-001/F-002 fixed；另有 1 项非阻断 MINOR note） | [A-008](03-audit/A-008-run11-v012-package-closure-review.md) |
+| A-009 | 2026-09-28 | 独立复核 run-11 试跑行为 | **fail（原始 verdict 保留；F-001/F-002/F-003 均按 `fixed` 响应，N-001 保留）** | [A-009](03-audit/A-009-run11-behavior-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -87,3 +88,16 @@ A-007 原始 verdict `fail` 保留为对准备包 v0.1.1 的历史判断。独�
 | A-008 projection-map note | MINOR | non-blocking note retained | v0.1.1 projection map 第 316–317 行表头与分隔线因删除 examples 列而调整；规范规则未变；未修改 map |
 
 本次闭合范围仅为 run-11 试跑准备包 v0.1.2。v0.17.2 仍是 draft/unaccepted；创作者按 [D-045](01-decision/D-045-run11-baseline-and-trial-authorization.md) 接受其为下一次单次隔离 S1 试跑基线并授权一次试跑，但截至 [E-068](02-execution/E-068-run11-package-v012-a008-review.md) 该试跑尚未开始。此记录不表示 S1→S2 交接、独立节点交接、W2/S2 启动或方法接受。
+
+## A-009 · 独立复核 run-11 试跑行为（2026-09-28）
+
+[A-009](03-audit/A-009-run11-behavior-review.md) 是对 run-11 transcript 与 v0.17.2 execution projection、v0.1.2 control design 的**试跑后独立行为审阅**，不是新一轮方法试跑。Reviewer 原始 verdict 为 `REJECT`（fail），原意见记录三项 required/open 与一项非阻断 MINOR note。原意见不作 disposition；创作者之后按 [D-046](01-decision/D-046-a009-run11-findings-fixed-response.md) 裁定三项 required 均以 `fixed` 路径响应，执行记录见 [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md)。此响应修正当前结果／处置记录，不追溯改变试跑行为或改写原意见；N-001 仍为保留的非阻断备注。
+
+| 来源 finding / note | 级别 | 响应状态 | 纠正性记录响应与可核对证据 |
+|---------------------|------|----------|--------------------------|
+| A-009 F-001 | required / BLOCKER | fixed | 不采纳 Q1 B2 已收敛及整体 handoff-ready 主张；Q1 保持未解决 B2 / S1-held；D-046 / E-070；原始 transcript 保留 |
+| A-009 F-002 | required / MAJOR | fixed | 记录 G.1 覆盖收敛判据在本轮未满足，不判 handoff-ready；D-046 / E-070 |
+| A-009 F-003 | required / MAJOR | fixed | 记录创作者选粒度前未观察到候选子结构攻击，本轮此项未满足，不判 handoff-ready；D-046 / E-070 |
+| A-009 N-001 | non-blocking / MINOR | non-blocking note retained | 作为备注保留；不转为 required finding，也不标记为已关闭；D-046 / E-070 |
+
+七项行为观察的处置保持原意见所载：#1 pass、#2 fail、#3 pass（有污染说明）、#4 fail、#5 pass（证据有限）、#6 pass、#7 pass。“true trigger vs checklist”仍为 non-gating。v0.17.2 继续为 `draft/unaccepted`；不改 v0.16.1/run-10 证据、方法、设计、binding、projection 或 transcript。D-045 的单次试跑范围已耗尽，不授权重跑；未发生实际 handoff、transfer 或 S2。GOAL status/progress 与 I-401/I-402 保持不变。
