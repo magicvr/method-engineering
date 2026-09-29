@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.53.1
+version: 0.53.3
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -189,3 +189,11 @@ Fresh-context Architect 对 run-15 与冻结 v0.18.2 作架构复核后，形成
 ### 2026-09-29 · run-16 binding preflight 完成，等待精确身份授权（E-103／A-021）
 
 沿用 run-15 已接受的 historical-anchor 整体试跑范围，只更新 run ID 与 S1 v0.18.3 method/projection 身份；原问仍为「世界有多大？」，未增加试跑目标或固定方法触发。run-16 五项 runner packet、source→projection map 与 control-side design/binding 已完成 hash preflight。独立 Reviewer 初审指出 map 行号 MAJOR 并要求澄清 bootstrap scope；两项均已响应，A-021 closure verdict=`ACCEPT`，未发现剩余实质 finding。最终 binding SHA-256：`3CC51E2B85BDA0D768FF75501C50DDD819D46BE0C372B22D2D50F8F680BA13B2`（12,736 bytes；完整 manifest 匹配）。详见 [E-103](02-execution/E-103-run16-v0183-package-preflight.md) 与 [A-021](03-audit/A-021-run16-package-preflight-review.md)。Run-16 仍为 `not-run`、binding `execution_authorization: not-granted`；现提交该精确身份供创作者授权。授权后启动前仍需按 binding 重新核验 packet、source/projection 与通用 bootstrap hash。方法仍为 draft/unaccepted；无实际 S1→S2 handoff 或 S2，I-401/I-402 与 GOAL status/progress 不变。
+
+### 2026-09-29 · v0.18.3 候选内容进入窄 scope 独立 closure review（D-061）
+
+创作者接受 v0.18.3 候选内容进入 fresh-context independent review，复审只针对 run-15 的 B 型 ambiguity 及 endless decomposition、B1、semantic zoom 冲突和新固定流程风险（[D-061](01-decision/D-061-v0183-candidate-independent-closure-review.md)）。v0.18.3 尚未冻结为 run-16 baseline；run-16 仍未启动，既有 draft binding 不构成执行授权。v0.18.2、GOAL status/progress、I-401/I-402 不变。
+
+### 2026-09-29 · v0.18.3 窄 scope closure review 通过（E-104／A-022）
+
+Fresh-context independent Reviewer 对上述窄 scope 给出 `ACCEPT`，required findings=0：run-15 的 B 型 ambiguity 已在文本层面闭合；未引入 endless decomposition、B1 失效、semantic zoom 冲突或新固定拆解流程。实际运行行为未验证。详见 [A-022](03-audit/A-022-v0183-b-ambiguity-closure-review.md) 与 [E-104](02-execution/E-104-v0183-b-ambiguity-closure-review.md)。依创作者裁决，v0.18.3 仍不冻结为 run-16 baseline，run-16 未启动；此前准备的 run-16 package 仍仅是 control-side draft，不构成执行授权。GOAL status/progress、I-401/I-402 与 v0.18.2 冻结身份不变。

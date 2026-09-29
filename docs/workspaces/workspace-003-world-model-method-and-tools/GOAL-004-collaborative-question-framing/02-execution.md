@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.50
+version: 5.5.51
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -116,3 +116,4 @@ doc: execution
 | E-101 | 2026-09-29 | 记录 run-15 停止并转入方法层级复核 | recorded | [E-101](02-execution/E-101-run15-stopped-product-definition-concern.md) |
 | E-102 | 2026-09-29 | 形成 v0.18.3 最小修订候选并完成 closure review | recorded | [E-102](02-execution/E-102-v0183-candidate-and-closure.md) |
 | E-103 | 2026-09-29 | 准备 run-16 v0.18.3 identity-carry-forward package | recorded | [E-103](02-execution/E-103-run16-v0183-package-preflight.md) |
+| E-104 | 2026-09-29 | 记录 v0.18.3 窄 scope B 型歧义复审通过 | recorded | [E-104](02-execution/E-104-v0183-b-ambiguity-closure-review.md) |

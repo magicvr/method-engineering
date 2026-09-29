@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.16.1
+version: 0.16.2
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -34,6 +34,7 @@ doc: audit
 | A-019 | 2026-09-29 | 独立复核 run-14 Demand Preservation disposition | **pass（Reviewer verdict `ACCEPT WITH NOTES`；接受 not observed / inconclusive 处置；非试跑 pass）** | [A-019](03-audit/A-019-run14-demand-preservation-disposition-review.md) |
 | A-020 | 2026-09-29 | 独立复核 v0.18.3 对 run-15 方法歧义的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；仅文本 closure） | [A-020](03-audit/A-020-v0183-run15-ambiguity-closure-review.md) |
 | A-021 | 2026-09-29 | 独立预检 run-16 v0.18.3 projection 与精确 binding | **pass**（Reviewer verdict `ACCEPT`；初审 MAJOR 已 fixed；不授权执行） | [A-021](03-audit/A-021-run16-package-preflight-review.md) |
+| A-022 | 2026-09-29 | fresh-context 窄 scope 复核 v0.18.3 的 run-15 B 型歧义闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；不冻结 baseline） | [A-022](03-audit/A-022-v0183-b-ambiguity-closure-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -257,3 +258,14 @@ Reviewer 确认原始 Q 的必要结构生成责任、未实例化对象与 crea
 - **完整意见**：fresh-context Reviewer 对原 MAJOR 的 closure re-review（审查对话）；执行包与 manifest 明细见 [E-103](02-execution/E-103-run16-v0183-package-preflight.md)。
 
 Reviewer 确认修正后 map、binding 以及五项 packet 与六项 control reference 的 bytes/SHA 全部匹配。Runner packet 未改变；binding 继续为 `not-run / execution_authorization: not-granted`，不含 S1→S2 实际交接或 S2 授权。A-021 仅允许提交精确 binding 身份请求创作者授权；没有执行试跑。
+
+## A-022 · fresh-context 窄 scope 复核 v0.18.3 的 run-15 B 型歧义闭合（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context，`fork_turns:none`，read-only）
+- **scope**：只判断 run-15 B 型 method ambiguity 是否由 v0.18.3 文本闭合，以及是否引入 endless decomposition、B1 失效、semantic zoom 冲突或新的固定拆解流程；不审 run-16 packet、不冻结 baseline、不审运行行为或方法整体接受。
+- **verdict**：`pass`（Reviewer verdict：`ACCEPT`）
+- **required findings**：0
+- **完整意见**：[A-022](03-audit/A-022-v0183-b-ambiguity-closure-review.md)
+
+Reviewer 确认 AI 必须从 raw Q 推导回答所需问题结构；对象／参数未实例化不自动成为 B1 或问题集不唯一，但真实 creator-owned 所求差异仍可构成 B1。回问前需定位实际被阻断的必要结构并给出归属理由；此要求不等于穷尽拆解。既有有界收束与 semantic zoom 的局部粒度裁决保持兼容，没有强制每节点递归或新增固定 checklist。run-15 的该项歧义由此在文本层面闭合。实际 v0.18.3 行为仍待运行证据；本审计不冻结其为 run-16 baseline。
