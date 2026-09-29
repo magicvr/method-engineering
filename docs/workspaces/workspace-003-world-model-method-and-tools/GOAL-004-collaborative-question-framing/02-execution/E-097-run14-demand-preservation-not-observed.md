@@ -26,8 +26,8 @@ Control 对三次回复逐字转回 runner。随后 runner 输出了候选结构
 
 证据文件身份：
 
-- Visible runner/creator trace：7,891 bytes，SHA-256 `801B6D19E3723E008B79B452D131CDA6C3805C0EAE9F78468CC20E6257A57A4C`。
-- Disposition / evidence matrix：4,101 bytes，SHA-256 `9FB53A3905B78240D1711EDA21BEF4975A9AE64AD41C94B1E132E04D42B114F5`。
+- Visible runner/creator trace：7,877 bytes，SHA-256 `F68BD135A4CA059A2090A60110880857F97F57AEE8E608FAE8C2235C86AB5B6E`。
+- Disposition / evidence matrix：4,396 bytes，SHA-256 `36099C3F971988A945585A14235EC1248BCA4E0F41DB628219B42227007EC919`。
 - A-019 independent review entry：3,296 bytes，SHA-256 `CF95F96AA0B0C2FA94DE1A0AA94469E07767A906303F16BB8215746ACC62C31C`。
 
 ## 试跑结果与审查
@@ -40,6 +40,6 @@ Independent Reviewer 对该处置给出 `ACCEPT WITH NOTES`，本次处置无 re
 
 - 该样本没有提供 v0.18.2 对 run-13 已知 failure path 的 positive regression evidence。
 - 依创作者先前设定的 outcome 处理规则，不在同一 binding 下强制重跑。
-- 后续是否需要另设一个更适合自然触发 research-return 的独立 Probe，留待单独决定；本条不创建 Probe 或启动 transfer trial。
+- 本轮 N/O 不推出新 Probe 是必要条件，也不要求设计更易触发 research 的题目。若未来仍要判断 research-return Demand Preservation，先说明何种真实未知构成 S1-level dependency、为何其会改变必要问题结构/条件角色/对象边界，再决定是否需要 Probe；research 仍是条件路径。本条不创建 Probe 或启动 transfer trial。
 - 没有修改 v0.18.2、Shared Research Core/Schema/Adapter；没有真实 S1→S2 handoff、S2、W2 或方法接受。
 - GOAL status/progress 未变化。

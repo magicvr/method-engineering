@@ -44,5 +44,5 @@ Fresh-context independent Reviewer（`agent_type=reviewer`，gpt-6-sol，medium�
 - 本轮不构成 v0.18.2 对 run-13 已知失败路径的 positive regression evidence。
 - 不构成方法修改依据，也不改变 v0.18.2 冻结身份。
 - 不在同一 binding 下强制重跑。
-- 若仍需直接验证研究回流后的所求守恒，应另行决定是否设计一个更可能自然触发相关 research-return 的独立 Probe；本记录不创建 Probe、不授权 transfer trial。
+- run-14 的 `not observed / inconclusive` 不推出新 Probe 是必要条件。若未来仍要评价 research-return Demand Preservation，先依据当前目标和 S1 Research Adapter 明确什么真实未知构成 S1-level dependency、为何不依赖该知识就无法确定必要问题结构/边界；再决定是否需要相应 Probe。任何后续 Probe 都不得以“更易触发 research”为 runner 目标，research 仍条件触发。本记录不创建 Probe、不授权 transfer trial。
 - 不启动 S2、不执行 handoff、不表示方法正式接受。
