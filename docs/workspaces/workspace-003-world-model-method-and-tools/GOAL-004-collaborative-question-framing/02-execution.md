@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.48
+version: 5.5.50
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -114,3 +114,5 @@ doc: execution
 | E-099 | 2026-09-29 | 完成 run-14 inference correction 与 S1 research dependency 评估 | recorded | [E-099](02-execution/E-099-run14-inference-correction-and-probe-assessment.md) |
 | E-100 | 2026-09-29 | 形成 S1 historical-anchor integrated trial design / binding proposal | recorded | [E-100](02-execution/E-100-historical-anchor-trial-proposal.md) |
 | E-101 | 2026-09-29 | 记录 run-15 停止并转入方法层级复核 | recorded | [E-101](02-execution/E-101-run15-stopped-product-definition-concern.md) |
+| E-102 | 2026-09-29 | 形成 v0.18.3 最小修订候选并完成 closure review | recorded | [E-102](02-execution/E-102-v0183-candidate-and-closure.md) |
+| E-103 | 2026-09-29 | 准备 run-16 v0.18.3 identity-carry-forward package | recorded | [E-103](02-execution/E-103-run16-v0183-package-preflight.md) |

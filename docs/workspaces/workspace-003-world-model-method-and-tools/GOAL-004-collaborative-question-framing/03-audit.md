@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.15.0
+version: 0.16.1
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -32,6 +32,8 @@ doc: audit
 | A-017 | 2026-09-29 | 独立复核 v0.18.2 对 A-016 F-001 的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0） | [A-017](03-audit/A-017-a016-v0182-closure-review.md) |
 | A-018 | 2026-09-29 | 独立预检 run-14 projection、映射与 binding | **pass**（Reviewer verdict `ACCEPT`；findings=0；不授权执行） | [A-018](03-audit/A-018-run14-projection-binding-preflight.md) |
 | A-019 | 2026-09-29 | 独立复核 run-14 Demand Preservation disposition | **pass（Reviewer verdict `ACCEPT WITH NOTES`；接受 not observed / inconclusive 处置；非试跑 pass）** | [A-019](03-audit/A-019-run14-demand-preservation-disposition-review.md) |
+| A-020 | 2026-09-29 | 独立复核 v0.18.3 对 run-15 方法歧义的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；仅文本 closure） | [A-020](03-audit/A-020-v0183-run15-ambiguity-closure-review.md) |
+| A-021 | 2026-09-29 | 独立预检 run-16 v0.18.3 projection 与精确 binding | **pass**（Reviewer verdict `ACCEPT`；初审 MAJOR 已 fixed；不授权执行） | [A-021](03-audit/A-021-run16-package-preflight-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -231,3 +233,27 @@ Preflight 确认 E/F/G、普通非研究 N2、B2 fallback、F.2 第 5 项、条�
 - **完整意见与证据矩阵**：[A-019](03-audit/A-019-run14-demand-preservation-disposition-review.md)；[run-14 disposition](attachments/run-14-demand-preservation-disposition-and-evidence-matrix.md)；[visible trace](attachments/run-14-visible-runner-creator-trace.md)。
 
 独立 Reviewer 确认可见交互中没有 research-return 进入 E/F、结构或 B3；runner 报告未调用外部研究，但没有独立工具日志。所求守恒回归机会未出现，故 run-14 记 `not observed / inconclusive`，不是 pass/fail。Creator 只作存在量词、对象范围与粒度裁决；未见方法性纠正。出口第 11 项记 `N/A`。可见交互中未见特定上下文污染，但初始上下文与文件访问无法逐字节核验。该审计接受的是有限 disposition，不提供 positive regression evidence，也不启动同 binding 重跑、transfer、handoff 或 S2。
+
+## A-020 · 独立复核 v0.18.3 对 run-15 方法歧义的闭合（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context，`fork_turns:none`，read-only）
+- **scope**：只审 v0.18.3 相对冻结 v0.18.2 是否闭合 run-15 architecture review 确认的 method ambiguity，并检查 bounded convergence、既有 E/F/G、research/DP、semantic zoom、handoff 边界与版本身份。
+- **verdict**：pass（Reviewer verdict：`ACCEPT`）
+- **required findings**：0
+- **完整意见**：[A-020](03-audit/A-020-v0183-run15-ambiguity-closure-review.md)
+
+Reviewer 确认原始 Q 的必要结构生成责任、未实例化对象与 creator-owned demand 区分、回问前的 continue-decomposition 判断、G.1.4 兼容说明和出口第 1 项均已形成闭环；无无限递归或穷尽证明义务，既有 bounded convergence 保留。A-020 只确认文本 closure，不代表 v0.18.3 运行有效、S1 方法正式接受、真实 S1→S2 handoff 或 S2 授权。run-15 继续保持 `stopped for method-level review / product-definition concern`。
+
+## A-021 · 独立预检 run-16 v0.18.3 projection 与精确 binding（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context，`fork_turns:none`，read-only）
+- **scope**：复核 v0.18.3 clean execution projection 与 source map、run-16 trial identity carry-forward、五项 runner packet、control-only references、隔离与停止边界，并独立重算 hash/字节长度；不启动 runner，不评估运行行为或方法整体接受。
+- **初次审查**：`REJECT`；一项 MAJOR：map 将完整保留的第 158 行 scope-diff 规范误标为被删例句，真实案例删节在第 160 行；另对 run-13 bootstrap manifest 的 run-specific scope 提出 NOTE。
+- **响应**：MAJOR 已 fixed。Map 现说明第 158 行完整保留、第 160 行只省略历史例句后半、Rule D 从第 162 行开始；binding 已同步 map bytes/hash。Binding 另明确 run-16 允许的 global bootstrap 来源、scope、内容审计结论与固定 hash；run-13 manifest 仅作审计/捕获证据，其旧 run-13 启动程序不继承。
+- **closure verdict**：`pass`（Reviewer closure verdict：`ACCEPT`）；required findings=0。
+- **最终 binding SHA-256**：`3CC51E2B85BDA0D768FF75501C50DDD819D46BE0C372B22D2D50F8F680BA13B2`（12,736 bytes）。
+- **完整意见**：fresh-context Reviewer 对原 MAJOR 的 closure re-review（审查对话）；执行包与 manifest 明细见 [E-103](02-execution/E-103-run16-v0183-package-preflight.md)。
+
+Reviewer 确认修正后 map、binding 以及五项 packet 与六项 control reference 的 bytes/SHA 全部匹配。Runner packet 未改变；binding 继续为 `not-run / execution_authorization: not-granted`，不含 S1→S2 实际交接或 S2 授权。A-021 仅允许提交精确 binding 身份请求创作者授权；没有执行试跑。

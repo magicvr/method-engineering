@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.52.25
+version: 0.53.1
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -181,3 +181,11 @@ run-11 准备包 v0.1.2 经 A-008 独立复核为 `pass`（原 verdict：`ACCEPT
 run-11 未证明达到 handoff-ready：Q1 仍为未解决的 B2、由 S1 持有；本轮未证成 G.1 覆盖收敛，且 AI 在创作者选择粒度前未攻击候选子结构。Runner 原先关于 Q1 B2 收敛及 handoff-ready 的陈述与完整 transcript 保留为原始证据，但不采纳为当前结论。创作者按 [D-046](01-decision/D-046-a009-run11-findings-fixed-response.md) 裁定 A-009 F-001、F-002、F-003 均以 `fixed` 路径响应；这是对当前结果／处置记录的修正，不表示运行行为被追溯改变。A-009 原始 `fail` verdict 与意见原文不变；N-001 作为非阻断备注保留。七项观察处置保持 #1 pass、#2 fail、#3 pass（有污染说明）、#4 fail、#5 pass（证据有限）、#6 pass、#7 pass；“true trigger vs checklist”仍为 non-gating。
 
 v0.17.2 仍为 `draft/unaccepted`，无方法修订或进一步试跑授权；D-045 的一次运行范围已用尽。v0.16.1/run-10 证据不变，未发生实际 handoff／transfer 或 S2。I-401 仍 open，I-402 仍 collecting；GOAL status/progress 不变。详情见 [E-070](02-execution/E-070-a009-run11-findings-fixed-response.md)。
+
+### 2026-09-29 · run-15 架构歧义闭合与 v0.18.3 候选（D-060／E-102／A-020）
+
+Fresh-context Architect 对 run-15 与冻结 v0.18.2 作架构复核后，形成 v0.18.3 最小候选，补明原始 Q 的必要结构生成责任、未实例化对象与 creator-owned demand 的区分、回问前 continue-decomposition 判断，并澄清 G.1.4 的问题集唯一口径；没有重写 E/F/G、semantic zoom、research、Demand Preservation 或 handoff 规则。独立 fresh-context Reviewer 对原歧义 scope 给出 `ACCEPT`，required findings=0（[A-020](03-audit/A-020-v0183-run15-ambiguity-closure-review.md)）。候选 SHA-256 为 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`；仍为 `draft/unaccepted`，不表示行为验证或方法接受。v0.18.2 冻结原文及 SHA `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6` 保持不变。run-15 继续为 `stopped for method-level review / product-definition concern`，不追溯改判 pass/fail。下一步仅准备相同 raw question「世界有多大？」的 run-16 身份继承封装；精确 binding 授权前不启动 runner。I-401 保持 open，I-402 保持 collecting；GOAL status/progress 不变。
+
+### 2026-09-29 · run-16 binding preflight 完成，等待精确身份授权（E-103／A-021）
+
+沿用 run-15 已接受的 historical-anchor 整体试跑范围，只更新 run ID 与 S1 v0.18.3 method/projection 身份；原问仍为「世界有多大？」，未增加试跑目标或固定方法触发。run-16 五项 runner packet、source→projection map 与 control-side design/binding 已完成 hash preflight。独立 Reviewer 初审指出 map 行号 MAJOR 并要求澄清 bootstrap scope；两项均已响应，A-021 closure verdict=`ACCEPT`，未发现剩余实质 finding。最终 binding SHA-256：`3CC51E2B85BDA0D768FF75501C50DDD819D46BE0C372B22D2D50F8F680BA13B2`（12,736 bytes；完整 manifest 匹配）。详见 [E-103](02-execution/E-103-run16-v0183-package-preflight.md) 与 [A-021](03-audit/A-021-run16-package-preflight-review.md)。Run-16 仍为 `not-run`、binding `execution_authorization: not-granted`；现提交该精确身份供创作者授权。授权后启动前仍需按 binding 重新核验 packet、source/projection 与通用 bootstrap hash。方法仍为 draft/unaccepted；无实际 S1→S2 handoff 或 S2，I-401/I-402 与 GOAL status/progress 不变。
