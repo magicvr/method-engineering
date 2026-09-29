@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.53.9
+version: 0.54.1
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 候选经 A-025 文本 closure review `ACCEPT`，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；仍为 `draft / unaccepted`，尚未冻结或试跑。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
+**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 经 A-025 文本 closure review `ACCEPT` 并由创作者冻结为 run-17 固定 trial baseline，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；方法总体仍为 `draft / unaccepted`，run-17 尚未执行。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -221,3 +221,7 @@ Fresh-context independent Reviewer 对 A-023 原 scope 复核 v0.18.4，verdict=
 ### 2026-09-29 · v0.18.5 局部三态请求就绪候选与独立 closure review（D-066／E-110／A-025）
 
 按创作者后续明确的请求就绪要求形成 v0.18.5 候选和 change map，不修改 v0.18.3、v0.18.4 或 run-16 trace。Fresh-context independent Reviewer 对最终精确版本给出 `ACCEPT`，required findings=0；初审的一项非阻断措辞 MINOR 已 fixed。候选明确要求在节点局部三态前完成当前层适用分析并呈示证据，同时保持 Rule C、按需 research、局部/全局收束边界和 handoff 约束。v0.18.4 仍为 `draft / unaccepted`，A-024 的 ACCEPT 仅为其独立审查 verdict；v0.18.5 本身仍为 `draft / unaccepted`、未冻结、未试跑。run-16 继续暂停，未转发 creator 回复，不判 pass/fail；无 binding、实际 handoff 或 S2。GOAL status/progress、goal-tree、I-401/I-402 均不变。文件身份与逐项兼容性见 [E-110](02-execution/E-110-v0185-local-tristate-readiness-closure.md)、[A-025](03-audit/A-025-v0185-local-tristate-readiness-closure.md) 和 [change map](attachments/stage1-framing-method-v0.18.5-change-map.md)。
+
+### 2026-09-29 · 冻结 v0.18.5 为 run-17 baseline 并完成 package preflight（D-067／E-111／A-026）
+
+创作者接受 A-025 closure，冻结 v0.18.5 固定 SHA `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6` 为下一轮试跑 baseline；方法仍为 `draft / unaccepted`。按 D-067 准备 run-17 全 S1 historical-anchor trial。Clean projection/source map、五项 runner-visible packet、run-17 design/binding 已完成；一项输入卡文件名的历史标签在最终 preflight 前移除并同步 binding。独立 Reviewer 对最终 binding 给出 `ACCEPT`，required findings=0，12 项 manifest 全部匹配。最终 binding SHA-256 `89219D7539CDF37B4B797C777AB9AC5165E1FE73EFF363BF2BC7698C5B9C258E`（13,342 bytes）。run-17 仍 `not-run / execution_authorization: not-granted`，现提交精确身份待创作者单独授权。run-16 继续保持 v0.18.3 下的暂停证据，不恢复、不判 pass/fail。GOAL status/progress、goal-tree、I-401/I-402 不变。详见 [E-111](02-execution/E-111-run17-trial-package-preflight.md)、[A-026](03-audit/A-026-run17-binding-preflight-review.md)。

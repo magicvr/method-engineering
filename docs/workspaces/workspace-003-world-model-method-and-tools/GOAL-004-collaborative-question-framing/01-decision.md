@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.27.0
+version: 3.28.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -79,3 +79,4 @@ doc: decision
 | D-064 | 2026-09-29 | 暂停 run-16 并审查 research 与 creator clarification 边界 | accepted | [D-064](01-decision/D-064-pause-run16-and-audit-research-clarification-boundaries.md) |
 | D-065 | 2026-09-29 | 授权形成 A-023 最小架构修订候选并独立复审 | accepted | [D-065](01-decision/D-065-authorize-a023-minimal-architecture-revision.md) |
 | D-066 | 2026-09-29 | 授权形成 v0.18.5 局部三态请求就绪候选并独立复核 | accepted | [D-066](01-decision/D-066-v0185-local-tristate-readiness-review.md) |
+| D-067 | 2026-09-29 | 冻结 v0.18.5 为 run-17 基线并准备新历史锚点试跑 | accepted | [D-067](01-decision/D-067-freeze-v0185-run17-baseline-and-prepare.md) |

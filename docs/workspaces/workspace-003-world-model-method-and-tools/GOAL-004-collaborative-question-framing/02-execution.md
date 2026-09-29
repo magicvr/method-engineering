@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.57
+version: 5.5.58
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -123,3 +123,4 @@ doc: execution
 | E-108 | 2026-09-29 | 形成 v0.18.4 候选以响应 A-023 架构歧义 | recorded | [E-108](02-execution/E-108-v0184-a023-minimal-revision-candidate.md) |
 | E-109 | 2026-09-29 | 记录 A-024 对 v0.18.4 的独立 closure review | recorded | [E-109](02-execution/E-109-a024-v0184-closure-review.md) |
 | E-110 | 2026-09-29 | 形成 v0.18.5 局部三态请求就绪候选并通过独立 closure review | recorded | [E-110](02-execution/E-110-v0185-local-tristate-readiness-closure.md) |
+| E-111 | 2026-09-29 | 准备 run-17 隔离试跑包并通过独立 binding preflight | recorded | [E-111](02-execution/E-111-run17-trial-package-preflight.md) |
