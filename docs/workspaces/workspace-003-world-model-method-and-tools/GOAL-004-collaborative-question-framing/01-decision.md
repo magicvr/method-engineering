@@ -2,7 +2,7 @@
 title: 决策记录 · GOAL-004
 status: active
 created: 2026-09-27
-updated: 2026-09-29
+updated: 2026-09-30
 parent: GOAL-002-r2-method-working-version
 version: 3.30.1
 id: GOAL-004-collaborative-question-framing
@@ -84,3 +84,4 @@ doc: decision
 | D-069 | 2026-09-29 | 按精确 binding SHA 授权执行 run-18 | accepted | [D-069](01-decision/D-069-authorize-run18-exact-binding.md) |
 | D-070 | 2026-09-29 | 按 fixed 响应 A-028 F-001 并修正 run-18 证据处置 | accepted | [D-070](01-decision/D-070-a028-f001-fixed-run18-disposition.md) |
 | D-071 | 2026-09-29 | 接受 A-029 并按 fixed 恢复 run-19 relay parity | accepted | [D-071](01-decision/D-071-a029-relay-parity-fixed-run19-binding.md) |
+| D-072 | 2026-09-30 | 暂停当前 S1 v0.18.5 路线并转入产品层架构重审 | accepted | [D-072](01-decision/D-072-pause-s1-route-for-product-architecture-review.md) |
