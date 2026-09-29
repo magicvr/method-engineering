@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.36
+version: 5.5.37
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -102,3 +102,4 @@ doc: execution
 | E-087 | 2026-09-29 | 精确化 creator relay 并重算 run-13 binding 最终 SHA（21/21 manifest 匹配） | recorded | [E-087](02-execution/E-087-run13-binding-v014-relay-precision-preflight.md) |
 | E-088 | 2026-09-29 | 完成 run-13 S1 E2E fresh-context isolated trial（research 自然触发；记录 bounded-search runner deviation） | recorded | [E-088](02-execution/E-088-run13-e2e-isolated-trial-complete.md) |
 | E-089 | 2026-09-29 | 从 run-13 提炼项目级 Isolated Runner Protocol v0.1.0 草案 | recorded | [E-089](02-execution/E-089-extract-isolated-runner-protocol.md) |
+| E-090 | 2026-09-29 | 记录 A-014 F-001 fixed 响应、v0.18.1 候选与 A-015 独立复核 | recorded | [E-090](02-execution/E-090-a014-f001-v0181-closure.md) |

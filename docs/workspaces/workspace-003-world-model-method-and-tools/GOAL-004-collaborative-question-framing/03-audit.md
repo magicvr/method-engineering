@@ -2,9 +2,9 @@
 title: 审计记录 · GOAL-004
 status: active
 created: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.8.0
+version: 0.10.0
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -26,6 +26,8 @@ doc: audit
 | A-011 | 2026-09-28 | 独立复核 run-12 S1 E2E 行为与证据范围 | **conditional（ACCEPT WITH NOTES；required 方法 findings=0；完整 handoff contract-content fit 有 MAJOR runner-output gap）** | [A-011](03-audit/A-011-run12-s1-e2e-behavior-review.md) |
 | A-012 | 2026-09-28 | 独立复核 run-13 隔离合同与试跑包 | **pass**（ACCEPT WITH NOTES；0 required 方法 findings；1 项 non-blocking NOTE） | [A-012](03-audit/A-012-run13-isolation-and-trial-package-review.md) |
 | A-013 | 2026-09-28 | 独立复核 run-13 v0.1.1 binding 与 preflight | **pass**（ACCEPT；findings=0；可提交执行授权裁决） | [A-013](03-audit/A-013-run13-v011-binding-preflight-review.md) |
+| A-014 | 2026-09-29 | 独立审计 v0.18.0 的研究回流所求守恒 | **fail（原 verdict 保留；F-001 已按 `fixed` 响应，见 D-054 / E-090 / A-014 response / A-015）** | [A-014](03-audit/A-014-v018-scope-preservation-review.md) |
+| A-015 | 2026-09-29 | 独立复核 v0.18.1 对 A-014 F-001 的修正 | **pass**（Reviewer verdict：ACCEPT；required=0；确认 F-001 fixed） | [A-015](03-audit/A-015-a014-f001-v0181-closure-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -119,6 +121,55 @@ A-007 原始 verdict `fail` 保留为对准备包 v0.1.1 的历史判断。独�
 
 本意见仅回答错分原因与规则充分性；**不追溯改写 A-009 或 D-046 的 run-11 处置，不把 Q1 自动改记为已收敛，也不重开 handoff 判断**。run-11 的初始错分保留为 runner regression observation；v0.17.2 Rule F 不修改。
 
+## A-014 · 独立审计 v0.18.0 的研究回流所求守恒（2026-09-29）
+
+- **source**：independent
+- **auditor**：fresh-context read-only subagent（gpt-6-sol，xhigh；使用通用 agent 派发，未激活仓库 `REVIEWER` role adapter）
+- **scope**：只审查 v0.18.0 是否足以防止 research-feedback 后的 scope inflation / parameterization escape；检查未定操作化条件的 B1、自由参数、答案适用限定、参数化是否扩大所求，以及 E/F/G 是否包含 demand-preservation 检查。以 run-13 完整可见 trace 作行为证据；不修改方法或案例处置。
+- **reviewer 原始 verdict**：`REJECT`
+- **本台账 verdict**：fail
+- **required findings**：1 项 MAJOR（F-001）
+- **完整意见**：本条保留独立审阅结论及其证据、finding 和最小修订建议。
+
+### F-001 · 缺少研究回流后的所求守恒检查（required / MAJOR）
+
+**Finding：** v0.18.0 规定了研究候选须有当前输入锚点、说明必要结构改变，并把条件候选交回 E/F/G；F.1/F.2 规定未决 owner 与求解项最低字段，G.1.3 也把原问所求列作交接相关增量判据。但没有明文要求：把研究前的已确认所求／答案形态与回流候选逐项对照，判明条件是原问要求求解的维度、S1 必须澄清的定界项，还是仅用于操作化证据／限定答案适用范围的信息。仅凭变量尚未赋值或会影响某些答案，执行者仍可能把原问改写为完整参数域求解。
+
+**证据：** run-13 中，研究支持的 M/T/D/B 先被写进 Q0 并作为待定 B1 处理（完整 trace §3、§4）；创作者说明这些可作为自由条件时不应因此要求创作者选值。随后 runner 将任务转成描述证据支持哪些 `(M,T,D,B)` 组合；创作者再次指出原问仍是一般存在性，不是刻画整个条件空间，并要求把这些条件作为操作化或答案限定。最终 Q0 才恢复为存在性答案，同时说明标准、时间尺度、扰动范围、系统边界及其对结论的限定（trace §5、§7）。该轨迹含有执行错误和创作者纠正，不能单独证明方法曾被逐条正确执行；它也显示 E/F/G 没有要求执行者在研究回流时主动完成上述角色区分与所求比较。
+
+**为何属于方法缺口：** E 的“必要问题结构改变”没有进一步限定为“原问确实要求该条件维度进入答案”；F.2 让执行者写出 B3 所求与答案形态，却没有与研究前需求作差分检查；G.1.3 的覆盖攻击检验当前问题集对原问的充分性，不要求检出当前问题集本身已经被扩成更大的任务。因此，“是否至少存在一种生态系统”的存在性判断可被参数化为“对哪些 M/T/D/B 组合存在正例”的条件空间刻画；后者给出严格更多信息，能够回答前者，却不是前者所要求的答案。
+
+**分类边界：**
+
+- 操作化未定本身不构成 B1。只有当前输入实际表明不同标准／边界对应创作者要求的不同问题或创作边界，且分析不能收窄时，才按 F.1 进入 B1。
+- 若阶段一还无法判明某条件在原问中是所求、必要前提还是答案限定，且因此不能说明阶段二具体应答什么，可按现有 F.1 作为 B2 继续定界；若其本身是已明确的客观待答命题，再转为具体 B3。
+- 参数值未给，不足以推出它是自由参数。只有原问或已确认的创作者意图要求对该参数的多个值、阈值或范围给出关系／函数／刻画时，才应把该范围作为求解任务。
+- 若原问只要求存在性，参数只用于解释证据采用的操作化、结论适用范围，以及口径变化如何限制结论时，应作为答案限定或局部证据条件；无需默认遍历全部参数组合。
+
+**建议的最小修订方向：** 在研究回流进入 E/F 前或出口检查中，增加对研究前已确认所求与答案形态的对照；逐项标记研究条件的角色（所求维度／必要定界／操作化或适用限定），并检查新 B3 的量词范围与输出是否严格扩大原问。仅在原问／已确认意图要求条件空间刻画时才将其作为完整参数任务；角色不清且影响“阶段二到底回答什么”时，走现有 B2。无需重构 E/F/G。
+
+截至原审计意见形成时，本 finding 尚未处置；后续正式响应见 [A-014 response record](03-audit/A-014-response-v0181-scope-preservation.md)。A-014 原始意见与针对 v0.18.0 的 `fail` verdict 保留，不修改 v0.18.0、run-13 结构或目标状态，也不授权方法接受、试跑重跑或 S2。
+
 ## A-012 · 独立复核 run-13 隔离合同与试跑包（2026-09-28）
 
 [A-012](03-audit/A-012-run13-isolation-and-trial-package-review.md) 对 run-12 disposition、global generic bootstrap 的分类、run-13 隔离合同、Probe、trial design 与完整 binding 作只读独立复核。Reviewer 原始 verdict 为 `ACCEPT WITH NOTES`，本台账 verdict 为 `pass`；required 级方法 findings=0，阻止提交创作者裁决的 findings=0。唯一 NOTE 是 Probe 较宽泛，research 可能仍自然地 `not observed`；设计未因此强制搜索。Binding 18 项 manifest 的 bytes/hash 和 projection source→projection 链均核对一致，binding SHA-256 为 `447A250197EB85973FDF75A3B3B7F2262B86A7751B1DF3577544D1E8B11E8E1F`。审计不授权执行；运行时上下文与 filesystem 隔离仍须启动前核验。
+
+## 响应记录 · A-014 F-001（2026-09-29）
+
+创作者按 [D-054](01-decision/D-054-a014-f001-v0181-scope-preservation.md) 将 A-014 F-001 按 required / MAJOR 处理，保留 v0.18.0 为 run-13 冻结试跑基线，并授权形成最小后继候选。响应映射、逐项修复位置与边界见 [A-014 response record](03-audit/A-014-response-v0181-scope-preservation.md)。v0.18.1 经 [A-015](03-audit/A-015-a014-f001-v0181-closure-review.md) 同 scope 独立复审为 `pass`；A-014 的原始 `fail` 仍是对 v0.18.0 的历史结论，F-001 当前处置为 `fixed`。
+
+本响应不改变 v0.18.0 或 run-13，也不表示 v0.18.1 已接受、冻结、试跑或验证；不修改 Shared Research Core、Schema、S1 Adapter，不启动新 Probe、handoff 或 S2。独立复审仅审查文本是否闭合 F-001，不提供新运行行为证据。
+
+## A-015 · 独立复核 v0.18.1 对 A-014 F-001 的修正（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context、read-only；仓库自定义 `REVIEWER` role adapter 未激活）
+- **scope**：只复核 v0.18.1 是否以最小修订闭合 A-014 F-001 的七项要求；不审查新 Probe、运行时行为、方法接受、实际 handoff 或 S2。
+- **reviewer verdict**：`ACCEPT`
+- **本台账 verdict**：pass
+- **required findings**：0
+- **完整意见与逐项响应**：[A-015](03-audit/A-015-a014-f001-v0181-closure-review.md)；[A-014 response record](03-audit/A-014-response-v0181-scope-preservation.md)
+
+独立复核确认：v0.18.1 建立研究回流前 demand baseline；区分原问求解维度、必要 S1 定界项、答案操作化／适用限定；要求 research-return B3 对照 baseline 做 scope diff；不以“更强问题包含原答案”为所求守恒；只在原问或已确认意图要求时建立参数域求解职责；角色不清且影响 S2 任务定义时回现有 B2；并在出口检查加入 demand-preservation。复核未发现新增 blocker、类别或逐项询问 creator 变量值的要求。
+
+A-015 仅确认文本修正闭合该 finding；run-13 仍是原样本，未执行新 Probe，因此不作行为有效性判断，也不授权 v0.18.1 试跑或 S2。
