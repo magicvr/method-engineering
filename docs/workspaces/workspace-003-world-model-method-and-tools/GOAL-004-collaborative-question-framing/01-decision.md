@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.22.0
+version: 3.24.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -74,3 +74,5 @@ doc: decision
 | D-059 | 2026-09-29 | 采用控制侧 necessity check 并修正 run-14 后续判断边界 | accepted | [D-059](01-decision/D-059-control-side-necessity-check.md) |
 | D-060 | 2026-09-29 | 响应 run-15 架构审视并形成 v0.18.3 最小修订候选 | accepted | [D-060](01-decision/D-060-run15-architecture-ambiguity-v0183.md) |
 | D-061 | 2026-09-29 | 接受 v0.18.3 候选内容进入 fresh-context 独立 closure review | accepted | [D-061](01-decision/D-061-v0183-candidate-independent-closure-review.md) |
+| D-062 | 2026-09-29 | 接受 A-022 closure 并冻结 v0.18.3 为 run-16 trial baseline | accepted | [D-062](01-decision/D-062-freeze-v0183-run16-trial-baseline.md) |
+| D-063 | 2026-09-29 | 按精确 binding SHA 授权执行 run-16 | accepted | [D-063](01-decision/D-063-authorize-run16-exact-binding.md) |

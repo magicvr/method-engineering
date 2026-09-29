@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.53.3
+version: 0.53.4
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -197,3 +197,7 @@ Fresh-context Architect 对 run-15 与冻结 v0.18.2 作架构复核后，形成
 ### 2026-09-29 · v0.18.3 窄 scope closure review 通过（E-104／A-022）
 
 Fresh-context independent Reviewer 对上述窄 scope 给出 `ACCEPT`，required findings=0：run-15 的 B 型 ambiguity 已在文本层面闭合；未引入 endless decomposition、B1 失效、semantic zoom 冲突或新固定拆解流程。实际运行行为未验证。详见 [A-022](03-audit/A-022-v0183-b-ambiguity-closure-review.md) 与 [E-104](02-execution/E-104-v0183-b-ambiguity-closure-review.md)。依创作者裁决，v0.18.3 仍不冻结为 run-16 baseline，run-16 未启动；此前准备的 run-16 package 仍仅是 control-side draft，不构成执行授权。GOAL status/progress、I-401/I-402 与 v0.18.2 冻结身份不变。
+
+### 2026-09-29 · v0.18.3 run-16 baseline 冻结与最终授权包预检（D-062／E-105）
+
+创作者接受 A-022 closure 并冻结 v0.18.3（SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`）为 run-16 historical-anchor integrated trial 的固定方法 baseline；方法总体仍为 `draft / unaccepted`，没有修订正文。最终 preflight 的 11/11 manifest 项与当前 global bootstrap hash 全部匹配。Run-16 binding SHA-256 为 `3CC51E2B85BDA0D768FF75501C50DDD819D46BE0C372B22D2D50F8F680BA13B2`（12,736 bytes），当前仍 `not-run / execution_authorization: not-granted`。详见 [D-062](01-decision/D-062-freeze-v0183-run16-trial-baseline.md)、[E-105](02-execution/E-105-freeze-v0183-and-final-run16-preflight.md)、[A-021](03-audit/A-021-run16-package-preflight-review.md)。现在提交确切 binding 身份，待单独执行授权；没有启动 runner、实际 S1→S2 handoff 或 S2。GOAL status/progress、I-401/I-402 不变。
