@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.10.0
+version: 0.13.0
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -26,8 +26,9 @@ doc: audit
 | A-011 | 2026-09-28 | 独立复核 run-12 S1 E2E 行为与证据范围 | **conditional（ACCEPT WITH NOTES；required 方法 findings=0；完整 handoff contract-content fit 有 MAJOR runner-output gap）** | [A-011](03-audit/A-011-run12-s1-e2e-behavior-review.md) |
 | A-012 | 2026-09-28 | 独立复核 run-13 隔离合同与试跑包 | **pass**（ACCEPT WITH NOTES；0 required 方法 findings；1 项 non-blocking NOTE） | [A-012](03-audit/A-012-run13-isolation-and-trial-package-review.md) |
 | A-013 | 2026-09-28 | 独立复核 run-13 v0.1.1 binding 与 preflight | **pass**（ACCEPT；findings=0；可提交执行授权裁决） | [A-013](03-audit/A-013-run13-v011-binding-preflight-review.md) |
-| A-014 | 2026-09-29 | 独立审计 v0.18.0 的研究回流所求守恒 | **fail（原 verdict 保留；F-001 已按 `fixed` 响应，见 D-054 / E-090 / A-014 response / A-015）** | [A-014](03-audit/A-014-v018-scope-preservation-review.md) |
+| A-014 | 2026-09-29 | 独立审计 v0.18.0 的研究回流所求守恒 | **fail（原 verdict 保留；A-014 F-001 在 research-return 路径由 A-015/A-016 确认为 fixed；v0.18.1 冻结待处理 A-016 新 finding）** | [A-014](03-audit/A-014-v018-scope-preservation-review.md) |
 | A-015 | 2026-09-29 | 独立复核 v0.18.1 对 A-014 F-001 的修正 | **pass**（Reviewer verdict：ACCEPT；required=0；确认 F-001 fixed） | [A-015](03-audit/A-015-a014-f001-v0181-closure-review.md) |
+| A-016 | 2026-09-29 | 独立复核 v0.18.1 的 A-014 原 scope 修复与非研究范围边界 | **fail**（Reviewer verdict：REJECT；1 项 required / BLOCKER；v0.18.1 不得冻结） | [A-016](03-audit/A-016-v0181-a014-scope-closure-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -173,3 +174,33 @@ A-007 原始 verdict `fail` 保留为对准备包 v0.1.1 的历史判断。独�
 独立复核确认：v0.18.1 建立研究回流前 demand baseline；区分原问求解维度、必要 S1 定界项、答案操作化／适用限定；要求 research-return B3 对照 baseline 做 scope diff；不以“更强问题包含原答案”为所求守恒；只在原问或已确认意图要求时建立参数域求解职责；角色不清且影响 S2 任务定义时回现有 B2；并在出口检查加入 demand-preservation。复核未发现新增 blocker、类别或逐项询问 creator 变量值的要求。
 
 A-015 仅确认文本修正闭合该 finding；run-13 仍是原样本，未执行新 Probe，因此不作行为有效性判断，也不授权 v0.18.1 试跑或 S2。
+
+## A-016 · 独立复核 v0.18.1 的 A-014 原 scope 修复与非研究范围边界（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context、read-only；仓库自定义 `REVIEWER` role adapter 未激活）
+- **scope**：以 A-014 原 scope 复核 research-return scope-preservation 修复和其全部映射，并检查是否新增非研究范围回归；不审查或启动新 Probe/S2。
+- **reviewer verdict**：`REJECT`
+- **本台账 verdict**：fail
+- **required findings**：1 项 BLOCKER
+- **完整意见**：[A-016](03-audit/A-016-v0181-a014-scope-closure-review.md)
+
+复核确认 research-return 前 baseline、条件角色、B3 scope diff、F.2 第 5 项、出口第 11 项、风险表和后续检验项均有对应文本；A-014 F-001 在研究回流路径上的缺口可闭合。但发现一项新的 required / BLOCKER：N2 第 115 行把“确为原问所求参数后变量化”写成通用要求；出口检查第 11 项第 410 行无条件要求对 demand baseline 做对照，而 baseline 第 132 行只在研究回流前定义。无 research-return 的流程可能因此也被要求此检查，或受限于非研究参数化；这违反本次明确的范围边界。建议将 N2 新要求与出口检查限定于 research-return，非研究路径保留既有规则。该 finding 处置待创作者裁决，v0.18.1 不冻结。
+
+### 响应记录 · A-016 F-001
+
+创作者按 [D-055](01-decision/D-055-a016-f001-v0182-scope-fix.md) 接受 A-016 F-001 为 required / BLOCKER，选择 `fixed` 路径，要求保留 v0.18.1 原文与 hash 并形成 v0.18.2。逐项响应见 [A-016 response record](03-audit/A-016-response-v0182-scope-fix.md)；修订候选 SHA-256 为 `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6`。普通 N2 既有路由已恢复；出口第 11 项、风险表及后续检验均限定于 research-return。
+
+## A-017 · 独立复核 v0.18.2 对 A-016 F-001 的闭合（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context、read-only；仓库自定义 `REVIEWER` role adapter 未激活）
+- **scope**：复核 A-016 原 scope，确认普通 N2 路由、条件适用的出口第 11 项、风险表与后续检验限定，以及 A-014 research-return 修复是否保留；不审查新 Probe、运行行为或 S2。
+- **reviewer verdict**：`ACCEPT`
+- **本台账 verdict**：pass
+- **required findings**：0
+- **完整意见**：[A-017](03-audit/A-017-a016-v0182-closure-review.md)
+
+独立复核确认 v0.18.2 仅将 Demand Preservation Check 限于 research-return：普通 N2 沿用既有变量化／Rule F 路径；只有 research-return 结果进入 E/F、当前结构或 B3 时才执行出口第 11 项，否则记 `N/A` 且不建立 baseline。风险表、后续检验与版本说明同步限定范围。A-014 的 baseline、条件角色三分、scope diff、F.2 第 5 项和 B2 fallback 保留。未发现新的 required finding。
+
+A-016 F-001 据此按 `fixed` 闭合。A-016 对 v0.18.1 的原始 `fail`、v0.18.1 原文与 hash 均保留。按 D-055，v0.18.2 当前文件身份以 SHA-256 `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6` 冻结为下一轮 regression baseline（E-092）。方法本体仍为 `draft / unaccepted`；该冻结不构成行为验证、方法接受或 Probe/S2 授权。
