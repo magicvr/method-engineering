@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.14.0
+version: 3.15.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -65,3 +65,4 @@ doc: decision
 | D-050 | 2026-09-28 | 接受 run-13 基线架构并裁决两项最小试跑设计修订 | accepted | [D-050](01-decision/D-050-run13-minimal-design-revision.md) |
 | D-051 | 2026-09-28 | 授权按精确 binding 执行 run-13 | accepted | [D-051](01-decision/D-051-authorize-run13-exact-binding.md) |
 | D-052 | 2026-09-29 | 接受 run-13 isolated CLI harness 修订；只授权 disposable smoke | accepted | [D-052](01-decision/D-052-run13-isolated-cli-harness-v012.md) |
+| D-053 | 2026-09-29 | 接受 fresh-context subagent 作为 run-13 runner 架构并授权 binding 修订 | accepted | [D-053](01-decision/D-053-run13-subagent-context-runner.md) |

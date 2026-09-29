@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.29
+version: 5.5.36
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -95,3 +95,10 @@ doc: execution
 | E-080 | 2026-09-28 | 记录创作者接受 run-13 准备包但未授权执行 | recorded | [E-080](02-execution/E-080-record-run13-package-accepted.md) |
 | E-081 | 2026-09-28 | 记录 run-13 v0.1.1 修订、独立复核与最终 preflight | recorded | [E-081](02-execution/E-081-run13-v011-final-preflight.md) |
 | E-082 | 2026-09-28 | run-13 启动前隔离门禁失败，试跑未开始 | recorded | [E-082](02-execution/E-082-run13-startup-isolation-gate-failed.md) |
+| E-083 | 2026-09-29 | 记录 run-13 CLI session 注入项目对话上下文并判为无效 | recorded | [E-083](02-execution/E-083-run13-cli-session-context-contaminated.md) |
+| E-084 | 2026-09-29 | 记录 run-13 替代尝试未启动及 Codex CLI 自动审批拒绝 | recorded | [E-084](02-execution/E-084-run13-replacement-launch-blocked.md) |
+| E-085 | 2026-09-29 | 记录 fresh-context subagent smoke 与 initial trace 可见性限制 | recorded | [E-085](02-execution/E-085-subagent-context-isolation-smoke.md) |
+| E-086 | 2026-09-29 | 形成 run-13 subagent 隔离合同与 binding v0.1.4 并完成 preflight | recorded | [E-086](02-execution/E-086-run13-subagent-binding-v014-prepared.md) |
+| E-087 | 2026-09-29 | 精确化 creator relay 并重算 run-13 binding 最终 SHA（21/21 manifest 匹配） | recorded | [E-087](02-execution/E-087-run13-binding-v014-relay-precision-preflight.md) |
+| E-088 | 2026-09-29 | 完成 run-13 S1 E2E fresh-context isolated trial（research 自然触发；记录 bounded-search runner deviation） | recorded | [E-088](02-execution/E-088-run13-e2e-isolated-trial-complete.md) |
+| E-089 | 2026-09-29 | 从 run-13 提炼项目级 Isolated Runner Protocol v0.1.0 草案 | recorded | [E-089](02-execution/E-089-extract-isolated-runner-protocol.md) |

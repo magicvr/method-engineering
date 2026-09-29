@@ -2,9 +2,9 @@
 title: 架构概览
 status: active
 created: 2026-07-18
-updated: 2026-08-10
+updated: 2026-09-29
 parent: null
-version: 0.10.0
+version: 0.11.0
 ---
 
 # 架构概览
@@ -57,7 +57,7 @@ version: 0.10.0
 | `{governance_root}/shared-materials/` | 工作区外的共享资料候选库存；不保存目标状态 |
 | `{governance_root}/templates/` | 核心 canonical 文档模板 |
 | `{governance_root}/contracts/` | 消费适配器的 canonical 机读版本与兼容声明 |
-| `{governance_root}/architecture/` | 技术与架构约定、[治理原则](principles.md)、[工作区协议](workspace-protocol.md) |
+| `{governance_root}/architecture/` | 技术与架构约定、[治理原则](principles.md)、[工作区协议](workspace-protocol.md)、[Isolated Runner Protocol](isolated-runner-protocol.md) |
 | `{governance_root}/_index/` | 预留索引/术语 |
 | `skills/` | AI/Agent 消费适配器、安装包与模板/契约分发镜像 |
 | `AGENTS.md` | AI 强制规则 |

@@ -2,9 +2,9 @@
 title: 文档体系说明（消费方精简入口）
 status: active
 created: 2026-07-18
-updated: 2026-08-06
+updated: 2026-09-29
 parent: null
-version: 0.13.0
+version: 0.13.1
 ---
 
 # docs/ · 文档体系（消费方）
@@ -70,6 +70,7 @@ docs/
 
 1. [architecture/principles.md](architecture/principles.md)
 2. [architecture/workspace-protocol.md](architecture/workspace-protocol.md)
-3. [vision/alignment.md](vision/alignment.md)
-4. [templates/README.md](templates/README.md)
-5. 仓库根 `AGENTS.md`（install 安装）
+3. [architecture/isolated-runner-protocol.md](architecture/isolated-runner-protocol.md)
+4. [vision/alignment.md](vision/alignment.md)
+5. [templates/README.md](templates/README.md)
+6. 仓库根 `AGENTS.md`（install 安装）
