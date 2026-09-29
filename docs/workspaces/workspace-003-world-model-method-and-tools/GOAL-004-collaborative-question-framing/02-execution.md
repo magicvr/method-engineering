@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.39
+version: 5.5.42
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -105,3 +105,6 @@ doc: execution
 | E-090 | 2026-09-29 | 记录 A-014 F-001 fixed 响应、v0.18.1 候选与 A-015 独立复核 | recorded | [E-090](02-execution/E-090-a014-f001-v0181-closure.md) |
 | E-091 | 2026-09-29 | 形成 v0.18.2 并响应 A-016 F-001 的范围回归 | recorded | [E-091](02-execution/E-091-a016-f001-v0182-scope-fix.md) |
 | E-092 | 2026-09-29 | 记录 A-016 F-001 闭合并冻结 v0.18.2 回归基线 | recorded | [E-092](02-execution/E-092-a016-f001-closure-v0182-baseline-freeze.md) |
+| E-093 | 2026-09-29 | 形成 v0.18.2 所求守恒窄回归试跑设计候选 | recorded | [E-093](02-execution/E-093-s1-demand-preservation-regression-design.md) |
+| E-094 | 2026-09-29 | 记录 run-14 窄回归试跑范围裁决 | recorded | [E-094](02-execution/E-094-record-run14-scope-adjudication.md) |
+| E-095 | 2026-09-29 | 修正 run-14 回归设计并完成设计文本复核 | recorded | [E-095](02-execution/E-095-run14-design-review-corrections.md) |

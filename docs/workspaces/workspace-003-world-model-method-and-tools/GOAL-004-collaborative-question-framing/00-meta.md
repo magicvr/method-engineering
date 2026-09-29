@@ -2,9 +2,9 @@
 title: 阶段一协作定界认知方法与 W2 交接
 status: active
 created: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.52.21
+version: 0.52.24
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**冻结的 run-10 基线仍为 v0.16.1**（v0.16 的**门禁一致性最小修正版**；指纹 `sha256 E6C1EF61…4C34`）。[v0.17.2](attachments/stage1-framing-method-candidate-v0.17.2.md) 已冻结为下一次（run-11）单次隔离 S1 试跑基线；方法仍为 `draft/unaccepted`，冻结不表示验证通过或取代 v0.16.1/run-10 证据。v0.17.0 与 v0.17.1 原文保留不变。阶段一的现行形态：
+**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；[v0.18.2](attachments/stage1-framing-method-integration-candidate-v0.18.2.md) 现冻结为下一轮窄 regression trial baseline，SHA-256 `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6`。这些冻结均只固定实验版本；方法本体仍为 `draft/unaccepted`，新基线未运行，不取代 v0.16.1/run-10 的既有证据。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -100,6 +100,10 @@ primary_plan: VP-003-world-model-method-and-tools
 v0.12.1 的结构、图表示与阶段二边界沿用 v0.6 起的图式重构方向（草案形成事实见 [E-014](02-execution/E-014-dynamic-relation-graph-candidate.md)）：图是可修订的工作表示，节点与关系例子保持开放，认知操作不构成必经流水线；收束指向足以启动阶段二求解的候选结构并交创作者确认，不保证问题一定可解。图中保留原问与出处，区分创作者意图、客观问题、分析者推断和证据/研究动作；创作者确认取舍不证明世界事实为真。阶段二边界仅作交接说明，具体方法留待后续研究。
 
 v0.1～v0.6.1 及既有探针保留为历史；v0.5 是初次隔离运行的草案基线，其测试证据不验证后续版本。原三份方法/探针候选已撤回当前依据资格，案例结构不等于通用方法。D-002 两阶段及有条件回流继续有效；D-003 仅代表当时试行限额，不是通用方法范围。此前空答复不构成任何方向的选择或否决。
+
+### 2026-09-29 · v0.18.2 整改接受与 run-14 设计范围裁决（D-056／D-057／E-093～E-095）
+
+创作者接受 A-014 / A-016 文本整改闭合与 A-017 fresh-context independent closure review，并冻结 v0.18.2 当前 SHA-256 `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6` 为下一轮 regression trial baseline。该接受只针对文本与 closure review，方法仍为 draft/unaccepted。创作者选择复用 run-13 原问、执行至完整 S1 creator confirmation 后停止，并仅对 demand-preservation 评分。Fresh-context design QA 的两项 finding 已由 v0.1.2 闭合，v0.1.2 SHA-256 `92D58A38C919A3ACB39D7215084D9131552998CABBA9924C98E0F897C755A303`；设计仍待创作者整体接受。执行 packet 尚未制作，仍须用 control-only source→projection map 隔离 source 内与该 Probe 相同的说明性案例，再做独立语义复核。当前未形成 binding 或执行授权、未启动 runner；I-401 / I-402、GOAL status/progress 与 goal-tree 未改变。详见 [D-056](01-decision/D-056-accept-v0182-and-authorize-regression-design.md)、[D-057](01-decision/D-057-select-run14-same-probe-full-s1.md)、[E-093](02-execution/E-093-s1-demand-preservation-regression-design.md)、[E-094](02-execution/E-094-record-run14-scope-adjudication.md)、[E-095](02-execution/E-095-run14-design-review-corrections.md) 和 [design v0.1.2](attachments/s1-demand-preservation-regression-trial-design-run-14-v0.1.2.md)。
 
 第一例的两次运行证据：v0.5.0 初次运行 [运行 01](attachments/probe-01-stage1-test-v0.5-run-01.md)（观察到用途扩张与缺少定向协作提问风险）、v0.6.0 复测 [v0.6 运行 01](attachments/probe-01-stage1-test-v0.6-run-01.md)（经创作者判定未通过，见 [E-015](02-execution/E-015-probe01-stage1-v06-test-result.md)；该记录因上游回合中断未落盘，本轮经用户确认从会话记录逐字恢复）。两次都只运行阶段一：没有回答原问、构建世界模型或图工具；案例结果与方法表现分开记录。
 

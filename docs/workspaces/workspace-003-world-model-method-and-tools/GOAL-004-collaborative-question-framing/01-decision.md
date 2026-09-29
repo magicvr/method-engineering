@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.16.0
+version: 3.18.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -68,3 +68,5 @@ doc: decision
 | D-053 | 2026-09-29 | 接受 fresh-context subagent 作为 run-13 runner 架构并授权 binding 修订 | accepted | [D-053](01-decision/D-053-run13-subagent-context-runner.md) |
 | D-054 | 2026-09-29 | 接受 A-014 F-001 并授权形成 v0.18.1 所求守恒修订候选 | accepted | [D-054](01-decision/D-054-a014-f001-v0181-scope-preservation.md) |
 | D-055 | 2026-09-29 | 接受 A-016 F-001 并授权形成 v0.18.2 最小范围修正版 | accepted | [D-055](01-decision/D-055-a016-f001-v0182-scope-fix.md) |
+| D-056 | 2026-09-29 | 接受 v0.18.2 整改闭合并授权设计窄回归试跑 | accepted | [D-056](01-decision/D-056-accept-v0182-and-authorize-regression-design.md) |
+| D-057 | 2026-09-29 | 选择 run-14 同题完整 S1 窄回归路径 | accepted | [D-057](01-decision/D-057-select-run14-same-probe-full-s1.md) |
