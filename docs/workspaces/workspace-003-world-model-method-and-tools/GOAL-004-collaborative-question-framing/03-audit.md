@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.13.0
+version: 0.15.0
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -29,6 +29,9 @@ doc: audit
 | A-014 | 2026-09-29 | 独立审计 v0.18.0 的研究回流所求守恒 | **fail（原 verdict 保留；A-014 F-001 在 research-return 路径由 A-015/A-016 确认为 fixed；v0.18.1 冻结待处理 A-016 新 finding）** | [A-014](03-audit/A-014-v018-scope-preservation-review.md) |
 | A-015 | 2026-09-29 | 独立复核 v0.18.1 对 A-014 F-001 的修正 | **pass**（Reviewer verdict：ACCEPT；required=0；确认 F-001 fixed） | [A-015](03-audit/A-015-a014-f001-v0181-closure-review.md) |
 | A-016 | 2026-09-29 | 独立复核 v0.18.1 的 A-014 原 scope 修复与非研究范围边界 | **fail**（Reviewer verdict：REJECT；1 项 required / BLOCKER；v0.18.1 不得冻结） | [A-016](03-audit/A-016-v0181-a014-scope-closure-review.md) |
+| A-017 | 2026-09-29 | 独立复核 v0.18.2 对 A-016 F-001 的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0） | [A-017](03-audit/A-017-a016-v0182-closure-review.md) |
+| A-018 | 2026-09-29 | 独立预检 run-14 projection、映射与 binding | **pass**（Reviewer verdict `ACCEPT`；findings=0；不授权执行） | [A-018](03-audit/A-018-run14-projection-binding-preflight.md) |
+| A-019 | 2026-09-29 | 独立复核 run-14 Demand Preservation disposition | **pass（Reviewer verdict `ACCEPT WITH NOTES`；接受 not observed / inconclusive 处置；非试跑 pass）** | [A-019](03-audit/A-019-run14-demand-preservation-disposition-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 
@@ -204,3 +207,27 @@ A-015 仅确认文本修正闭合该 finding；run-13 仍是原样本，未执�
 独立复核确认 v0.18.2 仅将 Demand Preservation Check 限于 research-return：普通 N2 沿用既有变量化／Rule F 路径；只有 research-return 结果进入 E/F、当前结构或 B3 时才执行出口第 11 项，否则记 `N/A` 且不建立 baseline。风险表、后续检验与版本说明同步限定范围。A-014 的 baseline、条件角色三分、scope diff、F.2 第 5 项和 B2 fallback 保留。未发现新的 required finding。
 
 A-016 F-001 据此按 `fixed` 闭合。A-016 对 v0.18.1 的原始 `fail`、v0.18.1 原文与 hash 均保留。按 D-055，v0.18.2 当前文件身份以 SHA-256 `8C859E13DDCDEDBDB820129DAD4B7CAFA8DA7E9C4E0D4BD92F3C05E7F51CF8E6` 冻结为下一轮 regression baseline（E-092）。方法本体仍为 `draft / unaccepted`；该冻结不构成行为验证、方法接受或 Probe/S2 授权。
+
+## A-018 · 独立预检 run-14 projection、映射与 binding（2026-09-29）
+
+- **source**：independent
+- **scope**：冻结 source v0.18.2、execution projection/source map、五项 runner packet 与 run-14 draft binding 的规范保真、隔离边界及 manifest/hash。
+- **reviewer verdict**：`ACCEPT`；本台账 verdict=`pass`。
+- **findings**：required=0；non-required=0。
+- **binding SHA-256**：`FA71DF2215978145105F3BA600F3B827F7A0FC69E4E8932A26161D3A4AA09E9C`。
+- **完整意见与证据**：[A-018](03-audit/A-018-run14-projection-binding-preflight.md)。
+
+Preflight 确认 E/F/G、普通非研究 N2、B2 fallback、F.2 第 5 项、条件适用的出口第 11 项均保留；map 准确记录投影变更；五项 runner-visible packet 与全部 binding references 的 bytes/SHA 匹配；中性 input card 与已裁定 46-byte 原问一致。审查未启动 runner，不能作为执行授权或方法接受。
+
+## A-019 · 独立复核 run-14 Demand Preservation disposition（2026-09-29）
+
+- **source**：independent
+- **auditor**：Codex Reviewer subagent（gpt-6-sol，medium；fresh-context，`fork_turns:none`，read-only）
+- **scope**：仅复核 run-14 的 trial-only Demand Preservation outcome；检查自然 research-return 机会、creator 方法性介入、证据可见性与 S1 stop boundary。不审查完整 S1 集成、领域答案、方法整体接受、transfer 或 S2。
+- **reviewer verdict**：`ACCEPT WITH NOTES`
+- **本台账 verdict**：pass（接受 `not observed / inconclusive` 处置；不是试跑 pass）
+- **required findings**：0
+- **non-blocking notes**：1 项，精确 initial task/raw context/独立工具日志未能核实。
+- **完整意见与证据矩阵**：[A-019](03-audit/A-019-run14-demand-preservation-disposition-review.md)；[run-14 disposition](attachments/run-14-demand-preservation-disposition-and-evidence-matrix.md)；[visible trace](attachments/run-14-visible-runner-creator-trace.md)。
+
+独立 Reviewer 确认可见交互中没有 research-return 进入 E/F、结构或 B3；runner 报告未调用外部研究，但没有独立工具日志。所求守恒回归机会未出现，故 run-14 记 `not observed / inconclusive`，不是 pass/fail。Creator 只作存在量词、对象范围与粒度裁决；未见方法性纠正。出口第 11 项记 `N/A`。可见交互中未见特定上下文污染，但初始上下文与文件访问无法逐字节核验。该审计接受的是有限 disposition，不提供 positive regression evidence，也不启动同 binding 重跑、transfer、handoff 或 S2。

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.18.0
+version: 3.19.0
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -70,3 +70,4 @@ doc: decision
 | D-055 | 2026-09-29 | 接受 A-016 F-001 并授权形成 v0.18.2 最小范围修正版 | accepted | [D-055](01-decision/D-055-a016-f001-v0182-scope-fix.md) |
 | D-056 | 2026-09-29 | 接受 v0.18.2 整改闭合并授权设计窄回归试跑 | accepted | [D-056](01-decision/D-056-accept-v0182-and-authorize-regression-design.md) |
 | D-057 | 2026-09-29 | 选择 run-14 同题完整 S1 窄回归路径 | accepted | [D-057](01-decision/D-057-select-run14-same-probe-full-s1.md) |
+| D-058 | 2026-09-29 | 接受 run-14 窄回归设计并授权 binding 准备 | accepted | [D-058](01-decision/D-058-accept-run14-design-binding-preparation.md) |

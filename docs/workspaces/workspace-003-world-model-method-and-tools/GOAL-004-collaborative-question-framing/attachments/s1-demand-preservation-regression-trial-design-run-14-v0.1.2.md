@@ -1,12 +1,12 @@
 ---
 title: S1 demand-preservation narrow regression trial design · run-14
-status: draft
+status: accepted
 created: 2026-09-29
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
 version: 0.1.2
 artifact_role: control-side-trial-design
-trial_status: pending-final-design-acceptance
+trial_status: accepted-for-binding-preparation
 ---
 
 # S1 Demand Preservation 窄回归试跑设计 · run-14 · v0.1.2
@@ -134,12 +134,12 @@ Pass 仅提供一个同题样本的有限正证据，不表示方法普遍有效
 - 单次 attempt；按 S1 方法运行至其 creator confirmation / S1 停止点，确保有机会观察适用的出口第 11 项。控制侧只对本设计的 demand-preservation 目标作评分。
 - Runner 停止后不作真实 S1→S2 handoff、不审执行阶段、不交给 W2、不启动 S2，也不按冻结合同判定是否获准实际移交。
 - 保存完整可见 runner task、creator 问答及逐字 relay、runner outputs、研究和可用 tool trace；记录不可见的 raw initial context/tool payload 范围，不事后补写或修补 trace。
-- Trial design 获接受后，制作 clean projection、control-only map 和最终 binding；重算 manifest/hash，独立 preflight review 通过并将最终 binding SHA 提交创作者后，才另行申请试跑授权。
+- Trial design accepted；clean projection、control-only map 和 draft binding 已形成。重算 manifest/hash 并经独立 preflight review 后，提交最终 binding SHA 供创作者另行授权执行。
 
 ## 8. 裁决状态
 
 1. 2026-09-29，创作者选择复用 run-13 的同一 raw question，按完整 S1 路径运行到 creator confirmation 后停止；控制侧只评分 demand-preservation。本裁决消除了 §2 的路线选择与 §7 的停止点选择，详见 [D-057](../01-decision/D-057-select-run14-same-probe-full-s1.md)。
-2. 总体设计仍为 `draft / pending-final-design-acceptance`。本版修正 Reviewer 对 v0.1.1 指出的两项设计缺口：固定 packet 的 Shared Research Core SHA-256，以及明确将适用的出口检查第 11 项及其结论列为 `pass` 条件，并将到达 S1 停止点后漏检列为 `fail`。待接受的内容包括 §3.2 所述 clean execution projection 与 source→projection map 的封装纪律、§5–§6 的窄观察链和判据；独立 reviewer 在形成正式 binding 前核对投影的规范语义保真。
-3. 当前仍不授权创建最终 binding、启动 runner、执行 Probe、handoff、S2 或正式方法 acceptance。
+2. 2026-09-29，创作者接受本版设计，仅授权继续形成并预检 execution packet / binding，记录见 [D-058](../01-decision/D-058-accept-run14-design-binding-preparation.md)。投影、source→projection map 与 draft binding 已形成，尚待独立 preflight。
+3. 本裁决不授权启动 runner、执行 Probe、handoff、S2 或正式方法 acceptance；最终 binding SHA 仍须另行授权。
 
-当前状态：`draft / pending final design acceptance`。本文件不是执行 binding，不启动 runner。
+当前状态：`accepted / binding-preparation-only`。本文件不是执行 binding，不启动 runner。

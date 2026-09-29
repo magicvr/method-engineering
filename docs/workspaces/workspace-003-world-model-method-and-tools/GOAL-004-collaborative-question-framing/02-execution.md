@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.42
+version: 5.5.44
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -108,3 +108,5 @@ doc: execution
 | E-093 | 2026-09-29 | 形成 v0.18.2 所求守恒窄回归试跑设计候选 | recorded | [E-093](02-execution/E-093-s1-demand-preservation-regression-design.md) |
 | E-094 | 2026-09-29 | 记录 run-14 窄回归试跑范围裁决 | recorded | [E-094](02-execution/E-094-record-run14-scope-adjudication.md) |
 | E-095 | 2026-09-29 | 修正 run-14 回归设计并完成设计文本复核 | recorded | [E-095](02-execution/E-095-run14-design-review-corrections.md) |
+| E-096 | 2026-09-29 | 记录 run-14 execution packet 与独立 preflight | recorded | [E-096](02-execution/E-096-run14-packet-and-preflight-prepared.md) |
+| E-097 | 2026-09-29 | 记录 run-14 Demand Preservation 窄回归结果为 not observed | recorded | [E-097](02-execution/E-097-run14-demand-preservation-not-observed.md) |
