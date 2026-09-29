@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.46
+version: 5.5.48
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -112,3 +112,5 @@ doc: execution
 | E-097 | 2026-09-29 | 记录 run-14 Demand Preservation 窄回归结果为 not observed | recorded | [E-097](02-execution/E-097-run14-demand-preservation-not-observed.md) |
 | E-098 | 2026-09-29 | 应用 necessity check 并修正 run-14 后续判断边界 | recorded | [E-098](02-execution/E-098-apply-control-side-necessity-check.md) |
 | E-099 | 2026-09-29 | 完成 run-14 inference correction 与 S1 research dependency 评估 | recorded | [E-099](02-execution/E-099-run14-inference-correction-and-probe-assessment.md) |
+| E-100 | 2026-09-29 | 形成 S1 historical-anchor integrated trial design / binding proposal | recorded | [E-100](02-execution/E-100-historical-anchor-trial-proposal.md) |
+| E-101 | 2026-09-29 | 记录 run-15 停止并转入方法层级复核 | recorded | [E-101](02-execution/E-101-run15-stopped-product-definition-concern.md) |
