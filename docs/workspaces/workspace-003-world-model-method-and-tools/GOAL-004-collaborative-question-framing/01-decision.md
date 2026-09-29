@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 3.28.0
+version: 3.30.1
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -80,3 +80,7 @@ doc: decision
 | D-065 | 2026-09-29 | 授权形成 A-023 最小架构修订候选并独立复审 | accepted | [D-065](01-decision/D-065-authorize-a023-minimal-architecture-revision.md) |
 | D-066 | 2026-09-29 | 授权形成 v0.18.5 局部三态请求就绪候选并独立复核 | accepted | [D-066](01-decision/D-066-v0185-local-tristate-readiness-review.md) |
 | D-067 | 2026-09-29 | 冻结 v0.18.5 为 run-17 基线并准备新历史锚点试跑 | accepted | [D-067](01-decision/D-067-freeze-v0185-run17-baseline-and-prepare.md) |
+| D-068 | 2026-09-29 | 记录 run-17 中断裁定并授权准备同条件 run-18 | accepted | [D-068](01-decision/D-068-run17-inconclusive-and-run18-directive.md) |
+| D-069 | 2026-09-29 | 按精确 binding SHA 授权执行 run-18 | accepted | [D-069](01-decision/D-069-authorize-run18-exact-binding.md) |
+| D-070 | 2026-09-29 | 按 fixed 响应 A-028 F-001 并修正 run-18 证据处置 | accepted | [D-070](01-decision/D-070-a028-f001-fixed-run18-disposition.md) |
+| D-071 | 2026-09-29 | 接受 A-029 并按 fixed 恢复 run-19 relay parity | accepted | [D-071](01-decision/D-071-a029-relay-parity-fixed-run19-binding.md) |

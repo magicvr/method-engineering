@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.16.6
+version: 0.16.10
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -39,6 +39,10 @@ doc: audit
 | A-024 | 2026-09-29 | 独立复核 v0.18.4 对 A-023 架构歧义的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；不接受/冻结方法、不授权 run-16） | [A-024](03-audit/A-024-v0184-a023-closure-review.md) |
 | A-025 | 2026-09-29 | 独立复核 v0.18.5 局部三态请求就绪澄清 | **pass**（Reviewer verdict `ACCEPT`；required=0；v0.18.5 仍 draft/unaccepted，不授权试跑） | [A-025](03-audit/A-025-v0185-local-tristate-readiness-closure.md) |
 | A-026 | 2026-09-29 | 独立预检 run-17 historical-anchor binding 与执行投影 | **pass**（Reviewer verdict `ACCEPT`；12 项 manifest 全匹配；仅 proposal/preflight，不授权执行） | [A-026](03-audit/A-026-run17-binding-preflight-review.md) |
+| A-027 | 2026-09-29 | 独立预检 run-18 historical-anchor binding | **pass**（Reviewer verdict `PASS`；14 项 manifest 全匹配；仅 proposal/preflight，不授权执行） | [A-027](03-audit/A-027-run18-binding-preflight-review.md) |
+| A-028 | 2026-09-29 | 独立审计 v0.18.5 与 run-18 当前层结构发现行为 | **fail**（原 verdict 保留；F-001 required / MAJOR 已按 D-070/E-115 修正 run-18 处置并以 `fixed` 闭合；run-18 不作 pass 证据） | [A-028](03-audit/A-028-run18-v0185-execution-regression-review.md) |
+| A-029 | 2026-09-29 | 独立预检 run-19 v0.1.0 binding relay parity | **fail**（Reviewer `REJECT`；F-001 required / MAJOR 经 D-071/E-117 以 v0.1.1 `fixed` 闭合；新版本 preflight 见 A-030） | [A-029](03-audit/A-029-run19-binding-relay-parity-preflight.md) |
+| A-030 | 2026-09-29 | 独立预检 run-19 v0.1.1 binding | **pass**（Reviewer `ACCEPT / PASS`；14/14 manifest 匹配，无 material findings；精确 SHA 执行授权待定） | [A-030](03-audit/A-030-run19-v011-binding-preflight.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.54.1
+version: 0.54.5
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 经 A-025 文本 closure review `ACCEPT` 并由创作者冻结为 run-17 固定 trial baseline，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；方法总体仍为 `draft / unaccepted`，run-17 尚未执行。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
+**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 经 A-025 文本 closure review `ACCEPT` 并由创作者冻结为 run-17 固定 trial baseline，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；方法总体仍为 `draft / unaccepted`；run-17 后续于 creator 局部三态处中断并记为 `interrupted / inconclusive`；run-18 获精确 SHA 授权并完成输出，但 A-028 原始 verdict 为 `fail`，F-001 已按 D-070/E-115 修正 run-18 证据处置并以 `fixed` 闭合；该运行不作 pass／成功证据，run-19 v0.1.0 preflight 被 A-029 拒绝，v0.1.1 已由 A-030 独立 preflight 判为 ACCEPT/PASS；创作者对精确 SHA 的执行授权待完成；可重复性仍待全新试跑。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -225,3 +225,27 @@ Fresh-context independent Reviewer 对 A-023 原 scope 复核 v0.18.4，verdict=
 ### 2026-09-29 · 冻结 v0.18.5 为 run-17 baseline 并完成 package preflight（D-067／E-111／A-026）
 
 创作者接受 A-025 closure，冻结 v0.18.5 固定 SHA `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6` 为下一轮试跑 baseline；方法仍为 `draft / unaccepted`。按 D-067 准备 run-17 全 S1 historical-anchor trial。Clean projection/source map、五项 runner-visible packet、run-17 design/binding 已完成；一项输入卡文件名的历史标签在最终 preflight 前移除并同步 binding。独立 Reviewer 对最终 binding 给出 `ACCEPT`，required findings=0，12 项 manifest 全部匹配。最终 binding SHA-256 `89219D7539CDF37B4B797C777AB9AC5165E1FE73EFF363BF2BC7698C5B9C258E`（13,342 bytes）。run-17 仍 `not-run / execution_authorization: not-granted`，现提交精确身份待创作者单独授权。run-16 继续保持 v0.18.3 下的暂停证据，不恢复、不判 pass/fail。GOAL status/progress、goal-tree、I-401/I-402 不变。详见 [E-111](02-execution/E-111-run17-trial-package-preflight.md)、[A-026](03-audit/A-026-run17-binding-preflight-review.md)。
+
+### 2026-09-29 · run-17 中断记录与 run-18 binding preflight（D-068／E-112／E-113／A-027）
+
+Creator 后续裁定 run-17 在局部三态处暂停并随后进入方法／架构审视，故按 `interrupted / inconclusive` 保留；不恢复 run-17，也不从其局部状态推出 execution regression。旧 trace 不改写或冒充 run-18 证据；其本地归档位置未由当前文件清单确认，见 [E-112](02-execution/E-112-run17-interrupted-inconclusive.md)。依创作者另行指示，已按相同冻结 v0.18.5（SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`）、试跑条件和唯一 raw Probe「世界有多大？」准备 fresh-context run-18。Binding 为 14,067 bytes、SHA-256 `3AE57BAD700AECA7A8EE26939E8BD37F78A0E0FA494FA091CCEAD249C8D7755A`；14 项 manifest 匹配，独立 preflight verdict=`PASS`、findings=0（[E-113](02-execution/E-113-run18-binding-preflight.md)、[A-027](03-audit/A-027-run18-binding-preflight-review.md)）。Binding 仍 `not-run / execution_authorization: not-granted`，提交精确 SHA 待 creator 单独裁定；尚未启动 runner、输入 Probe 或发生 relay。方法保持 `draft / unaccepted`，不修改 v0.18.5；GOAL status/progress、I-401/I-402 与实际 S1→S2/S2 状态不变。
+
+### 2026-09-29 · run-18 S1 输出及独立 execution review（D-069／E-114／A-028）
+
+Creator 对 binding SHA `3AE57BAD700AECA7A8EE26939E8BD37F78A0E0FA494FA091CCEAD249C8D7755A` 授权后，启动 fresh-context sole runner；14 项 manifest、冻结 v0.18.5 SHA 与 generic bootstrap identities 在启动前复核匹配。Runner 只获五项 packet 与中性任务，对「世界有多大？」完成 S1 输出并停在 creator-confirmation；完整可见的 runner final message 见 [E-114](02-execution/E-114-run18-output-and-postrun-review.md) 和 [runner output](attachments/s1-historical-anchor-integrated-trial-run-18-runner-output-v0.1.0.md)。Creator 随后要求暂不 relay 确认，先独立审查本轮与 v0.18.5。Fresh-context Reviewer 给出 `REJECT — execution regression`；A-028 F-001 为 open required / MAJOR。该意见只针对当前 S1 结构发现、handoff-ready 与 coverage 证据；未确认 creator 候选、未发生实际 handoff/S2，不推出目标世界具体需要哪些额外维度。v0.18.5 保持未改、方法仍 `draft / unaccepted`；run-17 仍 `interrupted / inconclusive`；GOAL status/progress、I-401/I-402 未变。待 creator 经 `/govern` 响应 A-028；未响应前不 relay 未决确认、不推进后续试跑或方法修订。
+
+### 2026-09-29 · A-028 F-001 fixed 闭合与 run-18 证据处置修正（D-070／E-115）
+
+创作者接受 A-028，选择对唯一 required / MAJOR F-001 按 `fixed` 响应（[D-070](01-decision/D-070-a028-f001-fixed-run18-disposition.md)）。已将 run-18 最终候选结构、coverage 充分性及 handoff-ready 声称从 pass／成功证据中剔除，并在 [A-028 response](03-audit/A-028-run18-v0185-execution-regression-review.md) 与 [E-115](02-execution/E-115-a028-f001-fixed-run18-disposition-recorded.md) 留痕；原审计 `fail` 与 raw runner trace 均保留。F-001 由该结果处置修正闭合，不表示运行行为已修复或 run-18 通过。创作者确认未 relay，候选未获接受，没有实际 handoff/S2。v0.18.5、交接合同与 binding 未改，可重复性仍待全新 run-19；同基线、同 raw Probe「世界有多大？」及同隔离条件的 run-19 仅获范围授权，实际启动须先有最终 binding 独立 preflight 与创作者对精确 SHA 的另行授权。run-17 保持 `interrupted / inconclusive`，不恢复；方法仍 `draft / unaccepted`，GOAL status/progress 与 I-401/I-402 未变。
+
+### 2026-09-29 · run-19 control-side binding 已准备（E-116）
+
+已准备 [run-19 binding](attachments/s1-historical-anchor-integrated-trial-binding-run-19-v0.1.0.md)，14,550 bytes，SHA-256 `E9C322EA96E98D81C5CB89964556321B0E4E714A9F3B6A0AA8A2434D20FC8158`；五项 runner-visible packet 与 run-18 同文件同字节，14/14 manifest 当前核对匹配。仅为 `proposal / not-run / execution_authorization: not-granted`；独立 Reviewer preflight 和创作者对精确 SHA 的执行授权待完成，runner 未启动。v0.18.5、projection/map、隔离及交接合同、输入卡未改；方法仍 `draft / unaccepted`，GOAL status/progress 与 I-401/I-402 未变。详见 [E-116](02-execution/E-116-run19-binding-prepared.md)。
+
+### 2026-09-29 · A-029 拒绝 v0.1.0；v0.1.1 恢复 relay parity（D-071／E-117）
+
+独立 Reviewer 对 v0.1.0 binding 给出 `REJECT`：§5 改变 creator relay 许可，为唯一 required / MAJOR F-001；§6 的额外停止点措辞为 NOTE（[A-029](03-audit/A-029-run19-binding-relay-parity-preflight.md)）。v0.1.0 原字节保留为 rejected/superseded 身份。依据创作者已授权的同条件、无方法纠偏边界，新建 [v0.1.1 binding](attachments/s1-historical-anchor-integrated-trial-binding-run-19-v0.1.1.md)，14,416 bytes，SHA-256 `684B3B43A6D086AC0BD7FAD37BFA49FF51FC05C647DC77DE01688400A939B1CB`；§5 和 §6.3 恢复 run-18 原文，14/14 manifest 匹配，runner-visible 五项及中性 envelope 未变。F-001 按 [D-071](01-decision/D-071-a029-relay-parity-fixed-run19-binding.md) 与 [E-117](02-execution/E-117-a029-fixed-run19-binding-v011.md) 以 `fixed` 闭合。新版本仍 `proposal / not-run / execution_authorization: not-granted`，须 fresh independent preflight 与精确 SHA 启动授权；未创建 runner。GOAL status/progress、I-401/I-402 不变。
+
+### 2026-09-29 · run-19 v0.1.1 binding 独立 preflight 通过（A-030／E-118）
+
+独立 Reviewer 对最终 [v0.1.1 binding](attachments/s1-historical-anchor-integrated-trial-binding-run-19-v0.1.1.md) 给出 `ACCEPT / PASS`，无 material findings；14/14 manifest 与 source、五项 packet、Probe card 和 run-18 控制条件均通过核对（[A-030](03-audit/A-030-run19-v011-binding-preflight.md)／[E-118](02-execution/E-118-run19-v011-final-preflight.md)）。精确 binding SHA-256 为 `684B3B43A6D086AC0BD7FAD37BFA49FF51FC05C647DC77DE01688400A939B1CB`（14,416 bytes）。v0.1.0 仍是 A-029 拒绝的 rejected/superseded 身份；v0.1.1 仍 `proposal / not-run / execution_authorization: not-granted`，创作者对该精确 SHA 的执行授权待完成。Reviewer 未启动 runner；无 relay、handoff 或 S2。GOAL status/progress、I-401/I-402 不变。

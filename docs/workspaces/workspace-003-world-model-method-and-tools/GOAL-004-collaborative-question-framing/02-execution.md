@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 5.5.58
+version: 5.5.64
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -124,3 +124,10 @@ doc: execution
 | E-109 | 2026-09-29 | 记录 A-024 对 v0.18.4 的独立 closure review | recorded | [E-109](02-execution/E-109-a024-v0184-closure-review.md) |
 | E-110 | 2026-09-29 | 形成 v0.18.5 局部三态请求就绪候选并通过独立 closure review | recorded | [E-110](02-execution/E-110-v0185-local-tristate-readiness-closure.md) |
 | E-111 | 2026-09-29 | 准备 run-17 隔离试跑包并通过独立 binding preflight | recorded | [E-111](02-execution/E-111-run17-trial-package-preflight.md) |
+| E-112 | 2026-09-29 | 记录 run-17 被 creator 中断并裁定为 inconclusive | recorded | [E-112](02-execution/E-112-run17-interrupted-inconclusive.md) |
+| E-113 | 2026-09-29 | 完成同条件 run-18 binding 准备与独立 preflight | recorded | [E-113](02-execution/E-113-run18-binding-preflight.md) |
+| E-114 | 2026-09-29 | 记录 run-18 完成 S1 输出并经独立审计判为 execution regression | recorded | [E-114](02-execution/E-114-run18-output-and-postrun-review.md) |
+| E-115 | 2026-09-29 | 记录 A-028 F-001 fixed 闭合与 run-18 证据处置修正 | recorded | [E-115](02-execution/E-115-a028-f001-fixed-run18-disposition-recorded.md) |
+| E-116 | 2026-09-29 | 准备 run-19 同基线隔离试跑 binding；独立 preflight 与精确 SHA 授权待完成 | recorded | [E-116](02-execution/E-116-run19-binding-prepared.md) |
+| E-117 | 2026-09-29 | 记录 A-029 拒绝、fixed 闭合及 run-19 v0.1.1 binding | recorded | [E-117](02-execution/E-117-a029-fixed-run19-binding-v011.md) |
+| E-118 | 2026-09-29 | 记录 run-19 v0.1.1 binding 最终独立预检通过；精确 SHA 执行授权待定 | recorded | [E-118](02-execution/E-118-run19-v011-final-preflight.md) |
