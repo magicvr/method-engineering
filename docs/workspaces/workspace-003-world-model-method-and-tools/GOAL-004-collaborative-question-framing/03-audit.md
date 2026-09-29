@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.16.2
+version: 0.16.4
 id: GOAL-004-collaborative-question-framing
 doc: audit
 ---
@@ -35,6 +35,8 @@ doc: audit
 | A-020 | 2026-09-29 | 独立复核 v0.18.3 对 run-15 方法歧义的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；仅文本 closure） | [A-020](03-audit/A-020-v0183-run15-ambiguity-closure-review.md) |
 | A-021 | 2026-09-29 | 独立预检 run-16 v0.18.3 projection 与精确 binding | **pass**（Reviewer verdict `ACCEPT`；初审 MAJOR 已 fixed；不授权执行） | [A-021](03-audit/A-021-run16-package-preflight-review.md) |
 | A-022 | 2026-09-29 | fresh-context 窄 scope 复核 v0.18.3 的 run-15 B 型歧义闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；不冻结 baseline） | [A-022](03-audit/A-022-v0183-b-ambiguity-closure-review.md) |
+| A-023 | 2026-09-29 | run-16 research、回问与 semantic zoom 边界的架构审计 | **conditional**（仍有 method ambiguity；未指定 required finding；run-16 保持暂停） | [A-023](03-audit/A-023-run16-research-clarification-semantic-zoom-architecture-audit.md) |
+| A-024 | 2026-09-29 | 独立复核 v0.18.4 对 A-023 架构歧义的闭合 | **pass**（Reviewer verdict `ACCEPT`；required=0；不接受/冻结方法、不授权 run-16） | [A-024](03-audit/A-024-v0184-a023-closure-review.md) |
 
 **闭合记录（2026-09-27）**：A-001（`source: independent`，auditor＝grok-4.7，scope＝阶段一方法候选 v0.15.1 规则 G 的停止与收束机制）**verdict＝fail**，三项 required（F-001／F-002／F-003，均 high）经创作者裁定**全部 `fixed`**，修正落点为 [v0.16](attachments/stage1-framing-method-candidate-v0.16.md)（指纹 `sha256 CB9D4C22…FC4C`）——逐项证据见 [D-027](01-decision/D-027-a001-closure-v016.md) 的映射表：**F-001** → G.1.3 三对象增量判据＋G.1.4「读法写定不归零」＋**明文禁止**把「构造不出」当充分性证明；**F-002** → G.1.5 残余遗漏登记＋G.3／收束段的**可交接第三态**（足以启动 S2＋残余有界＋回流触发，**不要求证明穷尽**）；**F-003** → G.1.3 的三对象增量谓词＋G.2 第 3 条（不构成增量者登记、不单独阻断）＋G.1.4 第 2 条（已冻结且唯一的问题集为前提）。同步修改：G.2、G.3、认知操作表、出口退回检查第 8 项、收束与创作者确认段、风险表、后续检验观察项；**规则 F 与规则 E 段逐字未改**。据此**解除**此前「三项闭合前不得放行规则 G 收束门禁」的阻断；**恢复续跑（run-10）仍待创作者确认**。
 

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-29
 parent: GOAL-002-r2-method-working-version
-version: 0.53.4
+version: 0.53.8
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -201,3 +201,19 @@ Fresh-context independent Reviewer 对上述窄 scope 给出 `ACCEPT`，required
 ### 2026-09-29 · v0.18.3 run-16 baseline 冻结与最终授权包预检（D-062／E-105）
 
 创作者接受 A-022 closure 并冻结 v0.18.3（SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`）为 run-16 historical-anchor integrated trial 的固定方法 baseline；方法总体仍为 `draft / unaccepted`，没有修订正文。最终 preflight 的 11/11 manifest 项与当前 global bootstrap hash 全部匹配。Run-16 binding SHA-256 为 `3CC51E2B85BDA0D768FF75501C50DDD819D46BE0C372B22D2D50F8F680BA13B2`（12,736 bytes），当前仍 `not-run / execution_authorization: not-granted`。详见 [D-062](01-decision/D-062-freeze-v0183-run16-trial-baseline.md)、[E-105](02-execution/E-105-freeze-v0183-and-final-run16-preflight.md)、[A-021](03-audit/A-021-run16-package-preflight-review.md)。现在提交确切 binding 身份，待单独执行授权；没有启动 runner、实际 S1→S2 handoff 或 S2。GOAL status/progress、I-401/I-402 不变。
+
+### 2026-09-29 · run-16 暂停待 research/clarification architecture audit（D-064／E-106）
+
+Run-16 按 D-063 授权启动后，在 creator confirmation point 暂停。Runner 已形成 P1–P3 候选并报告执行 Rule E 与 Rule G 检查；未实际调用 research，未收到 creator confirmation，没有 handoff 或 S2。Creator 确认问题尚未转发，不能视为已回答。Partial trace 已保存；下一步按 D-064 对 research discriminability、按需研究是否需论证、Rule C 与 semantic zoom 三态、候选确认前自主检验，以及本次行为属于 regression 或 ambiguity 作 fresh-context architecture audit。详见 [E-106](02-execution/E-106-run16-paused-for-architecture-audit.md) 与 [paused trace](attachments/run-16-paused-partial-runner-trace-v0.1.0.md)。在审计与后续指示前不续跑、不修改方法；v0.18.3 trial baseline 冻结及方法总体 `draft / unaccepted` 状态不变。
+
+### 2026-09-29 · run-16 窄 scope architecture audit 完成（A-023／E-107）
+
+Fresh-context Architect 对 v0.18.3 与 run-16 暂停材料的窄 scope 审计结论为 **method ambiguity**：Rule B/N3 要求对已识别的 framing 知识缺口做可判别性分析，但按需研究不是每轮固定调用或必须单列“不研究证明”；semantic zoom 粒度三态本身不豁免 Rule C，然而中途局部粒度确认与 Rule C 回问、最终收束确认的时序边界不够明确。Run-16 已生成 P1–P3 并报告 E/G 分析，但未充分展示问题族判断、handoff-ready 四要素与可核对的完整覆盖闭合；因此不能唯一归为纯 execution regression，也不能确认执行充分。Architect 未指定 required finding，故不升级为修订门禁。详见 [A-023](03-audit/A-023-run16-research-clarification-semantic-zoom-architecture-audit.md)、[E-107](02-execution/E-107-run16-architecture-audit-recorded.md)、[run-16 paused partial trace](attachments/run-16-paused-partial-runner-trace-v0.1.0.md) 与 [control-side message addendum](attachments/run-16-control-side-pause-message-addendum-v0.1.0.md)。run-16 仍 paused-at-creator-confirmation；creator 三态问题未转发、未获回复；v0.18.3 不变，无 S2 或实际 handoff；GOAL status/progress、I-401/I-402 不变。
+
+### 2026-09-29 · 按 D-065 形成 v0.18.4 最小架构修订候选（E-108）
+
+创作者选择对 A-023 method ambiguity 做最小修订，并授权 fresh-context independent closure review（[D-065](01-decision/D-065-authorize-a023-minimal-architecture-revision.md)）。据此形成 [v0.18.4 候选](attachments/stage1-framing-method-integration-candidate-v0.18.4.md)，SHA-256 `2EE67CC23380208AEF7CB24765975F771369E23C1F453A7528F842F9EE25002D`；冻结 v0.18.3 原文与 SHA `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9` 未动。v0.18.4 仍为 draft/unaccepted，目前正接受 A-023 同 scope 独立 closure review，未形成 review verdict，未冻结或授权试跑。run-16 继续暂停，creator 三态问题未转发／未答复；无 S1→S2 handoff、S2 或实际求解；GOAL status/progress 与 I-401/I-402 不变。详情见 [E-108](02-execution/E-108-v0184-a023-minimal-revision-candidate.md)。
+
+### 2026-09-29 · A-024 独立复核 v0.18.4 通过（E-109）
+
+Fresh-context independent Reviewer 对 A-023 原 scope 复核 v0.18.4，verdict=`ACCEPT`、required=0：三态措辞不能绕过 Rule C；中途粒度授权前分析呈示有界；不要求当前问题集先完成最终 G 收束或强制研究；最终 E/F/G、handoff-ready 与 handoff contract 门禁保持有效（[A-024](03-audit/A-024-v0184-a023-closure-review.md)）。这只表示文本 closure review 通过，不等于创作者接受/冻结 v0.18.4 或运行时验证。v0.18.4 SHA-256 `2EE67CC23380208AEF7CB24765975F771369E23C1F453A7528F842F9EE25002D` 保持 draft/unaccepted；v0.18.3 与 run-16 绑定身份不变。run-16 仍 paused-at-creator-confirmation，未答三态未转发；无实际 handoff/S2。GOAL status/progress、I-401/I-402 不变。详情见 [E-109](02-execution/E-109-a024-v0184-closure-review.md)。
