@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.2.0
+version: 0.3.0
 ---
 
 # 审计记录 · GOAL-001
@@ -15,6 +15,7 @@ version: 0.2.0
 | A-ID | 日期 | source | scope | verdict | 文件 |
 |------|------|--------|-------|---------|------|
 | A-001 | 2026-09-30 | self | Root 路线图设计与信息门禁一致性 | pass | [A-001](03-audit/A-001-hypothesis-validation-roadmap-review.md) |
+| A-002 | 2026-09-30 | independent | R1 / I-001 / I-003 门禁依赖与同一维护人确认模型 | fail | [A-002](03-audit/A-002-r1-i003-gate-deadlock-review.md) |
 
 ## 使用约定
 
@@ -25,4 +26,4 @@ version: 0.2.0
 
 ## 当前状态
 
-审计模式：本次路线图设计为 `self`，`A-001` verdict `pass`，未发现 required finding；开放 required finding：**0**。R1 尚未通过，`I-001`～`I-005` 均保持 `open`。`A-001` 不放行任何阶段，也不替代 R4 交付前的 `I-004` 独立审计；届时按用户指定的 provider 执行。
+审计记录：`A-001`（self/pass）审视较早的路线图设计；`A-002`（independent/fail）审视现行 R1/I-001/I-003 门禁，发现 **4 个开放 required findings**（1 BLOCKER、3 MAJOR），整改与合法闭合前不得无条件放行受影响的 R1 门禁。R1 尚未通过，`I-001`～`I-005` 均保持 `open`；本次审计不改变目标状态或进度。`A-002` 不替代 R4 交付前的 `I-004` 独立审计。
