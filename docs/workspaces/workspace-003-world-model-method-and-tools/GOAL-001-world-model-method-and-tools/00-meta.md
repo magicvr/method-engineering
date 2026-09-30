@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.6.0
+version: 0.7.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -64,7 +64,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ### R1 草案准备（2026-09-30）
 
-R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案草案](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因上游回滚而在下游替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。本草案更新为 v0.5.0，可供下游作为当前待确认提案引用；这不构成冻结。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。没有选定案例或进行试验，没有阶段放行；R2/R3/R4 仍未开始。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
+R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案草案](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因上游回滚而在下游替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。下游当前提案指针仍引用 v0.5.0；本仓按用户选择的「分步出候选」准备了 v0.6.1 第一轮范围候选并完成只读文本复核（[E-008](02-execution/E-008-first-r1-scope-candidate.md)）。候选是否替换下游当前指针等待用户裁决；当前绑定不代表接受或冻结。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。没有选定案例或进行试验，没有阶段放行；R2/R3/R4 仍未开始。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
 
 ## 派生进度展示
 
