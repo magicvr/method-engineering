@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-30
 parent: GOAL-002-r2-method-working-version
-version: 0.54.5
+version: 0.54.8
 id: GOAL-004-collaborative-question-framing
 progress: 33%
 plan_refs: VP-003-world-model-method-and-tools
@@ -17,7 +17,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 按用户 [D-005](01-decision/D-005-stage1-method-level-correction.md) 纠正，承载世界模型构建方法的阶段一：从不完整原问与创作上下文出发，经助手主动认知操作，形成足以启动阶段二求解的问题结构候选，交创作者确认后再交接父级 W2。
 
-**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 经 A-025 文本 closure review `ACCEPT` 并由创作者冻结为 run-17 固定 trial baseline，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；方法总体仍为 `draft / unaccepted`；run-17 后续于 creator 局部三态处中断并记为 `interrupted / inconclusive`；run-18 获精确 SHA 授权并完成输出，但 A-028 原始 verdict 为 `fail`，F-001 已按 D-070/E-115 修正 run-18 证据处置并以 `fixed` 闭合；该运行不作 pass／成功证据，run-19 v0.1.0 preflight 被 A-029 拒绝，v0.1.1 已由 A-030 独立 preflight 判为 ACCEPT/PASS；创作者对精确 SHA 的执行授权待完成；可重复性仍待全新试跑。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
+**方法行为证据基线仍为 v0.16.1 / run-10**（v0.16 的门禁一致性最小修正版；指纹 `sha256 E6C1EF61…4C34`）。v0.17.2 曾冻结为 run-11 单次试跑基线；v0.18.0 曾冻结为 run-13 集成试跑基线；v0.18.2 为前一轮窄 regression baseline；v0.18.3 是 run-16 冻结 trial baseline，SHA-256 `DF462D7607D7F48BCBCCEDA5563D35C3A51339CA4338422343D8A6BCFE1DD5D9`。v0.18.5 经 A-025 文本 closure review `ACCEPT` 并由创作者冻结为 run-17 固定 trial baseline，SHA-256 `6B991D86F5BAB4EC4DF65825EA3759D566377325A22D21FC97CBA393FEF6BBD6`；方法总体仍为 `draft / unaccepted`；run-17 后续于 creator 局部三态处中断并记为 `interrupted / inconclusive`；run-18 获精确 SHA 授权并完成输出，但 A-028 原始 verdict 为 `fail`，F-001 已按 D-070/E-115 修正 run-18 证据处置并以 `fixed` 闭合；该运行不作 pass／成功证据，run-19 v0.1.0 preflight 被 A-029 拒绝，v0.1.1 已由 A-030 独立 preflight 判为 ACCEPT/PASS；创作者已授权精确 SHA，run-19 于 Rule C 中断并记为 interrupted / inconclusive；可重复性未获结论。这些冻结只固定实验版本，不取代 v0.16.1/run-10 的既有行为证据。阶段一的现行形态：
 
 - **操作**：按认知困难触发、必须产出结构分析产物；**每项操作若只能产出提问即视为未执行**。
 - **未定项路由（规则 B）**：按性质（指称歧义／参数未定／知识缺口／用途取舍／可解性未知）路由到相应的主动分析，不做固定步骤。
@@ -253,3 +253,14 @@ Creator 对 binding SHA `3AE57BAD700AECA7A8EE26939E8BD37F78A0E0FA494FA091CCEAD24
 ### 2026-09-30 · run-19 中断与产品层架构重审（D-072／E-119）
 
 创作者已授权 run-19 v0.1.1 精确 binding SHA `684B3B43A6D086AC0BD7FAD37BFA49FF51FC05C647DC77DE01688400A939B1CB`；fresh `fork_turns:none` runner 在五项绑定材料与中性任务下运行至 Rule C，提出关于「世界有多大」所指空间跨度或空间总量的澄清请求。完整原始轨迹见 [runner output](attachments/s1-historical-anchor-integrated-trial-run-19-runner-output-v0.1.0.md)。该问题尚未由控制侧 relay，创作者没有回答。在 relay 前创作者要求暂停当前 S1 v0.18.5 路线并开始单独的产品层架构重审，故 run-19 记为 `interrupted / inconclusive`（[D-072](01-decision/D-072-pause-s1-route-for-product-architecture-review.md)／[E-119](02-execution/E-119-run19-interrupted-for-architecture-reframe.md)）。正常 S1 路径未到 G、最终候选、创作者确认或 handoff-ready；没有实际 S1→S2／S2，不恢复 runner、不启动 run-20。v0.18.5、packet、binding、方法／架构文档未改；新重审尚未改变目标状态或进度。GOAL status/progress、I-401/I-402 不变。
+### 2026-09-30 · 建立 GOAL-006 QueryContract 架构验证子目标（D-073／E-120）
+
+Creator 接受 Architect A/B 作为候选架构比较结论，但暂不接受产品分支为正式路线；裁定在本目标下建立独立短周期子目标 [GOAL-006](../GOAL-006-query-contract-architecture-spike/00-meta.md)，验证版本化 QueryContract 是否足以进入 capability / gap assessment，并观察能力检查与一次 execution feedback 是否只重开受影响决定。Role / Situation / Purpose 保持 optional。GOAL-004 仍 active、progress 33%，其 I-401/I-402 不变；既有 v0.18.5 S1 路线暂停。GOAL-006 的试验还须先关闭 I-001～I-003；创建目标不表示已启动试验、接受方法或关闭任何原有门禁。
+
+### 2026-09-30 · 确认 GOAL-006 真实用途并修正案例门槛（D-074／E-122）
+
+Creator 确认 VP-003 下游的真实用途为“构建星际时代的修真世界观”，无需另找项目或用户来提供使用情境。经 fresh-context Architect 只读窄审视并由 creator 裁定，GOAL-006 将四项真实问题保留为同一用途中的案例池，不再要求试验前已证明 capability insufficiency；该分类改为 S1 观察结果，未观察到时限制结论。GOAL-006 I-001 已 verified；I-002、I-003 仍 required/open，S1/S2 未开始。GOAL-004 状态、progress、I-401/I-402 及暂停的 v0.18.5 路线不变。
+
+### 2026-09-30 · 确认 GOAL-006 能力基线现状与本次判读阈值（D-075／E-123）
+
+Creator 确认当前尚无可评估的既有 capability baseline，并接受本次 spike 的 I-003 判读标准。GOAL-006 将“无可评估 baseline”登记为已知状态而非 capability insufficiency 证据，I-002 / I-003 均 verified。试验包与执行授权仍未完成；尚无 S1/S2、QueryContract 执行或 capability assessment。GOAL-004 状态、progress、I-401/I-402 与既有 S1 v0.18.5 暂停状态不变。

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-30
 parent: GOAL-002-r2-method-working-version
-version: 3.30.1
+version: 3.30.4
 id: GOAL-004-collaborative-question-framing
 doc: decision
 ---
@@ -85,3 +85,6 @@ doc: decision
 | D-070 | 2026-09-29 | 按 fixed 响应 A-028 F-001 并修正 run-18 证据处置 | accepted | [D-070](01-decision/D-070-a028-f001-fixed-run18-disposition.md) |
 | D-071 | 2026-09-29 | 接受 A-029 并按 fixed 恢复 run-19 relay parity | accepted | [D-071](01-decision/D-071-a029-relay-parity-fixed-run19-binding.md) |
 | D-072 | 2026-09-30 | 暂停当前 S1 v0.18.5 路线并转入产品层架构重审 | accepted | [D-072](01-decision/D-072-pause-s1-route-for-product-architecture-review.md) |
+| D-073 | 2026-09-30 | 建立 GOAL-006 QueryContract 架构验证子目标 | accepted | [D-073](01-decision/D-073-create-query-contract-architecture-spike.md) |
+| D-074 | 2026-09-30 | 确认真实下游用途并修正 GOAL-006 案例门槛 | accepted | [D-074](01-decision/D-074-correct-goal006-case-entry-gate.md) |
+| D-075 | 2026-09-30 | 确认 GOAL-006 能力基线状态与试验判读阈值 | accepted | [D-075](01-decision/D-075-goal006-baseline-and-thresholds.md) |

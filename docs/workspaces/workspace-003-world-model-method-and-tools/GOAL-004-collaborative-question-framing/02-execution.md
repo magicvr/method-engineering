@@ -4,7 +4,7 @@ status: active
 created: 2026-09-27
 updated: 2026-09-30
 parent: GOAL-002-r2-method-working-version
-version: 5.5.64
+version: 5.5.68
 id: GOAL-004-collaborative-question-framing
 doc: execution
 ---
@@ -132,3 +132,7 @@ doc: execution
 | E-117 | 2026-09-29 | 记录 A-029 拒绝、fixed 闭合及 run-19 v0.1.1 binding | recorded | [E-117](02-execution/E-117-a029-fixed-run19-binding-v011.md) |
 | E-118 | 2026-09-29 | 记录 run-19 v0.1.1 binding 最终独立预检通过；精确 SHA 执行授权待定 | recorded | [E-118](02-execution/E-118-run19-v011-final-preflight.md) |
 | E-119 | 2026-09-30 | 记录 run-19 于 Rule C 后因创作者路线暂停中断，澄清问题未 relay | recorded | [E-119](02-execution/E-119-run19-interrupted-for-architecture-reframe.md) |
+| E-120 | 2026-09-30 | 建立 GOAL-006 独立架构验证子目标 | recorded | [E-120](02-execution/E-120-goal006-created.md) |
+| E-121 | 2026-09-30 | 记录 creator 补充的两项真实世界模型问题 | recorded | [E-121](02-execution/E-121-goal006-real-questions-provided.md) |
+| E-122 | 2026-09-30 | 记录真实下游用途确认与 GOAL-006 案例门槛修正 | recorded | [E-122](02-execution/E-122-goal006-context-and-gate-correction.md) |
+| E-123 | 2026-09-30 | 记录 GOAL-006 基线现状与判读阈值确认 | recorded | [E-123](02-execution/E-123-goal006-baseline-and-thresholds-confirmed.md) |
