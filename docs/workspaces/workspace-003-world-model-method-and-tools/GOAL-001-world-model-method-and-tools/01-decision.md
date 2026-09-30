@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 1.3.0
+version: 1.4.0
 ---
 
 # 决策记录 · GOAL-001
@@ -42,3 +42,4 @@ version: 1.3.0
 | D-011 | 2026-09-30 | 选择证据清单与创作者局部裁决判据形式 | accepted | [D-011](01-decision/D-011-select-checklist-creator-judgment.md) |
 | D-012 | 2026-09-30 | 将 v0.6.2 设为 R1 当前两仓澄清引用 | accepted | [D-012](01-decision/D-012-update-current-r1-reference-v0-6-2.md) |
 | D-013 | 2026-09-30 | 整理 R1 I-001 / I-003 未决项裁决清单 | accepted | [D-013](01-decision/D-013-prepare-r1-open-items-decision-brief.md) |
+| D-014 | 2026-09-30 | 选择创作者主责的方法使用边界候选 | accepted | [D-014](01-decision/D-014-select-creator-primary-method-use.md) |
