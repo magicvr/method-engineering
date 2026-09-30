@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.30.0
+version: 0.32.0
 ---
 
 # 执行记录 · GOAL-001
@@ -44,10 +44,12 @@ version: 0.30.0
 | E-028 | 2026-09-30 | 同步 R1 草案状态与当前引用 | recorded | [E-028](02-execution/E-028-r1-document-status-synchronization.md) |
 | E-029 | 2026-09-30 | 按用户方案 A 修正 A-002 阶段门禁 | recorded | [E-029](02-execution/E-029-respond-a002-stage-gates.md) |
 | E-030 | 2026-09-30 | 记录下游同步 R1 v0.6.3 精确引用 | recorded | [E-030](02-execution/E-030-downstream-r1-v0-6-3-reference.md) |
+| E-031 | 2026-09-30 | 准备 R1 协议候选 v0.6.4 | recorded | [E-031](02-execution/E-031-prepare-r1-protocol-v0-6-4.md) |
+| E-032 | 2026-09-30 | 冻结上游 R1 协议 v0.6.4 | recorded | [E-032](02-execution/E-032-freeze-r1-protocol-v0-6-4.md) |
 
 ## 当前事实边界
 
-R1 进行中（草案准备），R2/R3/R4 未开始。用户选择方案 A 响应 A-002，D-015 / E-029 已将 R1 协议级方法边界、条件工具策略、R2a 逐次操作化与 R3 价值评估分开；新增 I-006 只控制相应 R3 分支决策/退出。v0.6.3 及两个候选仍 draft，六项信息均 open，0/4，无阶段放行。A-003 已将 A-002 四项 required findings 按 fixed 响应；下游当前引用由 E-012 同步，精确提交见 E-030。
+R1 协议 v0.6.4 已依 D-017 冻结，并经 A-004 independent/pass 复核；下游当前精确引用仍为 v0.6.3（E-030），故 R1 检查点尚未完成，I-001/I-003 保持 open、进度仍为 0/4。R2/R3/R4 未开始；D-015 / E-029 将 R1 协议级边界、R2a 逐次操作化与 R3 I-006 分支评估分开，不形成后继阶段反向门禁。v0.6.3 保留历史，旧候选状态不改。A-003 已将 A-002 四项 required findings 按 fixed 响应。
 
 历史候选、用户选择和绑定见 E-004～E-028。v0.6.2 最后精确来源是 magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082，由下游 WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53 更新指针（E-028）。本轮 v0.6.3 来源为 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md，下游已由 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136 同步当前指针（下游 E-012；本仓 E-030）。历史 D/E 原文保留，原先重复确认或提前索取后继产物的门槛以 D-015 取代。
 

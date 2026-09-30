@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.26.3
+version: 0.26.4
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -50,9 +50,9 @@ R1 冻结协议级方法边界、证据类型/标签、停止/变更机制、总
 
 ## 当前上游修正（2026-09-30）
 
-用户选择方案 A 响应 A-002，见 Root D-015 / E-029。现行上游修正提案为 [v0.6.3](GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md)，未决事项按 R1/R2a/R3 分配；I-001/I-003 只卡 R1 协议与条件策略，I-006 只卡相应 R3 分支决策/退出。证据不足时可明确本轮不引入并记理由、复评触发与责任，不要求先实现 Skill、无限追加运行或等待 R4 反馈。逐次预登记不反向阻断 R1；I-002/I-004/I-005 语义保持。
+用户选择方案 A 响应 A-002，见 Root D-015 / E-029。当前上游协议 [v0.6.4](GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md) 已依 D-017 冻结并经 A-004 independent/pass；I-001/I-003 的下游同版引用尚待同步，故 Root R1 检查点仍进行中。I-006 只控制相应 R3 分支决策/退出；证据不足可结论为本轮不引入并记录理由、复评触发与责任，不要求先实现 Skill、无限追加运行或等待 R4 反馈。逐次预登记不反向阻断 R1；I-002/I-004/I-005 语义保持。
 
-两仓由同一维护人维护，既有用户决定一次留痕，下游同步引用；原来“共同维护组再次确认/签字”的当前门槛由 D-015 取代。交付、实际收件和验收仍分别记录事实。下游当前引用为 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136（下游 E-012），指向上游 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md；本仓 E-030 记录精确双向引用。六项信息均 open，候选 draft，R1 草案准备、0/4，无阶段放行；A-002 四项 required findings 已由 A-003 按 fixed 闭合。
+两仓由同一维护人维护，既有用户决定一次留痕，下游同步引用；原来“共同维护组再次确认/签字”的当前门槛由 D-015 取代。交付、实际收件和验收仍分别记录事实。下游当前引用仍为 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136（下游 E-012），指向上游 v0.6.3（本仓 E-030）；待同步到已冻结的 v0.6.4 后关闭 R1 检查点。六项信息均 open，Root 进度仍 0/4；A-002 四项 required findings 已由 A-003 按 fixed 闭合。
 
 ## 历史备注（截至 E-028；当前门槛以 D-015 / Root 信息表为准）
 
