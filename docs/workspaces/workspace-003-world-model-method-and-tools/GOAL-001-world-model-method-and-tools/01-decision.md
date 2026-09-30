@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.6.0
+version: 0.7.0
 ---
 
 # 决策记录 · GOAL-001
@@ -35,3 +35,4 @@ version: 0.6.0
 | D-004 | 2026-09-30 | 选择 R1 第一轮方法范围候选 | accepted | [D-004](01-decision/D-004-select-first-r1-scope-candidate.md) |
 | D-005 | 2026-09-30 | 选择 H1/H2/H3 判据形成路径 | accepted | [D-005](01-decision/D-005-select-h123-criteria-path.md) |
 | D-006 | 2026-09-30 | 选择按声明范围判定证据充分性 | accepted | [D-006](01-decision/D-006-select-claim-scoped-evidence.md) |
+| D-007 | 2026-09-30 | 选择共享背景、分立 H 检验单元 | accepted | [D-007](01-decision/D-007-select-shared-test-context.md) |

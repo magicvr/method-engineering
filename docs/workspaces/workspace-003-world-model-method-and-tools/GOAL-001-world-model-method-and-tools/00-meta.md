@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.14.0
+version: 0.15.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -68,7 +68,7 @@ R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案
 
 随后准备 H1/H2/H3 证据充分性候选（[E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) 与 [候选附件](attachments/R1-H123-evidence-sufficiency-candidate.md)）；用户已选择按声明范围判充分（[D-006](01-decision/D-006-select-claim-scoped-evidence.md) / [E-013](02-execution/E-013-claim-scoped-evidence-selected.md)）。该选择仍未确定各 H 的具体范围、最低样本数量、阈值和资源；候选仍为上游 draft，不更新下游 v0.6.1 当前绑定。
 
-随后准备 H1/H2/H3 有界检验单元结构候选（[E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) 与 [候选附件](attachments/R1-H123-test-unit-structure-candidate.md)），待用户裁决是否在一个有界背景下派生不同 H 单元，或为 H 分别选问题/样本。该选择仍不涉及实际案例或授权。
+随后准备 H1/H2/H3 有界检验单元结构候选（[E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) 与 [候选附件](attachments/R1-H123-test-unit-structure-candidate.md)）；用户已选择共享背景、分立 H 检验单元（[D-007](01-decision/D-007-select-shared-test-context.md) / [E-015](02-execution/E-015-shared-test-context-selected.md)）。这不指定实际共享背景或案例，也不授权使用；下游仍绑定 v0.6.1。
 
 ## 派生进度展示
 
