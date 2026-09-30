@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.13.0
+version: 0.14.0
 ---
 
 # 执行记录 · GOAL-001
@@ -27,6 +27,7 @@ version: 0.13.0
 | E-011 | 2026-09-30 | 用户选择 H1/H2/H3 组合观察项路径 | recorded | [E-011](02-execution/E-011-h123-criteria-path-selected.md) |
 | E-012 | 2026-09-30 | 准备 H1/H2/H3 证据充分性候选 | recorded | [E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) |
 | E-013 | 2026-09-30 | 用户选择按声明范围判定证据充分性 | recorded | [E-013](02-execution/E-013-claim-scoped-evidence-selected.md) |
+| E-014 | 2026-09-30 | 准备 H1/H2/H3 检验单元结构候选 | recorded | [E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) |
 
 ## 事实边界
 

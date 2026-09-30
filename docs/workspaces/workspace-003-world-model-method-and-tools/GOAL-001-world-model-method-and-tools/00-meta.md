@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.13.0
+version: 0.14.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -67,6 +67,8 @@ primary_plan: VP-003-world-model-method-and-tools
 R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案草案](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因上游回滚而替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。用户随后选择 v0.6.1 第一轮方法范围候选作为两仓当前澄清基线（[D-004](01-decision/D-004-select-first-r1-scope-candidate.md)）；下游已于提交 `WorldModel.ModernCultivation@6cb392e65eb8711f17730eafcf68db3deb295bec` 将当前指针从 v0.5.0 更新到同一候选，本仓记录见 [E-009](02-execution/E-009-r1-scope-candidate-binding.md)，下游决定与执行见 D-008 / E-009。该绑定只固定当前澄清对象；候选仍为 draft，不代表完整方法接受或冻结。随后本仓准备 H1/H2/H3 可观察判据候选（[E-010](02-execution/E-010-h123-observation-criteria-candidate.md)、附件），用户已选择组合观察项路径作为下一步澄清基础（[D-005](01-decision/D-005-select-h123-criteria-path.md)）；其具体标准未冻结，仍未并入当前绑定。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。没有选定案例或进行试验，没有阶段放行；R2/R3/R4 仍未开始。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
 
 随后准备 H1/H2/H3 证据充分性候选（[E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) 与 [候选附件](attachments/R1-H123-evidence-sufficiency-candidate.md)）；用户已选择按声明范围判充分（[D-006](01-decision/D-006-select-claim-scoped-evidence.md) / [E-013](02-execution/E-013-claim-scoped-evidence-selected.md)）。该选择仍未确定各 H 的具体范围、最低样本数量、阈值和资源；候选仍为上游 draft，不更新下游 v0.6.1 当前绑定。
+
+随后准备 H1/H2/H3 有界检验单元结构候选（[E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) 与 [候选附件](attachments/R1-H123-test-unit-structure-candidate.md)），待用户裁决是否在一个有界背景下派生不同 H 单元，或为 H 分别选问题/样本。该选择仍不涉及实际案例或授权。
 
 ## 派生进度展示
 
