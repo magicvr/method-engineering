@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-09-30
 parent: null
-version: 0.4.0
+version: 0.5.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -28,4 +28,4 @@ Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。VP-003 给方向与�
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 0% | Root。挂 VP-003。纲领 **R1 → R2/R3 → R4**（0/4）；R1 进行中（草案准备，`E-004`），用户提出 Skills 工具形式（2026-09-30，`E-005`），边界/验收及分发安排待确认；尚无完整冻结方案的用户/下游接受或本次冻结的双边证据。R2/R3/R4 仍未开始。R2 优先有界验证假设、失败转向、按证据形成工作版（`D-002`）。承接真实需求 `WRK-002-world-model-method-and-tools`；运行状态以主记录为准。`I-001`～`I-005` 均 open，R1 门禁未过；真实案例未选，无试验发生，无阶段放行。审计 `A-001` self/pass，0 个开放 required finding；无子目标。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 0% | Root。挂 VP-003。纲领 **R1 → R2/R3 → R4**（0/4）；R1 进行中（草案准备，`E-004`），用户提出 Skills 工具形式（`E-005`），并说明下游由维护者共同维护、可简化职责划分（`E-006`）；边界/验收及分发待确认，尚无完整冻结方案的维护者书面确认或指向同版的两仓记录。R2/R3/R4 仍未开始。R2 优先有界验证假设、失败转向、按证据形成工作版（`D-002`）。承接真实需求 `WRK-002-world-model-method-and-tools`；运行状态以主记录为准。`I-001`～`I-005` 均 open，R1 门禁未过；真实案例未选，无试验发生，无阶段放行。审计 `A-001` self/pass，0 个开放 required finding；无子目标。 |
