@@ -64,7 +64,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ### R1 草案准备（2026-09-30）
 
-R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案草案](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因本仓回滚而在下游替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。本草案更新为 v0.4.0，可供下游作为当前待确认提案引用；这不构成冻结。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。没有选定案例或进行试验，没有阶段放行；R2/R3/R4 仍未开始。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
+R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案草案](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因上游回滚而在下游替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。本草案更新为 v0.5.0，可供下游作为当前待确认提案引用；这不构成冻结。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。没有选定案例或进行试验，没有阶段放行；R2/R3/R4 仍未开始。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
 
 ## 派生进度展示
 

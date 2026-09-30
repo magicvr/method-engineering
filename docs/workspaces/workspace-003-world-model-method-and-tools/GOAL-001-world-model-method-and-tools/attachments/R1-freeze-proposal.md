@@ -4,7 +4,7 @@ status: draft
 created: 2026-09-30
 updated: 2026-09-30
 parent: null
-version: 0.4.0
+version: 0.5.0
 ---
 
 # R1 澄清与冻结提案（待确认草案）
@@ -105,7 +105,7 @@ version: 0.4.0
 | 记录 | 已有位置 / 待确认内容 | 当前边界 |
 |------|----------------------|----------|
 | 本仓运行主记录 | [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)，及同目录 `events.md` | 本次未修改；不从草案推导运行状态转换 |
-| 本仓冻结决策与实施事实 | 本目标 `01-decision/D-NNN-*.md`、`02-execution/E-NNN-*.md`；后续冻结决策编号及关联方式待确认 | 准备事实见 [E-004](../02-execution/E-004-r1-freeze-proposal-preparation.md)，用户 Skills 形式提案见 [E-005](../02-execution/E-005-skills-tool-form-proposal.md)；未新增 D 决策或 A 审计 |
+| 本仓冻结决策与实施事实 | 本目标 `01-decision/D-NNN-*.md`、`02-execution/E-NNN-*.md`；正式冻结决策待共同维护组书面确认 | 准备事实见 [E-004](../02-execution/E-004-r1-freeze-proposal-preparation.md)，用户 Skills 形式提案见 [E-005](../02-execution/E-005-skills-tool-form-proposal.md)；重绑授权见 [D-003](../01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](../02-execution/E-007-r1-binding-replacement.md)，该决定不冻结本草案；尚无正式冻结决策或本目标 A 审计 |
 | 下游 exchange 当前提案绑定 | `WorldModel.ModernCultivation` 仓库 `exchange/WRK-002-world-model-method-and-tools/`；用户已授权以本草案替换旧当前指针，待下游记录精确提交与路径 | 只作为待确认草案的当前引用；旧冻结留作历史，且不再作为本轮执行依据 |
 | 同版双仓追溯与接受 | 本仓主记录与下游 exchange 可追溯地引用同一草案版本；正式冻结仍须完整书面确认，并完成对应信息门禁 | 下游重绑不等于维护者接受，不关闭 `I-001` / `I-003`，不构成 R1 放行 |
 
