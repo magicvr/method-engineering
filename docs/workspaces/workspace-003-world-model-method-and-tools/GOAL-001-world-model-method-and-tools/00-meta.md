@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.20.0
+version: 0.21.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -72,7 +72,7 @@ R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案
 
 针对 `I-003`，已只读核对本仓与下游的 Skills 承载现状，并形成[工具交付边界候选](attachments/R1-I003-skill-delivery-boundary-candidate.md)（[E-017](02-execution/E-017-i003-skill-delivery-boundary-candidate.md)）。用户已选择独立于治理包、Codex 首发的路径（[D-009](01-decision/D-009-select-codex-first-method-skill.md) / [E-018](02-execution/E-018-codex-first-skill-path-selected.md)）；输入输出字段、记录格式、源路径及验收仍待与 `I-001` 方法接口共同冻结，`I-003` 保持 open，未开始实现。
 
-针对 `I-001`，已准备一组不含具体问题或案例的 H1/H2/H3 范围与有限工作量候选（[E-019](02-execution/E-019-i001-test-scope-and-bounds-candidate.md)、[候选附件](attachments/R1-I001-H123-scope-and-bounds-candidate.md)）。用户已选择小型可行性档（[D-010](01-decision/D-010-select-small-r1-workload-profile.md) / [E-020](02-execution/E-020-small-r1-workload-profile-selected.md)）；这只确定计划上限，精确范围、证据阈值与执行责任仍待冻结，不授权试验；黑箱探针及其结果不参与本候选。
+针对 `I-001`，已准备一组不含具体问题或案例的 H1/H2/H3 范围与有限工作量候选（[E-019](02-execution/E-019-i001-test-scope-and-bounds-candidate.md)、[候选附件](attachments/R1-I001-H123-scope-and-bounds-candidate.md)）。用户已选择小型可行性档（[D-010](01-decision/D-010-select-small-r1-workload-profile.md) / [E-020](02-execution/E-020-small-r1-workload-profile-selected.md)）；这只确定计划上限，精确范围与执行责任仍待冻结。各 H 的局部支持判据候选见 [E-021](02-execution/E-021-i001-acceptance-criteria-candidate.md)；阈值仍待裁定，不授权试验；黑箱探针及其结果不参与规划。
 
 ## 派生进度展示
 
@@ -84,7 +84,7 @@ R1 已进入进行中（草案准备），在 Root 原位形成 [R1 冻结提案
 
 | ID | 级别 | 所需信息 / 问题 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 结论 |
 |----|------|-----------------|----------|--------------|-----------------|------|-------------|-------------|
-| I-001 | required | R1 冻结结论：方法工作版适用对象与退出形态；H1/H2/H3 试验范围、预注册判据、停止规则、是否允许修订复验及其有限次数/资源上限、替代方向的有限数量/回合/资源上限；授权与责任边界 | R1 退出；R2 实施范围 | R1 结束前 | 共同维护组澄清并形成书面结论；本仓主记录与下游 `exchange/WRK-002-world-model-method-and-tools/` 可追溯地引用同一冻结版本 | open | 本次受理已给出边界方向（见 `D-001`）；精确范围、阈值和责任须与已选 A 档集成后冻结。执行责任：共同维护组；用户负责本轮所需治理裁决 | `D-002` 仅确定先验证、失败转向路线；用户选定工作量上限见 Root `D-010` / `E-020`，但没有具体案例或试验授权；各 H 详细判据、输入和责任待补齐 |
+| I-001 | required | R1 冻结结论：方法工作版适用对象与退出形态；H1/H2/H3 试验范围、预注册判据、停止规则、是否允许修订复验及其有限次数/资源上限、替代方向的有限数量/回合/资源上限；授权与责任边界 | R1 退出；R2 实施范围 | R1 结束前 | 共同维护组澄清并形成书面结论；本仓主记录与下游 `exchange/WRK-002-world-model-method-and-tools/` 可追溯地引用同一冻结版本 | open | 本次受理已给出边界方向（见 `D-001`）；精确范围、阈值和责任须与已选 A 档集成后冻结。执行责任：共同维护组；用户负责本轮所需治理裁决 | `D-002` 仅确定先验证、失败转向路线；用户选定工作量上限见 Root `D-010` / `E-020`，各 H 局部支持判据见候选 / `E-021`。具体输入、标准与责任仍待冻结；没有具体案例或试验授权 |
 | I-002 | required | 至少一个真实世界问题的可执行有界检验用例（对应下游 `I-001` 问题级结论与其 `I-011` 具体案例），含获授权的使用范围 | R2b 真实案例试验；R4 最终版端到端检验 | 任何 R2b 真实案例使用前；R4 检验前复核用例与最终版适配性 | 共同维护组书面选定案例、范围与授权并留痕；R4 对最终工作版检验，复用案例须注明有界证据范围 | open | 仍属下游真实需求范围门禁；本仓不得代替维护组静默选定。责任方：共同维护组 | 用户仅授权将该问题作为一次 R1 草案程序黑箱探针（Root `D-008`；报告 `E-016`）；没有选定为 R2b/R4 方法检验用例，门禁仍 open |
 | I-003 | required | 配套工具是否引入及其最小交付边界（按下游需求原文 §9「结构化和工具化只在重复使用确有价值后进行」） | R1 冻结；R3 落实；VP-003 判据 3 | R1 确认是否引入与最小边界；R3 对照边界检查交付/不引入说明 | 共同维护组澄清并书面确认；本仓与下游 exchange 记录引用同一冻结版本；R3 核对是否落实冻结边界 | open | 依赖 `I-001`；工具实现等待方法接口稳定。执行责任：共同维护组；用户负责本轮所需治理裁决 | 用户提出 Skills 工具形式（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），并选择独立 Codex 首发路径（[D-009](01-decision/D-009-select-codex-first-method-skill.md) / [E-018](02-execution/E-018-codex-first-skill-path-selected.md)）。方法接口、源路径、记录格式、验收与双仓同版引用仍待确认；未实现 |
 | I-004 | required | R4 交付前高影响门禁的独立审计模式与 provider | R4 交付放行 | R4 交付前 | 用户指定 provider；无可核对输出时门禁保持未满足 | open | 到达 R4 前确定；不得静默降级或由编排器冒充 independent。责任人：用户 | 待确定 |
