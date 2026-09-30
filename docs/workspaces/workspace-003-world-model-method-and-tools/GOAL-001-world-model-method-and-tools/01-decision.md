@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 1.0.0
+version: 1.1.0
 ---
 
 # 决策记录 · GOAL-001
@@ -39,3 +39,4 @@ version: 1.0.0
 | D-008 | 2026-09-30 | 将下游问题保留为草案程序黑箱探针 | accepted | [D-008](01-decision/D-008-hold-case-as-blackbox-probe.md) |
 | D-009 | 2026-09-30 | 选择独立 Codex 首发 Skill 路径 | accepted | [D-009](01-decision/D-009-select-codex-first-method-skill.md) |
 | D-010 | 2026-09-30 | 选择 H1/H2/H3 小型可行性工作量档 | accepted | [D-010](01-decision/D-010-select-small-r1-workload-profile.md) |
+| D-011 | 2026-09-30 | 选择证据清单与创作者局部裁决判据形式 | accepted | [D-011](01-decision/D-011-select-checklist-creator-judgment.md) |
