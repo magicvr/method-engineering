@@ -4,8 +4,8 @@ doc: audit
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-09-26
-version: 0.1.0
+updated: 2026-09-30
+version: 0.2.0
 ---
 
 # 审计记录 · GOAL-001
@@ -14,7 +14,7 @@ version: 0.1.0
 
 | A-ID | 日期 | source | scope | verdict | 文件 |
 |------|------|--------|-------|---------|------|
-| — | — | — | — | — | 尚无条目 |
+| A-001 | 2026-09-30 | self | Root 路线图设计与信息门禁一致性 | pass | [A-001](03-audit/A-001-hypothesis-validation-roadmap-review.md) |
 
 ## 使用约定
 
@@ -25,4 +25,4 @@ version: 0.1.0
 
 ## 当前状态
 
-审计模式：开区、受理与纲领路线图登记为 `self`；R4 交付前的高影响门禁（`I-004`）尚未到达，到达时按用户指定的 provider 执行独立审计。开放 required finding：**0**。
+审计模式：本次路线图设计为 `self`，`A-001` verdict `pass`，未发现 required finding；开放 required finding：**0**。R1 尚未通过，`I-001`～`I-005` 均保持 `open`。`A-001` 不放行任何阶段，也不替代 R4 交付前的 `I-004` 独立审计；届时按用户指定的 provider 执行。

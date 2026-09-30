@@ -2,9 +2,9 @@
 title: 目标树 · workspace-003-world-model-method-and-tools
 status: active
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-30
 parent: null
-version: 0.1.0
+version: 0.2.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -20,7 +20,7 @@ version: 0.1.0
 GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · progress 0%
 ```
 
-Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。它与 VP-003 的方向级阶段同名、不同层：VP 给方向与先后，本目标给可执行退出条件与证据落点。四个检查点均未开始，派生 `progress: 0%`（0/4）。progress 不推导 `done`。当前无子目标。
+Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。VP-003 给方向与先后，本目标给可执行退出条件与证据落点。R2 按「操作化假设 → 有界试验 → 证据选路/必要转向 → 暂定方法工作版」推进；失败分支受 R1 冻结限额与停止规则约束。R3 可并行界定，工具实现等方法接口稳定；R4 检验最终版端到端闭环。四个纲领检查点均未开始，派生 `progress: 0%`（0/4）；R2a～R2d 不额外计入分母。progress 不推导 `done`。当前无子目标。
 
 跨区引用用限定形式：[workspace-002-consumer-response-protocol](../workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 的 Root 已 `done`，其 VP-002 已有界 `closed`；那次关门只验证供需对接流程，不验证任何领域方法。
 
@@ -28,4 +28,4 @@ Root 的 P-001 纲领路线图为 **R1 → R2/R3 → R4**。它与 VP-003 的方
 
 | id | title | parent | status | progress | notes |
 |----|-------|--------|--------|----------|-------|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 0% | Root。挂 VP-003。纲领 **R1 → R2/R3 → R4**（0/4）。承接真实需求 `WRK-002-world-model-method-and-tools`（2026-09-26 受理，主记录「已接受」）。`I-001`～`I-004` 均 open，R1 门禁未过。尚无审计条目，无子目标。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 0% | Root。挂 VP-003。纲领 **R1 → R2/R3 → R4**（0/4）；R2 优先有界验证假设、失败转向、按证据形成工作版（`D-002`）。承接真实需求 `WRK-002-world-model-method-and-tools`；运行状态以主记录为准。`I-001`～`I-005` 均 open，R1 门禁未过；真实案例未选，无试验发生。审计 `A-001` self/pass，0 个开放 required finding；无子目标。 |

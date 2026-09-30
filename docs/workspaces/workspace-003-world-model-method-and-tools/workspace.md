@@ -10,8 +10,8 @@ plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
-updated: 2026-09-26
-version: 0.1.0
+updated: 2026-09-30
+version: 0.2.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -44,12 +44,14 @@ version: 0.1.0
 
 ## 纲领阶段
 
-本区的纲领阶段、先后关系与退出条件只记录在 Root 的 [`00-meta.md`](GOAL-001-world-model-method-and-tools/00-meta.md) 中：**R1 澄清与冻结 → R2 方法工作版形成 / R3 配套工具界定与形成 → R4 有界检验与交付验收**。R1 串行在前；R2 与 R3 可在 R1 冻结后并行，但交付前须同时就绪。同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
+本区的纲领阶段、先后关系与退出条件的权威记录在 Root 的 [`00-meta.md`](GOAL-001-world-model-method-and-tools/00-meta.md) 中：**R1 澄清与冻结 → R2 优先验证假设、按证据选路并形成方法工作版 / R3 配套工具界定与形成 → R4 有界检验与交付验收**。VP-003 保留方向级阶段与先后，Root 负责本区可执行纲领、信息门禁与证据。
+
+R1 冻结试验范围、判据、停止规则、限额与责任；R2 内依次操作化 H1/H2/H3、有界试验、证据选路与必要的替代方向验证、形成暂定工作版。失败分支受 R1 限额约束，超限或证据不足时暂停受影响阶段并请用户裁决。真实案例须先由下游/用户选定；路线选择不是假设验证结论。R2 与 R3 的界定可在 R1 后并行，工具实现须等方法接口稳定；R4 等两者就绪后检验最终版端到端闭环，复用前置试验案例只提供该有界案例的证据。同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
 
 ## 备注
 
 上游视角：本区承接的是**真实消费需求** `WRK-002-world-model-method-and-tools`（下游 `WorldModel.ModernCultivation` 提报，2026-09-26 本仓受理并形成处理承诺）。运行状态唯一来源是 [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)；本区不建立第二套运行状态源。
 
-2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。开区只表示实现层目标已建立，**不表示**需求边界已冻结或方法已开始形成：R1 的 `I-001` / `I-003` 与 R4 的 `I-002` / `I-004` 均仍 `open`，按 P-005 登记在 Root `00-meta.md` 并构成对应阶段门禁。
+2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。2026-09-30 用户选择「先验证、失败转向」路线（Root `D-002`）；四个纲领阶段仍均未开始。`I-001` / `I-003` 仍阻断 R1 冻结，`I-002` 阻断 R2b 真实案例使用并约束 R4 检验，新增 `I-005` 阻断 R2c 证据选路，`I-004` 阻断 R4 交付放行；五项均 `open`，权威登记在 Root `00-meta.md`。
 
 前驱 `workspace-002-consumer-response-protocol`（挂已 `closed` 的 VP-002）保留历史绑定，2026-09-26 起 `vision_role` 改为 `delivery`（`VR-006`）。
