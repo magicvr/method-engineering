@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.25.0
+version: 0.26.0
 ---
 
 # 执行记录 · GOAL-001
@@ -39,6 +39,7 @@ version: 0.25.0
 | E-023 | 2026-09-30 | 准备 I-001 H1/H2/H3 预登记工作表候选 | recorded | [E-023](02-execution/E-023-i001-preregistration-worksheet-candidate.md) |
 | E-024 | 2026-09-30 | 合并 R1 已选规则为本地 v0.6.2 草案 | recorded | [E-024](02-execution/E-024-consolidate-r1-draft-v0-6-2.md) |
 | E-025 | 2026-09-30 | 记录下游将当前 R1 引用更新至 v0.6.2 | recorded | [E-025](02-execution/E-025-downstream-r1-binding-v0-6-2.md) |
+| E-026 | 2026-09-30 | 整理 R1 I-001 / I-003 未决项裁决清单 | recorded | [E-026](02-execution/E-026-r1-open-items-decision-brief.md) |
 
 ## 事实边界
 

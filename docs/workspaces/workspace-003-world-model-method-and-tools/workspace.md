@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.22.0
+version: 0.23.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -67,3 +67,5 @@ R1 冻结试验范围、判据、停止规则、限额与责任；R2 内依次�
 2026-09-30：本仓将已选 R1 规则整合为独立的本地 v0.6.2 草案（Root `E-024`），保留 v0.6.1 文件和下游当前绑定。截至该次记录时 v0.6.2 尚未写入下游，是否更改当前引用待用户裁决；`I-001` / `I-003` 仍 open，无试验或阶段放行。
 
 2026-09-30：用户接受推荐，将下游当前 R1 指针更新为上游 magicvr/method-engineering@8a8ded5ddbdb6f627b00ccf854fb0fe75be44cc7 的 v0.6.2 草案；下游提交为 WorldModel.ModernCultivation@1ddfd75f123ba63676be09a1487b506db1d9bc5e，指针及下游决策/执行见 exchange/README.md 与 D-009 / E-010，本仓记录见 Root D-012 / E-025。v0.6.2 仍是 draft，不表示完整方法接受或冻结；I-001 / I-003 仍 open，无试验或阶段放行。
+
+2026-09-30：用户选择先整理 I-001 / I-003 未决事项裁决清单；Root D-013 / E-026 及附件列出既有选择、待确认值和书面确认要求。清单不代填答案；R1 状态与门禁不变。
