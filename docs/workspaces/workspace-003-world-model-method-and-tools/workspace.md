@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.3.0
+version: 0.4.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -52,6 +52,6 @@ R1 冻结试验范围、判据、停止规则、限额与责任；R2 内依次�
 
 上游视角：本区承接的是**真实消费需求** `WRK-002-world-model-method-and-tools`（下游 `WorldModel.ModernCultivation` 提报，2026-09-26 本仓受理并形成处理承诺）。运行状态唯一来源是 [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)；本区不建立第二套运行状态源。
 
-2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。2026-09-30 用户选择「先验证、失败转向」路线（Root `D-002`）；现 R1 进行中（非权威冻结提案草案准备，Root `E-004`），R2/R3/R4 仍未开始，四个纲领阶段仍为 0/4 完成。尚无用户/下游接受或本次冻结的双边证据，工具路线未选，无阶段放行。`I-001` / `I-003` 仍阻断 R1 冻结，`I-002` 阻断 R2b 真实案例使用并约束 R4 检验，`I-005` 阻断 R2c 证据选路，`I-004` 阻断 R4 交付放行；五项均 `open`，权威登记在 Root `00-meta.md`。
+2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。2026-09-30 用户选择「先验证、失败转向」路线（Root `D-002`）；现 R1 进行中（非权威冻结提案草案准备，Root `E-004`），R2/R3/R4 仍未开始，四个纲领阶段仍为 0/4 完成。用户于 2026-09-30 提出 Skills 工具形式（Root `E-005`），具体边界/验收及分发安排待确认；尚无完整冻结方案的用户/下游接受或本次冻结的双边证据，无阶段放行。`I-001` / `I-003` 仍阻断 R1 冻结，`I-002` 阻断 R2b 真实案例使用并约束 R4 检验，`I-005` 阻断 R2c 证据选路，`I-004` 阻断 R4 交付放行；五项均 `open`，权威登记在 Root `00-meta.md`。
 
 前驱 `workspace-002-consumer-response-protocol`（挂已 `closed` 的 VP-002）保留历史绑定，2026-09-26 起 `vision_role` 改为 `delivery`（`VR-006`）。
