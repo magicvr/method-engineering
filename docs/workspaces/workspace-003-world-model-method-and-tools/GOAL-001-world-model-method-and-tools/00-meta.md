@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.31.0
+version: 0.32.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -66,7 +66,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 历史准备：v0.6.1 草案与首次范围选择见 E-004 / D-004 / E-009；H1/H2/H3 的观察项、声明范围判充分、共享背景分立单元、小型上限及证据清单 + 创作者局部裁决路径见 D-005～D-007 / D-010 / D-011。D-009 选独立 Codex 首发 Skill；D-014 选创作者主责、AI 可选协助。黑箱探针见 D-008 / E-016，排除在方法规划与领域证据之外，不选定 R2b/R4 案例。上述用户选择按授权继承，不重复询问同一方向。
 
-先前 v0.6.2 的选择/首次绑定见 D-012 / E-025；最后已记录的下游指针是 WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53，引用上游 magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082（E-028）。这些提交与历史 D/E 保留；下游尚未同步本轮 v0.6.3，待实际写入后另记精确提交。
+先前 v0.6.2 的选择/首次绑定见 D-012 / E-025；该版本最后的下游指针为 WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53，引用上游 magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082（E-028），均保留为历史。当前 v0.6.3 精确引用为 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md，由下游 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136（下游 E-012）同步，本仓以 E-030 记录。
 
 **当前上游修正基线**：用户选择方案 A 响应 A-002，决定见 [D-015](01-decision/D-015-respond-a002-stage-gates.md)，实施见 [E-029](02-execution/E-029-respond-a002-stage-gates.md)。现行上游提案为 [v0.6.3](attachments/R1-freeze-proposal-v0.6.3.md)，[未决清单](attachments/R1-open-items-decision-brief-v0.6.3.md)按 R1/R2a/R3 分配。I-001 只卡 R1 协议级边界，逐次字段在 R2a；I-003 只卡 R1 条件策略，R3 的 I-006 评估价值并落实分支。两仓是同一维护人，上游一次实质裁决、下游同步引用，取消共同维护组再次确认/签字门禁。
 
@@ -82,14 +82,14 @@ primary_plan: VP-003-world-model-method-and-tools
 
 | ID | 级别 | 所需信息 / 问题 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 结论 |
 |----|------|-----------------|----------|--------------|-----------------|------|-------------|-------------|
-| I-001 | required | R1 协议级结论：方法用途/退出材料、一般适用/排除边界、输入授权核对规则、证据类型/标签、总体限额、有限复验/替代方向授权、停止/变更机制及责任；不含逐次问题/模型/样本/预测/局部判据 | R1 退出；R2 实施范围 | R1 结束前 | 在已选方向上补齐协议级信息并形成可追溯结论；上游一次实质裁决，下游同步同版引用；R2a 填逐次预登记，对应 R2b 开跑前核对完整 | open | 同一维护人负责实质决定，AI 可按授权整理；协议级最低交付内容、总体计量及停止/变更责任仍待补齐，不以逐次字段空白或重复签字阻断 R1 | D-005～D-007 / D-010 / D-011 / D-014 的用户选择继承；时点修正见 D-015 / E-029 与 [v0.6.3](attachments/R1-freeze-proposal-v0.6.3.md)、[清单](attachments/R1-open-items-decision-brief-v0.6.3.md)。工作表仅候选，无具体案例/运行。下游最后 v0.6.2 指针见 E-028，本版同步待实际写入后另记；完整草案未冻结 |
+| I-001 | required | R1 协议级结论：方法用途/退出材料、一般适用/排除边界、输入授权核对规则、证据类型/标签、总体限额、有限复验/替代方向授权、停止/变更机制及责任；不含逐次问题/模型/样本/预测/局部判据 | R1 退出；R2 实施范围 | R1 结束前 | 在已选方向上补齐协议级信息并形成可追溯结论；上游一次实质裁决，下游同步同版引用；R2a 填逐次预登记，对应 R2b 开跑前核对完整 | open | 同一维护人负责实质决定，AI 可按授权整理；协议级最低交付内容、总体计量及停止/变更责任仍待补齐，不以逐次字段空白或重复签字阻断 R1 | D-005～D-007 / D-010 / D-011 / D-014 的用户选择继承；时点修正见 D-015 / E-029 与 [v0.6.3](attachments/R1-freeze-proposal-v0.6.3.md)、[清单](attachments/R1-open-items-decision-brief-v0.6.3.md)。下游当前指针已由 E-012 同步至 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md（提交 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136）；完整草案未冻结 |
 | I-002 | required | 至少一个真实世界问题的可执行有界检验用例（对应下游 `I-001` 问题级结论与其 `I-011` 具体案例），含获授权的使用范围 | R2b 真实案例试验；R4 最终版端到端检验 | 任何 R2b 真实案例使用前；R4 检验前复核用例与最终版适配性 | 同一维护人书面选定案例、范围与授权并留痕；R4 对最终工作版检验，复用案例须注明有界证据范围 | open | 仍属下游真实需求范围门禁；本仓不得静默代选或由维护身份推定授权。责任方：同一维护人 | 用户仅授权将该问题作为一次 R1 草案程序黑箱探针（Root `D-008`；报告 `E-016`）；没有选定为 R2b/R4 方法检验用例，门禁仍 open |
-| I-003 | required | R1 条件式工具策略：继承 D-009 独立 Codex 项目 Skill 方向，冻结最小职责/权限与产物类型、价值评估依据/触发时点/责任及支持/不足或不成立两分支 | R1 退出；R3 策略依据；VP-003 判据 3 | R1 结束前形成策略结论 | 根据既有裁决形成可追溯策略；R3 价值证据及落实由 I-006 控制，不在 R1 要求重复实践、名称/源路径/精确字段/持久化/安装 | open | 同一维护人负责策略决定，AI 可整理；实现等待稳定方法接口。I-003 关闭不表示价值已验证或工具已实现，不设重复确认/签字 | D-009 / E-018 已选首发路径；D-015 / E-029 修正条件策略门禁，见 [v0.6.3](attachments/R1-freeze-proposal-v0.6.3.md)与[工具候选](attachments/R1-I003-skill-delivery-boundary-candidate.md)。草案仍 draft，策略完整结论未冻结；下游新精确引用待实际同步后另记 |
+| I-003 | required | R1 条件式工具策略：继承 D-009 独立 Codex 项目 Skill 方向，冻结最小职责/权限与产物类型、价值评估依据/触发时点/责任及支持/不足或不成立两分支 | R1 退出；R3 策略依据；VP-003 判据 3 | R1 结束前形成策略结论 | 根据既有裁决形成可追溯策略；R3 价值证据及落实由 I-006 控制，不在 R1 要求重复实践、名称/源路径/精确字段/持久化/安装 | open | 同一维护人负责策略决定，AI 可整理；实现等待稳定方法接口。I-003 关闭不表示价值已验证或工具已实现，不设重复确认/签字 | D-009 / E-018 已选首发路径；D-015 / E-029 修正条件策略门禁，见 [v0.6.3](attachments/R1-freeze-proposal-v0.6.3.md) 与 [工具候选](attachments/R1-I003-skill-delivery-boundary-candidate.md)。下游当前精确引用为 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md（WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136；E-012）。草案仍 draft，策略完整结论未冻结 |
 | I-004 | required | R4 交付前高影响门禁的独立审计模式与 provider | R4 交付放行 | R4 交付前 | 用户指定 provider；无可核对输出时门禁保持未满足 | open | 到达 R4 前确定；不得静默降级或由编排器冒充 independent。责任人：用户 | 待确定 |
 | I-005 | required | H1/H2/H3 在冻结范围内是否足以支持方法选路，哪些部分有证据、哪些需要替代或仍不足 | R2c 选路；R2d 工作版形成 | R2c 选路前 | 按 R1 冻结的判据协议与 R2a 的逐次预登记对有界试验、反例与轻量对照逐项记录 `supported` / `partial` / `refuted` / `insufficient`；必要时在冻结限额内验证替代方向并记录选路依据；前三类的可核对证据足以形成路线选择时才可形成选路结论 | open | R1 冻结后收集；责任人：方法工程响应负责人。`insufficient` 保持 open/collecting 并阻断 R2d；证据不足或触及限额时暂停受影响阶段，请用户裁决后才可调整，不自动延期或扩容 | 待验证；假设及路线选择见 `D-002`，均非实证结论 |
 | I-006 | required | 根据既有实践/R2 人工方法过程证据，本轮是否值得工具化及如何落实；评估任务/重复步骤、人工成本、预期收益及维护负担，形成可核对分支结论 | 仅相应 R3 工具化决策/退出；不阻断 R1/R2 | 工具实现前作支持结论；最迟 R3 退出时落实工具或 no-tool 分支 | 同一维护人作分支决定，AI 可在授权范围整理；支持则等待稳定接口形成最小工具，不足/未成立则明确本轮不引入并记证据范围、理由、复评触发及责任 | open | R3 评估现有证据，不无限等待/追加运行、不要求先实现/启用 Skill 或 R4 反馈；结论无需正价值，证据不足不冒充已验证价值。责任人：同一维护人 | D-015 / E-029 新登记；尚无价值评估或工具实现，I-003 策略结论不代替本项证据；VP-003 已允许标准 no-tool 分支，无新增愿景门禁 |
 
-**门禁现状（2026-09-30）**：六项信息均 open。R1 退出只要求 I-001 协议结论与 I-003 条件策略；R2a 逐次字段、R3 价值与实现细节不反向阻断 R1。对应 R2b 开跑前须完整预登记及适用授权，真实案例须关闭相应 I-002；R4 再核对最终版用例。I-005 在 R2c 以证据选路，insufficient 保持 open/collecting 并阻断 R2d。I-006 只控制相应 R3 分支决策/退出，证据不足可结论为本轮不引入并记录理由/复评触发/责任，不冒充工具价值验证。I-004 在 R4 交付前关闭。本次方案 A 只修复门禁，无信息项关闭或阶段放行；A-002 required findings 的正式响应待登记。
+**门禁现状（2026-09-30）**：六项信息均 open。R1 退出只要求 I-001 协议结论与 I-003 条件策略；R2a 逐次字段、R3 价值与实现细节不反向阻断 R1。对应 R2b 开跑前须完整预登记及适用授权，真实案例须关闭相应 I-002；R4 再核对最终版用例。I-005 在 R2c 以证据选路，insufficient 保持 open/collecting 并阻断 R2d。I-006 只控制相应 R3 分支决策/退出，证据不足可结论为本轮不引入并记录理由/复评触发/责任，不冒充工具价值验证。I-004 在 R4 交付前关闭。A-002 F-001～F-004 已由 A-003 按 fixed 闭合；下游当前精确引用由 E-012 同步、E-030 记录。R1 仍未完成，本次未关闭信息项或放行阶段。
 
 ## 父目标
 
