@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.20.0
+version: 0.21.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -63,3 +63,5 @@ R1 冻结试验范围、判据、停止规则、限额与责任；R2 内依次�
 2026-09-30：另备 H1/H2/H3 检验单元结构候选（Root `E-014`）；用户选择共享背景、分立 H 单元（Root `D-007` / `E-015`），不选案例、不授权试验，不改变双仓 v0.6.1 绑定。
 
 前驱 `workspace-002-consumer-response-protocol`（挂已 `closed` 的 VP-002）保留历史绑定，2026-09-26 起 `vision_role` 改为 `delivery`（`VR-006`）。
+
+2026-09-30：本仓将已选 R1 规则整合为独立的本地 v0.6.2 草案（Root `E-024`），保留 v0.6.1 文件和下游当前绑定。v0.6.2 尚未写入下游，是否更改当前引用待用户裁决；`I-001` / `I-003` 仍 open，无试验或阶段放行。
