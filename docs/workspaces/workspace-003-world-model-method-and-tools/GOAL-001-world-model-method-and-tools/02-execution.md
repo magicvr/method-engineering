@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.11.0
+version: 0.12.0
 ---
 
 # 执行记录 · GOAL-001
@@ -25,6 +25,7 @@ version: 0.11.0
 | E-009 | 2026-09-30 | 记录下游更新 R1 当前范围候选绑定 | recorded | [E-009](02-execution/E-009-r1-scope-candidate-binding.md) |
 | E-010 | 2026-09-30 | 准备 H1/H2/H3 可观察判据候选 | recorded | [E-010](02-execution/E-010-h123-observation-criteria-candidate.md) |
 | E-011 | 2026-09-30 | 用户选择 H1/H2/H3 组合观察项路径 | recorded | [E-011](02-execution/E-011-h123-criteria-path-selected.md) |
+| E-012 | 2026-09-30 | 准备 H1/H2/H3 证据充分性候选 | recorded | [E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) |
 
 ## 事实边界
 
