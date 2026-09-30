@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.27.0
+version: 0.28.0
 progress: 0%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -66,13 +66,15 @@ primary_plan: VP-003-world-model-method-and-tools
 
 R1 已进入进行中（草案准备），在 Root 原位形成 [初始 R1 冻结提案草案 v0.6.1](attachments/R1-freeze-proposal.md)，准备事实见 [E-004](02-execution/E-004-r1-freeze-proposal-preparation.md)。用户于 2026-09-30 提出 Skills 作为当前工具形式候选（[E-005](02-execution/E-005-skills-tool-form-proposal.md)），说明下游仓库由维护者共同维护、可简化多数职责划分（[E-006](02-execution/E-006-shared-maintainer-context.md)），并授权因上游回滚而替换旧 R1 当前绑定（[D-003](01-decision/D-003-rebind-r1-after-rollback.md) / [E-007](02-execution/E-007-r1-binding-replacement.md)）。用户随后选择 v0.6.1 第一轮方法范围候选作为两仓当前澄清基线（[D-004](01-decision/D-004-select-first-r1-scope-candidate.md)）；下游已于提交 `WorldModel.ModernCultivation@6cb392e65eb8711f17730eafcf68db3deb295bec` 将当前指针从 v0.5.0 更新到同一候选，本仓记录见 [E-009](02-execution/E-009-r1-scope-candidate-binding.md)，下游决定与执行见 D-008 / E-009。该绑定只固定当前澄清对象；候选仍为 draft，不代表完整方法接受或冻结。随后本仓准备 H1/H2/H3 可观察判据、证据充分性与检验单元结构候选（E-010～E-015），用户分别选择了组合观察项、按声明范围判充分、共享背景分立单元的后续澄清路径。用户再指定下游问题作为 R1 草案程序单次黑箱探针、排除在规划外（Root `D-008`）；演练记录见 [E-016](02-execution/E-016-r1-procedure-blackbox-probe.md)，未改变任何候选。完整方案尚无维护者书面确认；具体方法/工具边界、判据、限额、验收与分发安排仍待确认。`I-001` / `I-003` 仍 `open`；`I-002` / `I-004` / `I-005` 均不变。该探针没有选定 R2b/R4 方法检验案例，没有检验 H1/H2/H3 领域假设；R2/R3/R4 仍未开始，无阶段放行。本轮无需新建子目标，四个纲领检查点仍为 0/4 完成。
 
-随后准备 H1/H2/H3 证据充分性候选（[E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) 与 [候选附件](attachments/R1-H123-evidence-sufficiency-candidate.md)）；用户已选择按声明范围判充分（[D-006](01-decision/D-006-select-claim-scoped-evidence.md) / [E-013](02-execution/E-013-claim-scoped-evidence-selected.md)）。该选择仍未确定各 H 的具体范围、最低样本数量、阈值和资源；候选仍为上游 draft，不更新下游 v0.6.1 当前绑定。
+随后准备 H1/H2/H3 证据充分性候选（[E-012](02-execution/E-012-h123-evidence-sufficiency-candidate.md) 与 [候选附件](attachments/R1-H123-evidence-sufficiency-candidate.md)）；用户已选择按声明范围判充分（[D-006](01-decision/D-006-select-claim-scoped-evidence.md) / [E-013](02-execution/E-013-claim-scoped-evidence-selected.md)）。该选择仍未确定各 H 的具体范围、最低样本数量、阈值和资源；截至 E-012/E-013，候选仍为上游 draft，未单独更新当时的 v0.6.1 下游绑定。之后的当前引用更新见 Root D-012 / E-025。
 
-随后准备 H1/H2/H3 有界检验单元结构候选（[E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) 与 [候选附件](attachments/R1-H123-test-unit-structure-candidate.md)）；用户已选择共享背景、分立 H 检验单元（[D-007](01-decision/D-007-select-shared-test-context.md) / [E-015](02-execution/E-015-shared-test-context-selected.md)）。这不指定实际共享背景或案例，也不授权使用；当时下游仍绑定 v0.6.1，后续更新见 Root D-012 / E-025。
+随后准备 H1/H2/H3 有界检验单元结构候选（[E-014](02-execution/E-014-h123-test-unit-structure-candidate.md) 与 [候选附件](attachments/R1-H123-test-unit-structure-candidate.md)）；用户已选择共享背景、分立 H 检验单元（[D-007](01-decision/D-007-select-shared-test-context.md) / [E-015](02-execution/E-015-shared-test-context-selected.md)）。这不指定实际共享背景或案例，也不授权使用。E-014/E-015 记录的是 v0.6.1 仍为下游当前引用时的状态；后续当前引用更新见 Root D-012 / E-025。
 
 针对 `I-003`，已只读核对本仓与下游的 Skills 承载现状，并形成[工具交付边界候选](attachments/R1-I003-skill-delivery-boundary-candidate.md)（[E-017](02-execution/E-017-i003-skill-delivery-boundary-candidate.md)）。用户已选择独立于治理包、Codex 首发的路径（[D-009](01-decision/D-009-select-codex-first-method-skill.md) / [E-018](02-execution/E-018-codex-first-skill-path-selected.md)）；输入输出字段、记录格式、源路径及验收仍待与 `I-001` 方法接口共同冻结，`I-003` 保持 open，未开始实现。
 
-针对 `I-001`，已准备范围与有限工作量候选（[E-019](02-execution/E-019-i001-test-scope-and-bounds-candidate.md)）；用户选择小型可行性档（[D-010](01-decision/D-010-select-small-r1-workload-profile.md) / [E-020](02-execution/E-020-small-r1-workload-profile-selected.md)）和证据清单 + 创作者局部裁决（[D-011](01-decision/D-011-select-checklist-creator-judgment.md) / [E-022](02-execution/E-022-checklist-creator-judgment-selected.md)）。本仓准备空白预登记表（[E-023](02-execution/E-023-i001-preregistration-worksheet-candidate.md)），之后将已选规则合并为本地 v0.6.2 草案（[E-024](02-execution/E-024-consolidate-r1-draft-v0-6-2.md)）；截至 E-024 记录时尚未同步至下游，后续写入见 Root D-012 / E-025。具体输入、局部规则、责任、完整停止条件与双仓同版记录仍待冻结；不授权试验，黑箱探针及其结果不参与规划。
+针对 `I-001`，已准备范围与有限工作量候选（[E-019](02-execution/E-019-i001-test-scope-and-bounds-candidate.md)）；用户选择小型可行性档（[D-010](01-decision/D-010-select-small-r1-workload-profile.md) / [E-020](02-execution/E-020-small-r1-workload-profile-selected.md)）和证据清单 + 创作者局部裁决（[D-011](01-decision/D-011-select-checklist-creator-judgment.md) / [E-022](02-execution/E-022-checklist-creator-judgment-selected.md)）。本仓准备空白预登记表（[E-023](02-execution/E-023-i001-preregistration-worksheet-candidate.md)），之后将已选规则合并为本地 v0.6.2 草案（[E-024](02-execution/E-024-consolidate-r1-draft-v0-6-2.md)）；**截至 E-024 时**尚未同步至下游，随后用户接受 v0.6.2 作为当前澄清对象，下游写入见 Root D-012 / E-025。具体输入、局部规则、责任、完整停止条件与双仓同版记录仍待冻结；不授权试验，黑箱探针及其结果不参与规划。
+
+**当前状态汇总（2026-09-30）**：用户已按 D-012 接受 v0.6.2 为两仓当前 R1 澄清对象，下游与本仓的精确引用见下表 I-001/I-003 及最新执行记录。用户另选择先整理 I-001/I-003 未决项清单（D-013 / E-026），并选择创作者主责的方法使用边界候选（D-014 / E-027）。这些是对候选路径的选择，不是对整份附件草案的接受；`R1-freeze-proposal-v0.6.2.md` 及其余候选附件继续保持 `draft`。共同维护组对完整方案的书面确认尚未记录，`I-001`～`I-005` 均 `open`，R1 仍为草案准备，进度 0/4，无试验或阶段放行。
 
 ## 派生进度展示
 
