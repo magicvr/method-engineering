@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.27.0
+version: 0.28.0
 ---
 
 # 执行记录 · GOAL-001
@@ -41,9 +41,12 @@ version: 0.27.0
 | E-025 | 2026-09-30 | 记录下游将当前 R1 引用更新至 v0.6.2 | recorded | [E-025](02-execution/E-025-downstream-r1-binding-v0-6-2.md) |
 | E-026 | 2026-09-30 | 整理 R1 I-001 / I-003 未决项裁决清单 | recorded | [E-026](02-execution/E-026-r1-open-items-decision-brief.md) |
 | E-027 | 2026-09-30 | 记录创作者主责的方法使用边界候选 | recorded | [E-027](02-execution/E-027-record-creator-primary-method-use-candidate.md) |
+| E-028 | 2026-09-30 | 同步 R1 草案状态与当前引用 | recorded | [E-028](02-execution/E-028-r1-document-status-synchronization.md) |
 
 ## 事实边界
 
 只写已经发生且有证据的事实。R1 **进行中（草案准备）**，R2/R3/R4 **仍未开始**：本仓已有 v0.6.1 第一轮范围候选并经只读文本复核；用户按 D-004 选择该候选为当前两仓澄清基线后，下游已于提交 `WorldModel.ModernCultivation@6cb392e65eb8711f17730eafcf68db3deb295bec` 将当前指针从 v0.5.0 更新到该候选（下游 D-008 / E-009，本仓 E-009）。随后本仓准备 H1/H2/H3 可观察判据、证据充分性与检验单元结构候选（E-010～E-015）；候选仍为 draft，未并入两仓绑定。用户按 Root `D-008` 指定下游原始问题仅作为 R1 草案程序黑箱探针，排除在草案规划之外；本仓按当前候选完成一次单轮演练（E-016），未检验 H1/H2/H3 领域假设，未改写候选。本仓只读核对 Skills 承载现状并准备 `I-003` 工具交付边界候选（E-017）；用户选择独立 Codex 首发路径（Root `D-009` / `E-018`），但未关闭 `I-003`，未实现工具、未写入下游。针对 `I-001`，用户选择小型可行性工作量档（Root `D-010` / `E-020`）；该决定只限定未来试验计划上限，没有授权执行。本仓准备局部支持判据候选（E-021）；用户选择证据清单 + 创作者局部裁决（Root `D-011` / `E-022`），随后准备空白预登记工作表候选（E-023）。本仓继而形成独立的 v0.6.2 本地合并草案（E-024），未覆盖已绑定的 v0.6.1，也未写入下游；具体范围、H2/H3 局部规则、严重度、责任、停止条件与双仓同版记录仍待冻结。用户已提出 Skills 工具形式、说明共同维护关系并授权替换回滚前的下游当前 R1 绑定。完整冻结方案仍无维护者书面确认；具体边界/验收及分发安排待确认。`I-001`～`I-005` 均 `open`；该问题未选作 R2b/R4 方法检验用例，`I-002` 仍 open；无 R2b/R4 案例检验或假设实验发生。方法工作版、交付、实际收件、验收与退出**均未发生**，不得由草案、单次程序探针、形式提案、维护关系说明、绑定替换、受理或路线裁决推导。四个纲领检查点仍为 0/4 完成（0%），没有阶段放行。
 
 2026-09-30 后续下游绑定：用户接受推荐后，WorldModel.ModernCultivation 于提交 1ddfd75f123ba63676be09a1487b506db1d9bc5e 在 exchange/README.md 将当前 R1 指针更新为 magicvr/method-engineering@8a8ded5ddbdb6f627b00ccf854fb0fe75be44cc7 的 attachments/R1-freeze-proposal-v0.6.2.md（下游 D-009 / E-010；本仓 D-012 / E-025）。v0.6.2 仍为 draft；该引用不表示方法接受、冻结、工具交付或阶段放行。
+
+2026-09-30 文档卫生同步：Root `00-meta.md` 与相关附件已将已选候选路径、仍为草案的完整文件、历史绑定时点及当前状态区分清楚（E-028）。v0.6.2 草案状态仍为 `draft`，current exact source is `magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082`，由下游提交 `WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53` 更新引用；下游执行事实见 E-011。`I-001`～`I-005` 仍 `open`，R1 未冻结。

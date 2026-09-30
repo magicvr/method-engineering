@@ -4,16 +4,16 @@ status: draft
 created: 2026-09-30
 updated: 2026-09-30
 parent: null
-version: 1.1.0
+version: 1.1.1
 ---
 
 # R1 未决项裁决清单 · v0.6.2
 
 ## 当前基线与边界
 
-当前两仓 R1 澄清对象为本仓提交 `magicvr/method-engineering@8a8ded5ddbdb6f627b00ccf854fb0fe75be44cc7` 中的 [`R1-freeze-proposal-v0.6.2.md`](R1-freeze-proposal-v0.6.2.md)。下游当前指针由 `WorldModel.ModernCultivation@1ddfd75f123ba63676be09a1487b506db1d9bc5e` 更新；上游记录见 [D-012](../01-decision/D-012-update-current-r1-reference-v0-6-2.md) / [E-025](../02-execution/E-025-downstream-r1-binding-v0-6-2.md)。
+当前两仓 R1 澄清对象仍为 v0.6.2 [`R1-freeze-proposal-v0.6.2.md`](R1-freeze-proposal-v0.6.2.md)，精确上游提交为 `magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082`；下游当前指针记录在 `WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53`。D-012 / E-025 记录首次绑定，文档卫生同步后的来源刷新见本仓 [E-028](../02-execution/E-028-r1-document-status-synchronization.md) 与下游 E-011。
 
-被引用的 v0.6.2 文件是在上游提交 `8a8ded5` 时形成的草案快照，其中「下游仍绑定 v0.6.1」及「是否更新当前指针待裁决」记录的是该草案形成时的状态；后续已由 D-012 / E-025 记录的 v0.6.2 当前绑定取代。此处说明是状态时间线，不更改草案内容或引用提交。
+上游提交 `8a8ded5` 是初始 v0.6.2 快照，其中「下游仍绑定 v0.6.1」及「是否更新当前指针待裁决」记录的是初稿形成时的历史状态。用户之后按 D-012 选择 v0.6.2，E-025 记录首次绑定；本次状态卫生修订形成当前精确来源 `0340ee9`，并由下游 E-011 更新指针。旧快照与首次绑定记录保留，不再视为当前精确来源。
 
 v0.6.2 仍为 `draft`。本清单只整理需要作答和留痕的事项，不替用户或共同维护组选择未决值，不构成方法接受、R1 冻结、试验或工具实现授权。`I-001` / `I-003` 仍为 `open`，其余 `I-002` / `I-004` / `I-005` 也未关闭；R1 未放行。
 
