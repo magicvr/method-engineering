@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.9.0
+version: 0.10.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -52,6 +52,6 @@ R1 冻结试验范围、判据、停止规则、限额与责任；R2 内依次�
 
 上游视角：本区承接的是**真实消费需求** `WRK-002-world-model-method-and-tools`（下游 `WorldModel.ModernCultivation` 提报，2026-09-26 本仓受理并形成处理承诺）。运行状态唯一来源是 [`runtime-records/WRK-002-world-model-method-and-tools/record.md`](../../../runtime-records/WRK-002-world-model-method-and-tools/record.md)；本区不建立第二套运行状态源。
 
-2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。2026-09-30 用户选择「先验证、失败转向」路线（Root `D-002`）；现 R1 进行中（非权威冻结提案草案准备，Root `E-004`），R2/R3/R4 仍未开始，四个纲领阶段仍为 0/4 完成。用户于 2026-09-30 提出 Skills 工具形式（Root `E-005`），并说明下游由维护者共同维护、可简化多数职责划分（Root `E-006`）；R1 第一轮方法范围候选 v0.6.1 已准备并经只读文本复核（Root `E-008`），用户已选择该候选为两仓当前澄清基线（Root `D-004`）。下游已于提交 `WorldModel.ModernCultivation@6cb392e65eb8711f17730eafcf68db3deb295bec` 更新当前指针，本仓执行事实见 Root `E-009`、下游决定与执行见 D-008 / E-009。之后本仓另行准备 H1/H2/H3 可观察判据候选（Root `E-010`）；它仍待用户裁决，未更改当前双仓绑定。候选仍为 draft；完整冻结方案无维护者书面确认。边界/验收及分发安排待确认，无阶段放行。`I-001` / `I-003` 仍阻断 R1 冻结，`I-002` 阻断 R2b 真实案例使用并约束 R4 检验，`I-005` 阻断 R2c 证据选路，`I-004` 阻断 R4 交付放行；五项均 `open`，权威登记在 Root `00-meta.md`。
+2026-09-26 由 `/govern` 按用户确认开设本区并创建 Root（`active`）。2026-09-30 用户选择「先验证、失败转向」路线（Root `D-002`）；现 R1 进行中（非权威冻结提案草案准备，Root `E-004`），R2/R3/R4 仍未开始，四个纲领阶段仍为 0/4 完成。用户于 2026-09-30 提出 Skills 工具形式（Root `E-005`），并说明下游由维护者共同维护、可简化多数职责划分（Root `E-006`）；R1 第一轮方法范围候选 v0.6.1 已准备并经只读文本复核（Root `E-008`），用户已选择该候选为两仓当前澄清基线（Root `D-004`）。下游已于提交 `WorldModel.ModernCultivation@6cb392e65eb8711f17730eafcf68db3deb295bec` 更新当前指针，本仓执行事实见 Root `E-009`、下游决定与执行见 D-008 / E-009。之后本仓准备 H1/H2/H3 可观察判据候选（Root `E-010`），用户已选择组合观察项路径为下一步澄清基础（Root `D-005`），不更改当前双仓绑定。候选仍为 draft；完整冻结方案无维护者书面确认。具体判据、边界/验收及分发安排待确认，无阶段放行。`I-001` / `I-003` 仍阻断 R1 冻结，`I-002` 阻断 R2b 真实案例使用并约束 R4 检验，`I-005` 阻断 R2c 证据选路，`I-004` 阻断 R4 交付放行；五项均 `open`，权威登记在 Root `00-meta.md`。
 
 前驱 `workspace-002-consumer-response-protocol`（挂已 `closed` 的 VP-002）保留历史绑定，2026-09-26 起 `vision_role` 改为 `delivery`（`VR-006`）。
