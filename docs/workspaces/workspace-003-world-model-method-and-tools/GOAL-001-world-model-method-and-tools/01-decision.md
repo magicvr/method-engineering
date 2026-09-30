@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.3.0
+version: 0.4.0
 ---
 
 # 决策记录 · GOAL-001
@@ -32,3 +32,4 @@ version: 0.3.0
 | D-001 | 2026-09-26 | 受理 `WRK-002` 真实需求并开设 workspace-003 | accepted | `01-decision/D-001-accept-wrk002-and-open-workspace.md` |
 | D-002 | 2026-09-30 | 优先验证假设、失败转向的路线选择 | accepted | [D-002](01-decision/D-002-prioritize-hypothesis-validation.md) |
 | D-003 | 2026-09-30 | 因回滚授权替换下游 R1 当前绑定 | accepted | [D-003](01-decision/D-003-rebind-r1-after-rollback.md) |
+| D-004 | 2026-09-30 | 选择 R1 第一轮方法范围候选 | accepted | [D-004](01-decision/D-004-select-first-r1-scope-candidate.md) |
