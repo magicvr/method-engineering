@@ -6,7 +6,7 @@ status: recorded
 parent: null
 created: 2026-09-30
 updated: 2026-09-30
-version: 0.1.0
+version: 0.2.0
 ---
 
 ## E-007 · 授权替换回滚前的下游 R1 当前绑定
@@ -18,6 +18,8 @@ version: 0.1.0
 - **响应**：将 [R1 冻结提案草案](../attachments/R1-freeze-proposal.md) 修订为 v0.5.0，并记录决策 [D-003](../01-decision/D-003-rebind-r1-after-rollback.md)。下游可将此草案作为新的当前澄清对象，并须以本仓精确提交和路径引用。
 - **状态边界**：这次授权限于替换下游当前绑定指针及其治理记录。新绑定仍是 draft，不代表接受或冻结；`I-001` / `I-003` 保持 `open`，不构成 R1 退出、实验授权或下游 M1 完成。
 
-### Git 检查点
+### 双仓 Git 检查点
 
-- 本记录将随本轮上游提案/决策检查点提交；后续在下游写入绑定后，再补记两仓对应提交与路径，保留可追溯引用。
+- **上游提案**：`magicvr/method-engineering` @ `f69e567c87ecd12af4f39d55f8235460ff85f310`，`docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal.md` v0.5.0。
+- **下游当前绑定**：`WorldModel.ModernCultivation` @ `a209038ec322b1cea4abba49eb3dce832ad470b4`，决策 `docs/workspaces/workspace-002-world-model-method-acquisition/GOAL-001-world-model-method-acquisition/01-decision/D-007-rebind-r1-after-upstream-rollback.md`，执行记录 `docs/workspaces/workspace-002-world-model-method-acquisition/GOAL-001-world-model-method-acquisition/02-execution/E-008-r1-binding-replacement.md`。
+- 两处提交已记录同一草案版本的当前引用；这不表示草案已接受或冻结，`I-001` / `I-003` 仍 `open`。

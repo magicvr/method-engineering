@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-09-30
-version: 0.6.0
+version: 0.7.0
 ---
 
 # 执行记录 · GOAL-001
