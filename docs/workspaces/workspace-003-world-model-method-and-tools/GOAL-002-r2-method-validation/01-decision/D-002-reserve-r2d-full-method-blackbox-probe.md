@@ -4,14 +4,14 @@ status: accepted
 created: 2026-10-01
 updated: 2026-10-01
 parent: null
-version: 1.0.0
+version: 1.0.1
 ---
 
 # D-002 · 预留“世界有多大”为完整方法冻结后的黑箱核对
 
 ## 决定与依据
 
-2026-10-01，用户提供真实测试问题 **“世界有多大”**，选择“完整方法”路径，要求用作黑箱探针，明确不得围绕该题设计或定制方法、工具。Root [D-020](../../GOAL-001-world-model-method-and-tools/01-decision/D-020-reserve-r2d-full-method-blackbox-probe.md) 保存该裁决与 I-002 证据说明；本条承载 R2 内的核对安排。旧 Root D-008 修真问题的输入及授权与本题无关，不沿用。
+2026-10-01，用户提供真实测试问题 **“世界有多大”**，选择“完整方法”路径，要求用作黑箱探针，明确不得围绕该题设计或定制方法、工具。Root [D-020](../../GOAL-001-world-model-method-and-tools/01-decision/D-020-reserve-r2d-full-method-blackbox-probe.md) 保存该裁决与 I-002 证据说明；本条承载 R2 内的核对安排。Root [D-008](../../GOAL-001-world-model-method-and-tools/01-decision/D-008-hold-case-as-blackbox-probe.md) 中旧修真问题的输入及授权与本题无关，不沿用。
 
 ## 阶段与前置条件
 

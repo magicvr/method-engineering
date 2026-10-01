@@ -4,7 +4,7 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.11
+version: 0.1.13
 ---
 
 # R2a · 假设操作化准备方案 v0.1.6
@@ -15,7 +15,7 @@ version: 0.1.11
 
 ## 已选 R2d 探针与 R2a 的边界
 
-用户提供的准确问题“世界有多大”已按 [D-002](../01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) 预留为 R2d 单次完整方法黑箱核对，并明确禁止围绕该题设计或定制方法、工具。因此本题不用于本准备方案、H1/H2/H3 操作化或 R2c 选路；下方 H 单元仍须另行选择与预登记。旧 Root D-008 修真问题的来源、哈希与授权不沿用。
+用户提供的准确问题“世界有多大”已按 [D-002](../01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) 预留为 R2d 单次完整方法黑箱核对，并明确禁止围绕该题设计或定制方法、工具。因此本题不用于本准备方案、H1/H2/H3 操作化或 R2c 选路；下方 H 单元仍须另行选择与预登记。Root [D-008](../../GOAL-001-world-model-method-and-tools/01-decision/D-008-hold-case-as-blackbox-probe.md) 中旧修真问题的来源、哈希与授权不沿用。
 
 先行 H 证据须完成 R2c 选路、满足 Root I-005 对进入 R2d 的要求；其后形成并冻结通用方法版及通用判据，再输入本题。核对允许澄清或信息不足；运行前须登记有限的人工作业预算/截止点及通用终止条件，当前具体预算和截止点未定，达到任一停点即记录并停止。不预设数值答案，不据本题临时补造或调参。本题不自动构成 H 证据或 R4 用例；若实际用于 H 可行性评价，计入 R1 对应 H 格数及累计 9 格 / 180 人分钟上限，不能借 R2d/R4 绕限额。Root I-002 仍 open；R4 复用须另行复核最终版适配性与授权。
 
@@ -57,7 +57,7 @@ version: 0.1.11
 
 冻结结构：先封闭一个有来源、范围和排除项的抽样框；最多 3 条身份→情景→问题链，不外推到完整世界或总体覆盖。
 
-**H3-SEM-001（required / OPEN）仍阻断 H3 正式预登记最终冻结。** 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成实际首版模型，并在隐藏评估参考揭示前冻结产物；两链安排仅作基线。按 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md)，首版最低产物类型为可审查的纯文本机制模型条目；分析手段按证据需要选择；能力清单逐项核对是后续映射/遗漏/局部判据的起草基础。按 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，R1 v0.6.4 §2 的 12 类条目信息均为最低内容。用户依 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 选定 C-02～C-04 为核心、C-01 为输入/范围前提，并确定初步标签边界。初稿见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，供创作者审定，不可提供给生成端。逐链映射、跨链汇总及其余执行字段仍待裁定（登记见 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。[Root D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求这些局部规则在执行前定义；[R1 判据候选](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 的额外“至少一条样本可回答”门槛未被接受。问题清单或事后参考比较不能单独证明模型形成；路线选择未形成实际产物、未冻结预登记或授权运行。
+**H3-SEM-001（required / OPEN）仍阻断 H3 正式预登记最终冻结。** 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成实际首版模型，并在隐藏评估参考揭示前冻结产物；两链安排仅作基线。按 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md)，首版最低产物类型为可审查的纯文本机制模型条目；分析手段按证据需要选择；能力清单逐项核对是后续映射/遗漏/局部判据的起草基础。按 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，R1 v0.6.4 §2 的 12 类条目信息均为最低内容。用户依 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 选定 C-02～C-04 为核心、C-01 为输入/范围前提，并确定初步标签边界；依 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md) 选定冻结模型集合级汇总，逐链证据保留、单链未触及不自动判失败。初稿见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，供创作者审定，不可提供给生成端。逐链映射、`explicit-gap` / `not-elicited` 的整体处理及其余执行字段仍待裁定（登记见 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。[Root D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求这些局部规则在执行前定义；[R1 判据候选](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 的额外“至少一条样本可回答”门槛未被接受。问题清单或事后参考比较不能单独证明模型形成；路线选择未形成实际产物、未冻结预登记或授权运行。
 
 运行前需要补齐：
 
@@ -87,7 +87,7 @@ version: 0.1.11
 | H1 客观问题、两模型与条件变化 | 基线结构已接受；准确问句、参数、模型版本与预测仍待逐项确认 | 候选四格预测不是观察结果；运行前登记并冻结。 |
 | H2 确需澄清的问题与对照信息 | 基线结构已接受；准确原问、快照、回应卡与规则仍待逐项确认 | 创作者确认确需澄清和局部增益规则；两路径同信息、同回应规则且隔离，不预设身份路径更好。 |
 | H3 封闭抽样框、样本链与初始模型集 | 从零形成实际首版模型的路径已选；两链仅作基线，准确框、输入组合、快照及参考版本仍待确认 | 实际模型由采样链导出并在参考揭示前冻结；新上下文隔离及逐链计格继续适用，当前无产物/运行。 |
-| H3-SEM-001 最低模型要求、映射与遗漏 | required / OPEN；产物类型、R1 §2 的 12 类最低字段信息及 C-02～C-04 核心范围已接受；逐链映射、跨链汇总与其余执行字段未定 | 按 D-005～D-007 更新清单，再完成预登记；未闭合前阻断 H3 最终冻结，不沿用 draft 的附加阈值。 |
+| H3-SEM-001 最低模型要求、映射与遗漏 | required / OPEN；产物类型、R1 §2 的 12 类最低字段信息、C-02～C-04 核心范围及模型集合级汇总已接受；逐链映射、gap/未触及汇总与其余执行字段未定 | 按 D-005～D-008 更新清单，再完成预登记；未闭合前阻断 H3 最终冻结，不沿用 draft 的附加阈值。 |
 | 各 H 局部支持/否决规则及严重度 | 待创作者填写 | 运行前冻结；AI 建议不能替代创作者裁定。 |
 | R2b 真实案例及授权 | 未选择 | “世界有多大”仅选为 R2d 探针，未证明本项就绪；仅真实案例运行前受 Root I-002 阻断，若使用须明确用途范围并关闭该范围门禁。 |
 | 实际人工投入分钟 | 未记录 | R2a 起逐人登记；不估算、不将 AI 时间折算成人时。 |

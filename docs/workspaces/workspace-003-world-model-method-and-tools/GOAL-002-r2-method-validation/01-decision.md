@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.9
+version: 0.1.11
 ---
 
 # 决策记录 · GOAL-002
@@ -20,6 +20,7 @@ version: 0.1.9
 | R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；映射/遗漏以能力清单逐项核对为起草基础，具体能力项及标签边界未定。 |
 | R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力覆盖与跨链聚合仍待裁定。 |
 | R2a H3 核心能力与标签边界 | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) | C-02～C-04 为核心能力，C-01 为输入/范围前提；用户确定核心缺项 partial、核心矛盾或错述 C-01 refuted、证据不足 insufficient；跨链汇总仍待裁定。 |
+| R2a H3 跨链汇总单位 | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) | 最终标签针对最终预登记所选链共同形成的冻结模型集合；逐链映射保留，单链未触及不自动判失败；明确缺口/未触及的整体汇总细则仍待补齐。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -37,3 +38,4 @@ version: 0.1.9
 | D-005 | 2026-10-01 | 确定 H3 文本模型产物与能力清单判定基础 | accepted | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) |
 | D-006 | 2026-10-01 | 接受 H3 首版模型采用 R1 完整条目字段 | accepted | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) |
 | D-007 | 2026-10-01 | 确定 H3 核心能力范围与局部标签边界 | accepted | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) |
+| D-008 | 2026-10-01 | 确定 H3 按冻结模型集合汇总结果 | accepted | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) |

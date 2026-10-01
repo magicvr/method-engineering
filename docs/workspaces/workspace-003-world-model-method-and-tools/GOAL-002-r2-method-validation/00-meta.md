@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.7
+version: 0.1.9
 progress: 0%
 ---
 
@@ -19,7 +19,7 @@ progress: 0%
 
 ## 成功标准
 
-H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成首版模型：由采样链输出形成实际机制模型集合，在揭示隐藏评估参考前冻结该产物。按 [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，首版为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类字段信息均须可定位；分析方式按证据需要选择。按 [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md)，C-02～C-04 是核心机制能力，C-01 是须正确遵守的输入/范围前提；核心缺项为 partial，核心矛盾或错述 C-01 为 refuted，无可审查冻结模型或证据不足为 insufficient。逐链到能力/模型/缺口的记录结构已拟，跨链汇总与具体输入/停止规则仍待裁定。H3-SEM-001 保持 OPEN，阻断 H3 正式预登记最终冻结。尚无已形成或冻结的实际首版模型。
+H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成首版模型：由采样链输出形成实际机制模型集合，在揭示隐藏评估参考前冻结该产物。按 [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，首版为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类字段信息均须可定位；分析方式按证据需要选择。按 [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md)，C-02～C-04 是核心机制能力，C-01 是须正确遵守的输入/范围前提；核心缺项为 partial，核心矛盾或错述 C-01 为 refuted，无可审查冻结模型或证据不足为 insufficient。按 [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md)，H3 最终标签针对最终预登记所选链共同形成的模型集合，逐链证据映射保留；单条链未触及能力不自动算失败。明确缺口/未触及的跨链处理与准确输入/停止规则仍待裁定。H3-SEM-001 保持 OPEN，阻断 H3 正式预登记最终冻结。尚无已形成或冻结的实际首版模型。
 
 - [ ] **R2a · 操作化假设**：为 H1/H2/H3 分别形成具体、可核对且运行前冻结的预登记，包含问题/主张、模型或样本、逐格预测、局部判据、正反例、对照/抽样、证据位置、责任、预算、停止与偏离规则。创作者给出最终局部裁决规则；空白字段不作默认值。
 - [ ] **R2b · 有界试验**：仅在相应预登记完整且执行授权适用后，按登记运行并记录观察、反例、偏离、各 H 局部标签、证据与实际人时；试验不超出 R1 冻结额度。真实案例使用前，须按 Root `I-002` 留下案例、用途范围和授权，并关闭该范围门禁。
@@ -45,7 +45,7 @@ H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md)
 
 本目标不复制父目标的同号信息项状态，避免形成第二权威：
 
-- [Root I-002](../GOAL-001-world-model-method-and-tools/00-meta.md) 控制 R2b 真实案例的选择、用途范围和授权；现有 D-008/E-016 只覆盖 R1 草案程序探针，不能推定为 R2b/R4 授权。
+- [Root I-002](../GOAL-001-world-model-method-and-tools/00-meta.md) 控制 R2b 真实案例的选择、用途范围和授权；Root [D-008](../GOAL-001-world-model-method-and-tools/01-decision/D-008-hold-case-as-blackbox-probe.md) / [E-016](../GOAL-001-world-model-method-and-tools/02-execution/E-016-r1-procedure-blackbox-probe.md) 只覆盖 R1 草案程序探针，不能推定为 R2b/R4 授权。
 - [Root I-005](../GOAL-001-world-model-method-and-tools/00-meta.md) 控制 R2c 证据选路及 R2d 放行；`insufficient` 阻断 R2d。
 - Root I-006 只控制 R3 的工具化分支，不阻断 R2。
 
@@ -57,7 +57,7 @@ R2a 的具体测试单元与逐次预登记字段由本目标的决策/附件承
 
 本题不用于 R2a–R2c 的方法设计、操作化或选路，不自动作为 H1/H2/H3 证据、I-005 替代或 R4 最终版案例。流程允许澄清或信息不足；运行前须另行登记有限的人工作业预算/截止点及通用终止条件，当前具体预算和截止点未定，达到任一停点即记录并停止。不预设必须给出数值，不为通过本题临时补造或调参。若实际承担 H 可行性评价，计入 R1 对应 H 额度及累计 9 格 / 180 人分钟上限，不借 R2d/R4 绕限额。
 
-Root I-002 仍 open，本次选择未证明 R2b/R4 用例门禁或下游 I-001/I-011 对应关系；R4 复用须另行复核最终版适配性与授权。旧 D-008 的修真问题来源与授权不沿用。当前通用方法版、通用判据及探针运行均未完成，本段不推进阶段或增加已完成检查点。
+Root I-002 仍 open，本次选择未证明 R2b/R4 用例门禁或下游 I-001/I-011 对应关系；R4 复用须另行复核最终版适配性与授权。Root D-008 的旧修真问题来源与授权不沿用。当前通用方法版、通用判据及探针运行均未完成，本段不推进阶段或增加已完成检查点。
 
 ## 父目标与愿景对齐
 
