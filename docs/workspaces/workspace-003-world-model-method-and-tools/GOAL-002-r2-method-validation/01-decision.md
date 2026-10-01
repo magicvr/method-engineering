@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.25
+version: 0.1.26
 ---
 
 # 决策记录 · GOAL-002
@@ -16,7 +16,8 @@ version: 0.1.25
 |------|-----------------|------|
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
 | R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；H1 候选输入另依 D-022 接受但未冻结。其他准确输入、局部判据/严重度、责任、预算/停点、冻结及运行授权仍待逐项完成。 |
-| R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部判据/严重度、责任、证据与正式冻结仍待完成。 |
+| R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部主张与判据另依 D-023 接受为候选，责任、证据与正式冻结仍待完成。 |
+| R2a H1 局部裁决 | [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) | 用户接受四格主张、四标签局部判据与逐格定性严重度口径为候选；证据字段、执行责任与正式冻结仍待完成。 |
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，最低启动/映射规则依 D-015 已定，C-03 两条链适用性候选依 D-016 已选；准确输入、其余矩阵单元、剩余判据及执行安排待补，H3-SEM-001 仍 OPEN。 |
 | R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；依 D-007～D-016 已确定核心能力、标签优先级、最低启动能力、C-03 两链候选适用性及映射/遗漏规则。 |
 | R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力覆盖与跨链聚合仍待裁定。 |
@@ -37,7 +38,7 @@ version: 0.1.25
 
 ## 信息需求与阶段门禁
 
-父目标 [GOAL-001](../GOAL-001-world-model-method-and-tools/00-meta.md) 的 I-002、I-005、I-006 是本目标对应门禁的唯一状态来源。本目标不复制其状态：I-002 适用于真实案例运行前；I-005 适用于 R2c 选路与 R2d；I-006 仅适用于 R3。R2a 的 H1 问题、模型与四格预测已按 D-022 接受为候选但未冻结；其他单元输入及各 H 局部判据仍须逐项操作化，不代表试验已获准。
+父目标 [GOAL-001](../GOAL-001-world-model-method-and-tools/00-meta.md) 的 I-002、I-005、I-006 是本目标对应门禁的唯一状态来源。本目标不复制其状态：I-002 适用于真实案例运行前；I-005 适用于 R2c 选路与 R2d；I-006 仅适用于 R3。R2a 的 H1 问题、模型、四格预测及局部主张/标签规则已按 D-022/D-023 接受为候选但未冻结；证据/责任/停止字段、其他单元输入及 H2/H3 局部判据仍须逐项操作化，不代表试验已获准。
 
 ## 决策索引
 
@@ -65,3 +66,4 @@ version: 0.1.25
 | D-020 | 2026-10-01 | 为 H3-01 加入库存绑定第三步候选 | accepted（候选输入，未冻结） | [D-020](01-decision/D-020-add-h3-inventory-binding-step.md) |
 | D-021 | 2026-10-01 | 接受 H3 候选逐链适用性矩阵 | accepted（候选矩阵，未冻结） | [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) |
 | D-022 | 2026-10-01 | 接受 H1 候选输入与四格预测 | accepted（候选输入，未冻结） | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) |
+| D-023 | 2026-10-01 | 接受 H1 局部主张与裁决规则候选 | accepted（候选规则，未冻结） | [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) |

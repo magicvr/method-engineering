@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.23
+version: 0.1.24
 progress: 0%
 ---
 
@@ -23,7 +23,9 @@ progress: 0%
 
 2026-10-01，用户按 [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) 接受 H3 C-01～C-04 的候选逐链适用性分类与理由：C-01 两链适用；C-02 两链适用但库存绑定机会仅在 H3-01；C-03 两链均限 D-019；C-04 两链适用，保留三步/两步差异且不默默按步数加权。该候选矩阵须与准确输入在生成前复核并冻结，仍不是冻结登记或运行授权；H3-SEM-001 继续 OPEN。
 
-2026-10-01，用户依 [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) 接受 H1 问题、M1/M2 规则、初始存量 8→4 的唯一变化及四格预测 `4 / 0 / 2 / 2` 为候选输入。预测不是观察；创作者局部判据/严重度、输入不足处理、责任/证据路径和正式冻结仍待完成，不授权运行。
+2026-10-01，用户依 [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) 接受 H1 问题、M1/M2 规则、初始存量 8→4 的唯一变化及四格预测 `4 / 0 / 2 / 2` 为候选输入。预测不是观察；局部主张/判据和逐格定性严重度口径随后依 D-023 接受为候选，证据/责任/停止字段与正式冻结仍待完成，不授权运行。
+
+2026-10-01，用户依 [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) 接受 H1 四格局部主张、四标签判据及逐格定性严重度记录为预登记候选。它们仍待与证据字段、停止/偏离流程一并核对冻结；R2a 未完成，不放行运行。
 
 ## 成功标准
 

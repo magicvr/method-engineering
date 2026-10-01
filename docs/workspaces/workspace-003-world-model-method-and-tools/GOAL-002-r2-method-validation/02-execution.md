@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.23
+version: 0.1.24
 ---
 
 # 执行记录 · GOAL-002
@@ -38,8 +38,11 @@ version: 0.1.23
 | E-022 | 2026-10-01 | 记录 H3-01 库存绑定第三步候选裁决 | recorded | [E-022](02-execution/E-022-record-h3-inventory-binding-step.md) |
 | E-023 | 2026-10-01 | 记录 H3 候选逐链适用性矩阵裁决 | recorded | [E-023](02-execution/E-023-record-h3-candidate-applicability-matrix.md) |
 | E-024 | 2026-10-01 | 记录 H1 候选输入与四格预测裁决 | recorded | [E-024](02-execution/E-024-record-h1-candidate-inputs-and-predictions.md) |
+| E-025 | 2026-10-01 | 记录 H1 局部主张与裁决规则裁决 | recorded | [E-025](02-execution/E-025-record-h1-local-claim-and-judgment-rules.md) |
 
 ## 事实边界
+
+2026-10-01，用户依 D-023 接受 H1 四格局部主张及 supported/partial/refuted/insufficient 候选边界，并选择按受影响格与偏离性质逐项定性记录严重度。该规则尚待与证据字段和停止/偏离流程一并冻结；未运行、未授权，R2a 保持进行中。
 
 2026-10-01，用户依 D-022 接受 H1 的候选问题、两模型、基线/唯一初始存量变化及四格算术预测（`4 / 0 / 2 / 2`）。已同步 H1 候选包、R2a 操作化准备稿与决策记录。该裁决仅建立候选输入，不是观察或假设结论；局部判据/严重度、输入不足处理、责任/证据路径与正式冻结仍待完成，没有运行或授权，R2a 仍进行中。
 
