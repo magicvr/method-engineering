@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 决策记录 · GOAL-002
@@ -15,6 +15,7 @@ version: 0.1.0
 | 阶段 | 计划文件 / 落点 | 说明 |
 |------|-----------------|------|
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
+| R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
 
@@ -25,3 +26,4 @@ version: 0.1.0
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |------|------|------|------|------|
 | D-001 | 2026-10-01 | 建立 R2 子目标并界定职责与门禁 | accepted | [D-001](01-decision/D-001-r2-scope-and-gate-authority.md) |
+| D-002 | 2026-10-01 | 预留“世界有多大”为完整方法冻结后的黑箱核对 | accepted | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) |

@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-01
-version: 0.35.0
+version: 0.36.0
 ---
 
 # 执行记录 · GOAL-001
@@ -49,6 +49,7 @@ version: 0.35.0
 | E-033 | 2026-09-30 | 记录下游同步 R1 v0.6.4 冻结协议 | recorded | [E-033](02-execution/E-033-record-downstream-r1-v0-6-4-sync.md) |
 | E-034 | 2026-09-30 | 完成 R1 检查点并进入承诺内响应 | recorded | [E-034](02-execution/E-034-complete-r1-and-start-response.md) |
 | E-035 | 2026-10-01 | 建立 R2 子目标并启动 R2a 准备 | recorded | [E-035](02-execution/E-035-start-r2a-preparation.md) |
+| E-036 | 2026-10-01 | 记录“世界有多大”的 R2d 黑箱探针裁决 | recorded | [E-036](02-execution/E-036-record-r2d-full-method-probe-decision.md) |
 
 ## 当前事实边界
 
@@ -57,3 +58,5 @@ R1 协议 v0.6.4 已依 D-017 冻结，并经 A-004 independent/pass 复核；�
 历史候选、用户选择和绑定见 E-004～E-028。v0.6.2 最后精确来源是 magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082，由下游 WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53 更新指针（E-028）。本轮 v0.6.3 来源为 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md，下游已由 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136 同步当前指针（下游 E-012；本仓 E-030）。历史 D/E 原文保留，原先重复确认或提前索取后继产物的门槛以 D-015 取代。
 
 单次程序黑箱探针（D-008 / E-016）不作为规划或领域证据，不选定 R2b/R4 案例。当前 GOAL-002 已整理 R2a 准备方案，但未填写具体逐次预登记；尚无方法试验、R2c 证据选路、方法工作版、Skill 实现、交付、实际收件或验收事实。同一维护人事实不推定真实案例授权或这些完成事实。
+
+2026-10-01，用户另提供“世界有多大”，选择完整方法黑箱路径并禁止围绕该题定制方法/工具（D-020 / E-036）。该题预留至 R2c 证据选路满足 I-005、R2d 通用工作版与通用判据冻结后单次核对；尚未运行，不作为 R2a–R2c 输入、H 证据或 I-005 替代，未选定为 R2b/R4 用例。I-002 仍 open；D-008 的旧题来源与授权不沿用。

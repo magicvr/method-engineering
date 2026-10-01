@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-01
-version: 1.10.0
+version: 1.11.0
 ---
 
 # 决策记录 · GOAL-001
@@ -48,3 +48,4 @@ version: 1.10.0
 | D-017 | 2026-09-30 | 冻结 R1 方法协议与条件工具策略 v0.6.4 | accepted | [D-017](01-decision/D-017-freeze-r1-protocol-v0-6-4.md) |
 | D-018 | 2026-09-30 | 关闭 R1 澄清与冻结阶段 | accepted | [D-018](01-decision/D-018-close-r1-stage.md) |
 | D-019 | 2026-10-01 | 建立 R2 子目标并明确父子职责 | accepted | [D-019](01-decision/D-019-create-r2-delivery-goal.md) |
+| D-020 | 2026-10-01 | 将“世界有多大”预留为 R2d 完整方法黑箱核对 | accepted | [D-020](01-decision/D-020-reserve-r2d-full-method-blackbox-probe.md) |
