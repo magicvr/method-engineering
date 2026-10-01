@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.9
+version: 0.1.10
 ---
 
 # 执行记录 · GOAL-002
@@ -24,12 +24,15 @@ version: 0.1.9
 | E-008 | 2026-10-01 | 记录 H3 首版模型的 R1 完整字段门槛 | recorded | [E-008](02-execution/E-008-record-h3-r1-model-entry-fields.md) |
 | E-009 | 2026-10-01 | 记录 H3 核心能力范围与标签边界 | recorded | [E-009](02-execution/E-009-record-h3-core-capability-boundaries.md) |
 | E-010 | 2026-10-01 | 记录 H3 模型集合级汇总单位 | recorded | [E-010](02-execution/E-010-record-h3-model-set-aggregation.md) |
+| E-011 | 2026-10-01 | 记录 H3 明确缺口以最终集合判定 | recorded | [E-011](02-execution/E-011-record-h3-explicit-gap-aggregation.md) |
 
 ## 事实边界
 
 H3 路线已选为从零形成实际首版机制模型集合，并在评估参考揭示前冻结产物（D-004 / E-005）。用户另确定首版模型最低产物为可审查纯文本机制模型条目，分析工具按证据需要选用，并选择能力清单逐项核对作为局部判定规则的起草基础（D-005 / E-006）。两链仍只作基线，尚无实际问题链或模型产物；能力项、最低模型内容/覆盖、关键遗漏、标签边界及执行安排仍待裁定，H3-SEM-001 保持 OPEN。决定记录与准备稿 checkpoint 为 `77e5c92`。
 
 按用户裁决，H3 首版纯文本模型条目须能定位 R1 v0.6.4 §2 的完整 12 类信息，N/A 须说明理由（D-006 / E-008）。用户随后确定 C-02～C-04 为核心、C-01 为输入/范围前提并给出初步标签边界（D-007 / E-009），再选择模型集合级汇总、保留逐链证据，单链未触及不自动判失败（D-008 / E-010）。`explicit-gap` / `not-elicited` 汇总细节与逐链映射仍待裁定。checkpoint `994979a`。
+
+用户已裁定：某链的 `explicit-gap` 若在参考揭示前由模型集合其他条目补足，不自动降为 `partial`（D-009 / E-011）。逐链缺口证据仍保留；所有适用链均 `not-elicited` 的判定尚待裁定。checkpoint `93689fd`。
 
 已根据冻结 R1 v0.6.4 模型条目字段与合成 `H3-BALANCE@0.1` 评估参考起草评估端候选 [H3 能力清单 v0.1](attachments/H3-capability-checklist-candidate-v0.1.md)，见 `a37eed1`。候选包含纯文本条目字段、4 项机制能力、逐链证据映射及汇总标签边界建议；均待用户裁定。文件仅供评估端使用，不能泄露给生成端；尚无运行、结果或模型产物。
 
