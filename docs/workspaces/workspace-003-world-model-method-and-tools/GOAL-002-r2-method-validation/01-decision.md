@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.5
+version: 0.1.7
 ---
 
 # 决策记录 · GOAL-002
@@ -18,6 +18,7 @@ version: 0.1.5
 | R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；准确输入、局部判据/严重度、责任、预算/停点、冻结及运行授权仍待逐项完成。 |
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两链仅为基线，最低模型要求、映射/遗漏/局部判据及执行安排待裁定，H3-SEM-001 仍 OPEN。 |
 | R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；映射/遗漏以能力清单逐项核对为起草基础，具体能力项及标签边界未定。 |
+| R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力清单项及 H3 标签规则仍待裁定。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -33,3 +34,5 @@ version: 0.1.5
 | D-003 | 2026-10-01 | 选择供水站合成候选包作为正式预登记基线 | accepted | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md) |
 | D-004 | 2026-10-01 | 选择 H3 从零形成首版机制模型集合 | accepted | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) |
 | D-005 | 2026-10-01 | 确定 H3 文本模型产物与能力清单判定基础 | accepted | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) |
+| D-006 | 2026-10-01 | 接受 H3 首版模型采用 R1 完整条目字段 | accepted | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) |
+| D-006 | 2026-10-01 | 接受 H3 首版模型采用 R1 完整条目字段 | accepted | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) |
