@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.19
+version: 0.1.20
 ---
 
 # 执行记录 · GOAL-002
@@ -34,8 +34,11 @@ version: 0.1.19
 | E-018 | 2026-10-01 | 记录 H3 两条初评链 C-03 适用性裁决 | recorded | [E-018](02-execution/E-018-record-h3-c03-applicability.md) |
 | E-019 | 2026-10-01 | 记录 H3 可观测边界输入草案及 checkpoint | recorded | [E-019](02-execution/E-019-record-h3-observable-boundary-input.md) |
 | E-020 | 2026-10-01 | 记录 H3 可观测输入候选基线裁决 | recorded | [E-020](02-execution/E-020-record-h3-observable-input-candidate-baseline.md) |
+| E-021 | 2026-10-01 | 记录 H3 C-03 有界可评范围裁决 | recorded | [E-021](02-execution/E-021-record-h3-c03-bounded-assessability.md) |
 
 ## 事实边界
+
+2026-10-01，用户按 D-019 将 C-03 本轮可评范围限定于两条已选封闭合成链中的供水外减量、窗内变化与零存量边界，不外推一般因果损失公式。该决定已记录于 D-019；本记录与候选清单同步仅界定评估范围，H3-SEM-001 仍 OPEN，完整矩阵/快照/其余预登记字段未齐，正式预登记未冻结、没有运行，也未改变目标状态/进度、goal-tree、格数或 Root I-002/I-005。
 
 2026-10-01，用户选择 H3 首版模型集合以“最低机制关系”为启动门槛：参考揭示前形成并冻结至少一个实际非占位纯文本模型条目，纳入集合的每个条目可定位 R1 §2 的 12 类信息，并至少有一条可追溯至本轮采样链的具体机制关系；最低启动不要求 C-02～C-04 全覆盖。用户同时确定逐链证据→冻结模型/缺口映射和最终集合关键遗漏规则（D-015）。已同步目标概述、决定索引、D-003 信息项、能力清单、候选包及操作化计划；决策记录提交 `a538da3`。H3-SEM-001 仍 `required / OPEN`，准确输入与快照、矩阵、冲突/严重度、责任/预算/停点和完整冻结安排仍待补齐；没有冻结或运行，不改变目标状态/进度、样本格数或 Root I-002/I-005。
 
