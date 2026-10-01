@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.31
+version: 0.1.32
 ---
 
 # 执行记录 · GOAL-002
@@ -46,8 +46,11 @@ version: 0.1.31
 | E-030 | 2026-10-01 | 记录 H2 逐格定性严重度记录候选 | recorded | [E-030](02-execution/E-030-record-h2-qualitative-severity-candidate.md) |
 | E-031 | 2026-10-01 | 起草 H2 逐次预登记 | recorded | [E-031](02-execution/E-031-draft-h2-preregistration.md) |
 | E-032 | 2026-10-01 | 记录 H2 每路径澄清轮数上限裁决 | recorded | [E-032](02-execution/E-032-record-h2-clarification-cap.md) |
+| E-033 | 2026-10-01 | 起草 H1 逐格预登记 | recorded | [E-033](02-execution/E-033-draft-h1-preregistration.md) |
 
 ## 事实边界
+
+2026-10-01，依据 D-022/D-023 建立 H1 逐格预登记草稿 [v0.1.0](attachments/R2a-H1-preregistration-draft-v0.1.md)，整理四格候选输入和预测、标签边界与逐格证据字段。尚无人时/责任/证据分配或创作者逐格最终判断；无运行、观察或授权。
 
 2026-10-01，用户依 [D-029](01-decision/D-029-set-h2-clarification-exchange-cap.md) 选择每条 H2 路径最多 2 次澄清 exchange、分别计数且不转移，同一复合消息按 1 次、到限停止并按 D-027 依据现有证据分类。已同步 H2 草稿和准备方案；异常/无回应计数、最终答复含新问题等字段仍开放，未冻结、未运行或授权。
 

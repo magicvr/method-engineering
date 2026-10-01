@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.16
+version: 0.1.17
 ---
 
 # 审计 · GOAL-002
@@ -40,8 +40,11 @@ version: 0.1.16
 | A-015 | 2026-10-01 | self | D-028 H2 逐格定性严重度记录候选与门禁同步 | pass | 0 | [A-015](03-audit/A-015-review-h2-qualitative-severity-candidate.md) |
 | A-016 | 2026-10-01 | self | H2 逐次预登记草稿结构、候选规则与门禁 | pass | 0 | [A-016](03-audit/A-016-review-h2-preregistration-draft.md) |
 | A-017 | 2026-10-01 | self | D-029 澄清轮数上限、计数口径及门禁同步 | pass | 0 | [A-017](03-audit/A-017-review-h2-clarification-cap.md) |
+| A-018 | 2026-10-01 | self | H1 四格预登记草稿与 D-022/D-023 候选边界 | pass | 0 | [A-018](03-audit/A-018-review-h1-preregistration-draft.md) |
 
 ## 结论状态
+
+A-018 仅审视 H1 预登记草稿所复述的 D-022/D-023 候选输入、四格算术、标签边界、待填字段与 R1 格数/人时/职责门禁；不审计运行、结果、正式冻结或授权。
 
 A-017 仅审视 D-029 用户选择的 H2 每路径澄清轮数上限、部分计数口径、草稿/索引同步及未冻结门禁；不审计正式预登记、运行或有效性结论。未关闭 H3-SEM-001 或父目标信息项，也不替代 R4 所需的 I-004 独立审计。
 

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.32
+version: 0.1.33
 ---
 
 # 决策记录 · GOAL-002
@@ -17,7 +17,7 @@ version: 0.1.32
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
 | R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；H1 候选输入/局部规则依 D-022/D-023、H2 问句/快照/回答卡依 D-024 接受但均未冻结。其他输入、执行字段、预算/停点与运行授权仍待完成。 |
 | R2a H2 候选输入与局部规则 | [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md)～[D-029](01-decision/D-029-set-h2-clarification-exchange-cap.md) | 原问、共用快照、回答卡、“确需澄清”入选、局部支持及四标签边界依 D-024～D-027 接受；逐格定性严重度记录形式依 D-028 接受；每路径最多 2 次澄清 exchange、分别计数及到限处理依 D-029 接受为候选。仍未冻结；逐格严重度判断、入选/路径证据、异常问法/中断处理与其他执行字段仍待完成。 |
-| R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部主张与判据另依 D-023 接受为候选，责任、证据与正式冻结仍待完成。 |
+| R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部主张与判据另依 D-023 接受为候选。独立草稿见 [H1 预登记稿](attachments/R2a-H1-preregistration-draft-v0.1.md)，责任、证据、创作者裁定与正式冻结仍待完成。 |
 | R2a H1 局部裁决 | [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) | 用户接受四格主张、四标签局部判据与逐格定性严重度口径为候选；证据字段、执行责任与正式冻结仍待完成。 |
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，最低启动/映射规则依 D-015 已定，C-03 两条链适用性候选依 D-016 已选；准确输入、其余矩阵单元、剩余判据及执行安排待补，H3-SEM-001 仍 OPEN。 |
 | R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；依 D-007～D-016 已确定核心能力、标签优先级、最低启动能力、C-03 两链候选适用性及映射/遗漏规则。 |
