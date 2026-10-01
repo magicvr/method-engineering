@@ -4,10 +4,10 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.20
+version: 0.1.21
 ---
 
-# R2a · H1/H2/H3 合成候选包 v0.1.19
+# R2a · H1/H2/H3 合成候选包 v0.1.21
 
 > **基线结构已接受；准确字段待补齐及裁定，尚未冻结、尚未运行。** 用户于 2026-10-01 选择本包作为补齐正式预登记的基线（[D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)），不等于接受全部具体输入、预测、局部判据/严重度、责任、预算/停点或授权运行。全部背景、参数、请求和角色均为 **AI 构造的合成输入，不是真实事实**。下文算术是运行前候选预测，不是观察结果。创作者仍须逐项确认、修改或拒绝具体字段，并书面给出最终局部规则；本包仍为 draft。
 
@@ -108,7 +108,7 @@ AI 候选局部主张：比较两路径是否保持同一原问及约束、取�
 
 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择 **从零形成首版模型**：生成端没有已登记机制模型，以采样链输出实际构造首版机制模型集合，并在隐藏 `H3-BALANCE` 评估参考揭示前冻结实际产物。提供已有模型或延期路线未选。依 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，最低产物类型已定为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类信息均须可定位；允许简洁文字，不适用项需说明 N/A 及原因，不要求可执行、数值化或形式化。数学推导、数值/统计计算、程序核验或模拟按证据需要使用，文本足够时无需工具。能力清单与 C-01～C-04 范围/边界依 D-007 已选；依 [D-015](../01-decision/D-015-set-h3-minimum-model-startability.md) 已定最低启动为字段齐备且至少有一条可追溯的具体机制关系，并已定链→能力/模型映射与关键遗漏规则。依 [D-013](../01-decision/D-013-select-h3-two-initial-chains.md)，H3-01（值班操作员 × CTX-017）及 H3-02（检修员 × CTX-042）已选为两条初评组合；[D-014](../01-decision/D-014-add-h3-cap-binding-input.md) 另选择了 H3-01 首步需求 5、供水 4 的触顶候选片段。准确角色输入仍未冻结；问题清单、能力/缺口列表或事后参考比较本身不足以证明模型已形成。
 
-仍待填写逐链适用性矩阵具体单元及理由、准确可见输入/来源快照、冲突与严重度及其余预登记字段；运行后再按 D-015 的规则建立具体证据→模型/缺口链接。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心矛盾或错述 C-01 判 `refuted`，无矛盾但任一核心不可评且影响总体判断则优先 `insufficient`，仅在核心均可评但最终集合仍缺项时判 `partial`（[D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md)）。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。依 [D-012](../01-decision/D-012-preregister-h3-chain-applicability.md)，运行前逐链按冻结输入登记适用性及理由，运行后另记实际证据状态，不能事后改适用性；预登记矩阵仍未填。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记和关闭依据以 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 及 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 至 [D-015](../01-decision/D-015-set-h3-minimum-model-startability.md) 为准。
+仍待填写逐链适用性矩阵具体单元及理由、准确可见输入/来源快照、冲突与严重度及其余预登记字段；运行后再按 D-015 的规则建立具体证据→模型/缺口链接。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心矛盾或错述 C-01 判 `refuted`，无矛盾但任一核心不可评且影响总体判断则优先 `insufficient`，仅在核心均可评但最终集合仍缺项时判 `partial`（[D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md)）。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。依 [D-012](../01-decision/D-012-preregister-h3-chain-applicability.md)，运行前逐链按冻结输入登记适用性及理由，运行后另记实际证据状态，不能事后改适用性；预登记矩阵仍未填。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记和关闭依据以 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 及 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 至 [D-016](../01-decision/D-016-set-h3-c03-chain-applicability.md) 为准。
 
 框 ID 候选 `H3-FRAME@0.1`；来源为本 AI 合成包。封闭范围是下列 **3 角色 × 2 运行情景 = 6 个可能组合**。组合目录不是已抽样、已运行或已计格的结果。没有宣称覆盖完整世界。
 
@@ -141,6 +141,17 @@ AI 候选局部主张：比较两路径是否保持同一原问及约束、取�
 
 1. `H3-01` 值班操作员 × 可见情景键 `CTX-017`。
 2. `H3-02` 检修员 × 可见情景键 `CTX-042`。
+
+### C-03 逐链适用性候选（D-016）
+
+用户选择按当前角色可见日志候选，将 C-03 在两条初评链均列为 `applicable`。此为评估端矩阵行，不向生成上下文提供；数值是合成输入草案，不是链输出或观察。
+
+| 链 | 候选可见状态/供水记录 | C-03 适用性理由 |
+|---|---|---|
+| `H3-01` | `8 → 4 → 2`；需求 `5 / 2`，供水 `4 / 2` | 无供水外减量，作为负对照，核对冻结模型是否错误增设供水后损失。 |
+| `H3-02` | `8 → 5 → 2`；需求/供水 `2 / 2`、`2 / 2` | 供水后余额各有 `1` 单位差额，作为候选正例，核对模型是否表达供水后的额外损失。 |
+
+该选择不冻结 `H3-02` 完整角色可见快照或其他矩阵单元，也不表示完整 C-03 均可评：当前步界日志不能辨别步内先后，也没有触发损失受剩余存量限制的边界条件。若冻结前变更输入，需重新审定 C-03 适用性。不得向生成端暴露能力标签、矩阵、情景含义映射或评估参考。
 
 **H3-01 触顶输入片段候选（D-014；非观察结果）**：在无其他损失的 `CTX-017` 情景候选下，第一步从 8 开始，需求 5、实际供水 4，步末存量 4；第二步需求 2、实际供水 2，步末存量 2。下表仅记录本决策已选择的需求/供水及其一致水位轨迹，完整角色可见日志仍待审定和冻结。
 
