@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.12
+version: 0.1.13
 ---
 
 # 执行记录 · GOAL-002
@@ -27,6 +27,7 @@ version: 0.1.12
 | E-011 | 2026-10-01 | 记录 H3 明确缺口以最终集合判定 | recorded | [E-011](02-execution/E-011-record-h3-explicit-gap-aggregation.md) |
 | E-012 | 2026-10-01 | 记录 H3 全链未触及的不足判定 | recorded | [E-012](02-execution/E-012-record-h3-unassessable-core-insufficient.md) |
 | E-013 | 2026-10-01 | 记录 H3 混合证据判定优先级 | recorded | [E-013](02-execution/E-013-record-h3-mixed-evidence-priority.md) |
+| E-014 | 2026-10-01 | 记录 H3 逐链适用性双轴规则 | recorded | [E-014](02-execution/E-014-record-h3-chain-applicability.md) |
 
 ## 事实边界
 
@@ -39,6 +40,8 @@ H3 路线已选为从零形成实际首版机制模型集合，并在评估参�
 用户已裁定：所有适用链均未触及某核心能力、且模型集合无其他可评证据，导致整体不能可靠判断时标 `insufficient`，不推断能力缺失或成功（D-010 / E-012）。混合可判/不可判的具体汇总及其他预登记字段仍待完成。checkpoint `5b01627`。
 
 随后用户裁定：若 C-02～C-04 任一核心能力不可可靠评估且影响整体 H3 判断，则总体优先标 `insufficient`；`partial` 仅用于核心能力均可评、但最终冻结模型集合仍缺至少一项；有可核对的核心矛盾或错述 C-01 时仍标 `refuted`（D-011 / E-013）。已同步 D-003、决定索引、H3 能力清单候选、合成候选包和操作化计划；H3-SEM-001 仍 required / OPEN，逐链适用性/映射、非直接矛盾的链间冲突处理、严重度及其余预登记字段未完成。未冻结、未运行，目标状态/进度及 Root I-002/I-005 不变。checkpoint `c82512e`。
+
+用户随后选择运行前预登记「逐链适用性」与运行后「实际触及/证据状态」双轴区分（D-012 / E-014）：适用性及理由按冻结链输入/任务范围预先记录，不得基于输出或评估参考事后更改；不适用只排除该链对此能力的证据判断，不排除该核心能力。已同步 D-003、决定索引、目标概述、H3 能力清单、合成候选包和操作化计划。具体链×能力矩阵及理由、证据→模型/缺口映射、非直接矛盾冲突、严重度及其他预登记字段未完成；H3-SEM-001 仍 required / OPEN，未冻结、未运行，目标状态/进度及 Root I-002/I-005 不变。checkpoint `81f8241`。
 
 已根据冻结 R1 v0.6.4 模型条目字段与合成 `H3-BALANCE@0.1` 评估参考起草评估端候选 [H3 能力清单 v0.1](attachments/H3-capability-checklist-candidate-v0.1.md)，见 `a37eed1`。候选包含纯文本条目字段、4 项机制能力、逐链证据映射及汇总标签边界建议；均待用户裁定。文件仅供评估端使用，不能泄露给生成端；尚无运行、结果或模型产物。
 
