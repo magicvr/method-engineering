@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.19
+version: 0.1.20
 ---
 
 # 决策记录 · GOAL-002
@@ -28,6 +28,7 @@ version: 0.1.19
 | R2a H3 初评组合 | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) | 选择值班操作员×CTX-017 与检修员×CTX-042 两条初评链，共 2 个 H3 格；未冻结准确输入，也未授权运行。 |
 | R2a H3-01 上限输入 | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) | 选择 H3-01 第一步需求 5、实际供水 4；水位候选记录据此保持一致。仅为待审定合成输入片段。 |
 | R2a H3 最低启动能力 | [D-015](01-decision/D-015-set-h3-minimum-model-startability.md) | 集合至少一个非占位条目、每个模型条目 12 类字段可定位，且至少一条证据可追溯的具体机制关系；不要求全部核心已覆盖。映射规则与关键遗漏规则已确定；逐链矩阵及实际证据链接仍待完成。 |
+| R2a H3 可观测输入准备 | [D-017](01-decision/D-017-prepare-h3-observable-boundary-input.md) | 已选保留完整 C-03 并准备 H3-02 需求 4 / 2.5 及步内中性读数草稿；精确读数、半单位精度和时间假设待审定，完整可评性待核对，不授权冻结/运行。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -54,3 +55,4 @@ version: 0.1.19
 | D-014 | 2026-10-01 | 为 H3-01 加入触发供水上限的输入 | accepted | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) |
 | D-015 | 2026-10-01 | 设定 H3 最低模型启动能力与遗漏规则 | accepted | [D-015](01-decision/D-015-set-h3-minimum-model-startability.md) |
 | D-016 | 2026-10-01 | 设定 H3 两条初评链的 C-03 适用性 | accepted | [D-016](01-decision/D-016-set-h3-c03-chain-applicability.md) |
+| D-017 | 2026-10-01 | 选择补足 H3 可观测输入并准备非零存量边界草稿 | accepted（仅准备方向） | [D-017](01-decision/D-017-prepare-h3-observable-boundary-input.md) |
