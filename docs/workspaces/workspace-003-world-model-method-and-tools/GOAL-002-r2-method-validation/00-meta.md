@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.22
+version: 0.1.23
 progress: 0%
 ---
 
@@ -15,13 +15,15 @@ progress: 0%
 
 承接 Root `GOAL-001-world-model-method-and-tools` 的 R2 纲领阶段，按 R2a → R2b → R2c → R2d 推进 H1/H2/H3 操作化、有界检验、证据选路及暂定方法工作版形成。本目标只承载 R2；Root 继续维护整体纲领路线、全局信息门禁与最终交付目标。
 
-本目标于 2026-10-01 按用户选择建立。当前处于 R2a 的操作化准备；用户已选择 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) 的共享供水站背景、分立 H 单元结构，作为补齐正式预登记的基线（[D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。准确输入、候选预测、局部判据/严重度、责任、预算/停点、最终冻结及运行授权仍待逐项完成；基线选择不等于逐字段接受。尚无已冻结的运行预登记、已尝试 H 结果格、方法有效性结论或 R2d 工作版。未记录可核对的人工活动分钟，AI 时间未折算为人时。
+本目标于 2026-10-01 按用户选择建立。当前处于 R2a 的操作化准备；用户已选择 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) 的共享供水站背景、分立 H 单元结构，作为补齐正式预登记的基线（[D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。H1 问题、两模型、唯一初始存量变化和四格预测已按 D-022 接受为候选但未冻结；其他准确输入、局部判据/严重度、责任、预算/停点、最终冻结及运行授权仍待逐项完成。基线选择不等于逐字段接受。尚无已冻结的运行预登记、已尝试 H 结果格、方法有效性结论或 R2d 工作版。未记录可核对的人工活动分钟，AI 时间未折算为人时。
 
 2026-10-01，用户按 [D-019](01-decision/D-019-bound-h3-c03-assessability-scope.md) 将 C-03 本轮可评范围限定为两条已选封闭合成链中可观测的供水外减量、窗内变化与零存量边界，不外推一般因果损失公式。该范围决定不关闭 H3-SEM-001；完整矩阵、准确快照及其余运行字段仍待完成，未冻结或运行。
 
 2026-10-01，用户依 [D-020](01-decision/D-020-add-h3-inventory-binding-step.md) 在 H3-01 的 D-014 两步候选后增加一步：步初存量 2、需求 3、供水 2、步末 0，以触及 C-02 库存绑定。保留两条链与 2 个 H3 初评格；H3-01 三步、H3-02 两步。此为未冻结候选，不扩张 D-019 的 C-03 范围、不授权运行；H3-SEM-001 仍 OPEN。
 
 2026-10-01，用户按 [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) 接受 H3 C-01～C-04 的候选逐链适用性分类与理由：C-01 两链适用；C-02 两链适用但库存绑定机会仅在 H3-01；C-03 两链均限 D-019；C-04 两链适用，保留三步/两步差异且不默默按步数加权。该候选矩阵须与准确输入在生成前复核并冻结，仍不是冻结登记或运行授权；H3-SEM-001 继续 OPEN。
+
+2026-10-01，用户依 [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) 接受 H1 问题、M1/M2 规则、初始存量 8→4 的唯一变化及四格预测 `4 / 0 / 2 / 2` 为候选输入。预测不是观察；创作者局部判据/严重度、输入不足处理、责任/证据路径和正式冻结仍待完成，不授权运行。
 
 ## 成功标准
 
