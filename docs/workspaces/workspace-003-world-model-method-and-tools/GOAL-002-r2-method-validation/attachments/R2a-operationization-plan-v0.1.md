@@ -4,7 +4,7 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.7
+version: 0.1.8
 ---
 
 # R2a · 假设操作化准备方案 v0.1.6
@@ -57,7 +57,7 @@ version: 0.1.7
 
 冻结结构：先封闭一个有来源、范围和排除项的抽样框；最多 3 条身份→情景→问题链，不外推到完整世界或总体覆盖。
 
-**H3-SEM-001（required / OPEN）仍阻断 H3 正式预登记最终冻结。** 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成实际首版模型，并在隐藏评估参考揭示前冻结产物；两链安排仅作基线。按 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md)，首版最低产物类型已定为可审查的纯文本机制模型条目；分析手段按证据需要选择；能力清单逐项核对是后续映射/遗漏/局部判据的起草基础。具体模型内容/能力、能力项、最低覆盖、关键遗漏与标签边界仍待创作者裁定（登记见 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。[Root D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求这些局部规则在执行前定义；[R1 判据候选](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 的额外“至少一条样本可回答”门槛未被接受。问题清单或事后参考比较不能单独证明模型形成；路线选择未形成实际产物、未冻结预登记或授权运行。
+**H3-SEM-001（required / OPEN）仍阻断 H3 正式预登记最终冻结。** 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成实际首版模型，并在隐藏评估参考揭示前冻结产物；两链安排仅作基线。按 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md)，首版最低产物类型已定为可审查的纯文本机制模型条目；分析手段按证据需要选择；能力清单逐项核对是后续映射/遗漏/局部判据的起草基础。初稿见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，供创作者审定，不可提供给生成端。具体模型字段/能力、能力项、最低覆盖、关键遗漏与标签边界仍待创作者裁定（登记见 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。[Root D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求这些局部规则在执行前定义；[R1 判据候选](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 的额外“至少一条样本可回答”门槛未被接受。问题清单或事后参考比较不能单独证明模型形成；路线选择未形成实际产物、未冻结预登记或授权运行。
 
 运行前需要补齐：
 
