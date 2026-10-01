@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.6
+version: 0.1.7
 progress: 0%
 ---
 
@@ -19,7 +19,7 @@ progress: 0%
 
 ## 成功标准
 
-H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成首版模型：由采样链输出形成实际机制模型集合，在揭示隐藏评估参考前冻结该产物。按 [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，首版为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类字段信息均须可定位；分析方式按证据需要选择。映射与遗漏判定采用能力清单逐项核对作为起草基础，但具体能力项、最低覆盖、关键遗漏、局部标签/严重度仍待创作者确认。H3-SEM-001 保持 OPEN，阻断 H3 正式预登记最终冻结。尚无已形成或冻结的实际首版模型。
+H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择从零形成首版模型：由采样链输出形成实际机制模型集合，在揭示隐藏评估参考前冻结该产物。按 [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，首版为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类字段信息均须可定位；分析方式按证据需要选择。按 [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md)，C-02～C-04 是核心机制能力，C-01 是须正确遵守的输入/范围前提；核心缺项为 partial，核心矛盾或错述 C-01 为 refuted，无可审查冻结模型或证据不足为 insufficient。逐链到能力/模型/缺口的记录结构已拟，跨链汇总与具体输入/停止规则仍待裁定。H3-SEM-001 保持 OPEN，阻断 H3 正式预登记最终冻结。尚无已形成或冻结的实际首版模型。
 
 - [ ] **R2a · 操作化假设**：为 H1/H2/H3 分别形成具体、可核对且运行前冻结的预登记，包含问题/主张、模型或样本、逐格预测、局部判据、正反例、对照/抽样、证据位置、责任、预算、停止与偏离规则。创作者给出最终局部裁决规则；空白字段不作默认值。
 - [ ] **R2b · 有界试验**：仅在相应预登记完整且执行授权适用后，按登记运行并记录观察、反例、偏离、各 H 局部标签、证据与实际人时；试验不超出 R1 冻结额度。真实案例使用前，须按 Root `I-002` 留下案例、用途范围和授权，并关闭该范围门禁。
