@@ -4,12 +4,12 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.33
+version: 0.1.34
 ---
 
-# R2a · 假设操作化准备方案 v0.1.23
+# R2a · 假设操作化准备方案 v0.1.24
 
-> 版本号说明：frontmatter `version` 跟踪文档修订；标题中的 v0.1.23 跟踪准备方案稿的迭代，两者分别递增。
+> 版本号说明：frontmatter `version` 跟踪文档修订；标题中的 v0.1.24 跟踪准备方案稿的迭代，两者分别递增。
 
 > **状态与边界**：这是把已冻结的 R1 协议转换为 R2a 准备步骤的工作稿，不是任何 H 的逐次运行预登记，也不授权运行、复验或替代方向验证。用户已按 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 选择 [H1/H2/H3 合成候选包](R2a-H123-synthetic-candidate-pack-v0.1.md) 的基线结构继续补齐正式预登记；H1 输入及局部规则依 D-022/D-023 接受为候选；H2 问句、共用快照与回答卡依 D-024 接受，局部增益规则依 D-025 接受，当前问句入选依 D-026 接受，四标签边界依 D-027 接受，逐格定性严重度记录形式依 D-028 接受；均未冻结。入选理由须写入逐次预登记，H2 逐格严重度判断、准确输入、责任、预算/停点、最终冻结及运行授权仍待逐项完成。
 
@@ -44,7 +44,7 @@ version: 0.1.33
 
 ### H2 · 身份/情景转译
 
-冻结结构：只选一个运行前确需澄清的问题；使用完全相同的原问和已知信息，对比身份/情景路径与直接「对象—条件—所求结果」路径，最多 2 格。用户依 [D-024](../01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受候选原问、共用快照及 R-B 回答卡；依 [D-026](../01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前候选达到“确需澄清”入选门槛；依 [D-025](../01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 和 [D-027](../01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受局部增益规则和四标签候选边界；依 [D-028](../01-decision/D-028-accept-h2-qualitative-severity-candidate.md) 接受逐格定性严重度记录形式。以上均属候选、未冻结；最终逐次预登记须保留入选理由及证据，创作者的逐格严重度判断与执行字段仍待补齐。
+冻结结构：只选一个运行前确需澄清的问题；使用完全相同的原问和已知信息，对比身份/情景路径与直接「对象—条件—所求结果」路径，最多 2 格。用户依 [D-024](../01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受候选原问、共用快照及 R-B 回答卡；依 [D-026](../01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前候选达到“确需澄清”入选门槛；依 [D-025](../01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 和 [D-027](../01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受局部增益规则和四标签候选边界；依 [D-028](../01-decision/D-028-accept-h2-qualitative-severity-candidate.md) 接受逐格定性严重度记录形式。当前逐次登记工作件见 [H2 预登记草稿](R2a-H2-preregistration-draft-v0.1.md)，仅汇集候选内容与待填字段。以上均未冻结；最终逐次预登记须保留入选理由及证据，创作者的逐格严重度判断与执行字段仍待补齐。
 
 运行前需要补齐：
 
@@ -104,4 +104,4 @@ version: 0.1.33
 | R2b 真实案例及授权 | 未选择 | “世界有多大”仅选为 R2d 探针，未证明本项就绪；仅真实案例运行前受 Root I-002 阻断，若使用须明确用途范围并关闭该范围门禁。 |
 | 实际人工投入分钟 | 未记录 | R2a 起逐人登记；不估算、不将 AI 时间折算成人时。 |
 
-**当前进度**：用户已选择 [合成候选包](R2a-H123-synthetic-candidate-pack-v0.1.md) 为补齐正式预登记的结构基线；H1 输入及局部规则依 D-022/D-023、H2 问句/快照/回答卡依 D-024、局部增益规则依 D-025、入选门槛依 D-026、四标签边界依 D-027、逐格定性严重度记录形式依 D-028 接受为候选但未冻结；入选理由和逐格严重度判断仍须进入逐次预登记。H3 两条初评组合已选（D-013），逐字段补齐及创作者裁定仍待进行，未试验（[E-004](../02-execution/E-004-record-synthetic-preregistration-baseline-selection.md)）。候选格数为 H1 4 + H2 2 + H3 2 = 8；H3 还剩 1 格额度，但未分配且未授权。没有已提供、可核对的人工作业分钟，不估算或分配人时；从 R2a 起按实际记录累计至 180 人分钟上限。R2a 未完成，须补齐 H2 逐格严重度判断/执行字段、H1/H2 证据/责任/停止字段、H3 准确输入与预算/停点并完成运行前完整性核对。
+**当前进度**：用户已选择 [合成候选包](R2a-H123-synthetic-candidate-pack-v0.1.md) 为补齐正式预登记的结构基线；H1 输入及局部规则依 D-022/D-023、H2 问句/快照/回答卡依 D-024、局部增益规则依 D-025、入选门槛依 D-026、四标签边界依 D-027、逐格定性严重度记录形式依 D-028 接受为候选但未冻结；H2 已建立 [逐次预登记草稿](R2a-H2-preregistration-draft-v0.1.md)，入选理由、轮数/停止、步骤计数、逐格严重度判断和执行字段仍须完成。H3 两条初评组合已选（D-013），逐字段补齐及创作者裁定仍待进行，未试验（[E-004](../02-execution/E-004-record-synthetic-preregistration-baseline-selection.md)）。候选格数为 H1 4 + H2 2 + H3 2 = 8；H3 还剩 1 格额度，但未分配且未授权。没有已提供、可核对的人工作业分钟，不估算或分配人时；从 R2a 起按实际记录累计至 180 人分钟上限。R2a 未完成，须补齐 H2 逐格严重度判断/执行字段、H1/H2 证据/责任/停止字段、H3 准确输入与预算/停点并完成运行前完整性核对。

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.29
+version: 0.1.30
 ---
 
 # 执行记录 · GOAL-002
@@ -44,8 +44,11 @@ version: 0.1.29
 | E-028 | 2026-10-01 | 记录 H2 候选问句通过确需澄清筛选 | recorded | [E-028](02-execution/E-028-record-h2-must-clarify-candidate-selection.md) |
 | E-029 | 2026-10-01 | 记录 H2 四标签候选边界裁决 | recorded | [E-029](02-execution/E-029-record-h2-four-label-candidate-boundaries.md) |
 | E-030 | 2026-10-01 | 记录 H2 逐格定性严重度记录候选 | recorded | [E-030](02-execution/E-030-record-h2-qualitative-severity-candidate.md) |
+| E-031 | 2026-10-01 | 起草 H2 逐次预登记 | recorded | [E-031](02-execution/E-031-draft-h2-preregistration.md) |
 
 ## 事实边界
+
+2026-10-01，已建立 H2 逐次预登记草稿 [v0.1.0](attachments/R2a-H2-preregistration-draft-v0.1.md)，将 D-024～D-028 的候选输入及局部判据整理为单一可审阅工作件。轮数/停止、步骤计数、责任与隔离、证据位置、预算及逐格创作者判断仍待补齐；没有冻结、运行、观察结果或授权，目标状态/进度和 Root I-002/I-005 不变。
 
 2026-10-01，用户依 [D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) 选择 H2 按受影响对照格与偏离性质逐项作定性严重度记录，不另设等级或跨 H 分数。该形式沿用 D-023 的 H1 候选口径；没有为任何格判定实际严重度，也未冻结预登记或授权运行。逐次判断、责任/证据路径、轮数/停止、预算及偏离处理仍待完成。
 
