@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.14
+version: 0.1.15
 ---
 
 # 决策记录 · GOAL-002
@@ -24,6 +24,7 @@ version: 0.1.14
 | R2a H3 未触及证据聚合 | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) | 最终集合已覆盖核心能力时，单链的明确缺口不自动阻断 supported；全链未触及且整体不能可靠判断时为 insufficient（D-010）。 |
 | R2a H3 全链未触及 | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) | 全部适用链未触及核心能力且集合无可评证据、整体无法可靠判断则为 insufficient；不据无证据推断能力缺失或成功；混合情形见 D-011。 |
 | R2a H3 混合证据汇总 | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) | 任一核心能力不可评且影响总体判断时优先 insufficient；partial 仅用于核心均可评但最终集合仍缺项；可核对的核心矛盾仍为 refuted。 |
+| R2a H3 逐链适用性 | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) | 运行前按冻结输入分别登记链×能力适用性及理由，运行后另记实际证据状态；不能事后改适用性。具体矩阵仍待填写。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -45,3 +46,4 @@ version: 0.1.14
 | D-009 | 2026-10-01 | 确定明确能力缺口以最终冻结集合判定 | accepted | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) |
 | D-010 | 2026-10-01 | 将全链未触及且不可评的核心能力判为不足 | accepted | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) |
 | D-011 | 2026-10-01 | 确定不可评证据优先于部分缺项 | accepted | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) |
+| D-012 | 2026-10-01 | 预登记 H3 逐链能力适用性 | accepted | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) |
