@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.1
+version: 0.1.2
 progress: 0%
 ---
 
@@ -15,7 +15,7 @@ progress: 0%
 
 承接 Root `GOAL-001-world-model-method-and-tools` 的 R2 纲领阶段，按 R2a → R2b → R2c → R2d 推进 H1/H2/H3 操作化、有界检验、证据选路及暂定方法工作版形成。本目标只承载 R2；Root 继续维护整体纲领路线、全局信息门禁与最终交付目标。
 
-本目标于 2026-10-01 按用户选择建立。当前只开始 R2a 的操作化准备，尚无已填写的运行预登记、H 结果格、方法有效性结论或 R2d 工作版。
+本目标于 2026-10-01 按用户选择建立。当前只开始 R2a 的操作化准备，已提出供创作者审阅的 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md)：共享 AI 构造的供水站背景、分立 H 单元，包含候选输入与运行前预测。创作者尚未接受或冻结该包；尚无已冻结的运行预登记、已尝试 H 结果格、方法有效性结论或 R2d 工作版。未记录可核对的人工活动分钟，AI 时间未折算为人时。
 
 ## 成功标准
 
