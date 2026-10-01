@@ -4,10 +4,10 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.15
+version: 0.1.16
 ---
 
-# R2a · H1/H2/H3 合成候选包 v0.1.15
+# R2a · H1/H2/H3 合成候选包 v0.1.16
 
 > **基线结构已接受；准确字段待补齐及裁定，尚未冻结、尚未运行。** 用户于 2026-10-01 选择本包作为补齐正式预登记的基线（[D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)），不等于接受全部具体输入、预测、局部判据/严重度、责任、预算/停点或授权运行。全部背景、参数、请求和角色均为 **AI 构造的合成输入，不是真实事实**。下文算术是运行前候选预测，不是观察结果。创作者仍须逐项确认、修改或拒绝具体字段，并书面给出最终局部规则；本包仍为 draft。
 
@@ -108,7 +108,7 @@ AI 候选局部主张：比较两路径是否保持同一原问及约束、取�
 
 用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择 **从零形成首版模型**：生成端没有已登记机制模型，以采样链输出实际构造首版机制模型集合，并在隐藏 `H3-BALANCE` 评估参考揭示前冻结实际产物。提供已有模型或延期路线未选。依 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，最低产物类型已定为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类信息均须可定位；允许简洁文字，不适用项需说明 N/A 及原因，不要求可执行、数值化或形式化。数学推导、数值/统计计算、程序核验或模拟按证据需要使用，文本足够时无需工具。判定基础已选能力清单逐项核对，但清单具体项目、最低覆盖、关键遗漏和标签边界未定。两链仅为继续登记的基线，准确输入未被逐项接受；问题清单、能力/缺口列表或事后参考比较本身不足以证明模型已形成。
 
-当前未决焦点为逐链证据→模型/缺口映射、混合可判/不可判能力的汇总、严重度及其余预登记字段。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心缺项判 `partial`，核心矛盾或错述 C-01 判 `refuted`，证据不足或无参考揭示前冻结的可审查模型判 `insufficient`。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 当前尚未指定逐链证据如何映射、混合可判/不可判的汇总和其余执行细则。下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记与关闭依据留在 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md)、[D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md)、[D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)、[D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md)、[D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)、[D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) 和 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)。
+当前未决焦点为逐链适用性和证据→模型/缺口映射、非直接矛盾的链间冲突处理、严重度及其余预登记字段。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心矛盾或错述 C-01 判 `refuted`，无矛盾但任一核心不可评且影响总体判断则优先 `insufficient`，仅在核心均可评但最终集合仍缺项时判 `partial`（[D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md)）。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记和关闭依据以 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 及 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 至 [D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md) 为准。
 
 框 ID 候选 `H3-FRAME@0.1`；来源为本 AI 合成包。封闭范围是下列 **3 角色 × 2 运行情景 = 6 个可能组合**。组合目录不是已抽样、已运行或已计格的结果。没有宣称覆盖完整世界。
 
@@ -156,7 +156,7 @@ AI 建议抽取以下两个身份—情景组合，每个组合最多尝试一�
 
 这是运行输入与评估参考的隔离安排；创作者已知合成设定与参考，不宣称创作者盲或因此证明不存在其他偏差。创作者/运行者是否同人、生成执行上下文是否曾见参考、隔离方式及偏离须如实记录；创作者知情不解除生成上下文隔离门禁。
 
-**待创作者填写或接受**：框、来源、排除项与封闭时间；抽样/停止规则、确切身份—情景输入组合、中性键及封存映射；角色可知快照与明示规则；从零起步的空集合登记版本与实际首版模型构造/产物冻结程序；独立评估参考、封存与揭示责任；新执行上下文隔离门禁、污染处理与逐链计格；C-02～C-04 如何由各链证据映射到模型/明确缺口并合并为模型集合证据；所有适用链均 `not-elicited` 的聚合、链级结果是否另行标注及严重度；未覆盖与框外未知如何影响局部标签；责任、证据路径、实际人时与有限预算/停点。AI 不代填剩余门槛或遗漏严重度，不预填具体问题及链/模型输出。文本推理无法支撑证据时，可由适当数学、计算、统计、程序核验或模拟补足；纯文本已足够时不要求为使用工具而工具化。
+**待创作者填写或接受**：框、来源、排除项与封闭时间；抽样/停止规则、确切身份—情景输入组合、中性键及封存映射；角色可知快照与明示规则；从零起步的空集合登记版本与实际首版模型构造/产物冻结程序；独立评估参考、封存与揭示责任；新执行上下文隔离门禁、污染处理与逐链计格；C-02～C-04 的适用链与各链到能力/模型/明确缺口的映射；非直接矛盾的链间冲突、证据可靠性边界、是否另报链级标签及严重度；未覆盖与框外未知如何影响局部标签；责任、证据路径、实际人时与有限预算/停点。整体 `not-elicited`、不可评与 `partial` 的优先级已按 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md) 和 [D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md) 确定。AI 不代填剩余门槛或遗漏严重度，不预填具体问题及链/模型输出。文本推理无法支撑证据时，可由适当数学、计算、统计、程序核验或模拟补足；纯文本已足够时不要求为使用工具而工具化。
 
 ## 5. 格数、人时与运行前待填项
 

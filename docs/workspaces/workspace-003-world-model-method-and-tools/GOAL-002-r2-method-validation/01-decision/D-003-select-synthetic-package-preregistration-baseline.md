@@ -4,7 +4,7 @@ status: accepted
 created: 2026-10-01
 updated: 2026-10-01
 parent: null
-version: 1.1.0
+version: 1.1.1
 ---
 
 # D-003 · 选择供水站合成候选包作为正式预登记基线
@@ -29,16 +29,16 @@ version: 1.1.0
 | 信息项 | 登记 |
 |--------|------|
 | 级别 / 状态 | required / OPEN；已选从零形成路径、纯文本条目类型、R1 §2 完整字段信息及逐项核对基础；C-02～C-04 核心、C-01 为范围前提；具体映射/覆盖仍未定，不另设 Root 信息项或复开 R1。 |
-| 待回答问题 | 每条链的能力与模型/明确缺口映射及证据引用如何记录；无法评估某能力、冲突或严重度以外还需何种局部规则；剩余 H3 输入、责任、预算/停止和冻结条件如何定？ |
+| 待回答问题 | 每条链的能力与模型/明确缺口映射及证据引用如何记录；冲突、严重度及其余局部/运行规则如何定；剩余 H3 输入、责任、预算/停止和冻结条件如何定？ |
 | 影响门禁 / 最晚需要 | H3 正式预登记最终冻结前；未澄清不得冻结或运行 H3。 |
 | 责任与收集动作 | 创作者 / 维护人；按 [D-007](D-007-set-h3-core-capability-boundaries.md) 与 [D-008](D-008-aggregate-h3-at-model-set-level.md) 完善逐链→模型/缺口映射、模型集合标签的 gap/未触及规则与执行预登记；关键能力覆盖门槛落实后才能冻结。 |
-| 证据 / 当前结论 | 已接受的 [Root D-002](../../GOAL-001-world-model-method-and-tools/01-decision/D-002-prioritize-hypothesis-validation.md) 选择采样冷启动机制模型集合的验证方向；[D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求创作者执行前书面定义最低启动能力、链→能力/模型映射和关键遗漏，未定义时为 insufficient。[D-005](D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](D-006-accept-r1-model-entry-fields-for-h3.md) 确定纯文本模型条目、R1 §2 字段及能力清单核对方式；[D-007](D-007-set-h3-core-capability-boundaries.md) 选择 C-02～C-04 为核心、C-01 为范围前提；[D-008](D-008-aggregate-h3-at-model-set-level.md) 确定最终标签以合并的冻结模型集合为单位、逐链证据保留；[D-009](D-009-aggregate-explicit-gaps-at-final-set.md) 确定中间显露的明确缺口如被最终集合补足则不自动降级；[D-010](D-010-label-unassessable-core-as-insufficient.md) 确定所有适用链均未触及、且集合无可评证据时整体无法可靠判断则为 insufficient。 |
+| 证据 / 当前结论 | 已接受的 [Root D-002](../../GOAL-001-world-model-method-and-tools/01-decision/D-002-prioritize-hypothesis-validation.md) 选择采样冷启动机制模型集合的验证方向；[D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求创作者执行前书面定义最低启动能力、链→能力/模型映射和关键遗漏，未定义时为 insufficient。[D-005](D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](D-006-accept-r1-model-entry-fields-for-h3.md) 确定纯文本模型条目、R1 §2 字段及能力清单核对方式；[D-007](D-007-set-h3-core-capability-boundaries.md) 选择 C-02～C-04 为核心、C-01 为范围前提；[D-008](D-008-aggregate-h3-at-model-set-level.md) 确定最终标签以合并的冻结模型集合为单位、逐链证据保留；[D-009](D-009-aggregate-explicit-gaps-at-final-set.md) 确定中间显露的明确缺口如被最终集合补足则不自动降级；[D-010](D-010-label-unassessable-core-as-insufficient.md) 确定所有适用链均未触及、且集合无可评证据时整体无法可靠判断则为 insufficient；[D-011](D-011-prioritize-insufficient-over-partial.md) 进一步确定混合可判/不可判时不可评优先于 partial。 |
 
 **已接受来源与草稿的区别**：[R1 判据候选 §H3](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 仍为 draft，其中“至少一条样本可由初始模型集合启动回答”的附加门槛不能视为 D-011 已冻结的规则。D-011 选择的是证据清单与创作者局部裁决形式；[D-015](../../GOAL-001-world-model-method-and-tools/01-decision/D-015-respond-a002-stage-gates.md) 将具体问题、模型、局部判据及严重度留到 R2a 操作化。此前把该草稿门槛作为已接受 R1 要求的表述已纠正。
 
 后续用户已按 [D-004](D-004-select-h3-form-first-model-set-from-zero.md) 选择“从零形成首版模型”，要求从采样链输出形成实际首版机制模型集合，并在隐藏评估参考揭示前冻结该实际产物；提供已有模型或延期路线未选。用户又按 [D-005](D-005-define-h3-text-model-and-checklist-basis.md) 明确最低产物为可审查的纯文本机制模型条目，不要求可执行、数值化或形式化；分析工具按证据需要使用。链/模型/缺口与遗漏的判定采用能力清单逐项核对作为后续起草基础。再依 [D-006](D-006-accept-r1-model-entry-fields-for-h3.md)，R1 v0.6.4 §2 的 12 类条目信息均为可审查的最低内容，允许简洁纯文本，字段不适用时需注明 N/A 和理由。问题清单与事后参考比较本身不能证明模型已形成。
 
-两链安排只作基线，准确样本输入、逐链到能力/模型/缺口映射及执行安排未完成。用户按 D-007 将 C-02～C-04 设为核心机制能力，C-01 作为须符合的输入/范围前提；核心缺项、核心矛盾/错述 C-01 与证据不足的初步标签边界已选。用户按 D-008 确定标签评估单位为最终预登记所选链共同形成的冻结模型集合，逐链证据保留，单链未触及不自动判失败。用户按 D-009 确定单链显露的核心缺口如被最终集合补足，不单独限制集合标签；依 D-010，所有适用链未触及且集合无可评证据时整体为 insufficient。R1 §2 的完整模型条目字段已依 D-006 接受。用户的基线结构接受与 H3 主张保持原意。H3-SEM-001 在具体预登记和执行字段完成前保持 OPEN，阻断 H3 最终预登记冻结；路线及判定基础选择本身不构成产物已形成、正式冻结或运行授权。
+两链安排只作基线，准确样本输入、逐链到能力/模型/缺口映射及执行安排未完成。用户按 D-007 将 C-02～C-04 设为核心机制能力，C-01 作为须符合的输入/范围前提；核心缺项、核心矛盾/错述 C-01 与证据不足的初步标签边界已选。用户按 D-008 确定标签评估单位为最终预登记所选链共同形成的冻结模型集合，逐链证据保留，单链未触及不自动判失败。用户按 D-009 确定单链显露的核心缺口如被最终集合补足，不单独限制集合标签；依 D-010，所有适用链未触及且集合无可评证据时为 insufficient；依 D-011，任一核心不可评且影响整体判断优先 insufficient，partial 仅适用于核心均可评但集合仍有缺项，可核对核心矛盾为 refuted。R1 §2 的完整模型条目字段已依 D-006 接受。用户的基线结构接受与 H3 主张保持原意。H3-SEM-001 在具体预登记和执行字段完成前保持 OPEN，阻断 H3 最终预登记冻结；路线及判定基础选择本身不构成产物已形成、正式冻结或运行授权。
 
 ## 后续与门禁
 

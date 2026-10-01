@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.13
+version: 0.1.14
 ---
 
 # 决策记录 · GOAL-002
@@ -19,10 +19,11 @@ version: 0.1.13
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两链仅为基线，最低模型要求、映射/遗漏/局部判据及执行安排待裁定，H3-SEM-001 仍 OPEN。 |
 | R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；映射/遗漏以能力清单逐项核对为起草基础，具体能力项及标签边界未定。 |
 | R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力覆盖与跨链聚合仍待裁定。 |
-| R2a H3 核心能力与标签边界 | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) | C-02～C-04 为核心能力，C-01 为输入/范围前提；用户确定核心缺项 partial、核心矛盾或错述 C-01 refuted、证据不足 insufficient；跨链汇总仍待裁定。 |
-| R2a H3 跨链汇总单位 | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) | 最终标签针对所选链共同形成的冻结模型集合；逐链映射保留，单链未触及不自动判失败；`explicit-gap` 得到最终集合补足时不自动降级（D-009）。 |
-| R2a H3 未触及证据聚合 | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) | 最终集合已覆盖核心能力时，单链的明确缺口不自动阻断 supported；所有适用链均未触及的处理仍待裁定。 |
-| R2a H3 全链未触及 | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) | 全部适用链未触及核心能力且集合无可评证据时，整体无法可靠判断则为 insufficient；不据无证据推断能力缺失或成功。 |
+| R2a H3 核心能力与标签边界 | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) | C-02～C-04 为核心能力，C-01 为输入/范围前提；核心缺项 partial、核心矛盾或错述 C-01 refuted、无法可靠评估 insufficient；集合级细则见 D-008～D-011。 |
+| R2a H3 跨链汇总单位 | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) | 最终标签针对所选链共同形成的冻结模型集合；逐链映射保留，单链未触及不自动判失败；中间 `explicit-gap` 得到最终集合补足时不自动降级（D-009）。 |
+| R2a H3 未触及证据聚合 | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) | 最终集合已覆盖核心能力时，单链的明确缺口不自动阻断 supported；全链未触及且整体不能可靠判断时为 insufficient（D-010）。 |
+| R2a H3 全链未触及 | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) | 全部适用链未触及核心能力且集合无可评证据、整体无法可靠判断则为 insufficient；不据无证据推断能力缺失或成功；混合情形见 D-011。 |
+| R2a H3 混合证据汇总 | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) | 任一核心能力不可评且影响总体判断时优先 insufficient；partial 仅用于核心均可评但最终集合仍缺项；可核对的核心矛盾仍为 refuted。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -43,3 +44,4 @@ version: 0.1.13
 | D-008 | 2026-10-01 | 确定 H3 按冻结模型集合汇总结果 | accepted | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) |
 | D-009 | 2026-10-01 | 确定明确能力缺口以最终冻结集合判定 | accepted | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) |
 | D-010 | 2026-10-01 | 将全链未触及且不可评的核心能力判为不足 | accepted | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) |
+| D-011 | 2026-10-01 | 确定不可评证据优先于部分缺项 | accepted | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) |
