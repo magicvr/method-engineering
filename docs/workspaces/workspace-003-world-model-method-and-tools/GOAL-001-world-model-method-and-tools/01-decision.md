@@ -4,8 +4,8 @@ doc: decision
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-09-30
-version: 1.9.0
+updated: 2026-10-01
+version: 1.10.0
 ---
 
 # 决策记录 · GOAL-001
@@ -17,7 +17,7 @@ version: 1.9.0
 | 阶段 | 计划文件 / 落点 | 说明 |
 |------|-----------------|------|
 | R1 | [D-017](01-decision/D-017-freeze-r1-protocol-v0-6-4.md) / [D-018](01-decision/D-018-close-r1-stage.md) / [v0.6.4](attachments/R1-freeze-proposal-v0.6.4.md) | complete；上游协议冻结、下游 E-013 精确同步，I-001/I-003 verified。逐次预登记在 R2a、对应 R2b 运行前核对（D-015）。 |
-| R2 | 路线选择见 `D-002`；具体阶段计划未写 | 待 R1 冻结后制定 R2a～R2d 安排；真实案例使用受 `I-002` 门禁约束，证据选路受 `I-005` 门禁约束 |
+| R2 | 路线选择见 `D-002`；子目标边界见 [D-019](01-decision/D-019-create-r2-delivery-goal.md)；执行载体为 [GOAL-002](../GOAL-002-r2-method-validation/00-meta.md) | R2a 正在准备；真实案例使用受 `I-002` 门禁约束，证据选路受 `I-005` 门禁约束 |
 | R3 | 未写 | 依赖 R1 的 I-003 条件策略；I-006 在 R3 评估证据并落实工具/no-tool 分支，不阻断 R1/R2 |
 | R4 | 未写 | 待 R2/R3 就绪后制定最终版端到端检验；检验前复核 `I-002`，交付前关闭 `I-004` |
 
@@ -47,3 +47,4 @@ version: 1.9.0
 | D-016 | 2026-09-30 | 裁决 R1 协议候选 v0.6.4 的边界与总量计法 | accepted | [D-016](01-decision/D-016-r1-protocol-v0-6-4.md) |
 | D-017 | 2026-09-30 | 冻结 R1 方法协议与条件工具策略 v0.6.4 | accepted | [D-017](01-decision/D-017-freeze-r1-protocol-v0-6-4.md) |
 | D-018 | 2026-09-30 | 关闭 R1 澄清与冻结阶段 | accepted | [D-018](01-decision/D-018-close-r1-stage.md) |
+| D-019 | 2026-10-01 | 建立 R2 子目标并明确父子职责 | accepted | [D-019](01-decision/D-019-create-r2-delivery-goal.md) |

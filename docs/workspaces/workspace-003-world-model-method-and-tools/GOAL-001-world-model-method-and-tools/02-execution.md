@@ -4,8 +4,8 @@ doc: execution
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-09-30
-version: 0.34.0
+updated: 2026-10-01
+version: 0.35.0
 ---
 
 # 执行记录 · GOAL-001
@@ -48,11 +48,12 @@ version: 0.34.0
 | E-032 | 2026-09-30 | 冻结上游 R1 协议 v0.6.4 | recorded | [E-032](02-execution/E-032-freeze-r1-protocol-v0-6-4.md) |
 | E-033 | 2026-09-30 | 记录下游同步 R1 v0.6.4 冻结协议 | recorded | [E-033](02-execution/E-033-record-downstream-r1-v0-6-4-sync.md) |
 | E-034 | 2026-09-30 | 完成 R1 检查点并进入承诺内响应 | recorded | [E-034](02-execution/E-034-complete-r1-and-start-response.md) |
+| E-035 | 2026-10-01 | 建立 R2 子目标并启动 R2a 准备 | recorded | [E-035](02-execution/E-035-start-r2a-preparation.md) |
 
 ## 当前事实边界
 
-R1 协议 v0.6.4 已依 D-017 冻结，并经 A-004 independent/pass 复核；下游已在 WorldModel.ModernCultivation@2985080414ca57acda3ee19f3a592efef9676fa3 的 E-013 精确同步（本仓 E-033）。D-018 / E-034 / A-005 完成 R1 检查点，I-001/I-003 verified，Root active、25%（1/4）；WRK-002 唯一运行主记录经 EV-003 转为「响应中」。R2/R3/R4 未开始，I-002/I-004/I-005/I-006 仍 open。D-015 / E-029 的阶段分配继续适用。v0.6.3 保留历史，旧候选状态不改；A-002 四项 required findings 已由 A-003 按 fixed 闭合。
+R1 协议 v0.6.4 已依 D-017 冻结，并经 A-004 independent/pass 复核；下游已在 WorldModel.ModernCultivation@2985080414ca57acda3ee19f3a592efef9676fa3 的 E-013 精确同步（本仓 E-033）。D-018 / E-034 / A-005 完成 R1 检查点，I-001/I-003 verified，Root active、25%（1/4）；WRK-002 唯一运行主记录经 EV-003 转为「响应中」。2026-10-01 按用户选择创建 GOAL-002，R2 进入 R2a 准备；R3/R4 未开始，I-002/I-004/I-005/I-006 仍 open。D-015 / E-029 的阶段分配继续适用。v0.6.3 保留历史，旧候选状态不改；A-002 四项 required findings 已由 A-003 按 fixed 闭合。
 
 历史候选、用户选择和绑定见 E-004～E-028。v0.6.2 最后精确来源是 magicvr/method-engineering@0340ee94cd07c4da2ce0f3164ddb56bb9e5fc082，由下游 WorldModel.ModernCultivation@f24f83c7150499bef1a103bc99ccdbf712fbde53 更新指针（E-028）。本轮 v0.6.3 来源为 magicvr/method-engineering@90e8a2114f9d3ddfbb916d5bd02e3dd66b49b160:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.3.md，下游已由 WorldModel.ModernCultivation@250a632cb666540a25931034a0274b10f51b1136 同步当前指针（下游 E-012；本仓 E-030）。历史 D/E 原文保留，原先重复确认或提前索取后继产物的门槛以 D-015 取代。
 
-单次程序黑箱探针（D-008 / E-016）不作为规划或领域证据，不选定 R2b/R4 案例。方法试验、方法工作版、Skill 实现、交付、实际收件和验收均未发生；同一维护人事实不推定真实案例授权或这些完成事实。
+单次程序黑箱探针（D-008 / E-016）不作为规划或领域证据，不选定 R2b/R4 案例。当前 GOAL-002 已整理 R2a 准备方案，但未填写具体逐次预登记；尚无方法试验、R2c 证据选路、方法工作版、Skill 实现、交付、实际收件或验收事实。同一维护人事实不推定真实案例授权或这些完成事实。

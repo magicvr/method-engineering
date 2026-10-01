@@ -10,8 +10,8 @@ plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
-updated: 2026-09-30
-version: 0.27.0
+updated: 2026-10-01
+version: 0.28.0
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -44,13 +44,13 @@ version: 0.27.0
 
 ## 纲领阶段
 
-本区的纲领阶段、先后关系与退出条件的权威记录在 Root 的 [`00-meta.md`](GOAL-001-world-model-method-and-tools/00-meta.md) 中：**R1 澄清与冻结 → R2 优先验证假设、按证据选路并形成方法工作版 / R3 配套工具界定与形成 → R4 有界检验与交付验收**。VP-003 保留方向级阶段与先后，Root 负责本区可执行纲领、信息门禁与证据。
+本区的纲领阶段、先后关系与退出条件的权威记录在 Root 的 [`00-meta.md`](GOAL-001-world-model-method-and-tools/00-meta.md) 中：**R1 澄清与冻结 → R2 优先验证假设、按证据选路并形成方法工作版 / R3 配套工具界定与形成 → R4 有界检验与交付验收**。VP-003 保留方向级阶段与先后，Root 负责本区可执行纲领和全局信息门禁；R2 的阶段执行、证据与审计上下文由 [GOAL-002](GOAL-002-r2-method-validation/00-meta.md) 承载。
 
 R1 冻结协议级方法边界、证据类型/标签、停止/变更机制、总体限额/责任及 I-003 条件工具策略；R2a 填逐次问题/模型/样本/预测/局部判据，对应 R2b 运行前核对完整。I-006 只在 R3 用既有/R2 人工过程证据决定并落实工具/no-tool 分支，不阻断 R1/R2。R2 内依次操作化 H1/H2/H3、有界试验、证据选路与必要的替代方向验证、形成暂定工作版。失败分支受 R1 限额约束，超限或证据不足时暂停受影响阶段并请用户裁决。真实案例由同一维护人/用户在 R2b 使用前明确选定案例、范围与授权并留痕，依 I-002 核对；单人及双仓维护身份不推定任意案例已获准，也不要求对同一授权重复确认。路线选择不是假设验证结论。R2 与 R3 的界定可在 R1 后并行，工具实现须等方法接口稳定；R4 等两者就绪后检验最终版端到端闭环，复用前置试验案例只提供该有界案例的证据。同一阶段内若出现具有独立范围、依赖或交付证据的工作，才创建平铺子目标。
 
-## 当前 R1 关门与后继边界（2026-09-30）
+## 当前阶段与门禁边界（2026-10-01）
 
-用户选择方案 A 响应 A-002，见 Root D-015 / E-029。当前上游协议 [v0.6.4](GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md) 已依 D-017/E-032 冻结并经 A-004 independent/pass；下游 E-013 已于 WorldModel.ModernCultivation@2985080414ca57acda3ee19f3a592efef9676fa3 精确同步（上游 E-033），D-018/E-034/A-005 完成 R1 关门。I-001/I-003 verified，Root active、25%（1/4），R2/R3/R4 未开始。I-006 只控制相应 R3 分支决策/退出；证据不足可结论为本轮不引入并记录理由、复评触发与责任，不要求先实现 Skill、无限追加运行或等待 R4 反馈。逐次预登记不反向阻断 R1；I-002/I-004/I-005/I-006 仍 open。
+用户选择方案 A 响应 A-002，见 Root D-015 / E-029。当前上游协议 [v0.6.4](GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md) 已依 D-017/E-032 冻结并经 A-004 independent/pass；下游 E-013 已于 WorldModel.ModernCultivation@2985080414ca57acda3ee19f3a592efef9676fa3 精确同步（上游 E-033），D-018/E-034/A-005 完成 R1 关门。I-001/I-003 verified，Root active、25%（1/4）。2026-10-01 用户选择建立 GOAL-002 承载 R2，当前 R2a 准备进行中；R3/R4 未开始。I-006 只控制相应 R3 分支决策/退出；证据不足可结论为本轮不引入并记录理由、复评触发与责任，不要求先实现 Skill、无限追加运行或等待 R4 反馈。逐次预登记不反向阻断 R1；I-002/I-004/I-005/I-006 仍 open。
 
 两仓由同一维护人维护，既有用户决定一次留痕，下游同步引用；原来“共同维护组再次确认/签字”的当前门槛由 D-015 取代。当前精确来源为 magicvr/method-engineering@016fde6f94c08a3bb8b04818cecc8778ff20154d:docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md（accepted）。WRK-002 唯一主记录经 EV-003 进入「响应中」。冻结协议引用不表示完整方法接受、工具交付或启用裁决；下游 I-005 open、M1 active 0/2，方法与工具未交付、收件或验收。A-002 四项 required findings 已由 A-003 按 fixed 闭合；R4 I-004 仍需独立审计。
 
