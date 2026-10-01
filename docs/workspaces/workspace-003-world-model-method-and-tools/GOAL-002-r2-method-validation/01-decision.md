@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.16
+version: 0.1.17
 ---
 
 # 决策记录 · GOAL-002
@@ -26,6 +26,7 @@ version: 0.1.16
 | R2a H3 混合证据汇总 | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) | 任一核心能力不可评且影响总体判断时优先 insufficient；partial 仅用于核心均可评但最终集合仍缺项；可核对的核心矛盾仍为 refuted。 |
 | R2a H3 逐链适用性 | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) | 运行前按冻结输入分别登记链×能力适用性及理由，运行后另记实际证据状态；不能事后改适用性。具体矩阵仍待填写。 |
 | R2a H3 初评组合 | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) | 选择值班操作员×CTX-017 与检修员×CTX-042 两条初评链，共 2 个 H3 格；未冻结准确输入，也未授权运行。 |
+| R2a H3-01 上限输入 | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) | 选择 H3-01 第一步需求 5、实际供水 4；水位候选记录据此保持一致。仅为待审定合成输入片段。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -49,3 +50,4 @@ version: 0.1.16
 | D-011 | 2026-10-01 | 确定不可评证据优先于部分缺项 | accepted | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) |
 | D-012 | 2026-10-01 | 预登记 H3 逐链能力适用性 | accepted | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) |
 | D-013 | 2026-10-01 | 选择 H3 两条初评采样链 | accepted | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) |
+| D-014 | 2026-10-01 | 为 H3-01 加入触发供水上限的输入 | accepted | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) |
