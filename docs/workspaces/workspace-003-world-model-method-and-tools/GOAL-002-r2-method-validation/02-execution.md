@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.25
+version: 0.1.26
 ---
 
 # 执行记录 · GOAL-002
@@ -40,8 +40,11 @@ version: 0.1.25
 | E-024 | 2026-10-01 | 记录 H1 候选输入与四格预测裁决 | recorded | [E-024](02-execution/E-024-record-h1-candidate-inputs-and-predictions.md) |
 | E-025 | 2026-10-01 | 记录 H1 局部主张与裁决规则裁决 | recorded | [E-025](02-execution/E-025-record-h1-local-claim-and-judgment-rules.md) |
 | E-026 | 2026-10-01 | 记录 H2 候选问题、快照与回答卡裁决 | recorded | [E-026](02-execution/E-026-record-h2-candidate-question-snapshot-and-card.md) |
+| E-027 | 2026-10-01 | 记录 H2 局部增益候选判据裁决 | recorded | [E-027](02-execution/E-027-record-h2-local-gain-candidate-rule.md) |
 
 ## 事实边界
+
+2026-10-01，用户依 [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 接受 H2 局部支持条件及缺少路径比较/价值证据时判 `insufficient` 的候选规则：保留原问约束、身份/情景路径取得直接路径未取得且足以影响答案的信息，并由创作者明确判断增益值得实际记录的额外问答步骤。规则未冻结；无路径运行观察、实际价值判断或运行授权。“确需澄清”筛选、其余标签/严重度、复合问法/停点及执行字段仍待完成，R2a 未结束。
 
 2026-10-01，用户依 D-024 接受 H2 原问、共用快照和 R-B 回答卡为候选输入。AI 算术推演显示 R-A 与 R-B 的按时供水答案不同，但尚无运行观察。确需澄清、两路径增益是否值得额外步骤、局部判据和执行字段仍待补齐；未冻结或运行，不授权 R2b。
 

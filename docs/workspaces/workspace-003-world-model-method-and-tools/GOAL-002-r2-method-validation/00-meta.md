@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.25
+version: 0.1.26
 progress: 0%
 ---
 
@@ -27,7 +27,7 @@ progress: 0%
 
 2026-10-01，用户依 [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) 接受 H1 四格局部主张、四标签判据及逐格定性严重度记录为预登记候选。它们仍待与证据字段、停止/偏离流程一并核对冻结；R2a 未完成，不放行运行。
 
-2026-10-01，用户依 [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受 H2 含混问句、共用快照与 R-B 回答卡作为候选输入；是否确需澄清、局部增益与额外步骤裁决、执行规则仍待创作者确定，不冻结或运行。
+2026-10-01，用户依 [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受 H2 含混问句、共用快照与 R-B 回答卡作为候选输入；依 [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 接受局部增益的候选支持条件及证据不足处理。该规则未冻结；“确需澄清”最终筛选、其他标签/严重度、轮数/停止与执行字段仍待补齐，不冻结或运行。
 
 ## 成功标准
 
