@@ -4,7 +4,7 @@ status: draft
 created: 2026-10-01
 updated: 2026-10-01
 parent: GOAL-002-r2-method-validation
-version: 0.1.19
+version: 0.1.20
 ---
 
 # R2a · H1/H2/H3 合成候选包 v0.1.19
@@ -102,13 +102,13 @@ AI 候选局部主张：比较两路径是否保持同一原问及约束、取�
 
 ## 4. H3 · 封闭抽样框与两组合初评候选
 
-### H3-SEM-001 · 冷启动产物与最低条件待创作者裁定（required / OPEN）
+### H3-SEM-001 · 冷启动产物最低条件与剩余预登记待闭合（required / OPEN）
 
 已接受的 [Root D-002](../../GOAL-001-world-model-method-and-tools/01-decision/D-002-prioritize-hypothesis-validation.md) 选择以采样冷启动机制模型集合的验证方向；已接受的 [D-011](../../GOAL-001-world-model-method-and-tools/01-decision/D-011-select-checklist-creator-judgment.md) 要求执行前由创作者定义本框最低启动能力、链→能力/模型映射和关键遗漏，未定义最低条件时为 insufficient。[R1 判据候选 §H3](../../GOAL-001-world-model-method-and-tools/attachments/R1-I001-H123-acceptance-criteria-candidate.md) 仍为 draft，包含的“至少一条样本由初始模型集合启动回答”附加门槛不能当作已接受 R1 规则。
 
-用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择 **从零形成首版模型**：生成端没有已登记机制模型，以采样链输出实际构造首版机制模型集合，并在隐藏 `H3-BALANCE` 评估参考揭示前冻结实际产物。提供已有模型或延期路线未选。依 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，最低产物类型已定为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类信息均须可定位；允许简洁文字，不适用项需说明 N/A 及原因，不要求可执行、数值化或形式化。数学推导、数值/统计计算、程序核验或模拟按证据需要使用，文本足够时无需工具。判定基础已选能力清单逐项核对，但清单具体项目、最低覆盖、关键遗漏和标签边界未定。依 [D-013](../01-decision/D-013-select-h3-two-initial-chains.md)，H3-01（值班操作员 × CTX-017）及 H3-02（检修员 × CTX-042）已选为两条初评组合；[D-014](../01-decision/D-014-add-h3-cap-binding-input.md) 另选择了 H3-01 首步需求 5、供水 4 的触顶候选片段。准确角色输入仍未冻结；问题清单、能力/缺口列表或事后参考比较本身不足以证明模型已形成。
+用户已按 [D-004](../01-decision/D-004-select-h3-form-first-model-set-from-zero.md) 选择 **从零形成首版模型**：生成端没有已登记机制模型，以采样链输出实际构造首版机制模型集合，并在隐藏 `H3-BALANCE` 评估参考揭示前冻结实际产物。提供已有模型或延期路线未选。依 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 与 [D-006](../01-decision/D-006-accept-r1-model-entry-fields-for-h3.md)，最低产物类型已定为可审查纯文本机制模型条目，R1 v0.6.4 §2 的 12 类信息均须可定位；允许简洁文字，不适用项需说明 N/A 及原因，不要求可执行、数值化或形式化。数学推导、数值/统计计算、程序核验或模拟按证据需要使用，文本足够时无需工具。能力清单与 C-01～C-04 范围/边界依 D-007 已选；依 [D-015](../01-decision/D-015-set-h3-minimum-model-startability.md) 已定最低启动为字段齐备且至少有一条可追溯的具体机制关系，并已定链→能力/模型映射与关键遗漏规则。依 [D-013](../01-decision/D-013-select-h3-two-initial-chains.md)，H3-01（值班操作员 × CTX-017）及 H3-02（检修员 × CTX-042）已选为两条初评组合；[D-014](../01-decision/D-014-add-h3-cap-binding-input.md) 另选择了 H3-01 首步需求 5、供水 4 的触顶候选片段。准确角色输入仍未冻结；问题清单、能力/缺口列表或事后参考比较本身不足以证明模型已形成。
 
-当前未决焦点为逐链适用性矩阵的具体单元及理由、运行后证据→模型/缺口映射、非直接矛盾的链间冲突处理、严重度及其余预登记字段。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心矛盾或错述 C-01 判 `refuted`，无矛盾但任一核心不可评且影响总体判断则优先 `insufficient`，仅在核心均可评但最终集合仍缺项时判 `partial`（[D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md)）。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。依 [D-012](../01-decision/D-012-preregister-h3-chain-applicability.md)，运行前逐链按冻结输入登记适用性及理由，运行后另记实际证据状态，不能事后改适用性；预登记矩阵仍未填。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记和关闭依据以 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 及 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 至 [D-014](../01-decision/D-014-add-h3-cap-binding-input.md) 为准。
+仍待填写逐链适用性矩阵具体单元及理由、准确可见输入/来源快照、冲突与严重度及其余预登记字段；运行后再按 D-015 的规则建立具体证据→模型/缺口链接。用户按 [D-007](../01-decision/D-007-set-h3-core-capability-boundaries.md) 已定 C-02～C-04 为核心机制能力，C-01 为须正确遵守的输入/范围前提；核心矛盾或错述 C-01 判 `refuted`，无矛盾但任一核心不可评且影响总体判断则优先 `insufficient`，仅在核心均可评但最终集合仍缺项时判 `partial`（[D-011](../01-decision/D-011-prioritize-insufficient-over-partial.md)）。按 [D-008](../01-decision/D-008-aggregate-h3-at-model-set-level.md)，最终标签针对所选链共同形成的冻结模型集合，保留逐链映射，单链未触及某能力不自动判失败；依 [D-009](../01-decision/D-009-aggregate-explicit-gaps-at-final-set.md)，单链显露的明确缺口若在冻结前由集合补足，不自动降为 `partial`；依 [D-010](../01-decision/D-010-label-unassessable-core-as-insufficient.md)，所有适用链均未触及且集合无可评证据、导致整体无法可靠判断时标 `insufficient`。依 [D-012](../01-decision/D-012-preregister-h3-chain-applicability.md)，运行前逐链按冻结输入登记适用性及理由，运行后另记实际证据状态，不能事后改适用性；预登记矩阵仍未填。R1 §2 的 12 类模型条目字段已按 D-006 接受。评估端草案见 [H3 能力清单候选 v0.1](H3-capability-checklist-candidate-v0.1.md)，不可泄露到生成端。**本项未闭合前，不得最终冻结 H3 正式预登记或运行 H3。** 下方操作顺序依已选路线更新，具体输入与局部规则仍是草稿；没有实际首版模型或已冻结登记。用户接受的基线结构保持原意，H3 主张未改写；登记和关闭依据以 [D-003](../01-decision/D-003-select-synthetic-package-preregistration-baseline.md) 及 [D-005](../01-decision/D-005-define-h3-text-model-and-checklist-basis.md) 至 [D-015](../01-decision/D-015-set-h3-minimum-model-startability.md) 为准。
 
 框 ID 候选 `H3-FRAME@0.1`；来源为本 AI 合成包。封闭范围是下列 **3 角色 × 2 运行情景 = 6 个可能组合**。组合目录不是已抽样、已运行或已计格的结果。没有宣称覆盖完整世界。
 
@@ -131,7 +131,7 @@ AI 候选局部主张：比较两路径是否保持同一原问及约束、取�
 
 **生成端初始机制模型集合按已选从零路径为空 `∅`；登记版本候选 `H3-GENERATOR-MODELS@0.1` 及可见输入边界仍待正式确认。** 空集合只表示运行开始时没有已登记的机制模型；角色可知的合成世界事实、明示规则，以及读取、比较等基本能力仍可存在。不得把“没有已登记模型”写成“没有输入、规则或基本能力”。这一生成端字段独立登记，实际首版模型须由采样链输出形成，不能用下方评估参考替代。
 
-**评估端参考模型集合字段：评估参考 / 冻结参考（先登记、后揭示）。** 候选 `H3-BALANCE@0.1` 仅为创作者预先固定并版本化的最低启动模型集合评估参考：每步实际供水 `d_t = min(需求, 4, s_t)`；随后损失 `l_t = min(情景损失参数, s_t - d_t)`；步末 `s_(t+1) = s_t - d_t - l_t`。此完整机制公式及其能力/覆盖映射只能进入后续评估，不能进入身份—情景→问题生成的运行上下文，也不能以已给出的机制模型替代从问题集导出首版能力/缺口的工作。创作者仍须接受或修改该参考、给出最低启动条件，并在运行前固定版本、封存路径及揭示责任；本草稿中的候选尚未冻结。
+**评估端参考模型集合字段：评估参考 / 冻结参考（先登记、后揭示）。** 候选 `H3-BALANCE@0.1` 仅为创作者预先固定并版本化的最低启动模型集合评估参考：每步实际供水 `d_t = min(需求, 4, s_t)`；随后损失 `l_t = min(情景损失参数, s_t - d_t)`；步末 `s_(t+1) = s_t - d_t - l_t`。此完整机制公式及其能力/覆盖映射只能进入后续评估，不能进入身份—情景→问题生成的运行上下文，也不能以已给出的机制模型替代从问题集导出首版能力/缺口的工作。最低启动条件已依 [D-015](../01-decision/D-015-set-h3-minimum-model-startability.md) 确定；创作者仍须接受或修改该参考，并在运行前固定其版本、封存路径及揭示责任；本草稿中的候选尚未冻结。
 
 **排除项候选**：框外角色/情景、容量变化、补水、第三步、管网/压力、水质、设备维修机制、损失原因诊断和未来总体覆盖。实际损失原因不在评估参考中，不能由运行者补造。框封闭时间、评估参考版本和角色可知字段仍待冻结。
 

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.17
+version: 0.1.18
 ---
 
 # 决策记录 · GOAL-002
@@ -16,8 +16,8 @@ version: 0.1.17
 |------|-----------------|------|
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
 | R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；准确输入、局部判据/严重度、责任、预算/停点、冻结及运行授权仍待逐项完成。 |
-| R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，准确输入、适用性矩阵、模型要求、映射/遗漏/局部判据及执行安排待裁定，H3-SEM-001 仍 OPEN。 |
-| R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；映射/遗漏以能力清单逐项核对为起草基础，具体能力项及标签边界未定。 |
+| R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，最低启动能力、映射方法及关键遗漏规则依 D-015 已定；准确输入、适用性矩阵、剩余判据及执行安排待补，H3-SEM-001 仍 OPEN。 |
+| R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；依 D-007～D-015 已确定核心能力、标签优先级、最低启动能力及映射/遗漏规则。 |
 | R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力覆盖与跨链聚合仍待裁定。 |
 | R2a H3 核心能力与标签边界 | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) | C-02～C-04 为核心能力，C-01 为输入/范围前提；核心缺项 partial、核心矛盾或错述 C-01 refuted、无法可靠评估 insufficient；集合级细则见 D-008～D-011。 |
 | R2a H3 跨链汇总单位 | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) | 最终标签针对所选链共同形成的冻结模型集合；逐链映射保留，单链未触及不自动判失败；中间 `explicit-gap` 得到最终集合补足时不自动降级（D-009）。 |
@@ -27,6 +27,7 @@ version: 0.1.17
 | R2a H3 逐链适用性 | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) | 运行前按冻结输入分别登记链×能力适用性及理由，运行后另记实际证据状态；不能事后改适用性。具体矩阵仍待填写。 |
 | R2a H3 初评组合 | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) | 选择值班操作员×CTX-017 与检修员×CTX-042 两条初评链，共 2 个 H3 格；未冻结准确输入，也未授权运行。 |
 | R2a H3-01 上限输入 | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) | 选择 H3-01 第一步需求 5、实际供水 4；水位候选记录据此保持一致。仅为待审定合成输入片段。 |
+| R2a H3 最低启动能力 | [D-015](01-decision/D-015-set-h3-minimum-model-startability.md) | 集合至少一个非占位条目、每个模型条目 12 类字段可定位，且至少一条证据可追溯的具体机制关系；不要求全部核心已覆盖。映射规则与关键遗漏规则已确定；逐链矩阵及实际证据链接仍待完成。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -51,3 +52,4 @@ version: 0.1.17
 | D-012 | 2026-10-01 | 预登记 H3 逐链能力适用性 | accepted | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) |
 | D-013 | 2026-10-01 | 选择 H3 两条初评采样链 | accepted | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) |
 | D-014 | 2026-10-01 | 为 H3-01 加入触发供水上限的输入 | accepted | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) |
+| D-015 | 2026-10-01 | 设定 H3 最低模型启动能力与遗漏规则 | accepted | [D-015](01-decision/D-015-set-h3-minimum-model-startability.md) |
