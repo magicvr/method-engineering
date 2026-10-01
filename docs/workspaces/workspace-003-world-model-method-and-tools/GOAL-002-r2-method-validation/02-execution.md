@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.2
+version: 0.1.3
 ---
 
 # 执行记录 · GOAL-002
@@ -17,7 +17,8 @@ version: 0.1.2
 | E-001 | 2026-10-01 | 建立 R2 承载目标并启动 R2a 准备 | recorded | [E-001](02-execution/E-001-start-r2a-preparation.md) |
 | E-002 | 2026-10-01 | 记录完整方法黑箱探针的用途与阶段边界 | recorded | [E-002](02-execution/E-002-record-r2d-full-method-probe-decision.md) |
 | E-003 | 2026-10-01 | 提出 H1/H2/H3 合成候选包供创作者审阅 | recorded | [E-003](02-execution/E-003-draft-synthetic-h123-candidate-pack.md) |
+| E-004 | 2026-10-01 | 记录合成候选包的预登记基线选择 | recorded | [E-004](02-execution/E-004-record-synthetic-preregistration-baseline-selection.md) |
 
 ## 事实边界
 
-本目标当前处于 R2a 准备；AI 已提出 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md)，创作者尚未接受或冻结，候选预测不是观察结果。另已记录用户将“世界有多大”预留为 R2d 单次完整方法黑箱核对的选择及禁止定制边界（D-002 / E-002）。该选择未证明 R2b/R4 真实案例用例就绪。尚无已冻结的逐次预登记、已尝试结果格、H 试验、R2c 路线结论、R2d 工作版或探针运行结果；未记录可核对的人工作业分钟，AI 时间未折算为人时。Root I-002/I-005 仍 open，其状态以父目标 `00-meta.md` 为准。
+本目标当前处于 R2a 准备；用户已选择 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) 的基线结构继续补齐正式预登记（D-003 / E-004），准确输入、局部判据/严重度、责任、预算/停点、冻结及运行授权仍待完成。候选预测不是观察结果。另已记录用户将“世界有多大”预留为 R2d 单次完整方法黑箱核对的选择及禁止定制边界（D-002 / E-002）。该选择未证明 R2b/R4 真实案例用例就绪。尚无已冻结的逐次预登记、已尝试结果格、H 试验、R2c 路线结论、R2d 工作版或探针运行结果；未记录可核对的人工作业分钟，AI 时间未折算为人时。Root I-002/I-005 仍 open，其状态以父目标 `00-meta.md` 为准。

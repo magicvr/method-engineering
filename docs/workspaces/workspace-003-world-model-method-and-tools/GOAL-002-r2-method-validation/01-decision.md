@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.1
+version: 0.1.3
 ---
 
 # 决策记录 · GOAL-002
@@ -15,6 +15,7 @@ version: 0.1.1
 | 阶段 | 计划文件 / 落点 | 说明 |
 |------|-----------------|------|
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
+| R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；准确输入、局部判据/严重度、责任、预算/停点、冻结及运行授权仍待逐项完成。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -27,3 +28,4 @@ version: 0.1.1
 |------|------|------|------|------|
 | D-001 | 2026-10-01 | 建立 R2 子目标并界定职责与门禁 | accepted | [D-001](01-decision/D-001-r2-scope-and-gate-authority.md) |
 | D-002 | 2026-10-01 | 预留“世界有多大”为完整方法冻结后的黑箱核对 | accepted | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) |
+| D-003 | 2026-10-01 | 选择供水站合成候选包作为正式预登记基线 | accepted | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md) |
