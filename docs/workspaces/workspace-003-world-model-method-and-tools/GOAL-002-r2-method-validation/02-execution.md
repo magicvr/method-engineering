@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.21
+version: 0.1.22
 ---
 
 # 执行记录 · GOAL-002
@@ -36,8 +36,11 @@ version: 0.1.21
 | E-020 | 2026-10-01 | 记录 H3 可观测输入候选基线裁决 | recorded | [E-020](02-execution/E-020-record-h3-observable-input-candidate-baseline.md) |
 | E-021 | 2026-10-01 | 记录 H3 C-03 有界可评范围裁决 | recorded | [E-021](02-execution/E-021-record-h3-c03-bounded-assessability.md) |
 | E-022 | 2026-10-01 | 记录 H3-01 库存绑定第三步候选裁决 | recorded | [E-022](02-execution/E-022-record-h3-inventory-binding-step.md) |
+| E-023 | 2026-10-01 | 记录 H3 候选逐链适用性矩阵裁决 | recorded | [E-023](02-execution/E-023-record-h3-candidate-applicability-matrix.md) |
 
 ## 事实边界
+
+2026-10-01，用户接受 H3 C-01～C-04 候选逐链适用性矩阵（D-021）：C-01 两链均须遵守各自登记步数与无补水边界；C-02 两链均为候选适用，H3-01 分别触及上限、需求和库存绑定，H3-02 提供需求/上限相关输入但不触及库存绑定；C-03 两链均在 D-019 范围内，H3-01 作无额外下降负对照、H3-02 提供供水后下降/归零核对机会；C-04 两链均核对登记步数内状态承接。H3-01 三步、H3-02 两步，跨链解释不得按步数默默加权。已同步矩阵候选与 R2a 准备稿；矩阵仍须结合准确输入在生成前复核冻结。H3-SEM-001 保持 required / OPEN，未冻结、未运行，目标状态/进度、goal-tree、Root I-002/I-005 与格数不变。
 
 2026-10-01，用户依 D-020 选择在 H3-01 保留 D-014 前两步并增加第三步，步初存量 2、需求 3、候选供水 2、步末 0，用于覆盖 C-02 库存绑定；保留 H3-02 两步、两条链和 2 个 H3 初评格。已同步候选包、C-02 矩阵草案与 R2a 预登记准备稿。该输入仍未冻结或运行，H3-SEM-001 保持 required / OPEN，目标状态/进度、goal-tree、Root I-002/I-005 及结果格数不变。
 

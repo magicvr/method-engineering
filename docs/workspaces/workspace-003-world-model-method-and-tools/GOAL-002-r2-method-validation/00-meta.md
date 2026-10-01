@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.21
+version: 0.1.22
 progress: 0%
 ---
 
@@ -20,6 +20,8 @@ progress: 0%
 2026-10-01，用户按 [D-019](01-decision/D-019-bound-h3-c03-assessability-scope.md) 将 C-03 本轮可评范围限定为两条已选封闭合成链中可观测的供水外减量、窗内变化与零存量边界，不外推一般因果损失公式。该范围决定不关闭 H3-SEM-001；完整矩阵、准确快照及其余运行字段仍待完成，未冻结或运行。
 
 2026-10-01，用户依 [D-020](01-decision/D-020-add-h3-inventory-binding-step.md) 在 H3-01 的 D-014 两步候选后增加一步：步初存量 2、需求 3、供水 2、步末 0，以触及 C-02 库存绑定。保留两条链与 2 个 H3 初评格；H3-01 三步、H3-02 两步。此为未冻结候选，不扩张 D-019 的 C-03 范围、不授权运行；H3-SEM-001 仍 OPEN。
+
+2026-10-01，用户按 [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) 接受 H3 C-01～C-04 的候选逐链适用性分类与理由：C-01 两链适用；C-02 两链适用但库存绑定机会仅在 H3-01；C-03 两链均限 D-019；C-04 两链适用，保留三步/两步差异且不默默按步数加权。该候选矩阵须与准确输入在生成前复核并冻结，仍不是冻结登记或运行授权；H3-SEM-001 继续 OPEN。
 
 ## 成功标准
 

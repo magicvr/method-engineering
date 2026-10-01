@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.23
+version: 0.1.24
 ---
 
 # 决策记录 · GOAL-002
@@ -24,13 +24,14 @@ version: 0.1.23
 | R2a H3 未触及证据聚合 | [D-009](01-decision/D-009-aggregate-explicit-gaps-at-final-set.md) | 最终集合已覆盖核心能力时，单链的明确缺口不自动阻断 supported；全链未触及且整体不能可靠判断时为 insufficient（D-010）。 |
 | R2a H3 全链未触及 | [D-010](01-decision/D-010-label-unassessable-core-as-insufficient.md) | 全部适用链未触及核心能力且集合无可评证据、整体无法可靠判断则为 insufficient；不据无证据推断能力缺失或成功；混合情形见 D-011。 |
 | R2a H3 混合证据汇总 | [D-011](01-decision/D-011-prioritize-insufficient-over-partial.md) | 任一核心能力不可评且影响总体判断时优先 insufficient；partial 仅用于核心均可评但最终集合仍缺项；可核对的核心矛盾仍为 refuted。 |
-| R2a H3 逐链适用性 | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md) | 运行前按冻结输入分别登记链×能力适用性及理由，运行后另记实际证据状态；不能事后改适用性。C-03 两条初评链均适用的候选单元依 D-016 已选，完整矩阵与准确输入仍待完成。 |
+| R2a H3 逐链适用性 | [D-012](01-decision/D-012-preregister-h3-chain-applicability.md)；[D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) | D-021 已接受 C-01～C-04 的候选逐链分类与理由；须结合最终准确输入在生成前复核并冻结，不得依据输出或参考事后改写。 |
 | R2a H3 初评组合 | [D-013](01-decision/D-013-select-h3-two-initial-chains.md) | 选择值班操作员×CTX-017 与检修员×CTX-042 两条初评链，共 2 个 H3 格；未冻结准确输入，也未授权运行。 |
 | R2a H3-01 上限输入 | [D-014](01-decision/D-014-add-h3-cap-binding-input.md) | 选择 H3-01 第一步需求 5、实际供水 4；水位候选记录据此保持一致。当时为待审定片段；数值现依 D-018 纳入候选设计基线，未冻结。 |
 | R2a H3 最低启动能力 | [D-015](01-decision/D-015-set-h3-minimum-model-startability.md) | 集合至少一个非占位条目、每个模型条目 12 类字段可定位，且至少一条证据可追溯的具体机制关系；不要求全部核心已覆盖。映射规则与关键遗漏规则已确定；逐链矩阵及实际证据链接仍待完成。 |
 | R2a H3 可观测输入候选基线 | [D-017](01-decision/D-017-prepare-h3-observable-boundary-input.md)；[D-018](01-decision/D-018-accept-h3-observable-input-candidate-baseline.md) | 全套精确步内读数、连续水量、0.5 单位报告刻度/无误差舍入及评估端均匀时间分布已接受为后续预登记候选；时间扩展版本 H3-BALANCE@0.2 未冻结，旧 @0.1 历史保留。完整可评性/矩阵与运行字段待核对，不授权冻结/运行。 |
 | R2a H3 C-03 有界可评范围 | [D-019](01-decision/D-019-bound-h3-c03-assessability-scope.md) | 本轮仅评两条已选封闭合成链中的供水外减量、窗内变化与零存量边界，不外推一般因果公式；完整矩阵、快照与执行字段仍待完成。 |
 | R2a H3 C-02 库存绑定候选 | [D-020](01-decision/D-020-add-h3-inventory-binding-step.md) | H3-01 保留 D-014 前两步并增加第三步，步初存量 2、需求 3、供水 2、步末 0；两条链与 2 格不变，候选未冻结。 |
+| R2a H3 逐链适用性候选矩阵 | [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) | 用户接受 C-01～C-04 两链候选分类与理由；准确输入/正式预登记矩阵仍待复核冻结。 |
 | R2d 内部核对 | [D-002](01-decision/D-002-reserve-r2d-full-method-blackbox-probe.md) | “世界有多大”只在 I-005 满足、通用方法版与通用判据冻结后单次输入；不用于前置设计或选路。尚未运行。 |
 
 ## 信息需求与阶段门禁
@@ -61,3 +62,4 @@ version: 0.1.23
 | D-018 | 2026-10-01 | 接受 H3 完整可观测输入草案为后续预登记基线 | accepted（候选设计，未冻结） | [D-018](01-decision/D-018-accept-h3-observable-input-candidate-baseline.md) |
 | D-019 | 2026-10-01 | 限定 H3 C-03 有界可评范围 | accepted（范围决定，不冻结） | [D-019](01-decision/D-019-bound-h3-c03-assessability-scope.md) |
 | D-020 | 2026-10-01 | 为 H3-01 加入库存绑定第三步候选 | accepted（候选输入，未冻结） | [D-020](01-decision/D-020-add-h3-inventory-binding-step.md) |
+| D-021 | 2026-10-01 | 接受 H3 候选逐链适用性矩阵 | accepted（候选矩阵，未冻结） | [D-021](01-decision/D-021-accept-h3-candidate-applicability-matrix.md) |
