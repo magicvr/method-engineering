@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.26
+version: 0.1.27
 progress: 0%
 ---
 
@@ -27,7 +27,9 @@ progress: 0%
 
 2026-10-01，用户依 [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) 接受 H1 四格局部主张、四标签判据及逐格定性严重度记录为预登记候选。它们仍待与证据字段、停止/偏离流程一并核对冻结；R2a 未完成，不放行运行。
 
-2026-10-01，用户依 [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受 H2 含混问句、共用快照与 R-B 回答卡作为候选输入；依 [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 接受局部增益的候选支持条件及证据不足处理。该规则未冻结；“确需澄清”最终筛选、其他标签/严重度、轮数/停止与执行字段仍待补齐，不冻结或运行。
+2026-10-01，用户依 [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受 H2 含混问句、共用快照与 R-B 回答卡作为候选输入；依 [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 接受局部增益的候选支持条件及证据不足处理。该规则未冻结；当时“确需澄清”筛选尚待确认，随后依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前候选通过该入选门槛。其他标签/严重度、轮数/停止与执行字段仍待补齐，不冻结或运行。
+
+2026-10-01，用户依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前 H2 候选达到“确需澄清”入选门槛：同一快照下 R-A/R-B 对原问的候选答案相反。该选择是合成输入筛选依据，须在逐次预登记中保留推理证据；不构成路径效果证据、冻结或运行授权。
 
 ## 成功标准
 
