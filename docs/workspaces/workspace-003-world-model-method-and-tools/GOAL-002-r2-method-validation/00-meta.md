@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.27
+version: 0.1.28
 progress: 0%
 ---
 
@@ -30,6 +30,8 @@ progress: 0%
 2026-10-01，用户依 [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md) 接受 H2 含混问句、共用快照与 R-B 回答卡作为候选输入；依 [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) 接受局部增益的候选支持条件及证据不足处理。该规则未冻结；当时“确需澄清”筛选尚待确认，随后依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前候选通过该入选门槛。其他标签/严重度、轮数/停止与执行字段仍待补齐，不冻结或运行。
 
 2026-10-01，用户依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前 H2 候选达到“确需澄清”入选门槛：同一快照下 R-A/R-B 对原问的候选答案相反。该选择是合成输入筛选依据，须在逐次预登记中保留推理证据；不构成路径效果证据、冻结或运行授权。
+
+2026-10-01，用户依 [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受 H2 四标签候选边界：比较/价值证据不足为 `insufficient`；无增益、重要约束破坏或明确不值得额外步骤为 `refuted`；有值得的部分增益但不足以完整回答为 `partial`；满足 D-025 条件为 `supported`。仍属候选，未冻结或运行。
 
 ## 成功标准
 

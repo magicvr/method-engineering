@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.27
+version: 0.1.28
 ---
 
 # 执行记录 · GOAL-002
@@ -42,8 +42,11 @@ version: 0.1.27
 | E-026 | 2026-10-01 | 记录 H2 候选问题、快照与回答卡裁决 | recorded | [E-026](02-execution/E-026-record-h2-candidate-question-snapshot-and-card.md) |
 | E-027 | 2026-10-01 | 记录 H2 局部增益候选判据裁决 | recorded | [E-027](02-execution/E-027-record-h2-local-gain-candidate-rule.md) |
 | E-028 | 2026-10-01 | 记录 H2 候选问句通过确需澄清筛选 | recorded | [E-028](02-execution/E-028-record-h2-must-clarify-candidate-selection.md) |
+| E-029 | 2026-10-01 | 记录 H2 四标签候选边界裁决 | recorded | [E-029](02-execution/E-029-record-h2-four-label-candidate-boundaries.md) |
 
 ## 事实边界
+
+2026-10-01，用户依 [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受 H2 四标签候选边界，并明确裁决“有增益但创作者明确认为不值得额外步骤”记 `refuted`。该记录仅记录用户接受的候选规则，没有冻结正式逐次预登记；尚无路径输出或真实成本/价值判断，不代表 H2 结果或运行授权。严重度、角色/证据字段、轮数/停止、预算及偏离处理仍待补齐。
 
 2026-10-01，用户依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受 H2 当前候选通过“确需澄清”入选筛选：同一快照下，未识别请求对象时 R-A 与 R-B 对按时供水给出相反答案。推理来自候选定义和 AI 算术，不是运行观察或现实事实；须纳入最终逐次预登记，若输入实质变化则复核。未冻结、未运行或授权，路径效果/额外步骤价值仍未观察。
 
