@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.20
+version: 0.1.21
 ---
 
 # 执行记录 · GOAL-002
@@ -35,8 +35,11 @@ version: 0.1.20
 | E-019 | 2026-10-01 | 记录 H3 可观测边界输入草案及 checkpoint | recorded | [E-019](02-execution/E-019-record-h3-observable-boundary-input.md) |
 | E-020 | 2026-10-01 | 记录 H3 可观测输入候选基线裁决 | recorded | [E-020](02-execution/E-020-record-h3-observable-input-candidate-baseline.md) |
 | E-021 | 2026-10-01 | 记录 H3 C-03 有界可评范围裁决 | recorded | [E-021](02-execution/E-021-record-h3-c03-bounded-assessability.md) |
+| E-022 | 2026-10-01 | 记录 H3-01 库存绑定第三步候选裁决 | recorded | [E-022](02-execution/E-022-record-h3-inventory-binding-step.md) |
 
 ## 事实边界
+
+2026-10-01，用户依 D-020 选择在 H3-01 保留 D-014 前两步并增加第三步，步初存量 2、需求 3、候选供水 2、步末 0，用于覆盖 C-02 库存绑定；保留 H3-02 两步、两条链和 2 个 H3 初评格。已同步候选包、C-02 矩阵草案与 R2a 预登记准备稿。该输入仍未冻结或运行，H3-SEM-001 保持 required / OPEN，目标状态/进度、goal-tree、Root I-002/I-005 及结果格数不变。
 
 2026-10-01，用户按 D-019 将 C-03 本轮可评范围限定于两条已选封闭合成链中的供水外减量、窗内变化与零存量边界，不外推一般因果损失公式。该决定已记录于 D-019；本记录与候选清单同步仅界定评估范围，H3-SEM-001 仍 OPEN，完整矩阵/快照/其余预登记字段未齐，正式预登记未冻结、没有运行，也未改变目标状态/进度、goal-tree、格数或 Root I-002/I-005。
 
