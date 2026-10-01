@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 审计 · GOAL-002
@@ -24,7 +24,8 @@ version: 0.1.0
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |------|------|--------|-------|---------|---------------|------|
 | A-001 | 2026-10-01 | self | R2 子目标定义、R2a 准备范围及父级门禁引用 | pass | 0 | [A-001](03-audit/A-001-r2-target-setup-review.md) |
+| A-002 | 2026-10-01 | self | H3 最低模型启动规则、证据映射/遗漏规则与文档同步；不审计正式预登记冻结或运行 | pass | 0 | [A-002](03-audit/A-002-review-h3-minimum-startability.md) |
 
 ## 结论状态
 
-A-001 仅审视目标建立与 R2a 准备边界。它不审计任何方法试验或有效性结论，不关闭父目标信息项，不替代 R4 所需的 I-004 独立审计。
+A-001 仅审视目标建立与 R2a 准备边界；A-002 仅审视 D-015 及同步后的方法规则边界。两者均不审计正式预登记冻结、方法试验或有效性结论，不关闭 H3-SEM-001 或父目标信息项，不替代 R4 所需的 I-004 独立审计。
