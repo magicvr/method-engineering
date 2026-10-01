@@ -4,7 +4,7 @@ status: recorded
 created: 2026-10-01
 updated: 2026-10-01
 parent: null
-version: 1.0.3
+version: 1.0.4
 ---
 
 # E-003 · 提出 H1/H2/H3 合成候选包供创作者审阅
@@ -22,3 +22,5 @@ version: 1.0.3
 候选初评 4 + 2 + 2 = 8 格，不构成格数消耗；剩余 1 格不能绕过各 H 累计上限。H3 若改为 3 链则初评 9 格，没有剩余复验/替代格数。尚未试验、尚未尝试任何结果格；没有已提供、可核对的人工活动分钟，不估算或分配人时，不把 AI 时间折算为人时。R2a 起实际人工投入仍须逐人累计至 180 人分钟上限，包含评估和记录。
 
 已在本目标 00-meta、执行索引与 [R2a 准备方案](../attachments/R2a-operationization-plan-v0.1.md) 链接该草稿。R2d 真实黑箱探针未用于本包设计、操作化或选路，原先行证据→I-005→通用版本与判据冻结→探针输入顺序不变。Root I-002/I-005 仍 open，状态以父目标为准；未修改 Root 信息状态、goal-tree 或本目标 status/progress。R2a 尚未完成，未形成方法有效性结论。
+
+草稿 checkpoint：提交 `fa0fc37`（`docs(governance): 提出R2合成候选包供裁定`），范围为本目标 `00-meta.md`、`02-execution.md`、本 E-003、R2a 准备方案及 H1/H2/H3 合成候选包。提交前通过暂存范围核对、`git diff --cached --check`、本地 Markdown 链接与尾随空白检查；Reviewer 只读复核接受该草稿，无试验执行。该提交是可恢复的文档快照，不代表创作者接受、预登记冻结、运行授权或 R2a 阶段放行。
