@@ -17,4 +17,6 @@ R2 现在处于 R2a 准备。子目标附件 [R2a-operationization-plan-v0.1.md]
 
 ## Git checkpoint
 
-本条后续记录本次首个 checkpoint 的提交 ID、范围与文档检查结果；commit 只作恢复点，不作为阶段审计或门禁证据。
+- **commit**：`07c1e75`
+- **scope**：workspace-003 的 R2 子目标创建、R2a 准备方案、Root/goal-tree/workspace 同步。
+- **校验**：显式 owned paths 已暂存；`git diff --cached --check` 通过；commit 只作恢复点，不作为阶段审计或门禁证据。
