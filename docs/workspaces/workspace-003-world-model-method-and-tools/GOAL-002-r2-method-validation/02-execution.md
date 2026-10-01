@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.28
+version: 0.1.29
 ---
 
 # 执行记录 · GOAL-002
@@ -43,8 +43,11 @@ version: 0.1.28
 | E-027 | 2026-10-01 | 记录 H2 局部增益候选判据裁决 | recorded | [E-027](02-execution/E-027-record-h2-local-gain-candidate-rule.md) |
 | E-028 | 2026-10-01 | 记录 H2 候选问句通过确需澄清筛选 | recorded | [E-028](02-execution/E-028-record-h2-must-clarify-candidate-selection.md) |
 | E-029 | 2026-10-01 | 记录 H2 四标签候选边界裁决 | recorded | [E-029](02-execution/E-029-record-h2-four-label-candidate-boundaries.md) |
+| E-030 | 2026-10-01 | 记录 H2 逐格定性严重度记录候选 | recorded | [E-030](02-execution/E-030-record-h2-qualitative-severity-candidate.md) |
 
 ## 事实边界
+
+2026-10-01，用户依 [D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) 选择 H2 按受影响对照格与偏离性质逐项作定性严重度记录，不另设等级或跨 H 分数。该形式沿用 D-023 的 H1 候选口径；没有为任何格判定实际严重度，也未冻结预登记或授权运行。逐次判断、责任/证据路径、轮数/停止、预算及偏离处理仍待完成。
 
 2026-10-01，用户依 [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受 H2 四标签候选边界，并明确裁决“有增益但创作者明确认为不值得额外步骤”记 `refuted`。该记录仅记录用户接受的候选规则，没有冻结正式逐次预登记；尚无路径输出或真实成本/价值判断，不代表 H2 结果或运行授权。严重度、角色/证据字段、轮数/停止、预算及偏离处理仍待补齐。
 

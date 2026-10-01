@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.30
+version: 0.1.31
 ---
 
 # 决策记录 · GOAL-002
@@ -16,7 +16,7 @@ version: 0.1.30
 |------|-----------------|------|
 | R2a–R2d | [00-meta.md](00-meta.md)；R2a 准备稿见 [附件](attachments/R2a-operationization-plan-v0.1.md) | 先完成具体预登记，再按适用授权运行；I-005 证据选路及 R2d 放行仍由父目标权威信息项控制。 |
 | R2a 预登记基线 | [D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)；[合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) | 用户已接受供水站合成包的基线结构；H1 候选输入/局部规则依 D-022/D-023、H2 问句/快照/回答卡依 D-024 接受但均未冻结。其他输入、执行字段、预算/停点与运行授权仍待完成。 |
-| R2a H2 候选输入与局部规则 | [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md)～[D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) | 原问、共用快照、回答卡及“确需澄清”入选依 D-024/D-026 接受；D-025/D-027 确定局部支持条件及四标签候选边界。仍未冻结；入选理由/路径证据、严重度、轮数/停止与执行字段仍待完成。 |
+| R2a H2 候选输入与局部规则 | [D-024](01-decision/D-024-accept-h2-candidate-question-snapshot-and-card.md)～[D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) | 原问、共用快照、回答卡、“确需澄清”入选、局部支持及四标签边界依 D-024～D-027 接受；逐格定性严重度记录形式依 D-028 接受。仍未冻结；逐格严重度判断、入选/路径证据、轮数/停止与执行字段仍待完成。 |
 | R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部主张与判据另依 D-023 接受为候选，责任、证据与正式冻结仍待完成。 |
 | R2a H1 局部裁决 | [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) | 用户接受四格主张、四标签局部判据与逐格定性严重度口径为候选；证据字段、执行责任与正式冻结仍待完成。 |
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，最低启动/映射规则依 D-015 已定，C-03 两条链适用性候选依 D-016 已选；准确输入、其余矩阵单元、剩余判据及执行安排待补，H3-SEM-001 仍 OPEN。 |
@@ -72,3 +72,4 @@ version: 0.1.30
 | D-025 | 2026-10-01 | 接受 H2 局部增益候选判据 | accepted（候选规则，未冻结） | [D-025](01-decision/D-025-accept-h2-local-gain-candidate-rule.md) |
 | D-026 | 2026-10-01 | 接受 H2 候选问句达到确需澄清门槛 | accepted（候选筛选，未冻结） | [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) |
 | D-027 | 2026-10-01 | 接受 H2 四标签候选边界 | accepted（候选规则，未冻结） | [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) |
+| D-028 | 2026-10-01 | 接受 H2 逐格定性严重度记录候选 | accepted（候选形式，未冻结） | [D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) |

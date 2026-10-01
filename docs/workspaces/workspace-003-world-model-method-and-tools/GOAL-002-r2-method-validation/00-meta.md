@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.29
+version: 0.1.30
 progress: 0%
 ---
 
@@ -15,7 +15,7 @@ progress: 0%
 
 承接 Root `GOAL-001-world-model-method-and-tools` 的 R2 纲领阶段，按 R2a → R2b → R2c → R2d 推进 H1/H2/H3 操作化、有界检验、证据选路及暂定方法工作版形成。本目标只承载 R2；Root 继续维护整体纲领路线、全局信息门禁与最终交付目标。
 
-本目标于 2026-10-01 按用户选择建立。当前处于 R2a 的操作化准备；用户已选择 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) 的共享供水站背景、分立 H 单元结构，作为补齐正式预登记的基线（[D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。H1 输入、预测及局部裁决规则依 D-022/D-023 接受为候选；H2 问句、快照、回答卡、局部增益规则、入选门槛和四标签边界依 D-024～D-027 接受为候选，均未冻结。正式预登记仍待逐字段复核；H1/H2 证据、责任与停止安排、H2 严重度、H3 准确输入/矩阵及执行字段、预算/停点、最终冻结和运行授权仍待完成。基线选择不等于逐字段接受。尚无已冻结的运行预登记、已尝试 H 结果格、方法有效性结论或 R2d 工作版。未记录可核对的人工活动分钟，AI 时间未折算为人时。
+本目标于 2026-10-01 按用户选择建立。当前处于 R2a 的操作化准备；用户已选择 [H1/H2/H3 合成候选包](attachments/R2a-H123-synthetic-candidate-pack-v0.1.md) 的共享供水站背景、分立 H 单元结构，作为补齐正式预登记的基线（[D-003](01-decision/D-003-select-synthetic-package-preregistration-baseline.md)）。H1 输入、预测及局部裁决规则依 D-022/D-023 接受为候选；H2 问句、快照、回答卡、局部增益规则、入选门槛、四标签边界和逐格定性严重度记录形式依 D-024～D-028 接受为候选，均未冻结。正式预登记仍待逐字段复核；H1/H2 证据、责任与停止安排、H2 逐格严重度判断、H3 准确输入/矩阵及执行字段、预算/停点、最终冻结和运行授权仍待完成。基线选择不等于逐字段接受。尚无已冻结的运行预登记、已尝试 H 结果格、方法有效性结论或 R2d 工作版。未记录可核对的人工活动分钟，AI 时间未折算为人时。
 
 2026-10-01，用户按 [D-019](01-decision/D-019-bound-h3-c03-assessability-scope.md) 将 C-03 本轮可评范围限定为两条已选封闭合成链中可观测的供水外减量、窗内变化与零存量边界，不外推一般因果损失公式。该范围决定不关闭 H3-SEM-001；完整矩阵、准确快照及其余运行字段仍待完成，未冻结或运行。
 
@@ -32,6 +32,8 @@ progress: 0%
 2026-10-01，用户依 [D-026](01-decision/D-026-accept-h2-question-as-must-clarify-candidate.md) 接受当前 H2 候选达到“确需澄清”入选门槛：同一快照下 R-A/R-B 对原问的候选答案相反。该选择是合成输入筛选依据，须在逐次预登记中保留推理证据；不构成路径效果证据、冻结或运行授权。
 
 2026-10-01，用户依 [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) 接受 H2 四标签候选边界：比较/价值证据不足为 `insufficient`；无增益、重要约束破坏或明确不值得额外步骤为 `refuted`；有值得的部分增益但不足以完整回答为 `partial`；满足 D-025 条件为 `supported`。仍属候选，未冻结或运行。
+
+2026-10-01，用户依 [D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) 选择 H2 逐格定性严重度记录形式，按受影响比较格与偏离性质记录，不另设等级或跨 H 分数。仅接受记录方式候选；逐格严重度判断仍待创作者纳入正式预登记，未冻结或运行。
 
 ## 成功标准
 
