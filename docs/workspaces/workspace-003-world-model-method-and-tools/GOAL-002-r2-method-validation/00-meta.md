@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.18
+version: 0.1.19
 progress: 0%
 ---
 
@@ -30,7 +30,7 @@ H3 已按 [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md)
 
 ## 本目标路线图（P-001）
 
-用户按 [D-017](01-decision/D-017-prepare-h3-observable-boundary-input.md) 选择保留完整 C-03 并准备非零存量边界输入草稿：H3-02 候选需求 `4 / 2.5`、步界 `8 → 3 → 0`，补充与 H3-01 同字段的步内读数；H3-01/D-014 的需求和步界不变。精确读数、半单位精度、连续量、观测窗及时间分布是待创作者审定的新提案；完整 C-03 可评性仍待核对，C-02 的步初存量绑定供水案例仍缺。此方向接受不等于准确输入/参考冻结或运行授权；H3-SEM-001 继续 `required / OPEN`。
+用户先按 [D-017](01-decision/D-017-prepare-h3-observable-boundary-input.md) 选择准备非零存量边界输入，后按 [D-018](01-decision/D-018-accept-h3-observable-input-candidate-baseline.md) 接受全套草案为后续预登记候选基线：H3-02 需求/供水 `4 / 2.5`、步界 `8 → 3 → 0`；与 H3-01 同字段、同窗的步内精确读数以 0.5 单位刻度报告，无误差/舍入，零恰为零，窗内水量可连续变化。H3-01/D-014 数值保持不变；新增评估端均匀时间分布/零存量下限另定为未冻结 `H3-BALANCE@0.2`，保留旧离散 `@0.1` 与 D-007 历史。W 的确切时长/单位及完整输入快照等仍待登记；完整 C-03 可评性/矩阵仍须复核，C-02 的步初存量绑定供水案例仍缺。候选基线接受不等于正式冻结或运行授权；H3-SEM-001 继续 `required / OPEN`。
 
 | 阶段 | 名称 | 状态 | 退出条件 |
 |------|------|------|----------|
