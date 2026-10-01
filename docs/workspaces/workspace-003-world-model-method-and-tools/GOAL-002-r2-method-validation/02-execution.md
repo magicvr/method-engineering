@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.10
+version: 0.1.11
 ---
 
 # 执行记录 · GOAL-002
@@ -25,6 +25,7 @@ version: 0.1.10
 | E-009 | 2026-10-01 | 记录 H3 核心能力范围与标签边界 | recorded | [E-009](02-execution/E-009-record-h3-core-capability-boundaries.md) |
 | E-010 | 2026-10-01 | 记录 H3 模型集合级汇总单位 | recorded | [E-010](02-execution/E-010-record-h3-model-set-aggregation.md) |
 | E-011 | 2026-10-01 | 记录 H3 明确缺口以最终集合判定 | recorded | [E-011](02-execution/E-011-record-h3-explicit-gap-aggregation.md) |
+| E-012 | 2026-10-01 | 记录 H3 全链未触及的不足判定 | recorded | [E-012](02-execution/E-012-record-h3-unassessable-core-insufficient.md) |
 
 ## 事实边界
 
@@ -33,6 +34,8 @@ H3 路线已选为从零形成实际首版机制模型集合，并在评估参�
 按用户裁决，H3 首版纯文本模型条目须能定位 R1 v0.6.4 §2 的完整 12 类信息，N/A 须说明理由（D-006 / E-008）。用户随后确定 C-02～C-04 为核心、C-01 为输入/范围前提并给出初步标签边界（D-007 / E-009），再选择模型集合级汇总、保留逐链证据，单链未触及不自动判失败（D-008 / E-010）。`explicit-gap` / `not-elicited` 汇总细节与逐链映射仍待裁定。checkpoint `994979a`。
 
 用户已裁定：某链的 `explicit-gap` 若在参考揭示前由模型集合其他条目补足，不自动降为 `partial`（D-009 / E-011）。逐链缺口证据仍保留；所有适用链均 `not-elicited` 的判定尚待裁定。checkpoint `93689fd`。
+
+用户已裁定：所有适用链均未触及某核心能力、且模型集合无其他可评证据，导致整体不能可靠判断时标 `insufficient`，不推断能力缺失或成功（D-010 / E-012）。混合可判/不可判的具体汇总及其他预登记字段仍待完成。checkpoint `5b01627`。
 
 已根据冻结 R1 v0.6.4 模型条目字段与合成 `H3-BALANCE@0.1` 评估参考起草评估端候选 [H3 能力清单 v0.1](attachments/H3-capability-checklist-candidate-v0.1.md)，见 `a37eed1`。候选包含纯文本条目字段、4 项机制能力、逐链证据映射及汇总标签边界建议；均待用户裁定。文件仅供评估端使用，不能泄露给生成端；尚无运行、结果或模型产物。
 
