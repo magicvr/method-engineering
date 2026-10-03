@@ -1,14 +1,19 @@
 ---
 id: GOAL-002-r2-method-validation
 doc: execution
-status: active
+status: cancelled
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
-updated: 2026-10-01
-version: 0.1.32
+updated: 2026-10-04
+version: 0.1.33
 ---
 
 # 执行记录 · GOAL-002
+
+
+## 终止后的当前摘要（2026-10-04）
+
+本目标 cancelled + terminated-by-reframe，承接 [GOAL-003](../GOAL-003-prior-art-replanning/00-meta.md)，历史 0/4 保留。依据 [D-030](01-decision/D-030-terminate-old-route-by-reframe.md) 与 [历史清单](attachments/reframe-history-manifest-v1.md)。H3-SEM-001 required/open 不闭合，旧 H3 冻结/运行禁止；未来复用须重检全部旧门禁。以下旧“当前/门禁/下一步”正文保留历史语境，非现行授权。
 
 ## 执行索引
 
@@ -47,6 +52,8 @@ version: 0.1.32
 | E-031 | 2026-10-01 | 起草 H2 逐次预登记 | recorded | [E-031](02-execution/E-031-draft-h2-preregistration.md) |
 | E-032 | 2026-10-01 | 记录 H2 每路径澄清轮数上限裁决 | recorded | [E-032](02-execution/E-032-record-h2-clarification-cap.md) |
 | E-033 | 2026-10-01 | 起草 H1 逐格预登记 | recorded | [E-033](02-execution/E-033-draft-h1-preregistration.md) |
+| E-034 | 2026-10-01 | 起草 H3 预登记（既有文件补索引） | recorded | [E-034](02-execution/E-034-draft-h3-preregistration.md) |
+| E-035 | 2026-10-04 | 原位保全并终止旧路线 | recorded | [E-035](02-execution/E-035-preserve-and-terminate-old-route.md) |
 
 ## 事实边界
 

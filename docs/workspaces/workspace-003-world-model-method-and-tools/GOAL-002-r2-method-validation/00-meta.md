@@ -1,15 +1,25 @@
 ---
 id: GOAL-002-r2-method-validation
 title: R2 · 方法假设验证与工作版形成
-status: active
+status: cancelled
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
-updated: 2026-10-01
-version: 0.1.34
+updated: 2026-10-04
+version: 0.1.35
 progress: 0%
+termination_kind: terminated-by-reframe
+superseded_by: GOAL-003-prior-art-replanning
 ---
 
 # GOAL-002 · R2 方法假设验证与工作版形成
+
+## 终止声明（2026-10-04，现行）
+
+**本目标已 cancelled，termination_kind: terminated-by-reframe。后继：[GOAL-003-prior-art-replanning](../GOAL-003-prior-art-replanning/00-meta.md)。历史进度 0/4（0%）保留，不是完成或失败结论。**
+
+I-005 的最后事实状态保持 open，旧 R2c/R2d 门禁撤回当前执行范围、编号不复用；H3-SEM-001 仍 required/open，H3 冻结/运行继续禁止。这不是 finding fixed/residual/overruled；只退出旧路线。新路线不要求先补完旧预登记；未来复用任何旧实验须重新检查旧门禁、剩余额度、角色隔离及授权。
+
+历史保全与恢复规则见 [清单](attachments/reframe-history-manifest-v1.md) / [D-030](01-decision/D-030-terminate-old-route-by-reframe.md)。以下全部正文保留终止前历史语境，所称“当前/进行中/下一步”均非现行执行指令；本声明及 Root D-021 优先。旧 H3 不得冻结/运行。
 
 ## 概述
 

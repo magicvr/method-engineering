@@ -4,23 +4,20 @@ doc: decision
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-10-01
-version: 1.11.0
+updated: 2026-10-04
+version: 1.11.1
 ---
 
 # 决策记录 · GOAL-001
 
+
+## 当前摘要（2026-10-04）
+
+现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1 完成，R2-PA 启动，R2-W/R3/R4 未完成；五等权检查点仅 1/5（20%）。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；新 GOAL-003 active、PA1 盘点启动，0/5。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
+
 ## 纲领路线图与阶段计划
 
-纲领路线图只写在 [00-meta.md](00-meta.md)。本文件不复制第二份阶段表。
-
-| 阶段 | 计划文件 / 落点 | 说明 |
-|------|-----------------|------|
-| R1 | [D-017](01-decision/D-017-freeze-r1-protocol-v0-6-4.md) / [D-018](01-decision/D-018-close-r1-stage.md) / [v0.6.4](attachments/R1-freeze-proposal-v0.6.4.md) | complete；上游协议冻结、下游 E-013 精确同步，I-001/I-003 verified。逐次预登记在 R2a、对应 R2b 运行前核对（D-015）。 |
-| R2 | 路线选择见 `D-002`；子目标边界见 [D-019](01-decision/D-019-create-r2-delivery-goal.md)；执行载体为 [GOAL-002](../GOAL-002-r2-method-validation/00-meta.md) | R2a 正在准备；真实案例使用受 `I-002` 门禁约束，证据选路受 `I-005` 门禁约束 |
-| R3 | 未写 | 依赖 R1 的 I-003 条件策略；I-006 在 R3 评估证据并落实工具/no-tool 分支，不阻断 R1/R2 |
-| R4 | 未写 | 待 R2/R3 就绪后制定最终版端到端检验；检验前复核 `I-002`，交付前关闭 `I-004` |
-
+唯一实时阶段表在 [meta](00-meta.md)；[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md) 取代旧 R2 实现路线，R1 保留。R2-PA 由 [GOAL-003](../GOAL-003-prior-art-replanning/00-meta.md) 承接；R2-W 工作版形成，R3 条件工具分支，R4 最终检验/交付。旧表/门槛可核对于 [历史基线](attachments/pre-reframe-root-baseline-v1.md) 和历史 D-002/D-019，不再授权旧路线。
 ## 信息需求与阶段门禁
 
 权威信息表在 [00-meta.md](00-meta.md)。本文件不复制第二份表。
@@ -49,3 +46,5 @@ version: 1.11.0
 | D-018 | 2026-09-30 | 关闭 R1 澄清与冻结阶段 | accepted | [D-018](01-decision/D-018-close-r1-stage.md) |
 | D-019 | 2026-10-01 | 建立 R2 子目标并明确父子职责 | accepted | [D-019](01-decision/D-019-create-r2-delivery-goal.md) |
 | D-020 | 2026-10-01 | 将“世界有多大”预留为 R2d 完整方法黑箱核对 | accepted | [D-020](01-decision/D-020-reserve-r2d-full-method-blackbox-probe.md) |
+
+| D-021 | 2026-10-04 | 成熟理论驱动实现路线 reframe | accepted | [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md) |

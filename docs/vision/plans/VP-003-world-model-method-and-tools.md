@@ -6,8 +6,8 @@ status: active
 vision_ref: method-engineering@0.1.0
 lead_workspace: workspace-003-world-model-method-and-tools
 created: 2026-09-26
-updated: 2026-09-26
-version: 0.1.0
+updated: 2026-10-04
+version: 0.1.1
 parent: null
 ---
 
@@ -111,3 +111,4 @@ parent: null
 | date | change |
 |------|--------|
 | 2026-09-26 | 初创（`v0.1.0`）：承接 `WRK-002-world-model-method-and-tools` 的真实需求，按用户确认的承接边界落盘本 VP（意图四项、方向级退出判据五项、阶段结构 R1→R4），落盘即 `active` 并绑定 `workspace-003-world-model-method-and-tools`。同轮追加 self Vision Review `VRev-006`。 |
+| 2026-10-04 | patch（v0.1.1）：记录实现路线 reframe，先吸收成熟知识再重规划方法路线，停止以自行推导机制模型基础理论为主的旧实现路线并保全历史。仅改变挂接工作区的实现安排；意图、方向级退出判据、R1→R2/R3→R4 方向结构、active 状态、vision_ref 与绑定均不变，不是 strategic 修订。实施决定见 [工作区 Root 决策](../../workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)；本记录不宣称理论适用或方法有效。 |

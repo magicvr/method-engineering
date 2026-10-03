@@ -1,14 +1,19 @@
 ---
 id: GOAL-002-r2-method-validation
 doc: audit
-status: active
+status: cancelled
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
-updated: 2026-10-01
-version: 0.1.17
+updated: 2026-10-04
+version: 0.1.18
 ---
 
 # 审计 · GOAL-002
+
+
+## 终止后的当前摘要（2026-10-04）
+
+本目标 cancelled + terminated-by-reframe，承接 [GOAL-003](../GOAL-003-prior-art-replanning/00-meta.md)，历史 0/4 保留。依据 [D-030](01-decision/D-030-terminate-old-route-by-reframe.md) 与 [历史清单](attachments/reframe-history-manifest-v1.md)。H3-SEM-001 required/open 不闭合，旧 H3 冻结/运行禁止；未来复用须重检全部旧门禁。以下旧“当前/门禁/下一步”正文保留历史语境，非现行授权。
 
 ## 信息就绪核对
 
@@ -41,6 +46,8 @@ version: 0.1.17
 | A-016 | 2026-10-01 | self | H2 逐次预登记草稿结构、候选规则与门禁 | pass | 0 | [A-016](03-audit/A-016-review-h2-preregistration-draft.md) |
 | A-017 | 2026-10-01 | self | D-029 澄清轮数上限、计数口径及门禁同步 | pass | 0 | [A-017](03-audit/A-017-review-h2-clarification-cap.md) |
 | A-018 | 2026-10-01 | self | H1 四格预登记草稿与 D-022/D-023 候选边界 | pass | 0 | [A-018](03-audit/A-018-review-h1-preregistration-draft.md) |
+| A-019 | 2026-10-01 | self | H3 预登记草稿结构与边界（补登记，不改原文） | conditional | 0 新增；H3-SEM-001 仍 open | [A-019](03-audit/A-019-review-h3-preregistration-draft.md) |
+| A-020 | 2026-10-04 | self | 终止状态、历史保全、门禁隔离、对齐 | pass | 0 新增；H3-SEM-001 仍 open | [A-020](03-audit/A-020-review-route-termination-and-preservation.md) |
 
 ## 结论状态
 

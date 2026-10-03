@@ -4,11 +4,16 @@ doc: execution
 status: active
 parent: null
 created: 2026-09-26
-updated: 2026-10-01
-version: 0.36.0
+updated: 2026-10-04
+version: 0.36.1
 ---
 
 # 执行记录 · GOAL-001
+
+
+## 当前摘要（2026-10-04）
+
+现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1 完成，R2-PA 启动，R2-W/R3/R4 未完成；五等权检查点仅 1/5（20%）。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；新 GOAL-003 active、PA1 盘点启动，0/5。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
 
 ## 执行索引
 
@@ -50,8 +55,9 @@ version: 0.36.0
 | E-034 | 2026-09-30 | 完成 R1 检查点并进入承诺内响应 | recorded | [E-034](02-execution/E-034-complete-r1-and-start-response.md) |
 | E-035 | 2026-10-01 | 建立 R2 子目标并启动 R2a 准备 | recorded | [E-035](02-execution/E-035-start-r2a-preparation.md) |
 | E-036 | 2026-10-01 | 记录“世界有多大”的 R2d 黑箱探针裁决 | recorded | [E-036](02-execution/E-036-record-r2d-full-method-probe-decision.md) |
+| E-037 | 2026-10-04 | 落盘实现路线 reframe | recorded | [E-037](02-execution/E-037-apply-implementation-reframe.md) |
 
-## 当前事实边界
+## 历史事实边界（reframe 前）
 
 R1 协议 v0.6.4 已依 D-017 冻结，并经 A-004 independent/pass 复核；下游已在 WorldModel.ModernCultivation@2985080414ca57acda3ee19f3a592efef9676fa3 的 E-013 精确同步（本仓 E-033）。D-018 / E-034 / A-005 完成 R1 检查点，I-001/I-003 verified，Root active、25%（1/4）；WRK-002 唯一运行主记录经 EV-003 转为「响应中」。2026-10-01 按用户选择创建 GOAL-002，R2 进入 R2a 准备；R3/R4 未开始，I-002/I-004/I-005/I-006 仍 open。D-015 / E-029 的阶段分配继续适用。v0.6.3 保留历史，旧候选状态不改；A-002 四项 required findings 已由 A-003 按 fixed 闭合。
 

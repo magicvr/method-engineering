@@ -1,14 +1,19 @@
 ---
 id: GOAL-002-r2-method-validation
 doc: decision
-status: active
+status: cancelled
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
-updated: 2026-10-01
-version: 0.1.34
+updated: 2026-10-04
+version: 0.1.35
 ---
 
 # 决策记录 · GOAL-002
+
+
+## 终止后的当前摘要（2026-10-04）
+
+本目标 cancelled + terminated-by-reframe，承接 [GOAL-003](../GOAL-003-prior-art-replanning/00-meta.md)，历史 0/4 保留。依据 [D-030](01-decision/D-030-terminate-old-route-by-reframe.md) 与 [历史清单](attachments/reframe-history-manifest-v1.md)。H3-SEM-001 required/open 不闭合，旧 H3 冻结/运行禁止；未来复用须重检全部旧门禁。以下旧“当前/门禁/下一步”正文保留历史语境，非现行授权。
 
 ## 阶段计划索引
 
@@ -74,3 +79,5 @@ version: 0.1.34
 | D-027 | 2026-10-01 | 接受 H2 四标签候选边界 | accepted（候选规则，未冻结） | [D-027](01-decision/D-027-accept-h2-four-label-candidate-boundaries.md) |
 | D-028 | 2026-10-01 | 接受 H2 逐格定性严重度记录候选 | accepted（候选形式，未冻结） | [D-028](01-decision/D-028-accept-h2-qualitative-severity-candidate.md) |
 | D-029 | 2026-10-01 | 设定 H2 每路径澄清轮数上限 | accepted（候选上限，未冻结） | [D-029](01-decision/D-029-set-h2-clarification-exchange-cap.md) |
+
+| D-030 | 2026-10-04 | 按 reframe 终止旧路线 | accepted | [D-030](01-decision/D-030-terminate-old-route-by-reframe.md) |
