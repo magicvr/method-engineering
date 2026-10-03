@@ -4,13 +4,15 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.1
+version: 0.1.2
 record_id: E-002
 ---
 
 # E-002 · 完成 S1 基线与 S2 约束迁移
 
-checkpoint commit：cd24d516fb4474b926f128eb2fc69af162164d50。
+checkpoint commit：cd24d518a6ba7e58384a0675d68d012ccd611859。
+
+F-003 更正：独立审查发现首次登记的完整提交号有误；2026-10-04 已改为实际对象 `cd24d518a6ba7e58384a0675d68d012ccd611859`。
 
 ## 实际动作
 

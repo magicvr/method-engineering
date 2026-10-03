@@ -4,7 +4,7 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.1
+version: 0.1.2
 record_id: E-001
 ---
 
@@ -23,7 +23,7 @@ record_id: E-001
 - 当前工作树文件 SHA-256：`F8B3E49C030AD9E1E1022F78D791D03E24DB66685EC9005F83B7BC96FD5AF4B9`。
 - 固定结论：提交级 blob 与本地提取所用的当前文件一致；后续 §10/§13 原文可追溯到 `7324bdf`。该事实只固定来源版本，不评价需求或理论。
 
-checkpoint commit：6ddcc8273d5ea6e49a843b350f7c4575f35111c。该提交包含 GOAL-004 建目标时的五件套与需求固定事实；后续 S1/S2 记录另以后续提交追踪。
+checkpoint commit：`a6ddcc8273d5ea6e49a843b350f7c4575f35111c`。该提交包含 GOAL-004 建目标时的五件套与需求固定事实；后续 S1/S2 记录另以后续提交追踪。
 
 ## 当前边界
 

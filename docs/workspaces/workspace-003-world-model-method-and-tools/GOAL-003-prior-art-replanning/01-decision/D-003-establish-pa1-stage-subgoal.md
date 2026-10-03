@@ -4,7 +4,7 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-001-world-model-method-and-tools
-version: 0.1.0
+version: 0.1.1
 record_id: D-003
 decision_status: accepted
 ---
@@ -13,7 +13,7 @@ decision_status: accepted
 
 ## 决定
 
-按 P-001 渐进拆分原则，建立 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 作为本目标的第一个阶段子目标，只承载 PA1：需求/H 基线固定、约束迁移矩阵、五类来源/访问方案、资源与停止规则，以及 Root I-007 的阶段退出证据。
+按 P-001 渐进拆分原则，建立 [GOAL-004-pa1-baseline-and-source-plan](../../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 作为本目标的第一个阶段子目标，只承载 PA1：需求/H 基线固定、约束迁移矩阵、五类来源/访问方案、资源与停止规则，以及 Root I-007 的阶段退出证据。
 
 ## 理由
 

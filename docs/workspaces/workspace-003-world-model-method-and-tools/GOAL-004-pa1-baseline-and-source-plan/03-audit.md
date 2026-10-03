@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.1
+version: 0.1.3
 ---
 
 # 审计记录 · GOAL-004
@@ -23,8 +23,9 @@ version: 0.1.1
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| — | — | — | PA1 尚未到退出审计 | — | 0 | — |
+| A-001 | 2026-10-04 | independent | S1/S2 中间产物、S3/S4 裁决包 | fail（REJECT 保留） | 0；F-001/F-002/F-003 fixed | [A-001](03-audit/A-001-independent-pa1-readiness-review.md) |
+| A-002 | 2026-10-04 | independent | 仅 F-001/F-002/F-003 fixed 闭合核验 | pass（closure ACCEPT） | 0 | [A-002](03-audit/A-002-independent-closure-verification.md) |
 
 ## 结论状态
 
-S1/S2 已有可核对产物，但尚未阶段审计。S3/S4 受到 P-004 用户裁决约束；用户答复并更新证据后再提交独立阶段审计。
+S1/S2 已有可核对产物。A-001 independent 原始 fail/REJECT 保留；F-001/F-002/F-003 经 A-002 independent closure verification 确认 fixed，当前相关开放 required 为 0。该闭合不关闭 I-007、不冻结 S3、不退出 PA1、不放行 PA2；J-01～J-03 仍待用户裁决。

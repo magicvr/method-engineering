@@ -4,7 +4,7 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 ---
 
 # PA1 冻结基线与来源快照 v0.1
@@ -21,7 +21,7 @@ version: 0.1.0
 | 执行主体澄清第 2 版 | `WorldModel.ModernCultivation@e9054c958fa7e0b54e1ba9e272a7f8584dbd9352:exchange/WRK-002-world-model-method-and-tools/需求澄清-2026-09-26-构建主体.md` | Git blob `12c55abde59dc0bd70b6271cca61eb39650196f6`；R1 v0.6.2/v0.6.3 已写明该提交定位 | 创作者主责、AI 可协助但不得代劳的边界 |
 | R1 冻结协议 | `docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md` | 本仓 Git blob `35a617cfaf3cc5105a6ebcc8267b66045d93a3d9`；SHA-256 `DCE5C865B1BDEA8B98681F89241E9FC53A355987DA409E9667632643FA4B9A81` | 约束迁移矩阵的权威正文 |
 | 旧 H1/H2/H3 原文快照 | `docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/pre-reframe-root-baseline-v1.md` | 本仓 Git blob `36931f17e7c2b733d39cb6b3d68e12a871d820ae`；SHA-256 `E8093A9D2082F8728CF9E10C1F1F7CB089CFA87C2B71DB58C342B1F699610A85` | 只作旧局部主张的历史基线，不作有效性证据 |
-| §10/§13 与 H1/H2/H3 提取 | `GOAL-003-prior-art-replanning/attachments/requirements-and-hypotheses-mapping-v0.1.md` | 本仓 Git blob `f24444648ec782974b47258f8d3c30619b26740b`；SHA-256 `A9A2D015ABE6A8B871AEE8C0781A5945E640F23E17369DB81022B24F7CE49C89` | 供 PA3 逐项映射的原文输入，现有 mapping skeleton 不是结论 |
+| §10/§13 与 H1/H2/H3 提取 | `GOAL-003-prior-art-replanning/attachments/requirements-and-hypotheses-mapping-v0.1.md` | 本仓 Git blob `f24444648ec782974b47258f8d3c30619b26740b`；SHA-256 `A9A2D015ABE6A8B871AEE8C0781A5945E640F23E17369DB81022B24F7EE49C89` | 供 PA3 逐项映射的原文输入，现有 mapping skeleton 不是结论 |
 | 首批来源识别事实 | [GOAL-003 E-002](../../GOAL-003-prior-art-replanning/02-execution/E-002-first-source-identification-slice.md) | PA-S01/02/03/05 书目已核实；PA-S04 未核实；ABM 摘要已读；无理论要素抽取 | S3 来源方案的输入事实 |
 
 ## 提取边界

@@ -4,7 +4,7 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: D-001
 decision_status: accepted
 ---
@@ -24,7 +24,7 @@ GOAL-003 有 PA1～PA5 纲领路线图，PA1 本身含多项独立证据和可�
 - S1 只固定需求/H 基线，不评价 H 假设有效性。
 - S2 只迁移约束和授权，不扩大调查范围。
 - S3 只提出来源与访问路径；闭源获取、付费或范围扩张若需选择，必须由用户书面裁决。
-- S4 只关闭 I-007 并审计 PA1 退出，不关闭 I-008～I-010，不完成 GOAL-003。
+- S4 只完成 I-007 证据与 PA1 退出审计；来源权限未知时仅可由用户明确接受有界残余，且不把残余写成 verified。S4 不关闭 I-008～I-010，不完成 GOAL-003。
 
 ## 被拒替代
 

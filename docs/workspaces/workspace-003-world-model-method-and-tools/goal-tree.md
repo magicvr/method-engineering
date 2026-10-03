@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.34.2
+version: 0.34.3
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -39,4 +39,4 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 | `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。VP-003 v0.1.1；信息权威在 meta。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
 | `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 0% | PA1 由 GOAL-004 承载；S1/S2 完成，S3 待用户裁决；Root I-007～I-010 open；无系统全文抽取/理论适用结论。 |
-| `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | active | 50% | S1/S2 完成，2/4；需求 `7324bdf` 与澄清 `e9054c9` 已固定；S3 来源与访问计划待用户裁决；I-007 open。 |
+| `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | active | 50% | S1/S2 完成，2/4；需求 `7324bdf` 与澄清 `e9054c9` 已固定；A-001 F-001/F-002/F-003 经 A-002 fixed；S3 来源与访问计划待用户裁决；I-007 open。 |
