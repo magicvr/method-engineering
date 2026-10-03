@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.1
+version: 0.2.0
 progress: 0%
 ---
 
@@ -13,7 +13,7 @@ progress: 0%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。已启动 PA1；4/5 书目元数据核实，ABM 公开摘要已读；System Dynamics 待核实；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5、I-007～I-010 open，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。已启动 PA1；4/5 书目元数据核实，ABM 公开摘要已读；System Dynamics 待核实；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5、I-007～I-010 open，阶段未完成。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
@@ -37,7 +37,7 @@ progress: 0%
 | PA4 | 缺口判定与吸收方案 | 未开始 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
 | PA5 | 后续路线冻结与交接 | 未开始 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |
 
-先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。
+先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。PA1 当前由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 承载；PA2 以后暂未建子目标。
 
 ## 派生进度展示
 

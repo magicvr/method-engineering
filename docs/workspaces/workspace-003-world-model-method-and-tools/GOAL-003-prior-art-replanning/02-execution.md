@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.2
+version: 0.1.3
 ---
 
 # 执行记录 · GOAL-003
@@ -15,7 +15,7 @@ version: 0.1.2
 | E-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | E-001 | 2026-10-04 | 建立后继目标并启动基线盘点 | recorded | [E-001](02-execution/E-001-establish-goal-and-start-baseline-inventory.md) |
-| E-002 | 2026-10-04 | 首批公开来源书目识别切片 | recorded | [E-002](02-execution/E-002-first-source-identification-slice.md) |
+| E-002 | 2026-10-04 | 首批公开来源书目识别切片 | recorded | [E-002](02-execution/E-002-first-source-identification-slice.md) |`n| E-003 | 2026-10-04 | 建立 GOAL-004 并移交 PA1 执行 | recorded | [E-003](02-execution/E-003-establish-goal-004-and-handoff-pa1.md) |
 
 ## 事实边界
 

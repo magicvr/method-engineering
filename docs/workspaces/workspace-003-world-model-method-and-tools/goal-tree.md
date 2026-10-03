@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.33.2
+version: 0.34.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -20,6 +20,7 @@ version: 0.33.2
 GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1 完成，R2-PA 启动 · progress 20%
 |-- GOAL-002-r2-method-validation [cancelled] 旧 R2 路线 · terminated-by-reframe · 历史 progress 0%（0/4）
 `-- GOAL-003-prior-art-replanning [active] 成熟理论调查、吸收与方法路线重规划 · PA1 启动 · progress 0%（0/5）
+    `-- GOAL-004-pa1-baseline-and-source-plan [active] PA1 · 基线与来源方案 · S1 进行中 · progress 0%（0/4）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点仅 R1 完成，1/5=20%；分母由旧 1/4 改为 1/5，不撤销 R1、不新增失败，PA 内阶段不计入 Root 分母，progress 不放行。
@@ -37,4 +38,5 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 |---|---|---|---|---|---|
 | `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。VP-003 v0.1.1；信息权威在 meta。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
-| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 0% | PA1 启动，0/5；Root I-007～I-010 引用；六份 draft；4/5 书目元数据核实、ABM 公开摘要已读，System Dynamics 待核实；无系统全文抽取/理论适用结论。 |
+| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 0% | PA1 启动，0/5；PA1 由 GOAL-004 承载；Root I-007～I-010 引用；六份 draft；4/5 书目元数据核实、ABM 公开摘要已读，System Dynamics 待核实；无系统全文抽取/理论适用结论。 |
+| `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | active | 0% | S1 进行中，0/4；需求提交 `7324bdf` blob 已与本地快照核对一致；I-007 open。 |
