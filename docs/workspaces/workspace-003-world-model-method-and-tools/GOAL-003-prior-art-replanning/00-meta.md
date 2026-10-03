@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.2.0
+version: 0.2.1
 progress: 0%
 ---
 
@@ -13,7 +13,7 @@ progress: 0%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。已启动 PA1；4/5 书目元数据核实，ABM 公开摘要已读；System Dynamics 待核实；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5、I-007～I-010 open，阶段未完成。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行，S1 基线与 S2 约束迁移已完成；S3 来源/访问方案待用户裁决，System Dynamics 代表来源和受限来源路径尚未冻结。4/5 书目元数据核实，ABM 公开摘要已读；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5、I-007～I-010 open，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 

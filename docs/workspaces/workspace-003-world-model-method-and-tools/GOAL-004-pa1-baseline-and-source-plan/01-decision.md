@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 决策记录 · GOAL-004
@@ -23,3 +23,4 @@ S1～S4 唯一路线表在 [meta](00-meta.md)。PA1 执行计划见 [D-001](01-d
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | D-001 | 2026-10-04 | PA1 范围与完成计划 | accepted | [D-001](01-decision/D-001-define-pa1-completion-plan.md) |
+| D-002 | 2026-10-04 | 约束迁移与调查授权边界 | accepted | [D-002](01-decision/D-002-constraint-migration-and-authorization-boundary.md) |

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 执行记录 · GOAL-004
@@ -15,6 +15,7 @@ version: 0.1.0
 | E-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | E-001 | 2026-10-04 | 建立 PA1 阶段子目标并固定需求快照 | recorded | [E-001](02-execution/E-001-establish-pa1-goal-and-fix-requirement-source.md) |
+| E-002 | 2026-10-04 | 完成 S1 基线与 S2 约束迁移 | recorded | [E-002](02-execution/E-002-complete-s1-baseline-and-s2-migration.md) |
 
 ## 事实边界
 
