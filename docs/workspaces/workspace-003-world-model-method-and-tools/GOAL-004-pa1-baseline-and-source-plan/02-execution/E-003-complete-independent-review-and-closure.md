@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-003
 ---
 
 # E-003 · 完成独立审查整改与闭合核验
+
+checkpoint commit：`d799100dd22dfdd33ea454c25b7a976702ef7c28`。
 
 2026-10-04，独立 REVIEWER 对 GOAL-004 S1/S2 与来源裁决包作出 [A-001](../03-audit/A-001-independent-pa1-readiness-review.md)，原始 verdict 为 fail/REJECT，提出 F-001 required、F-002/F-003 minor。
 
