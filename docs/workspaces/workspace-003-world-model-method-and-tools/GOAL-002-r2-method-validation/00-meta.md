@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.33
+version: 0.1.34
 progress: 0%
 ---
 
@@ -40,6 +40,8 @@ progress: 0%
 2026-10-01，用户依 [D-029](01-decision/D-029-set-h2-clarification-exchange-cap.md) 选择 H2 每条路径最多 2 次额外澄清 exchange、两路径各自计数不转移，并依 D-027 在到限后按现有证据分类。仅接受候选轮数上限与部分计数口径，正式预登记仍待补齐异常情形、角色/隔离、证据、人时及逐格判断；未冻结、未运行、无授权。
 
 2026-10-01，依据 D-022/D-023 建立 [H1 逐格预登记草稿](attachments/R2a-H1-preregistration-draft-v0.1.md)，整理候选四格输入/预测、局部标签及待填字段。创作者逐格裁定、责任/证据路径、人时/停点、最终核验和冻结仍待完成；R2a 未结束。
+
+2026-10-01，依据 D-004～D-021 建立 [H3 冷启动预登记草稿](attachments/R2a-H3-preregistration-draft-v0.1.md)，整理两条候选链、读数、矩阵及模型/集合判据；准确输入、创作者裁定、责任/隔离、人时/证据/停点仍待填。维护者已接触评估参考，尚无可声明盲测的执行安排。`H3-SEM-001` 保持 `required / OPEN`；草稿不冻结、不运行，R2a 未完成。
 
 ## 成功标准
 

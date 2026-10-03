@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-01
 updated: 2026-10-01
-version: 0.1.33
+version: 0.1.34
 ---
 
 # 决策记录 · GOAL-002
@@ -20,7 +20,7 @@ version: 0.1.33
 | R2a H1 候选输入 | [D-022](01-decision/D-022-accept-h1-candidate-inputs-and-predictions.md) | 用户接受问题、M1/M2、唯一初始存量变化及四格算术预测为候选；局部主张与判据另依 D-023 接受为候选。独立草稿见 [H1 预登记稿](attachments/R2a-H1-preregistration-draft-v0.1.md)，责任、证据、创作者裁定与正式冻结仍待完成。 |
 | R2a H1 局部裁决 | [D-023](01-decision/D-023-accept-h1-local-claim-and-judgment-rules.md) | 用户接受四格主张、四标签局部判据与逐格定性严重度口径为候选；证据字段、执行责任与正式冻结仍待完成。 |
 | R2a H3 路线 | [D-004](01-decision/D-004-select-h3-form-first-model-set-from-zero.md) | 已选从零形成实际首版模型并在参考揭示前冻结产物；两条初评组合已依 D-013 选择，最低启动/映射规则依 D-015 已定，C-03 两条链适用性候选依 D-016 已选；准确输入、其余矩阵单元、剩余判据及执行安排待补，H3-SEM-001 仍 OPEN。 |
-| R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；依 D-007～D-016 已确定核心能力、标签优先级、最低启动能力、C-03 两链候选适用性及映射/遗漏规则。 |
+| R2a H3 产物与判定基础 | [D-005](01-decision/D-005-define-h3-text-model-and-checklist-basis.md) | 最低产物类型为可审查纯文本机制模型条目；分析手段按证据需要选择；依 D-007～D-016 已确定核心能力、标签优先级、最低启动能力、C-03 两链候选适用性及映射/遗漏规则。汇总草稿见 [H3 预登记稿](attachments/R2a-H3-preregistration-draft-v0.1.md)；仍待 H3-SEM-001、准确输入、创作者裁定及执行字段闭合。 |
 | R2a H3 条目字段 | [D-006](01-decision/D-006-accept-r1-model-entry-fields-for-h3.md) | 接受冻结 R1 §2 的 12 类信息均为可审查纯文本条目的最低内容；能力覆盖与跨链聚合仍待裁定。 |
 | R2a H3 核心能力与标签边界 | [D-007](01-decision/D-007-set-h3-core-capability-boundaries.md) | C-02～C-04 为核心能力，C-01 为输入/范围前提；核心缺项 partial、核心矛盾或错述 C-01 refuted、无法可靠评估 insufficient；集合级细则见 D-008～D-011。 |
 | R2a H3 跨链汇总单位 | [D-008](01-decision/D-008-aggregate-h3-at-model-set-level.md) | 最终标签针对所选链共同形成的冻结模型集合；逐链映射保留，单链未触及不自动判失败；中间 `explicit-gap` 得到最终集合补足时不自动降级（D-009）。 |
