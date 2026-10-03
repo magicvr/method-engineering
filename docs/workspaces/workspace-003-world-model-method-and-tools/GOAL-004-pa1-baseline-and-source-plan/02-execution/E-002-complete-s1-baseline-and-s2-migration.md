@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-002
 ---
 
 # E-002 · 完成 S1 基线与 S2 约束迁移
+
+checkpoint commit：cd24d516fb4474b926f128eb2fc69af162164d50。
 
 ## 实际动作
 

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.1
+version: 0.1.2
 progress: 50%
 ---
 

@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.34.1
+version: 0.34.2
 ---
 
 # 目标树 · 世界模型方法与工具
