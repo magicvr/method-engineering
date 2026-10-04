@@ -5,13 +5,15 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.6.2
+version: 0.6.3
 ---
 
 # 审计记录 · GOAL-001
 
 
 ## 当前摘要（2026-10-04）
+
+2026-10-04 追加 [A-008](03-audit/A-008-r1-successor-capability-commitment-review.md)（independent / conditional）：继任能力承诺草案尚不能冻结。下段关于「1/5（20%）、R2-W/R3/R4 未完成」是 reframe 落盘时的摘要，A-008 不改写该段，也不以该段作为路线或 progress 权威；现行路线与进度以 [00-meta.md](00-meta.md) 和 [goal-tree.md](../goal-tree.md) 为准。
 
 现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1 完成，R2-PA 启动，R2-W/R3/R4 未完成；五等权检查点仅 1/5（20%）。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；新 GOAL-003 active、PA1 盘点启动，0/5。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。[A-007](03-audit/A-007-independent-reframe-review.md) independent/pass（ACCEPT），无 findings；其 Unable 为无法完整重建 reframe 前所有 untracked 状态，不验证理论适用性。GOAL-003 A-002 原始 fail 保留，F-001/F-002 经授权记录与当前摘要纠正 fixed，开放 required 0 不等于信息门禁满足。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
 
@@ -27,6 +29,7 @@ version: 0.6.2
 | A-006 | 2026-10-04 | self | 历史保全、合法状态、门禁隔离、愿景对齐 | pass | [A-006](03-audit/A-006-review-implementation-reframe.md) |
 
 | A-007 | 2026-10-04 | independent | reframe 历史保全、cancelled、门禁隔离、20% 路线、VP patch、self verdict 边界 | pass | [A-007](03-audit/A-007-independent-reframe-review.md) |
+| A-008 | 2026-10-04 | independent | 继任 R1 能力边界承诺草案 v0.1 可否冻结为验收承诺 | conditional | [A-008](03-audit/A-008-r1-successor-capability-commitment-review.md) |
 
 ## 使用约定
 
