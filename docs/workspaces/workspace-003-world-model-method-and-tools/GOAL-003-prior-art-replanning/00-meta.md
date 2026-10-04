@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.5.0
+version: 0.5.1
 progress: 60%
 ---
 
@@ -34,14 +34,14 @@ progress: 60%
 | PA1 | 基线与来源方案 | 已完成 | S1～S4 完成；Root I-007 为 accepted-residual；A-003 independent pass；用户 2026-10-04 确认关门。 |
 | PA2 | 理论要素抽取 | 已完成 | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
 | PA3 | 需求/旧假设映射与四类处置 | 已完成 | 逐项映射 §10/§13 和 H1/H2/H3，明确适用依据、差异与四类处置；Root I-008/I-009 满足。 |
-| PA4 | 缺口判定与吸收方案 | 未开始 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
+| PA4 | 缺口判定与吸收方案 | 进行中 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
 | PA5 | 后续路线冻结与交接 | 未开始 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |
 
-先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。PA1 已由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成；PA2 已由 [GOAL-005](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 完成；PA3 由 [GOAL-006-pa3-requirement-mapping](../GOAL-006-pa3-requirement-mapping/00-meta.md) 承载；PA4 以后暂未建子目标。
+先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。PA1 已由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成；PA2 已由 [GOAL-005](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 完成；PA3 已由 [GOAL-006-pa3-requirement-mapping](../GOAL-006-pa3-requirement-mapping/00-meta.md) 完成；PA4 由 [GOAL-007-pa4-gap-and-absorption](../GOAL-007-pa4-gap-and-absorption/00-meta.md) 承载；PA5 暂未建子目标。
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点中 PA1/PA2/PA3 已完成，3/5=60%；A-002 independent pass，用户确认 PA3 关门；关键 unresolved 转入 PA4 输入。PA3 不关闭 I-010；I-008 保持 accepted-residual，I-009 已 verified（限定映射覆盖与处置依据）。
+PA1～PA5 五个等权检查点中 PA1/PA2/PA3 已完成，3/5=60%；PA4 已启动但未完成。关键 unresolved 作为 PA4 输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 待 PA4/PA5 证据。
 
 ## 信息门禁引用（非第二台账）
 

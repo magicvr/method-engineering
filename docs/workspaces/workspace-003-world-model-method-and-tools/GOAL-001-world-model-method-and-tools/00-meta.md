@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.37.7
+version: 0.37.8
 progress: 20%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -41,7 +41,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | 阶段 | 名称 | 状态 | 退出条件 |
 |---|---|---|---|
 | R1 | 已冻结需求与治理基线 | 已完成 | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。 |
-| R2-PA | 成熟理论吸收与选路 | 进行中 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1/PA2/PA3 已完成并经用户确认关门；PA4/PA5 尚未完成。I-007/I-008 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据），I-010 open。 |
+| R2-PA | 成熟理论吸收与选路 | 进行中 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1/PA2/PA3 已完成并经用户确认关门；PA4 已由 GOAL-007 启动，PA5 尚未完成。I-007/I-008 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据），I-010 open。 |
 | R2-W | 方法工作版形成与内部核对 | 未开始 | 按 PA5 冻结路线形成版本化方法，覆盖需求 §10/§13 与 R1 两项可手填结构；逐项标流程、证据范围、未验证及下一责任，内部核对限制与追溯。 |
 | R3 | 工具分支评估与落实 | 未开始 | 依据现行方法人工过程/既有实践证据关闭 I-006；支持则接口稳定后形成最小 Skill，不足则写本轮 no-tool、理由、证据范围、责任与复评触发；不得以工具代替方法有效性。 |
 | R4 | 最终有界检验、交付与验收 | 未开始 | I-002 最终用例及授权就绪，I-004 独立审计模式/provider 及所需意见满足；最终版端到端有界检验、交付、实际收件、验收/异议迭代、反馈路由与运行主记录终态分别留证。 |
@@ -94,7 +94,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |---|---|---|---|---|---|---|---|
 | I-005 | required | H1/H2/H3 在旧冻结范围内是否足以支持方法选路，哪些有证据/需替代/不足 | 旧 R2c 选路前、旧 R2d 形成前 | 旧预登记下有界试验与四标签证据选路 | open | 旧 R2c/R2d 撤回当前执行范围，不是 verified 或 finding 闭合；未来复用旧路线前由响应负责人复核旧门禁 | [旧基线](attachments/pre-reframe-root-baseline-v1.md)、[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)；无试验/有效性证据，H3-SEM-001 required/open 仍阻断 H3 冻结/运行 |
 
-**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-002/I-004/I-006/I-010 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1/PA2/PA3 已完成并经用户确认关门；PA4 未开始。只有 R1 完成。本轮不改变运行记录或下游状态。
+**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-002/I-004/I-006/I-010 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1/PA2/PA3 已完成并经用户确认关门；PA4 进行中。只有 R1 完成。本轮不改变运行记录或下游状态。
 
 ## 父目标
 
