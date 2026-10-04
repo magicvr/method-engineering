@@ -4,11 +4,13 @@ status: done
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-005
 ---
 
 # E-005 · 用户确认 PA2 关门
+
+checkpoint commit：`91e56a5`。
 
 2026-10-04，用户对“将 GOAL-005 置 done/100%、完成 GOAL-003 PA2 并同步 goal-tree”的提议回复“确认”。
 
