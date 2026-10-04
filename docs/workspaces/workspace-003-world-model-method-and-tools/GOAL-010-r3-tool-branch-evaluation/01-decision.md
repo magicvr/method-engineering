@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 决策记录 · GOAL-010
@@ -22,4 +22,4 @@ S1～S4 唯一路线表在 [meta](00-meta.md)。阶段方案在 S1/S2 证据与�
 
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
-| — | — | 尚未形成 R3 决策 | — | — |
+| D-001 | 2026-10-04 | R3 工具分支决定建议 | proposed（待用户裁决） | [D-001](01-decision/D-001-r3-branch-decision-proposal.md) |
