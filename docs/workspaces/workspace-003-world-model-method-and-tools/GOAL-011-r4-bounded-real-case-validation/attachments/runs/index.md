@@ -13,6 +13,6 @@ version: 0.1.0
 
 | Run | 类型 | 状态（派生） | 权威记录 |
 |---|---|---|---|
-| RUN-001-raw-case | bounded-real-case-trial | prepared | [controller/run.yaml](RUN-001-raw-case/controller/run.yaml) |
+| RUN-001-raw-case | bounded-real-case-trial | awaiting-input | [controller/run.yaml](RUN-001-raw-case/controller/run.yaml) |
 
 登记日期：2026-10-04。运行、访问核验与验收均未执行，validity pending / acceptance not-submitted。

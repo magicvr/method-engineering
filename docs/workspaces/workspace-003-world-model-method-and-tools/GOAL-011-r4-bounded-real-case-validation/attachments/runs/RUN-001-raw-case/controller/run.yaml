@@ -6,14 +6,14 @@ baseline_commit: e5b6cc7
 baseline_full_commit: e5b6cc775c6c3d8d2d0567ed0747b14bd4f17746
 input_sha256: 6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42
 method_bundle_sha256: 7e768fb02b436d7c9094d52137d1efb52d7ecfbe0f92df63f38151762e3b3ed1
-status: prepared
-validity: pending
+status: awaiting-input
+validity: pending（no successful forbidden read observed; anomalies recorded）
 acceptance: not-submitted
 created: 2026-10-04
-executor: null
-execution_context: pending
-started_at: null
-ended_at: null
+executor: RUN-001 actual worker (gpt-6.1-sol)
+execution_context: fresh spawn_agent context; no fork history
+started_at: 2026-10-04T17:39:13+08:00
+ended_at: 2026-10-04T17:39:37+08:00
 method_result: pending
 stop: pending
 access_verification: pending
