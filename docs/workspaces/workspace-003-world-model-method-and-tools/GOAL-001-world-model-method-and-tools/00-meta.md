@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.40.1
+version: 0.40.3
 progress: 80%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -44,7 +44,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | R2-PA | 成熟理论吸收与选路 | 已完成 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线与交接包已冻结。I-007/I-008/I-010 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据）。 |
 | R2-W | 方法工作版形成与内部核对 | 已完成 | GOAL-009 已形成版本化方法并覆盖 §10/§13；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
 | R3 | 工具分支评估与落实 | 已完成 | GOAL-010 no-tool 分支、no-tool 记录与独立闭合复审已完成；I-006 为限定 accepted-residual（非 verified）；用户确认关门。 |
-| R4 | 最终有界检验、交付与验收 | 进行中（准备） | GOAL-011 已建立；正式用例原始输入“修真具体怎么修”直接输入，方法构建方不预拆题；I-002 case/authorization 已记录，I-004 外部审计模式已定但意见待产出；交付/收件/验收与最终版适配按 S1～S5 推进。 |
+| R4 | 最终有界检验、交付与验收 | 进行中（准备） | GOAL-011 S1 已完成：正式用例原文直接输入；本仓验收仅指试运行结果，方法/no-tool 记录仍须交付下游；外部审计模式与 run-protocol-v0.1 已登记；S2 待最终版适配。 |
 
 先后为 R1→R2-PA→R2-W→R4；R3 可并行评估，工具实现等接口稳定，R2-W/R3 同时就绪才进入 R4。
 
@@ -79,7 +79,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | ID | 级别 | 所需信息 / 问题 | 影响门禁 | 最晚需要阶段 | 验证 / 收集动作 | 状态 | 延期 / 复核 | 证据 / 结论 |
 |---|---|---|---|---|---|---|---|---|
 | I-001 | required | 已冻结需求、用途/退出契约、输入授权规则、证据类型、总体限额、停止/变更与责任 | R1 退出；现行路线约束迁移 | R1 已完成；新增执行前由 I-007 复核适用性 | 沿用冻结协议；区分通用约束与旧 H 专属额度 | verified | 非延期；责任人：方法工程响应负责人；超出旧授权触发 I-007，不撤销 R1 | [v0.6.4](attachments/R1-freeze-proposal-v0.6.4.md)、D-017/E-032/A-004、D-018/E-033/E-034/A-005；仅证明协议冻结与同步 |
-| I-002 | required | 最终真实世界问题、用途范围、授权及最终版适配；任何现行路线真实案例使用也需核对 | 任何真实案例使用；R4 检验 | 使用真实案例前；R4 前复核 | 同一维护人书面选定案例/用途/授权；核对最终版适配并留痕 | verified（case/authorization；final-version 适配在 R4 S2 核对） | 责任人：同一维护人；用户 2026-10-04 指定正式 R4 用例“修真具体怎么修”原文直接输入，方法构建方不得预拆题；S2 仍须核对最终版适配并留痕 | [D-025](01-decision/D-025-select-r4-real-case.md)、[E-041](02-execution/E-041-create-r4-goal.md)：正式 R4 原始输入与授权；不作方法有效性结论 |
+| I-002 | required | 最终真实世界问题、用途范围、授权及最终版适配；任何现行路线真实案例使用也需核对 | 任何真实案例使用；R4 检验 | 使用真实案例前；R4 前复核 | 同一维护人书面选定案例/用途/授权；核对最终版适配并留痕 | verified（case/authorization；final-version 适配在 R4 S2 核对） | 责任人：同一维护人；用户 2026-10-04 指定正式 R4 用例“修真具体怎么修”原文直接输入，方法构建方不得预拆题；本仓试运行结果验收；方法工作版/no-tool 记录仍须交付下游；S2 仍须核对最终版适配并留痕 | [D-025](01-decision/D-025-select-r4-real-case.md)、[E-041](02-execution/E-041-create-r4-goal.md)、[GOAL-011 D-003](../GOAL-011-r4-bounded-real-case-validation/01-decision/D-003-dual-acceptance-layers.md)：正式 R4 原始输入、授权与本仓验收；不作方法有效性结论 |
 | I-003 | required | 条件工具策略：最小职责/权限、触发时点、责任与支持/不足两分支 | R1 退出；R3 策略依据 | R1 已完成 | 沿用 D-009、v0.6.4 §5；现行人工过程价值由 I-006 核对 | verified | 非延期；策略沿用，不要求先实现或安装 Skill | D-009/E-018、D-017/E-032/A-004、D-018/E-033/E-034/A-005；不证明工具化价值 |
 | I-004 | required | R4 高影响交付门禁的独立审计模式与 provider | R4 交付放行 | R4 交付前 | 用户指定 provider，取得覆盖交付范围的可核对独立意见并处理必改项 | open（provider/mode selected；external audit output pending） | 责任人：维护者；用户 2026-10-04 指定正式交叉审计由维护者在工作流外调用外部工具执行，AI 助手不得代调用或冒充 independent；交付前取得并处理意见 | [D-025](01-decision/D-025-select-r4-real-case.md)：外部审计模式已定，实际意见待产出 |
 | I-006 | required | 依据现行方法路线人工过程/既有实践，是否值得工具化及如何落实：重复步骤、人工成本、收益、维护负担 | R3 分支决定与退出 | R3 退出前 | 收集现行人工过程或既有实践证据，作支持/不足或不成立分支决定；稳定接口后落实 Skill，或 no-tool 理由、责任与复评触发 | accepted-residual（非 verified） | 责任人：同一维护人；用户 2026-10-04 按 GOAL-010 D-001 接受：仅允许 GOAL-010 S2～S4 分支冻结/R3 退出，不解除 I-002/I-004、真实案例、工具实现/安装、下游写入、外部模型、自动验证或 R4 交付；复评触发：获得任务级成本/重复/遗漏证据、需求或步骤实质变化、有依据的工具候选、R4 方案冻结前 | [D-001](../GOAL-010-r3-tool-branch-evaluation/01-decision/D-001-r3-branch-decision-proposal.md)、[E-003](../GOAL-010-r3-tool-branch-evaluation/02-execution/E-003-accept-i006-residual.md)：证据不足下 no-tool；未知仍为非 verified |
@@ -94,7 +94,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |---|---|---|---|---|---|---|---|
 | I-005 | required | H1/H2/H3 在旧冻结范围内是否足以支持方法选路，哪些有证据/需替代/不足 | 旧 R2c 选路前、旧 R2d 形成前 | 旧预登记下有界试验与四标签证据选路 | open | 旧 R2c/R2d 撤回当前执行范围，不是 verified 或 finding 闭合；未来复用旧路线前由响应负责人复核旧门禁 | [旧基线](attachments/pre-reframe-root-baseline-v1.md)、[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)；无试验/有效性证据，H3-SEM-001 required/open 仍阻断 H3 冻结/运行 |
 
-**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002 verified（case/authorization；final-version 适配在 R4 S2 核对）；I-004 open（provider/mode selected；external audit output pending）；I-006 accepted-residual（非 verified，仅限 GOAL-010 S2～S4/R3 退出）；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成。R4 未启动，I-002/I-004 仍 open。本轮不改变运行记录或下游状态。
+**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002 verified（case/authorization；final-version 适配在 R4 S2 核对）；I-004 open（provider/mode selected；external audit output pending）；I-006 accepted-residual（非 verified，仅限 GOAL-010 S2～S4/R3 退出）；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成。R4 进入准备；I-002 verified（case/authorization；试运行本仓验收、方法/no-tool 下游交付仍待）；I-004 open（provider/mode selected；external audit output pending）。本轮不改变运行记录或下游状态。
 
 ## 父目标
 

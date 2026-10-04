@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.1
+version: 0.1.2
 ---
 
 # 决策记录 · GOAL-011
@@ -23,3 +23,5 @@ Root I-002 已记录正式用例/授权；Root I-004 已记录外部 provider �
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | D-001 | 2026-10-04 | R4 原始输入与外部审计模式 | accepted | [D-001](01-decision/D-001-r4-raw-case-and-audit-mode.md) |
+| D-002 | 2026-10-04 | 多轮运行记录与程序性非读取协议 | accepted | [D-002](01-decision/D-002-run-storage-and-nonread-protocol.md) |
+| D-003 | 2026-10-04 | R4 双验收层：本仓试运行与下游交付 | accepted | [D-003](01-decision/D-003-dual-acceptance-layers.md) |
