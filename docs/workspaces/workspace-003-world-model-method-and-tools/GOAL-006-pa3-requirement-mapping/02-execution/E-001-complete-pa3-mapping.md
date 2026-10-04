@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-001
 ---
 
 # E-001 · 完成 PA3 映射矩阵
+
+checkpoint commit：`598a278`。
 
 2026-10-04，按 D-001 和 ARCHITECT 候选映射，完成 §10-1～§10-5、§13-1～§13-10 与 H1/H2/H3 局部主张的映射：
 
