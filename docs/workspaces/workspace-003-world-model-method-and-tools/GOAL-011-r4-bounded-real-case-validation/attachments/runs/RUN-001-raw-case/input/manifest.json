@@ -1,0 +1,65 @@
+{
+  "run_id": "RUN-001-raw-case",
+  "protocol_version": "0.1.0",
+  "encoding": "UTF-8",
+  "raw_input": {
+    "path": "input/raw-input.txt",
+    "sha256": "6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42",
+    "bom": false,
+    "trailing_newline": false
+  },
+  "method_bundle_sha256": "7e768fb02b436d7c9094d52137d1efb52d7ecfbe0f92df63f38151762e3b3ed1",
+  "files": [
+    {
+      "path": "input/method/capability-gap-checklist.md",
+      "sha256": "7996c61bf50be3af0fde07ab6c1489a9022cc2179f521be42b20445e9e00986b",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/method-structure.md",
+      "sha256": "60463ad560b5cb44aa3c620c477009ff28aa53651d4fa534e5f8ba969066f347",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/method-working-version.md",
+      "sha256": "63ac77aaf0292eaf127973466194ba0e8ef6e0aa02b21af602775b4a0994216f",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/model-entry-structure.md",
+      "sha256": "23eaf0af45c76577b23fc9cc039042da58c39ea7b2e17edb06cb698d2b51dff9",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/requirements-coverage.md",
+      "sha256": "9ffeff4bdb168e1bc42f5ae55eb06f590428dd652116ac0ff69e4b38b8e5375e",
+      "read_allowed": true
+    },
+    {
+      "path": "input/packet.md",
+      "sha256": "76d0da04eabc331c78f02b9f00a8c1b515af0196feca15910530b8a945298b36",
+      "read_allowed": true
+    },
+    {
+      "path": "input/raw-input.txt",
+      "sha256": "6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42",
+      "read_allowed": true
+    },
+    {
+      "path": "input/runtime-authorization.md",
+      "sha256": "c44c7a5f7e702c650976d3ac4eb5f0ac704a13f5e60c15d5b38f79b841295a38",
+      "read_allowed": true
+    }
+  ],
+  "self": {
+    "path": "input/manifest.json",
+    "read_allowed": true,
+    "hash_location": "controller/provenance.yaml (controller-only; no worker read)"
+  },
+  "interactions": {
+    "published": [],
+    "pattern": "input/interactions/U-*.txt",
+    "publisher": "controller only; actual real-user responses"
+  },
+  "notes": ".gitkeep is not an input. Published inputs frozen; later interactions separate; no blanket input read authorization."
+}

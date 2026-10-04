@@ -1,0 +1,127 @@
+{
+  "status": "prepared",
+  "runtime_verification": "pending",
+  "baseline_commit": "e5b6cc7",
+  "baseline_full_commit": "e5b6cc775c6c3d8d2d0567ed0747b14bd4f17746",
+  "created": "2026-10-04",
+  "package_version": "0.1.0",
+  "source_method_version": "0.1.2",
+  "records": [
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-009-r2w-method-working-version/attachments/method-working-version-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "d5b3fe18e30bfad040e232c75ff121963e5f0cbf94c5f7febf7626d10b1cef61",
+      "original_path": "controller/originals/method-working-version-v0.1.md",
+      "runtime_path": "input/method/method-working-version.md",
+      "runtime_sha256": "63ac77aaf0292eaf127973466194ba0e8ef6e0aa02b21af602775b4a0994216f"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-009-r2w-method-working-version/attachments/capability-gap-checklist-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "1069ae9c8a7534cd974ca0677d03bfc9b14efedb2105f8a61b8f5d337fc06390",
+      "original_path": "controller/originals/capability-gap-checklist-v0.1.md",
+      "runtime_path": "input/method/capability-gap-checklist.md",
+      "runtime_sha256": "7996c61bf50be3af0fde07ab6c1489a9022cc2179f521be42b20445e9e00986b"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-009-r2w-method-working-version/attachments/model-entry-structure-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "c966e499eeee620d94d6de58026a9c4382332b0c10155f757bcf211f33340a64",
+      "original_path": "controller/originals/model-entry-structure-v0.1.md",
+      "runtime_path": "input/method/model-entry-structure.md",
+      "runtime_sha256": "23eaf0af45c76577b23fc9cc039042da58c39ea7b2e17edb06cb698d2b51dff9"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-009-r2w-method-working-version/attachments/method-structure-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "ec6c3f0313883fe3e496ae305271b10ae7cb944b40841150c9c6d99a82d980a8",
+      "original_path": "controller/originals/method-structure-v0.1.md",
+      "runtime_path": "input/method/method-structure.md",
+      "runtime_sha256": "60463ad560b5cb44aa3c620c477009ff28aa53651d4fa534e5f8ba969066f347"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-009-r2w-method-working-version/attachments/requirements-coverage-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "9ac953da09f172e873418cf1759c77e51c720683fac6dd5981c3d5122d3c68b1",
+      "original_path": "controller/originals/requirements-coverage-v0.1.md",
+      "runtime_path": "input/method/requirements-coverage.md",
+      "runtime_sha256": "9ffeff4bdb168e1bc42f5ae55eb06f590428dd652116ac0ff69e4b38b8e5375e"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-008-pa5-information-closure-and-route-freeze/attachments/route-freeze-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "de9c7d26c6e260976bad0176d2a1984747743cf7492eac7623937ab46382732b",
+      "original_path": "controller/originals/route-freeze-v0.1.md",
+      "runtime_path": null,
+      "runtime_sha256": null,
+      "use": "controller-only：排除/字段收窄/no-tool 边界对照；必要操作语义已内联，不提供运行导航"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-001-world-model-method-and-tools/attachments/R1-freeze-proposal-v0.6.4.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "dce5c865b1bdea8b98681f89241e9fc53a355987da409e9667632643fa4b9a81",
+      "original_path": "controller/originals/R1-freeze-proposal-v0.6.4.md",
+      "runtime_path": null,
+      "runtime_sha256": null,
+      "use": "controller-only：排除/字段收窄/no-tool 边界对照；必要操作语义已内联，不提供运行导航"
+    },
+    {
+      "source_path": "docs/workspaces/workspace-003-world-model-method-and-tools/GOAL-010-r3-tool-branch-evaluation/attachments/no-tool-record-v0.1.md",
+      "source_commit": "e5b6cc7",
+      "source_sha256": "8b92dc77040de6e5d376bca88485505fff1e4c2f429c2dcbd68f5ff27ca0aa0e",
+      "original_path": "controller/originals/no-tool-record-v0.1.md",
+      "runtime_path": null,
+      "runtime_sha256": null,
+      "use": "controller-only：排除/字段收窄/no-tool 边界对照；必要操作语义已内联，不提供运行导航"
+    }
+  ],
+  "method_bundle_sha256": "7e768fb02b436d7c9094d52137d1efb52d7ecfbe0f92df63f38151762e3b3ed1",
+  "method_bundle_algorithm": "SHA-256 of UTF-8 sorted runtime path + TAB + sha256 + LF for input/method/*; no BOM",
+  "notes": "JSON serialization is YAML 1.2 compatible. Source bytes retained; runtime access/acceptance not performed.",
+  "frozen_input_hashes": [
+    {
+      "path": "input/method/capability-gap-checklist.md",
+      "sha256": "7996c61bf50be3af0fde07ab6c1489a9022cc2179f521be42b20445e9e00986b",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/method-structure.md",
+      "sha256": "60463ad560b5cb44aa3c620c477009ff28aa53651d4fa534e5f8ba969066f347",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/method-working-version.md",
+      "sha256": "63ac77aaf0292eaf127973466194ba0e8ef6e0aa02b21af602775b4a0994216f",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/model-entry-structure.md",
+      "sha256": "23eaf0af45c76577b23fc9cc039042da58c39ea7b2e17edb06cb698d2b51dff9",
+      "read_allowed": true
+    },
+    {
+      "path": "input/method/requirements-coverage.md",
+      "sha256": "9ffeff4bdb168e1bc42f5ae55eb06f590428dd652116ac0ff69e4b38b8e5375e",
+      "read_allowed": true
+    },
+    {
+      "path": "input/packet.md",
+      "sha256": "76d0da04eabc331c78f02b9f00a8c1b515af0196feca15910530b8a945298b36",
+      "read_allowed": true
+    },
+    {
+      "path": "input/raw-input.txt",
+      "sha256": "6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42",
+      "read_allowed": true
+    },
+    {
+      "path": "input/runtime-authorization.md",
+      "sha256": "c44c7a5f7e702c650976d3ac4eb5f0ac704a13f5e60c15d5b38f79b841295a38",
+      "read_allowed": true
+    },
+    {
+      "path": "input/manifest.json",
+      "sha256": "78488ea974b0c18608144ef12504077346a082a3ce98f790d9c224835e8ead7e"
+    }
+  ]
+}

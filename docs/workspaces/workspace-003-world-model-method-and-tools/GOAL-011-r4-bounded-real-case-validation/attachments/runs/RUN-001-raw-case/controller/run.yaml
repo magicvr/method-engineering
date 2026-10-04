@@ -1,0 +1,27 @@
+run_id: RUN-001-raw-case
+run_kind: bounded-real-case-trial
+protocol_version: 0.1.0
+package_version: 0.1.0
+baseline_commit: e5b6cc7
+baseline_full_commit: e5b6cc775c6c3d8d2d0567ed0747b14bd4f17746
+input_sha256: 6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42
+method_bundle_sha256: 7e768fb02b436d7c9094d52137d1efb52d7ecfbe0f92df63f38151762e3b3ed1
+status: prepared
+validity: pending
+acceptance: not-submitted
+created: 2026-10-04
+executor: null
+execution_context: pending
+started_at: null
+ended_at: null
+method_result: pending
+stop: pending
+access_verification: pending
+evidence: []
+feedback: pending
+notes:
+  - Preparation only; no actual execution, access clearance, or acceptance claimed.
+  - This file is the sole run status authority; index is a derived projection.
+  - Procedural non-read discipline, not a hard sandbox; fresh context must be checked before launch.
+  - Package preparation does not close G-I-003 or authorize S3 gate advancement.
+  - No-tool trial only; downstream delivery and external independent audit remain separate.

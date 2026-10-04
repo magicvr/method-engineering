@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.48.3
+version: 0.48.4
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -27,7 +27,7 @@ GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界
 |   `-- GOAL-008-pa5-information-closure-and-route-freeze [done] PA5 · 未决收敛、路线冻结与交接 · S1～S4 完成，A-003 pass，用户确认关门 · progress 100%（4/4）
 |-- GOAL-009-r2w-method-working-version [done] R2-W · 方法工作版与内部核对 · S1～S4 完成，A-005 pass，用户确认关门 · progress 100%（4/4）
 |-- GOAL-010-r3-tool-branch-evaluation [done] R3 · 工具分支评估与落实 · S1～S4 完成，A-003 pass，用户确认关门 · progress 100%（4/4）
-`-- GOAL-011-r4-bounded-real-case-validation [active] R4 · 真实用例 black-box 检验与交付验收 · S1 完成，双验收层已定，S2 待适配 · progress 17%（1/6）
+`-- GOAL-011-r4-bounded-real-case-validation [active] R4 · 真实用例 black-box 检验与交付验收 · S1/S2 完成，RUN-001 冻结包就绪，S3 待运行 · progress 33%（2/6）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点中 R1/R2-PA/R2-W/R3 完成，4/5=80%；PA 内阶段不计入 Root 分母，progress 不放行。
@@ -36,7 +36,7 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 
 门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；I-007 为 accepted-residual（权限未知部分经用户明确接受，非 verified）；I-008 为 accepted-residual（S04-C 全文未决经用户接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified）；I-002 verified（case/authorization；final-version 适配在 R4 S2 核对）；I-004 open（provider/mode selected；external audit output pending）；I-006 accepted-residual（非 verified，仅限 GOAL-010 S2～S4/R3 退出）；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
 
-PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成；GOAL-009 已 done，Root R2-W checkpoint 完成。GOAL-010 已完成 S1～S4：用户接受证据不足下的 no-tool，I-006 为限定 accepted-residual（非 verified）；no-tool 记录与独立闭合复审已完成，无开放 required；用户确认 GOAL-010 done，Root R3 checkpoint 完成。GOAL-011 S1 完成：正式 R4 原始输入“修真具体怎么修”直接输入方法；本仓验收仅指试运行结果，方法/no-tool 记录仍须交付下游；外部审计由维护者执行，run-protocol-v0.1 已落盘；尚未运行方法，S2 待最终版适配。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/工具/真实案例/交付事实。运行主记录及下游材料未改。
+PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成；GOAL-009 已 done，Root R2-W checkpoint 完成。GOAL-010 已完成 S1～S4：用户接受证据不足下的 no-tool，I-006 为限定 accepted-residual（非 verified）；no-tool 记录与独立闭合复审已完成，无开放 required；用户确认 GOAL-010 done，Root R3 checkpoint 完成。GOAL-011 S1/S2 完成：正式 R4 原始输入“修真具体怎么修”直接输入方法；RUN-001 冻结包与最终版适配已就绪；本仓验收仅指试运行结果，方法/no-tool 仍须交付下游；S3 待运行。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/工具/真实案例/交付事实。运行主记录及下游材料未改。
 
 跨区历史入口：[workspace-002 的 Root](../workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 关门仅验证供需流程，不证明领域方法。
 ## 状态表
@@ -53,4 +53,4 @@ PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成；GOAL-009 �
 | `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；受限 R2-W 路线与交接包冻结；A-003 pass；用户确认关门。 |
 | `GOAL-009-r2w-method-working-version` | R2-W · 方法工作版与内部核对 | `GOAL-001-world-model-method-and-tools` | done | 100% | S1～S4 完成，4/4；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
 | `GOAL-010-r3-tool-branch-evaluation` | R3 · 工具分支评估与落实 | `GOAL-001-world-model-method-and-tools` | done | 100% | S1～S4 完成，4/4；A-001 F-001 经 A-002/A-003 fixed 闭合，无开放 required；用户确认关门。 |
-| `GOAL-011-r4-bounded-real-case-validation` | R4 · 真实用例 black-box 检验与交付验收 | `GOAL-001-world-model-method-and-tools` | active | 17% | S1 完成：原始输入、本仓试运行验收、外部审计模式与 run-protocol-v0.1 已登记；方法/no-tool 仍须交付下游；S2 待最终版适配。 |
+| `GOAL-011-r4-bounded-real-case-validation` | R4 · 真实用例 black-box 检验与交付验收 | `GOAL-001-world-model-method-and-tools` | active | 33% | S1/S2 完成：RUN-001 冻结包就绪，raw input 哈希固定，方法适配核对完成；S3 待运行；方法/no-tool 仍须交付下游。 |
