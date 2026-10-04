@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.6.3
+version: 0.6.4
 ---
 
 # 审计记录 · GOAL-001
@@ -30,6 +30,7 @@ version: 0.6.3
 
 | A-007 | 2026-10-04 | independent | reframe 历史保全、cancelled、门禁隔离、20% 路线、VP patch、self verdict 边界 | pass | [A-007](03-audit/A-007-independent-reframe-review.md) |
 | A-008 | 2026-10-04 | independent | 继任 R1 能力边界承诺草案 v0.1 可否冻结为验收承诺 | conditional | [A-008](03-audit/A-008-r1-successor-capability-commitment-review.md) |
+| A-009 | 2026-10-04 | self | 响应 A-008 F-001～F-007 并修订 D-028 草案 | conditional（F-004 待用户确认；F-003 VP 范围单独裁决） | [A-009](03-audit/A-009-response-a008.md) |
 
 ## 使用约定
 
