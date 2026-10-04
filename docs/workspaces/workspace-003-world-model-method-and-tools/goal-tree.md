@@ -12,7 +12,7 @@ version: 0.49.1
 - 工作区：`workspace-003-world-model-method-and-tools`
 - canonical：`docs/workspaces/workspace-003-world-model-method-and-tools/`
 - vision_role：`primary`
-- primary_plan：`VP-003-world-model-method-and-tools`（`active`，`v0.1.1`，`vision_ref` = `method-engineering@0.1.0`）
+- primary_plan：`VP-003-world-model-method-and-tools`（`active`，`v0.1.2`，`vision_ref` = `method-engineering@0.1.0`）
 
 ## 树
 
