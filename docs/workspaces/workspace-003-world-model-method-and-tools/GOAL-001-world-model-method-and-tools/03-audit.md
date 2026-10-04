@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.6.7
+version: 0.6.8
 ---
 
 # 审计记录 · GOAL-001
@@ -34,7 +34,8 @@ version: 0.6.7
 | A-010 | 2026-10-04 | independent | A-008 响应闭合核验 | reject（REJECT；F-003 部分、F-004 矛盾、VP 版本展示 minor） | [A-010](03-audit/A-010-independent-closure-verification.md) |
 | A-011 | 2026-10-04 | self | 响应 A-010 F-003/F-004/VP 版本展示 | pass（三项 fixed；待 A-012 独立闭合核验） | [A-011](03-audit/A-011-response-a010.md) |
 | A-012 | 2026-10-04 | independent | A-010 修正闭合核验 | reject（REJECT；§9 VP 待确认表述、goal-tree v0.1.1） | [A-012](03-audit/A-012-independent-closure-verification.md) |
-| A-013 | 2026-10-04 | self | 响应 A-012 §9 与 goal-tree 版本展示 | pass（两项 fixed；待 A-014 窄范围独立核验） | [A-013](03-audit/A-013-response-a012.md) |
+| A-013 | 2026-10-04 | self | 响应 A-012 §9 与 goal-tree 版本展示 | pass（两项 fixed；A-014 闭合） | [A-013](03-audit/A-013-response-a012.md) |
+| A-014 | 2026-10-04 | independent | A-012 修正窄范围闭合核验；A-008/A-010/A-012 required 闭合链 | pass（ACCEPT） | [A-014](03-audit/A-014-independent-closure-verification.md) |
 
 ## 使用约定
 
