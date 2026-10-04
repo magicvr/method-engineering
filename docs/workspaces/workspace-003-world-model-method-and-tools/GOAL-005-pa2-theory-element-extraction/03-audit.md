@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.2
+version: 0.1.3
 ---
 
 # 审计记录 · GOAL-005
@@ -22,8 +22,8 @@ version: 0.1.2
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| A-001 | 2026-10-04 | independent | S1～S3 抽取成果与 S4 边界 | pass（ACCEPT WITH NOTES） | 0；M-01～M-03 fixed | [A-001](03-audit/A-001-independent-s1-s3-review.md) |
+| A-001 | 2026-10-04 | independent | S1～S3 抽取成果与 S4 边界 | pass（ACCEPT WITH NOTES） | 0；M-01～M-03 fixed | [A-001](03-audit/A-001-independent-s1-s3-review.md) |`n| A-002 | 2026-10-04 | independent | PA2 S1～S4 退出条件、D-002 残余与证据边界 | pass（ACCEPT WITH NOTES） | 0；M-01 fixed | [A-002](03-audit/A-002-independent-pa2-exit-audit.md) |
 
 ## 结论状态
 
-S1～S3 已完成；A-001 independent 审查为 ACCEPT WITH NOTES，M-01～M-03 已响应。I-008 为 accepted-residual，S4 待独立退出审计。PA-S04-C 仍 unresolved，不以 D 或摘要冒充全文覆盖。
+PA2 S1～S4 证据已完成，A-001/A-002 independent 均为 ACCEPT WITH NOTES，相关 minor 已修正，开放 required 为 0。可向用户提议 GOAL-005 done 与 GOAL-003 PA2 完成；I-008 保持 accepted-residual，I-009/I-010 open，PA3 未放行。

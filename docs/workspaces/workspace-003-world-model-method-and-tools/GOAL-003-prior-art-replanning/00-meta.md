@@ -13,7 +13,7 @@ progress: 20%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009/I-010 仍 open；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S3 已完成，37 项来源要素已抽取，S04-C 全文按 D-002 保持 unresolved，S4 待独立退出审计。无理论适用性结论；PA1～PA5 检查点 1/5=20%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009/I-010 仍 open；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S3 已完成，37 项来源要素已抽取，S04-C 全文按 D-002 保持 unresolved，S4 的 A-002 独立退出审计已 pass，待用户确认关门。无理论适用性结论；PA1～PA5 检查点 1/5=20%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
