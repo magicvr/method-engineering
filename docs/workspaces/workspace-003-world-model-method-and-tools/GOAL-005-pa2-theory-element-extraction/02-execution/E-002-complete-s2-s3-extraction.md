@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-002
 ---
 
 # E-002 · 完成 S2/S3 抽取
+
+checkpoint commit：`8b1787e`。
 
 2026-10-04，按 D-001 对可读来源完成系统抽取：
 
