@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-004
 ---
 
 # E-004 · 完成 PA2 退出独立审计
+
+checkpoint commit：`530b372`。
 
 2026-10-04，独立 REVIEWER 在实际 HEAD `a9110a2` 上完成 [A-002](../03-audit/A-002-independent-pa2-exit-audit.md)，verdict 为 pass（ACCEPT WITH NOTES），无 BLOCKER/MAJOR，只有 M-01 执行索引过时摘要。
 
