@@ -1,11 +1,11 @@
 ---
 id: GOAL-010-r3-tool-branch-evaluation
 title: R3 · 工具分支评估与落实
-status: active
+status: done
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.4
+version: 0.1.5
 progress: 100%
 ---
 
@@ -36,13 +36,13 @@ progress: 100%
 | S1 | I-006 证据盘点 | 已完成 | E-001 已形成证据清单并区分事实/边界：流程已文档化，但真实重复、成本、收益、维护与实际失败路径未观察。 |
 | S2 | 工具分支决定 | 已完成 | 用户接受 D-001：证据不足下的本轮 no-tool；I-006 记为限定 accepted-residual（非 verified），仅解除 GOAL-010 S2～S4/R3 退出门禁。 |
 | S3 | 分支落实 | 已完成 | E-004 已形成 no-tool 记录：证据不足、未验证项、人工继续路径、未授权边界、责任与复评触发均可核对。 |
-| S4 | 内部核对与独立审计 | 已完成（待用户确认 done） | A-002 self 与 A-003 independent 闭合复审通过，A-001 F-001 fixed，无开放 required；R4 未放行。 |
+| S4 | 内部核对与独立审计 | 已完成 | A-002 self 与 A-003 independent 闭合复审通过，A-001 F-001 fixed，无开放 required；用户确认关门。 |
 
 S1→S2→S3→S4 串行；工具实现必须等 S2 支持分支与接口稳定，真实案例/R4 不放行。
 
 ## 派生进度展示
 
-S1～S4 四个等权检查点，当前 4/4=100%。S1 证据盘点、S2 分支决定、S3 no-tool 记录、S4 内部核对与 independent 闭合复审完成。status done 与 Root R3 checkpoint 仍待用户确认；progress 不放行工具实现、真实案例、原创或 R4。
+S1～S4 四个等权检查点全部完成，4/4=100%。用户确认关门，GOAL-010 置 done，Root R3 checkpoint 完成；progress 不放行工具实现、真实案例、原创或 R4。
 
 ## 信息门禁引用（非第二台账）
 

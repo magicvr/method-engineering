@@ -5,8 +5,8 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.39.7
-progress: 60%
+version: 0.40.0
+progress: 80%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 ---
@@ -24,7 +24,7 @@ primary_plan: VP-003-world-model-method-and-tools
 - [x] R1：冻结需求与治理基线，历史成果沿用；仅证明协议冻结，不证明旧 H 或理论适用。
 - [x] R2-PA：成熟理论调查、要素抽取、需求/旧假设映射、缺口判定与吸收选路可追溯；PA1～PA5 完成，受限 R2-W 路线已冻结。
 - [x] R2-W：按选路形成版本化方法工作版，覆盖 §10/§13、两项可手填结构与内部核对；适用条件、证据范围、限制、未决与后续责任可核对。
-- [ ] R3：根据人工过程/既有实践落实工具或本轮 no-tool 分支。
+- [x] R3：根据人工过程/既有实践落实工具或本轮 no-tool 分支。
 - [ ] R4：最终有界检验、交付、实际收件、验收/异议迭代、反馈路由与结束各有证据。
 - [ ] 各阶段到期 required 信息项与必改 finding 合法满足；交付独立审计满足。不以 progress 放行。
 
@@ -43,7 +43,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | R1 | 已冻结需求与治理基线 | 已完成 | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。 |
 | R2-PA | 成熟理论吸收与选路 | 已完成 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线与交接包已冻结。I-007/I-008/I-010 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据）。 |
 | R2-W | 方法工作版形成与内部核对 | 已完成 | GOAL-009 已形成版本化方法并覆盖 §10/§13；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
-| R3 | 工具分支评估与落实 | 进行中（S1～S4 已完成，待用户确认 Root checkpoint） | GOAL-010 no-tool 分支与 no-tool 记录已完成；A-001 F-001 经 A-002/A-003 fixed 闭合，无开放 required；I-006 保持 accepted-residual（非 verified）。 |
+| R3 | 工具分支评估与落实 | 已完成 | GOAL-010 no-tool 分支、no-tool 记录与独立闭合复审已完成；I-006 为限定 accepted-residual（非 verified）；用户确认关门。 |
 | R4 | 最终有界检验、交付与验收 | 未开始 | I-002 最终用例及授权就绪，I-004 独立审计模式/provider 及所需意见满足；最终版端到端有界检验、交付、实际收件、验收/异议迭代、反馈路由与运行主记录终态分别留证。 |
 
 先后为 R1→R2-PA→R2-W→R4；R3 可并行评估，工具实现等接口稳定，R2-W/R3 同时就绪才进入 R4。
@@ -71,7 +71,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 派生进度展示
 
-五个等权纲领检查点中 R1/R2-PA/R2-W 完成，progress: 60%（3/5）。分母从旧 1/4 调整为 1/5，不代表撤销 R1 或新增失败；PA1～PA5 不额外计入 Root 分母。progress 不放行、不闭合 finding、不覆盖门禁、不推导 done。
+五个等权纲领检查点中 R1/R2-PA/R2-W/R3 完成，progress: 80%（4/5）。分母从旧 1/4 调整为 1/5，不代表撤销 R1 或新增失败；PA1～PA5 不额外计入 Root 分母。progress 不放行、不闭合 finding、不覆盖门禁、不推导 done。
 ## 信息就绪与未知项
 
 本表为唯一权威；后继目标只引用编号与证据，不复制状态。I-001/I-003 的 verified 仅是协议结论；已授权文档盘点可先启动，后续调查/选路/原创仍按最晚阶段核对。不得自动把新路线授权扩大为试验或付费授权。
@@ -94,7 +94,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |---|---|---|---|---|---|---|---|
 | I-005 | required | H1/H2/H3 在旧冻结范围内是否足以支持方法选路，哪些有证据/需替代/不足 | 旧 R2c 选路前、旧 R2d 形成前 | 旧预登记下有界试验与四标签证据选路 | open | 旧 R2c/R2d 撤回当前执行范围，不是 verified 或 finding 闭合；未来复用旧路线前由响应负责人复核旧门禁 | [旧基线](attachments/pre-reframe-root-baseline-v1.md)、[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)；无试验/有效性证据，H3-SEM-001 required/open 仍阻断 H3 冻结/运行 |
 
-**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002/I-004 open；I-006 accepted-residual（非 verified，仅限 GOAL-010 S2～S4/R3 退出）；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W 完成。R3 进入下一阶段，R4 未启动。本轮不改变运行记录或下游状态。
+**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002/I-004 open；I-006 accepted-residual（非 verified，仅限 GOAL-010 S2～S4/R3 退出）；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成。R4 未启动，I-002/I-004 仍 open。本轮不改变运行记录或下游状态。
 
 ## 父目标
 
