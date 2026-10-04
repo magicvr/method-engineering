@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.44.0
+version: 0.45.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -17,7 +17,7 @@ version: 0.44.0
 ## 树
 
 ```text
-GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1/R2-PA 完成 · progress 40%
+GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1/R2-PA 完成，R2-W 启动 · progress 40%
 |-- GOAL-002-r2-method-validation [cancelled] 旧 R2 路线 · terminated-by-reframe · 历史 progress 0%（0/4）
 `-- GOAL-003-prior-art-replanning [active] 成熟理论调查、吸收与方法路线重规划 · PA1～PA4 完成，PA5 启动 · progress 80%（4/5）
     `-- GOAL-004-pa1-baseline-and-source-plan [done] PA1 · 基线与来源方案 · 用户确认关门 · progress 100%（4/4）
@@ -48,3 +48,4 @@ PA1～PA4 已完成并经用户确认关门；PA5 S1～S2 完成，S3 待裁决�
 | `GOAL-006-pa3-requirement-mapping` | PA3 · 需求/旧假设映射与四类处置 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；15 个需求项和 H1/H2/H3 已映射；A-002 pass；用户确认关门。 |
 | `GOAL-007-pa4-gap-and-absorption` | PA4 · 缺口判定与吸收方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；A-002 pass；I-010 为 accepted-residual；用户确认关门。 |
 | `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；受限 R2-W 路线与交接包冻结；A-003 pass；用户确认关门。 |
+| `GOAL-009-r2w-method-working-version` | R2-W · 方法工作版与内部核对 | `GOAL-001-world-model-method-and-tools` | active | 0% | S1 启动，0/4；方法结构协议已定义；I-002/I-004/I-006 open。 |
