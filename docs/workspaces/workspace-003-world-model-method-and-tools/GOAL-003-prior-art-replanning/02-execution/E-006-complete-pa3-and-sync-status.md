@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-001-world-model-method-and-tools
-version: 0.1.0
+version: 0.1.1
 record_id: E-006
 ---
 
 # E-006 · 完成 PA3 并同步状态
+
+checkpoint commit：`aa0fdb0`。
 
 用户 2026-10-04 回复“确认”后，完成 [D-006](../01-decision/D-006-confirm-pa3-closure.md)：
 
