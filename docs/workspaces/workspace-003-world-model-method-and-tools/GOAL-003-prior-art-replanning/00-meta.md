@@ -41,7 +41,7 @@ progress: 60%
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点中 PA1/PA2/PA3 已完成，3/5=60%；PA4 已启动但未完成。关键 unresolved 作为 PA4 输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 待 PA4/PA5 证据。
+PA1～PA5 五个等权检查点中 PA1/PA2/PA3 已完成，3/5=60%；PA4 S1～S3 已完成，五类未决已登记状态/替代/吸收/原创闸门，S4 待 I-010 核对。关键 unresolved 作为 PA4 输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 待 PA4/PA5 证据。
 
 ## 信息门禁引用（非第二台账）
 
