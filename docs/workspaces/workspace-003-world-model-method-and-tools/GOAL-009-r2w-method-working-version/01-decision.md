@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 决策记录 · GOAL-009
@@ -23,3 +23,4 @@ S1～S4 唯一路线表在 [meta](00-meta.md)。方案见 [D-001](01-decision/D-
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | D-001 | 2026-10-04 | R2-W 方法结构与内部核对计划 | accepted | [D-001](01-decision/D-001-define-r2w-method-structure.md) |
+| D-002 | 2026-10-04 | 修复 F-01 覆盖缺口 | accepted（用户确认 fixed） | [D-002](01-decision/D-002-fix-f01-coverage.md) |
