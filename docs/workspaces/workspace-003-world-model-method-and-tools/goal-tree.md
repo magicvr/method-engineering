@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.46.0
+version: 0.46.1
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -25,7 +25,7 @@ GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界
 |   |-- GOAL-006-pa3-requirement-mapping [done] PA3 · 需求/旧假设映射与四类处置 · 用户确认关门 · progress 100%（4/4）
 |   |-- GOAL-007-pa4-gap-and-absorption [done] PA4 · 缺口判定与吸收方案 · 用户接受残余并关门 · progress 100%（4/4）
 |   `-- GOAL-008-pa5-information-closure-and-route-freeze [done] PA5 · 未决收敛、路线冻结与交接 · S1～S4 完成，A-003 pass，用户确认关门 · progress 100%（4/4）
-`-- GOAL-009-r2w-method-working-version [active] R2-W · 方法工作版与内部核对 · S1～S3 完成，S4 内部核对完成、独立审计待 · progress 75%（3/4）
+`-- GOAL-009-r2w-method-working-version [active] R2-W · 方法工作版与内部核对 · S1～S3 完成，S4 内部核对完成，independent A-002 REJECT/F-01 required 待响应 · progress 75%（3/4）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点中 R1/R2-PA 完成，2/5=40%；PA 内阶段不计入 Root 分母，progress 不放行。
@@ -34,7 +34,7 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 
 门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；I-007 为 accepted-residual（权限未知部分经用户明确接受，非 verified）；I-008 为 accepted-residual（S04-C 全文未决经用户接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified）；I-002/I-004/I-006 open；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
 
-PA1～PA5 已完成并经用户确认关门，R2-PA 完成。GOAL-009 已形成 R2-W 方法工作版草案、两项结构和 §10/§13 覆盖，S4 内部核对完成、独立审计待。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/工具/真实案例/交付事实。运行主记录及下游材料未改。
+PA1～PA5 已完成并经用户确认关门，R2-PA 完成。GOAL-009 已形成 R2-W 方法工作版草案、两项结构和 §10/§13 覆盖；S4 内部核对完成，但 independent A-002 为 REJECT，F-01 required 未闭合，待响应。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/工具/真实案例/交付事实。运行主记录及下游材料未改。
 
 跨区历史入口：[workspace-002 的 Root](../workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 关门仅验证供需流程，不证明领域方法。
 ## 状态表
@@ -49,4 +49,4 @@ PA1～PA5 已完成并经用户确认关门，R2-PA 完成。GOAL-009 已形成 
 | `GOAL-006-pa3-requirement-mapping` | PA3 · 需求/旧假设映射与四类处置 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；15 个需求项和 H1/H2/H3 已映射；A-002 pass；用户确认关门。 |
 | `GOAL-007-pa4-gap-and-absorption` | PA4 · 缺口判定与吸收方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；A-002 pass；I-010 为 accepted-residual；用户确认关门。 |
 | `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；受限 R2-W 路线与交接包冻结；A-003 pass；用户确认关门。 |
-| `GOAL-009-r2w-method-working-version` | R2-W · 方法工作版与内部核对 | `GOAL-001-world-model-method-and-tools` | active | 75% | S1～S3 完成，3/4；方法工作版、两项结构和 §10/§13 覆盖已形成；S4 内部核对完成，independent 退出审计待完成。 |
+| `GOAL-009-r2w-method-working-version` | R2-W · 方法工作版与内部核对 | `GOAL-001-world-model-method-and-tools` | active | 75% | S1～S3 完成，3/4；方法工作版、两项结构和 §10/§13 覆盖已形成；S4 内部核对完成；independent A-002 REJECT，F-01 required open，待用户裁决/整改复审。 |

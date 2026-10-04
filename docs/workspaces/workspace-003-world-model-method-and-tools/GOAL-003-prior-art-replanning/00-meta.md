@@ -5,7 +5,7 @@ status: done
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.7.1
+version: 0.7.2
 progress: 100%
 ---
 
@@ -41,7 +41,7 @@ progress: 100%
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点全部完成，5/5=100%；A-003 independent pass，用户确认 PA5 关门。GOAL-003 置 done；受限 R2-W 路线与交接包已冻结，I-010 保持 accepted-residual。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，仅允许 PA4 退出）。
+PA1～PA5 五个等权检查点全部完成，5/5=100%；A-003 independent pass，用户确认 PA5 关门。GOAL-003 置 done；受限 R2-W 路线与交接包已冻结，I-010 保持 accepted-residual。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，按 GOAL-008 D-003 仅允许受限 PA5 路线冻结，不自动授权 R2-W 实际验证/原创/外部交付）。
 
 ## 信息门禁引用（非第二台账）
 
