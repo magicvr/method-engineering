@@ -6,10 +6,14 @@ updated: 2026-10-04
 parent: GOAL-001-world-model-method-and-tools
 version: 0.1.0
 record_id: D-001
-decision_status: proposed
+decision_status: accepted
 ---
 
 # D-001 · R3 工具分支决定建议
+
+## 用户裁决
+
+2026-10-04，用户接受推荐方案 D：本轮暂不引入工具，理由是启动工具投入的证据尚不足，而非工具已被证明不值得；将 I-006 记为限定 accepted-residual（非 verified）。
 
 ## 问题
 
