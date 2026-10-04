@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.3
+version: 0.1.4
 ---
 
 # 执行记录 · GOAL-006
@@ -17,6 +17,7 @@ version: 0.1.3
 | E-001 | 2026-10-04 | 完成 PA3 映射矩阵 | recorded | [E-001](02-execution/E-001-complete-pa3-mapping.md) |
 | E-002 | 2026-10-04 | 响应 PA3 映射独立审查并修复索引 | recorded | [E-002](02-execution/E-002-respond-pa3-mapping-review.md) |
 | E-003 | 2026-10-04 | 完成 PA3 退出独立审计 | recorded | [E-003](02-execution/E-003-complete-pa3-exit-audit.md) |
+| E-004 | 2026-10-04 | 用户确认 PA3 关门并完成 GOAL-006 | recorded | [E-004](02-execution/E-004-close-pa3-on-user-confirmation.md) |
 
 ## 事实边界
 

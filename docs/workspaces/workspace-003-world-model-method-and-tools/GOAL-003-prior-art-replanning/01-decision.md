@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.4
+version: 0.1.5
 ---
 
 # 决策记录 · GOAL-003
@@ -27,3 +27,4 @@ PA1～PA5 唯一纲领表在 [meta](00-meta.md)；PA1 已完成，PA2 未启动�
 | D-003 | 2026-10-04 | 建立 PA1 阶段子目标 | accepted | [D-003](01-decision/D-003-establish-pa1-stage-subgoal.md) |
 | D-004 | 2026-10-04 | 用户确认 PA1 关门 | accepted | [D-004](01-decision/D-004-confirm-pa1-closure.md) |
 | D-005 | 2026-10-04 | 用户确认 PA2 关门 | accepted | [D-005](01-decision/D-005-confirm-pa2-closure.md) |
+| D-006 | 2026-10-04 | 用户确认 PA3 关门 | accepted | [D-006](01-decision/D-006-confirm-pa3-closure.md) |
