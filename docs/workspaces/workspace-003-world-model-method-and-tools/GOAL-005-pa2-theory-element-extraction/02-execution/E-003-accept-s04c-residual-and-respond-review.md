@@ -4,11 +4,13 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 record_id: E-003
 ---
 
 # E-003 · 接受 S04-C 残余并响应独立审查
+
+checkpoint commit：`a2ab00d`。
 
 用户 2026-10-04 选择 A，接受 PA-S04-C 全文 unresolved 的有界残余，决定见 [D-002](../01-decision/D-002-accept-s04c-fulltext-residual.md)。
 
