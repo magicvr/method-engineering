@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.37.0
+version: 0.38.0
 ---
 
 # 执行记录 · GOAL-001
@@ -57,6 +57,7 @@ version: 0.37.0
 | E-036 | 2026-10-01 | 记录“世界有多大”的 R2d 黑箱探针裁决 | recorded | [E-036](02-execution/E-036-record-r2d-full-method-probe-decision.md) |
 | E-037 | 2026-10-04 | 落盘实现路线 reframe | recorded | [E-037](02-execution/E-037-apply-implementation-reframe.md) |
 | E-038 | 2026-10-04 | 完成 R2-W checkpoint 并进入 R3 | recorded | [E-038](02-execution/E-038-complete-r2w-and-start-r3.md) |
+| E-039 | 2026-10-04 | 建立 R3 子目标并启动证据盘点 | recorded | [E-039](02-execution/E-039-create-r3-tool-branch-evaluation.md) |
 
 ## 历史事实边界（reframe 前）
 

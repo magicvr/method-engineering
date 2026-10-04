@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 1.12.0
+version: 1.13.0
 ---
 
 # 决策记录 · GOAL-001
@@ -49,3 +49,4 @@ version: 1.12.0
 
 | D-021 | 2026-10-04 | 成熟理论驱动实现路线 reframe | accepted | [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md) |
 | D-022 | 2026-10-04 | 完成 R2-W 并启动 R3 | accepted | [D-022](01-decision/D-022-complete-r2w-and-start-r3.md) |
+| D-023 | 2026-10-04 | 建立 R3 工具分支评估子目标 | accepted | [D-023](01-decision/D-023-create-r3-tool-branch-evaluation.md) |
