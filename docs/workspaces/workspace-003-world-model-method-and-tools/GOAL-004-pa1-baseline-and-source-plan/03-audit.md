@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.5
+version: 0.1.6
 ---
 
 # 审计记录 · GOAL-004
@@ -29,4 +29,4 @@ version: 0.1.5
 
 ## 结论状态
 
-PA1 S1～S4 已完成，A-003 independent verdict pass，M-01/M-02 fixed，当前开放 required 为 0。可向用户提议 GOAL-004 done 与 GOAL-003 PA1 完成；状态变更仍待用户确认。I-008～I-010 保持 open，I-007 不改成 verified，PA2 不放行。
+PA1 S1～S4 已完成，A-003 independent verdict pass，M-01/M-02 fixed，开放 required 为 0。用户 2026-10-04 确认关门；GOAL-004 置 done，GOAL-003 PA1 完成。I-008～I-010 保持 open，I-007 不改成 verified，PA2 不放行。

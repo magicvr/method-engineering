@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.4
+version: 0.1.5
 ---
 
 # 执行记录 · GOAL-004
@@ -19,6 +19,7 @@ version: 0.1.4
 | E-003 | 2026-10-04 | 完成独立审查整改与闭合核验 | recorded | [E-003](02-execution/E-003-complete-independent-review-and-closure.md) |
 | E-004 | 2026-10-04 | 记录用户裁决并冻结 S3/S4 规则 | recorded | [E-004](02-execution/E-004-record-user-decisions-and-update-i007.md) |
 | E-005 | 2026-10-04 | 完成 PA1 退出独立审计 | recorded | [E-005](02-execution/E-005-complete-pa1-exit-audit.md) |
+| E-006 | 2026-10-04 | 用户确认 PA1 关门并完成 GOAL-004 | recorded | [E-006](02-execution/E-006-close-pa1-on-user-confirmation.md) |
 
 ## 事实边界
 
