@@ -5,7 +5,7 @@ status: done
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.7.0
+version: 0.7.1
 progress: 100%
 ---
 
@@ -13,7 +13,7 @@ progress: 100%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009 为 `verified`（限定映射覆盖与处置依据），I-010 为 `accepted-residual`（非 verified）；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S4 已完成，37 项来源要素已抽取；S04-C 全文按 D-002 保持 unresolved，A-002 独立退出审计 pass，用户确认 PA2 关门。无理论适用性结论；PA1～PA5 检查点 4/5=80%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009 为 `verified`（限定映射覆盖与处置依据），I-010 为 `accepted-residual`（非 verified）；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S4 已完成，37 项来源要素已抽取；S04-C 全文按 D-002 保持 unresolved，A-002 独立退出审计 pass，用户确认 PA2 关门。无理论适用性结论；PA1～PA5 检查点 5/5=100%，用户确认 GOAL-003 关门。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 

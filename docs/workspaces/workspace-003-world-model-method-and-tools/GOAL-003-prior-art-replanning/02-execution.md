@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.8
+version: 0.1.9
 ---
 
 # 执行记录 · GOAL-003
@@ -27,4 +27,4 @@ version: 0.1.8
 
 PA1 已由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户 2026-10-04 确认关门：S1～S4 均有证据，来源/访问/资源按 D-003 冻结，A-003 independent verdict pass，Root I-007 为 `accepted-residual`（非 verified）。
 
-I-008～I-010 仍 open，PA2 未开始。历史 E-001/E-002 的来源识别和授权纠正保留；无系统全文要素抽取、理论适用结论、旧 H 运行、工作版、工具或交付事实。PA1 关门只完成 1/5 检查点，不改变 Root progress，不放行后续阶段。
+PA1～PA5 已完成并经用户确认关门；GOAL-003 置 done，Root R2-PA 检查点完成。I-007/I-008/I-010 保持 accepted-residual（非 verified），I-009 为 verified（限定映射覆盖与处置依据）。历史 E-001/E-002 的来源识别和授权纠正保留；无理论适用性结论、旧 H 运行、工具或交付事实。PA 内阶段不额外计入 Root 分母；R2-W 由 GOAL-009 承接。

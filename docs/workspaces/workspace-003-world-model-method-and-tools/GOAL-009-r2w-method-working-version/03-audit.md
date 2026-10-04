@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 审计记录 · GOAL-009
@@ -21,8 +21,8 @@ version: 0.1.0
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| — | — | — | R2-W 尚未执行 | — | 0 | — |
+| A-001 | 2026-10-04 | self | R2-W 方法工作版、两项结构、覆盖、残余与门禁内部核对 | conditional（整改后无开放 required；独立审计待完成） | 0；M-01～M-05 fixed | [A-001](03-audit/A-001-self-internal-check.md) |
 
 ## 结论状态
 
-尚未到阶段审计节点。
+S4 内部核对已完成；A-001 self 为 conditional，M-01～M-05 已 fixed，开放 required 为 0。independent 退出审计待完成；GOAL-009 仍未 done，不放行 R3/R4 或外部交付。
