@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 1.15.0
+version: 1.16.0
 ---
 
 # 决策记录 · GOAL-001
@@ -52,3 +52,4 @@ version: 1.15.0
 | D-023 | 2026-10-04 | 建立 R3 工具分支评估子目标 | accepted | [D-023](01-decision/D-023-create-r3-tool-branch-evaluation.md) |
 | D-024 | 2026-10-04 | 完成 R3 并保持 R4 门禁 | accepted | [D-024](01-decision/D-024-complete-r3-and-hold-r4.md) |
 | D-025 | 2026-10-04 | 选择 R4 原始用例并指定外部审计模式 | accepted | [D-025](01-decision/D-025-select-r4-real-case.md) |
+| D-026 | 2026-10-04 | ARCHITECT 目标漂移审查结论 | proposed（待用户裁决） | [D-026](01-decision/D-026-architect-goal-drift-review.md) |
