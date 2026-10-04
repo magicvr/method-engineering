@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 执行记录 · GOAL-008
@@ -14,7 +14,7 @@ version: 0.1.0
 
 | E-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
-| — | — | 尚未执行 | — | — |
+| E-001 | 2026-10-04 | 建立 PA5 并完成信息收敛计划 | recorded | [E-001](02-execution/E-001-establish-pa5-and-plan-information-closure.md) |
 
 ## 事实边界
 

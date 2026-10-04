@@ -41,7 +41,7 @@ progress: 80%
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点中 PA1～PA4 已完成，4/5=80%；PA5 已启动信息收敛。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，仅允许 PA4 退出）。
+PA1～PA5 五个等权检查点中 PA1～PA4 已完成，4/5=80%；PA5 S1 信息收敛计划已完成，S2 待用户授权。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，仅允许 PA4 退出）。
 
 ## 信息门禁引用（非第二台账）
 
