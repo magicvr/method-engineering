@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 决策记录 · GOAL-008
@@ -23,3 +23,4 @@ S1～S4 唯一路线表在 [meta](00-meta.md)。信息收敛协议见 [D-001](01
 | D-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
 | D-001 | 2026-10-04 | PA5 信息收敛与路线冻结协议 | accepted | [D-001](01-decision/D-001-define-pa5-information-closure-protocol.md) |
+| D-002 | 2026-10-04 | 用户授权 PA5 有界纸面检查方案 B | accepted | [D-002](01-decision/D-002-authorize-pa5-paper-checks.md) |
