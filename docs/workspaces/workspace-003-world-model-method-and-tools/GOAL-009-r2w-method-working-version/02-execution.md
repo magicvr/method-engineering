@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 执行记录 · GOAL-009
@@ -14,7 +14,7 @@ version: 0.1.0
 
 | E-ID | 日期 | 标题 | 状态 | 文件 |
 |---|---|---|---|---|
-| — | — | 尚未执行 | — | — |
+| E-001 | 2026-10-04 | 完成 R2-W 方法结构与字段规格 | recorded | [E-001](02-execution/E-001-define-r2w-method-structure.md) |
 
 ## 事实边界
 
