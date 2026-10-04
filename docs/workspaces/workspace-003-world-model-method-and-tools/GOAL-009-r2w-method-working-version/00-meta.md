@@ -1,11 +1,11 @@
 ---
 id: GOAL-009-r2w-method-working-version
 title: R2-W · 方法工作版与内部核对
-status: active
+status: done
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.5
+version: 0.1.6
 progress: 100%
 ---
 
@@ -37,13 +37,13 @@ progress: 100%
 | S1 | 工作版方案与结构 | 已完成 | 方法结构、两结构字段、版本/证据/限制规则和内部核对计划固定。 |
 | S2 | 方法工作版草案 | 已完成 | 按冻结路线形成版本化方法草案，覆盖 §10/§13 和停止/拒答。 |
 | S3 | 两项手填结构与映射 | 已完成 | 两项结构完成；逐项映射来源/改造/限制/未决/责任。 |
-| S4 | 内部核对与交接审计 | 已完成（待用户确认 done） | 内部核对完成，六项残余可见；A-003 确认 A-002 F-01 fixed，A-005 确认 A-004-F-001 fixed 且 F-002 已吸收，无开放 required。 |
+| S4 | 内部核对与交接审计 | 已完成 | 内部核对完成，六项残余可见；A-003 确认 A-002 F-01 fixed，A-005 确认 A-004-F-001 fixed 且 F-002 已吸收，无开放 required。 |
 
 S1→S2→S3→S4；不得运行真实案例、工具或原创。
 
 ## 派生进度展示
 
-S1～S4 四个等权检查点，当前 4/4=100%。A-002 F-01 与 A-004-F-001 均已 fixed 并通过独立闭合复审；progress 只作展示，不放行 R3/R4、不关闭 I-002/I-004/I-006，status done 与 Root R2-W checkpoint 仍待用户确认。
+S1～S4 四个等权检查点全部完成，4/4=100%。A-002 F-01 与 A-004-F-001 均已 fixed 并通过独立闭合复审；用户确认关门，GOAL-009 置 done，Root R2-W checkpoint 完成。progress 不放行 R4、不关闭 I-002/I-004/I-006。
 
 ## 信息门禁引用（非第二台账）
 

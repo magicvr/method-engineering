@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 1.11.1
+version: 1.12.0
 ---
 
 # 决策记录 · GOAL-001
@@ -13,7 +13,7 @@ version: 1.11.1
 
 ## 当前摘要（2026-10-04）
 
-现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1 完成，R2-PA 启动，R2-W/R3/R4 未完成；五等权检查点仅 1/5（20%）。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；新 GOAL-003 active、PA1 盘点启动，0/5。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
+现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1、R2-PA、R2-W 已完成，Root progress 60%（3/5）；R3 进入下一阶段，R4 未启动。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；GOAL-003 已 done，GOAL-009 已 done。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
 
 ## 纲领路线图与阶段计划
 
@@ -48,3 +48,4 @@ version: 1.11.1
 | D-020 | 2026-10-01 | 将“世界有多大”预留为 R2d 完整方法黑箱核对 | accepted | [D-020](01-decision/D-020-reserve-r2d-full-method-blackbox-probe.md) |
 
 | D-021 | 2026-10-04 | 成熟理论驱动实现路线 reframe | accepted | [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md) |
+| D-022 | 2026-10-04 | 完成 R2-W 并启动 R3 | accepted | [D-022](01-decision/D-022-complete-r2w-and-start-r3.md) |
