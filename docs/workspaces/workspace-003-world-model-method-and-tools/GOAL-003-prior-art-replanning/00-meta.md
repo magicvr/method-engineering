@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.2.1
+version: 0.2.2
 progress: 0%
 ---
 
@@ -13,7 +13,7 @@ progress: 0%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行，S1 基线与 S2 约束迁移已完成；S3 来源/访问方案待用户裁决，System Dynamics 代表来源和受限来源路径尚未冻结。4/5 书目元数据核实，ABM 公开摘要已读；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5、I-007～I-010 open，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行，S1～S3 已完成：来源策略、受限访问残余与有界调查资源已由用户接受。S4 正在更新 Root I-007 证据并准备独立 PA1 退出审计；I-007 权限未知部分为 `accepted-residual`（非 verified），I-008～I-010 open。4/5 书目元数据核实，ABM 公开摘要已读；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
@@ -31,7 +31,7 @@ progress: 0%
 
 | 阶段 | 名称 | 状态 | 退出条件 |
 |---|---|---|---|
-| PA1 | 基线与来源方案 | 进行中 | 完成 R1 条款迁移、需求/旧假设基线、调查边界与来源/资源方案，Root I-007 到期门禁满足。 |
+| PA1 | 基线与来源方案 | 进行中（S4 退出审计） | S1～S3 完成；Root I-007 权限未知部分经用户明确接受为有界残余，独立 PA1 退出审计通过后可完成。 |
 | PA2 | 理论要素抽取 | 未开始 | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
 | PA3 | 需求/旧假设映射与四类处置 | 未开始 | 逐项映射 §10/§13 和 H1/H2/H3，明确适用依据、差异与四类处置；Root I-008/I-009 满足。 |
 | PA4 | 缺口判定与吸收方案 | 未开始 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
@@ -45,7 +45,7 @@ PA1～PA5 五个等权检查点均未完成，0/5=0%。启动不等于完成，p
 
 ## 信息门禁引用（非第二台账）
 
-唯一状态/证据权威在 [Root 信息表](../GOAL-001-world-model-method-and-tools/00-meta.md)：I-007 约束迁移、调查边界与超出授权的新执行（PA1）；I-008 来源真实性及抽取充分性（PA2/PA3）；I-009 映射/适用依据（PA3）；I-010 缺口/选路依据（PA5、R2-PA 退出、R2-W/原创启动）。任何真实案例仍引用 I-002，工具/最终交付分别引用 I-006/I-004。旧 I-005 与 H3-SEM-001 仅为旧路线历史开放项，不当作新 PA 必经前置，也不办理闭合；复用旧实验须重检。
+唯一状态/证据权威在 [Root 信息表](../GOAL-001-world-model-method-and-tools/00-meta.md)：I-007 约束迁移、调查边界与超出授权的新执行（PA1），当前为 `accepted-residual`（权限未知部分已由用户接受，非 verified）；I-008 来源真实性及抽取充分性（PA2/PA3）；I-009 映射/适用依据（PA3）；I-010 缺口/选路依据（PA5、R2-PA 退出、R2-W/原创启动）。任何真实案例仍引用 I-002，工具/最终交付分别引用 I-006/I-004。旧 I-005 与 H3-SEM-001 仅为旧路线历史开放项，不当作新 PA 必经前置，也不办理闭合；复用旧实验须重检。
 
 ## 四类处置操作定义
 

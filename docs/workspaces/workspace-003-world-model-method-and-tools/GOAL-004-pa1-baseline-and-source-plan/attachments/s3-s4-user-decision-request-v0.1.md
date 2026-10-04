@@ -1,15 +1,15 @@
 ---
 title: S3/S4 用户裁决请求 v0.1
-status: active
+status: superseded
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.1
+version: 0.1.2
 ---
 
-# S3/S4 用户裁决请求 v0.1
+# S3/S4 用户裁决请求 v0.1（已裁决）
 
-本请求对应 [来源与访问方案](source-and-access-plan-v0.1.md) 的 J-01～J-03。用户尚未裁决前，Root I-007 保持 open，PA1 不退出，PA2 不开始。
+本请求已于 2026-10-04 由用户“全部接受推荐项”满足；正式决定见 [D-003](../01-decision/D-003-record-user-source-access-and-resource-decisions.md)。以下原文保留为历史请求，不再表示待决状态。
 
 待裁决问题：
 

@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.3
+version: 0.1.4
 ---
 
 # 审计记录 · GOAL-004
@@ -14,10 +14,10 @@ version: 0.1.3
 
 | 核对项 | 状态 | 备注 |
 |---|---|---|
-| Root I-007 | open | S1 基线、S2 矩阵完成；S3 来源选择/访问路径与 S4 资源/停止规则尚待用户裁决；阻断 PA1 退出 |
+| Root I-007 | accepted-residual（非 verified） | S1～S3 完成；J-01 A、J-02 A 残余、J-03 A 已由用户接受；证据见 [D-003](01-decision/D-003-record-user-source-access-and-resource-decisions.md) 与 [E-004](02-execution/E-004-record-user-decisions-and-update-i007.md)；待独立 PA1 退出审计 |
 | Root I-008～I-010 | open | 分别约束 PA2/PA3/PA5，本目标不提前关闭 |
 | 共享资料引用 | 无 | 使用下游 exchange 提交级引用，不建立共享资料机制 |
-| P-004 裁决 | pending | [S3/S4 用户裁决请求](attachments/s3-s4-user-decision-request-v0.1.md) 已准备；用户书面答复前不冻结来源方案 |
+| P-004 裁决 | fulfilled | 用户 2026-10-04 接受全部推荐项；来源/访问/资源边界见 [D-003](01-decision/D-003-record-user-source-access-and-resource-decisions.md) |
 
 ## 意见台账索引
 
@@ -28,4 +28,4 @@ version: 0.1.3
 
 ## 结论状态
 
-S1/S2 已有可核对产物。A-001 independent 原始 fail/REJECT 保留；F-001/F-002/F-003 经 A-002 independent closure verification 确认 fixed，当前相关开放 required 为 0。该闭合不关闭 I-007、不冻结 S3、不退出 PA1、不放行 PA2；J-01～J-03 仍待用户裁决。
+S1～S3 已完成，I-007 为 accepted-residual（非 verified），J-01～J-03 已裁决。A-001 原始 fail/REJECT 保留，F-001/F-002/F-003 经 A-002 fixed，当前开放 required 为 0。PA1 退出审计尚未执行；该状态不放行 PA2。

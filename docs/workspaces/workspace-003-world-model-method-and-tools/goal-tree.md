@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.34.3
+version: 0.35.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -20,14 +20,14 @@ version: 0.34.3
 GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1 完成，R2-PA 启动 · progress 20%
 |-- GOAL-002-r2-method-validation [cancelled] 旧 R2 路线 · terminated-by-reframe · 历史 progress 0%（0/4）
 `-- GOAL-003-prior-art-replanning [active] 成熟理论调查、吸收与方法路线重规划 · PA1 启动 · progress 0%（0/5）
-    `-- GOAL-004-pa1-baseline-and-source-plan [active] PA1 · 基线与来源方案 · S1/S2 完成，S3 进行中 · progress 50%（2/4）
+    `-- GOAL-004-pa1-baseline-and-source-plan [active] PA1 · 基线与来源方案 · S1～S3 完成，S4 退出审计 · progress 75%（3/4）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点仅 R1 完成，1/5=20%；分母由旧 1/4 改为 1/5，不撤销 R1、不新增失败，PA 内阶段不计入 Root 分母，progress 不放行。
 
 R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不证明旧 H1/H2/H3 或理论适用。Root [D-021](GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md) 记录新路线；旧路线与成功标准/门禁原文见 [历史基线](GOAL-001-world-model-method-and-tools/attachments/pre-reframe-root-baseline-v1.md)。旧目标终止不是 done/100%，历史 D/E/A 与附件原位保全，见 [清单](GOAL-002-r2-method-validation/attachments/reframe-history-manifest-v1.md)。
 
-门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；现行 I-002/I-004/I-006/I-007～I-010 open；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
+门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；I-007 为 accepted-residual（权限未知部分经用户明确接受，非 verified）；I-002/I-004/I-006/I-008～I-010 open；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
 
 新目标六份附件均 draft；已有本地约束盘点、§10/§13 与旧 H 原文提取，以及五类主范围首批有界公开来源识别。4/5 书目元数据核实，ABM 公开摘要已读；System Dynamics 待核实；无系统全文要素抽取/理论适用结论；未完成 PA1，无新 H 运行/方法工作版/工具/交付事实。用户 2026-10-04 调查指令与 [D-002](GOAL-003-prior-art-replanning/01-decision/D-002-authorize-initial-public-source-slice.md) 覆盖初始切片；I-007～I-010 仍 open，进度不变。运行主记录及下游材料本轮未改。
 
@@ -36,7 +36,7 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 
 | id | title | parent | status | progress | notes |
 |---|---|---|---|---|---|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。VP-003 v0.1.1；信息权威在 meta。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007 accepted-residual（非 verified）。VP-003 v0.1.1。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
-| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 0% | PA1 由 GOAL-004 承载；S1/S2 完成，S3 待用户裁决；Root I-007～I-010 open；无系统全文抽取/理论适用结论。 |
-| `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | active | 50% | S1/S2 完成，2/4；需求 `7324bdf` 与澄清 `e9054c9` 已固定；A-001 F-001/F-002/F-003 经 A-002 fixed；S3 来源与访问计划待用户裁决；I-007 open。 |
+| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 0% | PA1 由 GOAL-004 承载；S1～S3 完成，S4 退出审计待办；I-007 accepted-residual，I-008～I-010 open；无系统全文抽取/理论适用结论。 |
+| `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | active | 75% | S1～S3 完成，3/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；S4 待 I-007 证据复核与 PA1 退出审计。 |
