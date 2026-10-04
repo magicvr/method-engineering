@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.39.0
+version: 0.40.0
 ---
 
 # 执行记录 · GOAL-001
@@ -13,7 +13,7 @@ version: 0.39.0
 
 ## 当前摘要（2026-10-04）
 
-现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1、R2-PA、R2-W、R3 完成，Root progress 80%（4/5）；R4 未启动，I-002/I-004 仍 open。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；GOAL-003 与 GOAL-009 已 done。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
+现行实现路线以 Root [D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)/[meta](00-meta.md) 为准：R1、R2-PA、R2-W、R3 完成，Root progress 80%（4/5）；R4 进入准备，正式用例原始输入已登记；I-002 case/authorization verified，I-004 外部审计模式已定但意见待产出。旧 GOAL-002 cancelled + terminated-by-reframe，历史 0/4；GOAL-003 与 GOAL-009 已 done。R1 只证明协议冻结，不证明理论/H 适用；历史 I-005 与 H3-SEM-001 仍 open，旧 H3 不得冻结/运行。本次 self 不替代 I-004 独立审计。以下带旧“当前/路线”的摘要保留为历史语境，不再授权旧 R2。
 
 ## 执行索引
 
@@ -59,6 +59,7 @@ version: 0.39.0
 | E-038 | 2026-10-04 | 完成 R2-W checkpoint 并进入 R3 | recorded | [E-038](02-execution/E-038-complete-r2w-and-start-r3.md) |
 | E-039 | 2026-10-04 | 建立 R3 子目标并启动证据盘点 | recorded | [E-039](02-execution/E-039-create-r3-tool-branch-evaluation.md) |
 | E-040 | 2026-10-04 | 完成 R3 checkpoint 并保持 R4 门禁 | recorded | [E-040](02-execution/E-040-complete-r3-and-hold-r4.md) |
+| E-041 | 2026-10-04 | 建立 R4 目标并登记原始输入与外部审计 | recorded | [E-041](02-execution/E-041-create-r4-goal.md) |
 
 ## 历史事实边界（reframe 前）
 
