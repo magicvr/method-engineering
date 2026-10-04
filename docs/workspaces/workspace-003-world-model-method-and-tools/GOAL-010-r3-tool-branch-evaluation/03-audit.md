@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.2
+version: 0.1.3
 ---
 
 # 审计记录 · GOAL-010
@@ -22,8 +22,9 @@ version: 0.1.2
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| — | — | — | 尚未到 R3 审计节点 | — | 0 | — |
+| A-001 | 2026-10-04 | independent | R3 S1～S3 证据、I-006 残余、no-tool 记录与 S4 退出 | reject（REJECT；F-001 required） | 1；F-001 fixed response，待独立闭合复审 | [A-001](03-audit/A-001-independent-r3-exit-audit.md) |
+| A-002 | 2026-10-04 | self | R3 S1～S3 内部核对 | pass | 0；补齐 A-001 F-001 的 self 证据 | [A-002](03-audit/A-002-self-r3-internal-check.md) |
 
 ## 结论状态
 
-S1～S3 已完成：no-tool 分支冻结，I-006 为 accepted-residual（非 verified），no-tool 记录已形成。S4 内部核对与 independent 退出审计仍待完成。
+S1～S3 已完成；A-001 independent 指出缺少 self 证据（F-001 required），A-002 已实际补做 S1～S3 self 内部核对并 pass，形成 fixed response。F-001 在 independent 闭合复审通过前仍为开放 required；S4 未完成，R4 未放行。

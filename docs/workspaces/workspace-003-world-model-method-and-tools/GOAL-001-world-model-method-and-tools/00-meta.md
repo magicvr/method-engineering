@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.39.5
+version: 0.39.6
 progress: 60%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -43,7 +43,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | R1 | 已冻结需求与治理基线 | 已完成 | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。 |
 | R2-PA | 成熟理论吸收与选路 | 已完成 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线与交接包已冻结。I-007/I-008/I-010 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据）。 |
 | R2-W | 方法工作版形成与内部核对 | 已完成 | GOAL-009 已形成版本化方法并覆盖 §10/§13；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
-| R3 | 工具分支评估与落实 | 进行中 | GOAL-010 S1～S3 已完成；用户接受 no-tool，I-006 记为限定 accepted-residual（非 verified），no-tool 记录已形成；S4 独立退出审计待完成。 |
+| R3 | 工具分支评估与落实 | 进行中 | GOAL-010 S1～S3 已完成；A-001 F-001 指出 self 审计缺失，A-002 已补做并 pass，待 independent 闭合复审；I-006 保持 accepted-residual（非 verified）。 |
 | R4 | 最终有界检验、交付与验收 | 未开始 | I-002 最终用例及授权就绪，I-004 独立审计模式/provider 及所需意见满足；最终版端到端有界检验、交付、实际收件、验收/异议迭代、反馈路由与运行主记录终态分别留证。 |
 
 先后为 R1→R2-PA→R2-W→R4；R3 可并行评估，工具实现等接口稳定，R2-W/R3 同时就绪才进入 R4。
