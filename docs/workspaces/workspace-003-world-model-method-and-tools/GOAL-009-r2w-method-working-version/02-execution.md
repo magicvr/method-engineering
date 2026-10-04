@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.6
+version: 0.1.7
 ---
 
 # 执行记录 · GOAL-009
@@ -22,4 +22,4 @@ version: 0.1.6
 
 ## 事实边界
 
-S1～S4 已完成：方法工作版 v0.1、两项手填结构和 §10/§13 逐项覆盖已形成；E-004 已补齐 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审为 pass（ACCEPT WITH NOTES），确认 A-002 F-01 可由 fixed 合法闭合，无残留 required；m-01 已 fixed。GOAL-009 progress 100%，但 status done 与 Root R2-W checkpoint 仍待用户确认。未运行真实案例、未实现工具、未新增来源、未启动原创或实验；I-002/I-004/I-006 仍 open，I-010 保持 accepted-residual（非 verified）。
+S1～S3 已完成：方法工作版 v0.1、两项手填结构和 §10/§13 逐项覆盖已形成；E-004 已补齐 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审确认 A-002 F-01 可由 fixed 合法闭合；m-01 已 fixed。A-004 independent 为 conditional：A-004-F-001（required）指出可执行工作版仍未写入 R1 沿用的 AI 协助边界与 §12 十一项排除，当前 S4 未完成，GOAL-009 保持 75%。未运行真实案例、未实现工具、未新增来源、未启动原创或实验；I-002/I-004/I-006 仍 open，I-010 保持 accepted-residual（非 verified）。

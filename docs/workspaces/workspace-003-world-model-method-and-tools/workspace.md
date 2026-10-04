@@ -11,7 +11,7 @@ primary_plan: VP-003-world-model-method-and-tools
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.30.3
+version: 0.30.4
 ---
 
 # 工作区上下文 · 世界模型方法与工具
@@ -44,7 +44,7 @@ version: 0.30.3
 
 ## 纲领阶段
 
-实现路线唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：R1 已冻结需求与治理基线 → R2-PA 成熟理论吸收与选路 → R2-W 方法工作版形成与内部核对 → R4 最终有界检验、交付与验收；R3 工具分支可在已冻结边界内并行评估，工具实现等待方法接口稳定，R2-W/R3 均就绪再进入 R4。R2-PA 由 [GOAL-003](GOAL-003-prior-art-replanning/00-meta.md) 承载，PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线已冻结；R2-W 已由 GOAL-009 承载并启动，S1～S4 完成；首次独立 A-002 的 F-01 已 fixed，A-003 闭合复审 pass，待用户确认 done；37 项来源要素已抽取，S04-C 全文保持 accepted-residual；旧 [GOAL-002](GOAL-002-r2-method-validation/00-meta.md) 已按 reframe 终止。
+实现路线唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：R1 已冻结需求与治理基线 → R2-PA 成熟理论吸收与选路 → R2-W 方法工作版形成与内部核对 → R4 最终有界检验、交付与验收；R3 工具分支可在已冻结边界内并行评估，工具实现等待方法接口稳定，R2-W/R3 均就绪再进入 R4。R2-PA 由 [GOAL-003](GOAL-003-prior-art-replanning/00-meta.md) 承载，PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线已冻结；R2-W 已由 GOAL-009 承载并启动，S1～S3 完成；A-002 F-01 已 fixed、A-003 闭合复审 pass，但 A-004-F-001 required 未闭合，S4 未完成；37 项来源要素已抽取，S04-C 全文保持 accepted-residual；旧 [GOAL-002](GOAL-002-r2-method-validation/00-meta.md) 已按 reframe 终止。
 
 VP-003 v0.1.1 仍只有 R1→R2/R3→R4 方向结构，未修改意图/判据；这是实现层细化，非 strategic。本文件不维护 progress 或第二套门禁状态；状态和证据只查 Root 及 goal-tree。
 ## 当前路线与门禁入口（2026-10-04）
