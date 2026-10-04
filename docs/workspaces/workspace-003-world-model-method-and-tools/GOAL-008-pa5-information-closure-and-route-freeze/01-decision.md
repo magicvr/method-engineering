@@ -16,7 +16,7 @@ S1～S4 唯一路线表在 [meta](00-meta.md)。信息收敛协议见 [D-001](01
 
 ## 信息需求与阶段门禁
 
-引用 [Root I-010](../GOAL-001-world-model-method-and-tools/00-meta.md)。I-010 当前 residual 只允许 PA4 退出；PA5 路线冻结需要新证据或用户明确扩展残余。
+引用 [Root I-010](../GOAL-001-world-model-method-and-tools/00-meta.md)。I-010 为 accepted-residual（非 verified）；用户按 D-003 允许受限 PA5 路线冻结，不自动放行 R2-W 执行。
 
 ## 决策索引
 

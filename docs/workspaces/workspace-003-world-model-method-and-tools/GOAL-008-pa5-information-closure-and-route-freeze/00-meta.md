@@ -48,7 +48,7 @@ S1～S4 四个等权检查点，当前 3/4=75%。S3 完成：受限 R2-W 路线�
 
 ## 信息门禁引用（非第二台账）
 
-唯一状态/证据权威在 [Root 信息表](../GOAL-001-world-model-method-and-tools/00-meta.md)：`I-010` 当前为 accepted-residual（仅允许 PA4 退出）；PA5 路线冻结需要新的证据或用户明确扩展残余。`I-008`/`I-009` 状态继续引用 Root。
+唯一状态/证据权威在 [Root 信息表](../GOAL-001-world-model-method-and-tools/00-meta.md)：`I-010` 为 accepted-residual（非 verified）；用户按 D-003 允许受限 PA5 路线冻结，但不允许 R2-W 执行、原创、实验、工具或外部交付。`I-008`/`I-009` 状态继续引用 Root。
 
 ## 父目标与对齐
 
