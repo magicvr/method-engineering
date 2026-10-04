@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.37.1
+version: 0.37.2
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -21,7 +21,7 @@ GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界
 |-- GOAL-002-r2-method-validation [cancelled] 旧 R2 路线 · terminated-by-reframe · 历史 progress 0%（0/4）
 `-- GOAL-003-prior-art-replanning [active] 成熟理论调查、吸收与方法路线重规划 · PA1 完成，PA2 启动 · progress 20%（1/5）
     `-- GOAL-004-pa1-baseline-and-source-plan [done] PA1 · 基线与来源方案 · 用户确认关门 · progress 100%（4/4）
-    `-- GOAL-005-pa2-theory-element-extraction [active] PA2 · 理论来源核实与要素抽取 · S1 完成，S2/S3 抽取 · progress 25%（1/4）
+    `-- GOAL-005-pa2-theory-element-extraction [active] PA2 · 理论来源核实与要素抽取 · S1～S3 完成，S4 I-008 核对 · progress 75%（3/4）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点仅 R1 完成，1/5=20%；分母由旧 1/4 改为 1/5，不撤销 R1、不新增失败，PA 内阶段不计入 Root 分母，progress 不放行。
@@ -41,4 +41,4 @@ PA1 S1～S4 已完成并经用户确认关门：需求/澄清/R1/旧 H 基线固
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
 | `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 20% | PA1 已完成并经用户确认关门；PA2 由 GOAL-005 承载，尚未完成。I-007 accepted-residual，I-008～I-010 open；无系统全文抽取/理论适用结论。 |
 | `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；A-003 independent pass；用户确认关门。 |
-| `GOAL-005-pa2-theory-element-extraction` | PA2 · 理论来源核实与要素抽取 | `GOAL-003-prior-art-replanning` | active | 25% | S1 完成，1/4；可读全文进入 S2/S3 抽取；PA-S04-C 全文 unresolved；I-008 open。 |
+| `GOAL-005-pa2-theory-element-extraction` | PA2 · 理论来源核实与要素抽取 | `GOAL-003-prior-art-replanning` | active | 75% | S1～S3 完成，3/4；37 个要素/局部主张已抽取；PA-S04-C unresolved；S4 待 I-008 裁决/核对。 |
