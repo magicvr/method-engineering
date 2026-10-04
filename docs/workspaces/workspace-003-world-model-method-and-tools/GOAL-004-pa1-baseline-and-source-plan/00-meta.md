@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.2.0
+version: 0.2.1
 progress: 75%
 ---
 
@@ -44,7 +44,7 @@ S1→S2→S3→S4 串行；S1～S3 已完成，S4 进行中。同一阶段的公
 
 ## 派生进度展示
 
-S1～S4 四个等权检查点，当前 3/4=75%。S3 来源/访问方案已冻结，S4 正在更新 Root I-007 证据并准备独立 PA1 退出审计；progress 只作展示，不放行 PA2、不关闭 finding。
+S1～S4 四个等权检查点，当前 3/4=75%。S3 来源/访问方案已冻结，S4 的独立 PA1 退出审计 A-003 已 pass，M-01/M-02 已修正；等待用户确认关门。progress 只作展示，不放行 PA2、不关闭 finding。
 
 ## 信息门禁引用（非第二台账）
 

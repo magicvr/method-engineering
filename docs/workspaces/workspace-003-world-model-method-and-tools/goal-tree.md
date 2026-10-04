@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.35.0
+version: 0.35.1
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -29,7 +29,7 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 
 门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；I-007 为 accepted-residual（权限未知部分经用户明确接受，非 verified）；I-002/I-004/I-006/I-008～I-010 open；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
 
-新目标六份附件均 draft；已有本地约束盘点、§10/§13 与旧 H 原文提取，以及五类主范围首批有界公开来源识别。4/5 书目元数据核实，ABM 公开摘要已读；System Dynamics 待核实；无系统全文要素抽取/理论适用结论；未完成 PA1，无新 H 运行/方法工作版/工具/交付事实。用户 2026-10-04 调查指令与 [D-002](GOAL-003-prior-art-replanning/01-decision/D-002-authorize-initial-public-source-slice.md) 覆盖初始切片；I-007～I-010 仍 open，进度不变。运行主记录及下游材料本轮未改。
+PA1 S1～S3 已完成：需求/澄清/R1/旧 H 基线固定，约束迁移矩阵完成，五类来源与访问策略由用户按 J-01 A、J-02 A 残余、J-03 A 冻结。I-007 为 `accepted-residual`（权限未知部分经用户接受，非 verified）；I-008～I-010 仍 open；无系统全文抽取/理论适用结论，无新 H 运行/方法工作版/工具/交付事实。PA1 退出审计 A-003 为 pass，等待用户确认关门；运行主记录及下游材料未改。
 
 跨区历史入口：[workspace-002 的 Root](../workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 关门仅验证供需流程，不证明领域方法。
 ## 状态表

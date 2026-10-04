@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.2.2
+version: 0.2.3
 progress: 0%
 ---
 
@@ -13,7 +13,7 @@ progress: 0%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行，S1～S3 已完成：来源策略、受限访问残余与有界调查资源已由用户接受。S4 正在更新 Root I-007 证据并准备独立 PA1 退出审计；I-007 权限未知部分为 `accepted-residual`（非 verified），I-008～I-010 open。4/5 书目元数据核实，ABM 公开摘要已读；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已按 D-003 移交 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 单独执行，S1～S3 已完成：来源策略、受限访问残余与有界调查资源已由用户接受。S4 的独立 PA1 退出审计 A-003 已 pass，等待用户确认关门；I-007 权限未知部分为 `accepted-residual`（非 verified），I-008～I-010 open。4/5 书目元数据核实，ABM 公开摘要已读；无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 0/5，阶段未完成。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
