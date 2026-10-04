@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.5
+version: 0.1.6
 ---
 
 # 执行记录 · GOAL-009
@@ -18,7 +18,8 @@ version: 0.1.5
 | E-002 | 2026-10-04 | 完成 R2-W 方法工作版与两项结构 | recorded | [E-002](02-execution/E-002-complete-method-and-structures.md) |
 | E-003 | 2026-10-04 | 完成 R2-W 内部核对与摘要整改 | recorded | [E-003](02-execution/E-003-internal-check.md) |
 | E-004 | 2026-10-04 | 修复 independent F-01 覆盖缺口 | recorded | [E-004](02-execution/E-004-fix-f01-coverage.md) |
+| E-005 | 2026-10-04 | 完成 F-01 独立闭合复审 | recorded | [E-005](02-execution/E-005-independent-closure-verification.md) |
 
 ## 事实边界
 
-S1～S3 已完成：方法工作版 v0.1、能力缺口判定清单、模型条目最小结构和 §10/§13 逐项覆盖已形成。S4 内部核对已完成，A-001 self 的 M-01～M-05 已 fixed。independent A-002 为 REJECT：F-01（required）要求补齐 §13-6/§13-7 的人工检查步骤并修正不存在的 8A/8B 映射；F-02 已 fixed。按用户裁决，F-01 已由 E-004 形成 fixed 修正，等待 independent 闭合复审；在复审通过前仍为开放 required，不推进 S4 done。未运行真实案例、未实现工具、未新增来源、未启动原创或实验；I-002/I-004/I-006 仍 open，I-010 保持 accepted-residual（非 verified）。
+S1～S4 已完成：方法工作版 v0.1、两项手填结构和 §10/§13 逐项覆盖已形成；E-004 已补齐 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审为 pass（ACCEPT WITH NOTES），确认 A-002 F-01 可由 fixed 合法闭合，无残留 required；m-01 已 fixed。GOAL-009 progress 100%，但 status done 与 Root R2-W checkpoint 仍待用户确认。未运行真实案例、未实现工具、未新增来源、未启动原创或实验；I-002/I-004/I-006 仍 open，I-010 保持 accepted-residual（非 verified）。

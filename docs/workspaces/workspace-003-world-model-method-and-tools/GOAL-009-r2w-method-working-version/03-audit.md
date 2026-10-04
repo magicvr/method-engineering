@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.4
+version: 0.1.5
 ---
 
 # 审计记录 · GOAL-009
@@ -22,8 +22,9 @@ version: 0.1.4
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
 | A-001 | 2026-10-04 | self | R2-W 方法工作版、两项结构、覆盖、残余与门禁内部核对 | conditional（整改后无开放 required；独立审计待完成） | 0；M-01～M-05 fixed | [A-001](03-audit/A-001-self-internal-check.md) |
-| A-002 | 2026-10-04 | independent | R2-W 方法工作版、两项结构、§10/§13 覆盖、残余、门禁与 S4 退出 | reject（REJECT；F-01 required） | 1；F-01 fixed response，待独立闭合复审；F-02 fixed | [A-002](03-audit/A-002-independent-exit-audit.md) |
+| A-002 | 2026-10-04 | independent | R2-W 方法工作版、两项结构、§10/§13 覆盖、残余、门禁与 S4 退出 | reject（REJECT；F-01 required） | 0；F-01 fixed，A-003 闭合；F-02 fixed | [A-002](03-audit/A-002-independent-exit-audit.md) |
+| A-003 | 2026-10-04 | independent | A-002 F-01 fixed 闭合核验与 S4 退出可行性 | pass（ACCEPT WITH NOTES） | 0；m-01 fixed | [A-003](03-audit/A-003-independent-closure-verification.md) |
 
 ## 结论状态
 
-S4 内部核对已完成；A-001 self 为 conditional，M-01～M-05 已 fixed。independent A-002 为 REJECT：F-01（MAJOR/required）指出 §13-6/§13-7 覆盖不足与 8A/8B 定位不成立，F-02（MINOR）指出 GOAL-003 摘要旧范围，已响应 fixed。用户已按 P-004 选择 F-01 fixed；E-004 已补齐步骤 8A/8B、反补丁与范围/敏感性指导及对应字段。F-01 在独立闭合复审通过前仍为开放 required，阻断 S4 退出与 done。
+S4 内部核对已完成；A-001 self 为 conditional，M-01～M-05 已 fixed。independent A-002 为 REJECT：F-01（MAJOR/required）指出 §13-6/§13-7 覆盖不足与 8A/8B 定位不成立，F-02（MINOR）指出 GOAL-003 摘要旧范围，已响应 fixed。用户已按 P-004 选择 F-01 fixed；E-004 已补齐步骤 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审为 pass（ACCEPT WITH NOTES），确认 F-01 可按 fixed 合法闭合，无残留 required；m-01 已 fixed。S1～S4 已完成，GOAL-009 progress 100%，但 status done 与 Root R2-W checkpoint 仍待用户确认。
