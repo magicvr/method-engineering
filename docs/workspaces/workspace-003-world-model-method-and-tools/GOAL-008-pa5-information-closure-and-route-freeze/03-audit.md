@@ -14,7 +14,7 @@ version: 0.1.2
 
 | 核对项 | 状态 | 备注 |
 |---|---|---|
-| Root I-010 | accepted-residual（非 verified） | 仅允许 PA4 退出；PA5 路线冻结仍需新证据或扩展残余 |
+| Root I-010 | accepted-residual（非 verified） | 用户按 D-003 扩展残余，允许受限 PA5 路线冻结；不承诺六项 uncertain 已解决 |
 | I-008 | accepted-residual（非 verified） | S04-C 全文未决 |
 | I-009 | verified（限定） | 映射覆盖与处置依据已核对 |
 
@@ -27,4 +27,4 @@ version: 0.1.2
 
 ## 结论状态
 
-S2 已可验收：A-001 M-01/m-01 经 A-002 独立闭合核验为 fixed，当前开放 required 为 0。I-010 仍不能整体 verified；S3 路线冻结待用户残余/阻塞裁决。
+S2 已验收；A-001 M-01/m-01 经 A-002 独立闭合核验为 fixed，开放 required 为 0。用户按 D-003 接受 S3 路线冻结有界残余；S3 路线提案与独立审计待完成。
