@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.3.1
+version: 0.3.2
 progress: 20%
 ---
 
@@ -13,7 +13,7 @@ progress: 20%
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007 为 `accepted-residual`（非 verified），I-008～I-010 仍 open；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S3 完成，S4 因 PA-S04-C 全文 unresolved 待 I-008 核对。无系统全文要素抽取/理论适用结论；PA1～PA5 检查点 1/5=20%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009/I-010 仍 open；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S3 已完成，37 项来源要素已抽取，S04-C 全文按 D-002 保持 unresolved，S4 待独立退出审计。无理论适用性结论；PA1～PA5 检查点 1/5=20%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
@@ -32,7 +32,7 @@ progress: 20%
 | 阶段 | 名称 | 状态 | 退出条件 |
 |---|---|---|---|
 | PA1 | 基线与来源方案 | 已完成 | S1～S4 完成；Root I-007 为 accepted-residual；A-003 independent pass；用户 2026-10-04 确认关门。 |
-| PA2 | 理论要素抽取 | 进行中 | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
+| PA2 | 理论要素抽取 | 进行中（S4 退出审计） | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
 | PA3 | 需求/旧假设映射与四类处置 | 未开始 | 逐项映射 §10/§13 和 H1/H2/H3，明确适用依据、差异与四类处置；Root I-008/I-009 满足。 |
 | PA4 | 缺口判定与吸收方案 | 未开始 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
 | PA5 | 后续路线冻结与交接 | 未开始 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |

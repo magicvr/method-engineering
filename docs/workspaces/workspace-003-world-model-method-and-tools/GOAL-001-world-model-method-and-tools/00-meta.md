@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.37.2
+version: 0.37.3
 progress: 20%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -41,7 +41,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | 阶段 | 名称 | 状态 | 退出条件 |
 |---|---|---|---|
 | R1 | 已冻结需求与治理基线 | 已完成 | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。 |
-| R2-PA | 成熟理论吸收与选路 | 进行中 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1 已完成并经用户确认关门；PA2～PA5 尚未完成。I-007 为 accepted-residual，I-008～I-010 仍 open；不凭未核实线索冻结路线。 |
+| R2-PA | 成熟理论吸收与选路 | 进行中 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1 已完成；PA2 S1～S3 已完成、37 项来源要素已抽取，S4 待退出审计；PA3～PA5 尚未完成。I-007/I-008 为 accepted-residual（非 verified），I-009/I-010 仍 open。 |
 | R2-W | 方法工作版形成与内部核对 | 未开始 | 按 PA5 冻结路线形成版本化方法，覆盖需求 §10/§13 与 R1 两项可手填结构；逐项标流程、证据范围、未验证及下一责任，内部核对限制与追溯。 |
 | R3 | 工具分支评估与落实 | 未开始 | 依据现行方法人工过程/既有实践证据关闭 I-006；支持则接口稳定后形成最小 Skill，不足则写本轮 no-tool、理由、证据范围、责任与复评触发；不得以工具代替方法有效性。 |
 | R4 | 最终有界检验、交付与验收 | 未开始 | I-002 最终用例及授权就绪，I-004 独立审计模式/provider 及所需意见满足；最终版端到端有界检验、交付、实际收件、验收/异议迭代、反馈路由与运行主记录终态分别留证。 |
@@ -84,7 +84,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | I-004 | required | R4 高影响交付门禁的独立审计模式与 provider | R4 交付放行 | R4 交付前 | 用户指定 provider，取得覆盖交付范围的可核对独立意见并处理必改项 | open | 非延期；责任人：用户；无 provider/输出不得静默降级 | 待确定；本轮 self 不替代 |
 | I-006 | required | 依据现行方法路线人工过程/既有实践，是否值得工具化及如何落实：重复步骤、人工成本、收益、维护负担 | R3 分支决定与退出 | R3 退出前 | 收集现行人工过程或既有实践证据，作支持/不足或不成立分支决定；稳定接口后落实 Skill，或 no-tool 理由、责任与复评触发 | open | 非延期；责任人：同一维护人；不反向阻断 R1，不要求先实现工具或靠 R4 才能决定 | 待收集；旧 H 运行不再是必经证据 |
 | I-007 | required | R1 通用约束、旧 H 专属额度及现行调查边界/来源方法/资源/执行授权如何迁移 | PA1 基线与来源方案；超出既有授权的新执行 | PA1 退出；任何超出已授权有界公开来源识别的新执行前 | 逐条盘点 R1、固定需求来源与调查边界，列可沿用/专属/需新裁决；新增费用/执行/预算须用户书面裁决 | accepted-residual（非 verified） | 责任人：方法工程响应负责人；残余范围仅限 GOAL-003 的 PA2/PA3 内部阅读/引用；外部交付前、出版方异议、获得正式许可或改用开放来源时复审；超出 6 人时、0 费用上限、来源/范围/策略变化时重新裁决 | [约束迁移矩阵](../GOAL-004-pa1-baseline-and-source-plan/attachments/constraint-migration-matrix-v0.1.md)、[来源/访问方案](../GOAL-004-pa1-baseline-and-source-plan/attachments/source-and-access-plan-v0.1.md)、[D-003](../GOAL-004-pa1-baseline-and-source-plan/01-decision/D-003-record-user-source-access-and-resource-decisions.md)：用户 2026-10-04 接受 J-01 A、J-02 A 残余、J-03 A（1 核心+至多 2 支撑/类；6 人时；费用 0）；公开托管副本权限未核实但按明确范围/复审接受，不写成 verified |
-| I-008 | required | 理论来源真实性/版本/原文定位及要素抽取对已界定调查范围是否充分 | PA2 抽取；PA3 比较输入 | PA2 退出；PA3 比较前 | 核实候选原始来源、版次与定位，保留可核对原文/解释边界，记录覆盖、反向/替代来源检查与不足 | open | 非延期；责任人：调查执行者；来源无法核实时停止相应抽取/比较，保留 unresolved | [来源登记草稿](../GOAL-003-prior-art-replanning/attachments/prior-art-source-register-v0.1.md)/[E-002](../GOAL-003-prior-art-replanning/02-execution/E-002-first-source-identification-slice.md)：PA-S01/PA-S02/PA-S03/PA-S05 书目元数据已核对，PA-S04 候选书目已核实并经 J-01 A 选择 Sterman 2018 + Naugle 等 2024 为核验来源、Sterman 2000 为细节入口、Forrester 1961 为历史起源；PA-S05 公开摘要已读；无系统全文抽取/适用判断；I-008 open |
+| I-008 | required | 理论来源真实性/版本/原文定位及要素抽取对已界定调查范围是否充分 | PA2 抽取；PA3 比较输入 | PA2 退出；PA3 比较前 | 核实候选原始来源、版次与定位，保留可核对原文/解释边界，记录覆盖、反向/替代来源检查与不足 | accepted-residual（非 verified） | 责任人：方法工程响应负责人；S04-C 全文未取得，用户 2026-10-04 按 GOAL-005 D-002 接受有界残余；PA3/PA4 只以 S04-D 为 SD 方法定义核心，S04-C 摘要仅背景；冲突、需要 SD 历史/领域回顾、获得合法全文或外部交付前复审 | [访问台账](../GOAL-005-pa2-theory-element-extraction/attachments/source-access-ledger-v0.1.md)、[理论要素](../GOAL-005-pa2-theory-element-extraction/attachments/theory-elements-v0.1.md)、[覆盖/未决](../GOAL-005-pa2-theory-element-extraction/attachments/coverage-and-unresolved-v0.1.md)、[D-002](../GOAL-005-pa2-theory-element-extraction/01-decision/D-002-accept-s04c-fulltext-residual.md)：S01/S02/S03/S04-D/S05 已系统抽取 37 项；S04-C 保持 unresolved，不以摘要冒充全文 |
 | I-009 | required | 理论要素/局部主张与需求 §10/§13、旧 H 假设的映射及适用性依据 | PA3 四类处置；PA4 吸收输入 | PA3 退出 | 逐项核对条件、目标/输入/输出、差异、证据等级、反例与适用限制，记录 inherit/adapt/not-applicable/unresolved | open | 非延期；责任人：方法工程响应负责人；证据冲突暂停受影响选路并请用户裁决 | [映射草稿](../GOAL-003-prior-art-replanning/attachments/requirements-and-hypotheses-mapping-v0.1.md) 只含原文提取，尚无理论适用结论 |
 | I-010 | required | 缺口是否对应必要需求，调查边界/替代检查、继承/有限改造不足及后续选路依据是否充分 | PA5 路线冻结；R2-PA 退出；R2-W 进入；任何原创启动 | PA5 退出前；进入 R2-W/原创前 | 分清尚未查明与已发现适用限制，建立缺口/处置证据链、吸收方案、有限原创范围/停止条件及授权/审计核对 | open | 非延期；责任人：方法工程响应负责人；有关键 unresolved/必改/冲突则不冻结受影响路线，回流调查或用户裁决 | [缺口登记](../GOAL-003-prior-art-replanning/attachments/gap-and-disposition-register-v0.1.md)/[路线建议](../GOAL-003-prior-art-replanning/attachments/successor-route-proposal-v0.1.md) 均 draft；不把未搜到当理论不存在 |
 
@@ -94,7 +94,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |---|---|---|---|---|---|---|---|
 | I-005 | required | H1/H2/H3 在旧冻结范围内是否足以支持方法选路，哪些有证据/需替代/不足 | 旧 R2c 选路前、旧 R2d 形成前 | 旧预登记下有界试验与四标签证据选路 | open | 旧 R2c/R2d 撤回当前执行范围，不是 verified 或 finding 闭合；未来复用旧路线前由响应负责人复核旧门禁 | [旧基线](attachments/pre-reframe-root-baseline-v1.md)、[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)；无试验/有效性证据，H3-SEM-001 required/open 仍阻断 H3 冻结/运行 |
 
-**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007 为 `accepted-residual`（权限未知部分经用户明确接受，非 verified）；I-002/I-004/I-006/I-008/I-009/I-010 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1 已完成并经用户确认关门，A-003 independent pass；PA2 未开始。只有 R1 完成。本轮不改变运行记录或下游状态。
+**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-002/I-004/I-006/I-009/I-010 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1 已完成并经用户确认关门；PA2 S1～S3 已完成、37 项要素已抽取，S4 待独立退出审计。只有 R1 完成。本轮不改变运行记录或下游状态。
 
 ## 父目标
 
