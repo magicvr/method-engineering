@@ -5,7 +5,7 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.7
+version: 0.1.8
 ---
 
 # 审计记录 · GOAL-009
@@ -24,8 +24,8 @@ version: 0.1.7
 | A-001 | 2026-10-04 | self | R2-W 方法工作版、两项结构、覆盖、残余与门禁内部核对 | conditional（整改后无开放 required；独立审计待完成） | 0；M-01～M-05 fixed | [A-001](03-audit/A-001-self-internal-check.md) |
 | A-002 | 2026-10-04 | independent | R2-W 方法工作版、两项结构、§10/§13 覆盖、残余、门禁与 S4 退出 | reject（REJECT；F-01 required） | 0；F-01 fixed，A-003 闭合；F-02 fixed | [A-002](03-audit/A-002-independent-exit-audit.md) |
 | A-003 | 2026-10-04 | independent | A-002 F-01 fixed 闭合核验与 S4 退出可行性 | pass（ACCEPT WITH NOTES） | 0；m-01 fixed | [A-003](03-audit/A-003-independent-closure-verification.md) |
-| A-004 | 2026-10-04 | independent | 方法工作版对照 VP-003 与根目标 R2-W 构想 | conditional | 1；A-004-F-001 required 未闭合；F-002 recommended | [A-004](03-audit/A-004-vp003-root-conception-review.md) |
+| A-004 | 2026-10-04 | independent | 方法工作版对照 VP-003 与根目标 R2-W 构想 | conditional | 1；F-001 fixed response，待独立闭合复审；F-002 absorbed/fixed response | [A-004](03-audit/A-004-vp003-root-conception-review.md) |
 
 ## 结论状态
 
-S4 内部核对已完成；A-001 self 为 conditional，M-01～M-05 已 fixed。independent A-002 为 REJECT：F-01（MAJOR/required）指出 §13-6/§13-7 覆盖不足与 8A/8B 定位不成立，F-02（MINOR）指出 GOAL-003 摘要旧范围，已响应 fixed。用户已按 P-004 选择 F-01 fixed；E-004 已补齐步骤 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审为 pass（ACCEPT WITH NOTES），确认 A-002 F-01 可按 fixed 合法闭合；m-01 已 fixed。A-004 independent 为 conditional：方法文本符合 VP-003 本阶段与受限 R2-W 路线，但 A-004-F-001（required）指出工作版未写入仍沿用的 AI 协助边界与需求 §12 十一项排除；F-002 为 recommended。编排器建议按 fixed 处理 F-001，并在同一轮吸收 F-002；按 P-004 等待用户明确选择 fixed / accepted-residual / user-overruled。在 F-001 合法闭合前，S4 未完成，不得确认 GOAL-009 done 或 Root R2-W checkpoint。
+S4 内部核对已完成；A-001 self 为 conditional，M-01～M-05 已 fixed。independent A-002 为 REJECT：F-01（MAJOR/required）指出 §13-6/§13-7 覆盖不足与 8A/8B 定位不成立，F-02（MINOR）指出 GOAL-003 摘要旧范围，已响应 fixed。用户已按 P-004 选择 F-01 fixed；E-004 已补齐步骤 8A/8B、反补丁与范围/敏感性指导及对应字段。A-003 independent 闭合复审为 pass（ACCEPT WITH NOTES），确认 A-002 F-01 可按 fixed 合法闭合；m-01 已 fixed。A-004 independent 为 conditional：方法文本符合 VP-003 本阶段与受限 R2-W 路线，但 A-004-F-001（required）指出工作版未写入仍沿用的 AI 协助边界与需求 §12 十一项排除；F-002 为 recommended。用户已按 P-004 选择 F-001 fixed，并同轮吸收 F-002；E-006 已完成附件整改。F-001 在 independent 闭合复审通过前仍为开放 required；S4 未完成，不得确认 GOAL-009 done 或 Root R2-W checkpoint。
