@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.1
+version: 0.1.2
 ---
 
 # 审计记录 · GOAL-007
@@ -14,7 +14,7 @@ version: 0.1.1
 
 | 核对项 | 状态 | 备注 |
 |---|---|---|
-| Root I-010 | open | PA4/PA5 缺口与选路依据；PA5 退出前必须满足 |
+| Root I-010 | accepted-residual（非 verified） | 用户按 D-002 接受五类未决作为 PA5 输入；仅允许 PA4 退出，不允许据此冻结路线 |
 | I-008 残余 | accepted-residual（非 verified） | S04-C 全文未决 |
 | I-009 | verified（限定） | 映射覆盖与处置依据已核对；关键 unresolved 仍是 PA4 输入 |
 
@@ -26,4 +26,4 @@ version: 0.1.1
 
 ## 结论状态
 
-S1～S3 候选完成；A-001 independent 审查为 ACCEPT WITH NOTES，M-01 fixed。I-010 仍 open，S4 待用户裁决与正式退出审计。
+S1～S3 候选完成；A-001 independent 审查为 ACCEPT WITH NOTES，M-01 fixed。用户按 D-002 接受 I-010 有界残余；S4 待正式退出审计。
