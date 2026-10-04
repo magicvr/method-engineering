@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 1.18.0
+version: 1.19.0
 ---
 
 # 决策记录 · GOAL-001
@@ -54,4 +54,5 @@ version: 1.18.0
 | D-025 | 2026-10-04 | 选择 R4 原始用例并指定外部审计模式 | accepted | [D-025](01-decision/D-025-select-r4-real-case.md) |
 | D-026 | 2026-10-04 | ARCHITECT 目标漂移审查结论 | proposed（待用户裁决） | [D-026](01-decision/D-026-architect-goal-drift-review.md) |
 | D-027 | 2026-10-04 | R1 能力边界复审结论 | proposed（待用户裁决） | [D-027](01-decision/D-027-r1-capability-boundary-review.md) |
-| D-028 | 2026-10-04 | 继任 R1 能力边界承诺 | proposed（待用户确认） | [D-028](01-decision/D-028-r1-successor-capability-commitment.md) |
+| D-028 | 2026-10-04 | 继任 R1 能力边界承诺 | proposed（待用户确认冻结） | [D-028](01-decision/D-028-r1-successor-capability-commitment.md) |
+| D-029 | 2026-10-04 | 授权修订 R1/Root 并澄清 VP-003 | accepted | [D-029](01-decision/D-029-authorize-r1-root-vp-capability-revision.md) |
