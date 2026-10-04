@@ -16,3 +16,6 @@ version: 0.1.0
 | RUN-001-raw-case | bounded-real-case-trial | awaiting-input | [controller/run.yaml](RUN-001-raw-case/controller/run.yaml) |
 
 登记日期：2026-10-04。运行、访问核验与验收均未执行，validity pending / acceptance not-submitted。
+
+
+RUN-001-raw-case: failed（显式失败：方法将宽泛真实需要退回创作者；见 controller/failure.md）

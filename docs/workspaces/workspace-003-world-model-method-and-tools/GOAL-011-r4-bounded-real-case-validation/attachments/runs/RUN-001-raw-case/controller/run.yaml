@@ -6,7 +6,7 @@ baseline_commit: e5b6cc7
 baseline_full_commit: e5b6cc775c6c3d8d2d0567ed0747b14bd4f17746
 input_sha256: 6cbdc3ab2ea04f5b5d6c509ae8e0e1b237af1ab93b3f01df7583cd722a1d7c42
 method_bundle_sha256: 7e768fb02b436d7c9094d52137d1efb52d7ecfbe0f92df63f38151762e3b3ed1
-status: awaiting-input
+status: failed
 validity: pending（no successful forbidden read observed; anomalies recorded）
 acceptance: not-submitted
 created: 2026-10-04

@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.40.4
+version: 0.40.5
 progress: 80%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -44,7 +44,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | R2-PA | 成熟理论吸收与选路 | 已完成 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线与交接包已冻结。I-007/I-008/I-010 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据）。 |
 | R2-W | 方法工作版形成与内部核对 | 已完成 | GOAL-009 已形成版本化方法并覆盖 §10/§13；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
 | R3 | 工具分支评估与落实 | 已完成 | GOAL-010 no-tool 分支、no-tool 记录与独立闭合复审已完成；I-006 为限定 accepted-residual（非 verified）；用户确认关门。 |
-| R4 | 最终有界检验、交付与验收 | 进行中（准备） | GOAL-011 S1/S2 已完成：正式用例原文直接输入；RUN-001 冻结包已就绪；本仓验收仅指试运行结果，方法/no-tool 仍须交付下游；S3 待运行，I-004 外部审计意见待产出。 |
+| R4 | 最终有界检验、交付与验收 | 进行中（RUN-001 显式失败；目标漂移审查待 ARCHITECT） | GOAL-011 已建立并运行 RUN-001；用户判定显式失败：方法未形成宽泛真实需要的 intake/decomposition 能力，把预拆解负担退回创作者；方法修订/RUN-002 待审查决定；下游交付与 I-004 仍未完成。 |
 
 先后为 R1→R2-PA→R2-W→R4；R3 可并行评估，工具实现等接口稳定，R2-W/R3 同时就绪才进入 R4。
 

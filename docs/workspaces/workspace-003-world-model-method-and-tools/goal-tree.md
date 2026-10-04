@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.48.5
+version: 0.48.6
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -27,7 +27,7 @@ GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界
 |   `-- GOAL-008-pa5-information-closure-and-route-freeze [done] PA5 · 未决收敛、路线冻结与交接 · S1～S4 完成，A-003 pass，用户确认关门 · progress 100%（4/4）
 |-- GOAL-009-r2w-method-working-version [done] R2-W · 方法工作版与内部核对 · S1～S4 完成，A-005 pass，用户确认关门 · progress 100%（4/4）
 |-- GOAL-010-r3-tool-branch-evaluation [done] R3 · 工具分支评估与落实 · S1～S4 完成，A-003 pass，用户确认关门 · progress 100%（4/4）
-`-- GOAL-011-r4-bounded-real-case-validation [active] R4 · 真实用例 black-box 检验与交付验收 · S3 waiting 真实用户澄清，RUN-001 未完成 · progress 33%（2/6）
+`-- GOAL-011-r4-bounded-real-case-validation [active] R4 · 真实用例 black-box 检验与交付验收 · RUN-001 显式失败，目标漂移审查待 ARCHITECT · progress 33%（2/6）
 ```
 
 现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点中 R1/R2-PA/R2-W/R3 完成，4/5=80%；PA 内阶段不计入 Root 分母，progress 不放行。
@@ -53,4 +53,4 @@ PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成；GOAL-009 �
 | `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；受限 R2-W 路线与交接包冻结；A-003 pass；用户确认关门。 |
 | `GOAL-009-r2w-method-working-version` | R2-W · 方法工作版与内部核对 | `GOAL-001-world-model-method-and-tools` | done | 100% | S1～S4 完成，4/4；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
 | `GOAL-010-r3-tool-branch-evaluation` | R3 · 工具分支评估与落实 | `GOAL-001-world-model-method-and-tools` | done | 100% | S1～S4 完成，4/4；A-001 F-001 经 A-002/A-003 fixed 闭合，无开放 required；用户确认关门。 |
-| `GOAL-011-r4-bounded-real-case-validation` | R4 · 真实用例 black-box 检验与交付验收 | `GOAL-001-world-model-method-and-tools` | active | 33% | S1/S2 完成，S3 进行中：RUN-001 原文直接输入，方法在步骤0提出澄清并 waiting；须真实用户回应后继续。 |
+| `GOAL-011-r4-bounded-real-case-validation` | R4 · 真实用例 black-box 检验与交付验收 | `GOAL-001-world-model-method-and-tools` | active | 33% | S1/S2 完成；RUN-001 被用户判定显式失败：方法把预拆解负担退回创作者；目标漂移审查待 ARCHITECT，修订/重跑未启动。 |
