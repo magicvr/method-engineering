@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 审计记录 · GOAL-007
@@ -22,8 +22,8 @@ version: 0.1.0
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| — | — | — | PA4 尚未执行 | — | 0 | — |
+| A-001 | 2026-10-04 | independent | S1～S3 缺口/吸收候选与 S4 边界 | pass（ACCEPT WITH NOTES） | 0；M-01 fixed | [A-001](03-audit/A-001-independent-pa4-gap-review.md) |
 
 ## 结论状态
 
-尚未到阶段审计节点。S4 完成前必须核验 I-010、缺口/吸收/停止/授权边界。
+S1～S3 候选完成；A-001 independent 审查为 ACCEPT WITH NOTES，M-01 fixed。I-010 仍 open，S4 待用户裁决与正式退出审计。

@@ -44,12 +44,12 @@ version: 0.29.1
 
 ## 纲领阶段
 
-实现路线唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：R1 已冻结需求与治理基线 → R2-PA 成熟理论吸收与选路 → R2-W 方法工作版形成与内部核对 → R4 最终有界检验、交付与验收；R3 工具分支可在已冻结边界内并行评估，工具实现等待方法接口稳定，R2-W/R3 均就绪再进入 R4。R2-PA 由 [GOAL-003](GOAL-003-prior-art-replanning/00-meta.md) 承载，PA1/PA2/PA3 已完成并经用户确认关门；PA4 S1～S3 已完成，S4 待 I-010 核对；37 项来源要素已抽取，S04-C 全文保持 accepted-residual；旧 [GOAL-002](GOAL-002-r2-method-validation/00-meta.md) 已按 reframe 终止。
+实现路线唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：R1 已冻结需求与治理基线 → R2-PA 成熟理论吸收与选路 → R2-W 方法工作版形成与内部核对 → R4 最终有界检验、交付与验收；R3 工具分支可在已冻结边界内并行评估，工具实现等待方法接口稳定，R2-W/R3 均就绪再进入 R4。R2-PA 由 [GOAL-003](GOAL-003-prior-art-replanning/00-meta.md) 承载，PA1/PA2/PA3 已完成并经用户确认关门；PA4 S1～S3 候选完成，S4 待 I-010 用户裁决；37 项来源要素已抽取，S04-C 全文保持 accepted-residual；旧 [GOAL-002](GOAL-002-r2-method-validation/00-meta.md) 已按 reframe 终止。
 
 VP-003 v0.1.1 仍只有 R1→R2/R3→R4 方向结构，未修改意图/判据；这是实现层细化，非 strategic。本文件不维护 progress 或第二套门禁状态；状态和证据只查 Root 及 goal-tree。
 ## 当前路线与门禁入口（2026-10-04）
 
-[Root D-021](GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md) 记录用户书面授权的 reframe；R1 沿用仅证明协议冻结，旧 H 或理论没有因继承而被验证。PA1/PA2/PA3 已完成并经用户确认关门；I-008 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据），I-010 open，PA4 S1～S3 完成、S4 待核对。旧路线不要求补完预登记，H3-SEM-001 不闭合，旧 H3 冻结/运行继续禁止。
+[Root D-021](GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md) 记录用户书面授权的 reframe；R1 沿用仅证明协议冻结，旧 H 或理论没有因继承而被验证。PA1/PA2/PA3 已完成并经用户确认关门；I-008 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据），I-010 open，PA4 S1～S3 候选完成、S4 待 I-010 用户裁决。旧路线不要求补完预登记，H3-SEM-001 不闭合，旧 H3 冻结/运行继续禁止。
 
 实时信息登记见 [Root](GOAL-001-world-model-method-and-tools/00-meta.md)：I-007 约束迁移/来源/资源为 `accepted-residual`（非 verified）；I-008 来源抽取为 `accepted-residual`（S04-C 全文未决经用户接受，非 verified）；I-009 映射适用性已 verified（限定）；I-010 约束缺口/路线冻结与原创许可；I-005 移为历史项，编号不复用；未来复用旧实验须重检旧门禁。R3 人工过程证据与 R4 用例/审计仍按原契约。本页不独立更新或放行门禁，也不改 runtime record/下游材料。
 
