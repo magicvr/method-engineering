@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.0
+version: 0.1.1
 ---
 
 # 审计记录 · GOAL-008
@@ -22,8 +22,8 @@ version: 0.1.0
 
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
-| — | — | — | PA5 尚未执行 | — | 0 | — |
+| A-001 | 2026-10-04 | independent | S1～S2 纸面检查与 S3 边界 | fail（REJECT；M-01 required） | 1（M-01） | [A-001](03-audit/A-001-independent-pa5-paper-check-review.md) |
 
 ## 结论状态
 
-尚未到阶段审计节点。S4 前必须核验信息收敛、路线冻结和 I-010 门禁。
+A-001 independent 审查发现 M-01：单元级检查记录缺失，当前不能验收 S2。已补存 B01～B20 单元记录，待独立闭合核验。I-010 仍不能整体 verified，S3 未放行。

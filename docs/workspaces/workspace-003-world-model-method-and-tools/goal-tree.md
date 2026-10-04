@@ -33,14 +33,14 @@ R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不�
 
 门禁唯一权威在 [Root meta](GOAL-001-world-model-method-and-tools/00-meta.md)：I-001/I-003 verified；I-007 为 accepted-residual（权限未知部分经用户明确接受，非 verified）；I-008 为 accepted-residual（S04-C 全文未决经用户接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified）；I-002/I-004/I-006 open；历史 I-005 最后事实状态仍 open、旧 R2c/R2d 撤回。H3-SEM-001 required/open 不作闭合，旧 H3 冻结/运行禁止；新 PA 不要求补完旧预登记，复用旧实验前须重检全部适用门禁。I-007 约束迁移/PA1/新增执行，I-008 来源/抽取 PA2-PA3，I-009 映射 PA3，I-010 缺口/PA5/R2-PA 退出/R2-W/原创启动；I-006 按现行人工过程/既有实践支持 R3 分支，I-002 控制真实案例，I-004 控制 R4 独立审计。
 
-PA1～PA4 已完成并经用户确认关门；PA5 未开始。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/方法工作版/工具/交付事实。运行主记录及下游材料未改。
+PA1～PA4 已完成并经用户确认关门；PA5 S1～S2 完成，S3 待裁决。I-007/I-008/I-010 为 `accepted-residual`（非 verified）；I-009 verified（限定）。无理论适用性结论，无新 H 运行/方法工作版/工具/交付事实。运行主记录及下游材料未改。
 
 跨区历史入口：[workspace-002 的 Root](../workspace-002-consumer-response-protocol/GOAL-001-consumer-response-protocol/00-meta.md) 关门仅验证供需流程，不证明领域方法。
 ## 状态表
 
 | id | title | parent | status | progress | notes |
 |---|---|---|---|---|---|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007/I-008 accepted-residual（非 verified）；I-009 verified（限定）；PA1～PA4 完成，PA5 未开始。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007/I-008 accepted-residual（非 verified）；I-009 verified（限定）；PA1～PA4 完成，PA5 S1～S2 完成。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
 | `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 80% | PA1～PA4 已完成并经用户确认关门；PA5 由 GOAL-008 承载，尚未完成。I-007/I-008/I-010 accepted-residual，I-009 verified（限定）。 |
 | `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；A-003 independent pass；用户确认关门。 |

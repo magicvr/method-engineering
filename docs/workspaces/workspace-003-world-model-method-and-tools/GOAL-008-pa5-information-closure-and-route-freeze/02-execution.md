@@ -19,4 +19,4 @@ version: 0.1.2
 
 ## 事实边界
 
-尚未开始信息收敛或路线冻结。PA4 的五类 unresolved 只是输入，不是已解决或已证缺口。
+S1～S2 已完成：20 个合成纸面检查执行结果为 14 pass、0 fail、6 uncertain，单元级记录见 [纸面检查单元级记录](../attachments/paper-check-unit-records-v0.1.md)，汇总见 [纸面检查报告](../attachments/paper-check-report-v0.1.md)。未新增来源、未使用真实案例、未运行完整 H 实验、未调用外部模型、未实现工具、未启动原创。I-010 仍不能整体 verified；S3 路线冻结待用户残余/阻塞裁决。
