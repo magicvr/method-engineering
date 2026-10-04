@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.4
+version: 0.1.5
 ---
 
 # 执行记录 · GOAL-005
@@ -18,6 +18,7 @@ version: 0.1.4
 | E-002 | 2026-10-04 | 完成 S2/S3 要素抽取与跨来源登记 | recorded | [E-002](02-execution/E-002-complete-s2-s3-extraction.md) |
 | E-003 | 2026-10-04 | 接受 S04-C 残余并响应 PA2 独立审查 | recorded | [E-003](02-execution/E-003-accept-s04c-residual-and-respond-review.md) |
 | E-004 | 2026-10-04 | 完成 PA2 退出独立审计 | recorded | [E-004](02-execution/E-004-complete-pa2-exit-audit.md) |
+| E-005 | 2026-10-04 | 用户确认 PA2 关门并完成 GOAL-005 | recorded | [E-005](02-execution/E-005-close-pa2-on-user-confirmation.md) |
 
 ## 事实边界
 

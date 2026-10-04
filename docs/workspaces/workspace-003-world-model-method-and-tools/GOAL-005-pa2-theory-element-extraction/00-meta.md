@@ -1,12 +1,12 @@
 ---
 id: GOAL-005-pa2-theory-element-extraction
 title: PA2 · 理论来源核实与要素抽取
-status: active
+status: done
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.3
-progress: 75%
+version: 0.2.0
+progress: 100%
 ---
 
 # GOAL-005 · PA2 理论来源核实与要素抽取
@@ -29,7 +29,7 @@ progress: 75%
 - [x] 每个理论要素/局部主张均有独立 ID、原文定位、前提、输入/输出、适用范围、限制和证据等级。
 - [x] PA-S01～PA-S05 的代表来源均有系统抽取记录或用户接受的有界残余；PA-S04-C 保持 unresolved。
 - [x] 来源间冲突、解释差异和反向/替代线索单独登记，不强行合并。
-- [ ] Root `I-008` 由证据满足；PA2 退出经阶段审计，无未合法闭合的 required finding。
+- [x] Root `I-008` 由证据满足（含用户接受的有界残余）；PA2 退出经阶段审计，无未合法闭合的 required finding。
 
 ## 纲领路线图（P-001）
 
@@ -38,13 +38,13 @@ progress: 75%
 | S1 | 访问核实与抽取协议 | 已完成 | 主来源路径可读、定位格式、元素 ID/字段、停止规则和证据等级固定。 |
 | S2 | 核心来源抽取 A | 已完成 | PA-S01～PA-S03 有系统抽取记录、原文定位、前提/范围/限制与 unresolved 标记。 |
 | S3 | 核心来源抽取 B | 已完成（C 为有界残余） | S04-D/S05 有系统抽取记录；S04-C 全文按用户 D-002 保持 unresolved，不以摘要冒充全文。 |
-| S4 | 交叉核对与 I-008 退出 | 进行中 | 跨来源冲突/差异登记，覆盖检查完成，Root I-008 证据满足，阶段审计无开放 required。 |
+| S4 | 交叉核对与 I-008 退出 | 已完成 | 跨来源冲突/差异登记，覆盖检查完成，Root I-008 证据满足，阶段审计无开放 required。 |
 
-S1→S2/S3 可在访问方案固定后并行，S4 依赖 S2/S3；不得越过 I-008 到期门禁进入 PA3。
+S1→S2/S3→S4 已完成；用户 2026-10-04 确认 PA2 关门。I-008 为 accepted-residual（非 verified），不得据此自动进入 PA3。
 
 ## 派生进度展示
 
-S1～S4 四个等权检查点，当前 3/4=75%。S1～S3 完成：37 个来源要素/局部主张已抽取；S04-C 全文由用户 D-002 接受为有界残余，Root I-008 为 accepted-residual（非 verified）。S4 仍须独立退出审计。progress 只作展示，不放行 PA3、不关闭 finding。
+S1～S4 四个等权检查点，4/4=100%。用户 2026-10-04 确认关门；A-002 independent verdict pass（ACCEPT WITH NOTES），I-008 保持 accepted-residual（非 verified）。GOAL-005 置 done；该关门不放行 PA3、不关闭 I-009/I-010。
 
 ## 信息门禁引用（非第二台账）
 

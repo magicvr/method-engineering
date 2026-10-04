@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.3
+version: 0.1.4
 ---
 
 # 审计记录 · GOAL-005
@@ -26,4 +26,4 @@ version: 0.1.3
 
 ## 结论状态
 
-PA2 S1～S4 证据已完成，A-001/A-002 independent 均为 ACCEPT WITH NOTES，相关 minor 已修正，开放 required 为 0。可向用户提议 GOAL-005 done 与 GOAL-003 PA2 完成；I-008 保持 accepted-residual，I-009/I-010 open，PA3 未放行。
+PA2 S1～S4 证据已完成，A-001/A-002 independent 均为 ACCEPT WITH NOTES，相关 minor 已修正，开放 required 为 0。用户 2026-10-04 确认关门；GOAL-005 置 done，GOAL-003 PA2 完成。I-008 保持 accepted-residual，I-009/I-010 open，PA3 未放行。
