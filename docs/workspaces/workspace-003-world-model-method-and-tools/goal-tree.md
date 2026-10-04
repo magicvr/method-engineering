@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.39.1
+version: 0.39.2
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -38,7 +38,7 @@ PA1/PA2 已完成并经用户确认关门；PA2 抽取 37 项来源要素，A-00
 
 | id | title | parent | status | progress | notes |
 |---|---|---|---|---|---|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007/I-008 accepted-residual（非 verified）；PA1/PA2 完成，PA3 未开始。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007/I-008 accepted-residual（非 verified）；PA1/PA2 完成；PA3 S1～S3 映射完成，S4 待 I-009 核对。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
 | `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 40% | PA1/PA2 已完成并经用户确认关门；PA3 由 GOAL-006 承载，尚未完成。I-007/I-008 accepted-residual，I-009/I-010 open。 |
 | `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；A-003 independent pass；用户确认关门。 |

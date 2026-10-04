@@ -4,14 +4,14 @@ status: active
 created: 2026-10-04
 updated: 2026-10-04
 parent: GOAL-003-prior-art-replanning
-version: 0.1.0
+version: 0.1.1
 ---
 
 # PA3 需求与旧假设映射矩阵 v0.1
 
 ## 使用边界
 
-本矩阵把 PA2 的 37 项理论要素/局部主张映射到需求 §10/§13 与旧 H1/H2/H3 局部主张。`adapt` 只表示存在可说明的有限改造候选，不表示已经验证有效；`unresolved` 不是缺口或原创许可。所有要素定位沿用 [PA2 理论要素](../GOAL-005-pa2-theory-element-extraction/attachments/theory-elements-v0.1.md)。
+本矩阵把 PA2 的 37 项理论要素/局部主张映射到需求 §10/§13 与旧 H1/H2/H3 局部主张。`adapt` 只表示存在可说明的有限改造候选，不表示已经验证有效；`unresolved` 不是缺口或原创许可。所有要素定位沿用 [PA2 理论要素](../../GOAL-005-pa2-theory-element-extraction/attachments/theory-elements-v0.1.md)。
 
 ## §10 · 模型能力缺口判定
 

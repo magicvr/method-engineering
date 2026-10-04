@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.37.5
+version: 0.37.6
 progress: 20%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -85,7 +85,7 @@ primary_plan: VP-003-world-model-method-and-tools
 | I-006 | required | 依据现行方法路线人工过程/既有实践，是否值得工具化及如何落实：重复步骤、人工成本、收益、维护负担 | R3 分支决定与退出 | R3 退出前 | 收集现行人工过程或既有实践证据，作支持/不足或不成立分支决定；稳定接口后落实 Skill，或 no-tool 理由、责任与复评触发 | open | 非延期；责任人：同一维护人；不反向阻断 R1，不要求先实现工具或靠 R4 才能决定 | 待收集；旧 H 运行不再是必经证据 |
 | I-007 | required | R1 通用约束、旧 H 专属额度及现行调查边界/来源方法/资源/执行授权如何迁移 | PA1 基线与来源方案；超出既有授权的新执行 | PA1 退出；任何超出已授权有界公开来源识别的新执行前 | 逐条盘点 R1、固定需求来源与调查边界，列可沿用/专属/需新裁决；新增费用/执行/预算须用户书面裁决 | accepted-residual（非 verified） | 责任人：方法工程响应负责人；残余范围仅限 GOAL-003 的 PA2/PA3 内部阅读/引用；外部交付前、出版方异议、获得正式许可或改用开放来源时复审；超出 6 人时、0 费用上限、来源/范围/策略变化时重新裁决 | [约束迁移矩阵](../GOAL-004-pa1-baseline-and-source-plan/attachments/constraint-migration-matrix-v0.1.md)、[来源/访问方案](../GOAL-004-pa1-baseline-and-source-plan/attachments/source-and-access-plan-v0.1.md)、[D-003](../GOAL-004-pa1-baseline-and-source-plan/01-decision/D-003-record-user-source-access-and-resource-decisions.md)：用户 2026-10-04 接受 J-01 A、J-02 A 残余、J-03 A（1 核心+至多 2 支撑/类；6 人时；费用 0）；公开托管副本权限未核实但按明确范围/复审接受，不写成 verified |
 | I-008 | required | 理论来源真实性/版本/原文定位及要素抽取对已界定调查范围是否充分 | PA2 抽取；PA3 比较输入 | PA2 退出；PA3 比较前 | 核实候选原始来源、版次与定位，保留可核对原文/解释边界，记录覆盖、反向/替代来源检查与不足 | accepted-residual（非 verified） | 责任人：方法工程响应负责人；S04-C 全文未取得，用户 2026-10-04 按 GOAL-005 D-002 接受有界残余；PA3/PA4 只以 S04-D 为 SD 方法定义核心，S04-C 摘要仅背景；冲突、需要 SD 历史/领域回顾、获得合法全文或外部交付前复审 | [访问台账](../GOAL-005-pa2-theory-element-extraction/attachments/source-access-ledger-v0.1.md)、[理论要素](../GOAL-005-pa2-theory-element-extraction/attachments/theory-elements-v0.1.md)、[覆盖/未决](../GOAL-005-pa2-theory-element-extraction/attachments/coverage-and-unresolved-v0.1.md)、[D-002](../GOAL-005-pa2-theory-element-extraction/01-decision/D-002-accept-s04c-fulltext-residual.md)：S01/S02/S03/S04-D/S05 已系统抽取 37 项；S04-C 保持 unresolved，不以摘要冒充全文 |
-| I-009 | required | 理论要素/局部主张与需求 §10/§13、旧 H 假设的映射及适用性依据 | PA3 四类处置；PA4 吸收输入 | PA3 退出 | 逐项核对条件、目标/输入/输出、差异、证据等级、反例与适用限制，记录 inherit/adapt/not-applicable/unresolved | open | 非延期；责任人：方法工程响应负责人；证据冲突暂停受影响选路并请用户裁决 | [映射草稿](../GOAL-003-prior-art-replanning/attachments/requirements-and-hypotheses-mapping-v0.1.md) 只含原文提取，尚无理论适用结论 |
+| I-009 | required | 理论要素/局部主张与需求 §10/§13、旧 H 假设的映射及适用性依据 | PA3 四类处置；PA4 吸收输入 | PA3 退出 | 逐项核对条件、目标/输入/输出、差异、证据等级、反例与适用限制，记录 inherit/adapt/not-applicable/unresolved | open | 责任人：方法工程响应负责人；S1～S3 映射完成，关键 unresolved/裁决点已登记；S4 正式退出审计和用户确认未完成；证据冲突暂停受影响选路并请用户裁决 | [PA3 映射矩阵](../GOAL-006-pa3-requirement-mapping/attachments/mapping-matrix-v0.1.md)、[关键未决](../GOAL-006-pa3-requirement-mapping/attachments/unresolved-and-decision-points-v0.1.md)、[A-001](../GOAL-006-pa3-requirement-mapping/03-audit/A-001-independent-pa3-mapping-review.md)：15 需求项与 H1/H2/H3 局部主张已映射；未用 inherit，I-009 仍 open |
 | I-010 | required | 缺口是否对应必要需求，调查边界/替代检查、继承/有限改造不足及后续选路依据是否充分 | PA5 路线冻结；R2-PA 退出；R2-W 进入；任何原创启动 | PA5 退出前；进入 R2-W/原创前 | 分清尚未查明与已发现适用限制，建立缺口/处置证据链、吸收方案、有限原创范围/停止条件及授权/审计核对 | open | 非延期；责任人：方法工程响应负责人；有关键 unresolved/必改/冲突则不冻结受影响路线，回流调查或用户裁决 | [缺口登记](../GOAL-003-prior-art-replanning/attachments/gap-and-disposition-register-v0.1.md)/[路线建议](../GOAL-003-prior-art-replanning/attachments/successor-route-proposal-v0.1.md) 均 draft；不把未搜到当理论不存在 |
 
 ### 历史信息项（编号不复用）
