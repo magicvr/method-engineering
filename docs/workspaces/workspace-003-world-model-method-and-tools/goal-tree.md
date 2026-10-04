@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.49.0
+version: 0.49.1
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -30,7 +30,7 @@ GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界
 `-- GOAL-011-r4-bounded-real-case-validation [active] R4 · 真实用例 black-box 检验与交付验收 · RUN-001 显式失败，ARCHITECT 漂移审查完成，待用户裁决 · progress 33%（2/6）
 ```
 
-现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.1 意图、方向级退出判据和 R1→R2/R3→R4 不改；此次非 strategic。Root 五个等权检查点中 R1/R2-PA/R2-W/R3 完成，4/5=80%；PA 内阶段不计入 Root 分母，progress 不放行。
+现行实现路线为 R1→R2-PA→R2-W→R4，R3 在冻结边界内可并行评估，工具实现等接口稳定，R2-W/R3 均就绪后才进入 R4。VP-003 v0.1.2 澄清了能力范围与退出判据表述，R1→R2/R3→R4 方向结构未改；此次非 strategic。Root 五个等权检查点中 R1/R2-PA/R2-W/R3 完成，4/5=80%；PA 内阶段不计入 Root 分母，progress 不放行。
 
 R1 v0.6.4 历史冻结/同步/关门成果沿用，只证明协议冻结，不证明旧 H1/H2/H3 或理论适用。Root [D-021](GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md) 记录新路线；旧路线与成功标准/门禁原文见 [历史基线](GOAL-001-world-model-method-and-tools/attachments/pre-reframe-root-baseline-v1.md)。旧目标终止不是 done/100%，历史 D/E/A 与附件原位保全，见 [清单](GOAL-002-r2-method-validation/attachments/reframe-history-manifest-v1.md)。
 
@@ -43,7 +43,7 @@ PA1～PA5 已完成并经用户确认关门，R2-PA/R2-W/R3 完成；GOAL-009 �
 
 | id | title | parent | status | progress | notes |
 |---|---|---|---|---|---|
-| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 80% | R1/R2-PA/R2-W/R3/R4 五等权检查点，4/5；R1/R2-PA/R2-W/R3 完成，R4 准备；ARCHITECT 复审认为 R1 最低能力规格不足；继任能力边界承诺草案已形成并补上运行时交互/可验证裁决能力边界；R1/Root/VP 修订已授权，待用户确认冻结。I-007/I-008/I-010 accepted-residual（非 verified）；I-009 verified（限定）；I-006 accepted-residual（非 verified，限定 R3）。 |
+| `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 80% | R1/R2-PA/R2-W/R3/R4 五等权检查点，4/5；R1/R2-PA/R2-W/R3 完成，R4 准备；ARCHITECT 复审认为 R1 最低能力规格不足；继任能力边界承诺草案已形成并补上运行时交互/可验证裁决能力边界；VP-003 已澄清到 v0.1.2；A-008 F-004 user-overruled，其余 fixed；D-028 待独立闭合核验后冻结。I-007/I-008/I-010 accepted-residual（非 verified）；I-009 verified（限定）；I-006 accepted-residual（非 verified，限定 R3）。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
 | `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | done | 100% | PA1～PA5 完成，受限 R2-W 路线与交接包冻结；用户确认 GOAL-003 关门。 |
 | `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；A-003 independent pass；用户确认关门。 |

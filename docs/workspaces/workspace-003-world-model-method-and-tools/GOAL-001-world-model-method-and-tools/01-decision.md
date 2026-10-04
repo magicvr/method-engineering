@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 1.19.0
+version: 1.20.0
 ---
 
 # 决策记录 · GOAL-001
@@ -56,3 +56,4 @@ version: 1.19.0
 | D-027 | 2026-10-04 | R1 能力边界复审结论 | proposed（待用户裁决） | [D-027](01-decision/D-027-r1-capability-boundary-review.md) |
 | D-028 | 2026-10-04 | 继任 R1 能力边界承诺 | proposed（待用户确认冻结） | [D-028](01-decision/D-028-r1-successor-capability-commitment.md) |
 | D-029 | 2026-10-04 | 授权修订 R1/Root 并澄清 VP-003 | accepted | [D-029](01-decision/D-029-authorize-r1-root-vp-capability-revision.md) |
+| D-030 | 2026-10-04 | VP-003 能力范围澄清 | accepted | [D-030](01-decision/D-030-vp003-capability-scope-clarification.md) |
