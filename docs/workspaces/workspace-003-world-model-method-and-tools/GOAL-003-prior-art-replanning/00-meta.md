@@ -5,15 +5,15 @@ status: active
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.5.1
-progress: 60%
+version: 0.6.0
+progress: 80%
 ---
 
 # GOAL-003 · 成熟理论调查、吸收与方法路线重规划
 
 ## 概述与单一 scope
 
-承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009 为 `verified`（限定映射覆盖与处置依据），I-010 仍 open；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S4 已完成，37 项来源要素已抽取；S04-C 全文按 D-002 保持 unresolved，A-002 独立退出审计 pass，用户确认 PA2 关门。无理论适用性结论；PA1～PA5 检查点 3/5=60%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
+承接 Root R2-PA，围绕已冻结需求调查成熟理论，抽取要素、映射必要需求与旧局部假设，形成可追溯吸收/改造/不适用/未决处置、缺口判断和后续方法路线交接。PA1 已由 [GOAL-004-pa1-baseline-and-source-plan](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成并经用户确认关门：基线固定、约束迁移、来源/访问方案和资源/停止规则均有证据，A-003 independent verdict pass。I-007/I-008 为 `accepted-residual`（非 verified），I-009 为 `verified`（限定映射覆盖与处置依据），I-010 为 `accepted-residual`（非 verified）；PA2 已由 [GOAL-005-pa2-theory-element-extraction](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 承载；S1～S4 已完成，37 项来源要素已抽取；S04-C 全文按 D-002 保持 unresolved，A-002 独立退出审计 pass，用户确认 PA2 关门。无理论适用性结论；PA1～PA5 检查点 4/5=80%。依据为 [Root D-021](../GOAL-001-world-model-method-and-tools/01-decision/D-021-prior-art-driven-implementation-reframe.md)。
 
 ## 非目标
 
@@ -24,7 +24,7 @@ progress: 60%
 - [x] 冻结可追溯基线与调查边界/来源方案，继承与新增授权清楚。
 - [x] 来源核实与要素抽取有原文定位、前提、限制和证据等级。
 - [x] §10/§13 与旧 H 局部主张映射完整，四类处置有可核对依据。
-- [ ] 必要需求缺口和替代检查、吸收/有限改造方案可追溯，不混淆未知和已证限制。
+- [x] 必要需求缺口和替代检查、吸收/有限改造方案可追溯，不混淆未知和已证限制。
 - [ ] 后续路线/门禁/停止条件/责任冻结并交接，开放必改项和信息项不被假放行。
 
 ## 纲领路线图（P-001）
@@ -34,14 +34,14 @@ progress: 60%
 | PA1 | 基线与来源方案 | 已完成 | S1～S4 完成；Root I-007 为 accepted-residual；A-003 independent pass；用户 2026-10-04 确认关门。 |
 | PA2 | 理论要素抽取 | 已完成 | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
 | PA3 | 需求/旧假设映射与四类处置 | 已完成 | 逐项映射 §10/§13 和 H1/H2/H3，明确适用依据、差异与四类处置；Root I-008/I-009 满足。 |
-| PA4 | 缺口判定与吸收方案 | 进行中 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
+| PA4 | 缺口判定与吸收方案 | 已完成 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
 | PA5 | 后续路线冻结与交接 | 未开始 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |
 
 先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。PA1 已由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成；PA2 已由 [GOAL-005](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 完成；PA3 已由 [GOAL-006-pa3-requirement-mapping](../GOAL-006-pa3-requirement-mapping/00-meta.md) 完成；PA4 由 [GOAL-007-pa4-gap-and-absorption](../GOAL-007-pa4-gap-and-absorption/00-meta.md) 承载；PA5 暂未建子目标。
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点中 PA1/PA2/PA3 已完成，3/5=60%；PA4 S1～S3 候选完成，五类未决已登记状态/替代/吸收/原创闸门；S4 待 I-010 用户裁决/审计。关键 unresolved 作为 PA4 输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 待 PA4/PA5 证据。
+PA1～PA5 五个等权检查点中 PA1～PA4 已完成，4/5=80%；PA5 尚未开始。五类未决已登记状态/替代/吸收/原创闸门；用户接受 I-010 有界残余，A-002 pass。I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified）。
 
 ## 信息门禁引用（非第二台账）
 

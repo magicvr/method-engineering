@@ -5,7 +5,7 @@ status: active
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.2
+version: 0.1.3
 ---
 
 # 审计记录 · GOAL-007
@@ -23,7 +23,8 @@ version: 0.1.2
 | A-ID | 日期 | source | scope | verdict | 开放 required | 文件 |
 |---|---|---|---|---|---|---|
 | A-001 | 2026-10-04 | independent | S1～S3 缺口/吸收候选与 S4 边界 | pass（ACCEPT WITH NOTES） | 0；M-01 fixed | [A-001](03-audit/A-001-independent-pa4-gap-review.md) |
+| A-002 | 2026-10-04 | independent | PA4 退出条件、I-010 有界残余与证据边界 | pass（ACCEPT WITH NOTES） | 0；M-01 fixed | [A-002](03-audit/A-002-independent-pa4-exit-audit.md) |
 
 ## 结论状态
 
-S1～S3 候选完成；A-001 independent 审查为 ACCEPT WITH NOTES，M-01 fixed。用户按 D-002 接受 I-010 有界残余；S4 待正式退出审计。
+S1～S4 证据完成；A-001/A-002 independent 均 pass，相关 minor 已修正，开放 required 为 0。I-010 为 accepted-residual（非 verified），只允许 PA4 退出，不冻结 PA5 路线。
