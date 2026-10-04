@@ -28,7 +28,7 @@ version: 0.30.17
 | canonical 范围 | `docs/workspaces/workspace-003-world-model-method-and-tools/` | 本区唯一的目标状态范围。 |
 | 共享资料目录 | `none` | 当前不声明共享资料引用。跨仓材料经下游 `exchange/` 交接，不进入本区共享资料机制。 |
 | 愿景角色 | `primary` | 2026-09-26 按用户确认开设，为 vision 层唯一 `primary`（`VR-006`）。 |
-| 规划对齐 | `plan_refs` / `primary_plan` = `VP-003-world-model-method-and-tools` | 当前 VP 版本 v0.1.1；指向 [docs/vision/plans/VP-003-world-model-method-and-tools.md](../../vision/plans/VP-003-world-model-method-and-tools.md)；`vision_ref` 精确对齐 `method-engineering@0.1.0`。 |
+| 规划对齐 | `plan_refs` / `primary_plan` = `VP-003-world-model-method-and-tools` | 当前 VP 版本 v0.1.2；指向 [docs/vision/plans/VP-003-world-model-method-and-tools.md](../../vision/plans/VP-003-world-model-method-and-tools.md)；`vision_ref` 精确对齐 `method-engineering@0.1.0`。 |
 
 ## 愿景对齐
 

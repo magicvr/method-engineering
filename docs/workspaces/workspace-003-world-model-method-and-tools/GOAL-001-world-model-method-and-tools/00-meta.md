@@ -5,7 +5,7 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.41.0
+version: 0.41.1
 progress: 80%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
@@ -40,7 +40,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 | 阶段 | 名称 | 状态 | 退出条件 |
 |---|---|---|---|
-| R1 | 已冻结需求与治理基线 | 已完成（历史冻结保留；能力规格复审待裁决） | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。2026-10-04 ARCHITECT 复审：冻结内容含实质边界，但最低能力规格不足；继任能力边界承诺草案 D-028 已形成并补上运行时交互/可验证裁决能力边界；VP-003 已澄清到 v0.1.2；A-008 F-004 投入上限 user-overruled，其余 findings 已 fixed；D-028 待 A-010 独立闭合核验后冻结。 |
+| R1 | 已冻结需求与治理基线 | 已完成（历史冻结保留；能力规格复审待裁决） | D-017/E-032/A-004 及 D-018/E-033/E-034/A-005 证明协议冻结与同步；历史成果沿用，不证明 H 假设或理论适用。2026-10-04 ARCHITECT 复审：冻结内容含实质边界，但最低能力规格不足；继任能力边界承诺草案 D-028 已形成并补上运行时交互/可验证裁决能力边界；VP-003 已澄清到 v0.1.2；A-008 F-004 投入上限 user-overruled，其余 findings 已 fixed；D-028 的 A-008 findings 已经 A-009/A-011 响应；A-010 发现局部一致性问题并已修正，待 A-012 独立闭合核验后冻结。 |
 | R2-PA | 成熟理论吸收与选路 | 已完成 | [后继目标](../GOAL-003-prior-art-replanning/00-meta.md) 的 PA1～PA5 已完成并经用户确认关门；受限 R2-W 路线与交接包已冻结。I-007/I-008/I-010 为 accepted-residual（非 verified），I-009 verified（限定映射覆盖与处置依据）。 |
 | R2-W | 方法工作版形成与内部核对 | 已完成 | GOAL-009 已形成版本化方法并覆盖 §10/§13；A-002 F-01 与 A-004-F-001 均已 fixed，A-003/A-005 independent pass，无开放 required；用户确认关门。 |
 | R3 | 工具分支评估与落实 | 已完成 | GOAL-010 no-tool 分支、no-tool 记录与独立闭合复审已完成；I-006 为限定 accepted-residual（非 verified）；用户确认关门。 |
