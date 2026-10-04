@@ -5,8 +5,8 @@ status: active
 parent: null
 created: 2026-09-26
 updated: 2026-10-04
-version: 0.37.9
-progress: 20%
+version: 0.38.0
+progress: 40%
 plan_refs: VP-003-world-model-method-and-tools
 primary_plan: VP-003-world-model-method-and-tools
 ---
@@ -22,7 +22,7 @@ primary_plan: VP-003-world-model-method-and-tools
 对齐 VP-003 v0.1.1（意图/方向判据未改）。本轮未完成后续交付。
 
 - [x] R1：冻结需求与治理基线，历史成果沿用；仅证明协议冻结，不证明旧 H 或理论适用。
-- [ ] R2-PA：成熟理论调查、要素抽取、需求/旧假设映射、缺口判定与吸收选路可追溯；完成后继目标 PA1～PA5 及所涉门禁。
+- [x] R2-PA：成熟理论调查、要素抽取、需求/旧假设映射、缺口判定与吸收选路可追溯；PA1～PA5 完成，受限 R2-W 路线已冻结。
 - [ ] R2-W：按选路形成版本化方法工作版，覆盖 §10/§13、两项可手填结构与内部核对；适用条件、证据范围、限制、未决与后续责任可核对。
 - [ ] R3：根据人工过程/既有实践落实工具或本轮 no-tool 分支。
 - [ ] R4：最终有界检验、交付、实际收件、验收/异议迭代、反馈路由与结束各有证据。
@@ -71,7 +71,7 @@ primary_plan: VP-003-world-model-method-and-tools
 
 ## 派生进度展示
 
-五个等权纲领检查点中仅 R1 完成，progress: 20%（1/5）。分母从旧 1/4 调整为 1/5，不代表撤销 R1 或新增失败；PA1～PA5 不额外计入 Root 分母。progress 不放行、不闭合 finding、不覆盖门禁、不推导 done。
+五个等权纲领检查点中 R1/R2-PA 完成，progress: 40%（2/5）。分母从旧 1/4 调整为 1/5，不代表撤销 R1 或新增失败；PA1～PA5 不额外计入 Root 分母。progress 不放行、不闭合 finding、不覆盖门禁、不推导 done。
 ## 信息就绪与未知项
 
 本表为唯一权威；后继目标只引用编号与证据，不复制状态。I-001/I-003 的 verified 仅是协议结论；已授权文档盘点可先启动，后续调查/选路/原创仍按最晚阶段核对。不得自动把新路线授权扩大为试验或付费授权。
@@ -94,7 +94,7 @@ primary_plan: VP-003-world-model-method-and-tools
 |---|---|---|---|---|---|---|---|
 | I-005 | required | H1/H2/H3 在旧冻结范围内是否足以支持方法选路，哪些有证据/需替代/不足 | 旧 R2c 选路前、旧 R2d 形成前 | 旧预登记下有界试验与四标签证据选路 | open | 旧 R2c/R2d 撤回当前执行范围，不是 verified 或 finding 闭合；未来复用旧路线前由响应负责人复核旧门禁 | [旧基线](attachments/pre-reframe-root-baseline-v1.md)、[D-021](01-decision/D-021-prior-art-driven-implementation-reframe.md)；无试验/有效性证据，H3-SEM-001 required/open 仍阻断 H3 冻结/运行 |
 
-**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002/I-004/I-006 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1/PA2/PA3 已完成并经用户确认关门；PA4 已完成并经用户确认关门，PA5 S1～S2 完成、S3 待裁决。只有 R1 完成。本轮不改变运行记录或下游状态。
+**门禁现状（2026-10-04）**：I-001/I-003 verified；I-007/I-008 为 `accepted-residual`（权限/全文未知部分经用户明确接受，非 verified）；I-009 verified（限定映射覆盖与处置依据）；I-010 accepted-residual（非 verified；按 GOAL-008 D-003 允许受限 PA5 路线冻结）；I-002/I-004/I-006 open；历史 I-005 最后状态 open。旧 H3 门禁隔离且不闭合；PA1/PA2/PA3 已完成并经用户确认关门；PA4 已完成并经用户确认关门，R2-PA 完成，R2-W 未开始。R1/R2-PA 完成。本轮不改变运行记录或下游状态。
 
 ## 父目标
 

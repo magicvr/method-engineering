@@ -18,6 +18,7 @@ version: 0.1.3
 | E-002 | 2026-10-04 | 执行 PA5 有界纸面检查方案 B | recorded | [E-002](02-execution/E-002-execute-pa5-paper-checks.md) |
 | E-003 | 2026-10-04 | 完成 PA5 路线冻结与交接包 | recorded | [E-003](02-execution/E-003-complete-route-freeze-and-handoff.md) |
 | E-004 | 2026-10-04 | 完成 PA5 退出独立审计 | recorded | [E-004](02-execution/E-004-complete-pa5-exit-audit.md) |
+| E-005 | 2026-10-04 | 用户确认 PA5 关门并完成 GOAL-008 | recorded | [E-005](02-execution/E-005-close-pa5-on-user-confirmation.md) |
 
 ## 事实边界
 

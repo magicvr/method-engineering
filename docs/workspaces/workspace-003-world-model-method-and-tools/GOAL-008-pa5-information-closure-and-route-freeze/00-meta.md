@@ -1,12 +1,12 @@
 ---
 id: GOAL-008-pa5-information-closure-and-route-freeze
 title: PA5 · 未决收敛、路线冻结与交接
-status: active
+status: done
 parent: GOAL-003-prior-art-replanning
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.1.3
-progress: 75%
+version: 0.2.0
+progress: 100%
 ---
 
 # GOAL-008 · PA5 未决收敛、路线冻结与交接
@@ -29,7 +29,7 @@ progress: 75%
 - [x] 逐项核对必要需求、替代检查、继承/有限改造不足和吸收/改造方案，形成可追溯路线输入。
 - [x] 冻结 R2-W 的范围、步骤/退出、停止条件、责任和交接，未决与限制不被掩盖。
 - [x] 原创/实验/新增来源如需执行，均有用户书面授权、资源/停点/审计门禁；本轮未执行这些动作。
-- [ ] Root `I-010` 门禁按证据或有界残余满足；PA5 退出经独立审计，无未合法闭合的 required finding。
+- [x] Root `I-010` 门禁按用户 D-003 有界残余满足（非 verified）；PA5 退出经 A-003 独立审计，无未合法闭合的 required finding。
 
 ## 纲领路线图（P-001）
 
@@ -44,7 +44,7 @@ S1→S2→S3→S4；无 S2 证据或明确残余不得进入 S3 路线冻结。
 
 ## 派生进度展示
 
-S1～S4 四个等权检查点，当前 3/4=75%。S3 完成：受限 R2-W 路线与交接包已冻结；S4 待覆盖范围的独立退出审计。progress 只作展示，不放行 R2-W、不关闭 I-010 或 finding。
+S1～S4 四个等权检查点，4/4=100%。A-003 independent pass；用户 2026-10-04 确认 GOAL-008 关门。I-010 保持 accepted-residual，不自动启动 R2-W、R3/R4、工具、原创、实验、真实案例或外部交付。
 
 ## 信息门禁引用（非第二台账）
 

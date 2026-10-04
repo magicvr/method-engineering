@@ -4,7 +4,7 @@ status: active
 created: 2026-09-26
 updated: 2026-10-04
 parent: null
-version: 0.43.3
+version: 0.44.0
 ---
 
 # 目标树 · 世界模型方法与工具
@@ -17,7 +17,7 @@ version: 0.43.3
 ## 树
 
 ```text
-GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1 完成，PA1/PA2 完成 · progress 20%
+GOAL-001-world-model-method-and-tools [active] 为消费方构建并交付世界模型的方法与工具 · R1/R2-PA 完成 · progress 40%
 |-- GOAL-002-r2-method-validation [cancelled] 旧 R2 路线 · terminated-by-reframe · 历史 progress 0%（0/4）
 `-- GOAL-003-prior-art-replanning [active] 成熟理论调查、吸收与方法路线重规划 · PA1～PA4 完成，PA5 启动 · progress 80%（4/5）
     `-- GOAL-004-pa1-baseline-and-source-plan [done] PA1 · 基线与来源方案 · 用户确认关门 · progress 100%（4/4）
@@ -42,9 +42,9 @@ PA1～PA4 已完成并经用户确认关门；PA5 S1～S2 完成，S3 待裁决�
 |---|---|---|---|---|---|
 | `GOAL-001-world-model-method-and-tools` | 为消费方构建并交付世界模型的方法与工具 | `null` | active | 20% | R1/R2-PA/R2-W/R3/R4 五等权检查点，1/5；仅 R1 完成。I-007/I-008 accepted-residual（非 verified）；I-009 verified（限定）；PA1～PA4 完成，PA5 S1～S2 完成。 |
 | `GOAL-002-r2-method-validation` | R2 · 方法假设验证与工作版形成 | `GOAL-001-world-model-method-and-tools` | cancelled | 0% | terminated-by-reframe，历史 0/4；superseded_by: GOAL-003-prior-art-replanning；H3-SEM-001 required/open，旧 H3 禁止冻结/运行。 |
-| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | active | 80% | PA1～PA4 已完成并经用户确认关门；PA5 由 GOAL-008 承载，尚未完成。I-007/I-008/I-010 accepted-residual，I-009 verified（限定）。 |
+| `GOAL-003-prior-art-replanning` | 成熟理论调查、吸收与方法路线重规划 | `GOAL-001-world-model-method-and-tools` | done | 100% | PA1～PA5 完成，受限 R2-W 路线与交接包冻结；用户确认 GOAL-003 关门。 |
 | `GOAL-004-pa1-baseline-and-source-plan` | PA1 · 基线与来源方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；J-01/J-02/J-03 已裁决并冻结；A-001 findings 经 A-002 fixed；A-003 independent pass；用户确认关门。 |
 | `GOAL-005-pa2-theory-element-extraction` | PA2 · 理论来源核实与要素抽取 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；37 项来源要素已抽取；A-002 pass；S04-C 为 accepted-residual；用户确认关门。 |
 | `GOAL-006-pa3-requirement-mapping` | PA3 · 需求/旧假设映射与四类处置 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；15 个需求项和 H1/H2/H3 已映射；A-002 pass；用户确认关门。 |
 | `GOAL-007-pa4-gap-and-absorption` | PA4 · 缺口判定与吸收方案 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；A-002 pass；I-010 为 accepted-residual；用户确认关门。 |
-| `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | active | 75% | S1～S4 完成，3/4；受限 R2-W 路线与交接包已冻结；A-003 pass；等待用户确认关门。 |
+| `GOAL-008-pa5-information-closure-and-route-freeze` | PA5 · 未决收敛、路线冻结与交接 | `GOAL-003-prior-art-replanning` | done | 100% | S1～S4 完成，4/4；受限 R2-W 路线与交接包冻结；A-003 pass；用户确认关门。 |

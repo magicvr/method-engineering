@@ -1,12 +1,12 @@
 ---
 id: GOAL-003-prior-art-replanning
 title: 成熟理论调查、吸收与方法路线重规划
-status: active
+status: done
 parent: GOAL-001-world-model-method-and-tools
 created: 2026-10-04
 updated: 2026-10-04
-version: 0.6.1
-progress: 80%
+version: 0.7.0
+progress: 100%
 ---
 
 # GOAL-003 · 成熟理论调查、吸收与方法路线重规划
@@ -25,7 +25,7 @@ progress: 80%
 - [x] 来源核实与要素抽取有原文定位、前提、限制和证据等级。
 - [x] §10/§13 与旧 H 局部主张映射完整，四类处置有可核对依据。
 - [x] 必要需求缺口和替代检查、吸收/有限改造方案可追溯，不混淆未知和已证限制。
-- [ ] 后续路线/门禁/停止条件/责任冻结并交接，开放必改项和信息项不被假放行。
+- [x] 后续路线/门禁/停止条件/责任冻结并交接，开放必改项和信息项不被假放行。
 
 ## 纲领路线图（P-001）
 
@@ -35,13 +35,13 @@ progress: 80%
 | PA2 | 理论要素抽取 | 已完成 | 原始来源、版本与定位可核对，抽取要素/局部主张、前提/边界与限制；Root I-008 满足。 |
 | PA3 | 需求/旧假设映射与四类处置 | 已完成 | 逐项映射 §10/§13 和 H1/H2/H3，明确适用依据、差异与四类处置；Root I-008/I-009 满足。 |
 | PA4 | 缺口判定与吸收方案 | 已完成 | 区分尚未查明/适用限制，记录替代检查、必要需求、继承/有限改造不足及吸收方案，关键 unresolved 不冒充缺口。 |
-| PA5 | 后续路线冻结与交接 | 进行中 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |
+| PA5 | 后续路线冻结与交接 | 已完成 | Root I-010 满足，核对信息/审计/授权门禁，冻结 R2-W 路线、范围/退出/停止/责任，形成可追溯交接。 |
 
 先后 PA1→PA2→PA3→PA4→PA5；同阶段可并行盘点来源，但不得越过前阶段到期 required 门禁。PA1 已由 [GOAL-004](../GOAL-004-pa1-baseline-and-source-plan/00-meta.md) 完成；PA2 已由 [GOAL-005](../GOAL-005-pa2-theory-element-extraction/00-meta.md) 完成；PA3 已由 [GOAL-006-pa3-requirement-mapping](../GOAL-006-pa3-requirement-mapping/00-meta.md) 完成；PA4 已由 [GOAL-007-pa4-gap-and-absorption](../GOAL-007-pa4-gap-and-absorption/00-meta.md) 完成；PA5 由 [GOAL-008-pa5-information-closure-and-route-freeze](../GOAL-008-pa5-information-closure-and-route-freeze/00-meta.md) 承载。
 
 ## 派生进度展示
 
-PA1～PA5 五个等权检查点中 PA1～PA4 已完成，4/5=80%；PA5 S1～S4 已完成：20 个纸面检查（14 pass/0 fail/6 uncertain）；受限 R2-W 路线与交接包已冻结，A-003 independent pass，待用户确认 PA5 关门。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，仅允许 PA4 退出）。
+PA1～PA5 五个等权检查点全部完成，5/5=100%；A-003 independent pass，用户确认 PA5 关门。GOAL-003 置 done；受限 R2-W 路线与交接包已冻结，I-010 保持 accepted-residual。五类未决仍作为 PA5 必带输入；I-008 保持 accepted-residual，I-009 verified（限定），I-010 accepted-residual（非 verified，仅允许 PA4 退出）。
 
 ## 信息门禁引用（非第二台账）
 
